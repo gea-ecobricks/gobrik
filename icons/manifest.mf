@@ -1,0 +1,33 @@
+CACHE MANIFEST
+# 2017-10-29:v1
+
+# Explicitly cached 'master entries'.
+CACHE:
+/icons/favicon.ico
+https://s3.amazonaws.com/assets.knackhq.com/assets/59d1b8b128301525448e7d20/logos/gobriklogov2b.png
+https://www.gobrik.com/backgrounds/640x960iphoneportrait.png
+
+https://www.gobrik.com/icons/apple-icon-57x57.png
+https://www.gobrik.com/icons/apple-icon-60x60.png
+https://www.gobrik.com/icons/apple-icon-72x72.png
+https://www.gobrik.com/icons/apple-icon-76x76.png
+https://www.gobrik.com/icons/apple-icon-114x114.png
+https://www.gobrik.com/icons/apple-icon-120x120.png
+https://www.gobrik.com/icons/apple-icon-144x144.png
+https://www.gobrik.com/icons/apple-icon-152x152.png
+https://www.gobrik.com/icons/apple-icon-180x180.png
+href="https://www.gobrik.com/icons/android-icon-192x192.png
+https://www.gobrik.com/icons/favicon-32x32.png
+
+https://www.gobrik.com/icons/favicon-96x96.png
+https://www.gobrik.com/icons/favicon-16x16.png
+https://fonts.googleapis.com/css?family=Arvo:400,700|Nunito
+
+# Resources that require the user to be online.
+
+
+
+# static.html will be served if main.py is inaccessible
+# offline.jpg will be served in place of all images in images/large/
+# offline.html will be served in place of all other .html files
+
