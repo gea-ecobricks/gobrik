@@ -36,7 +36,7 @@ opacity:0;
 #knack-body {
 z-index: 0;
 position: relative;
-background: url(https://gea-ecobricks.github.io/gobrik/svgs/top-clouds.svg) center top repeat-x;
+background: url(/svgs/top-clouds.svg) center top repeat-x;
     box-sizing: border-box;
 background-size: 730px;
  text-align: center !important;
