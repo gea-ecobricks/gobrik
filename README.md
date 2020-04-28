@@ -1,2 +1,2 @@
-# gobrik
-A Web App Serving Ecobrickers around the world and their plastic packing
+# GoBrik Web App
+An open source application serving ecobrickers around the world and their efforts to keep plastic out of the biosphere.
