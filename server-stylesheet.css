@@ -36,6 +36,7 @@ opacity:0;
 
 #knack-body {
 z-index: 0;
+	text-align: center;
 
 	position: relative;
 	position: bottom;
