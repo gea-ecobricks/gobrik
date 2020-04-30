@@ -57,12 +57,8 @@ padding: 10%;
 
 #loader { 
 z-index: 1;
-width: 100px;
-	align: center;
-	
-	position: relative;
-  	  top: 200px;
-
+position: relative;
+top: 200px;
 }
 
 #background-footer-mobile {
