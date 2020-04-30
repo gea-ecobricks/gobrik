@@ -67,6 +67,7 @@ position: relative;
 position: bottom;
 bottom: 0px;
   margin-bottom: -15px;
+	width: 100%;
 }
 
 #background-footer2 {
