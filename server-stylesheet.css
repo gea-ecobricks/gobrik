@@ -61,6 +61,13 @@ position: relative;
 top: 140px;
 }
 
+#background-footer-mobile {
+	 z-index: -1;
+position: relative;
+position: bottom;
+bottom: 0px;
+  margin-bottom: -15px;
+}
 
 #background-footer2 {
    z-index: -1;
