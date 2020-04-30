@@ -42,7 +42,7 @@ z-index: 0;
 	position: relative;
 	position: bottom;
 margin: 0px;
-	padding-bottom: -250px ;
+	padding-bottom: -300px ;
 }
 
 
@@ -58,7 +58,7 @@ padding: 10%;
 #loader { 
 z-index: 1;
 position: relative;
-top: 140px;
+top: 45%;
 }
 
 #background-footer-mobile {
