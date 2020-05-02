@@ -7,7 +7,7 @@ var orderData = {
 };
 
 // Disable the button until we have Stripe set up on the page
-document.querySelector("button").disabled = true;
+document.querySelector("button").disabled = false;
 
 fetch("/create-payment-intent", {
   method: "POST",
