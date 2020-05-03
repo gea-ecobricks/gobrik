@@ -1,38 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Stripe Card Elements sample</title>
-    <meta name="description" content="A demo of Stripe Payment Intents" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/normalize.css" />
+
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"> 
+
+<link rel="stylesheet" type="text/css" href="/server-stylesheet.css" />
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.8, target-densitydpi=160, maximum-scale=1, user-scalable = no">
+<meta name="apple-mobile-web-app-title" content="GoBrik">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/global.css" />
     <script src="https://js.stripe.com/v3/"></script>
     <script src="/script.js" defer></script>
-  </head>
 
-  <body>
-    <div class="sr-root">
-      <div class="sr-main">
-        <form id="payment-form" class="sr-payment-form">
-          <div class="sr-combo-inputs-row">
-            <div class="sr-input sr-card-element" id="card-element"></div>
-          </div>
-          <div class="sr-field-error" id="card-errors" role="alert"></div>
-          <button id="submit">
-            <div class="spinner hidden" id="spinner"></div>
-            <span id="button-text">Pay</span><span id="order-amount"></span>
-          </button>
-        </form>
-        <div class="sr-result hidden">
-          <p>Payment completed<br /></p>
-          <pre>
-            <code></code>
-          </pre>
-        </div>
-      </div>
-    </div>
-  </body>
+
+
+
+<title>GoBrik</title>
+<meta name="keywords" content="ecobricks, ecobrick, plastic solved, eco-brick, gobrik, bottle brick, plastic solution">
+<meta name="description" content="Secure your plastic during CoVid-19 by ecobricking! Together we can keep plastic from being contagious, from slowing our city's waste systems and from reaching the environment.">
+
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.gobrik.com/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.gobrik.com/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.gobrik.com/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.gobrik.com/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.gobrik.com/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.gobrik.com/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.gobrik.com/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.gobrik.com/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.gobrik.com/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://www.gobrik.com/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.gobrik.com/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.gobrik.com/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.gobrik.com/icons/favicon-16x16.png">
+
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://www.gobrik.com/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+  <meta property="og:url"           content="https://www.gobrik.com">
+  <meta property="og:type"          content="website">
+ <meta property="og:title"         content="GoBrik.com">
+  <meta property="og:description"   content="Secure your plastic during CoVid-19 by ecobricking! Together we can keep plastic from being contagious, from overwhelming our cities' waste systems and from reaching the environment." >
+  <meta property="og:image"         content="https://www.gobrik.com/images/fbbanner.png" >
+  <meta property="fb:app_id"  content="1781710898523821" >
+
+
+
+<script type="text/javascript">
+app_id='5b8c28c2a1152679c209ce0c';
+region='eu-central';
+api_subdomain='eu-api';
+api_domain='knack.com';
+cdn_url='https://cdn1.cloud-database.co';
+assets='eu-secure-assets.cloud-database.co';
+api_subdomain='eu-api';
+s3='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"assets.knack-eu.com"}';
+s3_secure='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"eu-secure-assets.cloud-database.co"}';
+distribution_key="dist_13";
+
+</script>
+<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_13/knack.js"></script>
+<style>
+  @media screen and (min-width: 100px) and (max-width: 979px) {
+    #background-footer2 {display: none;}}
+   @media screen and (min-width: 980px) and (max-width: 3000px) {
+    #background-footer-mobile {display: none;}}
+  
+  #knack-dist_13" {min-height: 800px;}
+  
+  </style>
+</head>
+  
+<body>
+
+<body id="knack-body">
+<div id="header">
+<a href="/#home"><img src="/svgs/gobrik-logo.svg" width="145" alt="GoBrik"></a></div> 
+ 
+<div id="knack-dist_13" ><div id="loader"><img src="/svgs/bottle-loader.svg" width="40px" alt="Page loading..."></div></div>
+
+
+<div id="knack-content""></div>
+
+</div>
+  <!--
+<div id="offline">
+<img src="/svgs/Happy-animals-sequestered.svg" width="300px;" max-width="80%;" alt="GoBrik">
+<h3>GoBrik is almost back up!</h3> <p>We're still working on paying our bill and upgrading.</p>
+</div>
+-->
+
+<div id="background-footer-mobile">
+<img src="/images/vision-landscape-April-900px.png" alt="Our Regenerative Vision" width="100%"></div>
+<div id="background-footer2"><object type="image/svg+xml" data="/svgs/2020-vision-background-desktop.svg" width="100%"></object></div>
+<div id="footer"><div id=<footer-text" style="padding:15px;"><i><font style="font-family:arial;" size="2"><br>
+Secure your plastic during CoVid-19 by ecobricking! Together we can keep plastic from being contagious, from slowing our cities' waste systems and from reaching the environment.</i><br><br><strong><font size="3"><a href='https://www.gobrik.com/#home' style="color: #fff">Home</a>    |    <a href='javascript:Localize.setLanguage("en")' style="color: #fff">English</a>    |    <a href='javascript:Localize.setLanguage("id")' style="color: #fff">Indonesian</a>|    <a href='javascript:Localize.setLanguage("es")' style="color: #fff">Spanish</a></font></strong><br><br>
+<a href="#global/" style="color: #A9CDD8">GoBrik v0.9.0.4</a> is a creation of the<br><a href="/#gea" style="color: #A9CDD8">Global Ecobrick Alliance Earth Enterprise</a></font><br><br><img src="/images/gea-emblem-white.png" alt="Global Ecobrick Alliance Logo"></div></div>
+
+</div>
+</body>
 </html>
+
