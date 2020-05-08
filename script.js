@@ -6,7 +6,7 @@ var createCheckoutSession = function(planId) {
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      planId: planId
+      planId: plan_HEzam8vComDgXS
     })
   }).then(function(result) {
     return result.json();
@@ -27,7 +27,7 @@ fetch("/setup")
     return result.json();
   })
   .then(function(json) {
-    var publicKey = json.publicKey;
+    var publicKey = json.pk_live_66t0xKxonqGfRLPJkPPOGu19;
     var basicPlanId = json.basicPlan;
     var proPlanId = json.proPlan;
 
