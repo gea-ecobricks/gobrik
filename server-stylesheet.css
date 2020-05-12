@@ -19,7 +19,7 @@ background-size: 730px;
 
 #header {  
 margin-top: 10px;
-margin-bottom: -55px;
+margin-bottom: 0px;
 z-index: 3;
 position: relative;
 
