@@ -64,7 +64,7 @@ position: relative;
 top: 200px;
 }
 
-#footer { 	margin-bottom: -300px;}
+#footer { 	padding-top: 300px;}
 
 #background-footer-mobile {
 	 z-index: -1;
