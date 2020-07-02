@@ -64,6 +64,8 @@ position: relative;
 top: 200px;
 }
 
+#footer { 	margin-bottom: -300px;}
+
 #background-footer-mobile {
 	 z-index: -1;
 position: relative;
@@ -84,7 +86,7 @@ bottom: 0px;
   }
 
 
-#footer {
+#footer-text {
     position:bottom;
   bottom: 0;
   width: 100%;
@@ -99,7 +101,6 @@ bottom: 0px;
   background-color: #252b4d;
   margin-top: 0px;
   font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
-	margin-bottom: -300px;
 
 }
 
