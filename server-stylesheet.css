@@ -41,8 +41,11 @@ z-index: 0;
 
 	position: relative;
 	position: bottom;
-margin: 0px;
-	padding-bottom: -300px ;
+	margin-top: -4px;
+	padding-bottom: 0px ;
+	margin-left: 10px;
+	margin-right: 5px;
+	
 }
 
 
