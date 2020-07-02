@@ -42,7 +42,7 @@ z-index: 0;
 	position: relative;
 	position: bottom;
 	margin-top: 0px;
-margin-bottom: -300px ;
+padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;*/
 	
@@ -99,6 +99,7 @@ bottom: 0px;
   background-color: #252b4d;
   margin-top: 0px;
   font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
+	margin-bottom: -300px
 
 }
 
