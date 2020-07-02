@@ -7,6 +7,7 @@
 
 html {
   height: 100%;
+	min-height: 100%;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
 	background: url(/svgs/top-clouds.svg) center top repeat-x;
     box-sizing: border-box;
 background-size: 730px;
+	min-height: 100%;
 }
 
 #header {  
@@ -45,7 +47,7 @@ z-index: 0;
 padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;*/
-	
+	min-height: 100%;
 }
 
 
@@ -64,7 +66,7 @@ position: relative;
 top: 200px;
 }
 
-#footer { 	margin-bottom: -300px;}
+#footer { 	margin-bottom: 0px;}
 
 #background-footer-mobile {
 	 z-index: -1;
