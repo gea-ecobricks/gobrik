@@ -19,6 +19,9 @@ background-size: 730px;
 
 }
 
+.box {background:red;
+	height:100%;}
+
 #header {  
 margin-top: 10px;
 margin-bottom: 0px;
