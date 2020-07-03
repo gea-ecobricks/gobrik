@@ -64,10 +64,10 @@ position: relative;
 top: 200px;
 }
 
-#footer { margin-bottom: 0px;
+/*#footer { margin-bottom: 0px;
 position: bottom;
 	height:100vh;
-}
+}*/
 
 #background-footer-mobile {
 	 z-index: -1;
