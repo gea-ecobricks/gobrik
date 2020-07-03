@@ -67,7 +67,9 @@ top: 200px;
 }
 
 .footer { 	margin-bottom: 0px;
-position: bottom;}
+position: bottom;
+background: red;
+margin: -300px;}
 
 #background-footer-mobile {
 	 z-index: -1;
