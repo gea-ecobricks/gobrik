@@ -64,17 +64,17 @@ position: relative;
 top: 200px;
 }
 
-.footer { 	margin-bottom: 0px;
+#footer { 	margin-bottom: 0px;
 position: bottom;
 background: red;
-margin: -300px;}
+}
 
 #background-footer-mobile {
 	 z-index: -1;
 position: relative;
 position: bottom;
 bottom: 0px;
-  margin-bottom: -15px;
+  margin-bottom: 0px;
 	width: 100%;
 }
 
@@ -90,7 +90,7 @@ bottom: 0px;
 
 
 #footer-text {
-    position:bottom;
+    position:bottom !important;
   bottom: 0;
   width: 100%;
   /*height: 225px; */          
