@@ -64,9 +64,9 @@ position: relative;
 top: 200px;
 }
 
-#footer { 	margin-bottom: 0px;
+#footer { margin-bottom: 0px;
 position: bottom;
-background: red;
+	height:100vh;
 }
 
 #background-footer-mobile {
