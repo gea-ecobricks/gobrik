@@ -184,7 +184,7 @@ z-index: 0;
 	bottom: 0px;
  	margin-bottom: 0px;
 	width: 100%;
-	margin-top: 100%;
+/*	margin-top: 100px;*/
 
 }
 
@@ -234,7 +234,7 @@ z-index: 0;
 .footer-foot {
 	font-size: 13px;
 	line-height: 1.6em;
-	padding-bottom: 16px;
+	/*padding-bottom: 16px;*/
 }
 
 #footer a:link {
