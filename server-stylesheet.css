@@ -1,3 +1,41 @@
+/*
+GoBrik.com Server Side CSS File
+Version: 1.0
+Description: This CSS file is called by the knack script and accompanies our custom knack CSS file and default knack css file.  We have access to the knack custom css file on the knack builder and we are in the process of migrating all the established css from this file to here.  The Default knack css file we do not have access to, and we must overide its css here in order to customize the GoBrik.com appearance.
+Orginal Author:  Russell Maier
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+	0. 	CSS Reset
+	1. 	Document Setup
+	2. 	Element Base
+	
+
+----------------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	0. CSS Reset
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. Document Setup
+/* -------------------------------------------------------------------------- */
 
 
 
@@ -109,6 +147,13 @@ bottom: 0px;
 
 #footer a:link {color:#C3E0EC;}
 
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	2. Element Base
+/* ---------------------------------------------*---------------------------- */
 p {
 	font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-size: 14px;
@@ -185,4 +230,11 @@ h6 {
 	line-height: 1.5em;
 
 }
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	3. Helper Classes
+/* -------------------------------------------------------------------------- */
+
 
