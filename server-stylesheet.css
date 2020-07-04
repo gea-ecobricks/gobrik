@@ -184,8 +184,6 @@ z-index: 0;
   	/*height: 225px; */          
   	display: block !important;
   	color:#A9CDD8;
-  	font-size: 13px;
-  	line-height: 1.6em;
   	margin:0px;
   	background-color: #252b4d;
   	margin-top: -10px;
@@ -196,6 +194,19 @@ z-index: 0;
 
 .footer-quote-padding {
 	padding: 16px;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+.footer-lang-links {
+	padding-bottom: 16px;
+	font-size: 16px;
+}
+
+.footer-foot {
+	font-size: 13px;
+	line-height: 1.6em;
+	padding-bottom: 16px;
 }
 
 #footer a:link {
