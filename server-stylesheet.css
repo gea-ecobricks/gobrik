@@ -100,28 +100,24 @@ height: 100%;
 }
 
 body {
-  /*position: absolute; top: 0; left: 0; height: 100%; width: 100%;*/
 	background: url(/svgs/top-clouds.svg) center top repeat-x;
-    box-sizing: border-box;
-background-size: 730px;
-
+    	box-sizing: border-box;
+	background-size: 730px;
 }
 
 
 #header {  
-margin-top: 10px;
-margin-bottom: 0px;
-z-index: 3;
-position: relative;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	z-index: 3;
+	position: relative;
 
--webkit-animation-delay: 3s !important;
+	-webkit-animation-delay: 3s !important;
 
-opacity:0;
--webkit-animation:fadeIn ease-in 1s;
--webkit-animation-duration:1s;
--webkit-animation-fill-mode:forwards;
-
-
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 
@@ -129,75 +125,76 @@ opacity:0;
 #knack-body {
 z-index: 0;
 	text-align: center;
-
 	position: relative;
 	position: bottom;
 	margin-top: 0px;
-padding-bottom: 0px;
+	padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;*/
 }
 
 
 #offline { z-index: 1;
-position: relative;
-margin-top: 0px;
-margin-bottom: 0px;
-top: 75px;
-padding: 10%;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	top: 75px;
+	padding: 10%;
 }
 
 
 #loader { 
-z-index: 1;
-position: relative;
-top: 200px;
+	z-index: 1;
+	position: relative;
+	top: 200px;
 }
 
-#footer { margin-bottom: 0px;
-position: bottom;
-	height:100vh;
+#footer { 
+	margin-bottom: 0px;
+	position: bottom;
+	/*height:100vh;*/
+	background: red;
 }
 
 #background-footer-mobile {
 	 z-index: -1;
-position: relative;
-position: bottom;
-bottom: 0px;
-  margin-bottom: 0px;
+	position: relative;
+	position: bottom;
+	bottom: 0px;
+ 	margin-bottom: 0px;
 	width: 100%;
 }
 
-#background-footer2 {
-   z-index: -1;
-position: relative;
-position: bottom;
-bottom: 0px;
 
-  margin-bottom: -15px;
-
+#background-footer-desktop {
+   	z-index: -1;
+	position: relative;
+	position: bottom;
+	bottom: 0px;
+	margin-bottom: -15px;
   }
 
 
 #footer-text {
-    position:bottom !important;
-  bottom: 0;
-  width: 100%;
-  /*height: 225px; */          
-  display: block !important;
-  color:#A9CDD8;
-  font-size: 11px;
-  padding-right: 0px;
-  padding-left: 0px;
-  line-height: 1.5em;
-  margin:0px;
-  background-color: #252b4d;
-  margin-top: -10px;
-  font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
-
+	    position:bottom !important;
+  	bottom: 0;
+  	width: 100%;
+  	/*height: 225px; */          
+  	display: block !important;
+  	color:#A9CDD8;
+  	font-size: 11px;
+  	padding-right: 0px;
+  	padding-left: 0px;
+  	line-height: 1.5em;
+  	margin:0px;
+  	background-color: #252b4d;
+  	margin-top: -10px;
+  	font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
-#footer a:link {color:#C3E0EC;}
+#footer a:link {
+	color:#C3E0EC;
+}
 
 
 
