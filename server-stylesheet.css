@@ -153,6 +153,13 @@ z-index: 0;
 	margin-bottom: 0px;
 	position: bottom;
 	/*height:100vh;*/
+	
+	-webkit-animation-delay: 3s !important;
+
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 #background-footer-mobile {
