@@ -194,6 +194,11 @@ z-index: 0;
   	font-family: 'ubuntu', sans-serif;
 }
 
+.footer-quote-padding {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
 #footer a:link {
 	color:#C3E0EC;
 }
