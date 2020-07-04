@@ -103,6 +103,14 @@ body {
 	background: url(/svgs/top-clouds.svg) center top repeat-x;
     	box-sizing: border-box;
 	background-size: 730px;
+	
+	
+	-webkit-animation-delay: 2s !important;
+
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 
@@ -112,7 +120,7 @@ body {
 	z-index: 3;
 	position: relative;
 
-	-webkit-animation-delay: 3s !important;
+	-webkit-animation-delay: 4s !important;
 
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
@@ -147,6 +155,13 @@ z-index: 0;
 	z-index: 1;
 	position: relative;
 	top: 200px;
+	
+	-webkit-animation-delay: 0s !important;
+
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 #footer { 
@@ -197,6 +212,12 @@ z-index: 0;
 	padding-bottom: 15px;
 	padding-top: 15px;
   	font-family: 'ubuntu', sans-serif;
+	
+	-webkit-animation-delay: 5s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 .footer-quote-padding {
