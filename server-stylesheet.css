@@ -64,10 +64,10 @@ position: relative;
 top: 200px;
 }
 
-/*#footer { margin-bottom: 0px;
+#footer { margin-bottom: 0px;
 position: bottom;
 	height:100vh;
-}*/
+}
 
 #background-footer-mobile {
 	 z-index: -1;
@@ -102,7 +102,7 @@ bottom: 0px;
   line-height: 1.5em;
   margin:0px;
   background-color: #252b4d;
-  margin-top: 0px;
+  margin-top: -10px;
   font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
 
 }
