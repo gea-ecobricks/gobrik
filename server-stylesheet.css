@@ -105,7 +105,7 @@ body {
 	background-size: 730px;
 	
 	
-	-webkit-animation-delay: 2s !important;
+	-webkit-animation-delay: 0s !important;
 
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
@@ -120,7 +120,7 @@ body {
 	z-index: 3;
 	position: relative;
 
-	-webkit-animation-delay: 4s !important;
+	-webkit-animation-delay: 3s !important;
 
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
@@ -213,17 +213,18 @@ z-index: 0;
 	padding-top: 15px;
   	font-family: 'ubuntu', sans-serif;
 	
-	-webkit-animation-delay: 5s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;
+	
 }
 
 .footer-quote-padding {
 	padding: 16px;
 	font-size: 14px;
 	line-height: 1.6em;
+	-webkit-animation-delay: 5s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 .footer-lang-links {
