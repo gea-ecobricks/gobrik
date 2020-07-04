@@ -162,6 +162,7 @@ z-index: 0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
+	margin-bottom: 100px;
 }
 
 #footer { 
@@ -184,7 +185,7 @@ z-index: 0;
 	bottom: 0px;
  	margin-bottom: 0px;
 	width: 100%;
-/*	margin-top: 100px;*/
+	margin-top: 100px;
 
 }
 
@@ -234,7 +235,7 @@ z-index: 0;
 .footer-foot {
 	font-size: 13px;
 	line-height: 1.6em;
-	/*padding-bottom: 16px;*/
+	padding-bottom: 16px;
 }
 
 #footer a:link {
