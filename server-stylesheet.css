@@ -181,13 +181,15 @@ z-index: 0;
   	/*height: 225px; */          
   	display: block !important;
   	color:#A9CDD8;
-  	font-size: 11px;
-  	padding-right: 0px;
-  	padding-left: 0px;
+  	font-size: 12px;
   	line-height: 1.5em;
   	margin:0px;
   	background-color: #252b4d;
   	margin-top: -10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
   	font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
