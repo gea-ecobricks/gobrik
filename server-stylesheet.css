@@ -171,6 +171,8 @@ z-index: 0;
 	position: bottom;
 	bottom: 0px;
 	margin-bottom: -15px;
+	margin-left: -3px;
+	margin-right: -2px;
   }
 
 
@@ -178,10 +180,11 @@ z-index: 0;
 	    position:bottom !important;
   	bottom: 0;
   	width: 100%;
+	max-width: 100%;
   	/*height: 225px; */          
   	display: block !important;
   	color:#A9CDD8;
-  	font-size: 12px;
+  	font-size: 13px;
   	line-height: 1.5em;
   	margin:0px;
   	background-color: #252b4d;
