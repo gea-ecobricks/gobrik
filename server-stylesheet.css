@@ -162,7 +162,6 @@ z-index: 0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
-	margin-bottom: 100px;
 }
 
 #footer { 
@@ -185,10 +184,11 @@ z-index: 0;
 	bottom: 0px;
  	margin-bottom: 0px;
 	width: 100%;
-	margin-top: 100px;
+
 
 }
 
+#load-spacer {margin-top: 150px;}
 
 #background-footer-desktop {
    	z-index: -1;
