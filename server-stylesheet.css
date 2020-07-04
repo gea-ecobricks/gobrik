@@ -177,7 +177,7 @@ z-index: 0;
 
 
 #footer-text {
-	    position:bottom !important;
+	position:bottom !important;
   	bottom: 0;
   	width: 100%;
 	max-width: 100%;
@@ -185,15 +185,13 @@ z-index: 0;
   	display: block !important;
   	color:#A9CDD8;
   	font-size: 13px;
-  	line-height: 1.5em;
+  	line-height: 1.6em;
   	margin:0px;
   	background-color: #252b4d;
   	margin-top: -10px;
-	margin-right: 15px;
-	margin-left: 15px;
 	padding-bottom: 15px;
 	padding-top: 15px;
-  	font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
+  	font-family: 'ubuntu', sans-serif;
 }
 
 #footer a:link {
