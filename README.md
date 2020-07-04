@@ -7,3 +7,10 @@ GoBrik is currently in beta-- as we prepare all of our core assets for open sour
 We're just launching the development of GoBrik on Github.  We're starting with the CSS and main HTML page for the app.  The CSS needs lots of work cleaning up and refining.  Currently our core CSS is here, while the rest is on Knack.  We're slowly moving all our CSS here.
 
 Our development team uses a mattermost server to work. Join here:  https://gea.mandala.team/signup_user_complete/?id=q6tiqrm1wbrtbccochsiayf64y
+
+Learn more about the Global Ecobrick Alliance (:what is an Earth Enterprise anyway?":  www.ecobricks.org/about
+
+Learn more about the GoBrik project here:  www.ecobricks.org/gobrik
+
+Learn more about the Brikcoin manual block-chain here:  www.ecobricks.org/brikcoin
+
