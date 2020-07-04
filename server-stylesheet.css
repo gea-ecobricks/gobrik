@@ -167,7 +167,7 @@ z-index: 0;
 #footer { 
 	margin-bottom: 0px;
 	position: bottom;
-	/*height:100vh;*/
+	
 	
 	-webkit-animation-delay: 3s !important;
 
@@ -184,6 +184,7 @@ z-index: 0;
 	bottom: 0px;
  	margin-bottom: 0px;
 	width: 100%;
+	min-height: 100vh;
 
 }
 
