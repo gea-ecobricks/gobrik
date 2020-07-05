@@ -171,6 +171,8 @@ z-index: 0;
 	-webkit-animation-fill-mode:forwards;
 }
 
+#load-space {margin-top:200px;}
+
 #footer { 
 	margin-bottom: 0px;
 	position: bottom;
@@ -185,14 +187,14 @@ z-index: 0;
 }
 
 #background-footer-mobile {
-	 z-index: -1;
+	 z-index: -5;
 	position: relative;
 	position: bottom;
 	bottom: 0px;
  	margin-bottom: 0px;
 	width: 100%;
 	margin-top: -100px;
-	margin-right: -5px;
+	margin-right: -1px;
 	margin-left: -1px;
 }
 
