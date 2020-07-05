@@ -333,7 +333,7 @@ h6 {
 /* -------------------------------------------------------------------------- */
 
 
-.register .kn-button{
+.register .kn-button  {
   
   box-sizing: border-box;
   position: relative;
@@ -368,13 +368,15 @@ h6 {
   width: 34px;
   height: 100%;
 }
+
 .register .kn-button:focus {
   outline: none;
 }
+
+
 .register .kn-button:active {
   box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
-  
-color: #fff;
+  color: #fff;
   background-color: #00CCFF;
   background-image: linear-gradient(#19d1ff, #00b8e6);
   font-family: 'Arvo', Arial Black, Arial Bold, Gadget, sans-serif;
@@ -382,19 +384,17 @@ color: #fff;
   border: #00add4 1px solid;
 }
 
+
 .register .kn-button:before {
   border-right: #00add4 1px solid;
   background: url('images/emailicon.png') 6px 6px no-repeat;
 }
 
+
 .register2 .kn-button:before {
   border-right: #00add4 1px solid;
   background: url('images/mailicon.png') 6px 6px no-repeat;
 }
-
-
-
-
 
 .register .kn-button:hover,
 .register .kn-button:focus {
@@ -403,10 +403,8 @@ color: #fff;
 }
 
 
-
 #view_57 .kn-login-form {
   display: none !important;}
-
 
 .fb-share {
   vertical-align: top;
@@ -426,9 +424,11 @@ color: #fff;
   *display: inline;
   *zoom: 1;
 }
+
 .fb-share:hover {
   border-color: #9dacce;
 }
+
 .fb-share-icon {
   position: relative;
   top: 2px;
@@ -441,6 +441,7 @@ color: #fff;
   *display: inline;
   *zoom: 1;
 }
+
 .fb-share-text {
   position: relative;
   top: -1px;
@@ -521,7 +522,6 @@ input.kn-button:hover {
 
 .kn-button.is-primary {
   font-family: 'ubuntu', sans-serif !important;
-  
   display: block;
   margin: auto;
   background: #00a1f2;
@@ -536,15 +536,14 @@ input.kn-button:hover {
   color: #ffffff;
   font-size: 19px !important;
   padding: 8px 18px 34px 18px !important;
-
   text-decoration: none !important;
-      margin-top: 0px;
+  margin-top: 0px;
   margin-bottom: 0px;
-
 }
 
+
 .kn-button.is-primary:hover {
-background: #3cb0fd;
+  background: #3cb0fd;
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
@@ -582,6 +581,7 @@ background: #3cb0fd;
   margin-top: 25px;
     font-family: 'Arvo', Arial Black, Arial Bold, Gadget, sans-serif;
 }
+
 .loginBtn:before {
   content: "";
   box-sizing: border-box;
@@ -591,9 +591,11 @@ background: #3cb0fd;
   width: 34px;
   height: 100%;
 }
+
 .loginBtn:focus {
   outline: none;
 }
+
 .loginBtn:active {
   box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
 }
@@ -612,7 +614,6 @@ background: #3cb0fd;
   border-right: #00add4 1px solid;
   background: url('https://gobrik.com/images/emailicon.png') 6px 6px no-repeat;
 }
-
 
 
 .email:hover,
@@ -652,10 +653,12 @@ background: #3cb0fd;
   /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
   text-shadow: 0 -1px 0 #354C8C;
 }
+
 .loginBtn--facebook:before {
   border-right: #364e92 1px solid;
   background: url('https://gobrik.com/images/icon_facebook.png') 6px 6px no-repeat;
 }
+
 .loginBtn--facebook:hover,
 .loginBtn--facebook:focus {
   background-color: #5B7BD5;
@@ -668,22 +671,25 @@ background: #3cb0fd;
   /*font-family: "Roboto", Roboto, arial, sans-serif;*/
   background: #DD4B39;
 }
+
 .loginBtn--google:before {
   border-right: #BB3F30 1px solid;
   background: url('https://gobrik.com/images/icon_google.png') 6px 6px no-repeat;
 }
+
 .loginBtn--google:hover,
 .loginBtn--google:focus {
   background: #E74B37;
 }
 
-#buy-button {background:    #ffa500;
-border-radius: 11px;
-padding:       12px 24px;
-color:         #ffffff;
-display:       inline-block;
-font:          normal bold 20px/1 "Open Sans", sans-serif;
-  text-align:    center;}
+#buy-button {
+	background:    #ffa500;
+	border-radius: 11px;
+	padding:       12px 24px;
+	color:         #ffffff;
+	display:       inline-block;
+	font:          normal bold 20px/1 "Open Sans", sans-serif;
+  	text-align:    center;}
 
 
 /* -------------------------------------------------------------------------- */
