@@ -99,8 +99,8 @@ blockquote::after {
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 html {
-height: 100 vh;
-	min-height: 100 vh;
+height: 100%;
+
 }
 
 body {
@@ -115,6 +115,7 @@ body {
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
+	min-height: 100 vh;
 }
 
 
