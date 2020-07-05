@@ -171,7 +171,7 @@ z-index: 0;
 	-webkit-animation-fill-mode:forwards;
 }
 
-#load-space {margin-top:200px;}
+#load-spacer {margin-top:200px;}
 
 #footer { 
 	margin-bottom: 0px;
@@ -226,7 +226,7 @@ z-index: 0;
 }
 
 .footer-quote-padding {
-	padding: 50px 16px 25px 16px;
+	padding: 10px 16px 25px 16px;
 	font-size: 14px;
 	line-height: 1.6em;
 	-webkit-animation-delay: 5s !important;
