@@ -171,7 +171,7 @@ z-index: 0;
 	-webkit-animation-fill-mode:forwards;
 }
 
-#load-spacer {margin-top:200px;}
+#load-spacer {margin-top:130px;}
 
 #footer { 
 	margin-bottom: 0px;
@@ -193,7 +193,7 @@ z-index: 0;
 	bottom: 0px;
  	margin-bottom: 0px;
 	width: 100%;
-	margin-top: -100px;
+	margin-top: -70px;
 	margin-right: -1px;
 	margin-left: -1px;
 }
