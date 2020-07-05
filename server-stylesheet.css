@@ -140,9 +140,11 @@ z-index: 0;
 	position: relative;
 	position: bottom;
 	margin-top: 0px;
-	padding-bottom: 0px;
+	padding-bottom: 1000px;
 	margin-left: 0px;
 	margin-right: 0px;
+	background: url(/images/mobile-footer-vision-900px.png) center bottom no-repeat;
+	min-height: 1156px;
 	
 /*margin: 0px;
 	margin-bottom: -800px ;*/
@@ -196,7 +198,7 @@ z-index: 0;
 	margin-top: -70px;
 	margin-right: -2px !important;
 	margin-left: -1px;
-	background: url(//images/mobile-footer-vision-900px.png) center bottom no-repeat;
+	
     	box-sizing: border-box;
 	background-size: 842px;
 	height: 1156px;
