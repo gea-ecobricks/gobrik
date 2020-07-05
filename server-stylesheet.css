@@ -135,14 +135,21 @@ body {
 
 
 #knack-body {
-z-index: 0;
+	z-index: 0;
 	text-align: center;
 	position: relative;
 	position: bottom;
 	margin-top: 0px;
-	padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
+	background: url(/images/mobile-footer-vision-900px.png) center bottom no-repeat;
+    	box-sizing: border-box;
+	 background-size: 100%;
+	width: 105%;
+	padding-bottom: 600px;
+	backgound-position: -600px;
+	
+	
 	
 	
 /*margin: 0px;
@@ -197,11 +204,7 @@ z-index: 0;
 	margin-top: 0px;
 	margin-right: -1px;
 	margin-left: -1px;
-	background: url(/images/mobile-footer-vision-900px.png) center bottom no-repeat;
-    	box-sizing: border-box;
-	 background-size: 100%;
-	width: 105%;
-	height: 600px;
+	
 }
 
 
