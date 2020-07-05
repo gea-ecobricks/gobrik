@@ -199,6 +199,7 @@ z-index: 0;
 	margin-left: -1px;
 	background: url(/images/mobile-footer-vision-900px.png) center bottom no-repeat;
     	box-sizing: border-box;
+	 background-size: 100%;
 	width: 105%;
 	height: 600px;
 }
