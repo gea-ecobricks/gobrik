@@ -18,6 +18,9 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 	0. 	CSS Reset
 	1. 	Document Setup
 	2. 	Element Base
+	3.	Buttons
+	4.      Forms
+
 	
 
 ----------------------------------------------------------------------------- */
@@ -326,7 +329,7 @@ h6 {
 
 /* -------------------------------------------------------------------------- */
 
-/*	3. Helper Classes
+/*	3. BUTTONS
 /* -------------------------------------------------------------------------- */
 
 
@@ -444,7 +447,7 @@ color: #fff;
 }
 
   
-  /*mY bLUE bUTTON*/
+  /*MAIN BLUE bUTTON*/
 
 .btn {
   background: #00a1f2;
@@ -502,9 +505,6 @@ input.kn-button {
   margin-top: 5px;
 }
 
-
-    
-
 input.kn-button:hover {
   background: #f07203;
   background-image: -webkit-linear-gradient(top, #f07203, #eb8832);
@@ -514,6 +514,8 @@ input.kn-button:hover {
   background-image: linear-gradient(to bottom, #f07203, #eb8832);
   text-decoration: none;
 }
+
+
 
 /* Main Knack button - now blue */
 
@@ -635,8 +637,6 @@ background: #3cb0fd;
   background: url('https://gobrik.com/images/emailicon.png') 6px 6px no-repeat;
 }
 
-
-
 .email2:hover,
 .email2:focus {
   background-color: #5B7BD5;
@@ -684,3 +684,224 @@ color:         #ffffff;
 display:       inline-block;
 font:          normal bold 20px/1 "Open Sans", sans-serif;
   text-align:    center;}
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	3. FORMS
+/* -------------------------------------------------------------------------- */
+
+
+
+.search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {
+   border: 3px solid #00D6FF !important;}
+
+
+
+ input[type=text], input[type=email], input[type=password]{
+   border: 3px solid #00D6FF!important;}
+
+
+
+select {
+  
+-webkit-appearance: none; 
+-moz-appearance: none;
+appearance: none;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background: url(https://gobrik.com/images/downarrow.png) no-repeat;
+background-position: right center;
+
+      border: 3px solid #00D6FF !important;
+    border-radius: 5px;
+      background-color: #ebf0fa;
+    color: #373A43;
+
+}
+
+ 
+
+#view_612 select{       
+  width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px;}
+
+#view_499 select{       
+  width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px;}
+
+ #view_762  select{       
+  width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px;}
+
+#view_837 select{       
+  width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px;}
+
+#view_741 select{       
+  width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px;}
+
+
+#view_1012 select{       
+  width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px;}
+
+#view_1019 select{       
+  width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px;}
+
+#view_1011 select{       
+  width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px;}
+
+
+  input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    border: 4px solid #FF00FF !important;
+}
+
+ 
+
+.search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {
+  
+      width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px;
+    box-sizing: border-box;
+      border: 3px solid #00D6FF;
+    border-radius: 5px;
+      background-color: #ebf0fa;
+    color: #373A43;
+}
+
+
+input[type=text], input[type=email], input[type=password]{
+  
+      width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px !important;
+    box-sizing: border-box;
+      border: 3px solid #00D6FF;
+    border-radius: 5px;
+      background-color: #ebf0fa;
+    color: #373A43;
+}
+ 
+
+input[type=text] .kn-equation  {
+  
+border: hidden !important;
+}
+
+ 
+  input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    border: 4px solid #FF00FF;
+}
+
+.chzn-drop { font-size: 16px;}
+
+#view_1163 .kn-records-nav{
+    display: block !important;
+  margin: auto !important;
+      text-align: center !important;
+}
+
+.table-keyword-search .input{
+          width: 100%;
+  height: 100%;
+    padding: 2px 16px;
+    margin: 2px 0;
+  font-size:13px !important;
+    box-sizing: border-box;
+      border: 1px solid #DBDBDB !important;
+    border-radius: 3px;
+      background-color: #ebf0fa;
+    color: grey;
+}
+
+.kn-page-select {
+  border: 1px solid #DBDBDB !important;}
+
+.kn-input-image input.is-file {
+
+    width: 250px;
+}
+  
+  .kn-asset-current .level {color: green;
+    font-size: 18px;}
+
+
+}
+.field input[type=file] {
+  display: none;
+}
+.field input[type=file] + label[for] {
+  font-size: 12px;
+}
+.field input[type=file] + label[for]:before {
+  content: attr(label);
+  border: solid 1px #0af;
+  padding: 3px 10px;
+  border-radius: 3px;
+  background-color: #def;
+  color: #555;
+  cursor: pointer;
+  box-shadow: none;
+  margin-right: 2px;
+}
+.field input[type=file] + label[for]:hover:before {
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+  color: #dfdfdf;
+  background-color: #0af;
+}
+.field input[type=file] + label[for]:active:before {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.field input[type=file] + label[for]:after {
+  padding: 3px 10px;
+  content: attr(title);
+  
+  
+}
+
+#field_536 {padding: 5px 25px 5px 5px;}
+
+#field_565 {padding: 5px 25px 5px 5px;}
+
+#field_610 {padding: 5px 25px 5px 5px;}
+
+#field_999 {padding: 5px 25px 5px 5px;}
+
+#field_1238 {padding: 5px 25px 5px 5px;}
+
+#field_1286 {padding: 5px 25px 5px 5px;}
