@@ -190,6 +190,9 @@ z-index: 0;
 	bottom: 0px;
  	margin-bottom: 0px;
 	width: 100%;
+	margin-top: -100px;
+	margin-right: -1px;
+	margin-left: -1px;
 }
 
 
