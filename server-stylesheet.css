@@ -192,6 +192,8 @@ z-index: 0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
+	position: relative;
+	z-index: -5;
 }
 
 #background-footer-mobile {
