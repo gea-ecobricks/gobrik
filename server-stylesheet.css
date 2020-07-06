@@ -218,14 +218,14 @@ z-index: 0;
 	position: bottom;
 	bottom: 0px;
 	margin-bottom: -15px;
-	margin-left: -3px;
-	margin-right: -2px;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top: 0px;
 	background: url(/svgs/2020-vision-background-desktop.svg) center bottom no-repeat;
     	box-sizing: border-box;
 	 background-size: 100%;
 	width: 100%;
-	height: 1000px;
+	height: 80%;
 
   }
 
