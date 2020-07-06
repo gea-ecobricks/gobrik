@@ -164,8 +164,8 @@ position: fixed;
         top: 50%;
         left: 50%;
         
-	/*margin-right: -50%;
-        transform: translate(-50%, -50%)/*
+	margin-right: -50%;
+        transform: translate(-50%, -50%)
 	
 	-webkit-animation-delay: 0s !important;
 	opacity:0;
