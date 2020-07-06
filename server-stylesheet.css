@@ -162,14 +162,11 @@ z-index: 0;
 	top: 300px;*/
 	
 	
-	  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
 	
-  display: flex; // make us of Flexbox
-  align-items: center; // does vertically center the desired content
-  justify-content: center; // horizontally centers single line items
-  text-align: center; // optional, but helps horizontally center text that breaks into multiple lines 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  text-align: center; 
 	
 	-webkit-animation-delay: 0s !important;
 	opacity:0;
