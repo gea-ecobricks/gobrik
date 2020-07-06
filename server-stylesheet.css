@@ -160,15 +160,11 @@ z-index: 0;
 	z-index: 1;
 	/*position: relative;
 	top: 300px;*/
-	
-  display: flex; 
-  align-items: center; 
-  justify-content: center;
-  text-align: center; 
-	
-	  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
 	
 	-webkit-animation-delay: 0s !important;
 	opacity:0;
