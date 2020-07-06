@@ -157,11 +157,9 @@ z-index: 0;
 
 
 #loader { 
-	*z-index: 1;
+	z-index: 1;
 	/*position: relative;
 	top: 300px;*/
-	
-	
 	
   display: flex; 
   align-items: center; 
