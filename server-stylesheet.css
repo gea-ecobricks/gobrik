@@ -158,7 +158,7 @@ z-index: 0;
 
 #loader { 
 	*z-index: 1;
-	position: relative;
+	position: absolute;
 	/*top: 300px;*/
 	
 	
