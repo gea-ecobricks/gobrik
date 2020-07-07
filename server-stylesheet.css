@@ -362,12 +362,92 @@ h6 {
 /*	3. BUTTONS
 /* -------------------------------------------------------------------------- */
 
+/*Main Knack Button
+ font-family: 'Arvo', serif !important;*/
+
+input.kn-button {
+ 
+  font-family: 'ubuntu', sans-serif !important;
+  background: #fa8b2a;
+  background-image: -webkit-linear-gradient(top, #fa8b2a, #e36b03);
+  background-image: -moz-linear-gradient(top, #fa8b2a, #e36b03);
+  background-image: -ms-linear-gradient(top, #fa8b2a, #e36b03);
+  background-image: -o-linear-gradient(top, #fa8b2a, #e36b03);
+  background-image: linear-gradient(to bottom, #fa8b2a, #e36b03);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px !important;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 17px 17px 32px 17px !important;
+  border: solid #c2610b 2px;
+  text-decoration: none !important;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+input.kn-button:hover {
+  background: #f07203;
+  background-image: -webkit-linear-gradient(top, #f07203, #eb8832);
+  background-image: -moz-linear-gradient(top, #f07203, #eb8832);
+  background-image: -ms-linear-gradient(top, #f07203, #eb8832);
+  background-image: -o-linear-gradient(top, #f07203, #eb8832);
+  background-image: linear-gradient(to bottom, #f07203, #eb8832);
+  text-decoration: none;
+}
+
+
+
+/* Main Knack button - now blue */
+
+.kn-button.is-primary {
+  font-family: 'ubuntu', sans-serif !important;
+  display: block;
+  margin: auto;
+  background: #00a1f2;
+  background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px !important;
+  color: #ffffff;
+  font-size: 19px !important;
+  padding: 8px 18px 34px 18px !important;
+  text-decoration: none !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.kn-button.is-primary:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/* Secondary Knack Button 15px 0px 30px 0px; */
+
+.kn-button.kn-link {
+  
+  font-size: 19px;
+  margin-bottom:30px;
+  
+}
+
+
+/*
 
 .register .kn-button  {
   
   box-sizing: border-box;
   position: relative;
-  /* width: 13em;  - apply for fixed size */
   margin: 0.2em;
   padding: 0 15px 0 46px;
   border: none;
@@ -450,7 +530,6 @@ h6 {
   line-height: 1;
   text-decoration: none;
   white-space: nowrap;
-  /* IE7 */
   *display: inline;
   *zoom: 1;
 }
@@ -467,7 +546,6 @@ h6 {
   height: 14px;
   margin-right: 1px;
   background-image: url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y-/r/tbhIfdAHjXE.png);
-  /* IE7 */
   *display: inline;
   *zoom: 1;
 }
@@ -478,7 +556,7 @@ h6 {
 }
 
   
-  /*MAIN BLUE bUTTON*/
+  MAIN BLUE bUTTON
 
 .btn {
   background: #00a1f2;
@@ -510,87 +588,6 @@ h6 {
   text-decoration: none;
   box-shadow: 0px 1px 5px #373738;
 }
-
-
-/*Main Knack Button
- font-family: 'Arvo', serif !important;*/
-
-input.kn-button {
- 
-  font-family: 'ubuntu', sans-serif !important;
-  background: #fa8b2a;
-  background-image: -webkit-linear-gradient(top, #fa8b2a, #e36b03);
-  background-image: -moz-linear-gradient(top, #fa8b2a, #e36b03);
-  background-image: -ms-linear-gradient(top, #fa8b2a, #e36b03);
-  background-image: -o-linear-gradient(top, #fa8b2a, #e36b03);
-  background-image: linear-gradient(to bottom, #fa8b2a, #e36b03);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px !important;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 17px 17px 32px 17px !important;
-  border: solid #c2610b 2px;
-  text-decoration: none !important;
-  margin-bottom: 0px;
-  margin-top: 5px;
-}
-
-input.kn-button:hover {
-  background: #f07203;
-  background-image: -webkit-linear-gradient(top, #f07203, #eb8832);
-  background-image: -moz-linear-gradient(top, #f07203, #eb8832);
-  background-image: -ms-linear-gradient(top, #f07203, #eb8832);
-  background-image: -o-linear-gradient(top, #f07203, #eb8832);
-  background-image: linear-gradient(to bottom, #f07203, #eb8832);
-  text-decoration: none;
-}
-
-
-
-/* Main Knack button - now blue */
-
-.kn-button.is-primary {
-  font-family: 'ubuntu', sans-serif !important;
-  display: block;
-  margin: auto;
-  background: #00a1f2;
-  background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px !important;
-  color: #ffffff;
-  font-size: 19px !important;
-  padding: 8px 18px 34px 18px !important;
-  text-decoration: none !important;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-
-.kn-button.is-primary:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-}
-
-/* Secondary Knack Button 15px 0px 30px 0px; */
-
-.kn-button.kn-link {
-  
-  font-size: 19px;
-  margin-bottom:30px;
-  
-}
-
 
 
 
