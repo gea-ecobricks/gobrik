@@ -132,7 +132,7 @@ body {
 
 
 #knack-body {
-z-index: 0;
+	z-index: 0;
 	text-align: center;
 	position: relative;
 	position: bottom;
@@ -140,8 +140,6 @@ z-index: 0;
 	padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	
-	
 /*margin: 0px;
 	margin-bottom: -800px ;*/
 }
@@ -223,15 +221,13 @@ position: relative;}
 	margin-bottom: -15px;
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-top: 0px;
+	margin-top: 300px;
 	width: 100%;
 	
 	
 	/*background: url(/svgs/2020-vision-background-desktop.svg) center bottom no-repeat;
     	box-sizing: border-box;
 	 background-size: 100%;*/
-
-
 
   }
 
