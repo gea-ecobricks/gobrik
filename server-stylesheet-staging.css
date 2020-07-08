@@ -294,8 +294,12 @@ body {
 }
 
 .kn-info-bar {
-    background-color: #grey !important;
-	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);}
+    background-color: #b3b3b3 !important;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+
+.kn-info-bar a {color: #fff;}
 	
 #header {  
 	padding-top: 10px;
