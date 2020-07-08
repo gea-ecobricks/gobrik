@@ -305,6 +305,8 @@ height: 100%;
 		background-size: 100%;}
 }
 
+
+
 body {
 	
 	-webkit-animation-delay: 0s !important;
@@ -314,6 +316,13 @@ body {
 	-webkit-animation-fill-mode:forwards;
 }
 
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+.kn-container {
+	margin: 0 auto;
+	max-width: 960px !important;
+}
+}
 
 /* Positions the side menu to the left and top */
 .kn-mobile-controls  {
