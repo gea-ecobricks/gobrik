@@ -167,7 +167,7 @@ body {
 	padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	min-height: none !important;
+	min-height: 50vh !important;
 }
 
 @media screen and (min-width: 769px) and (max-width: 2000px) {
