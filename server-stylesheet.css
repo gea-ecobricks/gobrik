@@ -26,6 +26,223 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 ----------------------------------------------------------------------------- */
 
 
+
+
+.kn-map .kn-view {
+  
+     border-radius: 3px;
+          -moz-border-radius: 5px; 
+        -webkit-border-radius: 5px; 
+  border: 2px;
+}
+
+
+#need-account .control {
+
+    text-align: center !important;
+}
+
+#need-account {
+  display: none;}
+
+#need-account {
+
+   margin-bottom: -32px;
+  margin-top: 30px;
+  text-align: center !important;
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+.kn-container {
+	margin: 0 auto;
+	max-width: 960px !important;
+}
+}
+
+.kn-label-left {
+  background-color: #e8f4f9;
+}
+
+/* NAVIGATION BAR  */
+
+.kn-content .kn-navigation-bar {
+  display: none !important;
+}
+
+.kn-mobile-controls {
+	display: block !important;
+}
+
+
+#kn-mobile-menu.is-visible {
+	left: 0 !important;
+  
+}
+
+
+
+
+.logo-img  {
+    display: block !important;
+  margin: auto !important;
+    text-align: center !important;
+  margin-right: 36px !important;
+}
+
+
+#knack-logo {
+	padding: 0.35em 0 !important;
+}
+
+
+.kn-message, .kn-notification, .notification {
+
+
+    -webkit-border-radius: 9px !important;
+  -moz-border-radius: 9px !important;
+    box-shadow: 0px 2px 5px #939393;
+    border-width: 2px 2px 2px 12px;
+   border-style: solid;
+   border-color: #6ba3ff;
+
+    background-color: #f4fcfc;
+  color: #191919 !important;
+  background-image: linear-gradient(#e2e2e2, #ededed);
+  text-shadow: 0 1px 2px white;
+  font-size: 16px;
+  padding: 20px;
+      margin-bottom: -100px;
+  z-index: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+
+
+.is-confirmation {	
+  
+     border-color: #00f200;
+  
+}
+
+.is-warning {
+  
+     border-color: #ff7400;
+  
+}
+
+
+
+.is-alert {
+  
+     border-color: #ff0000;
+  
+}	
+
+
+
+  
+
+
+.highcharts-container {
+/*position: c;*/
+ overflow: hidden; overflow-y:hidden; overflow-x:hidden; 
+width: 100% !important;
+height: 350px;
+text-align: center !important;
+line-height: normal;
+z-index: 0;
+left: 0px;
+top: 0px;
+  
+}
+
+
+
+
+
+.label.kn-label.kn-required.label-135 {
+    display: block !important;
+  margin: auto !important;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.et_pb_text_align_left  {
+  
+  text-align: center !important;
+  display: block !important;
+  margin: auto !important; 
+}
+
+
+
+
+.kn-menu .control {  text-align: center !important;
+margin-bottom: 0px;
+  margin-top: 0px !important;
+}
+
+
+#knack-logo {text-align: center;
+  margin-left: -10px;
+}
+
+#knack-logo img {
+width: 145px;}
+
+#knack-logo {
+  display:block !important;
+}
+
+
+#kn-app-menu {
+  display:block !important;
+}
+
+
+.kn-sso-container {
+  display: none !important;
+}
+
+
+  
+.modal-card-title {text-align: left !important;
+	font-size: 16px !important;
+	font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+  margin-left: -5px;
+    color: grey !important;
+  
+}
+
+
+
+/* Remove scroll on members pop up */
+
+.kn-page-modal .kn-details-group { overflow: hidden; overflow-y:hidden; }
+
+.kn-entries-summary {text-align: center;}
+
+
+
+
+
 /* -------------------------------------------------------------------------- */
 
 /*	0. CSS Reset
