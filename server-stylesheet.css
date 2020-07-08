@@ -128,7 +128,7 @@ body {
 
 
 #header {  
-	margin-top: 0px;
+	padding-top: 10px;
 	margin-bottom: 0px;
 	z-index: 3;
 	position: relative;
@@ -140,7 +140,9 @@ body {
 	-webkit-animation-fill-mode:forwards;
 }
 
-
+#kn-app-header {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
 
 #knack-body {
 	z-index: 0;
