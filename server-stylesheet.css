@@ -51,12 +51,7 @@ NEEDS REVIEW--------------------------------------------------------------------
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 2000px) {
-.kn-container {
-	margin: 0 auto;
-	max-width: 960px !important;
-}
-}
+
 
 .kn-label-left {
   background-color: #e8f4f9;
@@ -360,10 +355,10 @@ body {
 	padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	min-height: 50vh !important;
 }
 
-.kn-scenes {margin-bottom: -350px !important;}
+.kn-scenes {margin-bottom: -350px !important;
+min-height: 350px;}
 
 
 #offline { z-index: 1;
