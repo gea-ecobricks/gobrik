@@ -164,8 +164,11 @@ body {
 	padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-/*margin: 0px;
-	margin-bottom: -800px ;*/
+}
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+		#knack-body { 
+			margin-bottom: -800px;}
 }
 
 
@@ -219,10 +222,7 @@ position: relative;}
 	z-index: -5;
 }
 
-@media screen and (min-width: 769px) and (max-width: 2000px) {
-	body {
-		#footer { 
-			margin-top: -500px;}}
+
 
 #background-footer-mobile {
 	 z-index: -5;
