@@ -127,20 +127,28 @@ body {
 }
 
 
+
+.kn-mobile-controls {z-index: 10;}
+
+#kn-mobile-menu a
+{text-align: left;}
+
+
 #header {  
 	padding-top: 10px;
-	margin-bottom: 0px;
+	padding-bottom: 5px;
 	z-index: 3;
 	position: relative;
 	background: white;
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	
 	
 	-webkit-animation-delay: 3s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
-
+	
 }
 
 #kn-app-header {
