@@ -132,16 +132,19 @@ body {
 	margin-bottom: 0px;
 	z-index: 3;
 	position: relative;
-
+	background: white;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	
 	-webkit-animation-delay: 3s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
+
 }
 
 #kn-app-header {
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    margin-top:-10px;
 }
 
 #knack-body {
