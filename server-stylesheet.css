@@ -324,12 +324,7 @@ body {
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 2000px) {
-.kn-container {
-	margin: 0 auto;
-	max-width: 960px !important;
-}
-}
+
 
 /* Positions the side menu to the left and top */
 .kn-mobile-controls  {
@@ -373,9 +368,17 @@ body {
 	margin-right: 0px;
 }
 
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+#knack-body {
+	margin: 0 auto;
+	max-width: 960px !important;
+
 .kn-scenes {margin-bottom: -350px !important;
 /*min-height: 350px;*/}
 
+}
+}
 
 #offline { z-index: 1;
 	position: relative;
