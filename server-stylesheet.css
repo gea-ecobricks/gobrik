@@ -363,7 +363,7 @@ body {
 	min-height: 50vh !important;
 }
 
-.kn-scenes .kn-section {margin-bottom: -450px;}
+.kn-scenes {margin-bottom: -350px !important;}
 
 
 #offline { z-index: 1;
