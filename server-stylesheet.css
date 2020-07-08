@@ -108,13 +108,14 @@ height: 100%;
 		background: url(/svgs/top-clouds.svg) center top repeat-x;
     		box-sizing: border-box;
 		background-size: 730px;}
+}
 	
 @media screen and (min-width: 100px) and (max-width: 768px) {
 	body {
 		background: url(/svgs/top-clouds-mobile.svg) center top repeat-x;
     		box-sizing: border-box;
 		background-size: 100%;}
-	
+}
 
 body {
 	
