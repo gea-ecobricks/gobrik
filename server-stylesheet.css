@@ -23,17 +23,15 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 	
 
------------------------------------------------------------------------------ */
-
-
+NEEDS REVIEW----------------------------------------------------------------------------- */
 
 
 .kn-map .kn-view {
   
      border-radius: 3px;
-          -moz-border-radius: 5px; 
-        -webkit-border-radius: 5px; 
-  border: 2px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+  	border: 2px;
 }
 
 
@@ -47,10 +45,9 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 #need-account {
 
-   margin-bottom: -32px;
-  margin-top: 30px;
-  text-align: center !important;
-
+   	margin-bottom: -32px;
+  	margin-top: 30px;
+  	text-align: center !important;
 }
 
 
@@ -82,8 +79,6 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 }
 
 
-
-
 .logo-img  {
     display: block !important;
   margin: auto !important;
@@ -98,7 +93,6 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 
 .kn-message, .kn-notification, .notification {
-
 
     -webkit-border-radius: 9px !important;
   -moz-border-radius: 9px !important;
@@ -135,16 +129,11 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 }
 
 
-
 .is-alert {
   
      border-color: #ff0000;
   
 }	
-
-
-
-  
 
 
 .highcharts-container {
@@ -161,22 +150,11 @@ top: 0px;
 }
 
 
-
-
-
 .label.kn-label.kn-required.label-135 {
     display: block !important;
   margin: auto !important;
  
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -187,8 +165,6 @@ top: 0px;
   display: block !important;
   margin: auto !important; 
 }
-
-
 
 
 .kn-menu .control {  text-align: center !important;
@@ -387,7 +363,7 @@ body {
 	min-height: 50vh !important;
 }
 
-#kn-scenes {margin-bottom: -450px;}
+.kn-scenes .kn-section {margin-bottom: -450px;}
 
 
 #offline { z-index: 1;
