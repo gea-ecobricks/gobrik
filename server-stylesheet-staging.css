@@ -20,6 +20,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 	2. 	Element Base
 	3.	Buttons
 	4.      Forms
+	5. 	Notifications
 
 	
 
@@ -33,6 +34,7 @@ NEEDS REVIEW--------------------------------------------------------------------
     -webkit-border-radius: 5px; 
   	border: 2px;
 }
+
 
 
 #need-account .control {
@@ -57,80 +59,9 @@ NEEDS REVIEW--------------------------------------------------------------------
   background-color: #e8f4f9;
 }
 
-/* NAVIGATION BAR  */
-
-.kn-content .kn-navigation-bar {
-  display: none !important;
-}
-
-.kn-mobile-controls {
-	display: block !important;
-}
-
-
-#kn-mobile-menu.is-visible {
-	left: 0 !important;
-  
-}
 
 
 
-
-.logo-img  {
-    display: block !important;
-  margin: auto !important;
-    text-align: center !important;
-  margin-right: 36px !important;
-}
-
-
-#knack-logo {
-	padding: 0.35em 0 !important;
-}
-
-
-.kn-message, .kn-notification, .notification {
-
-    -webkit-border-radius: 9px !important;
-  -moz-border-radius: 9px !important;
-    box-shadow: 0px 2px 5px #939393;
-    border-width: 2px 2px 2px 12px;
-   border-style: solid;
-   border-color: #6ba3ff;
-
-    background-color: #f4fcfc;
-  color: #191919 !important;
-  background-image: linear-gradient(#e2e2e2, #ededed);
-  text-shadow: 0 1px 2px white;
-  font-size: 16px;
-  padding: 20px;
-      margin-bottom: -100px;
-  z-index: 1;
-  margin-right: 10px;
-  margin-left: 10px;
-  
-}
-
-
-
-.is-confirmation {	
-  
-     border-color: #00f200;
-  
-}
-
-.is-warning {
-  
-     border-color: #ff7400;
-  
-}
-
-
-.is-alert {
-  
-     border-color: #ff0000;
-  
-}	
 
 
 .highcharts-container {
@@ -319,6 +250,34 @@ body {
 }
 
 
+/* NAVIGATION BAR  */
+
+.kn-content .kn-navigation-bar {
+  display: none !important;
+}
+
+.kn-mobile-controls {
+	display: block !important;
+}
+
+
+#kn-mobile-menu.is-visible {
+	left: 0 !important;
+  
+}
+
+
+.logo-img  {
+    display: block !important;
+  margin: auto !important;
+    text-align: center !important;
+  margin-right: 36px !important;
+}
+
+
+#knack-logo {
+	padding: 0.35em 0 !important;
+}
 
 
 /* Positions the side menu to the left and top */
@@ -335,7 +294,7 @@ body {
 }
 
 .kn-info-bar {
-    background-color: #b3b3b3;
+    background-color: #grey !important;
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);}
 	
 #header {  
@@ -958,7 +917,7 @@ input.kn-button:hover {
 
 /* -------------------------------------------------------------------------- */
 
-/*	3. FORMS
+/*	4. FORMS
 /* -------------------------------------------------------------------------- */
 
 
@@ -1175,6 +1134,57 @@ border: hidden !important;
 #field_1238 {padding: 5px 25px 5px 5px;}
 
 #field_1286 {padding: 5px 25px 5px 5px;}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	5. NOTIFICATIONS
+/* -------------------------------------------------------------------------- */
+
+
+.kn-message, .kn-notification, .notification {
+
+    -webkit-border-radius: 9px !important;
+  -moz-border-radius: 9px !important;
+    box-shadow: 0px 2px 5px #939393;
+    border-width: 2px 2px 2px 12px;
+   border-style: solid;
+   border-color: #6ba3ff;
+
+    background-color: #f4fcfc;
+  color: #191919 !important;
+  background-image: linear-gradient(#e2e2e2, #ededed);
+  text-shadow: 0 1px 2px white;
+  font-size: 16px;
+  padding: 20px;
+      margin-bottom: -100px;
+  z-index: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+
+
+.is-confirmation {	
+  
+     border-color: #00f200;
+  
+}
+
+.is-warning {
+  
+     border-color: #ff7400;
+  
+}
+
+
+.is-alert {
+  
+     border-color: #ff0000;
+  
+}	
 
 
 
