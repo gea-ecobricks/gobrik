@@ -222,7 +222,7 @@ position: relative;}
 @media screen and (min-width: 769px) and (max-width: 2000px) {
 	body {
 		#footer { 
-	margin-top: -500px;
+			margin-top: -500px;}}
 
 #background-footer-mobile {
 	 z-index: -5;
