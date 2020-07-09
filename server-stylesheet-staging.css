@@ -15,7 +15,8 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 
-	0. 	CSS Reset
+	00.	Needs Review
+	0. 	TYPOGRAPHY
 	1. 	Document Setup
 	2. 	Element Base
 	3.	Buttons
@@ -24,7 +25,12 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 	
 
-NEEDS REVIEW----------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+
+/*	00. NEEDS REVIEW
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 
 .kn-map .kn-view {
@@ -149,62 +155,78 @@ width: 145px;}
 
 /* -------------------------------------------------------------------------- */
 
-/*	0. CSS Reset
+/*	0. TYPOGRAPHY
 /* -------------------------------------------------------------------------- */
 
 
+p {
+	font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+  /*text-align: center;*/
 
+	line-height: 1.5em;
 
-html,
-body {
-	border: none;
-	margin: 0;
-	padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-address,
-big,
-cite,
-code,
-em,
-font,
-img,
-small,
-strike,
-sub,
-sup,
-li,
-ol,
-ul,
-fieldset,
-form,
-label,
-legend,
-button,
-table,
-caption,
-tr,
-th,
-td {
-	border: none;
-	font-size: inherit;
-	line-height: inherit;
-	margin: 0;
-	padding: 0;
-	text-align: inherit;
+b {	font-weight: 400;}
+
+strong {font-weight: 400;}
+
+
+h1 {
+	font-size: 26px;
+	font-family: 'Arvo', Georgia, serif;
+      text-align: center;
+	  line-height: 1.2;
+	text-shadow: 0px 0px 6px #fff;
 }
 
-blockquote::before,
-blockquote::after {
-	content: "";
+h2 {
+	font-size: 88px !important;
+    font-family: font-family: 'Niramit', sans-serif;
+    text-align: center !important;
+	  line-height: 1.3 !important;
+}
+
+h3 {
+    font-size: 18px !important;
+font-family: font-family: 'Niramit', sans-serif; !important;
+    text-align: center !important;
+  line-height: 1.4 !important;
+    font-weight: 300 ;
+}
+
+h4 {
+	font-size: 15px !important;;
+	font-family: font-family: 'Niramit', sans-serif !important;;
+    text-align: center !important;;
+          line-height: 1.4 !important;;
+	    font-weight: 300 !important;;
+
+}
+
+h5 {
+	font-size: 32px !important;
+    font-family: 'Arvo', serif;
+    text-align: center !important;
+  line-height: 32px !important
+    /*padding-left: 1px !important;    
+  padding-right: 1px !important;
+    padding-bottom: 0px !important;
+      padding-top: 0px !important;*/
+
+}
+
+h6 {
+	font-size: 12px !important;
+	font-family: 'ubuntu', Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+      text-align: center !important;
+	line-height: 1.5em;
+
 }
 
 
@@ -479,75 +501,7 @@ position: relative;}*/
 
 /*	2. Element Base
 /* ---------------------------------------------*---------------------------- */
-p {
-	font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-	-webkit-font-smoothing: antialiased;
-  /*text-align: center;*/
 
-	line-height: 1.5em;
-
-}
-
-b {	font-weight: 400;}
-
-strong {font-weight: 400;}
-
-
-h1 {
-	font-size: 26px;
-	font-family: 'Arvo', Georgia, serif;
-      text-align: center;
-	  line-height: 1.2;
-}
-
-h2 {
-	font-size: 88px !important;
-    font-family: font-family: 'Niramit', sans-serif;
-    text-align: center !important;
-	  line-height: 1.3 !important;
-}
-
-h3 {
-	font-size: 19px;
-          font-family: font-family: 'Niramit', sans-serif;
-    line-height: 1.2em !important;
-   /* padding-left: 10px !important;    
-  padding-right: 10px !important;*/
-
-}
-
-h4 {
-	font-size: 14px !important;;
-	font-family: font-family: 'Niramit', sans-serif !important;;
-    text-align: center !important;;
-          line-height: 1.4 !important;;
-	    font-weight: 300 !important;;
-
-}
-
-h5 {
-	font-size: 32px !important;
-    font-family: 'Arvo', serif;
-    text-align: center !important;
-  line-height: 32px !important
-    /*padding-left: 1px !important;    
-  padding-right: 1px !important;
-    padding-bottom: 0px !important;
-      padding-top: 0px !important;*/
-
-}
-
-h6 {
-	font-size: 12px !important;
-	font-family: 'ubuntu', Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-      text-align: center !important;
-	line-height: 1.5em;
-
-}
 
 
 /* -------------------------------------------------------------------------- */
