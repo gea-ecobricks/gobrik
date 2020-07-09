@@ -519,12 +519,12 @@ h3 {
 }
 
 h4 {
-	font-size: 12px;
-	font-family: font-family: 'Niramit', sans-serif;
-    text-align: center;
-          line-height: 1.4;
-	    font-weight: 300;
-	color: #ddd;
+	font-size: 12px !important;;
+	font-family: font-family: 'Niramit', sans-serif !important;;
+    text-align: center !important;;
+          line-height: 1.4 !important;;
+	    font-weight: 300 !important;;
+
 }
 
 h5 {
