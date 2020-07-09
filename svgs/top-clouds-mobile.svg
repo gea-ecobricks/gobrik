@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="195.14284mm"
+   height="327.37079mm"
+   viewBox="0 0 195.14283 327.37079"
+   version="1.1"
+   id="svg3346"
+   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
+   sodipodi:docname="top-clouds-mobile.svg">
+  <defs
+     id="defs3340">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient36656">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop36652" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop36654" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient36656"
+       id="linearGradient36658"
+       x1="110.00022"
+       y1="127.92047"
+       x2="110.00022"
+       y2="133.93404"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.90751019,-3.7041668,-26.855228)" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37579">
+      <rect
+         inkscape:export-ydpi="75.472282"
+         inkscape:export-xdpi="75.472282"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/Vision Landscapes/Blue sky top.png"
+         y="74.653618"
+         x="34.508389"
+         height="104.12717"
+         width="195.2485"
+         id="rect37581"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.178806;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37583">
+      <rect
+         inkscape:export-ydpi="75.472282"
+         inkscape:export-xdpi="75.472282"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/Vision Landscapes/Blue sky top.png"
+         y="75.182785"
+         x="34.955067"
+         height="104.12717"
+         width="195.33098"
+         id="rect37585"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.178843;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37587">
+      <rect
+         inkscape:export-ydpi="75.472282"
+         inkscape:export-xdpi="75.472282"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/Vision Landscapes/Blue sky top.png"
+         y="74.653618"
+         x="34.508389"
+         height="104.12717"
+         width="195.2485"
+         id="rect37589"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.178806;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37591">
+      <rect
+         inkscape:export-ydpi="75.472282"
+         inkscape:export-xdpi="75.472282"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/Vision Landscapes/Blue sky top.png"
+         y="74.653618"
+         x="34.508389"
+         height="104.12717"
+         width="195.2485"
+         id="rect37593"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.178806;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37595">
+      <rect
+         inkscape:export-ydpi="75.472282"
+         inkscape:export-xdpi="75.472282"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/Vision Landscapes/Blue sky top.png"
+         y="74.653618"
+         x="34.508389"
+         height="104.12717"
+         width="195.2485"
+         id="rect37597"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.178806;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37599">
+      <rect
+         inkscape:export-ydpi="75.472282"
+         inkscape:export-xdpi="75.472282"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/Vision Landscapes/Blue sky top.png"
+         y="74.653618"
+         x="34.508389"
+         height="104.12717"
+         width="195.2485"
+         id="rect37601"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.178806;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37603">
+      <rect
+         inkscape:export-ydpi="75.472282"
+         inkscape:export-xdpi="75.472282"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/Vision Landscapes/Blue sky top.png"
+         y="74.653618"
+         x="34.508389"
+         height="104.12717"
+         width="195.2485"
+         id="rect37605"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.178806;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37607">
+      <rect
+         inkscape:export-ydpi="75.472282"
+         inkscape:export-xdpi="75.472282"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/Vision Landscapes/Blue sky top.png"
+         y="74.653618"
+         x="34.508389"
+         height="104.12717"
+         width="195.2485"
+         id="rect37609"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.178806;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37611">
+      <rect
+         inkscape:export-ydpi="75.472282"
+         inkscape:export-xdpi="75.472282"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/Vision Landscapes/Blue sky top.png"
+         y="74.653618"
+         x="34.508389"
+         height="104.12717"
+         width="195.2485"
+         id="rect37613"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.178806;stroke-opacity:1" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16429-6"
+       id="linearGradient21073"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.22682387,0,0,0.31038518,-232.39557,181.17932)"
+       x1="1598.4944"
+       y1="-293.25729"
+       x2="1609.7744"
+       y2="706.71881" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient16429-6">
+      <stop
+         style="stop-color:#9ce5ff;stop-opacity:1;"
+         offset="0"
+         id="stop16431-7" />
+      <stop
+         style="stop-color:#9ce5ff;stop-opacity:0;"
+         offset="1"
+         id="stop16433-5" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="425.09677"
+     inkscape:cy="940.66992"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g37554"
+     showgrid="false"
+     inkscape:window-width="1848"
+     inkscape:window-height="1009"
+     inkscape:window-x="72"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:document-rotation="0">
+    <sodipodi:guide
+       position="48.664436,403.97293"
+       orientation="0,1"
+       id="guide36674"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="195.27196,312.59192"
+       orientation="1,0"
+       id="guide37492"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="233.12425,356.43668"
+       orientation="0,-1"
+       id="guide3099" />
+    <sodipodi:guide
+       position="198.72098,294.77034"
+       orientation="0,-1"
+       id="guide3107" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3343">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.508389,-74.653618)">
+    <g
+       id="g37554">
+      <rect
+         style="display:inline;opacity:0.9;fill:url(#linearGradient21073);fill-opacity:1;stroke:none;stroke-width:0.352132;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2193"
+         width="195.14284"
+         height="327.37079"
+         x="34.508389"
+         y="74.653618"
+         inkscape:export-filename="/home/russs/Documents/New Russ GEA Nextcloud/GEA Vision Ecobrick Source Files/GoBrik/mobile-footer-vision-900px.png"
+         inkscape:export-xdpi="102.98412"
+         inkscape:export-ydpi="102.98412" />
+      <path
+         style="display:inline;opacity:0.8;fill:#ffffff;fill-opacity:0.929412;fill-rule:evenodd;stroke:none;stroke-width:0.146106px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 213.37029,137.6997 c 2.91577,1.87825 3.35762,0.58244 6.61686,0.52412 4.05674,0.73613 4.59724,0.82747 6.25366,0.52709 3.63489,-2.16818 9.05689,0.17652 12.00071,-0.59339 -1.53232,-1.04587 -5.7198,0.28828 -6.03066,-2.44493 -2.53183,-1.96732 -3.64203,-2.67406 -5.07636,-1.52353 -2.15095,2.16905 -1.82723,1.26298 -4.30258,1.23092 -2.93135,-2.08169 -7.91049,-5.20316 -10.13597,-2.43656 -4.35448,2.18865 -7.5886,-2.20036 -9.19678,-1.4947 -3.69993,1.62349 -6.25698,6.12246 -9.34681,6.66244 3.38255,-0.12466 14.07793,0.15137 17.41386,0.68409 2.04882,-0.089 1.33823,-0.72993 1.80407,-1.13555 z"
+         id="path39093-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccsccc"
+         clip-path="none" />
+      <path
+         inkscape:export-ydpi="13.752652"
+         inkscape:export-xdpi="13.752652"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/GoBrik Development/Main Page HTML/images/mobile-background.png"
+         style="display:inline;opacity:0.8;fill:#ffffff;fill-opacity:0.929412;fill-rule:evenodd;stroke:none;stroke-width:0.0693907px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 146.33648,113.85996 c 1.43327,0.86188 1.65048,0.26727 3.25253,0.2405 1.99412,0.3378 2.25977,0.37971 3.07401,0.24187 1.7867,-0.99493 4.45188,0.081 5.89892,-0.27229 -0.7532,-0.47994 -2.81157,0.13228 -2.9644,-1.12193 -1.24449,-0.90277 -1.7902,-1.22708 -2.49522,-0.69913 -1.05735,0.99535 -0.89823,0.57957 -2.11497,0.56486 -1.44088,-0.95525 -3.5327,-1.27767 -4.62665,-0.008 -2.4228,0.10306 -2.29989,0.54046 -4.63195,0.61008 1.66263,-0.0572 2.96796,0.19954 4.60773,0.44399 z"
+         id="path39093-5"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccc"
+         clip-path="url(#clipPath37599)"
+         transform="translate(40.797614,79.774759)" />
+      <path
+         style="display:inline;opacity:0.699;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.151449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 58.076564,111.93431 c -5.214877,1.04143 -10.054701,1.97344 -15.071456,1.14913 -4.256385,-2.37018 -10.605572,0.19302 -14.052757,-0.64866 1.794309,-1.14335 6.697864,0.31512 7.061941,-2.67274 2.964725,-2.15063 4.264761,-2.92323 5.944287,-1.66551 2.518861,2.37119 4.36079,-4.68634 7.259409,-4.72139 3.432519,-2.27564 6.194835,3.0233 8.800922,6.04812 5.771699,0.2455 9.74444,2.29709 15.300019,2.46295 -3.927692,-0.0737 -12.088988,-0.42551 -15.242365,0.0481 z"
+         id="path15883"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccc"
+         clip-path="url(#clipPath37595)"
+         transform="translate(32.300895,57.749114)" />
+      <path
+         sodipodi:nodetypes="ccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path15887"
+         d="m 207.66288,132.36376 c -1.94422,1.15231 -2.23888,0.35733 -4.41205,0.32155 -2.70503,0.45162 -3.06537,0.50765 -4.16989,0.32337 -4.37889,0.0664 -6.039,0.10833 -8.00189,-0.36405 1.02172,-0.64167 5.19621,-0.46492 5.40351,-2.14177 0.95635,-2.39884 1.37137,-1.91563 2.32771,-1.20977 1.43429,1.33076 0.89319,1.69169 2.54373,1.67202 1.95452,-1.27715 4.79211,-1.70821 6.27604,-0.0106 3.28652,0.13778 3.1198,0.72258 6.28324,0.81566 -2.25538,-0.0765 -4.02605,0.26679 -6.2504,0.59362 z"
+         style="display:inline;opacity:0.804;fill:#ffffff;fill-opacity:0.929412;fill-rule:evenodd;stroke:none;stroke-width:0.0600802px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         clip-path="url(#clipPath37587)"
+         transform="matrix(1.1078248,0,0,1.2491686,-189.77377,15.59564)" />
+      <path
+         transform="translate(85.76066,1.5145083)"
+         sodipodi:nodetypes="ccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path36724"
+         d="m 95.224403,88.569683 c -1.948198,1.394816 -2.243444,0.432534 -4.421059,0.389211 -2.710542,0.546675 -3.071631,0.6145 -4.178401,0.391428 -2.428603,-1.610136 -6.051303,0.131086 -8.018217,-0.440658 1.0238,-0.776707 3.821682,0.214074 4.029419,-1.815666 1.691595,-1.460989 2.433361,-1.985834 3.391672,-1.13143 1.437221,1.610815 1.220934,0.937942 2.874809,0.914136 1.958542,-1.545921 4.801885,-2.067706 6.288855,-0.01295 3.293233,0.166786 3.126166,0.874649 6.296059,0.987318 -2.259959,-0.09257 -4.034251,0.322923 -6.263137,0.718527 z"
+         style="display:inline;opacity:0.5;fill:#ffffff;fill-opacity:0.929412;fill-rule:evenodd;stroke:none;stroke-width:0.102917px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/GoBrik Development/Main Page HTML/images/mobile-background.png"
+         inkscape:export-xdpi="13.752652"
+         inkscape:export-ydpi="13.752652"
+         clip-path="url(#clipPath37579)" />
+      <path
+         clip-path="none"
+         sodipodi:nodetypes="ccccccccsccc"
+         inkscape:connector-curvature="0"
+         id="path3105"
+         d="m 25.222151,111.49455 c 2.91577,1.87825 3.35762,0.58244 6.61686,0.52412 4.05674,0.73613 4.59724,0.82747 6.25366,0.52709 3.63489,-2.16818 9.05689,0.17652 12.00071,-0.59339 -1.53232,-1.04587 -5.7198,0.28828 -6.03066,-2.44493 -2.53183,-1.96732 -3.64203,-2.67406 -5.07636,-1.52353 -2.15095,2.16905 -1.82723,1.26298 -4.30258,1.23092 -2.93135,-2.08169 -7.91049,-5.20314 -10.13597,-2.43656 -4.35448,2.18865 -7.5886,-2.20035 -9.19678,-1.49469 -3.699929,1.62348 -6.2569734,6.12245 -9.3468025,6.66243 3.3825491,-0.12466 14.0779225,0.15137 17.4138525,0.68409 2.04882,-0.089 1.33823,-0.72993 1.80407,-1.13555 z"
+         style="display:inline;opacity:0.8;fill:#ffffff;fill-opacity:0.929412;fill-rule:evenodd;stroke:none;stroke-width:0.146106px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
