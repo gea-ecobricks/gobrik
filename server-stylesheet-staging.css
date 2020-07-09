@@ -496,26 +496,22 @@ strong {font-weight: 400;}
 
 
 h1 {
-	font-size: 18px !important;
-	font-family: 'ubuntu', Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif
-  /*padding-bottom: 0px !important;*/
-      text-align: center !important;
+	font-size: 26px;
+	font-family: 'Arvo', Georgia, serif;
+      text-align: center;
+	  line-height: 1.2;
 }
 
 h2 {
-	font-size: 26px !important;
-    font-family: 'Arvo', Arial Black, Arial Bold, Gadget, sans-serif;
+	font-size: 88px !important;
+    font-family: font-family: 'Niramit', sans-serif;
     text-align: center !important;
-    /*padding-left: 1px !important;    
-  padding-right: 1px !important;
-    padding-top: 0px !important;
-  margin-top: -5px !important;
-  margin-bottom: 0px !important;*/
+	  line-height: 1.3 !important;
 }
 
 h3 {
 	font-size: 19px;
-          font-family: 'Arvo', Georgia, serif;
+          font-family: font-family: 'Niramit', sans-serif;
     line-height: 1.2em !important;
    /* padding-left: 10px !important;    
   padding-right: 10px !important;*/
@@ -523,15 +519,10 @@ h3 {
 }
 
 h4 {
-	font-size: 18px !important;
-	font-family: 'ubuntu', Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
-    text-align: center !important;
-          line-height: 1.4 !important;
-   /* padding-left: 7px !important;    
-  padding-right: 7px !important;
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;*/
-
+	font-size: 14px;
+	font-family: font-family: 'Niramit', sans-serif;
+    text-align: center;
+          line-height: 1.3;
 }
 
 h5 {
