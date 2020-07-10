@@ -28,6 +28,87 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 /* -------------------------------------------------------------------------- */
 
+/*	000. NAVIGATION BAR
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
+
+
+.kn-content .kn-navigation-bar {
+  display: none !important;
+}
+
+.kn-mobile-controls {
+	display: block !important;
+}
+
+
+#kn-mobile-menu.is-visible {
+	left: 0 !important;
+  
+}
+
+
+.logo-img  {
+    display: block !important;
+  margin: auto !important;
+    text-align: center !important;
+  margin-right: 36px !important;
+}
+
+
+#knack-logo {
+	padding: 0.35em 0 !important;
+}
+
+
+/* Positions the side menu to the left and top */
+.kn-mobile-controls  {
+	z-index: 10;
+}
+
+#kn-mobile-menu a {
+	text-align: left;
+}
+
+#kn-app-header {
+	margin-top: -60px;
+}
+
+.kn-info-bar {
+    background-color: #b3b3b3 !important;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	color: #fff;
+	position: relative;
+	z-index: 2;
+}
+
+.kn-info-bar a {color: #fff;}
+	
+#header {  
+	padding-top: 10px;
+	padding-bottom: 5px;
+	z-index: 3;
+	position: relative;
+	background: white;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	
+	-webkit-animation-delay: 3s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
+	
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
 /*	00. NEEDS REVIEW
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
@@ -269,72 +350,7 @@ body {
 }
 
 
-/* NAVIGATION BAR  */
 
-.kn-content .kn-navigation-bar {
-  display: none !important;
-}
-
-.kn-mobile-controls {
-	display: block !important;
-}
-
-
-#kn-mobile-menu.is-visible {
-	left: 0 !important;
-  
-}
-
-
-.logo-img  {
-    display: block !important;
-  margin: auto !important;
-    text-align: center !important;
-  margin-right: 36px !important;
-}
-
-
-#knack-logo {
-	padding: 0.35em 0 !important;
-}
-
-
-/* Positions the side menu to the left and top */
-.kn-mobile-controls  {
-	z-index: 10;
-}
-
-#kn-mobile-menu a {
-	text-align: left;
-}
-
-#kn-app-header {
-	margin-top: -60px;
-}
-
-.kn-info-bar {
-    background-color: #b3b3b3 !important;
-	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
-	color: #fff;
-}
-
-.kn-info-bar a {color: #fff;}
-	
-#header {  
-	padding-top: 10px;
-	padding-bottom: 5px;
-	z-index: 3;
-	position: relative;
-	background: white;
-	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
-	
-	-webkit-animation-delay: 3s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;
-	
-}
 
 
 
