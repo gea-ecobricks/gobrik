@@ -239,13 +239,13 @@ top: 0px;
 
 
 p {
-	font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-	-webkit-font-smoothing: antialiased;
+	font-family: font-family: 'Niramit', sans-serif !important;
+	font-size: 15px !important;
+	font-weight: 300 !important;
+	-webkit-font-smoothing: antialiased !important;
   /*text-align: center;*/
 
-	line-height: 1.5em;
+	line-height: 1.5em !important;
 
 }
 
@@ -265,7 +265,7 @@ h1 {
 
 h2 {
 	font-size: 24px !important;
-    font-family: font-family: 'Niramit', sans-serif;
+    font-family: font-family: 'Niramit', sans-serif !important;
     text-align: center !important;
 	  line-height: 1.3 !important;
 	 font-weight: 400 !important;
