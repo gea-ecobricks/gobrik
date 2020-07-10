@@ -47,6 +47,16 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
   
 }
 
+#knack-logo {text-align: center;
+  margin-left: -10px;
+}
+
+#knack-logo img {
+width: 145px;}
+
+#knack-logo {
+  display:block !important;
+}
 
 .logo-img  {
     display: block !important;
@@ -105,6 +115,16 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 
 
+.kn-menu .control {  text-align: center !important;
+margin-bottom: 0px;
+  margin-top: 0px !important;
+}
+
+
+
+.kn-sso-container {
+  display: none !important;
+}
 
 
 
@@ -152,10 +172,10 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 
 
-
+/*
 
 .highcharts-container {
-/*position: c;*/
+
  overflow: hidden; overflow-y:hidden; overflow-x:hidden; 
 width: 100% !important;
 height: 350px;
@@ -167,6 +187,7 @@ top: 0px;
   
 }
 
+*/
 
 .label.kn-label.kn-required.label-135 {
     display: block !important;
@@ -185,32 +206,6 @@ top: 0px;
 }
 
 
-.kn-menu .control {  text-align: center !important;
-margin-bottom: 0px;
-  margin-top: 0px !important;
-}
-
-
-#knack-logo {text-align: center;
-  margin-left: -10px;
-}
-
-#knack-logo img {
-width: 145px;}
-
-#knack-logo {
-  display:block !important;
-}
-
-
-#kn-app-menu {
-  display:block !important;
-}
-
-
-.kn-sso-container {
-  display: none !important;
-}
 
 
   
