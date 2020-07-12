@@ -137,6 +137,19 @@ margin-bottom: 0px;
 ----------------------------------------------------------------------------- */
 
 
+.kn-login-form {margin: auto;}
+
+.kn-table {
+border-radius: 10px;
+  margin-right:0px;
+  padding-right: 0px;
+
+}
+
+
+
+
+
 .kn-map .kn-view {
   
      border-radius: 3px;
