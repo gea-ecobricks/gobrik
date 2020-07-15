@@ -914,7 +914,7 @@ appearance: none;
 -moz-border-radius: 3px;
 -webkit-border-radius: 3px;
 border-radius: 3px;
-background: url(https://gobrik.com/images/downarrow.png) no-repeat;
+/*background: url(https://gobrik.com/images/downarrow.png) no-repeat;*/
 background-position: right center;
 
       border: 1px solid #00D6FF !important;
