@@ -921,6 +921,12 @@ background-position: right center;
     border-radius: 3px;
       background-color: #c4efff;
     color: #373A43;
+	
+	  width: 100%;
+  height: 100%;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px;
 
 }
 /*
