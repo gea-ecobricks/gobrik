@@ -37,6 +37,8 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 /* BOOM LANDING */
 
+#welcome-content { width: 80%}
+
 /*top graphic*/
 #view_5264 {
   margin-top: -20px;
@@ -55,6 +57,17 @@ text-shadow: 0px 0px 6px #fff;
 
 
 #welcome-news {
+    font-size: 18px !important;
+font-family: font-family: 'Niramit', sans-serif; !important;
+    text-align: center !important;
+  line-height: 1.4 !important;
+  position: relative;
+  z-index: 5;
+    font-weight: 300;
+  margin: 37px 5px 3px 5px;}
+}
+
+.welcome-text {
     font-size: 18px !important;
 font-family: font-family: 'Niramit', sans-serif; !important;
     text-align: center !important;
