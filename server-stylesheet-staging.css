@@ -15,7 +15,9 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 
-	00.	Needs Review
+	0000.   Landing page
+	000.    Navigation Bar
+   	00.	Needs Review
 	0. 	TYPOGRAPHY
 	1. 	Document Setup
 	2. 	Element Base
@@ -24,6 +26,205 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 	5. 	Notifications
 
 	
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	000. LANDING PAGE
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
+
+
+/* BOOM LANDING */
+
+/*top graphic*/
+#view_5264 {
+  margin-top: -20px;
+margin-bottom: 25px;}
+
+/* Statement Text*/
+.main-statement {
+  
+  font-size: 26px !important;
+ font-family: 'Arvo', serif;
+    text-align: center !important;
+  line-height: 1.2 !important;
+margin: -35px 5px -3px 5px !important;
+text-shadow: 0px 0px 6px #fff;
+}
+
+
+#welcome-news {
+    font-size: 18px !important;
+font-family: font-family: 'Niramit', sans-serif; !important;
+    text-align: center !important;
+  line-height: 1.4 !important;
+  position: relative;
+  z-index: 5;
+    font-weight: 300;
+  margin: 37px 5px 3px 5px;}
+}
+
+
+/*SOCIAL LOGIN BUTTON BOX*/
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+
+  #view_5292  {   
+    width: 50%;
+	margin-left: 25%;
+ }}
+
+
+#view_5292 {
+margin-top: -10px ;
+      z-index: 10 !important;
+  position: relative;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+
+ }
+
+/*TREE & LOWER MESSAGE BOX*/
+
+  #view_5303 {
+
+      margin-top: -110px;
+      z-index: 5 !important;
+    position: relative;
+}
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+  #view_5303 {
+    
+  margin-bottom: -100px;
+    max-width: 60% !important;
+margin-right: 20% !important;
+  margin-left: 20% !important;
+   
+  }}
+  
+  @media screen and (max-width: 770px) {
+  #view_5303 {
+  margin-bottom: 50px;
+
+    }}
+
+
+
+/*MAIN LOGIN FORMATTING*/
+
+ @media screen and (max-width: 770px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 80% !important;
+margin-right: 10% !important;
+  margin-left: 10% !important;
+   }}
+
+    @media screen and (min-width: 771px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 50% !important;
+margin-right: 25% !important;
+  margin-left: 25% !important;
+      }}
+
+/*centers login by removing right side empty column from knack SSO formating*/
+.kn-content .column.is-1 {
+  display: none !important;}
+
+/*FORMATTING FOR MAIN HOME PAGE LOGIN*/
+
+#view_5266 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+#view_5288  {   /*social buttons under login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+
+#view_5288 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+
+/*LOGIN FOR OFFSET PAGE  eventually can be merged with BOOM login */
+
+
+#view_5006 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+#view_5026  {   /*social buttons under offset login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+#view_5026 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+/*LOGIN FOR REGEN SHOP*/
+
+#view_3465 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+
+#view_5080  {   /*social buttons under offset login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+#view_5080 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+
+
+
 
 
 /* -------------------------------------------------------------------------- */
