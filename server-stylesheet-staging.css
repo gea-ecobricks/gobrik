@@ -471,7 +471,7 @@ top: 0px;
 
 
 p {
-	font-family: font-family: 'Niramit', sans-serif !important;
+	font-family: font-family: 'Mulish', sans-serif !important;
 	font-size: 15px !important;
 	font-weight: 300 !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -486,7 +486,7 @@ strong {font-weight: 400;}
 
 h1 {
 	font-size: 28px !important;
-	font-family: font-family: 'Niramit', sans-serif !important;
+	font-family: font-family: 'Mulish', sans-serif !important;
       text-align: center !important;
 	  line-height: 1.2 !important;
 	text-shadow: 0px 0px 10px #fff !important;
@@ -504,7 +504,7 @@ h2 {
 
 h3 {
     font-size: 20px !important;
-font-family: font-family: 'Niramit', sans-serif; !important;
+font-family: font-family: 'Mulish', sans-serif; !important;
     text-align: center !important;
   line-height: 1.4 !important;
     font-weight: 300 !important;
@@ -513,7 +513,7 @@ font-family: font-family: 'Niramit', sans-serif; !important;
 
 h4 {
 	font-size: 15px !important;
-	font-family: font-family: 'Niramit', sans-serif !important;
+	font-family: font-family: 'Mulish', sans-serif !important;
     text-align: center !important;
           line-height: 1.4 !important;
 	    font-weight: 300 !important;
@@ -530,7 +530,7 @@ h5 {
 
 h6 {
 	font-size: 12px !important;
-	font-family: 'Niramit', sans-serif !important;
+	font-family: 'Mulish', sans-serif !important;
     text-align: center !important;
   line-height: 1.4 !important;
     font-weight: 300 !important;
