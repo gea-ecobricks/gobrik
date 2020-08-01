@@ -40,9 +40,9 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 /*@media screen and (min-width: 769px) and (max-width: 2000px) { */
 
 
-#landing-content { 
-	background: red;
-}
+	
+
+
 
 
 /*top graphic*/
@@ -50,21 +50,9 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
   margin-top: -20px;
 margin-bottom: 25px;}
 
-#top-graphic {
-  margin-top: -20px;
-margin-bottom: 25px;
-}
 
-/* Statement Text*/
-.main-statement {
-  
-  font-size: 28px !important;
- font-family: 'Arvo', serif;
-    text-align: center !important;
-  line-height: 1.2 !important;
-margin: -35px 5px -3px 5px !important;
-text-shadow: 0px 0px 6px #fff;
-}
+
+
 
 
 #welcome-news {
@@ -78,16 +66,7 @@ font-family: font-family: 'Niramit', sans-serif; !important;
   margin: 37px 5px 3px 5px;}
 }
 
-.welcome-text {
-    font-size: 18px !important;
-font-family: font-family: 'Niramit', sans-serif; !important;
-    text-align: center !important;
-  line-height: 1.4 !important;
-  position: relative;
-  z-index: 5;
-    font-weight: 300;
-  margin: 37px 5px 3px 5px;}
-}
+
 
 
 /*SOCIAL LOGIN BUTTON BOX*/
