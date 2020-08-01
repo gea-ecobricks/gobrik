@@ -38,8 +38,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 /* BOOM LANDING */
 
 @media screen and (min-width: 769px) and (max-width: 2000px) {
-#welcome-content { 
-.kn-form-col.is-constrained {
+#landing-content { 
 	max-width: 60% !important;
 	margin-right: 20% !important;
 	margin-left: 20% !important;
