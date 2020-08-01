@@ -39,15 +39,18 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 @media screen and (min-width: 769px) and (max-width: 2000px) {
 #landing-content { 
-	max-width: 60% !important;
-	margin-right: 20% !important;
-	margin-left: 20% !important;
-
+	max-width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
 }
 }
 
 /*top graphic*/
 #view_5264 {
+  margin-top: -20px;
+margin-bottom: 25px;}
+
+#top-graphic {
   margin-top: -20px;
 margin-bottom: 25px;}
 
