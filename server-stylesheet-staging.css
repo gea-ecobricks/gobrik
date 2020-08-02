@@ -40,19 +40,10 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 /*@media screen and (min-width: 769px) and (max-width: 2000px) { */
 
 
-	
-
-
-
-
 /*top graphic*/
 #view_5264 {
   margin-top: -20px;
 margin-bottom: 25px;}
-
-
-
-
 
 
 #welcome-news {
@@ -65,8 +56,6 @@ font-family: font-family: 'Niramit', sans-serif; !important;
     font-weight: 300;
   margin: 37px 5px 3px 5px;}
 }
-
-
 
 
 /*SOCIAL LOGIN BUTTON BOX*/
@@ -114,28 +103,6 @@ margin-right: 20% !important;
     }}
 
 
-
-/*MAIN LOGIN FORMATTING*/
-
- @media screen and (max-width: 770px) {
-   .kn-login-form {
-  margin: auto;
-    max-width: 80% !important;
-margin-right: 10% !important;
-  margin-left: 10% !important;
-   }}
-
-    @media screen and (min-width: 771px) {
-   .kn-login-form {
-  margin: auto;
-    max-width: 50% !important;
-margin-right: 25% !important;
-  margin-left: 25% !important;
-      }}
-
-/*centers login by removing right side empty column from knack SSO formating*/
-.kn-content .column.is-1 {
-  display: none !important;}
 
 /*FORMATTING FOR MAIN HOME PAGE LOGIN*/
 
@@ -247,9 +214,85 @@ margin-top: -485px;
 
 /* -------------------------------------------------------------------------- */
 
+/*	000. LOGIN UNIVERSAL
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
+
+
+
+
+/*MAIN LOGIN FORMATTING*/
+
+ @media screen and (max-width: 770px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 80% !important;
+margin-right: 10% !important;
+  margin-left: 10% !important;
+   }}
+
+    @media screen and (min-width: 771px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 50% !important;
+margin-right: 25% !important;
+  margin-left: 25% !important;
+      }}
+
+/*centers login by removing right side empty column from knack SSO formating*/
+.kn-content .column.is-1 {
+  display: none !important;}
+
+
+
+
+#need-account .control {
+
+    text-align: center !important;
+}
+
+#need-account {
+  display: none;}
+
+#need-account {
+
+   	margin-bottom: -32px;
+  	margin-top: 30px;
+  	text-align: center !important;
+}
+
+
+
+.kn-login-form {margin: auto;}
+
+.kn-table {
+border-radius: 10px;
+  margin-right:0px;
+  padding-right: 0px;
+
+}
+
+
+
+
+.kn-label-left {
+  background-color: #e8f4f9;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
 /*	000. NAVIGATION BAR
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
+
+
+
 
 
 .kn-content .kn-navigation-bar {
@@ -356,16 +399,6 @@ margin-bottom: 0px;
 ----------------------------------------------------------------------------- */
 
 
-.kn-login-form {margin: auto;}
-
-.kn-table {
-border-radius: 10px;
-  margin-right:0px;
-  padding-right: 0px;
-
-}
-
-
 
 
 
@@ -379,27 +412,6 @@ border-radius: 10px;
 
 
 
-#need-account .control {
-
-    text-align: center !important;
-}
-
-#need-account {
-  display: none;}
-
-#need-account {
-
-   	margin-bottom: -32px;
-  	margin-top: 30px;
-  	text-align: center !important;
-}
-
-
-
-
-.kn-label-left {
-  background-color: #e8f4f9;
-}
 
 
 
@@ -741,12 +753,6 @@ position: relative;}*/
 }
 
 
-
-
-/* -------------------------------------------------------------------------- */
-
-/*	2. Element Base
-/* ---------------------------------------------*---------------------------- */
 
 
 
@@ -1639,4 +1645,10 @@ border: hidden !important;
 }	
 
 
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	6. NEW
+/* ---------------------------------------------*---------------------------- */
 
