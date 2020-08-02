@@ -218,69 +218,11 @@ width: 145px;}
 
 /* -------------------------------------------------------------------------- */
 
-/*	0. CSS Reset
+/*	000. LOGIN UNIVERSAL
 /* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 
-
-
-html,
-body {
-	border: none;
-	margin: 0;
-	padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-address,
-big,
-cite,
-code,
-em,
-font,
-img,
-small,
-strike,
-sub,
-sup,
-li,
-ol,
-ul,
-fieldset,
-form,
-label,
-legend,
-button,
-table,
-caption,
-tr,
-th,
-td {
-	border: none;
-	font-size: inherit;
-	line-height: inherit;
-	margin: 0;
-	padding: 0;
-	text-align: inherit;
-}
-
-blockquote::before,
-blockquote::after {
-	content: "";
-}
-
-
-/* -------------------------------------------------------------------------- */
-
-/*	1. Document Setup
-/* -------------------------------------------------------------------------- */
 
 
 /*MAIN LOGIN FORMATTING*/
@@ -304,6 +246,49 @@ margin-right: 25% !important;
 /*centers login by removing right side empty column from knack SSO formating*/
 .kn-content .column.is-1 {
   display: none !important;}
+
+
+
+
+#need-account .control {
+
+    text-align: center !important;
+}
+
+#need-account {
+  display: none;}
+
+#need-account {
+
+   	margin-bottom: -32px;
+  	margin-top: 30px;
+  	text-align: center !important;
+}
+
+
+
+.kn-login-form {margin: auto;}
+
+.kn-table {
+border-radius: 10px;
+  margin-right:0px;
+  padding-right: 0px;
+
+}
+
+
+
+
+.kn-label-left {
+  background-color: #e8f4f9;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. Document Setup
+/* -------------------------------------------------------------------------- */
 
 
 
