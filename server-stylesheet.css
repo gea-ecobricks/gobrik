@@ -283,6 +283,29 @@ blockquote::after {
 /* -------------------------------------------------------------------------- */
 
 
+/*MAIN LOGIN FORMATTING*/
+
+ @media screen and (max-width: 770px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 80% !important;
+margin-right: 10% !important;
+  margin-left: 10% !important;
+   }}
+
+    @media screen and (min-width: 771px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 50% !important;
+margin-right: 25% !important;
+  margin-left: 25% !important;
+      }}
+
+/*centers login by removing right side empty column from knack SSO formating*/
+.kn-content .column.is-1 {
+  display: none !important;}
+
+
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
