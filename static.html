@@ -83,6 +83,16 @@ distribution_key="dist_13";
 
 <style>
 	
+	.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+	
 		@media screen and (min-width: 770px) and (max-width: 2000px) { 
 #landing-content { 
 	max-width: 60%;
@@ -205,7 +215,7 @@ margin-bottom: -200px;}
 <div class="knack-data">
 <script type="text/javascript">app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_39";api_domain="knack.com";</script><script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_39/knack.js"></script>
 <div class="welcome-news">
-	<div id="knack-dist_39">Loading Today's Data</div>
+	<div id="knack-dist_39"><div class="blink">Loading Today's Data</div></div>
 	</div>
 	</div>
 
