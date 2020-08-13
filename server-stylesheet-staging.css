@@ -766,14 +766,10 @@ position: relative;}
   	margin:0px;
   	background-color: #252b4d;
   	margin-top: -10px;
-  	font-family: 'Mulish', sans-serif
+  	font-family: 'Mulish', sans-serif;
 		
 		
-	-webkit-animation-delay: 9s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;;
+	
 }
 
 .footer-quote-padding {
@@ -790,12 +786,20 @@ position: relative;}
 .footer-lang-links {
 	padding-bottom: 16px;
 	font-size: 16px;
+	
+
 }
 
 .footer-foot {
 	font-size: 13px;
 	line-height: 1.6em;
 	padding-bottom: 16px;
+	
+		-webkit-animation-delay: 9s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 #footer a:link {
