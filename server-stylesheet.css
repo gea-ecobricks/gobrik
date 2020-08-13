@@ -20,6 +20,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 	2. 	Element Base
 	3.	Buttons
 	4.      Forms
+	5.	Specific Pages
 
 	
 
@@ -1211,5 +1212,159 @@ border: hidden !important;
 
 #field_1286 {padding: 5px 25px 5px 5px;}
 
+
+/* NEW PAGES  */
+
+
+/*SOCIAL LOGIN BUTTON BOX*/
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+
+  #view_5292  {   
+    width: 50%;
+	margin-left: 25%;
+ }}
+
+
+#view_5292 {
+margin-top: -10px ;
+      z-index: 10 !important;
+  position: relative;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+
+ }
+
+/*TREE & LOWER MESSAGE BOX*/
+
+  #view_5303 {
+
+      margin-top: -110px;
+      z-index: 5 !important;
+    position: relative;
+}
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+  #view_5303 {
+    
+  margin-bottom: -100px;
+    max-width: 60% !important;
+margin-right: 20% !important;
+  margin-left: 20% !important;
+   
+  }}
+  
+  @media screen and (max-width: 770px) {
+  #view_5303 {
+  margin-bottom: 50px;
+
+    }}
+
+
+
+/*FORMATTING FOR MAIN HOME PAGE LOGIN*/
+
+#view_5266 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+#view_5288  {   /*social buttons under login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+
+#view_5288 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+
+/*LOGIN FOR OFFSET PAGE  eventually can be merged with BOOM login */
+
+
+#view_5006 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+#view_5026  {   /*social buttons under offset login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+#view_5026 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+/*LOGIN FOR REGEN SHOP*/
+
+#view_3465 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+
+#view_5080  {   /*social buttons under offset login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+#view_5080 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+
+
+
+/* LOGIN BOOM PAGE */
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+
+#view_5266,  {
+	max-width: 500px; !important;
+  }
+#view_5288 {
+  max-width: 500px; !important;
+  }
+
+  }
+  
 
 
