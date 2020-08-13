@@ -224,7 +224,7 @@ margin-top: -485px;
 
 #view_5282 {
 
-background-color: #fff;
+background: #fff;
   width: 700px;
   max-width: 100%;
 padding: 50px 18px 0px 25px;
@@ -383,7 +383,7 @@ width: 145px;}
 .kn-info-bar {
     /*background-color: #b3b3b3 !important;
 	*/
-	  background-color: #6ca2fb;
+	  background: #6ca2fb;
 	  /*
   background-image: -webkit-linear-gradient(top, #5aa9ac, #4b999c);
   background-image: -moz-linear-gradient(top, #5aa9ac, #4b999c);
