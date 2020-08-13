@@ -15,7 +15,9 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 
-	00.	Needs Review
+	0000.   Landing page
+	000.    Navigation Bar
+   	00.	Needs Review
 	0. 	TYPOGRAPHY
 	1. 	Document Setup
 	2. 	Element Base
@@ -28,9 +30,269 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 /* -------------------------------------------------------------------------- */
 
+/*	000. LANDING PAGE
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
+
+
+/* BOOM LANDING */
+
+/*@media screen and (min-width: 769px) and (max-width: 2000px) { */
+
+
+/*top graphic*/
+#view_5264 {
+  margin-top: -20px;
+margin-bottom: 25px;}
+
+
+#welcome-news {
+    font-size: 20px !important;
+font-family: font-family: 'Niramit', sans-serif; !important;
+    text-align: center !important;
+  line-height: 1.4 !important;
+  position: relative;
+  z-index: 5;
+    font-weight: 300;
+  margin: 37px 5px 3px 5px;}
+}
+
+
+/*SOCIAL LOGIN BUTTON BOX*/
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+
+  #view_5292  {   
+    width: 50%;
+	margin-left: 25%;
+ }}
+
+
+#view_5292 {
+margin-top: -10px ;
+      z-index: 10 !important;
+  position: relative;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+
+ }
+
+/*TREE & LOWER MESSAGE BOX*/
+
+  #view_5303 {
+
+      margin-top: -110px;
+      z-index: 5 !important;
+    position: relative;
+}
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+  #view_5303 {
+    
+  margin-bottom: -100px;
+    max-width: 60% !important;
+margin-right: 20% !important;
+  margin-left: 20% !important;
+   
+  }}
+  
+  @media screen and (max-width: 770px) {
+  #view_5303 {
+  margin-bottom: 50px;
+
+    }}
+
+
+
+/*FORMATTING FOR MAIN HOME PAGE LOGIN*/
+
+#view_5266 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+#view_5288  {   /*social buttons under login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+
+#view_5288 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+
+/*LOGIN FOR OFFSET PAGE  eventually can be merged with BOOM login */
+
+
+#view_5006 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+#view_5026  {   /*social buttons under offset login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+#view_5026 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+/*LOGIN FOR REGEN SHOP*/
+
+#view_3465 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+
+#view_5080  {   /*social buttons under offset login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+#view_5080 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+
+
+
+/* LOGIN BOOM PAGE */
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+
+#view_5266,  {
+	max-width: 500px; !important;
+  }
+#view_5288 {
+  max-width: 500px; !important;
+  }
+
+  }
+  
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	000. LOGIN UNIVERSAL
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
+
+
+
+
+/*MAIN LOGIN FORMATTING*/
+
+ @media screen and (max-width: 770px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 80% !important;
+margin-right: 10% !important;
+  margin-left: 10% !important;
+   }}
+
+    @media screen and (min-width: 771px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 50% !important;
+margin-right: 25% !important;
+  margin-left: 25% !important;
+      }}
+
+/*centers login by removing right side empty column from knack SSO formating*/
+.kn-content .column.is-1 {
+  display: none !important;}
+
+
+
+
+#need-account .control {
+
+    text-align: center !important;
+}
+
+#need-account {
+  display: none;}
+
+#need-account {
+
+   	margin-bottom: -32px;
+  	margin-top: 30px;
+  	text-align: center !important;
+}
+
+
+
+.kn-login-form {margin: auto;}
+
+.kn-table {
+border-radius: 10px;
+  margin-right:0px;
+  padding-right: 0px;
+
+}
+
+
+
+
+.kn-label-left {
+  background-color: #e8f4f9;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
 /*	000. NAVIGATION BAR
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
+
+
+
 
 
 .kn-content .kn-navigation-bar {
@@ -102,11 +364,11 @@ width: 145px;}
 	background: white;
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
 	
-	-webkit-animation-delay: 3s !important;
+	/*-webkit-animation-delay: 3s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;*/
 	
 }
 
@@ -137,16 +399,6 @@ margin-bottom: 0px;
 ----------------------------------------------------------------------------- */
 
 
-.kn-login-form {margin: auto;}
-
-.kn-table {
-border-radius: 10px;
-  margin-right:0px;
-  padding-right: 0px;
-
-}
-
-
 
 
 
@@ -160,27 +412,6 @@ border-radius: 10px;
 
 
 
-#need-account .control {
-
-    text-align: center !important;
-}
-
-#need-account {
-  display: none;}
-
-#need-account {
-
-   	margin-bottom: -32px;
-  	margin-top: 30px;
-  	text-align: center !important;
-}
-
-
-
-
-.kn-label-left {
-  background-color: #e8f4f9;
-}
 
 
 
@@ -252,7 +483,7 @@ top: 0px;
 
 
 p {
-	font-family: font-family: 'Niramit', sans-serif !important;
+	font-family: 'Mulish', sans-serif !important;
 	font-size: 15px !important;
 	font-weight: 300 !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -267,7 +498,7 @@ strong {font-weight: 400;}
 
 h1 {
 	font-size: 28px !important;
-	font-family: font-family: 'Niramit', sans-serif !important;
+	font-family: 'Mulish', sans-serif !important;
       text-align: center !important;
 	  line-height: 1.2 !important;
 	text-shadow: 0px 0px 10px #fff !important;
@@ -285,7 +516,7 @@ h2 {
 
 h3 {
     font-size: 20px !important;
-font-family: font-family: 'Niramit', sans-serif; !important;
+font-family:'Mulish', sans-serif; !important;
     text-align: center !important;
   line-height: 1.4 !important;
     font-weight: 300 !important;
@@ -294,7 +525,7 @@ font-family: font-family: 'Niramit', sans-serif; !important;
 
 h4 {
 	font-size: 15px !important;
-	font-family: font-family: 'Niramit', sans-serif !important;
+	font-family: 'Mulish', sans-serif !important;
     text-align: center !important;
           line-height: 1.4 !important;
 	    font-weight: 300 !important;
@@ -311,7 +542,7 @@ h5 {
 
 h6 {
 	font-size: 12px !important;
-	font-family: 'Niramit', sans-serif !important;
+	font-family: 'Mulish', sans-serif !important;
     text-align: center !important;
   line-height: 1.4 !important;
     font-weight: 300 !important;
@@ -341,6 +572,9 @@ height: 100%;
     		box-sizing: border-box;
 		background-size: 1028px;}
 }
+
+
+
 	
 @media screen and (min-width: 100px) and (max-width: 768px) {
 	body {
@@ -489,7 +723,7 @@ position: relative;}*/
   	margin:0px;
   	background-color: #252b4d;
   	margin-top: -10px;
-  	font-family: font-family: 'Niramit', sans-serif;
+  	font-family: 'Mulish', sans-serif;
 }
 
 .footer-quote-padding {
@@ -521,17 +755,254 @@ position: relative;}*/
 
 
 
-/* -------------------------------------------------------------------------- */
-
-/*	2. Element Base
-/* ---------------------------------------------*---------------------------- */
-
-
 
 /* -------------------------------------------------------------------------- */
 
 /*	3. BUTTONS
 /* -------------------------------------------------------------------------- */
+
+
+
+/*NEW BOOM SOCIAL BUTTONS*/
+
+
+
+.social-button {
+	  background-position: 25px 0px;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+	  line-height: 50px;
+    text-align: left;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    vertical-align: middle;
+
+	  border-radius: 8px;
+    margin: 8px auto;
+    outline: rgb(255, 255, 255) none 0px;
+    padding-left: 12%;
+  padding-right: 22px;
+  width: 80%;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+font-family: Sans-serif;
+  font-weight: 400;
+  letter-spacing: .3px;
+}
+
+
+
+#gobrik-connect {
+    background: rgb(255, 255, 255) url('https://www.ecobricks.org/wp-content/uploads/2020/07/GoBrik-Emblem-blue-100px.png') no-repeat scroll 13px 9px / 20px 31px padding-box border-box;
+    border: 2px solid #00c3e9;
+}
+
+#gobrik-connect:hover {
+	  border-color: #00c3e9;
+	  background: #00c3e9 url('https://www.ecobricks.org/wp-content/uploads/2020/07/GoBrik-Emblem-white-100px.png') no-repeat scroll 13px 9px / 20px 31px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#gobrik-connect span {
+	  box-sizing: border-box;
+    color: #00c3e9;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#gobrik-connect:hover span {
+	  color: #FFF;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+
+#facebook-connect {
+    background: rgb(255, 255, 255) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/facebook.svg?sanitize=true') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+    border: 1px solid rgb(60, 90, 154);
+}
+
+#facebook-connect:hover {
+	  border-color: rgb(60, 90, 154);
+	  background: rgb(60, 90, 154) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/facebook-white.svg?sanitize=true') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#facebook-connect span {
+	  box-sizing: border-box;
+    color: rgb(60, 90, 154);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(255, 255, 255);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#facebook-connect:hover span {
+	  color: #FFF !important;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#google-connect {
+    background: rgb(255, 255, 255) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+    border: 1px solid rgb(220, 74, 61);
+}
+
+#google-connect:hover {
+	  border-color: rgb(220, 74, 61);
+	  background: rgb(220, 74, 61) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus-white.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#google-connect span {
+	  box-sizing: border-box;
+    color: rgb(220, 74, 61);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#google-connect:hover span {
+	  color: #FFF;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#new-account {
+
+  
+  border-color: rgb(0, 161, 242);
+	 
+background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
+  text-shadow: 0px 0px 6px #fff;
+  box-shadow: 0px 0px 6px #ddd;
+   background: #00a1f2 url('https://cdn.ecobricks.org/wp-content/uploads/2020/07/LIGHTNING.png') no-repeat scroll 15px 5px / 20px padding-box border-box;
+  
+}
+
+#new-account:hover {
+	  
+      background: rgb(255, 255, 255) url('https://www.ecobricks.org/wp-content/uploads/2020/07/LIGHTNING-blue.png') no-repeat scroll 15px 5px / 20px padding-box border-box;
+    border: 1px solid rgb(0, 161, 242);
+  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+
+
+#new-account span {
+	  box-sizing: border-box;
+    color: rgb(0, 119, 181);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(0, 119, 181);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  	  color: #FFF;
+}
+
+#new-account:hover span {
+	  color: #00a1f2;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+/* GO VALIDATE BUTTON */
+
+.go-button { 
+ 
+ background: #d8dadb;
+  background-image: -webkit-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: -moz-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: -ms-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: -o-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: linear-gradient(to bottom, #d8dadb, #c4c4c4);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+}
+  
+.go-button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
 
 /*Main Knack Button
  font-family: 'Arvo', serif !important;*/
@@ -890,6 +1361,7 @@ input.kn-button:hover {
   	text-align:    center;}
 
 
+
 /* -------------------------------------------------------------------------- */
 
 /*	4. FORMS
@@ -1173,4 +1645,10 @@ border: hidden !important;
 }	
 
 
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	6. NEW
+/* ---------------------------------------------*---------------------------- */
 

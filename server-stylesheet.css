@@ -218,63 +218,71 @@ width: 145px;}
 
 /* -------------------------------------------------------------------------- */
 
-/*	0. CSS Reset
+/*	000. LOGIN UNIVERSAL
 /* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 
 
 
-html,
-body {
-	border: none;
-	margin: 0;
-	padding: 0;
+/*MAIN LOGIN FORMATTING*/
+
+ @media screen and (max-width: 770px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 80% !important;
+margin-right: 10% !important;
+  margin-left: 10% !important;
+   }}
+
+    @media screen and (min-width: 771px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 50% !important;
+margin-right: 25% !important;
+  margin-left: 25% !important;
+      }}
+
+/*centers login by removing right side empty column from knack SSO formating*/
+.kn-content .column.is-1 {
+  display: none !important;}
+
+
+
+
+#need-account .control {
+
+    text-align: center !important;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-address,
-big,
-cite,
-code,
-em,
-font,
-img,
-small,
-strike,
-sub,
-sup,
-li,
-ol,
-ul,
-fieldset,
-form,
-label,
-legend,
-button,
-table,
-caption,
-tr,
-th,
-td {
-	border: none;
-	font-size: inherit;
-	line-height: inherit;
-	margin: 0;
-	padding: 0;
-	text-align: inherit;
+#need-account {
+  display: none;}
+
+#need-account {
+
+   	margin-bottom: -32px;
+  	margin-top: 30px;
+  	text-align: center !important;
 }
 
-blockquote::before,
-blockquote::after {
-	content: "";
+
+
+.kn-login-form {margin: auto;}
+
+.kn-table {
+border-radius: 10px;
+  margin-right:0px;
+  padding-right: 0px;
+
 }
+
+
+
+
+.kn-label-left {
+  background-color: #e8f4f9;
+}
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -597,6 +605,37 @@ h6 {
 
 /*Main Knack Button
  font-family: 'Arvo', serif !important;*/
+
+/* GO VALIDATE BUTTON */
+
+.go-button { 
+ 
+ background: #d8dadb;
+  background-image: -webkit-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: -moz-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: -ms-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: -o-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: linear-gradient(to bottom, #d8dadb, #c4c4c4);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+}
+  
+.go-button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
 
 input.kn-button {
  
