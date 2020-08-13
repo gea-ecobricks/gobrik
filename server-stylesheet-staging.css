@@ -192,6 +192,12 @@ margin-top: -485px;
 }
 #view_5080 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
 
+/*REGEN PAGE CSS*/
+
+#view_3466 {margin-top: -77px;}
+
+#kn-scene_1028 div.kn-details-group.column-2.columns div.kn-details-group-column.column {margin-right: -18px}
+
 
 
 
@@ -347,7 +353,15 @@ width: 145px;}
 }
 
 .kn-info-bar {
-    background-color: #b3b3b3 !important;
+    /*background-color: #b3b3b3 !important;
+	*/
+	
+	  background: #fa8b2a;
+  background-image: -webkit-linear-gradient(top, #fa8b2a, #e36b03);
+  background-image: -moz-linear-gradient(top, #fa8b2a, #e36b03);
+  background-image: -ms-linear-gradient(top, #fa8b2a, #e36b03);
+  background-image: -o-linear-gradient(top, #fa8b2a, #e36b03);
+  background-image: linear-gradient(to bottom, #fa8b2a, #e36b03);
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
 	color: #fff;
 	position: relative;
