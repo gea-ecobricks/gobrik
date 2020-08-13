@@ -628,11 +628,6 @@ height: 100%;
 
 body {
 	
-	-webkit-animation-delay: 0s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;
 }
 
 
@@ -695,18 +690,27 @@ min-height: 350px;}
 
 /*
 #load-spacer {height:600px;
-position: relative;}*/
+position: relative;}
+
+
+	-webkit-animation-delay: 0s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
+
+
+	-webkit-animation-delay: 3s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;*/
 
 #footer { 
 	z-index: -5;
 	margin-bottom: 0px;
 	position: bottom;
 
-	-webkit-animation-delay: 3s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;
 	position: relative;
 }
 
@@ -764,7 +768,14 @@ position: relative;}*/
   	margin:0px;
   	background-color: #252b4d;
   	margin-top: -10px;
-  	font-family: 'Mulish', sans-serif;
+  	font-family: 'Mulish', sans-serif
+		
+		
+	-webkit-animation-delay: 9s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;;
 }
 
 .footer-quote-padding {
