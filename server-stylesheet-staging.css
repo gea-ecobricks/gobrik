@@ -224,10 +224,9 @@ margin-top: -485px;
 
 #view_5282 {
 
-background: #fff;
   width: 700px;
   max-width: 100%;
-padding: 50px 18px 0px 25px;
+padding: 50px 18px 10px 15px;
    border-radius: 8px;
   min-height: 700px;
       box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
@@ -237,7 +236,7 @@ padding: 50px 18px 0px 25px;
     position: relative;
   z-index: 0;
 border: 1px #ddd;
-	background: url('/svgs/bottle-loader.svg') center no-repeat;
+	background: url('/svgs/bottle-loader.svg') center no-repeat, #fff;
 }
 
 
