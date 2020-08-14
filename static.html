@@ -8,10 +8,10 @@
  
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;700&family=Niramit:wght@300&display=swap" rel="stylesheet"> 
 
-<link rel="stylesheet" type="text/css" href="/server-stylesheet-staging.css" />
+<!--<<link rel="stylesheet" type="text/css" href="/server-stylesheet-staging.css" />
  
 	
-	<!--<link rel="stylesheet" href="/odometer-theme-car.css" />
+	link rel="stylesheet" href="/odometer-theme-car.css" />
 <script src="/odometer.js"></script>
   
 
@@ -64,7 +64,7 @@
   <meta property="og:image"         content="https://www.gobrik.com/images/fbbanner.png" >
   <meta property="fb:app_id"  content="1781710898523821" >
 
-
+<!--
 
 <script type="text/javascript">
 app_id='5b8c28c2a1152679c209ce0c';
@@ -84,15 +84,14 @@ distribution_key="dist_13";
 <script type="text/javascript">app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_39";api_domain="knack.com";</script>
 <script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_13/knack.js"></script> 
 </script><script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_39/knack.js"></script>
-
+-->
 	
-	<script id="rendered-js">
-$(function () {
-  setTimeout(function () {$("#first-load").fadeOut(1500);}, 5000);
-
-});
-//# sourceURL=pen.js
+	<script>
+setTimeout(function() {
+    $('#first-load').fadeOut('fast');
+}, 3000);
     </script>
+	
 <style>
 	
 	
@@ -101,7 +100,7 @@ $(function () {
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 	
 #first-load {
-	z-index: 20;	
+	z-index: ;	
 	position: fixed;
  	 left: 0px;
  	 top: 0px;
@@ -111,13 +110,15 @@ $(function () {
     	box-sizing: border-box;
 	 background-size: 30px;
 		
-	-webkit-animation-delay: 0s !important;
+	
+	}
+	
+#knack-body {
+	-webkit-animation-delay: 4s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;	
-	
-	}
+	-webkit-animation-fill-mode:forwards;	}
 	
 	
 	.blink {
