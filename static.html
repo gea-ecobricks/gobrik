@@ -119,6 +119,14 @@ setTimeout(function() {
 	-webkit-animation-fill-mode:forwards;
 	}
 	
+#knack-body {	
+	-webkit-animation-delay: 1.5s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+	}
+	
 #header {
 	-webkit-animation-delay: 2s !important;
 	opacity:0;
@@ -183,7 +191,7 @@ setTimeout(function() {
  font-family: 'Arvo', serif;
     text-align: center !important;
   line-height: 1.2 !important;
-margin: -10px 5px 0px 10px;
+margin: -20px 5px 0px 10px;
 text-shadow: 0px 0px 6px #fff;
 	
 -webkit-animation-delay: 3s !important;
@@ -216,8 +224,6 @@ font-family: 'Niramit', sans-serif !important;
 	-webkit-animation-duration:0.5s;
 	-webkit-animation-fill-mode:forwards;
 }
-
-
 
 
 .social-buttons-box {
@@ -273,6 +279,10 @@ margin-bottom: -200px;
 	-webkit-animation-duration:0.5s;
 	-webkit-animation-fill-mode:forwards;
 }
+	
+	@media screen and (min-width: 770px) and (max-width: 2000px) { 
+	.tree-text { margin-bottom: -400px;}
+	}
 
 #footer {
 	-webkit-animation-delay: 5.5s !important;
@@ -283,17 +293,15 @@ margin-bottom: -200px;
 	}
 
 	
-@media screen and (min-width: 770px) and (max-width: 2000px) { 
-	.tree-text { margin-bottom: -600px;}
-	}
+
 	
   </style>
 
 </head>
   
 <body>
-	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<div id="first-load"></div>-->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+	<div id="first-load"></div>
 	
 <body id="knack-body">
 <div id="header" class="top-menu">
@@ -313,14 +321,12 @@ margin-bottom: -200px;
 <div id="landing-content">
 <div class="top-graphic"><img src="https://www.gobrik.com/svgs/boom-top.svg" style="width: 345px" rel="width: 345px"></div>
 <div class="main-statement">Ecobricking keeps plastic out of the biosphere while generating brikcoins and enabling communities to build green.</div> 
-
-
 <!--<div class="knack-data">-->
 <div class="welcome-news">
 	Join us on the road of plastic transition and sequestration.
 	<!--<div id="knack-dist_39"><div class="blink">Loading Today's Data...</div></div>-->
 	</div>
-	</div>
+
 
 	
 	<div class="social-buttons-box">
