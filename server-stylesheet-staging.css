@@ -679,23 +679,7 @@ min-height: 350px;}
 	-webkit-animation-fill-mode:forwards;
 }
 
-/*
-#load-spacer {height:600px;
-position: relative;}
 
-
-	-webkit-animation-delay: 0s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;
-
-
-	-webkit-animation-delay: 3s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;*/
 
 #gobrik-footer { 
 	z-index: -5;
@@ -758,12 +742,12 @@ position: relative;}
   	margin:0px;
   	background-color: #252b4d;
   	margin-top: -10px;
-  	font-family: 'Mulish', sans-serif;
+  	
 	
 }
 
 .footer-quote-padding {
-	padding: 10px 16px 25px 16px;
+	padding: 12px 16px 10px 16px;
 	font-size: 14px;
 	line-height: 1.6em;
 	-webkit-animation-delay: 5s !important;
@@ -771,11 +755,13 @@ position: relative;}
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
+	font-family: 'Arvo', serif !important;
 }
 
 .footer-links {
-	padding-bottom: 16px;
-	font-size: 16px;
+	padding: 16px 10px 10px 16px;
+	font-size: 15px;
+	font-family: 'mulish', sans-serif !important;
 }
 
 
@@ -792,6 +778,7 @@ position: relative;}
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
+	font-family: 'mulish', sans-serif !important;
 }
 
 #footer a:link {
