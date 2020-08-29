@@ -742,12 +742,14 @@ min-height: 350px;}
   	margin:0px;
   	background-color: #252b4d;
   	margin-top: -10px;
+	text-align: center !important;
 	
 		-webkit-animation-delay: 2s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
+	
 }
 
 .footer-quote {
@@ -790,13 +792,14 @@ min-height: 350px;}
 	font-family: 'mulish', sans-serif !important;
 }
 
-#footer a:link {
+
+/*#footer a:link {
 	color:#C3E0EC;
 }
 
 .footer-links a {
 	color: #fff !important;
-}
+}*/
 
 
 
