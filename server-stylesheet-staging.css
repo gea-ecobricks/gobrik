@@ -742,8 +742,12 @@ min-height: 350px;}
   	margin:0px;
   	background-color: #252b4d;
   	margin-top: -10px;
-  	
 	
+		-webkit-animation-delay: 2s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 .footer-quote {
@@ -752,7 +756,7 @@ min-height: 350px;}
 	line-height: 1.6em;
 	font-family: 'Arvo', serif !important;
 	
-	-webkit-animation-delay: 1s !important;
+	-webkit-animation-delay: 3s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
@@ -765,7 +769,7 @@ min-height: 350px;}
 	font-size: 15px;
 	font-family: 'mulish', sans-serif !important;
 	
--webkit-animation-delay: 3s !important;
+-webkit-animation-delay: 5s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
