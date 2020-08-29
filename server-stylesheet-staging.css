@@ -746,17 +746,18 @@ min-height: 350px;}
 	
 }
 
-.footer-quote-padding {
+.footer-quote {
 	padding: 12px 16px 10px 16px;
 	font-size: 14px;
 	line-height: 1.6em;
 	font-family: 'Arvo', serif !important;
 	
-	-webkit-animation-delay: 3s !important;
+	-webkit-animation-delay: 1s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
+	
 }
 
 .footer-links {
@@ -764,7 +765,7 @@ min-height: 350px;}
 	font-size: 15px;
 	font-family: 'mulish', sans-serif !important;
 	
-	-webkit-animation-delay: 5s !important;
+-webkit-animation-delay: 3s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
