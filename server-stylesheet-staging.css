@@ -1,6 +1,6 @@
 /*
 GoBrik.com Server Side CSS File
-Version: 1.2
+Version: 1.3
 Description: This CSS file is called by the knack script and accompanies our custom knack CSS file and default knack css file.  We have access to the knack custom css file on the knack builder and we are in the process of migrating all the established css from this file to here.  The Default knack css file we do not have access to, and we must overide its css here in order to customize the GoBrik.com appearance.
 Orginal Author:  Russell Maier
 License: GNU General Public License v2 or later
@@ -15,6 +15,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 
+	0.	Onboarding
 	1.   	New Dashboard
 	2.   	Logins
    	3.	Navigation Bar
@@ -25,6 +26,249 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 	8. 	Notifications
 	9. 	Needs Review
 	10.  	New
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. ONBOARDING
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
+
+
+/* EMAIL SIGN UP STEP 1*/
+
+#view_300 {
+	background: rgba(256, 256, 256, 0.7);
+  	position: relative;
+	z-index: 1;
+	padding-top: 0px;
+	box-shadow: 0px 0px 10px grey;
+	border-radius: 10px;
+ 	text-align: center;
+} 
+
+ @media screen and (max-width: 770px) {
+   #view_300 {
+ 	 margin: auto;
+     	padding: 0px 14px 20px 14px;
+   }
+}
+
+    @media screen and (min-width: 771px) {
+   #view_300 {
+   	  padding-bottom: 50px;
+      }
+}
+
+#view_300 .control a {
+	text-decoration: underline !important;
+}
+
+#view_5041 {text-align: left !important;}
+
+
+
+/*LOGIN WITH NEW ACCOUNT > WELCOME SET UP YOUR ACCOUNT*/
+
+  
+#view_433 {
+  
+background: rgba(256, 256, 256, 0.7);
+position: relative;
+z-index: 1;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+    text-align: center;
+  margin-top: 0px;
+  padding-bottom: 750px;
+  }
+
+#view_612 {margin-top: -740px;
+position: relative;
+z-index: 2;
+}
+
+ @media screen and (max-width: 770px) {
+   #view_612 {
+     padding-right: 14px;
+     padding-left: 14px;
+   }
+}
+
+    @media screen and (min-width: 771px) {
+   #view_612 .kn-description{
+     margin-right: 10%;
+     margin-left: 10%;
+     margin-bottom: 10px;
+      }
+}
+
+
+/* REGISTRATION FLOW */
+
+/*Underline on terms of agreement text and justify left
+
+#kn-scene_1560 .control a, .kn-table th a {
+  text-decoration: underline;}
+
+#kn-scene_1560 {text-align: left;}*/
+
+
+
+/* PULL UP LOGIN AND ONBOARDING FOOTERS */
+
+/*#kn-scene_106 {margin-bottom: -400px !important;}*/
+
+#kn-scene_79 {margin-bottom: -200px !important;}
+
+
+/*STEP 2 LOGIN */
+
+#view_1389 {
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  text-align: center;
+
+}
+
+
+ @media screen and (max-width: 770px) {
+   #view_1389 {
+  margin: auto;
+     padding: 60px 12px 60px 12px;
+     min-height: 700px;
+       margin-top: -30px;
+   }
+}
+
+    @media screen and (min-width: 771px) {
+   #view_1389 {
+  margin: auto;
+     padding-bottom: 80px;
+     padding-top: 30px;
+      }
+}
+
+
+
+
+/*STEP 1 REGISTRATION
+
+Just clouds now*/
+
+
+/*COMPLETED REGISTRATION*/
+
+#view_1020 {   /*with community*/
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 15px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  text-align: center;
+
+} 
+
+ @media screen and (max-width: 770px) {
+   #view_1020 {
+  margin: auto;
+     padding: 0px 14px 20px 14px;
+       padding-bottom: 220px;
+   }
+}
+
+    @media screen and (min-width: 771px) {
+   #view_1020 {
+     margin-bottom: 30px;
+       padding-bottom: 220px;
+      }
+}
+
+#view_5316 {   /*no community*/
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 15px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  text-align: center;
+
+} 
+
+ @media screen and (max-width: 770px) {
+   #view_5316 {
+  margin: auto;
+     padding: 0px 14px 20px 14px;
+       padding-bottom: 220px;
+   }
+}
+
+    @media screen and (min-width: 771px) {
+   #view_5316 {
+     margin-bottom: 30px;
+       padding-bottom: 220px;
+      }
+}
+
+#view_5314 {
+  margin-top: -235px;
+
+  position: relative;
+  z-index: 2;
+}
+
+#kn-scene_300 div.kn-view:nth-child(3)  {  padding-top: 100px;
+  margin-bottom: -400px;
+position: relative;
+z-index: 3;}
+
+
+
+
+
+
+
+
+
+
+/* WELCOME MESSAGE BOX */
+
+#view_2715 {  /*home*/
+  padding: 17px;
+background: #c3f8ff;
+border-color:#b0e5eb;
+border: 6px;
+ border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+  }
+
+
+#view_5315 {  /*new-home*/
+  padding: 17px;
+background: #c3f8ff;
+border-color:#b0e5eb;
+border: 6px;
+ border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+  position: relative;
+  z-index: 2;
+  color: white !important;
+  padding-bottom: 100px;
+  }
+
+#view_5270 { /*got-it button*/
+  margin-top: -100px;
+padding-bottom: 50px;
+position: relative;
+z-index: 3;
+}
+
 
 	
 
@@ -1022,6 +1266,22 @@ background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
 /* -------------------------------------------------------------------------- */
 
 
+/*top space for pop up menu title*/
+h1.modal-card-title {height: 35px !important;
+padding-left: 5px !important;}
+
+/*underline terms of agreement links*/
+.control .kn-instructions a {text-decoration: underline;}
+
+/*enlarge checkboxes on a all forms*/
+
+input[type='checkbox'] {
+
+    width:15px;
+    height:15px;
+    border-radius:5px;
+    border:2px solid #555;
+}
 
 .search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {
    border: 1px solid #00D6FF !important;}
