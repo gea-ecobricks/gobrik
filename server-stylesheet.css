@@ -1,6 +1,6 @@
 /*
 GoBrik.com Server Side CSS File
-Version: 1.0
+Version: 1.1
 Description: This CSS file is called by the knack script and accompanies our custom knack CSS file and default knack css file.  We have access to the knack custom css file on the knack builder and we are in the process of migrating all the established css from this file to here.  The Default knack css file we do not have access to, and we must overide its css here in order to customize the GoBrik.com appearance.
 Orginal Author:  Russell Maier
 License: GNU General Public License v2 or later
@@ -15,211 +15,59 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 
-	0. 	CSS Reset
-	1. 	Document Setup
-	2. 	Element Base
-	3.	Buttons
-	4.      Forms
-	5.	Specific Pages
+	1.   	Landing Logins
+	2.   	Navigation Bar
+   	3.	Needs Review
+	4. 	TYPOGRAPHY
+	5. 	Document Setup
+	6. 	Element Base
+	7.	Buttons
+	8.      Forms
+	9. 	Notifications
 
 	
 
-NEEDS REVIEW----------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. NEW DASHBAORD
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 
-.kn-map .kn-view {
-  
-     border-radius: 3px;
-    -moz-border-radius: 5px; 
-    -webkit-border-radius: 5px; 
-  	border: 2px;
+
+
+/* DASHBOARD */
+
+/*Slider*/
+
+
+#view_5282 {
+
+  width: 700px;
+  max-width: 100%;
+padding: 50px 18px 4px 15px;
+   border-radius: 8px;
+  min-height: 700px;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+  margin: auto;
+    margin-top: -120px;
+  margin-bottom: 50px;
+    position: relative;
+  z-index: 0;
+border: 1px #ddd;
+	background: url('/svgs/slider-loader.svg') center no-repeat, #fff;
 }
 
 
-#need-account .control {
-
-    text-align: center !important;
-}
-
-#need-account {
-  display: none;}
-
-#need-account {
-
-   	margin-bottom: -32px;
-  	margin-top: 30px;
-  	text-align: center !important;
-}
-
-
-
-
-.kn-label-left {
-  background-color: #e8f4f9;
-}
-
-/* NAVIGATION BAR  */
-
-.kn-content .kn-navigation-bar {
-  display: none !important;
-}
-
-.kn-mobile-controls {
-	display: block !important;
-}
-
-
-#kn-mobile-menu.is-visible {
-	left: 0 !important;
-  
-}
-
-
-
-
-.logo-img  {
-    display: block !important;
-  margin: auto !important;
-    text-align: center !important;
-  margin-right: 36px !important;
-}
-
-
-#knack-logo {
-	padding: 0.35em 0 !important;
-}
-
-
-.kn-message, .kn-notification, .notification {
-
-    -webkit-border-radius: 9px !important;
-  -moz-border-radius: 9px !important;
-    box-shadow: 0px 2px 5px #939393;
-    border-width: 2px 2px 2px 12px;
-   border-style: solid;
-   border-color: #6ba3ff;
-
-    background-color: #f4fcfc;
-  color: #191919 !important;
-  background-image: linear-gradient(#e2e2e2, #ededed);
-  text-shadow: 0 1px 2px white;
-  font-size: 16px;
-  padding: 20px;
-      margin-bottom: -100px;
-  z-index: 1;
-  margin-right: 10px;
-  margin-left: 10px;
-  
-}
-
-
-
-.is-confirmation {	
-  
-     border-color: #00f200;
-  
-}
-
-.is-warning {
-  
-     border-color: #ff7400;
-  
-}
-
-
-.is-alert {
-  
-     border-color: #ff0000;
-  
-}	
-
-
-.highcharts-container {
-/*position: c;*/
- overflow: hidden; overflow-y:hidden; overflow-x:hidden; 
-width: 100% !important;
-height: 350px;
-text-align: center !important;
-line-height: normal;
-z-index: 0;
-left: 0px;
-top: 0px;
-  
-}
-
-
-.label.kn-label.kn-required.label-135 {
-    display: block !important;
-  margin: auto !important;
- 
-}
-
-
-
-
-.et_pb_text_align_left  {
-  
-  text-align: center !important;
-  display: block !important;
-  margin: auto !important; 
-}
-
-
-.kn-menu .control {  text-align: center !important;
-margin-bottom: 0px;
-  margin-top: 0px !important;
-}
-
-
-#knack-logo {text-align: center;
-  margin-left: -10px;
-}
-
-#knack-logo img {
-width: 145px;}
-
-#knack-logo {
-  display:block !important;
-}
-
-
-#kn-app-menu {
-  display:block !important;
-}
-
-
-.kn-sso-container {
-  display: none !important;
-}
-
-
-  
-.modal-card-title {text-align: left !important;
-	font-size: 16px !important;
-	font-family: 'ubuntu', sans-serif;
-  font-weight: 400;
-  padding-top: 10px !important;
-  padding-bottom: 0px !important;
-  margin-left: -5px;
-    color: grey !important;
-  
-}
-
-
-
-/* Remove scroll on members pop up */
-
-.kn-page-modal .kn-details-group { overflow: hidden; overflow-y:hidden; }
-
-.kn-entries-summary {text-align: center;}
-
+#view_5282 h6 {display: none !important;}
 
 
 
 
 /* -------------------------------------------------------------------------- */
 
-/*	000. LOGIN UNIVERSAL
+/*	2. LOGINS
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
 
@@ -286,6 +134,386 @@ border-radius: 10px;
 
 
 
+
+
+/*FORMATTING FOR MAIN HOME PAGE LOGIN*/
+
+#view_5266 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+#view_5288  {   /*social buttons under login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+
+#view_5288 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+
+/*LOGIN FOR OFFSET PAGE  eventually can be merged with BOOM login */
+
+
+#view_5006 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+#view_5026  {   /*social buttons under offset login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+#view_5026 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+/*LOGIN FOR REGEN SHOP*/
+
+#view_3465 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+
+#view_5080  {   /*social buttons under offset login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+#view_5080 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+
+
+/* LOGIN BOOM PAGE */
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+
+#view_5266,  {
+	max-width: 500px; !important;
+  }
+#view_5288 {
+  max-width: 500px; !important;
+  }
+
+  }
+  
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	000. NAVIGATION BAR
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
+
+
+
+
+
+.kn-content .kn-navigation-bar {
+  display: none !important;
+}
+
+.kn-mobile-controls {
+	display: block !important;
+}
+
+
+#kn-mobile-menu.is-visible {
+	left: 0 !important;
+  
+}
+
+#knack-logo {text-align: center;
+  margin-left: -10px;
+}
+
+#knack-logo img {
+width: 145px;}
+
+#knack-logo {
+  display:block !important;
+}
+
+.logo-img  {
+    display: block !important;
+  margin: auto !important;
+    text-align: center !important;
+  margin-right: 36px !important;
+}
+
+
+#knack-logo {
+	padding: 0.35em 0 !important;
+}
+
+
+/* Positions the side menu to the left and top */
+.kn-mobile-controls  {
+	z-index: 10;
+}
+
+#kn-mobile-menu a {
+	text-align: left;
+}
+
+#kn-app-header {
+	margin-top: -65px;
+}
+
+.kn-info-bar {
+
+	
+  background-image: -webkit-linear-gradient(top, #b3b3b3, #8f8f8f);
+  background-image: -moz-linear-gradient(top, #b3b3b3, #8f8f8f);
+  background-image: -ms-linear-gradient(top, #b3b3b3, #8f8f8f);
+  background-image: -o-linear-gradient(top, #b3b3b3, #8f8f8f);
+  background-image: linear-gradient(to bottom, #b3b3b3, #8f8f8f);
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	color: #fff;
+	position: relative;
+	z-index: 2;
+}
+
+.kn-info-bar a {color: #fff;}
+	
+#header {  
+	padding-top: 10px;
+	padding-bottom: 5px;
+	z-index: 3;
+	position: relative;
+	background: white;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	
+	/*-webkit-animation-delay: 3s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;*/
+	
+}
+
+#kn-app-menu {
+	display: none !important;}
+
+
+
+.kn-menu .control {  text-align: center !important;
+margin-bottom: 0px;
+  margin-top: 0px !important;
+}
+
+
+
+.kn-sso-container {
+  display: none !important;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	00. NEEDS REVIEW
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
+
+
+
+
+
+.kn-map .kn-view {
+  
+     border-radius: 3px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+  	border: 2px;
+}
+
+
+
+
+
+
+
+/*
+
+.highcharts-container {
+
+ overflow: hidden; overflow-y:hidden; overflow-x:hidden; 
+width: 100% !important;
+height: 350px;
+text-align: center !important;
+line-height: normal;
+z-index: 0;
+left: 0px;
+top: 0px;
+  
+}
+
+*/
+
+.label.kn-label.kn-required.label-135 {
+    display: block !important;
+  margin: auto !important;
+ 
+}
+
+
+
+
+.et_pb_text_align_left  {
+  
+  text-align: center !important;
+  display: block !important;
+  margin: auto !important; 
+}
+
+
+
+
+  
+.modal-card-title {text-align: left !important;
+	font-size: 16px !important;
+	font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+  margin-left: -5px;
+    color: grey !important;
+  
+}
+
+
+
+/* Remove scroll on members pop up */
+
+.kn-page-modal .kn-details-group { overflow: hidden; overflow-y:hidden; }
+
+.kn-entries-summary {text-align: center;}
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	0. TYPOGRAPHY
+/* -------------------------------------------------------------------------- */
+
+
+p {
+	font-family: 'Mulish', sans-serif !important;
+	font-size: 15px !important;
+	font-weight: 300 !important;
+	-webkit-font-smoothing: antialiased !important;
+	line-height: 1.5em !important;
+
+}
+
+b {	font-weight: 400;}
+
+strong {font-weight: 400;}
+
+
+h1 {
+	font-size: 28px !important;
+	font-family: 'Mulish', sans-serif !important;
+      text-align: center !important;
+	  line-height: 1.2 !important;
+	text-shadow: 0px 0px 10px #fff !important;
+	 font-weight: 300 !important;
+}
+
+h2 {
+	font-size: 30px !important;
+    font-family: 'Arvo', Georgia, serif !important;
+    text-align: center !important;
+	  line-height: 1.3 !important;
+	 font-weight: 400 !important;
+	text-shadow: 0px 0px 10px #fff !important;
+}
+
+h3 {
+    font-size: 20px !important;
+font-family:'Mulish', sans-serif; !important;
+    text-align: center !important;
+  line-height: 1.4 !important;
+    font-weight: 300 !important;
+	
+}
+
+h4 {
+	font-size: 15px !important;
+	font-family: 'Mulish', sans-serif !important;
+    text-align: center !important;
+          line-height: 1.4 !important;
+	    font-weight: 300 !important;
+
+}
+
+h5 {
+	font-size: 14px !important;
+    font-family: 'Arvo', serif;
+    text-align: center !important;
+  line-height: 1.3 !important;
+
+}
+
+h6 {
+	font-size: 12px !important;
+	font-family: 'Mulish', sans-serif !important;
+    text-align: center !important;
+  line-height: 1.4 !important;
+    font-weight: 300 !important;
+
+}
+
+
 /* -------------------------------------------------------------------------- */
 
 /*	1. Document Setup
@@ -306,8 +534,11 @@ height: 100%;
 	body {
 		background: url(/svgs/top-clouds.svg) center top repeat-x;
     		box-sizing: border-box;
-		background-size: 730px;}
+		background-size: 1028px;}
 }
+
+
+
 	
 @media screen and (min-width: 100px) and (max-width: 768px) {
 	body {
@@ -320,44 +551,10 @@ height: 100%;
 
 body {
 	
-	-webkit-animation-delay: 0s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;
 }
 
 
 
-
-/* Positions the side menu to the left and top */
-.kn-mobile-controls  {
-	z-index: 10;
-}
-
-#kn-mobile-menu a {
-	text-align: left;
-}
-
-#kn-app-header {
-	margin-top: -60px;
-}
-
-#header {  
-	padding-top: 10px;
-	padding-bottom: 5px;
-	z-index: 3;
-	position: relative;
-	background: white;
-	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
-	
-	-webkit-animation-delay: 3s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;
-	
-}
 
 
 
@@ -488,7 +685,7 @@ min-height: 350px;}
 }
 
 .footer-quote {
-	padding: 25px 16px 10px 16px;
+	padding: 20px 16px 10px 16px;
 	font-size: 14px;
 	line-height: 1.6em;
 	font-family: 'mulish', sans-serif !important;
@@ -528,87 +725,16 @@ min-height: 350px;}
 }
 
 
-
-/* -------------------------------------------------------------------------- */
-
-/*	2. Element Base
-/* ---------------------------------------------*---------------------------- */
-p {
-	font-family: 'ubuntu',Arial, Helvetica Neue, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-	-webkit-font-smoothing: antialiased;
-  /*text-align: center;*/
-
-	line-height: 1.5em;
-
+/*#footer a:link {
+	color:#C3E0EC;
 }
 
-b {	font-weight: 400;}
+.footer-links a {
+	color: #fff !important;
+}*/
 
-strong {font-weight: 400;}
 
 
-h1 {
-	font-size: 18px !important;
-	font-family: 'ubuntu', Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif
-  /*padding-bottom: 0px !important;*/
-      text-align: center !important;
-}
-
-h2 {
-	font-size: 26px !important;
-    font-family: 'Arvo', Arial Black, Arial Bold, Gadget, sans-serif;
-    text-align: center !important;
-    /*padding-left: 1px !important;    
-  padding-right: 1px !important;
-    padding-top: 0px !important;
-  margin-top: -5px !important;
-  margin-bottom: 0px !important;*/
-}
-
-h3 {
-	font-size: 19px;
-          font-family: 'Arvo', Georgia, serif;
-    line-height: 1.2em !important;
-   /* padding-left: 10px !important;    
-  padding-right: 10px !important;*/
-
-}
-
-h4 {
-	font-size: 18px !important;
-	font-family: 'ubuntu', Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
-    text-align: center !important;
-          line-height: 1.4 !important;
-   /* padding-left: 7px !important;    
-  padding-right: 7px !important;
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;*/
-
-}
-
-h5 {
-	font-size: 32px !important;
-    font-family: 'Arvo', serif;
-    text-align: center !important;
-  line-height: 32px !important
-    /*padding-left: 1px !important;    
-  padding-right: 1px !important;
-    padding-bottom: 0px !important;
-      padding-top: 0px !important;*/
-
-}
-
-h6 {
-	font-size: 12px !important;
-	font-family: 'ubuntu', Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-      text-align: center !important;
-	line-height: 1.5em;
-
-}
 
 
 /* -------------------------------------------------------------------------- */
@@ -616,8 +742,217 @@ h6 {
 /*	3. BUTTONS
 /* -------------------------------------------------------------------------- */
 
-/*Main Knack Button
- font-family: 'Arvo', serif !important;*/
+
+
+/*NEW BOOM SOCIAL BUTTONS*/
+
+
+
+.social-button {
+	  background-position: 25px 0px;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+	  line-height: 50px;
+    text-align: left;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    vertical-align: middle;
+
+	  border-radius: 8px;
+    margin: 8px auto;
+    outline: rgb(255, 255, 255) none 0px;
+    padding-left: 12%;
+  padding-right: 22px;
+  width: 80%;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+font-family: Sans-serif;
+  font-weight: 400;
+  letter-spacing: .3px;
+}
+
+
+
+#gobrik-connect {
+    background: rgb(255, 255, 255) url('https://www.ecobricks.org/wp-content/uploads/2020/07/GoBrik-Emblem-blue-100px.png') no-repeat scroll 13px 9px / 20px 31px padding-box border-box;
+    border: 2px solid #00c3e9;
+}
+
+#gobrik-connect:hover {
+	  border-color: #00c3e9;
+	  background: #00c3e9 url('https://www.ecobricks.org/wp-content/uploads/2020/07/GoBrik-Emblem-white-100px.png') no-repeat scroll 13px 9px / 20px 31px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#gobrik-connect span {
+	  box-sizing: border-box;
+    color: #00c3e9;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#gobrik-connect:hover span {
+	  color: #FFF;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+
+#facebook-connect {
+    background: rgb(255, 255, 255) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/facebook.svg?sanitize=true') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+    border: 1px solid rgb(60, 90, 154);
+}
+
+#facebook-connect:hover {
+	  border-color: rgb(60, 90, 154);
+	  background: rgb(60, 90, 154) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/facebook-white.svg?sanitize=true') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#facebook-connect span {
+	  box-sizing: border-box;
+    color: rgb(60, 90, 154);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(255, 255, 255);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#facebook-connect:hover span {
+	  color: #FFF !important;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#google-connect {
+    background: rgb(255, 255, 255) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+    border: 1px solid rgb(220, 74, 61);
+}
+
+#google-connect:hover {
+	  border-color: rgb(220, 74, 61);
+	  background: rgb(220, 74, 61) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus-white.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#google-connect span {
+	  box-sizing: border-box;
+    color: rgb(220, 74, 61);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#google-connect:hover span {
+	  color: #FFF;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#new-account {
+
+  
+  border-color: rgb(0, 161, 242);
+	 
+background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
+  text-shadow: 0px 0px 6px #fff;
+  box-shadow: 0px 0px 6px #ddd;
+   background: #00a1f2 url('https://cdn.ecobricks.org/wp-content/uploads/2020/07/LIGHTNING.png') no-repeat scroll 15px 5px / 20px padding-box border-box;
+  
+}
+
+#new-account:hover {
+	  
+      background: rgb(255, 255, 255) url('https://www.ecobricks.org/wp-content/uploads/2020/07/LIGHTNING-blue.png') no-repeat scroll 15px 5px / 20px padding-box border-box;
+    border: 1px solid rgb(0, 161, 242);
+  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+
+
+#new-account span {
+	  box-sizing: border-box;
+    color: rgb(0, 119, 181);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(0, 119, 181);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  	  color: #FFF;
+}
+
+#new-account:hover span {
+	  color: #00a1f2;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
 
 /* GO VALIDATE BUTTON */
 
@@ -650,6 +985,9 @@ h6 {
 }
 
 
+/*Main Knack Button
+ font-family: 'Arvo', serif !important;
+
 input.kn-button {
  
   font-family: 'ubuntu', sans-serif !important;
@@ -680,13 +1018,13 @@ input.kn-button:hover {
   background-image: linear-gradient(to bottom, #f07203, #eb8832);
   text-decoration: none;
 }
-
+*/
 
 
 /* Main Knack button - now blue */
 
 .kn-button.is-primary {
-  font-family: 'ubuntu', sans-serif !important;
+  font-family: 'mulish', sans-serif !important;
   display: block;
   margin: auto;
   background: #00a1f2;
@@ -704,6 +1042,7 @@ input.kn-button:hover {
   text-decoration: none !important;
   margin-top: 0px;
   margin-bottom: 0px;
+	font-weight: 700;
 }
 
 
@@ -1004,21 +1343,37 @@ input.kn-button:hover {
   	text-align:    center;}
 
 
+
 /* -------------------------------------------------------------------------- */
 
-/*	3. FORMS
+/*	4. FORMS
 /* -------------------------------------------------------------------------- */
-
 
 
 
 .search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {
-   border: 3px solid #00D6FF !important;}
+   border: 1px solid #00D6FF !important;}
 
 
 
  input[type=text], input[type=email], input[type=password]{
-   border: 3px solid #00D6FF!important;}
+   border: 2px solid #00D6FF!important;}
+
+/*.search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {*/
+
+.chzn-container-single .chzn-single {
+  
+      width: 100%;
+  height: 36px !important;;
+    padding: 8px 10px !important;;
+    margin: 4px 0;
+  font-size:18px !important;;
+    box-sizing: border-box;
+      border: 1px solid #00D6FF;
+    border-radius: 5px;
+      background-color: #ebf0fa;
+    color: #373A43;
+}
 
 
 
@@ -1027,19 +1382,26 @@ select {
 -webkit-appearance: none; 
 -moz-appearance: none;
 appearance: none;
--moz-border-radius: 5px;
--webkit-border-radius: 5px;
-border-radius: 5px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+/*background: url(https://gobrik.com/images/downarrow.png) no-repeat;*/
 background-position: right center;
 
-      border: 3px solid #00D6FF !important;
-    border-radius: 5px;
-      background-color: #ebf0fa;
+      border: 1px solid #00D6FF !important;
+    border-radius: 3px;
+      background-color: #c4efff;
     color: #373A43;
+	
+	  width: 100%;
+  height: 36px !important;
+    padding: 8px 10px;
+    margin: 4px 0;
+  font-size:18px !important;
 
 }
+/*
 
- 
 
 #view_612 select{       
   width: 100%;
@@ -1098,26 +1460,13 @@ background-position: right center;
     margin: 4px 0;
   font-size:18px;}
 
+*/
 
   input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
-    border: 4px solid #FF00FF !important;
+    border: 2px solid #FF00FF !important;
 }
 
- 
 
-.search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {
-  
-      width: 100%;
-  height: 100%;
-    padding: 8px 10px;
-    margin: 4px 0;
-  font-size:18px;
-    box-sizing: border-box;
-      border: 3px solid #00D6FF;
-    border-radius: 5px;
-      background-color: #ebf0fa;
-    color: #373A43;
-}
 
 
 input[type=text], input[type=email], input[type=password]{
@@ -1140,10 +1489,12 @@ input[type=text] .kn-equation  {
 border: hidden !important;
 }
 
- 
+ /*
   input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
-    border: 4px solid #FF00FF;
+    border: 2px solid #FF00FF;
 }
+
+*/
 
 .chzn-drop { font-size: 16px;}
 
@@ -1158,7 +1509,7 @@ border: hidden !important;
   height: 100%;
     padding: 2px 16px;
     margin: 2px 0;
-  font-size:13px !important;
+  font-size: 17px;  /*was 13*/
     box-sizing: border-box;
       border: 1px solid #DBDBDB !important;
     border-radius: 3px;
@@ -1225,158 +1576,61 @@ border: hidden !important;
 #field_1286 {padding: 5px 25px 5px 5px;}
 
 
-/* NEW PAGES  */
+
+/* -------------------------------------------------------------------------- */
+
+/*	5. NOTIFICATIONS
+/* -------------------------------------------------------------------------- */
 
 
-/*SOCIAL LOGIN BUTTON BOX*/
+.kn-message, .kn-notification, .notification {
 
-@media screen and (min-width: 769px) and (max-width: 2000px) {
+    -webkit-border-radius: 9px !important;
+  -moz-border-radius: 9px !important;
+    box-shadow: 0px 2px 5px #939393;
+    border-width: 2px 2px 2px 12px;
+   border-style: solid;
+   border-color: #6ba3ff;
 
-  #view_5292  {   
-    width: 50%;
-	margin-left: 25%;
- }}
-
-
-#view_5292 {
-margin-top: -10px ;
-      z-index: 10 !important;
-  position: relative;
-  margin: auto;
-  max-width: 500px;
-  min-width: 300px;
-
- }
-
-/*TREE & LOWER MESSAGE BOX*/
-
-  #view_5303 {
-
-      margin-top: -110px;
-      z-index: 5 !important;
-    position: relative;
-}
-@media screen and (min-width: 769px) and (max-width: 2000px) {
-  #view_5303 {
-    
-  margin-bottom: -100px;
-    max-width: 60% !important;
-margin-right: 20% !important;
-  margin-left: 20% !important;
-   
-  }}
+    background-color: #f4fcfc;
+  color: #191919 !important;
+  background-image: linear-gradient(#e2e2e2, #ededed);
+  text-shadow: 0 1px 2px white;
+  font-size: 16px;
+  padding: 20px;
+      margin-bottom: -100px;
+  z-index: 1;
+  margin-right: 10px;
+  margin-left: 10px;
   
-  @media screen and (max-width: 770px) {
-  #view_5303 {
-  margin-bottom: 50px;
-
-    }}
-
-
-
-/*FORMATTING FOR MAIN HOME PAGE LOGIN*/
-
-#view_5266 {  /*login view - when ready transfer to all logings*/
-
-background: rgba(256, 256, 256, 0.7);
-  position: relative;
-z-index: 1;
-padding-top: 100px;
-box-shadow: 0px 0px 10px grey;
-border-radius: 10px;
-  margin-top: -143px;
-  padding-bottom: 480px;
-  text-align: center;
-}
-
-#view_5288  {   /*social buttons under login view*/
-
-  position: relative;
-  z-index: 4;
-  margin: auto;
-  max-width: 500px;
-  min-width: 300px;
-text-align: center;
-margin-top: -485px;
-  margin-bottom: -250px;
-}
-
-#view_5288 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
-
-
-/*LOGIN FOR OFFSET PAGE  eventually can be merged with BOOM login */
-
-
-#view_5006 {  /*login view - when ready transfer to all logings*/
-
-background: rgba(256, 256, 256, 0.7);
-  position: relative;
-z-index: 1;
-padding-top: 100px;
-box-shadow: 0px 0px 10px grey;
-border-radius: 10px;
-  margin-top: -143px;
-  padding-bottom: 480px;
-  text-align: center;
-}
-
-#view_5026  {   /*social buttons under offset login view*/
-
-  position: relative;
-  z-index: 4;
-  margin: auto;
-  max-width: 500px;
-  min-width: 300px;
-text-align: center;
-margin-top: -485px;
-  margin-bottom: -250px;
-}
-#view_5026 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
-
-/*LOGIN FOR REGEN SHOP*/
-
-#view_3465 {  /*login view - when ready transfer to all logings*/
-
-background: rgba(256, 256, 256, 0.7);
-  position: relative;
-z-index: 1;
-padding-top: 100px;
-box-shadow: 0px 0px 10px grey;
-border-radius: 10px;
-  margin-top: -143px;
-  padding-bottom: 480px;
-  text-align: center;
 }
 
 
-#view_5080  {   /*social buttons under offset login view*/
 
-  position: relative;
-  z-index: 4;
-  margin: auto;
-  max-width: 500px;
-  min-width: 300px;
-text-align: center;
-margin-top: -485px;
-  margin-bottom: -250px;
-}
-#view_5080 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
-
-
-
-
-/* LOGIN BOOM PAGE */
-
-@media screen and (min-width: 769px) and (max-width: 2000px) {
-
-#view_5266,  {
-	max-width: 500px; !important;
-  }
-#view_5288 {
-  max-width: 500px; !important;
-  }
-
-  }
+.is-confirmation {	
   
+     border-color: #00f200;
+  
+}
 
+.is-warning {
+  
+     border-color: #ff7400;
+  
+}
+
+
+.is-alert {
+  
+     border-color: #ff0000;
+  
+}	
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	6. NEW
+/* ---------------------------------------------*---------------------------- */
 
