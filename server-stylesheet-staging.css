@@ -15,15 +15,16 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 
-	1.   	Landing Logins
-	2.   	Navigation Bar
-   	3.	Needs Review
-	4. 	TYPOGRAPHY
+	1.   	New Dashboard
+	2.   	Logins
+   	3.	Navigation Bar
+	4. 	Typography
 	5. 	Document Setup
-	6. 	Element Base
-	7.	Buttons
-	8.      Forms
-	9. 	Notifications
+	6.	Buttons
+	7.      Forms
+	8. 	Notifications
+	9. 	Needs Review
+	10.  	New
 
 	
 
@@ -227,7 +228,7 @@ margin-top: -485px;
 
 /* -------------------------------------------------------------------------- */
 
-/*	2. NAVIGATION BAR
+/*	3. NAVIGATION BAR
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
 
@@ -280,7 +281,7 @@ width: 145px;}
 }
 
 #kn-app-header {
-	margin-top: -69px;
+	margin-top: -70px;
 }
 
 .kn-info-bar {
@@ -334,64 +335,9 @@ margin-bottom: 0px;
 
 
 
-
 /* -------------------------------------------------------------------------- */
 
-/*	00. NEEDS REVIEW
-/* -------------------------------------------------------------------------- */
------------------------------------------------------------------------------ */
-
-
-.kn-map .kn-view {
-  
-     border-radius: 3px;
-    -moz-border-radius: 5px; 
-    -webkit-border-radius: 5px; 
-  	border: 2px;
-}
-
-
-
-.label.kn-label.kn-required.label-135 {
-    display: block !important;
-  margin: auto !important;
- 
-}
-
-/*
-.et_pb_text_align_left  {
-  
-  text-align: center !important;
-  display: block !important;
-  margin: auto !important; 
-}
-
-.modal-card-title {text-align: left !important;
-	font-size: 16px !important;
-	font-family: 'ubuntu', sans-serif;
-  font-weight: 400;
-  padding-top: 10px !important;
-  padding-bottom: 0px !important;
-  margin-left: -5px;
-    color: grey !important;
-  
-}
-
-*/
-
-/* Remove scroll on members pop up */
-
-.kn-page-modal .kn-details-group { overflow: hidden; overflow-y:hidden; }
-
-.kn-entries-summary {text-align: center;}
-
-
-
-
-
-/* -------------------------------------------------------------------------- */
-
-/*	0. TYPOGRAPHY
+/*	4. TYPOGRAPHY
 /* -------------------------------------------------------------------------- */
 
 
@@ -461,7 +407,7 @@ h6 {
 
 /* -------------------------------------------------------------------------- */
 
-/*	1. Document Setup
+/*	5. Document Setup
 /* -------------------------------------------------------------------------- */
 
 
@@ -668,14 +614,10 @@ min-height: 350px;}
 
 /* -------------------------------------------------------------------------- */
 
-/*	3. BUTTONS
+/*	6. BUTTONS
 /* -------------------------------------------------------------------------- */
 
-
-
 /*NEW BOOM SOCIAL BUTTONS*/
-
-
 
 .social-button {
 	  background-position: 25px 0px;
@@ -1275,7 +1217,7 @@ input.kn-button:hover {
 
 /* -------------------------------------------------------------------------- */
 
-/*	4. FORMS
+/*	7. FORMS
 /* -------------------------------------------------------------------------- */
 
 
@@ -1508,7 +1450,7 @@ border: hidden !important;
 
 /* -------------------------------------------------------------------------- */
 
-/*	5. NOTIFICATIONS
+/*	8. NOTIFICATIONS
 /* -------------------------------------------------------------------------- */
 
 
@@ -1558,8 +1500,66 @@ border: hidden !important;
 
 
 
+
 /* -------------------------------------------------------------------------- */
 
-/*	6. NEW
+/*	9. NEEDS REVIEW
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
+
+
+.kn-map .kn-view {
+  
+     border-radius: 3px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+  	border: 2px;
+}
+
+
+
+.label.kn-label.kn-required.label-135 {
+    display: block !important;
+  margin: auto !important;
+ 
+}
+
+/*
+.et_pb_text_align_left  {
+  
+  text-align: center !important;
+  display: block !important;
+  margin: auto !important; 
+}
+
+.modal-card-title {text-align: left !important;
+	font-size: 16px !important;
+	font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+  margin-left: -5px;
+    color: grey !important;
+  
+}
+
+*/
+
+/* Remove scroll on members pop up */
+
+.kn-page-modal .kn-details-group { overflow: hidden; overflow-y:hidden; }
+
+.kn-entries-summary {text-align: center;}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	10. NEW
 /* ---------------------------------------------*---------------------------- */
 
