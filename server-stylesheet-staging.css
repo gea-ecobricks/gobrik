@@ -401,12 +401,11 @@ p {
 	font-weight: 300 !important;
 	-webkit-font-smoothing: antialiased !important;
 	line-height: 1.5em !important;
-
 }
 
-b {	font-weight: 400;}
+b {	font-weight: 400 !important;}
 
-strong {font-weight: 400;}
+strong {font-weight: 400 !important;}
 
 
 h1 {
@@ -419,7 +418,7 @@ h1 {
 }
 
 h2 {
-	font-size: 30px !important;
+	font-size: 28px !important;
     font-family: 'Arvo', Georgia, serif !important;
     text-align: center !important;
 	  line-height: 1.3 !important;
@@ -433,7 +432,6 @@ font-family:'Mulish', sans-serif; !important;
     text-align: center !important;
   line-height: 1.4 !important;
     font-weight: 300 !important;
-	
 }
 
 h4 {
@@ -442,15 +440,14 @@ h4 {
     text-align: center !important;
           line-height: 1.4 !important;
 	    font-weight: 300 !important;
-
 }
+
 
 h5 {
 	font-size: 14px !important;
     font-family: 'Arvo', serif;
     text-align: center !important;
   line-height: 1.3 !important;
-
 }
 
 h6 {
@@ -459,7 +456,6 @@ h6 {
     text-align: center !important;
   line-height: 1.4 !important;
     font-weight: 300 !important;
-
 }
 
 
@@ -485,26 +481,12 @@ height: 100%;
     		box-sizing: border-box;
 		background-size: 1028px;}
 }
-
-
-
-	
 @media screen and (min-width: 100px) and (max-width: 768px) {
 	body {
 		background: url(/svgs/top-clouds-mobile.svg) center top repeat-x;
     		box-sizing: border-box;
 		background-size: 100%;}
 }
-
-
-
-body {
-	
-}
-
-
-
-
 
 
 #knack-body {
@@ -525,10 +507,8 @@ body {
 	max-width: 960px !important;
 }
 }
-
 .kn-scenes {margin-bottom: -350px !important;
 min-height: 350px;}
-
 }
 }
 
@@ -567,8 +547,8 @@ min-height: 350px;}
 	margin-bottom: 0px;
 	position: bottom;
 	position: relative;
+	  	background-color: #252b4d;
 }
-
 
   @media screen and (min-width: 100px) and (max-width: 979px) {
     #background-footer-desktop {display: none;}}
