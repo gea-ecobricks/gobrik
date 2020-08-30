@@ -493,7 +493,7 @@ min-height: 350px;}
 	margin-bottom: 0px;
 	position: bottom;
 	position: relative;
-	  	background-color: #252b4d;
+	  	
 }
 
   @media screen and (min-width: 100px) and (max-width: 979px) {
@@ -550,13 +550,6 @@ min-height: 350px;}
   	background-color: #252b4d;
   	margin-top: -10px;
 	text-align: center !important;
-	
-		-webkit-animation-delay: 2s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;
-	
 }
 
 .footer-quote {
@@ -565,12 +558,11 @@ min-height: 350px;}
 	line-height: 1.6em;
 	font-family: 'mulish', sans-serif !important;
 	
-	-webkit-animation-delay: 3s !important;
+	-webkit-animation-delay: 2s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
-	
 }
 
 .footer-links {
@@ -578,7 +570,7 @@ min-height: 350px;}
 	font-size: 15px;
 	font-family: 'mulish', sans-serif !important;
 	
--webkit-animation-delay: 5s !important;
+-webkit-animation-delay: 4s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
@@ -591,23 +583,13 @@ min-height: 350px;}
 	line-height: 1.4em;
 	padding: 10px 16px 10px 16px;
 	
-	-webkit-animation-delay: 6s !important;
+	-webkit-animation-delay: 5s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
 	-webkit-animation-fill-mode:forwards;
 	font-family: 'mulish', sans-serif !important;
 }
-
-
-/*#footer a:link {
-	color:#C3E0EC;
-}
-
-.footer-links a {
-	color: #fff !important;
-}*/
-
 
 
 
