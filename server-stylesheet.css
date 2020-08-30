@@ -294,9 +294,11 @@ width: 145px;}
 	margin-top: -60px;
 }
 
-.kn-info-bar {
+/*HIDE info bar on v9.4. index */
 
-	
+#scene_447 .kn-info-bar {display: none;}
+
+.kn-info-bar {
   background-image: -webkit-linear-gradient(top, #b3b3b3, #8f8f8f);
   background-image: -moz-linear-gradient(top, #b3b3b3, #8f8f8f);
   background-image: -ms-linear-gradient(top, #b3b3b3, #8f8f8f);
@@ -306,11 +308,11 @@ width: 145px;}
 	color: #fff;
 	position: relative;
 	z-index: 2;
-	display: none;
 }
 
 .kn-info-bar a {color: #fff;}
 	
+
 
 
 #kn-app-menu {
