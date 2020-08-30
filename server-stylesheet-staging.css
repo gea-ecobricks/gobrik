@@ -1,6 +1,6 @@
 /*
 GoBrik.com Server Side CSS File
-Version: 1.2
+Version: 1.1
 Description: This CSS file is called by the knack script and accompanies our custom knack CSS file and default knack css file.  We have access to the knack custom css file on the knack builder and we are in the process of migrating all the established css from this file to here.  The Default knack css file we do not have access to, and we must overide its css here in order to customize the GoBrik.com appearance.
 Orginal Author:  Russell Maier
 License: GNU General Public License v2 or later
@@ -71,9 +71,6 @@ border: 1px #ddd;
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
 
-
-
-
 /*MAIN LOGIN FORMATTING*/
 
  @media screen and (max-width: 770px) {
@@ -97,8 +94,6 @@ margin-right: 25% !important;
   display: none !important;}
 
 
-
-
 #need-account .control {
 
     text-align: center !important;
@@ -114,8 +109,6 @@ margin-right: 25% !important;
   	text-align: center !important;
 }
 
-
-
 .kn-login-form {margin: auto;}
 
 .kn-table {
@@ -125,16 +118,9 @@ border-radius: 10px;
 
 }
 
-
-
-
 .kn-label-left {
   background-color: #e8f4f9;
 }
-
-
-
-
 
 /*FORMATTING FOR MAIN HOME PAGE LOGIN*/
 
@@ -241,85 +227,12 @@ margin-top: -485px;
   
 
 
-
-
 /* -------------------------------------------------------------------------- */
 
-/*	000. NAVIGATION BAR
+/*	2. NAVIGATION BAR
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
 
-
-
-
-
-.kn-content .kn-navigation-bar {
-  display: none !important;
-}
-
-.kn-mobile-controls {
-	display: block !important;
-}
-
-
-#kn-mobile-menu.is-visible {
-	left: 0 !important;
-  
-}
-
-#knack-logo {text-align: center;
-  margin-left: -10px;
-}
-
-#knack-logo img {
-width: 145px;}
-
-#knack-logo {
-  display:block !important;
-}
-
-.logo-img  {
-    display: block !important;
-  margin: auto !important;
-    text-align: center !important;
-  margin-right: 36px !important;
-}
-
-
-#knack-logo {
-	padding: 0.35em 0 !important;
-}
-
-
-/* Positions the side menu to the left and top */
-.kn-mobile-controls  {
-	z-index: 10;
-}
-
-#kn-mobile-menu a {
-	text-align: left;
-}
-
-#kn-app-header {
-	margin-top: -65px;
-}
-
-.kn-info-bar {
-
-	
-  background-image: -webkit-linear-gradient(top, #b3b3b3, #8f8f8f);
-  background-image: -moz-linear-gradient(top, #b3b3b3, #8f8f8f);
-  background-image: -ms-linear-gradient(top, #b3b3b3, #8f8f8f);
-  background-image: -o-linear-gradient(top, #b3b3b3, #8f8f8f);
-  background-image: linear-gradient(to bottom, #b3b3b3, #8f8f8f);
-	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
-	color: #fff;
-	position: relative;
-	z-index: 2;
-}
-
-.kn-info-bar a {color: #fff;}
-	
 #header {  
 	padding-top: 10px;
 	padding-bottom: 5px;
@@ -335,6 +248,74 @@ width: 145px;}
 	-webkit-animation-fill-mode:forwards;*/
 	
 }
+
+.kn-content .kn-navigation-bar {
+  display: none !important;
+}
+
+.kn-mobile-controls {
+	display: block !important;
+}
+
+#kn-mobile-menu.is-visible {
+	left: 0 !important;
+}
+
+#knack-logo {text-align: center;
+  margin-left: -10px;
+}
+
+#knack-logo img {
+width: 145px;}
+
+#knack-logo {
+  display:block !important;
+  padding: 0.35em 0 !important;
+}
+
+.logo-img  {
+    display: block !important;
+  margin: auto !important;
+    text-align: center !important;
+  margin-right: 36px !important;
+}
+
+
+/* Positions the side menu to the left and top */
+.kn-mobile-controls  {
+	z-index: 10;
+}
+
+#kn-mobile-menu a {
+	text-align: left;
+}
+
+#kn-app-header {
+	margin-top: -60px;
+}
+
+#scene_79 #kn-app-header {display: none;}
+
+/*HIDE info bar on v9.4. index */
+
+#scene_447 .kn-info-bar {display: none;}
+
+.kn-info-bar {
+  background-image: -webkit-linear-gradient(top, #b3b3b3, #8f8f8f);
+  background-image: -moz-linear-gradient(top, #b3b3b3, #8f8f8f);
+  background-image: -ms-linear-gradient(top, #b3b3b3, #8f8f8f);
+  background-image: -o-linear-gradient(top, #b3b3b3, #8f8f8f);
+  background-image: linear-gradient(to bottom, #b3b3b3, #8f8f8f);
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	color: #fff;
+	position: relative;
+	z-index: 2;
+}
+
+.kn-info-bar a {color: #fff;}
+	
+
+
 
 #kn-app-menu {
 	display: none !important;}
