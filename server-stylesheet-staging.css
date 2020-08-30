@@ -1,6 +1,6 @@
 /*
 GoBrik.com Server Side CSS File
-Version: 1.0
+Version: 1.2
 Description: This CSS file is called by the knack script and accompanies our custom knack CSS file and default knack css file.  We have access to the knack custom css file on the knack builder and we are in the process of migrating all the established css from this file to here.  The Default knack css file we do not have access to, and we must overide its css here in order to customize the GoBrik.com appearance.
 Orginal Author:  Russell Maier
 License: GNU General Public License v2 or later
@@ -15,92 +15,124 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 
-	0000.   Landing page
-	000.    Navigation Bar
-   	00.	Needs Review
-	0. 	TYPOGRAPHY
-	1. 	Document Setup
-	2. 	Element Base
-	3.	Buttons
-	4.      Forms
-	5. 	Notifications
+	1.   	Landing Logins
+	2.   	Navigation Bar
+   	3.	Needs Review
+	4. 	TYPOGRAPHY
+	5. 	Document Setup
+	6. 	Element Base
+	7.	Buttons
+	8.      Forms
+	9. 	Notifications
 
 	
 
 
 /* -------------------------------------------------------------------------- */
 
-/*	000. LANDING PAGE
+/*	1. NEW DASHBAORD
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
 
 
-/* BOOM LANDING */
-
-/*@media screen and (min-width: 769px) and (max-width: 2000px) { */
 
 
-/*top graphic*/
-#view_5264 {
-  margin-top: -20px;
-margin-bottom: 25px;}
+/* DASHBOARD */
+
+/*Slider*/
 
 
-#welcome-news {
-    font-size: 20px !important;
-font-family: font-family: 'Niramit', sans-serif; !important;
-    text-align: center !important;
-  line-height: 1.4 !important;
-  position: relative;
-  z-index: 5;
-    font-weight: 300;
-  margin: 37px 5px 3px 5px;}
-}
+#view_5282 {
 
-
-/*SOCIAL LOGIN BUTTON BOX*/
-
-@media screen and (min-width: 769px) and (max-width: 2000px) {
-
-  #view_5292  {   
-    width: 50%;
-	margin-left: 25%;
- }}
-
-
-#view_5292 {
-margin-top: -10px ;
-      z-index: 10 !important;
-  position: relative;
+  width: 700px;
+  max-width: 100%;
+padding: 50px 18px 4px 15px;
+   border-radius: 8px;
+  min-height: 700px;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
   margin: auto;
-  max-width: 500px;
-  min-width: 300px;
-
- }
-
-/*TREE & LOWER MESSAGE BOX*/
-
-  #view_5303 {
-
-      margin-top: -110px;
-      z-index: 5 !important;
-    position: relative;
-}
-@media screen and (min-width: 769px) and (max-width: 2000px) {
-  #view_5303 {
-    
-  margin-bottom: -100px;
-    max-width: 60% !important;
-margin-right: 20% !important;
-  margin-left: 20% !important;
-   
-  }}
-  
-  @media screen and (max-width: 770px) {
-  #view_5303 {
+    margin-top: -120px;
   margin-bottom: 50px;
+    position: relative;
+  z-index: 0;
+border: 1px #ddd;
+	background: url('/svgs/slider-loader.svg') center no-repeat, #fff;
+}
 
-    }}
+
+#view_5282 h6 {display: none !important;}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	2. LOGINS
+/* -------------------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
+
+
+
+
+/*MAIN LOGIN FORMATTING*/
+
+ @media screen and (max-width: 770px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 80% !important;
+margin-right: 10% !important;
+  margin-left: 10% !important;
+   }}
+
+    @media screen and (min-width: 771px) {
+   .kn-login-form {
+  margin: auto;
+    max-width: 50% !important;
+margin-right: 25% !important;
+  margin-left: 25% !important;
+      }}
+
+/*centers login by removing right side empty column from knack SSO formating*/
+.kn-content .column.is-1 {
+  display: none !important;}
+
+
+
+
+#need-account .control {
+
+    text-align: center !important;
+}
+
+#need-account {
+  display: none;}
+
+#need-account {
+
+   	margin-bottom: -32px;
+  	margin-top: 30px;
+  	text-align: center !important;
+}
+
+
+
+.kn-login-form {margin: auto;}
+
+.kn-table {
+border-radius: 10px;
+  margin-right:0px;
+  padding-right: 0px;
+
+}
+
+
+
+
+.kn-label-left {
+  background-color: #e8f4f9;
+}
+
+
 
 
 
@@ -207,106 +239,6 @@ margin-top: -485px;
 
   }
   
-
-
-
-/* DASHBOARD */
-
-/*Slider*/
-
-
-#view_5282 {
-
-  width: 700px;
-  max-width: 100%;
-padding: 50px 18px 4px 15px;
-   border-radius: 8px;
-  min-height: 700px;
-      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
-  margin: auto;
-    margin-top: -120px;
-  margin-bottom: 50px;
-    position: relative;
-  z-index: 0;
-border: 1px #ddd;
-	background: url('/svgs/slider-loader.svg') center no-repeat, #fff;
-}
-
-
-#view_5282 h6 {display: none !important;}
-
-
-
-
-/* -------------------------------------------------------------------------- */
-
-/*	000. LOGIN UNIVERSAL
-/* -------------------------------------------------------------------------- */
------------------------------------------------------------------------------ */
-
-
-
-
-/*MAIN LOGIN FORMATTING*/
-
- @media screen and (max-width: 770px) {
-   .kn-login-form {
-  margin: auto;
-    max-width: 80% !important;
-margin-right: 10% !important;
-  margin-left: 10% !important;
-   }}
-
-    @media screen and (min-width: 771px) {
-   .kn-login-form {
-  margin: auto;
-    max-width: 50% !important;
-margin-right: 25% !important;
-  margin-left: 25% !important;
-      }}
-
-/*centers login by removing right side empty column from knack SSO formating*/
-.kn-content .column.is-1 {
-  display: none !important;}
-
-
-
-
-#need-account .control {
-
-    text-align: center !important;
-}
-
-#need-account {
-  display: none;}
-
-#need-account {
-
-   	margin-bottom: -32px;
-  	margin-top: 30px;
-  	text-align: center !important;
-}
-
-
-
-.kn-login-form {margin: auto;}
-
-.kn-table {
-border-radius: 10px;
-  margin-right:0px;
-  padding-right: 0px;
-
-}
-
-
-
-
-.kn-label-left {
-  background-color: #e8f4f9;
-}
-
-
-
 
 
 
