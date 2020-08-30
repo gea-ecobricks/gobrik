@@ -294,6 +294,8 @@ width: 145px;}
 	margin-top: -60px;
 }
 
+#scene_79 #kn-app-header {display: none;}
+
 /*HIDE info bar on v9.4. index */
 
 #scene_447 .kn-info-bar {display: none;}
