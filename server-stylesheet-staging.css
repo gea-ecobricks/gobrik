@@ -303,8 +303,11 @@ padding: 50px 18px 4px 15px;
 border: 1px #ddd;
 	background: url('/svgs/slider-loader.svg') center no-repeat, #fff;
 }
+
 /*hide residual slider view text*/
-#view_5282 h6 {display: none !important;}
+#view_5282 h6 {
+	display: none !important;
+}
 
 
 
@@ -525,7 +528,8 @@ width: 145px;}
 }
 
 #kn-app-header {
-	margin-top: -70px;
+	margin-top: -65px;
+	padding-bottom: 0px;
 }
 
 .kn-info-bar {
@@ -737,6 +741,13 @@ min-height: 350px;}
 	margin-bottom: 0px;
 	position: bottom;
 	position: relative;
+	
+		
+	-webkit-animation-delay: 1s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
 	  	
 }
 
