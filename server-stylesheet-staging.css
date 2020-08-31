@@ -529,7 +529,6 @@ width: 145px;}
 
 #kn-app-header {
 	margin-top: -65px;
-	padding-bottom: 0px;
 }
 
 .kn-info-bar {
@@ -743,7 +742,7 @@ min-height: 350px;}
 	position: relative;
 	
 		
-	-webkit-animation-delay: 1s !important;
+	-webkit-animation-delay: 2s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
@@ -805,6 +804,12 @@ min-height: 350px;}
   	background-color: #252b4d;
   	margin-top: -10px;
 	text-align: center !important;
+		
+	-webkit-animation-delay: 2s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 .footer-quote {
