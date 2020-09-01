@@ -280,8 +280,8 @@ z-index: 3;
 ----------------------------------------------------------------------------- */
 
 #view_3340 .kn-table {
-    background-color: #fff;
-	margin-top: -30px;
+    background-color: #fff !important;
+	margin-top: -50px !important;
 }
 
 
