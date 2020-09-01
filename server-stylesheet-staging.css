@@ -279,7 +279,9 @@ z-index: 3;
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
 
-
+#view_3340 .kn-label-left {
+    background-color: #fff;
+	margin-top: -30px;}
 
 
 /* DASHBOARD */
@@ -543,6 +545,7 @@ width: 145px;}
 	color: #fff;
 	position: relative;
 	z-index: 2;
+	margin-top: 4px;
 }
 
 .kn-info-bar a {color: #fff;}
