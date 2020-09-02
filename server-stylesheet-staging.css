@@ -680,13 +680,13 @@ height: 100%;
 @media screen and (min-width: 100px) and (max-width: 768px) {
 	body {
 		background: url(/svgs/top-clouds-mobile.svg) center top repeat-x;
-    		/*box-sizing: border-box;*/
+    		box-sizing: border-box;
 		background-size: 100%;
 }
 }
 
 body { 	
-		background-color: #f5fcff;
+		background-color: #f9feff;
 	
 }
 
