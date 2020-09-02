@@ -684,6 +684,13 @@ height: 100%;
 }
 }
 
+body { 	-webkit-animation-delay: 2s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.3s;
+	-webkit-animation-duration:0.3s;
+	-webkit-animation-fill-mode:forwards;
+}
+
 
 #knack-body {
 	z-index: 0;
@@ -695,11 +702,6 @@ height: 100%;
 	margin-left: 0px;
 	margin-right: 0px;
 	
-			-webkit-animation-delay: 2s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.3s;
-	-webkit-animation-duration:0.3s;
-	-webkit-animation-fill-mode:forwards;
 }
 
 
