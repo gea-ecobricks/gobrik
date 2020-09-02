@@ -671,15 +671,15 @@ height: 100%;
 
 @media screen and (min-width: 769px) and (max-width: 2000px) {
 	body {
-		background: url(/svgs/top-clouds.svg) center top repeat-x #f5fcff, ;
+		background: url(/svgs/top-clouds.svg) center top repeat-x, #f5fcff, ;
     		box-sizing: border-box;
 		background-size: 1028px;
 	}
 }
 @media screen and (min-width: 100px) and (max-width: 768px) {
 	body {
-		background: url(/svgs/top-clouds-mobile.svg) center top repeat-x #f5fcff;
-    		box-sizing: border-box;
+		background: url(/svgs/top-clouds-mobile.svg) center top repeat-x, #f5fcff;
+    		/*box-sizing: border-box;*/
 		background-size: 100%;
 }
 }
@@ -718,7 +718,7 @@ min-height: 350px;}
 
 
 .grey-bottle { 
-	z-index: -10;	
+	z-index: 100;	
 	position: fixed;
  	 left: 0px;
  	 top: 0px;
@@ -729,6 +729,11 @@ min-height: 350px;}
     	box-sizing: border-box;
 	 background-size: 30px;
 		
+		-webkit-animation-delay: 0s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.1s;
+	-webkit-animation-duration:0.1s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 .loader { 
@@ -743,7 +748,7 @@ min-height: 350px;}
     	box-sizing: border-box;
 	 background-size: 30px;
 		
-	-webkit-animation-delay: 0s !important;
+	-webkit-animation-delay: 2s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 1s;
 	-webkit-animation-duration:1s;
