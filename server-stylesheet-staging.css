@@ -671,14 +671,14 @@ height: 100%;
 
 @media screen and (min-width: 769px) and (max-width: 2000px) {
 	body {
-		background: url(/svgs/top-clouds.svg) center top repeat-x, #f5fcff, ;
+		background: url(/svgs/top-clouds.svg) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 1028px;
 	}
 }
 @media screen and (min-width: 100px) and (max-width: 768px) {
 	body {
-		background: url(/svgs/top-clouds-mobile.svg) center top repeat-x, #f5fcff;
+		background: url(/svgs/top-clouds-mobile.svg) center top repeat-x;
     		/*box-sizing: border-box;*/
 		background-size: 100%;
 }
@@ -694,6 +694,12 @@ height: 100%;
 	padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
+	
+			-webkit-animation-delay: 2s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.3s;
+	-webkit-animation-duration:0.3s;
+	-webkit-animation-fill-mode:forwards;
 }
 
 
@@ -718,14 +724,14 @@ min-height: 350px;}
 
 
 .grey-bottle { 
-	z-index: 100;	
+	z-index: -100;	
 	position: fixed;
  	 left: 0px;
  	 top: 0px;
  	 width: 100%;
  	 height: 90%;
   	background: url('/svgs/grey-bottle.svg') center no-repeat;
-	background-color: #fff;
+	background-color: #f5fcff;
     	box-sizing: border-box;
 	 background-size: 30px;
 		
@@ -748,10 +754,10 @@ min-height: 350px;}
     	box-sizing: border-box;
 	 background-size: 30px;
 		
-	-webkit-animation-delay: 2s !important;
+	-webkit-animation-delay: 2.6s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
+	-webkit-animation:fadeIn ease-in 0.3s;
+	-webkit-animation-duration:0.3s;
 	-webkit-animation-fill-mode:forwards;
 }
 
