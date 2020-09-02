@@ -685,6 +685,11 @@ height: 100%;
 }
 }
 
+body { 	
+		background-color: #f9feff;
+	
+}
+
 
 
 
@@ -697,7 +702,7 @@ height: 100%;
 	padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	background: transparent !important;
+	background: #f9feff !important;
 }
 
 
@@ -738,7 +743,7 @@ min-height: 350px;}
 	-webkit-animation:fadeIn ease-in 0.1s;
 	-webkit-animation-duration:2s;
 	-webkit-animation-fill-mode:forwards;
-	-webkit-animation:fadeOut ease-out 0.1s;
+	-webkit-animation:fadeOut ease-in 2s;
 }
 
 .loader { 
