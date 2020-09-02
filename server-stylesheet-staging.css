@@ -279,10 +279,7 @@ z-index: 3;
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
 
-#view_3340 .kn-table {
-    background-color: #fff !important;
-	margin-top: -50px !important;
-}
+
 
 
 /* DASHBOARD */
@@ -674,15 +671,17 @@ height: 100%;
 
 @media screen and (min-width: 769px) and (max-width: 2000px) {
 	body {
-		background: url(/svgs/top-clouds.svg) center top repeat-x, #f5fcff;
+		background: url(/svgs/top-clouds.svg) center top repeat-x, ;
     		box-sizing: border-box;
-		background-size: 1028px;}
+		background-size: 1028px;
+	  background-color: #f5fcff;}
 }
 @media screen and (min-width: 100px) and (max-width: 768px) {
 	body {
-		background: url(/svgs/top-clouds-mobile.svg) center top repeat-x, #f5fcff;
+		background: url(/svgs/top-clouds-mobile.svg) center top repeat-x;
     		box-sizing: border-box;
-		background-size: 100%;}
+		background-size: 100%;
+	background-color: #f5fcff;}
 }
 
 
@@ -725,8 +724,9 @@ min-height: 350px;}
  	 top: 0px;
  	 width: 100%;
  	 height: 90%;
-  	z-index: 9999;
+  	z-index: 100;
   	background: url('/svgs/grey-bottle.svg') center no-repeat;
+	background-color: #fff;
     	box-sizing: border-box;
 	 background-size: 30px;
 		
@@ -744,7 +744,7 @@ min-height: 350px;}
  	 top: 0px;
  	 width: 100%;
  	 height: 90%;
-  	z-index: 9999;
+  	z-index: 99;
   	background: url('/svgs/bottle-loader.svg') center no-repeat;
     	box-sizing: border-box;
 	 background-size: 30px;
