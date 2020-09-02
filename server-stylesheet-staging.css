@@ -666,8 +666,9 @@ h6 {
 
 html {
 height: 100%;
-
+	background-color: #f5fcff;
 }
+
 
 @media screen and (min-width: 769px) and (max-width: 2000px) {
 	body {
@@ -733,7 +734,7 @@ min-height: 350px;}
  	 width: 100%;
  	 height: 90%;
   	background: url('/svgs/grey-bottle.svg') center no-repeat;
-	background-color: #f5fcff;
+
     	box-sizing: border-box;
 	 background-size: 30px;
 		
