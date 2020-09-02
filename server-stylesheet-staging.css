@@ -666,7 +666,7 @@ h6 {
 
 html {
 height: 100%;
-	background-color: #f5fcff;
+
 }
 
 
@@ -685,11 +685,9 @@ height: 100%;
 }
 }
 
-body { 	-webkit-animation-delay: 2s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.3s;
-	-webkit-animation-duration:0.3s;
-	-webkit-animation-fill-mode:forwards;
+body { 	
+		background-color: #f5fcff;
+	
 }
 
 
@@ -741,8 +739,9 @@ min-height: 350px;}
 		-webkit-animation-delay: 0s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 0.1s;
-	-webkit-animation-duration:0.1s;
+	-webkit-animation-duration:2s;
 	-webkit-animation-fill-mode:forwards;
+	-webkit-animation:fadeIn ease-out 0.1s;
 }
 
 .loader { 
