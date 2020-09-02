@@ -685,10 +685,7 @@ height: 100%;
 }
 }
 
-body { 	
-		background-color: #f9feff;
-	
-}
+
 
 
 #knack-body {
@@ -700,7 +697,7 @@ body {
 	padding-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	background: transparent;
+	background: transparent !important;
 }
 
 
