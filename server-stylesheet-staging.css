@@ -293,6 +293,14 @@ z-index: 0;
 #vision {font-size: 18px;
   font-weight: 400;}
 
+
+/*Welcome Ecobricker*/
+#view_235 .kn-details-group {
+
+margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 /*Personal Stats*/
 
 
@@ -332,6 +340,23 @@ padding-right: 10px;
   background: #fff;
 
 }
+
+
+
+/* Community Leader Setting
+*/
+
+#view_1230  .control {
+  
+  text-align: center !important;
+margin-bottom: 0px;
+  margin-top: 0px !important;
+}
+
+#view_1230 .kn-button.kn-link{
+    background: #fff;}
+
+
 
 
 
