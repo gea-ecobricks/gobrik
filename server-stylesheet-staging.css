@@ -1,6 +1,6 @@
 /*
 GoBrik.com Server Side CSS File
-Version: 1.3
+Version: 1.4
 Description: This CSS file is called by the knack script and accompanies our custom knack CSS file and default knack css file.  We have access to the knack custom css file on the knack builder and we are in the process of migrating all the established css from this file to here.  The Default knack css file we do not have access to, and we must overide its css here in order to customize the GoBrik.com appearance.
 Orginal Author:  Russell Maier
 License: GNU General Public License v2 or later
@@ -156,7 +156,6 @@ border-radius: 10px;
 
 
 
-
 /*STEP 1 REGISTRATION
 
 Just clouds now*/
@@ -218,7 +217,6 @@ border-radius: 10px;
 
 #view_5314 {
   margin-top: -235px;
-
   position: relative;
   z-index: 2;
 }
@@ -227,14 +225,6 @@ border-radius: 10px;
   margin-bottom: -400px;
 position: relative;
 z-index: 3;}
-
-
-
-
-
-
-
-
 
 
 /* WELCOME MESSAGE BOX */
@@ -286,8 +276,8 @@ z-index: 3;
 
 
 #view_3340 .kn-table {
-    background-color: transparent !important;
-	margin-top: -55px !important;
+background-color: transparent !important;
+margin-top: -55px !important;
 position: relative;
 z-index: 0;
 }
@@ -298,7 +288,6 @@ z-index: 0;
  #view_3340 .kn-table 
   {margin-left: -25px;
   width: 112%;}
-  
 }
 
 #vision {font-size: 18px;
