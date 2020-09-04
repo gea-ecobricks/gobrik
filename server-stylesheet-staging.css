@@ -282,9 +282,72 @@ z-index: 3;
 
 
 
-/* DASHBOARD */
+/* OLD SLIDER */
 
-/*Slider*/
+
+#view_3340 .kn-table {
+    background-color: transparent !important;
+	margin-top: -55px !important;
+position: relative;
+z-index: 0;
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 769px) {
+ #view_3340 .kn-table 
+  {margin-left: -25px;
+  width: 112%;}
+  
+}
+
+#vision {font-size: 18px;
+  font-weight: 400;}
+
+/*Personal Stats*/
+
+
+#view_159 .kn-detail-label {
+  min-width: 50% !important;
+max-width: 50% !important;
+  text-align: right;
+padding-right: 10px;
+background: #fff;}
+
+#view_159 .kn-table { padding: 15px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+      border-style: solid;
+  border-width: 8px;
+  border-color: #d6f9ff;
+}
+
+
+/*Community Stats*/
+
+
+#view_655 .kn-table { padding: 15px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  border-color: #e6f9ff;
+}
+
+
+#view_655 .kn-detail-label {
+  min-width: 50% !important;
+max-width: 50% !important;
+  text-align: right;
+padding-right: 10px;
+  background: #fff;
+
+}
+
+
+
+
+/*NEW Slider*/
 
 
 #view_5282 {
@@ -1577,22 +1640,12 @@ border: hidden !important;
   margin: auto !important; 
 }
 
-.modal-card-title {text-align: left !important;
-	font-size: 16px !important;
-	font-family: 'ubuntu', sans-serif;
-  font-weight: 400;
-  padding-top: 10px !important;
-  padding-bottom: 0px !important;
-  margin-left: -5px;
-    color: grey !important;
-  
-}
+
 
 */
 
 /* Remove scroll on members pop up */
 
-.kn-page-modal .kn-details-group { overflow: hidden; overflow-y:hidden; }
 
 .kn-entries-summary {text-align: center;}
 
