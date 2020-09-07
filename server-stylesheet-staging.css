@@ -341,6 +341,16 @@ padding-right: 10px;
 
 }
 
+/*Trainer panel*/
+
+#view_1189 .kn-table { padding: 15px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  border-color: #e6f9ff;
+}
+
 
 
 /* Community Leader Setting
