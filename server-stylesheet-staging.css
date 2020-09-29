@@ -707,12 +707,11 @@ min-height: 350px;}
 
 #offline { z-index: 1;
 	position: relative;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	top: 75px;
+	margin-top: 40px;
+	margin-bottom: -250px;
+/*	top: 75px;*/
 	padding: 10%;
 }
-
 
 .grey-bottle { 
 	z-index: 100;	
