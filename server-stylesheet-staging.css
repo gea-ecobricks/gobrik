@@ -705,8 +705,9 @@ min-height: 350px;}
 }
 }
 
-#offline { z-index: 1;
-	position: relative;
+#offline { 
+	/*z-index: 1;
+	position: relative;*/
 	margin-top: 40px;
 	margin-bottom: -250px;
 /*	top: 75px;*/
