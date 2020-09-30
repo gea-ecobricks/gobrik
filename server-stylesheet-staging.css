@@ -1,4 +1,4 @@
-/*
+d/*
 GoBrik.com Server Side CSS File
 Version: 1.4
 Description: This CSS file is called by the knack script and accompanies our custom knack CSS file and default knack css file.  We have access to the knack custom css file on the knack builder and we are in the process of migrating all the established css from this file to here.  The Default knack css file we do not have access to, and we must overide its css here in order to customize the GoBrik.com appearance.
@@ -275,27 +275,28 @@ z-index: 3;
 #knack-body {background-color: #f7fdff;}
 
 
-/*NEW Slider*/
 
 
-#view_5282 {
 
-  width: 700px;
-  max-width: 100%;
-padding: 50px 18px 4px 15px;
-   border-radius: 8px;
-  min-height: 700px;
-      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
-  margin: auto;
-    margin-top: -120px;
-  margin-bottom: 50px;
-    position: relative;
-  z-index: 0;
-border: 1px #ddd;
-	background: url('/svgs/slider-loader.svg') center no-repeat, #fff;
+/* WHITE PHOTO OF THE DAY PANEL */
+
+
+#view_3340 .kn-table {
+    background-color: transparent !important;
+	margin-top: -55px !important;
+position: relative;
+z-index: 0;
 }
 
+@media screen and (min-width: 0px) and (max-width: 769px) {
+ #view_3340 .kn-table 
+  {margin-left: -25px;
+  width: 112%;}
+  
+}
 
+#vision {font-size: 18px;
+  font-weight: 400;}
 
 
 
@@ -459,28 +460,26 @@ background: #fff;
 
 
 
+/*FEEDGRABBER Slider*/
 
-/* OLD SLIDER */
 
+#view_5282 {
 
-#view_3340 .kn-table {
-    background-color: transparent !important;
-	margin-top: -55px !important;
-position: relative;
-z-index: 0;
+  width: 700px;
+  max-width: 100%;
+padding: 50px 18px 4px 15px;
+   border-radius: 8px;
+  min-height: 700px;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+  margin: auto;
+    margin-top: -120px;
+  margin-bottom: 50px;
+    position: relative;
+  z-index: 0;
+border: 1px #ddd;
+	background: url('/svgs/slider-loader.svg') center no-repeat, #fff;
 }
 
-
-
-@media screen and (min-width: 0px) and (max-width: 769px) {
- #view_3340 .kn-table 
-  {margin-left: -25px;
-  width: 112%;}
-  
-}
-
-#vision {font-size: 18px;
-  font-weight: 400;}
 
 /*hide residual slider view text*/
 #view_5282 h6 {
