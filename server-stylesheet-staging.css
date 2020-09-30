@@ -272,14 +272,30 @@ z-index: 3;
 
 
 
+/*General interface background slightly off-white to make the white buttons and boxes show up better*/
+
 #knack-body {background-color: #f7fdff;}
+
+/*General table styling for dashboard- soon this could transfer to all tables*/
+
+#scene_18 .kn-table { 
+  padding: 18px;
+  margin-right: 18px;
+  margin-left: 18px;
+  box-shadow: 0px 2px 5px grey;
+  background: #fff;
+  border-style: solid;
+  border-width: 8px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
 
 
 /* WHITE PHOTO OF THE DAY PANEL */
 
 
 #view_3340 .kn-table {
-    	background-color: #fff !important;
+    	background-color: transparent !important;
 	margin-top: -55px !important;
 	position: relative;
 	z-index: 0;
@@ -295,7 +311,6 @@ z-index: 3;
 
 #vision {font-size: 18px;
   font-weight: 400;}
-
 
 
 
@@ -324,18 +339,6 @@ position: relative;
 z-index: 3;
 }
 
-#view_5315 {  /*new-home*/
-  padding: 17px;
-background: #c3f8ff;
-border-color:#b0e5eb;
-border: 6px;
- border-radius: 8px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
-  position: relative;
-  z-index: 2;
-  color: white !important;
-  padding-bottom: 100px;
-  }
 
 
 /* General Menu of to dashboard buttons
@@ -363,17 +366,6 @@ margin-bottom: 20px;
 #view_1230 {
   margin-bottom: 40px;}
 
-#scene_18 .kn-table { 
-  padding: 18px;
-  margin-right: 18px;
-  margin-left: 18px;
-  box-shadow: 0px 2px 5px grey;
-  background: #fff;
-  border-style: solid;
-  border-width: 8px;
-  margin-bottom: 25px;
-  margin-top: 25px;
-}
 
 
 
