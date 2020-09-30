@@ -52,9 +52,6 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 #knack-body {background-color: #f7fdff;}
 
 
-
-
-
 /* WHITE PHOTO OF THE DAY PANEL */
 
 
@@ -102,10 +99,6 @@ padding-bottom: 50px;
 position: relative;
 z-index: 3;
 }
-
-#view_2716 { /*close got it text*/
-	margin-bottom: 40px;}
-
 
 #view_5315 {  /*new-home*/
   padding: 17px;
