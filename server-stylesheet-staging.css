@@ -68,7 +68,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 /* WHITE PHOTO OF THE DAY PANEL */
 
 
-#view_3340 {
+#view_3340 .kn-table {
     	background-color: #fff !important;
 	margin-top: -55px !important;
 	position: relative;
@@ -173,7 +173,6 @@ background: #fff;}
 background: #fff;
     border-style: solid;
   border-width: 8px;
-  border-color: #d6f9ff;
   padding-bottom: 25px;
 }
 
