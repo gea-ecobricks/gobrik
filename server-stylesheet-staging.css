@@ -34,28 +34,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 /*	1. ONBOARDING
 /* -------------------------------------------------------------------------- */
 ----------------------------------------------------------------------------- */
-.kn-table {
-border-radius: 10px;
-  margin-right:0px;
-  padding-right: 0px;
 
-}
-
-.kn-label-left {
-  background-color: #fff;
-}
-
-
-/*three column offering styling*/
-
-.kn-label-left .kn-table .is-unbordered {
-  padding: 15px;
-  box-shadow: 0px 2px 5px grey !important; 
-background: #fff !important; 
-  border-style: solid !important; 
-  border-width: 8px !important; 
-  border-color: #d6f9ff !important; 
-}
 
 
 /* -------------------------------------------------------------------------- */
