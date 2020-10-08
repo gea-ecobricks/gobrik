@@ -398,9 +398,6 @@ margin-right: 25% !important;
   margin-left: 25% !important;
       }}
 
-/*centers login by removing right side empty column from knack SSO formating*/
-.kn-content .column.is-1 {
-  display: none !important;}
 
 
 #need-account .control {
