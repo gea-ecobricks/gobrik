@@ -41,11 +41,11 @@
 <meta name="msapplication-TileImage" content="https://www.gobrik.com/icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
-  <meta property="og:url"           content="https://www.gobrik.com">
+  <meta property="og:url"           content="https://www.gobrik.com/courses">
   <meta property="og:type"          content="website">
- <meta property="og:title"         content="GoBrik.com">
-  <meta property="og:description"   content="Secure your plastic by ecobricking! Together we can keep plastic from being a problem during Covid-19, make ecobricks and generate brikcoins." >
-  <meta property="og:image"         content="https://www.gobrik.com/images/fbbanner.png" >
+ <meta property="og:title"         content="Kursus | GoBrik">
+  <meta property="og:description"   content="Workshop Perkenalan Ecobrick Daring By Ani Himawati" >
+  <meta property="og:image"         content="https://www.gobrik.com/images/courses.png" >
   <meta property="fb:app_id"  content="1781710898523821" >
 
 <script type="text/javascript">
