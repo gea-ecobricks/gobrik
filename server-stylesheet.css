@@ -347,7 +347,7 @@ border-radius: 10px;
   text-align: center;
 }
 
-#view_5288  {   /*social buttons under login view*/
+#view_5854  {   /*social buttons under login view*/
 
   position: relative;
   z-index: 4;
@@ -359,7 +359,7 @@ margin-top: -485px;
   margin-bottom: -250px;
 }
 
-#view_5288 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+#view_5854 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
 
 
 /*LOGIN FOR OFFSET PAGE  eventually can be merged with BOOM login */
