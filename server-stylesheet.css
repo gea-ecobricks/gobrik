@@ -357,8 +357,10 @@ border-radius: 10px;
 text-align: center;
 margin-top: -215px;
   margin-bottom: -250px;
+	padding: 0px 10px 0px 15px;
 }
 
+/*
 #view_5854 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
 
 
