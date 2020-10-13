@@ -334,7 +334,7 @@ margin-right: 25% !important;
 
 /*FORMATTING FOR MAIN HOME PAGE LOGIN*/
 
-#view_5266 {  /*login view - when ready transfer to all logings*/
+#view_1373 {  /*login view - when ready transfer to all logings*/
 
 background: rgba(256, 256, 256, 0.7);
   position: relative;
@@ -347,7 +347,7 @@ border-radius: 10px;
   text-align: center;
 }
 
-#view_5854  {   /*social buttons under login view*/
+#view_5870  {   /*social buttons under login view*/
 
   position: relative;
   z-index: 4;
