@@ -1687,6 +1687,8 @@ border: hidden !important;
 .is-warning {
   
      border-color: #ff7400;
+	  	margin-top: -30px !important;
+	padding-top: 65px !important;
   
 }
 
@@ -1694,6 +1696,8 @@ border: hidden !important;
 .is-alert {
   
      border-color: #ff0000;
+	  	margin-top: -30px !important;
+	padding-top: 55px !important;
   
 }	
 
