@@ -1681,7 +1681,7 @@ border: hidden !important;
   
      border-color: #00f200;
   	margin-top: -30px !important;
-	padding-top: 45px;
+	padding-top: 45px !important;
 }
 
 .is-warning {
