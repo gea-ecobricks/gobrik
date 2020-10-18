@@ -1680,7 +1680,8 @@ border: hidden !important;
 .is-confirmation {	
   
      border-color: #00f200;
-  	margin-top: -28px !important;
+  	margin-top: -30px !important;
+	padding-top: 45px;
 }
 
 .is-warning {
