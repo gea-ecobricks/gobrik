@@ -260,7 +260,7 @@ z-index: 3;}
 
 /* WHITE PHOTO OF THE DAY PANEL */
 
-#view_3340 { margin-top: -85px !important;}
+#view_3340 { margin-top: -95px !important;}
 
 #view_3340 .kn-table {
     	background-color: #fff !important;
@@ -289,6 +289,7 @@ background: #fff;
 /*Welcome Ecobricker*/
 #view_235 .kn-details-group {
   margin-bottom: 0px;
+	margin-top: -14px;
 }
 
 /* WELCOME MESSAGE BOX for First time users only */
@@ -301,7 +302,7 @@ border: 6px;
  border-radius: 8px;
  
 	margin-top: -40px;
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 	
 	  box-shadow: 0px 2px 5px grey;
 
@@ -377,7 +378,7 @@ background: #fff;
   border-width: 8px;
   border-color: #d6f9ff;
   padding-bottom: 25px;
-
+margin-top: -10px;
 }
 
 
@@ -1679,7 +1680,7 @@ border: hidden !important;
 .is-confirmation {	
   
      border-color: #00f200;
-  	margin-top: -35px !important;
+  	margin-top: -28px !important;
 }
 
 .is-warning {
