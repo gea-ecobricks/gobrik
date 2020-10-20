@@ -1703,7 +1703,8 @@ border: hidden !important;
   z-index: 1;
   margin-right: 13px;
   margin-left: 13px;
-	position: absolute !important;
+position: absolute !important;
+	left:0; right:0;
   	
 }
 
@@ -1713,7 +1714,7 @@ border: hidden !important;
   
      border-color: #00f200;
   	margin-top: -26px !important;
-	padding-top: 95px !important;
+	padding-top: 15px !important;
 margin-bottom: -230px;
 }
 
