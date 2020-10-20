@@ -1681,7 +1681,7 @@ border: hidden !important;
   z-index: 1;
   margin-right: 15px;
   margin-left: 15px;
-	position: fixed;
+	position: fixed !important;
   	
 }
 
