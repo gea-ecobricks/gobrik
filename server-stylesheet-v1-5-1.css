@@ -720,7 +720,7 @@ width: 145px;}
 }
 
 #kn-app-header {
-	margin-top: -65px;
+	margin-top: -70px;
 	
 }
 
@@ -743,7 +743,7 @@ width: 145px;}
 	
 #header {  
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	z-index: 3;
 	position: relative;
 	background: white;
