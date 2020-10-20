@@ -274,10 +274,11 @@ background: #fff;
 	border-color: #fff;
 }
 
+
 @media screen and (min-width: 0px) and (max-width: 769px) {
  #view_3340 .kn-table 
-  {margin-left: -25px;
-  width: 112%;}
+  {/*margin-left: -25px;*/
+  width: 120%;}
   
 }
 
@@ -685,7 +686,7 @@ width: 145px;}
 }
 
 #kn-app-header {
-	margin-top: -70px;
+	margin-top: -75px;
 	
 }
 
