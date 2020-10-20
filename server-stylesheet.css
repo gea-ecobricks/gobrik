@@ -1679,7 +1679,7 @@ border: hidden !important;
   z-index: 1;
   margin-right: 10px;
   margin-left: 10px;
-  	margin-top: 35px;
+  	
 }
 
 
@@ -1689,6 +1689,7 @@ border: hidden !important;
      border-color: #00f200;
   	margin-top: -60px !important;
 	padding-top: 35px !important;
+	margin-top: 35px;
 }
 
 .is-warning {
