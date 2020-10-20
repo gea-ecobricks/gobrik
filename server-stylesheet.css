@@ -277,8 +277,8 @@ background: #fff;
 
 @media screen and (min-width: 0px) and (max-width: 769px) {
  #view_3340 .kn-table 
-  {/*margin-left: -25px;*/
-  width: 120%;}
+  {  margin-right: -8px;
+  margin-left: -8px;}
   
 }
 
@@ -686,7 +686,7 @@ width: 145px;}
 }
 
 #kn-app-header {
-	margin-top: -75px;
+	margin-top: -65px;
 	
 }
 
@@ -709,17 +709,11 @@ width: 145px;}
 	
 #header {  
 	padding-top: 10px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	z-index: 3;
 	position: relative;
 	background: white;
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
-	
-	/*-webkit-animation-delay: 3s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 1s;
-	-webkit-animation-duration:1s;
-	-webkit-animation-fill-mode:forwards;*/
 	
 }
 
