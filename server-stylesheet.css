@@ -259,7 +259,7 @@ z-index: 3;}
 
 /* WHITE PHOTO OF THE DAY PANEL */
 
-#view_3340 { margin-top: -80px !important;}
+#view_3340 { margin-top: -85px !important;}
 
 #view_3340 .kn-table {
     	background-color: #fff !important;
@@ -276,8 +276,8 @@ background: #fff;
 
 @media screen and (min-width: 0px) and (max-width: 769px) {
  #view_3340
-  {  margin-right: -25px;
-  margin-left: -25px;}
+  {  margin-right: -35px;
+  margin-left: -20px;}
   
 }
 
@@ -382,8 +382,8 @@ background: #fff;
   border-color: #d6f9ff;
   padding-bottom: 25px;
 margin-top: -10px;
-	  margin-right: 13px;
-  margin-left: 18px;
+	  margin-right: 18px;
+  margin-left: 13px;
 }
 
 
@@ -1691,9 +1691,9 @@ border: hidden !important;
 .is-confirmation {	
   
      border-color: #00f200;
-  	/*margin-top: -50px !important;*/
+  	margin-top: -70px !important;
 	padding-top: 85px !important;
-
+margin-bottom: -230px;
 }
 
 .is-warning {
