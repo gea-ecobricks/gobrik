@@ -1713,17 +1713,17 @@ position: absolute !important;
 .is-confirmation {	
   
      border-color: #00f200;
-  	margin-top: -26px !important;
-	padding-top: 95px !important;
-margin-bottom: -230px;
+  margin-top: -10px !important;
+	padding-top: 65px !important;
+margin-bottom: -10px;
 }
 
 .is-warning {
   
      border-color: #ff7400;
-	  	 	margin-top: -30px !important;
-	padding-top: 95px !important;
-margin-bottom: -230px;
+	  	 	margin-top: -10px !important;
+	padding-top: 65px !important;
+margin-bottom: -10px;
   
 }
 
@@ -1731,9 +1731,9 @@ margin-bottom: -230px;
 .is-alert {
   
      border-color: #ff0000;
-	 	margin-top: -30px !important;
-	padding-top: 95px !important;
-margin-bottom: -230px;
+	 	margin-top: -10px !important;
+	padding-top: 65px !important;
+margin-bottom: -10px;
   
 }	
 
