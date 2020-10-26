@@ -1713,7 +1713,7 @@ position: absolute !important;
 .is-confirmation {	
   
      border-color: #00f200;
-  margin-top: -10px !important;
+  margin-top: 3px !important;
 	padding-top: 65px !important;
 margin-bottom: -10px;
 }
