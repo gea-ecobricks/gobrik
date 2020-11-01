@@ -1708,7 +1708,13 @@ position: absolute !important;
   	
 }
 
-
+.is-error {	
+  
+     border-color: orange;
+  margin-top: -100px !important;
+	padding-top: 50px !important;
+margin-bottom: 20px;
+}
 
 .is-confirmation {	
   
