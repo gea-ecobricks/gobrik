@@ -257,7 +257,7 @@ z-index: 3;}
 }
 
 
-/* WHITE PHOTO OF THE DAY PANEL */
+/* WHITE PHOTO OF THE DAY PANEL 
 
 #view_3340 { margin-top: -96px !important;}
 
@@ -271,7 +271,9 @@ z-index: 3;}
 background: #fff;
   border-radius: 10px;
 	border-color: #fff;
-}
+}*/
+
+
 
 
 @media screen and (min-width: 0px) and (max-width: 769px) {
@@ -498,32 +500,6 @@ background: #fff;
 
 
 
-
-/*FEEDGRABBER Slider*/
-
-
-#view_5282 {
-
-  width: 700px;
-  max-width: 100%;
-padding: 50px 18px 4px 15px;
-   border-radius: 8px;
-  min-height: 700px;
-      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
-  margin: auto;
-    margin-top: -120px;
-  margin-bottom: 50px;
-    position: relative;
-  z-index: 0;
-border: 1px #ddd;
-	background: url('/svgs/slider-loader.svg') center no-repeat, #fff;
-}
-
-
-/*hide residual slider view text*/
-#view_5282 h6 {
-	display: none !important;
-}
 
 
 
