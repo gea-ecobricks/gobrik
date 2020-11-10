@@ -541,10 +541,10 @@ margin-right: 25% !important;
 background: rgba(256, 256, 256, 0.7);
   position: relative;
 z-index: 1;
-padding-top: 100px;
+padding-top: 18px;
 box-shadow: 0px 0px 10px grey;
 border-radius: 10px;
-  margin-top: -109px;
+  margin-top: -30px;
   padding-bottom: 200px;
   text-align: center;
 }
