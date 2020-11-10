@@ -1678,7 +1678,7 @@ border: hidden !important;
   margin-right: 13px;
   margin-left: 13px;
 position: absolute !important;
-	left:0; right:0;
+	left:0; right:0;  top: 0;
   	
 	/* padding: 20px;
       margin-bottom: -100px;*/
@@ -1687,9 +1687,9 @@ position: absolute !important;
 .is-error {	
   
      border-color: orange;
-  /*margin-top: -100px !important;
-	padding-top: 50px !important;
-margin-bottom: 20px;*/
+  margin-top: -120px !important;
+	padding-top: 100px !important;
+margin-bottom: 20px !important;
 }
 
 .is-confirmation {	
