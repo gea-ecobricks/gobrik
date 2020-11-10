@@ -1687,9 +1687,9 @@ position: absolute !important;
 .is-error {	
   
      border-color: orange;
-  margin-top: -120px !important;
+  margin-top: -50px !important;
 	padding-top: 100px !important;
-margin-bottom: 20px !important;
+margin-bottom: 50px !important;
 }
 
 .is-confirmation {	
