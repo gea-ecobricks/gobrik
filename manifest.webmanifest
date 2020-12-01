@@ -8,8 +8,20 @@
       "sizes": "192x192",
       "type": "image/png"
     }
+    
+      // ...
+    {
+      "src": "icons/android-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ],
   "name": "GoBrik Ecobrick App",
-  "short_name": "GoBrik",
-  "start_url": "/index.html"
+  "short_name": "GoBrik v2",
+  "start_url": "/index.html#home"
+    "display": "fullscreen",
+  "theme_color": "red",
+  "background_color": "red"
 }
+
+
