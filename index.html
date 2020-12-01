@@ -1,28 +1,26 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
-
 <html>
 
 <head>
+
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
+	<!-- This calls our GEA typography -->
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;700&display=swap" rel="stylesheet"> 
 
+	<!-- This calls our primary Github hosted stylesheet -->
 <link rel="stylesheet" type="text/css" href="/server-stylesheet-v1-5-1.css" />
   
+	<!-- This calls our webmanifest wich turns our page into a progress web app (PWA) -->
 <link rel="manifest" href="manifest.webmanifest">
 
+	<!-- This allows GoBrik to be used a PWA on iPhones -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1.8, target-densitydpi=160, maximum-scale=1, user-scalable = no">
 <meta name="apple-mobile-web-app-title" content="GoBrik">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-<title>GoBrik</title>
-<meta name="keywords" content="ecobricks, ecobrick, plastic solved, eco-brick, gobrik, bottle brick, plastic solution">
-<meta name="description" content="Secure your plastic by ecobricking! Together we can keep plastic from being a problem during Covid-19, make ecobricks and generate brikcoins.">
-
-
-
+	
 <link rel="apple-touch-icon" sizes="57x57" href="https://www.gobrik.com/icons/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="https://www.gobrik.com/icons/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="https://www.gobrik.com/icons/apple-icon-72x72.png">
@@ -36,10 +34,18 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.gobrik.com/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="https://www.gobrik.com/icons/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.gobrik.com/icons/favicon-16x16.png">
-
+	
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="https://www.gobrik.com/icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+
+	<!-- Meta tags for page display and search engine listing-->
+<title>GoBrik</title>
+<meta name="keywords" content="ecobricks, ecobrick, plastic solved, eco-brick, gobrik, bottle brick, plastic solution">
+<meta name="description" content="Secure your plastic by ecobricking! Together we can keep plastic from being a problem during Covid-19, make ecobricks and generate brikcoins.">
+	
+	
+	<!-- Facebook Open Graph Tags for social sharing-->
 
   <meta property="og:url"           content="https://www.gobrik.com">
   <meta property="og:type"          content="website">
@@ -48,7 +54,7 @@
   <meta property="og:image"         content="https://www.gobrik.com/images/fbbanner.png" >
   <meta property="fb:app_id"  content="1781710898523821" >
 	
-	
+	<!-- primary Knack Scripts -->
 
 <script type="text/javascript">
 app_id='5b8c28c2a1152679c209ce0c';
@@ -65,7 +71,8 @@ distribution_key="dist_42";
 </script>
 <script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_42/knack.js"></script>
  
-	
+	<!-- Add to homescreen javascript-->
+<script src="index.js" defer></script>
 
 
 <!-- Facebook script off
@@ -91,6 +98,7 @@ distribution_key="dist_42";
    }(document, 'script', 'facebook-jssdk'));
 </script>
 -->
+	
 <!-- Localise translation script-->
 <script src="https://global.localizecdn.com/localize.js"></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
@@ -103,7 +111,9 @@ distribution_key="dist_42";
   });
 </script>
 
- <style>
+	<!-- Our inline CSS for the first load of the index page so that we don't have to rely on the slower loading Knack CSS-->
+
+	<style>
 	
 	
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -331,7 +341,7 @@ margin-bottom: 20px;
 <h4>We're really sorry for the inconvenience.</h4><h5>  Check back tomorrow please!<h5>
 </div> <object type="image/svg+xml" data="/svgs/full-footer-nov.svg" width="100%"></object>
 -->
-
+<button class="add-button">Add to home screen</button>
 
  <div id="footer"><div id="background-footer-mobile"></div>
 
