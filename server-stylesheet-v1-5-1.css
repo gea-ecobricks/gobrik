@@ -158,7 +158,7 @@ label.option.checkbox a {text-decoration: underline;}
 
 
 
-#view_300, view_5901 {
+#view_300 {
 
 background: rgba(256, 256, 256, 0.7);
   position: relative;
@@ -177,12 +177,12 @@ border-radius: 10px;
 }
 
     @media screen and (min-width: 771px) {
-   #view_300, view_5901 {
+   #view_300 {
      padding-bottom: 50px;
       }
 }
 
-#view_300 .control a, view_5901 .control a {text-decoration: underline !important}
+#view_300 .control a {text-decoration: underline !important}
 
 #view_5041 {text-align: left !important}
 
