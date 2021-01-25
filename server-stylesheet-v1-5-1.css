@@ -992,7 +992,7 @@ min-height: 350px;}
 }
 
 #offline { 
-	/*z-index: 1;
+	z-index: 10;
 	position: relative;*/
 	margin-top: 40px;
 	margin-bottom: -250px;
