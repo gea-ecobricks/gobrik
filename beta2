@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+
+	<!-- This calls our GEA typography -->
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;700&display=swap" rel="stylesheet"> 
+
+	<!-- This calls our primary Github hosted stylesheet -->
+<link rel="stylesheet" type="text/css" href="/server-stylesheet-v1-5-1.css" />
+  
+	<!-- This calls our webmanifest wich turns our page into a progress web app (PWA) -->
+<link rel="manifest" href="manifest.webmanifest">
+	
+
+	<!-- ARC SCRIPT TEST-->
+	<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
+	
+
+	<!-- This allows GoBrik to be used a PWA on iPhones -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.8, target-densitydpi=160, maximum-scale=1, user-scalable = no">
+<meta name="apple-mobile-web-app-title" content="BETA GoBrik">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.gobrik.com/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.gobrik.com/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.gobrik.com/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.gobrik.com/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.gobrik.com/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.gobrik.com/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.gobrik.com/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.gobrik.com/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.gobrik.com/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://www.gobrik.com/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.gobrik.com/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://www.gobrik.com/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.gobrik.com/icons/favicon-16x16.png">
+	
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://www.gobrik.com/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+	
+	<!-- Launch screens for iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link href="https://www.gobrik.com/icons/splashes/apple_splash_2048.png" sizes="2048x2732" rel="apple-touch-startup-image" />
+<link href="https://www.gobrik.com/icons/apple_splash_1668.png" sizes="1668x2224" rel="apple-touch-startup-image" />
+<!--<link href="/apple_splash_1536.png" sizes="1536x2048" rel="apple-touch-startup-image" />
+<link href="/apple_splash_1125.png" sizes="1125x2436" rel="apple-touch-startup-image" />
+<link href="/apple_splash_1242.png" sizes="1242x2208" rel="apple-touch-startup-image" />
+<link href="/apple_splash_750.png" sizes="750x1334" rel="apple-touch-startup-image" />
+<link href="/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" />-->
+
+
+	<!-- Meta tags for page display and search engine listing-->
+<title>GoBrik</title>
+<meta name="keywords" content="ecobricks, ecobrick, plastic solved, eco-brick, gobrik, bottle brick, plastic solution">
+<meta name="description" content="Secure your plastic by ecobricking! Together we can keep plastic from being a problem during Covid-19, make ecobricks and generate brikcoins.">
+	
+	
+	<!-- Facebook Open Graph Tags for social sharing-->
+
+  <meta property="og:url"           content="https://www.gobrik.com">
+  <meta property="og:type"          content="website">
+ <meta property="og:title"         content="BETA GoBrik">
+  <meta property="og:description"   content="Secure your plastic by ecobricking! Together we can keep plastic from being a problem during Covid-19, make ecobricks and generate brikcoins." >
+  <meta property="og:image"         content="https://www.gobrik.com/images/fbbanner.png" >
+  <meta property="fb:app_id"  content="1781710898523821" >
+	
+	<!-- primary Knack Scripts -->
+
+<script type="text/javascript">
+app_id='606c1d29ee9cdc001eb750d5';
+region='eu-central';
+api_subdomain='eu-api';
+api_domain='knack.com';
+cdn_url='https://cdn1.cloud-database.co';
+assets='eu-secure-assets.cloud-database.co';
+api_subdomain='eu-api';
+s3='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"assets.knack-eu.com"}';
+s3_secure='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"eu-secure-assets.cloud-database.co"}';
+distribution_key="dist_2";
+
+</script>
+<script type="text/javascript" src="https://loader.knack.com/606c1d29ee9cdc001eb750d5/dist_2/knack.js"></script>
+ 
+	<!-- Add to homescreen javascript
+<script src="index.js" defer></script>-->
+
+
+<!-- Facebook script off
+ <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{1781710898523821}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{8.0}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+-->
+	
+<!-- Localise translation script-->
+<script src="https://global.localizecdn.com/localize.js"></script>
+<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+<script>
+  Localize.initialize({
+    key: 'pybiT0O8ArV04', 
+    rememberLanguage: true,
+    // other options go here, separated by commas
+  });
+</script>
+
+	<!-- Our inline CSS for the first load of the index page so that we don't have to rely on the slower loading Knack CSS-->
+
+	<style>
+	
+		
+#container {
+   min-height:100%;
+   position:relative;
+}	
+	
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+	
+
+	
+#first-load {
+	z-index: -10;	
+	position: fixed;
+ 	 left: 0px;
+ 	 top: 0px;
+ 	 width: 100%;
+ 	 height: 100%;
+  	background: url('/svgs/bottle-loader.svg') center no-repeat, #fff;
+    	box-sizing: border-box;
+	 background-size: 30px;
+	
+	  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+
+	}
+	
+#knack-body {	
+	-webkit-animation-delay: 1.5s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+	}
+	
+/*#header {
+	-webkit-animation-delay: 2s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;	}
+*/
+	
+	
+	.blink {
+    animation: blinker 1s linear infinite;
+		
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+	  position: relative;
+		z-index: 3;
+  }
+}
+
+		@media screen and (min-width: 770px) and (max-width: 2000px) { 
+#landing-content { 
+	max-width: 80%;
+	margin: auto;
+	margin-bottom: 0px;
+			}}
+	@media screen and (max-width: 769px) { 
+#landing-content { 
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+			}}
+	
+			
+.top-graphic {
+  margin-top: -45px;
+	height: 400px;
+	position: relative;
+	z-index: 10;
+	margin-bottom: 0px;
+	
+	-webkit-animation-delay: 2.5s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+}
+
+		
+.main-statement {
+  
+  font-size: 24px !important;
+ font-family: 'Arvo', serif;
+    text-align: center !important;
+  line-height: 1.2 !important;
+margin: -20px 5px 0px 10px;
+text-shadow: 0px 0px 6px #fff;
+	
+-webkit-animation-delay: 3s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+}
+	
+.knack-data {   font-size: 18px !important;
+font-family: 'Niramit', sans-serif;
+
+	}
+			
+.welcome-news {
+    font-size: 18px !important;
+font-family: 'Niramit', sans-serif !important;
+    text-align: center !important;
+  line-height: 1.4 !important;
+  position: relative;
+  z-index: 5;
+    font-weight: 300;
+  margin: 15px 10px 0px 10px;
+	 font-size: 18px !important;
+
+
+	-webkit-animation-delay: 3.5s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+}
+
+
+.social-buttons-box {
+	position: relative;
+	z-index: 5;
+	max-width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	
+		-webkit-animation-delay: 4s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+	
+	}
+
+.social-buttons-box2 {
+	position: relative;
+	z-index: 5;
+	max-width: 500px;
+	margin: auto;
+	display: none;
+}
+	
+.tree-coins {
+	margin-top: -120px;
+	position: relative;
+	z-index: -1;
+	
+	-webkit-animation-delay: 4.5s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+	}
+
+	
+.tree-text {
+    font-size: 16px !important;
+font-family: 'Mulish', sans-serif;
+    text-align: center !important;
+  line-height: 1.4 !important;
+  position: relative;
+  z-index: 5;
+    font-weight: 300;
+  margin: 5px 5px 3px 18px;
+margin-bottom: 20px;
+	
+	-webkit-animation-delay: 5s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+}
+	
+	@media screen and (min-width: 770px) and (max-width: 2000px) { 
+	.tree-text { margin-bottom: 0px;}
+	}
+
+		
+		#footer-full {		
+			position:absolute;
+   bottom:0;
+   width:100%;
+  height:10px;
+		}
+
+#gobrik-footer {
+	-webkit-animation-delay: 5.5s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+	}
+	 
+	 #offline {margin-bottom: -300px;
+	 margin-right: 20px;
+	 margin-left: 20px;
+	 margin-top: -15px;}
+	
+  </style>
+
+	
+</head>
+  
+	
+<body>
+<div id="container">	
+
+<body id="knack-body">
+	
+<div id="header" class="top-menu">
+<a href="/#home"><img src="/svgs/gobrik-logo-static-beta.svg" width="145" alt="GoBrik Logo"></a></div> 
+	
+
+	 <div id="knack-dist_42" ><div class="loader"></div></div>
+
+<div id="knack-content"></div>
+
+</div>
+
+ 
+
+<!--
+<div id="offline"><br><br>
+<img src="https://www.ecobricks.org/wp-content/uploads/2020/10/Slow-albatross-animation-to-happy-1.svg" width="240px;" max-width="80%;" alt="GoBrik">
+<h1>GoBrik is Offline for 24hrs</h1><h3> Sorry! We're waiting for a transfer to complete so that we can pay this month's server bill.<h3><h6>
+ (which has doubled this past month because of so much ecobricking!).<h6>
+<h4>We're really sorry for the inconvenience.</h4><h5>  Check back tomorrow please!<h5>
+</div> <object type="image/svg+xml" data="/svgs/full-footer-nov.svg" width="100%"></object>
+
+<button class="add-button">Add to home screen</button>-->
+<div id="footer-full">
+<div id="background-footer-mobile"></div>
+
+<div id="background-footer-desktop"><img src="/svgs/full-footer-nov.svg" width="100%"></div>
+  <div id="footer-text">
+<div class="footer-quote">
+      We are transitioning through plastic to an ever greener harmony with the cycles of life.<br></div>
+  <div class="footer-links"><a href='https://www.gobrik.com/#home' style="color: #fff">LIVE APP</a>     |     <a href='javascript:Localize.setLanguage("en")' style="color: #fff">English</a>     |     <a href='javascript:Localize.setLanguage("id")' style="color: #fff">Indonesian</a>    |     <a href='javascript:Localize.setLanguage("es")' style="color: #fff">Spanish</a></font></strong>
+ </div>
+<div class="footer-foot">
+	GoBrik v0.9.5</a> is a creation of the <a href="/#gea" style="color: #A9CDD8">Global Ecobrick Alliance Earth Enterprise.</a>  By using GoBrik you consent to our <a href="#terms" style="color: #A9CDD8">terms of service and privacy agreement</a> and by acquiring brikcoins or AES plastic offset you agree to the <a href="brk-aes-terms" style="color: #A9CDD8">terms of aquisition</a>.
+	<br><br>Learn more about<br>
+<a href="#brikcoin" style="color: #A9CDD8">Brikcoins</a>   |  <a href="#offsetting" style="color: #A9CDD8">Offsetting</a>  |   <a href="#seq" style="color: #A9CDD8">Sequestration</a> |   <a href="https://www.ecobricks.org/gobrik" target="_blank" style="color: #A9CDD8">GoBrik</a>
+	<br><br>Contribute to the open source development of GoBrik as social empowerment platform <a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" style="color: #A9CDD8">on Github.</a></font>
+ </div>
+  <div class="footer-foot"><a href="/staging.html"><img src="/svgs/2020-GEA-Logo-with-perspective-white.svg" width="35px" alt="Global Ecobrick Alliance Logo"></a></div>
+ </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
