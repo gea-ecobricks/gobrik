@@ -925,7 +925,7 @@ h5 {
 h6 {
 	font-size: 12px !important;
 	font-family: 'Mulish', sans-serif !important;
-    text-align: center !important;
+    text-align: center;
   line-height: 1.4 !important;
     font-weight: 300 !important;
 }
