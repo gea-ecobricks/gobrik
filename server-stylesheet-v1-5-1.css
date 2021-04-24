@@ -1815,6 +1815,7 @@ margin-bottom: 50px !important;
 .is-confirmation {	
   
      border-color: #00f200;
+	margin: auto;
   margin-top: -60px !important;
 	padding-top: 60px !important;
 margin-bottom: -10px;
