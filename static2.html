@@ -151,6 +151,9 @@ distribution_key="dist_47";
 	height:100%;
 }	
 		
+		#loading-box {height: 45vh;
+	}		
+		
 #footer-full {		
 position:absolute;
    bottom:0;
@@ -179,34 +182,13 @@ z-index: -10 !important;
 	}
 	
 #knack-body {	
-	-webkit-animation-delay: 1.5s !important;
+	-webkit-animation-delay: 0.75s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 	}
-	
-/*#header {
-	-webkit-animation-delay: 2s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
-	-webkit-animation-fill-mode:forwards;	}
-*/
-	
-	
-	.blink {
-    animation: blinker 1s linear infinite;
-		
-}
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-	  position: relative;
-		z-index: 3;
-  }
-}
 
 		@media screen and (min-width: 770px) and (max-width: 2000px) { 
 #landing-content { 
@@ -223,66 +205,67 @@ z-index: -10 !important;
 	background: none;
 			}}
 	
-.earthday {	
-    font-size: 40px !important;
-font-family: 'Mulish', sans-serif;
-    text-align: center !important;
-		}
+
 	
 .top-graphic {
-  margin-top: -45px;
-	height: 400px;
+  margin-top: -40px;
 	position: relative;
 	z-index: 10;
-	margin-bottom: 40px;
+	margin-bottom: -22px;
 	
-	-webkit-animation-delay: 2.5s !important;
+	
+	-webkit-animation-delay: 1.0s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 }
+
+		.earthday {	
+    font-size: 36px !important;
+font-family: 'Mulish', sans-serif;
+    text-align: center !important;
+	margin-bottom: 25px;
+			
+				-webkit-animation-delay: 1.4s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
+	-webkit-animation-fill-mode:forwards;
+		}
+		
 
 		
 .main-statement {
   
-  font-size: 24px !important;
+  font-size: 22px !important;
  font-family: 'Arvo', serif;
     text-align: center !important;
   line-height: 1.2 !important;
-margin: -20px 5px 0px 10px;
+margin: -20px 0px 13px 0px;
 text-shadow: 0px 0px 6px #fff;
 	
--webkit-animation-delay: 3s !important;
+-webkit-animation-delay: 1.8s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 }
+		
+		.welcome-text {	
 	
-.knack-data {   font-size: 18px !important;
-font-family: 'Niramit', sans-serif;
-
-	}
-			
-.welcome-news {
-    font-size: 18px !important;
-font-family: 'Mulish', sans-serif !important;
+	  font-size: 18px !important;
+	font-family: 'Mulish', sans-serif;
     text-align: center !important;
-  line-height: 1.4 !important;
-  position: relative;
-  z-index: 5;
-    font-weight: 300;
-  margin: 15px 10px 0px 10px;
-	 font-size: 18px !important;
-
-
-	-webkit-animation-delay: 3.5s !important;
+	
+	
+	-webkit-animation-delay: 2.2s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
-}
+		}
+	
 
 
 .social-buttons-box {
@@ -292,14 +275,15 @@ font-family: 'Mulish', sans-serif !important;
 	margin: auto;
 	margin-top: 20px;
 	
-		-webkit-animation-delay: 4s !important;
+		-webkit-animation-delay: 2.6s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 	
 	}
 
+		/*
 .social-buttons-box2 {
 	position: relative;
 	z-index: 5;
@@ -307,17 +291,20 @@ font-family: 'Mulish', sans-serif !important;
 	margin: auto;
 	display: none;
 }
+		
+		*/
 	
 .tree-coins {
 	margin-top: -120px;
 	position: relative;
 	z-index: -1;
 	
-	-webkit-animation-delay: 4.5s !important;
+	-webkit-animation-delay: 3s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
+	
 	}
 
 	
@@ -329,22 +316,22 @@ font-family: 'Mulish', sans-serif;
   position: relative;
   z-index: 5;
     font-weight: 300;
-  margin: 5px 5px 3px 18px;
-margin-bottom: 20px;
+  margin: 5px 10px 3px 10px;
+margin-bottom: -150px;
 	
-	-webkit-animation-delay: 5s !important;
+	-webkit-animation-delay: 3s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 }
 	
 	@media screen and (min-width: 770px) and (max-width: 2000px) { 
-	.tree-text { margin-bottom: 0px;}
+	.tree-text { margin-bottom: -150px;}
 	}
 
 #gobrik-footer {
-	-webkit-animation-delay: 5.5s !important;
+	-webkit-animation-delay: 1s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 0.5s;
 	-webkit-animation-duration:0.5s;
@@ -362,6 +349,14 @@ margin-bottom: 20px;
   color: #fff !important;
 padding: 15px !important;
   font-size: 18px !important;}
+		
+		
+#footer-text {
+	-webkit-animation-delay: 5s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
 	
   </style>
 	
@@ -378,16 +373,16 @@ padding: 15px !important;
 	
 <div id="header" class="top-menu">
 <a href="/#home"><img src="/svgs/gobrik-logo-static.svg" width="145" alt="GoBrik Logo"></a></div> 
-	
+	/*<div id=loading-box></div><div class="loader">*/
 
-	 <div id="knack-dist_47" >
-     
-     <div id="landing-content">
-<div class="top-graphic"><img src="https://www.gobrik.com/svgs/earth-day-top.svg" style="width: 430px"></div><br><div class="earthday">Happy Earth Week!</div><br>
-<div class="main-statement">Celebrate this special week by taking charge of your plastic transition.</div> 
+	<div id="knack-dist_47" ></div>
+	
+	<div id="landing-content">
+<div class="top-graphic"><img src="https://www.gobrik.com/svgs/earth-day-top.svg"></div><br><div class="earthday">Happy Earth Week!</div>
+<div class="main-statement">Celebrate by taking charge of your plastic transition for 2021.</div> 
 <!--<div class="main-statement">Ecobricking secures plastic out of the biosphere, generates brikcoins and creates reusable building blocks for regenerative building.</div> -->
 
-<div class="welcome-news">
+<div class="welcome-text">
 	<h3>Ecobricking secures plastic out of the biosphere, generates brikcoins and creates reusable building blocks for regenerative building.</h3>
 	<!--<div id="knack-dist_39"><div class="blink">Loading Today's Data...</div></div>-->
 	</div>
@@ -405,11 +400,16 @@ padding: 15px !important;
 			
 <div class="tree-coins"><img src="/images/mangotreebluesky400px.png" style="width: 340px;"></div>
 <div class="tree-text">
-	GoBrik is a social platform that provides ecobrickers and their communities with the tools to log, track, exchange and manage their ecobricking while rewarding their service to the biosphere with with Brikcoins.
-
+	<h4>GoBrik is a social platform that provides ecobrickers and their communities with the tools to log, track, exchange and manage their ecobricking while rewarding their service to the biosphere with with Brikcoins.</h4>
 <h4><img src="/svgs/3brikcoins.svg" style="width: 175px;"></h4>
-<p>Learn some more about <a href="#ecobricks">Ecobricks</a>, <a href="#gea">the GEA</a>, <a href="#brikcoins">Brikcoins</a> and <a href="#aes">AES Plastic Offsets</a></p>
+<h6>Learn some more about <a href="#ecobricks">Ecobricks</a>, <a href="#gea">the GEA</a>, <a href="#brikcoins">Brikcoins</a> and <a href="#aes">AES Plastic Offsets</a></h6>
 </div>
+	</div>
+	
+	
+	
+	
+	
 	</div>
 
 <div id="knack-content"></div>
