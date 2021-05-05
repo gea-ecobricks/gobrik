@@ -70,13 +70,24 @@
 	
 	
 	<!-- scripts to load before Knack for pre-load presentation-->
-	
+
+	<!-- Force scroll to top -->	
+	<!--	
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 	$(document).ready(function(){
     $(this).scrollTop(0);
 });
 </script>	
+
+
+	<script>	
+	window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+</script>
+
+-->
 	
 	<script>
   Localize.initialize({
@@ -86,20 +97,11 @@
   });
 </script>
 
-	<!-- Force scroll to top -->
-	<script>	
-	window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-</script>	
+	
 	<!-- ARC SCRIPT TEST
 	<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
 	
--->
-
-	
-	
-	
+-->	
 	
 	<!-- primary Knack Scripts -->
 
@@ -224,7 +226,7 @@ z-index: -10 !important;
 
 	
 .top-graphic {
-  margin-top: -40px;
+  margin-top: 0px;
 	position: relative;
 	z-index: 10;
 	margin-bottom: -22px;
