@@ -68,6 +68,39 @@
   <meta property="og:image"         content="https://www.gobrik.com/images/fbbanner.png" >
   <meta property="fb:app_id"  content="1781710898523821" >
 	
+	
+	<!-- scripts to load before Knack for pre-load presentation-->
+	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+</script>	
+	
+	<script>
+  Localize.initialize({
+    key: 'OuoVGmZSN0BEz', 
+    rememberLanguage: true,
+    // other options go here, separated by commas
+  });
+</script>
+
+	<!-- Force scroll to top -->
+	<script>	
+	window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+</script>	
+	<!-- ARC SCRIPT TEST
+	<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
+	
+-->
+
+	
+	
+	
+	
 	<!-- primary Knack Scripts -->
 
 <script type="text/javascript">
@@ -117,24 +150,7 @@ distribution_key="dist_42";
 <script src="https://global.localizecdn.com/localize.js"></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
 
-<script>
-  Localize.initialize({
-    key: 'OuoVGmZSN0BEz', 
-    rememberLanguage: true,
-    // other options go here, separated by commas
-  });
-</script>
 
-	<!-- Force scroll to top -->
-	<script>	
-	window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-</script>	
-	<!-- ARC SCRIPT TEST
-	<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
-	
--->
 	
 
 	<!-- Our inline CSS for the first load of the index page so that we don't have to rely on the slower loading Knack CSS-->
