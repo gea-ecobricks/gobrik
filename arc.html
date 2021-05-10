@@ -9,6 +9,7 @@
 	<!-- This calls our GEA typography -->
 	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
+
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet"> 
 	
 	<!-- This calls our primary Github hosted stylesheet -->
@@ -67,6 +68,38 @@
   <meta property="og:image"         content="https://www.gobrik.com/images/fbbanner.png" >
   <meta property="fb:app_id"  content="1781710898523821" >
 	
+	
+	<!-- scripts to load before Knack for pre-load presentation-->
+
+	<!-- Force scroll to top -->	
+	<!--	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+</script>	
+	<script>	
+	window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+</script>
+-->
+	
+	<script>
+  Localize.initialize({
+    key: 'OuoVGmZSN0BEz', 
+    rememberLanguage: true,
+    // other options go here, separated by commas
+  });
+</script>
+
+	<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
+	
+<!-- ARC SCRIPT TEST
+ON!
+-->	
+	
 	<!-- primary Knack Scripts -->
 
 <script type="text/javascript">
@@ -101,7 +134,6 @@ distribution_key="dist_42";
     FB.AppEvents.logPageView();   
       
   };
-
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
@@ -116,23 +148,6 @@ distribution_key="dist_42";
 <script src="https://global.localizecdn.com/localize.js"></script>
 <script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
 
-<script>
-  Localize.initialize({
-    key: 'OuoVGmZSN0BEz', 
-    rememberLanguage: true,
-    // other options go here, separated by commas
-  });
-</script>
-
-	<!-- Force scroll to top -->
-	<script>	
-	window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-</script>	
-	<!-- ARC SCRIPT TEST-->
-	<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
-	
 
 	
 
@@ -146,10 +161,12 @@ distribution_key="dist_42";
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 	
 #container {
-   min-height:100%;
-   position:relative;
-	height:100%;
+
+	height: 100vh;
 }	
+		
+		#loading-box {height: 35vh;
+	}		
 		
 #footer-full {		
 position:absolute;
@@ -179,34 +196,13 @@ z-index: -10 !important;
 	}
 	
 #knack-body {	
-	-webkit-animation-delay: 1.5s !important;
+	-webkit-animation-delay: 0.75s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 	}
-	
-/*#header {
-	-webkit-animation-delay: 2s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
-	-webkit-animation-fill-mode:forwards;	}
-*/
-	
-	
-	.blink {
-    animation: blinker 1s linear infinite;
-		
-}
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-	  position: relative;
-		z-index: 3;
-  }
-}
 
 		@media screen and (min-width: 770px) and (max-width: 2000px) { 
 #landing-content { 
@@ -223,20 +219,36 @@ z-index: -10 !important;
 	background: none;
 			}}
 	
-			
+
+	
 .top-graphic {
-  margin-top: -45px;
-	height: 400px;
+  margin-top: 0px;
 	position: relative;
 	z-index: 10;
-	margin-bottom: 0px;
+	margin-bottom: -22px;
 	
-	-webkit-animation-delay: 2.5s !important;
+	
+	-webkit-animation-delay: 1.0s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 }
+
+		.earthday {	
+    font-size: 30px !important;
+font-family: 'Mulish', sans-serif;
+    text-align: center !important;
+	 line-height: 1.2 !important;
+	margin-bottom: 25px;
+			
+	-webkit-animation-delay: 1.4s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
+	-webkit-animation-fill-mode:forwards;
+		}
+		
 
 		
 .main-statement {
@@ -245,39 +257,30 @@ z-index: -10 !important;
  font-family: 'Arvo', serif;
     text-align: center !important;
   line-height: 1.2 !important;
-margin: -20px 5px 0px 10px;
+margin: -20px 0px 13px 0px;
 text-shadow: 0px 0px 6px #fff;
 	
--webkit-animation-delay: 3s !important;
+-webkit-animation-delay: 1.8s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 }
+		
+		.welcome-text {	
 	
-.knack-data {   font-size: 18px !important;
-font-family: 'Niramit', sans-serif;
-
-	}
-			
-.welcome-news {
-    font-size: 18px !important;
-font-family: 'Niramit', sans-serif !important;
+	  font-size: 18px !important;
+	font-family: 'Mulish', sans-serif;
     text-align: center !important;
-  line-height: 1.4 !important;
-  position: relative;
-  z-index: 5;
-    font-weight: 300;
-  margin: 15px 10px 0px 10px;
-	 font-size: 18px !important;
-
-
-	-webkit-animation-delay: 3.5s !important;
+	
+	
+	-webkit-animation-delay: 2.2s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
-}
+		}
+	
 
 
 .social-buttons-box {
@@ -287,14 +290,15 @@ font-family: 'Niramit', sans-serif !important;
 	margin: auto;
 	margin-top: 20px;
 	
-		-webkit-animation-delay: 4s !important;
+		-webkit-animation-delay: 2.6s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 	
 	}
 
+		/*
 .social-buttons-box2 {
 	position: relative;
 	z-index: 5;
@@ -302,17 +306,20 @@ font-family: 'Niramit', sans-serif !important;
 	margin: auto;
 	display: none;
 }
+		
+		*/
 	
 .tree-coins {
 	margin-top: -120px;
 	position: relative;
 	z-index: -1;
 	
-	-webkit-animation-delay: 4.5s !important;
+	-webkit-animation-delay: 3s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
+	
 	}
 
 	
@@ -324,39 +331,48 @@ font-family: 'Mulish', sans-serif;
   position: relative;
   z-index: 5;
     font-weight: 300;
-  margin: 5px 5px 3px 18px;
-margin-bottom: 20px;
+  margin: 5px 10px 3px 10px;
+margin-bottom: -150px;
 	
+	-webkit-animation-delay: 3s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
+	-webkit-animation-fill-mode:forwards;
+}
+	
+	@media screen and (min-width: 770px) and (max-width: 2000px) { 
+	.tree-text { margin-bottom: -150px;}
+	}
+		/*
+#gobrik-footer {
+	-webkit-animation-delay: 1s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+	}
+		*/
+	 
+
+		
+#offline {z-index: 100 !important;
+			max-width: 700px;
+		margin: auto;}
+		
+		#view_6432  .kn-menu .kn-button {
+  color: #fff !important;
+padding: 15px !important;
+  font-size: 18px !important;
+	}
+		
+		
+#footer-text {
 	-webkit-animation-delay: 5s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 0.5s;
 	-webkit-animation-duration:0.5s;
 	-webkit-animation-fill-mode:forwards;
-}
-	
-	@media screen and (min-width: 770px) and (max-width: 2000px) { 
-	.tree-text { margin-bottom: 0px;}
-	}
-
-#gobrik-footer {
-	-webkit-animation-delay: 5.5s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
-	-webkit-animation-fill-mode:forwards;
-	}
-	 
-	 #offline {margin-bottom: -300px;
-	 margin-right: 20px;
-	 margin-left: 20px;
-	 margin-top: -15px;}
-		
-#offline {z-index: 100 !important;}
-		
-		#view_6432  .kn-menu .kn-button {
-  color: #fff !important;
-padding: 15px !important;
-  font-size: 18px !important;}
 	
   </style>
 	
@@ -367,15 +383,12 @@ padding: 15px !important;
   
 	
 <body>
-
-<div id="container">	
 <body id="knack-body">
-	
 <div id="header" class="top-menu">
 <a href="/#home"><img src="/svgs/gobrik-logo-static.svg" width="145" alt="GoBrik Logo"></a></div> 
 	
 
-	 <div id="knack-dist_42" ><div class="loader"></div></div>
+	<div id="knack-dist_42" ><div id=loading-box></div><div class="loader"></div></div>
 
 <div id="knack-content"></div>
 
@@ -385,11 +398,17 @@ padding: 15px !important;
 <!--
 <div id="offline"><br><br>
 <img src="https://www.ecobricks.org/wp-content/uploads/2020/10/Slow-albatross-animation-to-happy-1.svg" width="240px;" max-width="80%;" alt="GoBrik">
-<h1>GoBrik is Offline for 2hrs</h1><h3> Sorry! We're working to get it back ASAP.<h3>
-<h4>We're really sorry for the inconvenience.</h4>
-</div> <object type="image/svg+xml" data="/svgs/full-footer-nov.svg" width="100%"></object>-->
+	<h2>GoBrik is Offline</h2> 
+	<h1>We're working to get our database bill paid</h1>
+	<h3>The Global Ecobrick Alliance maintains the GoBrik platform by offerring courses and selling plastic offset credits.  </h3>
+		<p>These will resume when we get the app back up. Sorry, we no longer take donations.<p>
+	<h4>We're really sorry for the inconvenience and hope to have the app back up in 36hrs.</h4>
+	</div>
+-->
 
-<!--<button class="add-button">Add to home screen</button>-->
+
+<!--<button class="add-button">Add to home screen
+</div> <object type="image/svg+xml" data="/svgs/full-footer-nov.svg" width="100%"></object></button>-->
 <div id="footer-full">
 <div id="background-footer-mobile"></div>
 
