@@ -1,15 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
 <html>
 
 <head>
+
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;700&display=swap" rel="stylesheet"> 
+	<!-- This calls our GEA typography -->
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
 
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet"> 
+	
+	<!-- This calls our primary Github hosted stylesheet -->
 <link rel="stylesheet" type="text/css" href="/server-stylesheet-v1-5-1.css" />
   
+	<!-- This calls our webmanifest wich turns our page into a progress web app (PWA) -->
 <link rel="manifest" href="manifest.webmanifest">
 
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,7 +27,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 
-<title>Regen Store - GoBrik</title>
+<title>Regen Store | GoBrik.com</title>
 <meta name="keywords" content="regenerative, shopping, carbon negative, store, products, green, organic, bamboo, regenerative products, regen shopping, regen store, CO2 negative,">
 <meta name="description" content="Shop regenerative products that by nature remove more plastic and CO2 from the biosphere than they produce.">
 
@@ -49,12 +58,47 @@
   <meta property="fb:app_id"           content="1781710898523821">
   <meta property="og:url"           content="https://www.gobrik.com/store">
   <meta property="og:type"          content="website">
- <meta property="og:title"         content="The Regen Store">
+ <meta property="og:title"         content="Regen Store">
   <meta property="og:description"   content="Shop regenerative products that remove more CO2 & Plastic than they produce." >
   <meta property="og:image"         content="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5ee351be2c102700155c6519/original/regenstorebanner1200px.png" >
   <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 
+	
+	
+	<!-- scripts to load before Knack for pre-load presentation-->
+
+	<!-- Force scroll to top -->	
+	<!--	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+</script>	
+	<script>	
+	window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+</script>
+-->
+	
+	<script>
+  Localize.initialize({
+    key: 'OuoVGmZSN0BEz', 
+    rememberLanguage: true,
+    // other options go here, separated by commas
+  });
+</script>
+
+	
+	<!-- ARC SCRIPT TEST
+	<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
+	
+-->	
+	
+	<!-- primary Knack Scripts -->
+	
 
 <script type="text/javascript">
 app_id='5b8c28c2a1152679c209ce0c';
@@ -80,27 +124,31 @@ distribution_key="dist_45";
 
 
 
-<!-- Localise translation script-->
-	
-<script src="https://global.localizecdn.com/localize.js"></script>
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+	<!-- Our inline CSS for the first load of the index page so that we don't have to rely on the slower loading Knack CSS-->
 
-<script>
-  
-  Localize.initialize({
-    key: 'pybiT0O8ArV04', 
-    rememberLanguage: true,
-    // other options go here, separated by commas
-  });
-</script>
-
- <style>
+	<style>
 	
 	
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 	
+#container {
+
+	height: 100vh;
+}	
+		
+		#loading-box {height: 35vh;
+	}		
+		
+#footer-full {		
+position:absolute;
+   bottom:0;
+   width:100%;
+  height:150px;
+margin-top:0px;
+z-index: -10 !important;
+		}
 
 	
 #first-load {
@@ -121,62 +169,59 @@ distribution_key="dist_45";
 	}
 	
 #knack-body {	
-	-webkit-animation-delay: 1.5s !important;
+	-webkit-animation-delay: 0.75s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 	}
-	
-#header {
-	-webkit-animation-delay: 2s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
-	-webkit-animation-fill-mode:forwards;	}
 
-	
-	
-	.blink {
-    animation: blinker 1s linear infinite;
-		
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-	  position: relative;
-		z-index: 3;
-  }
-}
 
 		@media screen and (min-width: 770px) and (max-width: 2000px) { 
 #landing-content { 
 	max-width: 80%;
 	margin: auto;
 	margin-bottom: 0px;
+	background: none;
 			}}
 	@media screen and (max-width: 769px) { 
 #landing-content { 
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 0px;
+	background: none;
 			}}
 	
-			
+
+	
 .top-graphic {
-  margin-top: -45px;
-	height: 400px;
+  margin-top: 0px;
 	position: relative;
 	z-index: 10;
-	margin-bottom: 0px;
+	margin-bottom: -22px;
 	
-	-webkit-animation-delay: 2.5s !important;
+	
+	-webkit-animation-delay: 1.0s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 }
+
+		.earthday {	
+    font-size: 30px !important;
+font-family: 'Mulish', sans-serif;
+    text-align: center !important;
+	 line-height: 1.2 !important;
+	margin-bottom: 25px;
+			
+	-webkit-animation-delay: 1.4s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
+	-webkit-animation-fill-mode:forwards;
+		}
+		
 
 		
 .main-statement {
@@ -185,39 +230,30 @@ distribution_key="dist_45";
  font-family: 'Arvo', serif;
     text-align: center !important;
   line-height: 1.2 !important;
-margin: -20px 5px 0px 10px;
+margin: -20px 0px 13px 0px;
 text-shadow: 0px 0px 6px #fff;
 	
--webkit-animation-delay: 3s !important;
+-webkit-animation-delay: 1.8s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 }
+		
+		.welcome-text {	
 	
-.knack-data {   font-size: 18px !important;
-font-family: 'Niramit', sans-serif;
-
-	}
-			
-.welcome-news {
-    font-size: 18px !important;
-font-family: 'Niramit', sans-serif !important;
+	  font-size: 18px !important;
+	font-family: 'Mulish', sans-serif;
     text-align: center !important;
-  line-height: 1.4 !important;
-  position: relative;
-  z-index: 5;
-    font-weight: 300;
-  margin: 15px 10px 0px 10px;
-	 font-size: 18px !important;
-
-
-	-webkit-animation-delay: 3.5s !important;
+	
+	
+	-webkit-animation-delay: 2.2s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
-}
+		}
+	
 
 
 .social-buttons-box {
@@ -227,14 +263,15 @@ font-family: 'Niramit', sans-serif !important;
 	margin: auto;
 	margin-top: 20px;
 	
-		-webkit-animation-delay: 4s !important;
+		-webkit-animation-delay: 2.6s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
 	
 	}
 
+		/*
 .social-buttons-box2 {
 	position: relative;
 	z-index: 5;
@@ -242,17 +279,20 @@ font-family: 'Niramit', sans-serif !important;
 	margin: auto;
 	display: none;
 }
+		
+		*/
 	
 .tree-coins {
 	margin-top: -120px;
 	position: relative;
 	z-index: -1;
 	
-	-webkit-animation-delay: 4.5s !important;
+	-webkit-animation-delay: 3s !important;
 	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
+	
 	}
 
 	
@@ -264,79 +304,103 @@ font-family: 'Mulish', sans-serif;
   position: relative;
   z-index: 5;
     font-weight: 300;
-  margin: 5px 5px 3px 18px;
-margin-bottom: 20px;
+  margin: 5px 10px 3px 10px;
+margin-bottom: -150px;
 	
+	-webkit-animation-delay: 3s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.25s;
+	-webkit-animation-duration:0.25s;
+	-webkit-animation-fill-mode:forwards;
+}
+	
+	@media screen and (min-width: 770px) and (max-width: 2000px) { 
+	.tree-text { margin-bottom: -150px;}
+	}
+		/*
+#gobrik-footer {
+	-webkit-animation-delay: 1s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.5s;
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-fill-mode:forwards;
+	}
+		*/
+	 
+
+		
+#offline {z-index: 100 !important;
+			max-width: 700px;
+		margin: auto;}
+		
+		#view_6432  .kn-menu .kn-button {
+  color: #fff !important;
+padding: 15px !important;
+  font-size: 18px !important;
+	}
+		
+		
+#footer-text {
 	-webkit-animation-delay: 5s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 0.5s;
 	-webkit-animation-duration:0.5s;
 	-webkit-animation-fill-mode:forwards;
-}
-	
-	@media screen and (min-width: 770px) and (max-width: 2000px) { 
-	.tree-text { margin-bottom: 0px;}
-	}
-
-#gobrik-footer {
-	-webkit-animation-delay: 5.5s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.5s;
-	-webkit-animation-duration:0.5s;
-	-webkit-animation-fill-mode:forwards;
-	}
-	 
-	 #offline {margin-bottom: -300px;
-	 margin-right: 20px;
-	 margin-left: 20px;
-	 margin-top: -15px;}
 	
   </style>
+	
+	
 
 	
 </head>
   
 	
 <body>
-
-
 <body id="knack-body">
-	
 <div id="header" class="top-menu">
 <a href="/#home"><img src="/svgs/gobrik-logo-static.svg" width="145" alt="GoBrik Logo"></a></div> 
 	
 
-	 <div id="knack-dist_45" ><div class="loader"></div></div>
+	<div id="knack-dist_45" ><div id=loading-box></div><div class="loader"></div></div>
 
 <div id="knack-content"></div>
 
 </div>
+
+
 <!--
 <div id="offline"><br><br>
 <img src="https://www.ecobricks.org/wp-content/uploads/2020/10/Slow-albatross-animation-to-happy-1.svg" width="240px;" max-width="80%;" alt="GoBrik">
-<h1>GoBrik is Offline for 24hrs</h1><h3> Sorry! We're waiting for a transfer to complete so that we can pay this month's server bill.<h3><h6>
- (which has doubled this past month because of so much ecobricking!).<h6>
-<h4>We're really sorry for the inconvenience.</h4><h5>  Check back tomorrow please!<h5>
-</div>
-<object type="image/svg+xml" data="/svgs/2020-vision-background-desktop.svg" width="100%"></object>
+	<h2>GoBrik is Offline</h2> 
+	<h1>We're working to get our database bill paid</h1>
+	<h3>The Global Ecobrick Alliance maintains the GoBrik platform by offerring courses and selling plastic offset credits.  </h3>
+		<p>These will resume when we get the app back up. Sorry, we no longer take donations.<p>
+	<h4>We're really sorry for the inconvenience and hope to have the app back up in 36hrs.</h4>
+	</div>
 -->
-	
- <div id="footer"><div id="background-footer-mobile"></div>
 
-<div id="background-footer-desktop"><img src="/images/full-footer.png" alt="our vision" width="100%;"</div>
+
+<!--<button class="add-button">Add to home screen
+</div> <object type="image/svg+xml" data="/svgs/full-footer-nov.svg" width="100%"></object></button>-->
+<div id="footer-full">
+<div id="background-footer-mobile"></div>
+
+<div id="background-footer-desktop"><img src="/svgs/full-footer-nov.svg" width="100%"></div>
   <div id="footer-text">
 <div class="footer-quote">
       We are transitioning through plastic to an ever greener harmony with the cycles of life.<br></div>
   <div class="footer-links"><a href='https://www.gobrik.com/#home' style="color: #fff">Home</a>     |     <a href='javascript:Localize.setLanguage("en")' style="color: #fff">English</a>     |     <a href='javascript:Localize.setLanguage("id")' style="color: #fff">Indonesian</a>    |     <a href='javascript:Localize.setLanguage("es")' style="color: #fff">Spanish</a></font></strong>
  </div>
 <div class="footer-foot">
-	GoBrik v0.9.4</a> is a creation of the <a href="/#gea" style="color: #A9CDD8">Global Ecobrick Alliance Earth Enterprise.</a>  By using GoBrik you consent to our <a href="#terms" style="color: #A9CDD8">terms of service and privacy agreement</a> and by acquiring brikcoins or AES plastic offset you agree to the <a href="brk-aes-terms" style="color: #A9CDD8">terms of aquisition</a>.
+	GoBrik v0.9.5</a> is a creation of the <a href="/#gea" style="color: #A9CDD8">Global Ecobrick Alliance Earth Enterprise.</a>  By using GoBrik you consent to our <a href="#terms" style="color: #A9CDD8">terms of service and privacy agreement</a> and by acquiring brikcoins or AES plastic offset you agree to the <a href="brk-aes-terms" style="color: #A9CDD8">terms of aquisition</a>.
 	<br><br>Learn more about<br>
 <a href="#brikcoin" style="color: #A9CDD8">Brikcoins</a>   |  <a href="#offsetting" style="color: #A9CDD8">Offsetting</a>  |   <a href="#seq" style="color: #A9CDD8">Sequestration</a> |   <a href="https://www.ecobricks.org/gobrik" target="_blank" style="color: #A9CDD8">GoBrik</a>
 	<br><br>Contribute to the open source development of GoBrik as social empowerment platform <a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" style="color: #A9CDD8">on Github.</a></font>
  </div>
-  <div class="footer-foot"><a href="/staging.html"><img src="/svgs/2020-GEA-Logo-with-perspective-white.svg" width="35px" alt="Global Ecobrick Alliance Logo"></a></div>
+  <div class="footer-foot"><a href="/staging.html"><img src="/images/2021-GEA-Logo-with-perspective-white.png" width="35px" alt="Global Ecobrick Alliance Logo"></a></div>
  </div>
+</div>
+</div>
   </div>
 </body>
 </html>
