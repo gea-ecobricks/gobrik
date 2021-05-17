@@ -1184,7 +1184,7 @@ min-height: 350px;}
     vertical-align: middle;
 
 	  border-radius: 8px;
-    margin: 8px auto;
+    margin: auto;
     outline: rgb(255, 255, 255) none 0px;
     padding-left: 12%;
   padding-right: 22px;
@@ -1196,8 +1196,8 @@ min-height: 350px;}
     -o-transition: all .3s ease;
     transition: all .3s ease;
   font-weight: 400;
-  letter-spacing: .2px;
-	  font-size: 1em !important;
+  letter-spacing: .3px;
+	  font-size: 1.1em !important;
 	font-family: 'Mulish', sans-serif;
 }
 
