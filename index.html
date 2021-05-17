@@ -242,10 +242,10 @@ z-index: -10 !important;
 
 	
 .top-graphic {
-  margin-top: -30px;
+  margin-top: -35px;
 	position: relative;
 	z-index: 10;
-	margin-bottom: -22px;
+	margin-bottom: -23px;
 	
 	
 	-webkit-animation-delay: 1.0s !important;
@@ -273,7 +273,7 @@ font-family: 'Mulish', sans-serif;
 		
 .main-statement {
   
-  font-size: 2em !important;
+  font-size: em !important;
  font-family: 'Arvo', serif;
     text-align: center !important;
   line-height: 1.2 !important;
@@ -287,9 +287,16 @@ text-shadow: 0px 0px 6px #fff;
 	-webkit-animation-fill-mode:forwards;
 }
 		
+.main-statement { @media screen and (min-width: 770px) and (max-width: 2000px) { 
+	  font-size: 2.1em !important;
+	}}
+.main-statement { @media screen and (max-width: 769px) { 
+		  font-size: 1.9em !important;
+	}}
+		
 		.welcome-text {	
 	
-	  font-size: 1.05em !important;
+	  font-size: 1.1em !important;
 	font-family: 'Mulish', sans-serif;
     text-align: center !important;
 	
