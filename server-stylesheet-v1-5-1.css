@@ -1195,9 +1195,10 @@ min-height: 350px;}
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
-font-family: Sans-serif;
   font-weight: 400;
-  letter-spacing: .3px;
+  letter-spacing: .2px;
+	  font-size: 1em !important;
+	font-family: 'Mulish', sans-serif;
 }
 
 
