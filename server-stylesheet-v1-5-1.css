@@ -614,7 +614,22 @@ background: #fff;
 }
 
 
+/* Dashboard panel box for Validator*/
 
+
+
+#view_6626
+{ padding: 15px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  border-color: #ffe6e6;
+  border-radius: 10px;
+  margin-bottom: 38px;
+	  margin-right: 9px;
+  margin-left: 9px;
+}
 
 
 
