@@ -50,7 +50,7 @@ migrated from Knack CSS
   font-weight: bold !important;
 font-size: 20px !important;
 color: #fff;
-font-weight: 400 !important;}  
+font-weight: 500 !important;}  
 
 
 
@@ -891,9 +891,9 @@ p {
   	line-height: 1.5em !important;
 }
 
-b {	font-weight: 400 !important;}
+b {	font-weight: 500 !important;}
 
-strong {font-weight: 400 !important;}
+strong {font-weight: 500 !important;}
 
 
 h1 {
