@@ -201,21 +201,6 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 
 
-/* -------------------------------------------------------------------------- */
-
-/*	7. WIDGE FORMATTING
-
-/* -------------------------------------------------------------------------- */
-
-#wcb.wcb-d #wcb_a {
-  color: #252b4d !important;
-  background: #8cbdda !important;
-  border-color: #529bc2 !important;
-}
-
-#wcb #wcb_a, #wcb #wcb_g {
-  border:.2em solid #8cbdda !important;
-}
 
 
 
@@ -546,7 +531,6 @@ z-index: 3;}
 
 /*	1. NEW DASHBAORD
 /* -------------------------------------------------------------------------- */
------------------------------------------------------------------------------ */
 
 
 
