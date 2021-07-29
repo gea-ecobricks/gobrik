@@ -162,25 +162,15 @@ AND UNIQUE to HTML Pages-->
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 	
-#container {
+/*#container {
 	height: 100vh;
 }	
 		
 #loading-box {
 	height: 45vh;
 	}		
-		
-#footer-full {		
-position:absolute;
-   bottom:0;
-   width:100%;
-  height:150px;
-margin-top:0px;
-z-index: -10 !important;
-		}
 
-	
-#first-load {
+	#first-load {
 	z-index: -10;	
 	position: fixed;
  	left: 0px;
@@ -194,32 +184,53 @@ z-index: -10 !important;
   opacity: 0;
   transition: visibility 0s 2s, opacity 2s linear;
 
+  @media screen and (min-width: 770px) and (max-width: 2000px) { 
+	#landing-content { 
+		max-width: 80%;
+		margin: auto;
+		margin-bottom: 0px;
+		background: none;
+			}
+		}
+@media screen and (max-width: 769px) { 
+	#landing-content { 
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 0px;
+		background: none;
+			}}
+	
+
+
 	}
+	*/
+		
+#footer-full {		
+	position:absolute;
+   	bottom:0;
+   	width:100%;
+  	height:150px;
+	margin-top:0px;
+	z-index: -10 !important;
+	}
+
 	
 #knack-body {	
-	-webkit-animation-delay: 0.75s !important;
 	opacity:0;
+
+	-webkit-animation-delay: 0.75s !important;
 	-webkit-animation:fadeIn ease-in 0.25s;
 	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
+
+	animation-delay: 0.75s; 
+	animation: fadeIn ease-in 0.25s;
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
+
 	}
 
 
-		@media screen and (min-width: 770px) and (max-width: 2000px) { 
-#landing-content { 
-	max-width: 80%;
-	margin: auto;
-	margin-bottom: 0px;
-	background: none;
-			}}
-	@media screen and (max-width: 769px) { 
-#landing-content { 
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 0px;
-	background: none;
-			}}
-	
 
 	
 .top-graphic {
@@ -234,19 +245,24 @@ z-index: -10 !important;
 	-webkit-animation:fadeIn ease-in 0.25s;
 	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
+
+	animation-delay: 1.0s; 
+	animation: fadeIn ease-in 0.25s;
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
 }
 		
 
 .login-top-graphic {
 	margin-top: -100px !important;
-		position: relative;
+	position: relative;
 		}
 
-		.earthday {	
+.earthday {	
     font-size: 30px !important;
-font-family: 'Mulish', sans-serif;
+	font-family: 'Mulish', sans-serif;
     text-align: center !important;
-	 line-height: 1.2 !important;
+	line-height: 1.2 !important;
 	margin-bottom: 25px;
 			
 	-webkit-animation-delay: 1.0s !important;
@@ -254,23 +270,34 @@ font-family: 'Mulish', sans-serif;
 	-webkit-animation:fadeIn ease-in 0.25s;
 	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
-		}
+
+	animation-delay: 1.0s; 
+	animation: fadeIn ease-in 0.25s;
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
+	
+}
 		
 
 		
 .main-statement {
   
- font-family: 'Arvo', serif;
+	font-family: 'Arvo', serif;
     text-align: center !important;
-  line-height: 1.2 !important;
-margin: 20px 0px 13px 0px;
-text-shadow: 0px 0px 6px #fff;
+  	line-height: 1.2 !important;
+	margin: 20px 0px 13px 0px;
+	text-shadow: 0px 0px 6px #fff;
 	
--webkit-animation-delay: 1.2s !important;
+	-webkit-animation-delay: 1.2s !important;
 	opacity:0;
 	-webkit-animation:fadeIn ease-in 0.25s;
 	-webkit-animation-duration:0.25s;
 	-webkit-animation-fill-mode:forwards;
+
+	animation-delay: 0.75s; 
+	animation: fadeIn ease-in 0.25s;
+	animation-duration: 0.25s;
+	animation-fill-mode: forwards;
 }
 		
  @media screen and (min-width: 770px) and (max-width: 2000px) { 
@@ -437,10 +464,10 @@ text-shadow: 0px 0px 3px #4d4d4d;
 -->
 
 <div id="offline"><br><br>
-	<img src="svgs/earth-service3.svg" width="100%" height="96%"></div>
+	<img src="svgs/earth-service3.svg" width="60%"></div>
 	<h2>GoBrik is Offline for an Updgrade</h2> 
 	<h1>Meanwhile... check out our brand new <a href="https://ecobricks.org">Ecobricks.org landing page</a>-- freshly launched today! 🎉</h1>
-	<h3>>We apologize for the convenience and aim to have GoBrik up in 12hrs.</h3>
+	<h3>We apologize for the convenience and aim to have GoBrik up in 12hrs.</h3>
 		<p<p>
 	
 	</div>
