@@ -243,7 +243,78 @@ AND UNIQUE to HTML Pages-->
 	}
 	*/
 
+	#header {  
+	padding-top: 10px;
+	padding-bottom: 5px;
+	z-index: 3;
+	position: relative;
+	background: white;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	
+}
 
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+html {
+height: 100%;
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+	body {
+		background: #f7fdff url(/svgs/top-clouds.svg) center top repeat-x ;
+    		box-sizing: border-box;
+		background-size: 1028px;
+	}
+}
+@media screen and (min-width: 100px) and (max-width: 768px) {
+	body {
+		background: #f7fdff url(/svgs/top-clouds-mobile.svg) center top repeat-x;
+    		box-sizing: border-box;
+		background-size: 100%;
+}
+}
+
+
+
+
+
+#knack-body {
+	z-index: 0;
+	text-align: center;
+	position: relative;
+	position: bottom;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+.kn-container {
+	margin: 0 auto;
+	max-width: 960px !important;
+}
+}
+.kn-scenes {margin-bottom: -350px !important;
+min-height: 350px;}
+}
+}
+
+#offline { 
+	z-index: 10;
+	position: relative;*/
+	margin-top: 40px;
+	margin-bottom: -250px;
+/*	top: 75px;*/
+	padding: 10%;
+}
 	/* -------------------------------------------------------------------------- */
 
 /*	1. FOOTER 
