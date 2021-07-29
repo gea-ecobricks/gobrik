@@ -15,7 +15,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 
-	0.	Onboarding
+	0.	Landing page
 	1.   	New Dashboard
 	2.   	Logins
    	3.	Navigation Bar
@@ -30,6 +30,13 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 
 */
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	0. LANDING PAGE HTML
+/* -------------------------------------------------------------------------- */
 
 
 
@@ -171,26 +178,26 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
   
       
   .tree-text {
-      font-size: 16px !important;
-      font-family: 'Mulish', sans-serif;
-      text-align: center !important;
-        line-height: 1.4 !important;
-        position: relative;
-        z-index: 5;
-      font-weight: 300;
-        margin: 5px 10px 3px 10px;
-      margin-bottom: -150px;
-      opacity:0;
+    font-size: 16px !important;
+    font-family: 'Mulish', sans-serif;
+    text-align: center !important;
+    line-height: 1.4 !important;
+    position: relative;
+    z-index: 5;
+    font-weight: 300;
+    margin: 5px 10px 3px 10px;
+    margin-bottom: -150px;
+    opacity:0;
       
-      -webkit-animation-delay: 3s !important;
-      -webkit-animation:fadeIn ease-in 0.25s;
-      -webkit-animation-duration:0.25s;
-      -webkit-animation-fill-mode:forwards;
+    -webkit-animation-delay: 3s !important;
+    -webkit-animation:fadeIn ease-in 0.25s;
+    -webkit-animation-duration:0.25s;
+    -webkit-animation-fill-mode:forwards;
   
-      animation-delay: 3s; 
-      animation: fadeIn ease-in 0.25s;
-      animation-duration: 0.25s;
-      animation-fill-mode: forwards;
+    animation-delay: 3s; 
+    animation: fadeIn ease-in 0.25s;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
   }
       
       @media screen and (min-width: 770px) and (max-width: 2000px) { 
@@ -1084,9 +1091,9 @@ h2 {
 
 h3 {
     font-size: 20px !important;
-font-family:'Mulish', sans-serif; !important;
+    font-family:'Mulish', sans-serif; !important;
     text-align: center !important;
-  line-height: 1.4 !important;
+    line-height: 1.4 !important;
     font-weight: 300;
 }
 
