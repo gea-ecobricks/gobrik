@@ -32,6 +32,17 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 */
 
 
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+    .kn-container {
+        margin: 0 auto;
+        max-width: 960px !important;
+    }
+    }
+    .kn-scenes {margin-bottom: -350px !important;
+    min-height: 350px;}
+    }
+    }
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -541,10 +552,6 @@ z-index: 3;}
 
 
 
-
-/*General interface background slightly off-white to make the white buttons and boxes show up better*/
-
-#knack-body {background-color: #f7fdff;}
 
 /*General table styling for dashboard- soon this could transfer to all tables*/
 
