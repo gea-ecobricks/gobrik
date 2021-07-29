@@ -289,6 +289,12 @@ height: 100%;
 }
 }
 
+#loading-box {
+	min-height: 100vh;
+	width: 100%;
+	}	
+
+
 #header {  
 	padding-top: 10px;
 	padding-bottom: 5px;
@@ -299,11 +305,6 @@ height: 100%;
 }
 
 
-
-
-
-
-
 #offline { 
 	z-index: 100;
 	position: relative;
@@ -311,8 +312,6 @@ height: 100%;
 	max-width: 700px;
 	background: none;
 	display: block;
-	max-height:80vh;
-	min-height:30vh;
 }
 
 
@@ -321,9 +320,15 @@ height: 100%;
     #offline  {	
       	width: 90%;
 		margin: auto;
-	  	margin-top: 40px;
-		margin-bottom: -50px;
+	  	margin-top: 0px;
       }
+
+	  .offline-image {
+		width: 400px;
+		height:427px;
+		margin: auto;
+		margin-bottom: -15px;
+}
       }
 
   @media screen and (min-width: 770px) and (max-width: 1023px) { 
@@ -331,16 +336,30 @@ height: 100%;
 		margin: auto;
 		width: 600px;
           margin-top: 0px;
+		padding-right: 10px;
+		padding-left: 10px;
+		margin-bottom: -150px;
           }
+	.offline-image {
+		width: 500px;
+		height:534px;
+		margin: auto;
+		margin-bottom: -20px;
+}
           }
 
   @media screen and (min-width: 1024px)  {
 	#offline {	
 		margin: auto;
 		width: 60%;
-  		height: 80vh;
-		  margin-bottom: -250px;
+		margin-top: -40px;
   }
+  .offline-image {
+		width: 600px;
+		height:641px;
+		margin: auto;
+		margin-bottom: -30px;
+}
 }
 
 .offline-header {
@@ -742,24 +761,26 @@ padding-right: 6%;
 	
 <body>
 <body id="knack-body">
-	<div id="header" class="top-menu">
-	<a href="/#home"><img src="svgs/gobrik-logo-static.svg" width="145" alt="GoBrik Logo"></a>
-	</div> 
+	<div id="loading-box">
+		<div id="header" class="top-menu">
+			<a href="/#home"><img src="svgs/gobrik-logo-static.svg" width="145" alt="GoBrik Logo"></a>
+		</div> 
 	
-	<!--
-	<div id="knack-dist_42" >
-		<div id=loading-box></div>
-		<div class="loader"></div>
-	</div>
-	<div id="knack-content"></div>
-	</div>
+		<!--
+		<div id="knack-dist_42" >
+			<div id=loading-box></div>
+			<div class="loader"></div>
+		</div>
+		<div id="knack-content"></div>
+		</div>
 -->
 
-	<div id="offline">
-		<img src="svgs/earth-service3.svg" width="60%">
-		<div class="offline-header">GoBrik is Offline for an Updgrade</div> 
-		<div class="offline-text">Meanwhile... check out our brand new <a href="https://ecobricks.org">Ecobricks.org landing page</a>-- freshly launched today! 🎉</div>
-		<div class="offline-subtext">We apologize for the convenience and aim to have GoBrik up in 12hrs.</div>	
+		<div id="offline">
+			<div class="offline-image"><img src="svgs/earth-service3.svg" width="100%" height="96%"></div>
+			<div class="offline-header">GoBrik is Offline for an Updgrade</div> 
+			<div class="offline-text">Meanwhile... check out our brand new <a href="https://ecobricks.org">Ecobricks.org landing page</a>-- freshly launched today! 🎉</div>
+			<div class="offline-subtext">We apologize for the convenience and aim to have GoBrik up in 12hrs.</div>	
+		</div>
 	</div>
 
 
