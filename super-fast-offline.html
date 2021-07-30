@@ -13,24 +13,7 @@ AND UNIQUE to HTML Pages-->
 <title>GoBrik</title>
 <meta name="keywords" content="ecobricks, ecobrick, plastic solved, eco-brick, gobrik, bottle brick, plastic solution">
 <meta name="description" content="Secure your plastic by ecobricking! Together we can keep plastic from being a problem during Covid-19, make ecobricks and generate brikcoins.">
-
-
-<!-- primary Knack Scripts -->
-
-<script async type="text/javascript">
-	app_id='5b8c28c2a1152679c209ce0c';
-	region='eu-central';
-	api_subdomain='eu-api';
-	api_domain='knack.com';
-	cdn_url='https://cdn1.cloud-database.co';
-	assets='eu-secure-assets.cloud-database.co';
-	api_subdomain='eu-api';
-	s3='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"assets.knack-eu.com"}';
-	s3_secure='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"eu-secure-assets.cloud-database.co"}';
-	distribution_key="dist_42";
 	
-	</script>
-	<script async type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_42/knack.js"></script>
 	
 <!-- Facebook Open Graph Tags for social sharing-->
 
@@ -45,11 +28,27 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above"/>
 <meta property="og:locale" content="en_GB, id_ID" />
 
+<!-- primary Knack Scripts 
 
-<!-- preload key landing images  -->
+<script type="text/javascript">
+	app_id='5b8c28c2a1152679c209ce0c';
+	region='eu-central';
+	api_subdomain='eu-api';
+	api_domain='knack.com';
+	cdn_url='https://cdn1.cloud-database.co';
+	assets='eu-secure-assets.cloud-database.co';
+	api_subdomain='eu-api';
+	s3='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"assets.knack-eu.com"}';
+	s3_secure='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"eu-secure-assets.cloud-database.co"}';
+	distribution_key="dist_42";
+	
+	</script>
+	<script async type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_42/knack.js"></script>
 
+-->
 
 <link rel="preload" as="image" href="svgs/gobrik-logo-static.svg">
+<link rel="preload" as="image" href="svgs/svgs/circular.svg">
 <link rel="preload" as="image" href="svgs/top-clouds.svg">
 <link rel="preload" as="image" href="svgs/ocean-footer3.svg">
 <link rel="preload" as="image" href="top-clouds-mobile.svg">
@@ -58,37 +57,23 @@ AND UNIQUE to HTML Pages-->
 
 	 
 
-	 
-
 <!-- This calls our GEA typography 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet">  -->
+
 
 <link href="https://fonts.gstatic.com" rel="stylesheet" media="print" onload="this.media='all'">
 <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
--->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet">  
 	
-<!-- This calls our primary Github hosted stylesheet -->
+<!-- This calls our primary Github hosted stylesheet 
 
-<link rel="stylesheet" type="text/css" href="/server-stylesheet-v1-6.css">
+<link rel="stylesheet" type="text/css" href="/server-stylesheet-v1-6.css">-->
 
-
-<!-- Global site tag (gtag.js) - Google Analytics 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-201489430-1"></script>
-
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-201489430-1');
-</script>-->
   
 <!-- This calls our webmanifest wich turns our page into a progressive web app (PWA) 
 <link rel="manifest" href="manifest.webmanifest">-->
 
-	
+
 <!-- This allows GoBrik to be used a PWA on iPhones -->
 
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -775,23 +760,23 @@ padding-right: 6%;
 		</div> 
 	
 	
-<!--
+
 
 		<div id="offline">
 			<div class="offline-image"><img src="svgs/earth-service3.svg" width="100%" height="96%"></div>
-			<div class="offline-header">GoBrik is almost back up!</div> 
-			<div class="offline-text">We're still doing some deep server configuration!  Meanwhile... check out our brand new <a href="https://ecobricks.org">Ecobricks.org landing page</a>-- freshly launched today! 🎉</div>
+			<div class="offline-header">GoBrik is just about back up!</div> 
+			<div class="offline-text">We're doing some deep server configuration.  Meanwhile... check out our brand new <a href="https://ecobricks.org">Ecobricks.org landing page</a>-- freshly launched today! 🎉</div>
 			<div class="offline-subtext">We apologize for the convenience.</div>	
 		</div>
 	</div>
--->
+
 		
-	<div id="knack-dist_42" >
+		<!--<div id="knack-dist_42" >
 			<div id=loading-box></div>
 			<div class="loader"></div>
 		</div>
 		<div id="knack-content"></div>
-		</div>
+		</div>-->
 
 
 
@@ -913,7 +898,45 @@ padding-right: 6%;
 	</div>
 </div>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-201489430-1"></script>
+
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-201489430-1');
+</script>
 
 
 </body>
 </html>
+
+<!--<button class="add-button">Add to home screen
+</div> <object type="image/svg+xml" data="/svgs/full-footer-nov.svg" width="100%"></object></button>-->
+<!--<div id="footer-full">
+<div id="background-footer-mobile"></div>
+
+<div id="background-footer-desktop"><img src="/svgs/full-footer-nov.svg" width="100%"></div>
+  <div id="footer-text">
+<div class="footer-quote">
+      We are transitioning through plastic to an ever greener harmony with the cycles of life.<br></div>
+  <div class="footer-links"><a href='https://www.gobrik.com/#home' style="color: #fff">Home</a>     |     <a href='javascript:Localize.setLanguage("en")' style="color: #fff">English</a>     |     <a href='javascript:Localize.setLanguage("id")' style="color: #fff">Indonesian</a>    |     <a href='javascript:Localize.setLanguage("es")' style="color: #fff">Spanish</a></font></strong>
+ </div>
+<div class="footer-foot">
+	GoBrik v0.9.5</a> is a creation of the <a href="/#gea" style="color: #A9CDD8">Global Ecobrick Alliance Earth Enterprise.</a>  By using GoBrik you consent to our <a href="#terms" style="color: #A9CDD8">terms of service and privacy agreement</a> and by acquiring brikcoins or AES plastic offset you agree to the <a href="brk-aes-terms" style="color: #A9CDD8">terms of aquisition</a>.
+	<br><br>Learn more about<br>
+<a href="#brikcoin" style="color: #A9CDD8">Brikcoins</a>   |  <a href="#offsetting" style="color: #A9CDD8">Offsetting</a>  |   <a href="#seq" style="color: #A9CDD8">Sequestration</a> |   <a href="https://www.ecobricks.org/gobrik" target="_blank" style="color: #A9CDD8">GoBrik</a>
+	<br><br>Contribute to the open source development of GoBrik as social empowerment platform <a href="https://github.com/gea-ecobricks/gobrik/blob/master/README.md" target="_blank" style="color: #A9CDD8">on Github.</a></font><br>
+	<br>
+	<a href="https://www.instagram.com/ecobricks.plastic.transition/" target="_blank">Instagram</a>  |  <a href="https://www.youtube.com/ecobricks" target="_blank">Youtube</a>  | <a href="https://www.facebook.com/ecobricks.org"  target="_blank">Facebook</a>  |  <a href="https://gea.mandala.team/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr"  target="_blank">Community Support</a>
+ </div>
+  <div class="footer-foot"><a href="/staging.html"><img src="/images/2021-GEA-Logo-with-perspective-white.png" width="35px" alt="Global Ecobrick Alliance Logo"></a></div>
+ </div>
+</div>
+</div>
+  </div>
+</body>
+</html>
+-->

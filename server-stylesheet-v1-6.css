@@ -50,6 +50,10 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 /* -------------------------------------------------------------------------- */
 
 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
 
 .top-graphic {
     margin-top: 0px;
@@ -82,7 +86,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
       
       text-align: center !important;
       line-height: 1.2 !important;
-      margin-bottom: 25px;
+      margin-bottom: 0px;
               
       -webkit-animation-delay: 1.0s !important;
       opacity:0;
