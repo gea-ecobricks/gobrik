@@ -47,31 +47,25 @@ AND UNIQUE to HTML Pages-->
 
 -->
 
-
-<!-- This calls our GEA typography -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet">  
-
-
-
 <link rel="preload" as="image" href="svgs/gobrik-logo-static.svg">
 <link rel="preload" as="image" href="svgs/earth-service3.svg">
 <link rel="preload" as="image" href="svgs/top-clouds.svg">
-<link rel="preload" as="image" href="svgs/top-clouds-mobile.svg">
+<link rel="preload" as="image" href="svgs/ocean-footer3.svg">
+<link rel="preload" as="image" href="top-clouds-mobile.svg">
 
-<!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-201489430-1"></script>
 
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-201489430-1');
-</script>
--->
+
 
 	 
 
+<!-- This calls our GEA typography 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet">  -->
 
+
+<link href="https://fonts.gstatic.com" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+	
 <!-- This calls our primary Github hosted stylesheet -->
 
 <link rel="stylesheet" type="text/css" href="/server-stylesheet-v1-6.css">
@@ -766,22 +760,24 @@ padding-right: 6%;
 			<a href="/#home"><img src="svgs/gobrik-logo-static.svg" width="165" height="47px" alt="GoBrik Logo"></a>
 		</div> 
 	
-		<!--
-		<div id="knack-dist_42" >
+	
+
+
+		<div id="offline">
+			<div class="offline-image"><img src="svgs/earth-service3.svg" width="100%" height="96%"></div>
+			<div class="offline-header">GoBrik is on its way back up!</div> 
+			<div class="offline-text">We're addressing some issues and fixing some things up!  Meanwhile... check out our brand new <a href="https://ecobricks.org">Ecobricks.org landing page</a>-- freshly launched today! 🎉</div>
+			<div class="offline-subtext">We apologize for the convenience.</div>	
+		</div>
+	</div>
+
+		
+		<!--<div id="knack-dist_42" >
 			<div id=loading-box></div>
 			<div class="loader"></div>
 		</div>
 		<div id="knack-content"></div>
-		</div>
--->
-
-		<div id="offline">
-			<div class="offline-image"><img src="svgs/earth-service3.svg" width="100%" height="96%"></div>
-			<div class="offline-header">GoBrik is Offline for an Updgrade</div> 
-			<div class="offline-text">Meanwhile... check out our brand new <a href="https://ecobricks.org">Ecobricks.org landing page</a>-- freshly launched today! 🎉</div>
-			<div class="offline-subtext">We apologize for the convenience and aim to have GoBrik up in 12hrs.</div>	
-		</div>
-	</div>
+		</div>-->
 
 
 
@@ -905,7 +901,14 @@ padding-right: 6%;
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-201489430-1"></script>
 
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-201489430-1');
+</script>
 
 
 </body>
