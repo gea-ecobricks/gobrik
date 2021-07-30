@@ -816,7 +816,7 @@ background: #fff;
 
 /*	2. LOGINS
 /* -------------------------------------------------------------------------- */
------------------------------------------------------------------------------ */
+
 
 /*MAIN LOGIN FORMATTING*/
 
@@ -939,12 +939,10 @@ margin-top: -485px;
 
 @media screen and (min-width: 769px) and (max-width: 2000px) {
 
-#view_5266,  {
-	max-width: 500px; !important;
-  }
+#view_5266  {
+	max-width: 500px; }
 #view_5288 {
-  max-width: 500px; !important;
-  }
+  max-width: 500px;}
 
   }
   
@@ -954,7 +952,6 @@ margin-top: -485px;
 
 /*	3. NAVIGATION BAR
 /* -------------------------------------------------------------------------- */
------------------------------------------------------------------------------ */
 
 
 .kn-content .kn-navigation-bar {
@@ -1073,7 +1070,7 @@ h1 {
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 29px;
     font-family: 'Arvo', Georgia, serif !important;
     text-align: center !important;
 	  line-height: 1.3 !important;
@@ -1082,15 +1079,15 @@ h2 {
 }
 
 h3 {
-    font-size: 20px !important;
-    font-family:'Mulish', sans-serif; !important;
+    font-size: 22px !important;
+    font-family:'Mulish', sans-serif !important;
     text-align: center !important;
     line-height: 1.4 !important;
     font-weight: 300;
 }
 
 h4 {
-	font-size: 15px !important;
+	font-size: 17px !important;
 	font-family: 'Mulish', sans-serif !important;
     text-align: center !important;
           line-height: 1.4 !important;
@@ -1099,14 +1096,14 @@ h4 {
 
 
 h5 {
-	font-size: 14px !important;
+	font-size: 16px !important;
     font-family: 'Arvo', serif;
     text-align: center !important;
   line-height: 1.3 !important;
 }
 
 h6 {
-	font-size: 12px !important;
+	font-size: 16px !important;
 	font-family: 'Mulish', sans-serif !important;
    /* text-align: center;*/
   line-height: 1.4 !important;
