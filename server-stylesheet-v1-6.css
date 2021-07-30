@@ -52,7 +52,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 
 .top-graphic {
-    margin-top: -20px;
+    margin-top: 0px;
       position: relative;
       z-index: 10;
       margin-bottom: -23px;
@@ -76,7 +76,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
           }
   
   .big-header {	
-      font-size: 30px !important;
+      font-size: 48px !important;
       font-family: 'Mulish', sans-serif;
       text-align: center !important;
       line-height: 1.2 !important;
@@ -118,7 +118,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
           
    @media screen and (min-width: 770px) and (max-width: 2000px) { 
       .main-statement {
-           font-size: 2.3em !important;
+           font-size: 2.5em !important;
       }
   }
           
@@ -130,7 +130,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
           
 .welcome-text {	
       
-      font-size: 1.1em !important;
+      font-size: 1.5em !important;
       font-family: 'Mulish', sans-serif;
       text-align: center !important;
       
