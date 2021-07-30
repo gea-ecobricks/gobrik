@@ -132,7 +132,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
           
 .welcome-text {	
       
-      font-size: 1.8em !important;
+      font-size: 1.6em !important;
       font-family: 'Mulish', sans-serif;
       text-align: center !important;
       
@@ -149,6 +149,26 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
       animation-fill-mode: forwards;
           }
       
+  /*
+.welcome-news {
+  font-size: 16px !important;
+font-family: 'Mulish', sans-serif; !important;
+  text-align: center !important;
+line-height: 1.4 !important;
+position: relative;
+z-index: 5;
+  font-weight: 300;
+margin: 0px 10px 0px 10px;
+ font-size: 18px !important;
+*/
+
+-webkit-animation-delay: 1.6s !important;
+opacity:0;
+-webkit-animation:fadeIn ease-in 0.3s;
+-webkit-animation-duration:0.3s;
+-webkit-animation-fill-mode:forwards;
+}
+
   
   .social-buttons-box {
       position: relative;
@@ -627,25 +647,6 @@ border: 6px;
 padding-bottom: 50px;
 position: relative;
 z-index: 3;
-}
-
-.welcome-news {
-    font-size: 16px !important;
-font-family: 'Mulish', sans-serif; !important;
-    text-align: center !important;
-  line-height: 1.4 !important;
-  position: relative;
-  z-index: 5;
-    font-weight: 300;
-  margin: 0px 10px 0px 10px;
-	 font-size: 18px !important;
-
-
-	-webkit-animation-delay: 1.6s !important;
-	opacity:0;
-	-webkit-animation:fadeIn ease-in 0.3s;
-	-webkit-animation-duration:0.3s;
-	-webkit-animation-fill-mode:forwards;
 }
 
 
