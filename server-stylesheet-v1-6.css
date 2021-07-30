@@ -52,7 +52,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 
 .top-graphic {
-    margin-top: -38px;
+    margin-top: -20px;
       position: relative;
       z-index: 10;
       margin-bottom: -23px;
@@ -75,7 +75,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
       position: relative;
           }
   
-  .earthday {	
+  .big-header {	
       font-size: 30px !important;
       font-family: 'Mulish', sans-serif;
       text-align: center !important;
