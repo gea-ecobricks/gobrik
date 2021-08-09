@@ -32,19 +32,22 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 */
 
 
-@media screen and (min-width: 769px) and (max-width: 2000px) {
-    .kn-container {
-        margin: 0 auto;
-        max-width: 960px !important;
-    }
-    }
-   
 
 
 /* -------------------------------------------------------------------------- */
 
 /*	0. LANDING PAGE HTML
 /* -------------------------------------------------------------------------- */
+
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+  .kn-container {
+      margin: 0 auto;
+      max-width: 960px !important;
+  }
+  }
+ 
+
 
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
