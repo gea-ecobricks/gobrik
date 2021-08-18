@@ -50,6 +50,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
 
 
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -979,6 +980,7 @@ margin-top: -485px;
 
 .kn-content .kn-navigation-bar {
   display: none !important;
+  font-family: Mulish, sans-serif;
 }
 
 .kn-mobile-controls {
@@ -988,6 +990,7 @@ margin-top: -485px;
 
 #kn-mobile-menu.is-visible {
 	left: 0 !important;
+  font-family: Mulish, sans-serif;
   
 }
 
