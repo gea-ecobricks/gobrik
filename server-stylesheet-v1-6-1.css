@@ -1612,9 +1612,17 @@ margin-bottom: -10px;
 .is-alert {
   
      border-color: #ff0000;
+
+     margin: auto;
+     margin-top: -60px !important;
+     padding-top: 65px !important;
+   margin-bottom: -10px;
+     width: 90%;
+
+     /*
 	 	margin-top: -10px !important;
 	padding-top: 75px !important;
-margin-bottom: -10px;
+margin-bottom: -10px;*/
   
 }	
 
