@@ -1679,6 +1679,32 @@ migrated from Knack CSS
 /* -------------------------------------------------------------------------- */
 
 
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+
+/* Main column */
+
+@media screen and (min-width: 700px) {
+  .virtue {
+    flex: auto;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  }
+  
+  @media screen and (max-width: 700px) {
+  .virtue {
+    flex: 100%;
+    box-sizing: border-box;
+  }
+  }
+
+
+
 #footer-full {
   width: 100%;
   margin-top:20px;
