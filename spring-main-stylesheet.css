@@ -49,34 +49,6 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
   
   
   
-  @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-  @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-  
-  
-  .top-graphic {
-      
-      margin: auto;
-      margin-top: -50px;
-        position: relative;
-        z-index: 0;
-        margin-bottom: -30px;
-        width: 500px;
-        max-width: 87%;
-  
-        
-        -webkit-animation-delay: 1.0s !important;
-        opacity:0;
-        -webkit-animation:fadeIn ease-in 0.25s;
-        -webkit-animation-duration:0.25s;
-        -webkit-animation-fill-mode:forwards;
-    
-        animation-delay: 1.0s; 
-        animation: fadeIn ease-in 0.25s;
-        animation-duration: 0.25s;
-        animation-fill-mode: forwards;
-  
-    }
             
     /*
     .login-top-graphic {
