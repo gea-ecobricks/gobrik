@@ -11,12 +11,18 @@
    <feOffset dx="0" dy="0" result="offset"/>
    <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
   </filter>
-  <filter id="filter50404" x="-2.1306" y="-8.6378" width="3.3122" height="10.909" color-interpolation-filters="sRGB">
+  <filter id="filter50404" x="-2.1889" y="-8.9634" width="3.4288" height="11.539" color-interpolation-filters="sRGB">
    <feFlood flood-color="rgb(0,0,0)" flood-opacity=".65882" result="flood"/>
    <feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
    <feGaussianBlur in="composite1" result="blur" stdDeviation="9.3"/>
    <feOffset dx="-2.44897" dy="7.60469" result="offset"/>
-   <feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+   <feComposite in="offset" in2="SourceGraphic" operator="atop" result="fbSourceGraphic"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feFlood flood-color="rgb(253,253,253)" flood-opacity=".49804" in="fbSourceGraphic" result="flood"/>
+   <feComposite in="flood" in2="fbSourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="3"/>
+   <feOffset dx="0" dy="-0.5" result="offset"/>
+   <feComposite in="fbSourceGraphic" in2="offset" result="composite2"/>
   </filter>
   <filter id="filter50684" x="-.16725" y="-.1706" width="1.3345" height="1.3412" color-interpolation-filters="sRGB">
    <feFlood flood-color="rgb(253,253,253)" flood-opacity=".54118" result="flood"/>
@@ -34,6 +40,9 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
+ <g transform="translate(-199.15 -66.449)" display="none">
+  <rect x="199.15" y="66.449" width="187.34" height="210.07" opacity=".7" stop-color="#000000" stroke-opacity=".26415" stroke-width=".097592"/>
+ </g>
  <g transform="translate(-199.15 -66.449)">
   <g filter="url(#filter50404)">
    <g>
