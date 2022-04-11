@@ -226,14 +226,14 @@ body {
 
 @media screen and (min-width: 769px) {
 	body {
-		background: #f7fdff url(webp/spring-cloudback.webp) center top repeat-x ;
+		background: #f7fdff url(webp/spring-cloudback.webp?v1.0) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 1028px;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
 	body {
-		background: #f7fdff url(webp/spring-cloudback.webp) center top repeat-x;
+		background: #f7fdff url(webp/spring-cloudback.webp?v1.0) center top repeat-x;
     	box-sizing: border-box;
 		background-size: 100%;
 }
@@ -257,19 +257,24 @@ body {
 
 
 #header {  
-	padding-top: 13px;
-	padding-bottom: 8px;
+	padding-top: 16px;
+	padding-bottom: 12px;
 	z-index: 3;
 	position: relative;
 	background: white;
 	/*box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);*/
 	border-style: dashed;
-	border-bottom: 1px grey;
+	border-bottom: 7px grey;
 	border-top: none;
 	border-right:none;
 	border-left: none;
+	border-bottom-style: 7px;
 	
 }
+
+.fa-bars
+ {background: url(https://www.ecobricks.org/svgs/grey-emblem.svg) no-repeat center;
+	background-size: contain;}
 
 
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
@@ -389,7 +394,7 @@ body {
 <body id="full-page">
 	<div id="loading-box">
 		<div id="header" class="top-menu">
-			<a href="/#home"><img src="svgs/gobrik-logo-3.svg" width="185" height="39px"></a>
+			<a href="/#home"><img src="svgs/gobrik-logo-3.svg?v1.0" width="175" height="42px"></a>
 		</div> 
 
 	<!--	
