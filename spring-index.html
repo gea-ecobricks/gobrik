@@ -51,10 +51,10 @@ AND UNIQUE to HTML Pages-->
 
 
 <link rel="preload" as="image" href="svgs/gobrik-logo-static.svg">
-<link rel="preload" as="image" href="svgs/top-clouds.svg">
+<link rel="preload" as="image" href="svgs/top-clouds-animate.svg">
 <link rel="preload" as="image" href="svgs/vision-footer-2022.svg">
 <link rel="preload" as="image" href="svgs/top-clouds-mobile">
-<link rel="preload" as="image" href="svgs/Happy-turtle-dolphin-opti.svg">
+<link rel="preload" as="image" href="svgs/Happy-turtle-dolphin-opti2.svg">
 
 	 
 
@@ -226,14 +226,14 @@ body {
 
 @media screen and (min-width: 769px) {
 	body {
-		background: #f7fdff url(webp/spring-cloudback.webp?v1.2) center top repeat-x ;
+		background: #f7fdff url(svgs/top-clouds-animate.svg?v1.2) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 80%;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
 	body {
-		background: #f7fdff url(webp/spring-cloudback.webp?v1.2) center top repeat-x;
+		background: #f7fdff url(svgs/top-clouds-animate.svg?v1.2) center top repeat-x;
     	box-sizing: border-box;
 		background-size: 700px;
 }
@@ -407,6 +407,37 @@ opacity: 50%;
 }
 
 /* LANDING PAGE */
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  
+  
+  .top-graphic {
+      
+      margin: auto;
+      margin-top: -50px;
+        position: relative;
+        z-index: 0;
+        margin-bottom: -30px;
+        width: 500px;
+        max-width: 87%;
+		min-height: 561px;
+  
+        
+        -webkit-animation-delay: 1.0s !important;
+        opacity:0;
+        -webkit-animation:fadeIn ease-in 0.25s;
+        -webkit-animation-duration:0.25s;
+        -webkit-animation-fill-mode:forwards;
+    
+        animation-delay: 1.0s; 
+        animation: fadeIn ease-in 0.25s;
+        animation-duration: 0.25s;
+        animation-fill-mode: forwards;
+  
+    }
 
 
 .big-header {	
