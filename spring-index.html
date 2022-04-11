@@ -233,14 +233,14 @@ body {
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
 	body {
-		background: #f7fdff url(webp/spring-cloudback.webp?v1.0) center top repeat-x;
+		background: #f7fdff url(webp/spring-cloudback.webp?v1.2) center top repeat-x;
     	box-sizing: border-box;
-		background-size: 100%;
+		background-size: 700px;
 }
 }
 
 #loading-box {
-	min-height: 90vh;
+	min-height: 70vh;
 	width: 100%;
 	}	
 
@@ -255,21 +255,31 @@ body {
 		margin-bottom: 14vh;}
 }	
 */    
-
+@media screen and (min-width: 1000px) {
 #header {  
-	padding-top: 16px;
-	padding-bottom: 13px;
+	padding-top: 18px;
+	padding-bottom: 15px;
 	z-index: 3;
 	position: relative;
 	background: white;
-	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);
-	/*border-bottom: 1px rgb(192, 191, 191);
-	border-top: none;
-	border-right:none;
-	border-left: none;
-	border-bottom-style: dashed;*/
-	
+	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
 }
+}
+
+@media screen and (max-width: 999px) {
+#header {  
+	padding-top: 14px;
+	padding-bottom: 11px;
+	z-index: 3;
+	position: relative;
+	background: white;
+	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
+}
+}
+
+
+
+
 
 .fa-bars  {
  	background: url(svgs/grey-emblem-button.svg) no-repeat center;
