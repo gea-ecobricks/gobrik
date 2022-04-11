@@ -11,12 +11,19 @@
    <feOffset dx="0" dy="0" result="offset"/>
    <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
   </filter>
-  <filter id="filter47347" x="-.09745" y="-.091305" width="1.187" height="1.2002" color-interpolation-filters="sRGB">
-   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".57255" result="flood"/>
+  <filter id="filter50404" x="-2.1306" y="-8.6378" width="3.3122" height="10.909" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".65882" result="flood"/>
    <feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
-   <feGaussianBlur in="composite1" result="blur" stdDeviation="5.63673"/>
-   <feOffset dx="-1.2" dy="2.6" result="offset"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="9.3"/>
+   <feOffset dx="-2.44897" dy="7.60469" result="offset"/>
    <feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+  </filter>
+  <filter id="filter50684" x="-.16725" y="-.1706" width="1.3345" height="1.3412" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(253,253,253)" flood-opacity=".54118" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="10.5322"/>
+   <feOffset dx="0" dy="0" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
   </filter>
  </defs>
  <metadata>
@@ -27,11 +34,14 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
+ <g transform="translate(-201.57 -71.895)" display="none">
+  <rect x="199.15" y="70.482" width="187.34" height="200.11" opacity=".7" stop-color="#000000" stroke-opacity=".26415" stroke-width=".09525"/>
+ </g>
  <g transform="translate(-201.57 -71.895)">
-  <g>
+  <g filter="url(#filter50404)">
    <g>
     <g transform="translate(-4.7438 19.542)">
-     <ellipse cx="298.47" cy="141.24" rx="75.568" ry="74.082" fill="#6161ff" filter="url(#filter47347)"/>
+     <ellipse cx="298.47" cy="141.24" rx="75.568" ry="74.082" fill="#6161ff" filter="url(#filter50684)"/>
      <g transform="matrix(1.028 0 0 1 -78.814 23.152)" fill="#2626a9" opacity=".3">
       <circle transform="matrix(4.7381 0 0 4.7381 78.501 -1069.4)" cx="60.804" cy="250.63" r="15.635" clip-path="url(#clipPath16217-3-3-9-0-2)" opacity="1"/>
       <path transform="matrix(.26458 0 0 .26458 301.56 145.81)" d="m26.306 64.108c24.53 38.152 45.513 49.946 83.517 74.567l89.631-10.443c-62.903 0.15005-134.78-30.068-173.15-64.123z" stroke="#2626a9" stroke-width="1px"/>
