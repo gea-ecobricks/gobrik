@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="169.12314mm"
-   height="248.61588mm"
-   viewBox="0 0 169.12314 248.61588"
+   width="167.93919mm"
+   height="277.21634mm"
+   viewBox="0 0 167.93919 277.21634"
    version="1.1"
    id="svg19057"
    inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
@@ -26,7 +26,7 @@
      showgrid="false"
      inkscape:zoom="0.74297138"
      inkscape:cx="455.60301"
-     inkscape:cy="382.92188"
+     inkscape:cy="487.90574"
      inkscape:window-width="1864"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -40,11 +40,11 @@
        xlink:href="#linearGradient16429-6"
        id="linearGradient21073"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.19647371,0,0,0.42536091,-140.89994,142.40103)"
+       gradientTransform="matrix(0.19647371,0,0,0.50687155,-140.89994,170.37588)"
        x1="1605.8314"
        y1="-257.40121"
-       x2="1601.5145"
-       y2="241.04521" />
+       x2="1612.5526"
+       y2="202.57925" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient16429-6">
@@ -64,10 +64,10 @@
      id="layer1"
      transform="translate(-90.290947,3.5849161)">
     <rect
-       style="display:inline;opacity:0.9;fill:url(#linearGradient21073);fill-opacity:1;stroke:none;stroke-width:0.383654;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;opacity:0.9;fill:url(#linearGradient21073);fill-opacity:1;stroke:none;stroke-width:0.418803;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2193"
-       width="169.123"
-       height="248.61588"
+       width="167.93919"
+       height="277.21634"
        x="90.290947"
        y="-3.5849161"
        inkscape:export-filename="/home/russs/Global Ecobrick Alliance Files/Development Circle/Live Github Code2/gobrik/webp/spring-cloudback.webp"
@@ -82,13 +82,13 @@
        inkscape:export-xdpi="262.37177"
        inkscape:export-ydpi="262.37177">
       <path
-         d="m 117.585,86.186247 c -0.57997,-0.06616 -1.0733,-1.443 -2.0691,-0.89075 -0.73966,0.36436 -0.77325,1.0741 -1.6486,1.0382 -0.89898,0.61888 -0.0386,1.8592 0.88797,1.5784 1.0532,-0.03714 2.126,0.07921 3.1655,-0.06781 0.85706,-0.33752 0.588,-1.6797 -0.33578,-1.658 z"
+         d="m 115.59608,86.186247 c -0.57997,-0.06616 -1.0733,-1.443 -2.0691,-0.89075 -0.73966,0.36436 -0.77325,1.0741 -1.6486,1.0382 -0.89898,0.61888 -0.0386,1.8592 0.88797,1.5784 1.0532,-0.03714 2.126,0.07921 3.1655,-0.06781 0.85706,-0.33752 0.588,-1.6797 -0.33578,-1.658 z"
          opacity="0.77"
          stroke-width="0.014448"
          id="path3001-0-5" />
     </g>
     <g
-       transform="matrix(4.3498884,0,0,3.9627784,-257.05622,-269.86121)"
+       transform="matrix(4.3498884,0,0,3.9627784,-262.34792,-269.86121)"
        fill="#ffffff"
        id="g3003-6-7-6"
        style="opacity:0.8"
@@ -102,7 +102,7 @@
          id="path3001-0-5-0" />
     </g>
     <g
-       transform="matrix(3.1818944,0,0,2.8987277,-237.01916,-155.25411)"
+       transform="matrix(3.1818944,0,0,2.8987277,-250.77758,-140.43735)"
        fill="#ffffff"
        id="g3003-6-7-62"
        style="opacity:0.8"
@@ -116,7 +116,7 @@
          id="path3001-0-5-6" />
     </g>
     <g
-       transform="matrix(3.3793968,0,0,3.0786538,-183.49042,-148.28775)"
+       transform="matrix(3.3793968,0,0,3.0786538,-164.4403,-144.58356)"
        fill="#ffffff"
        id="g3003-6-7-1"
        style="opacity:0.8"
@@ -130,7 +130,7 @@
          id="path3001-0-5-8" />
     </g>
     <g
-       transform="matrix(2.7293599,0,0,2.4864657,-149.35509,-60.947731)"
+       transform="matrix(2.7293599,0,0,2.4864657,-159.0328,-27.062544)"
        fill="#ffffff"
        id="g3003-6-7-7"
        style="opacity:0.8"
