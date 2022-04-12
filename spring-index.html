@@ -226,14 +226,14 @@ body {
 
 @media screen and (min-width: 769px) {
 	body {
-		background: #f7fdff url(svgs/top-clouds-mobile.svg?v1.3) center top repeat-x ;
+		background: url(svgs/top-clouds-desktop.svg?v1.3) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 100%;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
 	body {
-		background: #f7fdff url(svgs/top-clouds-desktop.svg?v1.2) center top repeat-x;
+		background:/* #f7fdff*/ url(svgs/top-clouds-mobile.svg?v1.2) center top repeat-x;
     	box-sizing: border-box;
 		background-size: 100%;
 }
@@ -593,13 +593,12 @@ opacity: 50%;
 	position: relative;
 	width:100%;
 	height: 30vh;
-	z-index: 5;
-	background: #f7fdff url(svgs/footer-clouds-desktop.svg?v1.0) center top repeat-x ;
-    		box-sizing: border-box;
-		background-size: 100%;
-
-
+	z-index: -5;
+	background: url(svgs/footer-clouds-desktop.svg?v1.0) center top repeat-x ;
+    box-sizing: border-box;
+	background-size: 100%;
 }
+
   </style>
 	
 </head>
