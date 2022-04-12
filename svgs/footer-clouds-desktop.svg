@@ -1,25 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="153.48mm" height="88.434mm" version="1.1" viewBox="0 0 153.48 88.434" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <linearGradient id="linearGradient22915" x1="79.866" x2="78.428" y1="175.1" y2="109.12" gradientTransform="matrix(1.0952 0 0 1.3394 30.158 -52.775)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#0ff" offset="0"/>
-   <stop stop-color="#0ff" stop-opacity="0" offset="1"/>
-  </linearGradient>
- </defs>
- <g transform="translate(-34.795 -93.456)">
-  <path d="m187.93 181.89 0.34162-88.434h-153.48v87.562" fill="url(#linearGradient22915)" filter="url(#filter1073)"/>
-  <g fill="#fff">
-   <path d="m168.54 137.42c-1.575 0.38062-1.6974-2.5008-3.7312-2.4655-2.0499-0.54581-4.3844 0.72103-4.8381 2.6207-1.9664-0.80965-4.1682 1.2929-3.2345 3.0434 0.55754 1.3684 2.2592 1.4977 3.6274 1.4062 2.8941-0.0302 5.7967 0.0611 8.6856-0.0469 2.1299-0.29252 2.7507-3.156 0.90342-4.1646-0.41369-0.25606-0.91252-0.39462-1.4126-0.39334z" filter="url(#filter1073)" opacity=".77" stroke-width="2.0367"/>
-   <path d="m59.533 140.48c-1.7372 0.0627-2.5257-3.6944-5.3927-2.9097-3.0669-0.10936-2.8848 3.7822-5.7064 3.1144-3.0938 1.2237-1.3226 5.7418 1.901 5.0082 3.2452-0.0341 6.4985 0.0688 9.7384-0.053 3.0966-0.58807 2.6735-5.1602-0.54034-5.1602z" filter="url(#filter1073)" opacity=".77" stroke-width=".04427"/>
-   <g transform="matrix(2.0631 0 0 1.8795 -99.494 -37.814)" filter="url(#filter1073)">
-    <path d="m117.58 86.186c-0.57997-0.06616-1.0733-1.443-2.0691-0.89075-0.73966 0.36436-0.77325 1.0741-1.6486 1.0382-0.89898 0.61888-0.0386 1.8592 0.88797 1.5784 1.0532-0.03714 2.126 0.07921 3.1655-0.06781 0.85706-0.33752 0.588-1.6797-0.33578-1.658z" opacity=".77" stroke-width=".014448"/>
-   </g>
-   <g transform="matrix(1.3561 0 0 1.2354 -84.291 6.2882)" filter="url(#filter1073)">
-    <path d="m117.58 86.186c-0.57997-0.06616-1.0733-1.443-2.0691-0.89075-0.73966 0.36436-0.77325 1.0741-1.6486 1.0382-0.89898 0.61888-0.0386 1.8592 0.88797 1.5784 1.0532-0.03714 2.126 0.07921 3.1655-0.06781 0.85706-0.33752 0.588-1.6797-0.33578-1.658z" opacity=".77" stroke-width=".014448"/>
-   </g>
-   <g transform="matrix(1.3561 0 0 1.2354 11.607 -.78816)" filter="url(#filter1073)">
-    <path d="m117.58 86.186c-0.57997-0.06616-1.0733-1.443-2.0691-0.89075-0.73966 0.36436-0.77325 1.0741-1.6486 1.0382-0.89898 0.61888-0.0386 1.8592 0.88797 1.5784 1.0532-0.03714 2.126 0.07921 3.1655-0.06781 0.85706-0.33752 0.588-1.6797-0.33578-1.658z" opacity=".77" stroke-width=".014448"/>
-   </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="153.47765mm"
+   height="87.562134mm"
+   viewBox="0 0 153.47765 87.562134"
+   version="1.1"
+   id="svg16005"
+   sodipodi:docname="footer-clouds-desktop.svg"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview16007"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74297138"
+     inkscape:cx="263.13261"
+     inkscape:cy="203.91095"
+     inkscape:window-width="1864"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs16002">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient20527">
+      <stop
+         style="stop-color:#00ffff;stop-opacity:1;"
+         offset="0"
+         id="stop20523" />
+      <stop
+         style="stop-color:#00ffff;stop-opacity:0;"
+         offset="1"
+         id="stop20525" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient20527"
+       id="linearGradient20529"
+       x1="125.5443"
+       y1="180.40126"
+       x2="125.16871"
+       y2="92.172356"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0.45627226,1.1949332)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-35.251026,-94.65126)">
+    <rect
+       style="opacity:0.8;fill:url(#linearGradient20529);fill-opacity:1;stroke-width:0.09525;stroke-opacity:0.26415;stop-color:#000000"
+       id="rect20491"
+       width="153.47765"
+       height="87.562134"
+       x="35.251026"
+       y="94.65126" />
+    <path
+       d="m 168.53516,137.41909 c -1.57499,0.38062 -1.69736,-2.50081 -3.73124,-2.46548 -2.04989,-0.54581 -4.38436,0.72103 -4.83812,2.62066 -1.96637,-0.80965 -4.16825,1.29291 -3.23451,3.04342 0.55754,1.36844 2.25919,1.49769 3.62745,1.40617 2.89414,-0.0302 5.79666,0.0611 8.68558,-0.0469 2.12988,-0.29252 2.75068,-3.15595 0.90342,-4.16464 -0.41369,-0.25606 -0.91252,-0.39462 -1.41263,-0.39334 z"
+       opacity="0.77"
+       stroke-width="2.03667"
+       id="path837"
+       style="fill:#ffffff"
+       inkscape:export-filename="/home/russs/Documents/GEA Files/Source Files/Graphics/Plastic Sequestration/AES Background banner-2021-1500.png"
+       inkscape:export-xdpi="262.37177"
+       inkscape:export-ydpi="262.37177" />
+    <path
+       d="m 59.533161,140.48372 c -1.73718,0.0627 -2.52574,-3.69438 -5.39266,-2.90971 -3.06689,-0.10936 -2.88478,3.78219 -5.70641,3.11443 -3.09377,1.22368 -1.32257,5.7418 1.90103,5.00819 3.24519,-0.0341 6.49849,0.0688 9.73835,-0.053 3.09655,-0.58807 2.6735,-5.16023 -0.54034,-5.16023 z"
+       opacity="0.77"
+       stroke-width="0.0442696"
+       id="path839"
+       style="fill:#ffffff"
+       inkscape:export-filename="/home/russs/Documents/GEA Files/Source Files/Graphics/Plastic Sequestration/AES Background banner-2021-1500.png"
+       inkscape:export-xdpi="262.37177"
+       inkscape:export-ydpi="262.37177" />
+    <g
+       transform="matrix(2.0631206,0,0,1.8795171,-99.493551,-37.814218)"
+       fill="#ffffff"
+       id="g843"
+       style="filter:url(#filter1073)"
+       inkscape:export-filename="/home/russs/Documents/GEA Files/Source Files/Graphics/Plastic Sequestration/AES Background banner-2021-1500.png"
+       inkscape:export-xdpi="262.37177"
+       inkscape:export-ydpi="262.37177" />
+    <path
+       d="m 136.50705,121.47838 c -1.03824,0.25091 -1.11891,-1.64854 -2.45965,-1.62525 -1.3513,-0.3598 -2.89019,0.47531 -3.18931,1.72755 -1.29624,-0.53372 -2.74773,0.85229 -2.13221,2.00624 0.36754,0.90208 1.48927,0.98728 2.39124,0.92695 1.90783,-0.0199 3.82118,0.0403 5.72557,-0.0309 1.40403,-0.19283 1.81326,-2.08041 0.59554,-2.74535 -0.27271,-0.16879 -0.60154,-0.26013 -0.93121,-0.25929 z"
+       opacity="0.77"
+       stroke-width="1.34258"
+       id="path21433"
+       style="fill:#ffffff"
+       inkscape:export-filename="/home/russs/Documents/GEA Files/Source Files/Graphics/Plastic Sequestration/AES Background banner-2021-1500.png"
+       inkscape:export-xdpi="262.37177"
+       inkscape:export-ydpi="262.37177" />
+    <g
+       transform="matrix(1.9172698,0,0,1.746646,-143.34569,-38.307769)"
+       fill="#ffffff"
+       id="g3003-6-7"
+       style="opacity:0.8"
+       inkscape:export-filename="/home/russs/Documents/GEA Files/Source Files/Graphics/Plastic Sequestration/AES Background banner-2021-1500.png"
+       inkscape:export-xdpi="262.37177"
+       inkscape:export-ydpi="262.37177">
+      <path
+         d="m 117.585,86.186247 c -0.57997,-0.06616 -1.0733,-1.443 -2.0691,-0.89075 -0.73966,0.36436 -0.77325,1.0741 -1.6486,1.0382 -0.89898,0.61888 -0.0386,1.8592 0.88797,1.5784 1.0532,-0.03714 2.126,0.07921 3.1655,-0.06781 0.85706,-0.33752 0.588,-1.6797 -0.33578,-1.658 z"
+         opacity="0.77"
+         stroke-width="0.014448"
+         id="path3001-0-5" />
+    </g>
   </g>
- </g>
 </svg>

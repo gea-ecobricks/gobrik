@@ -226,14 +226,14 @@ body {
 
 @media screen and (min-width: 769px) {
 	body {
-		background: url(svgs/top-clouds-desktop.svg?v1.3) center top repeat-x ;
+		background: url(svgs/top-clouds-desktop.svg?v1.4) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 100%;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
 	body {
-		background:/* #f7fdff*/ url(svgs/top-clouds-mobile.svg?v1.2) center top repeat-x;
+		background:/* #f7fdff*/ url(svgs/top-clouds-mobile.svg?v1.3) center top repeat-x;
     	box-sizing: border-box;
 		background-size: 100%;
 }
@@ -589,15 +589,30 @@ opacity: 50%;
                 margin-bottom: -150px;
             }
         }
-#footer-clouds {
+#vision-clouds {
 	position: relative;
 	width:100%;
 	height: 30vh;
 	z-index: -5;
-	background: url(svgs/footer-clouds-desktop.svg?v1.0) center top repeat-x ;
+	background: url(svgs/footer-clouds-desktop.svg?v1.1) center top repeat-x ;
     box-sizing: border-box;
 	background-size: 100%;
+	margin-bottom: -100px;
 }
+
+#vision-landscape {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    margin-bottom: -6px;
+  }
+  
+  .vison-landscape img {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+  }
 
   </style>
 	
@@ -627,7 +642,7 @@ opacity: 50%;
 	
 <!--FOOTER STARTS-->
 	<div id="footer-full">
-		<div id="footer-clouds"></div>
+		<div id="vision-clouds"></div>
 		<div id="vision-landscape"><img src="webp/vision-background-2022-footer.webp?v=1.1" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
 			
 		<div class="footer-vision">

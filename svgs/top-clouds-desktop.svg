@@ -1,32 +1,154 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="254.27mm" height="142.53mm" version="1.1" viewBox="0 0 254.27 142.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <linearGradient id="linearGradient21073" x1="1605.8" x2="1601.5" y1="-257.4" y2="241.05" gradientTransform="matrix(.2954 0 0 .24386 -369.19 133.23)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#0ff" stop-opacity=".88627" offset="0"/>
-   <stop stop-color="#9ce5ff" stop-opacity="0" offset="1"/>
-  </linearGradient>
-  <linearGradient id="linearGradient29995" x1="1601.7" x2="1600.1" y1="-199.9" y2="502.51" gradientTransform="matrix(.29588 0 0 .031544 -369.76 60.36)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#00d2d2" offset="0"/>
-   <stop stop-color="#9ce5ff" stop-opacity="0" offset="1"/>
-  </linearGradient>
- </defs>
- <g transform="translate(21.595 -49.534)">
-  <rect x="-21.595" y="49.534" width="254.27" height="142.53" fill="url(#linearGradient21073)" opacity=".9"/>
-  <rect x="-21.595" y="49.534" width="254.27" height="27.58" fill="url(#linearGradient29995)" opacity=".9"/>
-  <g fill="#fff">
-   <path d="m33.936 81.197c-1.9904 0.07182-2.8939-4.2329-6.1788-3.3339-3.514-0.1253-3.3053 4.3335-6.5383 3.5684-3.5448 1.4021-1.5154 6.5788 2.1781 5.7383 3.7183-0.03912 7.4458 0.0788 11.158-0.06073 3.548-0.6738 3.0632-5.9125-0.6191-5.9125z" filter="url(#filter1073)" opacity=".7" stroke-width=".050723"/>
-   <g transform="matrix(4.6822 0 0 4.2655 -360.09 -278.37)" filter="url(#filter1073)" opacity=".8">
-    <path d="m117.58 86.186c-0.57997-0.06616-1.0733-1.443-2.0691-0.89075-0.73966 0.36436-0.77325 1.0741-1.6486 1.0382-0.89898 0.61888-0.0386 1.8592 0.88797 1.5784 1.0532-0.03714 2.126 0.07921 3.1655-0.06781 0.85706-0.33752 0.588-1.6797-0.33578-1.658z" opacity=".77" stroke-width=".014448"/>
-   </g>
-   <g transform="matrix(3.904 0 0 3.5566 -390.9 -191.43)" filter="url(#filter1073)" opacity=".8">
-    <path d="m117.58 86.186c-0.57997-0.06616-1.0733-1.443-2.0691-0.89075-0.73966 0.36436-0.77325 1.0741-1.6486 1.0382-0.89898 0.61888-0.0386 1.8592 0.88797 1.5784 1.0532-0.03714 2.126 0.07921 3.1655-0.06781 0.85706-0.33752 0.588-1.6797-0.33578-1.658z" opacity=".77" stroke-width=".014448"/>
-   </g>
-   <g transform="matrix(2.2127 0 0 2.0158 -86.827 -35.858)" filter="url(#filter1073)">
-    <path d="m117.58 86.186c-0.57997-0.06616-1.0733-1.443-2.0691-0.89075-0.73966 0.36436-0.77325 1.0741-1.6486 1.0382-0.89898 0.61888-0.0386 1.8592 0.88797 1.5784 1.0532-0.03714 2.126 0.07921 3.1655-0.06781 0.85706-0.33752 0.588-1.6797-0.33578-1.658z" opacity=".77" stroke-width=".014448"/>
-   </g>
-   <g transform="matrix(2.2127 0 0 2.0158 -149.05 -7.0751)" filter="url(#filter1073)">
-    <path d="m117.58 86.186c-0.57997-0.06616-1.0733-1.443-2.0691-0.89075-0.73966 0.36436-0.77325 1.0741-1.6486 1.0382-0.89898 0.61888-0.0386 1.8592 0.88797 1.5784 1.0532-0.03714 2.126 0.07921 3.1655-0.06781 0.85706-0.33752 0.588-1.6797-0.33578-1.658z" opacity=".77" stroke-width=".014448"/>
-   </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="254.27393mm"
+   height="142.534mm"
+   viewBox="0 0 254.27393 142.534"
+   version="1.1"
+   id="svg16765"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   sodipodi:docname="top-clouds-desktop.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview16767"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74297138"
+     inkscape:cx="460.9868"
+     inkscape:cy="380.22999"
+     inkscape:window-width="1864"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs16762">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16429-6"
+       id="linearGradient21073"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.29539508,0,0,0.2438637,-255.00575,131.37066)"
+       x1="1605.8314"
+       y1="-257.40121"
+       x2="1601.5145"
+       y2="241.04521" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient16429-6">
+      <stop
+         style="stop-color:#00ffff;stop-opacity:0.88627452"
+         offset="0"
+         id="stop16431-7" />
+      <stop
+         style="stop-color:#9ce5ff;stop-opacity:0;"
+         offset="1"
+         id="stop16433-5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient30023"
+       id="linearGradient29995"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.29588319,0,0,0.03154354,-255.58011,58.501345)"
+       x1="1601.6644"
+       y1="-199.90149"
+       x2="1600.082"
+       y2="502.50516" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient30023">
+      <stop
+         style="stop-color:#00d2d2;stop-opacity:1"
+         offset="0"
+         id="stop30019" />
+      <stop
+         style="stop-color:#9ce5ff;stop-opacity:0;"
+         offset="1"
+         id="stop30021" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-92.58606,-47.675449)">
+    <rect
+       style="display:inline;opacity:0.9;fill:url(#linearGradient21073);fill-opacity:1;stroke:none;stroke-width:0.356193;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2193"
+       width="254.27393"
+       height="142.534"
+       x="92.58606"
+       y="47.675449"
+       inkscape:export-filename="/home/russs/Global Ecobrick Alliance Files/Development Circle/Live Github Code2/gobrik/webp/spring-cloudback.webp"
+       inkscape:export-xdpi="181.58247"
+       inkscape:export-ydpi="181.58247" />
+    <rect
+       style="display:inline;opacity:0.9;fill:url(#linearGradient29995);fill-opacity:1;stroke:none;stroke-width:0.128211;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect29993"
+       width="254.27393"
+       height="27.579773"
+       x="92.58606"
+       y="47.675449"
+       inkscape:export-filename="/home/russs/Global Ecobrick Alliance Files/Development Circle/Live Github Code2/gobrik/webp/spring-cloudback.webp"
+       inkscape:export-xdpi="181.58247"
+       inkscape:export-ydpi="181.58247" />
+    <path
+       d="m 144.34824,71.843188 c -1.79391,0.06471 -2.6082,-3.815009 -5.56874,-3.004716 -3.16702,-0.112929 -2.97896,3.905677 -5.89271,3.216117 -3.19479,1.263631 -1.36577,5.929265 1.96309,5.171705 3.35115,-0.03524 6.71066,0.07102 10.05631,-0.05471 3.19766,-0.607274 2.7608,-5.328714 -0.55797,-5.328714 z"
+       opacity="0.77"
+       stroke-width="0.0457151"
+       id="path839-0"
+       style="opacity:0.8;fill:#ffffff"
+       inkscape:export-filename="/home/russs/Documents/GEA Files/Source Files/Graphics/Plastic Sequestration/AES Background banner-2021-1500.png"
+       inkscape:export-xdpi="262.37177"
+       inkscape:export-ydpi="262.37177" />
+    <path
+       d="m 174.5615,104.24736 c -2.1057,0.0759 -3.06153,-4.478093 -6.53663,-3.52696 -3.71748,-0.13256 -3.49674,4.58451 -6.91692,3.7751 -3.75007,1.48326 -1.60315,6.95982 2.30429,6.07059 3.9336,-0.0414 7.87704,0.0834 11.80418,-0.0642 3.75344,-0.71282 3.24065,-6.25489 -0.65495,-6.25489 z"
+       opacity="0.77"
+       stroke-width="0.0536607"
+       id="path17503"
+       style="opacity:0.8;fill:#ffffff"
+       inkscape:export-filename="/home/russs/Documents/GEA Files/Source Files/Graphics/Plastic Sequestration/AES Background banner-2021-1500.png"
+       inkscape:export-xdpi="262.37177"
+       inkscape:export-ydpi="262.37177" />
+    <path
+       d="m 304.1202,82.855909 c -2.65216,0.09562 -3.85603,-5.640209 -8.23297,-4.442249 -4.68221,-0.166958 -4.40417,5.774246 -8.71193,4.754788 -4.72325,1.86818 -2.01917,8.765964 2.90229,7.64597 4.95441,-0.05213 9.92121,0.105005 14.86748,-0.08088 4.72751,-0.897806 4.08164,-7.878107 -0.82492,-7.878107 z"
+       opacity="0.77"
+       stroke-width="0.0675864"
+       id="path17585"
+       style="opacity:0.8;fill:#ffffff"
+       inkscape:export-filename="/home/russs/Documents/GEA Files/Source Files/Graphics/Plastic Sequestration/AES Background banner-2021-1500.png"
+       inkscape:export-xdpi="262.37177"
+       inkscape:export-ydpi="262.37177" />
+    <path
+       d="m 274.68812,129.59981 c -1.66284,0.06 -2.41764,-3.53628 -5.16187,-2.78518 -2.93564,-0.10468 -2.76132,3.62032 -5.46219,2.98114 -2.96137,1.1713 -1.26598,5.49606 1.81967,4.79385 3.1063,-0.0327 6.22037,0.0658 9.32158,-0.0507 2.96403,-0.56291 2.55908,-4.93939 -0.51721,-4.93939 z"
+       opacity="0.77"
+       stroke-width="0.042375"
+       id="path839-0-3"
+       style="fill:#ffffff"
+       inkscape:export-filename="/home/russs/Documents/GEA Files/Source Files/Graphics/Plastic Sequestration/AES Background banner-2021-1500.png"
+       inkscape:export-xdpi="262.37177"
+       inkscape:export-ydpi="262.37177" />
+    <path
+       d="m 222.01904,162.27517 c -1.46847,0.053 -2.13505,-3.12292 -4.55851,-2.45962 -2.59249,-0.0924 -2.43854,3.19714 -4.82371,2.63267 -2.61521,1.0344 -1.11799,4.85363 1.60697,4.2335 2.74321,-0.0288 5.49327,0.0581 8.23198,-0.0448 2.61756,-0.49711 2.25995,-4.36202 -0.45675,-4.36202 z"
+       opacity="0.77"
+       stroke-width="0.0374218"
+       id="path839-0-6"
+       style="fill:#ffffff"
+       inkscape:export-filename="/home/russs/Documents/GEA Files/Source Files/Graphics/Plastic Sequestration/AES Background banner-2021-1500.png"
+       inkscape:export-xdpi="262.37177"
+       inkscape:export-ydpi="262.37177" />
   </g>
- </g>
 </svg>
