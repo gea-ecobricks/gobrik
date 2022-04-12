@@ -226,16 +226,16 @@ body {
 
 @media screen and (min-width: 769px) {
 	body {
-		background: #f7fdff url(svgs/top-clouds-animate.svg?v1.3) center top repeat-x ;
+		background: #f7fdff url(svgs/top-clouds-mobile.svg?v1.3) center top repeat-x ;
     		box-sizing: border-box;
-		background-size: 90%;
+		background-size: 100%;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
 	body {
-		background: #f7fdff url(svgs/top-clouds-animate.svg?v1.2) center top repeat-x;
+		background: #f7fdff url(svgs/top-clouds-desktop.svg?v1.2) center top repeat-x;
     	box-sizing: border-box;
-		background-size: 700px;
+		background-size: 100%;
 }
 }
 
@@ -589,7 +589,17 @@ opacity: 50%;
                 margin-bottom: -150px;
             }
         }
+#footer-clouds {
+	position: relative;
+	width:100%;
+	height: 30vh;
+	z-index: 5;
+	background: #f7fdff url(svgs/footer-clouds-desktop.svg?v1.0) center top repeat-x ;
+    		box-sizing: border-box;
+		background-size: 100%;
 
+
+}
   </style>
 	
 </head>
@@ -618,7 +628,8 @@ opacity: 50%;
 	
 <!--FOOTER STARTS-->
 	<div id="footer-full">
-		<div id="ocean-vision"><img src="webp/vision-background-2022-footer.webp?v=1.0" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
+		<div id="footer-clouds"></div>
+		<div id="ocean-vision"><img src="webp/vision-background-2022-footer.webp?v=1.1" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
 			
 		<div class="footer-vision">
 			
