@@ -929,7 +929,7 @@ h6 {
   	z-index: 99;
   	background: url('images/albatrossv4.gif') center no-repeat;
     	box-sizing: border-box;
-	 background-size: 30px;
+	 background-size: 150px;
 		
 	-webkit-animation-delay: 0s !important;
 	opacity:0;
