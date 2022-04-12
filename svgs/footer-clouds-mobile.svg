@@ -3,8 +3,8 @@
 
 <svg
    width="153.47765mm"
-   height="156.85968mm"
-   viewBox="0 0 153.47765 156.85968"
+   height="130.41228mm"
+   viewBox="0 0 153.47765 130.41228"
    version="1.1"
    id="svg16005"
    sodipodi:docname="footer-clouds-mobile.svg"
@@ -26,7 +26,7 @@
      showgrid="false"
      inkscape:zoom="0.74297138"
      inkscape:cx="263.13261"
-     inkscape:cy="466.37059"
+     inkscape:cy="366.77052"
      inkscape:window-width="1864"
      inkscape:window-height="1016"
      inkscape:window-x="0"
@@ -56,20 +56,20 @@
        x2="125.16871"
        y2="92.172356"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,1.7914099,0.45627226,-142.06486)" />
+       gradientTransform="matrix(1,0,0,1.4893686,0.45627226,-87.389792)" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-35.251026,-25.353722)">
+     transform="translate(-35.251026,-51.801113)">
     <rect
-       style="opacity:0.8;fill:url(#linearGradient20529);fill-opacity:1;stroke-width:0.127486;stroke-opacity:0.26415;stop-color:#000000"
+       style="opacity:0.8;fill:url(#linearGradient20529);fill-opacity:1;stroke-width:0.116243;stroke-opacity:0.26415;stop-color:#000000"
        id="rect20491"
        width="153.47765"
-       height="156.85968"
+       height="130.41228"
        x="35.251026"
-       y="25.353722" />
+       y="51.801113" />
     <path
        d="m 168.53516,137.41909 c -1.57499,0.38062 -1.69736,-2.50081 -3.73124,-2.46548 -2.04989,-0.54581 -4.38436,0.72103 -4.83812,2.62066 -1.96637,-0.80965 -4.16825,1.29291 -3.23451,3.04342 0.55754,1.36844 2.25919,1.49769 3.62745,1.40617 2.89414,-0.0302 5.79666,0.0611 8.68558,-0.0469 2.12988,-0.29252 2.75068,-3.15595 0.90342,-4.16464 -0.41369,-0.25606 -0.91252,-0.39462 -1.41263,-0.39334 z"
        opacity="0.77"
