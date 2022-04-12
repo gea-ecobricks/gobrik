@@ -586,16 +586,37 @@ opacity: 50%;
                 margin-bottom: -150px;
             }
         }
-#vision-clouds {
+ @media screen and (min-width: 1000px) {
+ #vision-clouds {
 	position: relative;
 	width:100%;
-	height: 30vh;
+	height: 40vh;
 	z-index: -5;
 	background: url(svgs/footer-clouds-desktop.svg?v1.1) center top repeat-x ;
     box-sizing: border-box;
 	background-size: 100%;
 	margin-bottom: -100px;
+	margin-bottom: -270px;
+min-height: 800px;
+margin-top: -500px;
 }
+
+@media screen and (max-width: 999px) {
+ #vision-clouds {
+	position: relative;
+	width:100%;
+	height: 40vh;
+	z-index: -5;
+	background: url(svgs/footer-clouds-mobile.svg?v1.1) center top repeat-x ;
+    box-sizing: border-box;
+	background-size: 100%;
+	margin-bottom: -100px;
+	margin-bottom: -270px;
+min-height: 800px;
+margin-top: -500px;
+}
+
+
 
 #vision-landscape {
     width: 100%;
