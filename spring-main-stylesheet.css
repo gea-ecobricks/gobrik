@@ -929,7 +929,7 @@ h6 {
       z-index: 99;
       background: url('svgs/bottle-loader.svg') center no-repeat;
         box-sizing: border-box;
-     background-size: 40px;
+     background-size: 48px;
 		
 	-webkit-animation-delay: 0s !important;
 	opacity:0;
@@ -2180,7 +2180,7 @@ background-size: contain;*/
 	top: 0;
 	right: 0;
 	z-index: 10;
-	margin-right: 18%;
+	margin-right: 23%;
 	margin-top: 11px;
 	width: 50px;
 	padding: 0px 0px 0px 0px;
