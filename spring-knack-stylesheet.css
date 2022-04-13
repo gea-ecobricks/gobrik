@@ -10,6 +10,8 @@ All files, unless otherwise stated, are released under the GNU General Public
 License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 */
 
+.kn-rich_text {overflow: visible !important;}
+#view_7108 .kn-title {display: none;}
 #view-column view-column-group-1 {display: none;}
 
 #kn-scene_2174 .kn-back-link {display: none;}
