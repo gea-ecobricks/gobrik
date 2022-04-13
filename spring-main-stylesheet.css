@@ -2172,6 +2172,9 @@ background-size: contain;*/
   }
 }
 
+
+@media screen and (min-width: 1000px) {
+
 #lang-button {
 	position: absolute;
 	top: 0;
@@ -2182,3 +2185,21 @@ background-size: contain;*/
 	width: 50px;
 	padding: 0px 0px 0px 0px;
 }
+}
+
+@media screen and (max-width: 999px) {
+
+#lang-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	margin-right: 0%;
+	margin-top: 3px;
+	width: 50px;
+	padding: 0px 0px 0px 0px;
+}
+
+}
+
+
