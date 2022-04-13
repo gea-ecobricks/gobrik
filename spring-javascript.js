@@ -822,4 +822,71 @@ switch (true) {
 });
 
 
+/*MENU*/
+
+
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+
+
+
+
+window.onload = function topFunction() {
+  	document.body.scrollTop = 0;
+  	document.documentElement.scrollTop = 0;
+}
+
+
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+	document.body.addEventListener('click', fn, true); 
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+	
+/*Localise translation script*/
+
+
+!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);
+
+
+  Localize.initialize({
+    key: 'OuoVGmZSN0BEz', 
+    rememberLanguage: true,
+    // other options go here, separated by commas
+  });
+
+	
+
+/*
+<script type="text/javascript">
+
+	document.addEventListener("DOMContentLoaded", function(event) {
+		setTimeout(addScript, 8000)
+	  });
+	  
+	  function addScript() {
+	  
+		script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.async = true;
+		script.onload = function() {
+		  console.log("Added Script");
+		};
+		script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
+		document.getElementsByTagName('head')[0].appendChild(script);
+	  }
+*/
+
+
 

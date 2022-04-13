@@ -15,17 +15,6 @@ AND UNIQUE to HTML Pages-->
 
 
 
-<script>
-	function myFunction() {
-	  var x = document.getElementById("myTopnav");
-	  if (x.className === "topnav") {
-		x.className += " responsive";
-	  } else {
-		x.className = "topnav";
-	  }
-	}
-	</script>
-
 <script async type="text/javascript" async>
 	app_id='5b8c28c2a1152679c209ce0c';
 	region='eu-central';
@@ -72,9 +61,16 @@ AND UNIQUE to HTML Pages-->
 
 <!-- This calls our GEA typography -->
 
+<!-- This calls GEA typography -->
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Mulish loads first for first page view-->
+
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+
+<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 	
 <!-- Primary stylesheet -->
 <link rel="stylesheet" type="text/css" href="spring-main-stylesheet.css?v1.5">
@@ -88,7 +84,6 @@ AND UNIQUE to HTML Pages-->
 <!-- CUSTOM PAGE SCRIPTS-->
 <script src="spring-scripts.js?v1.0" async></script> 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
@@ -145,69 +140,8 @@ AND UNIQUE to HTML Pages-->
 <link href="/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" />-->
 
 
-<!-- // When the user clicks on the button, scroll to the top of the document
+<script defer src="https://global.localizecdn.com/localize.js"></script>
 
-<script>
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-	document.body.addEventListener('click', fn, true); 
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>-->
-
-<script>
-
-window.onload = function topFunction() {
-  	document.body.scrollTop = 0;
-  	document.documentElement.scrollTop = 0;
-}
-</script>
-
-
-</script>
-
-
-	
-	
-<!-- Localise translation script-->
-
-<script src="https://global.localizecdn.com/localize.js"></script>
-
-<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
-
-<script>
-  Localize.initialize({
-    key: 'OuoVGmZSN0BEz', 
-    rememberLanguage: true,
-    // other options go here, separated by commas
-  });
-</script>
-	
-
-<!--
-<script type="text/javascript">
-
-	document.addEventListener("DOMContentLoaded", function(event) {
-		setTimeout(addScript, 8000)
-	  });
-	  
-	  function addScript() {
-	  
-		script = document.createElement('script');
-		script.type = 'text/javascript';
-		script.async = true;
-		script.onload = function() {
-		  console.log("Added Script");
-		};
-		script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
-		document.getElementsByTagName('head')[0].appendChild(script);
-	  }
-</script>
-
--->
-	
-	
 <!-- Our inline CSS for the first load of the index page so that we don't have to rely on the slower loading Knack CSS-->
 
 
@@ -845,6 +779,19 @@ margin-top: -100px;
 			</div>
 	
 	</div>
+
+		<!--SCRIPT TO DEFER ARVO FONT LOAD TIL END-->
+	
+		<script type="text/javascript">
+			/* First CSS File */
+			var giftofspeed = document.createElement('link');
+			giftofspeed.rel = 'stylesheet';
+			giftofspeed.href = 'https://fonts.googleapis.com/css2?family=Arvo&display=swap';
+			giftofspeed.type = 'text/css';
+			var godefer = document.getElementsByTagName('link')[0];
+			godefer.parentNode.insertBefore(giftofspeed, godefer);
+			
+			</script>
 
 	
 	
