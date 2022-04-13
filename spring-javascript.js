@@ -852,20 +852,6 @@ window.onload = function topFunction() {
 }*/
 
 
-
-	
-/*Localise translation script*/
-
-
-!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);
-
-
-  Localize.initialize({
-    key: 'OuoVGmZSN0BEz', 
-    rememberLanguage: true,
-    // other options go here, separated by commas
-  });
-
 	
 
 /*
