@@ -14,7 +14,7 @@ AND UNIQUE to HTML Pages-->
 <meta name="description" content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.">
 
 
-
+<!--
 <script async type="text/javascript" async>
 	app_id='5b8c28c2a1152679c209ce0c';
 	region='eu-central';
@@ -29,6 +29,7 @@ AND UNIQUE to HTML Pages-->
 	
 	</script>
 	<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_42/knack.js" async></script>
+-->
 
 
 	
@@ -49,15 +50,13 @@ AND UNIQUE to HTML Pages-->
 <!-- preload key landing images  -->
 
 
-<link rel="preload" as="image" href="svgs/gobrik-logo-static.svg">
-<link rel="preload" as="image" href="svgs/top-clouds-animate.svg">
+<link rel="preload" as="image" href="svgs/gobrik-logo-3.svg">
+<link rel="preload" as="image" href="svgs/top-clouds-desktop.svg">
+<link rel="preload" as="image" href="svgs/top-clouds-mobile.svg">
+<link rel="preload" as="image" href="svgs/footer-clouds-desktop.svg">
+<link rel="preload" as="image" href="svgs/footer-clouds-mobile.svg">
 <link rel="preload" as="image" href="svgs/vision-footer-2022.svg">
-<link rel="preload" as="image" href="svgs/top-clouds-mobile">
 <link rel="preload" as="image" href="svgs/Happy-turtle-dolphin-opti2.svg">
-
-	 
-
-	 
 
 <!-- This calls our GEA typography -->
 
@@ -68,11 +67,14 @@ AND UNIQUE to HTML Pages-->
 
 <!-- Mulish loads first for first page view-->
 
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+<noscript>
+
+</noscript><link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+</noscript>
 
 <noscript>
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" />
-	</noscript>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+	
 
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 	
@@ -103,8 +105,8 @@ AND UNIQUE to HTML Pages-->
 	gtag('config', 'UA-201489430-1');
 </script>-->
   
-<!-- This calls our webmanifest wich turns our page into a progressive web app (PWA) 
-<link rel="manifest" href="manifest.webmanifest">-->
+<!-- This calls our webmanifest wich turns our page into a progressive web app (PWA) -->
+<link rel="manifest" href="manifest.webmanifest">
 
 	
 <!-- This allows GoBrik to be used a PWA on iPhones -->
@@ -356,12 +358,7 @@ opacity: 50%;
 }
 
 
-
-
 /* LANDING PAGE */
-
-
-
   
   .top-graphic {
       
@@ -488,9 +485,6 @@ opacity: 50%;
  }
 }
 
-
-    
-        
 .tree-coins {
         margin-top: -120px;
         position: relative;
@@ -582,26 +576,9 @@ margin-top: -100px;
     width: 100%;
   }
 
-
-
-
-
-
-
   </style>
-
-<script>
-	function appMenu() {
-	  var x = document.getElementById("myTopnav");
-	  if (x.className === "topnav") {
-		x.className += " responsive";
-	  } else {
-		x.className = "topnav";
-	  }
-	}
-</script>
-	
 </head>
+
   
 <body id="full-page">
 	<div id="loading-box">
@@ -651,8 +628,7 @@ margin-top: -100px;
 		We envision a Transition in our Households, Communities and Enterprises from Plastic to an ever Greener Harmony with Earth's Cycles.
 
 		<br><br>
-	 <!--
-		<a href='https://www.gobrik.com/#home' style="color: #fff">Home</a>      |      <a href='javascript:Localize.setLanguage("en")' style="color: #fff">ENG</a>      |      <a href='javascript:Localize.setLanguage("id")' style="color: #fff">IND</a>     |      <a href='javascript:Localize.setLanguage("es")' style="color: #fff">ES</a></strong>-->
+
 	</div>
 	
 		<div class="footer-icons-container">
@@ -777,16 +753,14 @@ margin-top: -100px;
 			</div>
 			<div class="footer-invite">
 				GoBrik is open source and 100% volunteer built!<br>Contribute on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/index.html" target="_blank">Github</a>.<br><br>
-				<!--
-				<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><br><a href="#my-offers" onclick="topFunction();">Test1</a><br><a href="#market" onclick="topFunction();">Test2</a>-->
+				
+				<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+				
+				<!--<br><a href="#my-offers" onclick="topFunction();">Test1</a><br><a href="#market" onclick="topFunction();">Test2</a>-->
 
 			</div>
 	
 	</div>
-
-
-
-	
 	
 </body>
 </html>
