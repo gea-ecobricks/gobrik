@@ -10,12 +10,13 @@
 AND UNIQUE to HTML Pages-->
 
 <title>GoBrik</title>
-<meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace">
+<meta name="keywords" content="ecobricks, ecobrick, plastic solved, eco-brick, gobrik, bottle brick, plastic solution, eco brick, brik, eco briks, drop off, exchange, marketplace">
 <meta name="description" content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.">
 
 
 
-<script async type="text/javascript" async>
+
+<script async type="text/javascript">
 	app_id='5b8c28c2a1152679c209ce0c';
 	region='eu-central';
 	api_subdomain='eu-api';
@@ -28,8 +29,8 @@ AND UNIQUE to HTML Pages-->
 	distribution_key="dist_42";
 	
 	</script>
-	<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_42/knack.js" async></script>
 
+	<script async type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_42/knack.js"></script>
 
 
 	
@@ -50,45 +51,32 @@ AND UNIQUE to HTML Pages-->
 <!-- preload key landing images  -->
 
 
-<link rel="preload" as="image" href="svgs/gobrik-logo-3.svg">
-<link rel="preload" as="image" href="svgs/top-clouds-desktop.svg">
-<link rel="preload" as="image" href="svgs/top-clouds-mobile.svg">
-<link rel="preload" as="image" href="svgs/footer-clouds-desktop.svg">
-<link rel="preload" as="image" href="svgs/footer-clouds-mobile.svg">
-<link rel="preload" as="image" href="svgs/vision-footer-2022.svg">
-<link rel="preload" as="image" href="svgs/Happy-turtle-dolphin-opti2.svg">
+<link rel="preload" as="image" href="svgs/gobrik-logo-static.svg">
+<link rel="preload" as="image" href="svgs/top-clouds.svg">
+<link rel="preload" as="image" href="svgs/ocean-footer3.svg">
+<link rel="preload" as="image" href="svgs/top-clouds-mobile">
+<link rel="preload" as="image" href="svgs/earth-service3.svg">
 
-<!-- This calls our GEA typography -->
 
-<!-- This calls GEA typography -->
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- offline image: <link rel="preload" as="image" href="svgs/earth-service3.svg">-->
 
-<!-- Mulish loads first for first page view-->
+	 
 
-<noscript>
+	 
 
-</noscript><link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
-</noscript>
+<!-- This calls our GEA typography 
 
-<noscript>
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
-</noscript>
+<link href="https://fonts.gstatic.com" rel="stylesheet" media="print" onload="this.media='all'">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+-->
 
-<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Mulish:wght@300;500&display=swap" rel="stylesheet">  
 	
-<!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="spring-main-stylesheet.css?v1.5">
+<!-- This calls our primary Github hosted stylesheet -->
+<link rel="stylesheet" type="text/css" href="server-stylesheet-v1-6-1.css?v0.3">
 
-<!-- Footer stylesheet -->
-<link rel="stylesheet" type="text/css" href="spring-footer-stylesheet.css?2.0">
-
-<!-- Knack Stylesheet -->
-<link rel="stylesheet" type="text/css" href="spring-knack-stylesheet-v2.0.css?v0.3">
-
-<!-- CUSTOM PAGE SCRIPTS-->
-<script src="spring-scripts.js?v1.0" async></script> 
 
 
 
@@ -103,8 +91,8 @@ AND UNIQUE to HTML Pages-->
 	gtag('config', 'UA-201489430-1');
 </script>-->
   
-<!-- This calls our webmanifest wich turns our page into a progressive web app (PWA) -->
-<link rel="manifest" href="manifest.webmanifest">
+<!-- This calls our webmanifest wich turns our page into a progressive web app (PWA) 
+<link rel="manifest" href="manifest.webmanifest">-->
 
 	
 <!-- This allows GoBrik to be used a PWA on iPhones -->
@@ -144,12 +132,68 @@ AND UNIQUE to HTML Pages-->
 <link href="/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" />-->
 
 
-<script defer src="https://global.localizecdn.com/localize.js"></script>
+<!-- // When the user clicks on the button, scroll to the top of the document-->
 
+<script>
+
+window.onload = function topFunction() {
+  	document.body.scrollTop = 0;
+  	document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+</script>
+
+<script>
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+	document.body.addEventListener('click', fn, true); 
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	
+	
+<!-- Localise translation script-->
+
+<script src="https://global.localizecdn.com/localize.js"></script>
+
+<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+<script>
+  Localize.initialize({
+    key: 'OuoVGmZSN0BEz', 
+    rememberLanguage: true,
+    // other options go here, separated by commas
+  });
+</script>
+	
+
+<!--
+<script type="text/javascript">
+
+	document.addEventListener("DOMContentLoaded", function(event) {
+		setTimeout(addScript, 8000)
+	  });
+	  
+	  function addScript() {
+	  
+		script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.async = true;
+		script.onload = function() {
+		  console.log("Added Script");
+		};
+		script.src = 'https://arc.io/widget.min.js#mJFtQsHF';
+		document.getElementsByTagName('head')[0].appendChild(script);
+	  }
+</script>
+
+-->
+	
+	
 <!-- Our inline CSS for the first load of the index page so that we don't have to rely on the slower loading Knack CSS-->
-
-
-
 
 <style>
 
@@ -159,9 +203,9 @@ AND UNIQUE to HTML Pages-->
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-
 html {
 height: 100%;
+
 }
 
 
@@ -176,72 +220,49 @@ body {
 	margin-right: 0px;
 	background-color: #f7fdff;
 	/*General interface background slightly off-white to make the white buttons and boxes show up better*/
+
 }
 
 @media screen and (min-width: 769px) {
 	body {
-		background: url(svgs/top-clouds-desktop.svg?v1.) center top repeat-x ;
+		background: #f7fdff url(svgs/top-clouds.svg) center top repeat-x ;
     		box-sizing: border-box;
-		background-size: 100%;
+		background-size: 1028px;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
 	body {
-		background: url(svgs/top-clouds-mobile.svg?v1.3) center top repeat-x;
+		background: #f7fdff url(svgs/top-clouds-mobile.svg) center top repeat-x;
     	box-sizing: border-box;
 		background-size: 100%;
 }
 }
 
 #loading-box {
+	min-height: 100vh;
 	width: 100%;
 	}	
 
-@media screen and (min-width: 1000px) {
-		#loading-box {
-			min-height: 80vh;
 
+	@media screen and (min-width: 1000px) {
+		#loading-box {
+		margin-bottom: -15vh;
 	}
 }
 @media screen and (max-width: 999px) {
 	#loading-box   {
-		min-height: 65vh;}
+		margin-bottom: 14vh;}
 }	
 
-@media screen and (min-width: 1000px) {
+
 #header {  
-	padding-top: 18px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
 	z-index: 3;
 	position: relative;
 	background: white;
-	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
-}
-}
-
-@media screen and (max-width: 999px) {
-#header {  
-	padding-top: 14px;
-	padding-bottom: 11px;
-	z-index: 3;
-	position: relative;
-	background: white;
-	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
-}
-}
-
-.fa-bars  {
- 	background: url(svgs/grey-emblem-button.svg) no-repeat center;
-	background-size: contain;
-	color: rgba(255, 255, 255, 0);
-	font-size: 35px !important;
-	margin-top:-10px;
-opacity: 50%;
-}
-
-
-.fa-bars:hover {
-  opacity: 100%;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+	
 }
 
 
@@ -351,282 +372,312 @@ opacity: 50%;
 	padding: 8px;
 }
 
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	7. WIDGET FORMATTING
+
+/* -------------------------------------------------------------------------- */
+
+#wcb.wcb-d #wcb_a {
+  color: #252b4d !important;
+  background: #8cbdda !important;
+  border-color: #529bc2 !important;
+}
+
+#wcb #wcb_a, #wcb #wcb_g {
+  border:.2em solid #8cbdda !important;
+}
+
+
+
+/*MISC??*/ 	
+#view_6432  .kn-menu .kn-button {
+ 	color: #fff !important;
+	padding: 15px !important;
+  	font-size: 18px !important;
+	}
+
 #full-page {
 	font-family: Mulish, sans-serif;
 }
 
 
-/* LANDING PAGE */
-  
-  .top-graphic {
-      
-      margin: auto;
-      margin-top: -25px;
-        position: relative;
-        z-index: 0;
-        margin-bottom: -10px;
-        width: 500px;
-        max-width: 87%;
-		/*min-height: 561px;*/
-  
-        
-        -webkit-animation-delay: 1.0s !important;
-        opacity:0;
-        -webkit-animation:fadeIn ease-in 0.25s;
-        -webkit-animation-duration:0.25s;
-        -webkit-animation-fill-mode:forwards;
-    
-        animation-delay: 1.0s; 
-        animation: fadeIn ease-in 0.25s;
-        animation-duration: 0.25s;
-        animation-fill-mode: forwards;
-  
-    }
+/* -------------------------------------------------------------------------- */
+
+/*	0. LANDING PAGE HTML
+/* -------------------------------------------------------------------------- */
 
 
-.big-header {	
-   
-   font-family: 'Arvo', serif;
-   margin-top: 20px;
-   text-align: center !important;
-   line-height: 1.2 !important;
-   margin-bottom: 25px;
-   text-shadow: 0px 0px 8px #fff;
-		   
-   -webkit-animation-delay: 1.0s !important;
-   opacity:0;
-   -webkit-animation:fadeIn ease-in 0.25s;
-   -webkit-animation-duration:0.25s;
-   -webkit-animation-fill-mode:forwards;
-
-   animation-delay: 1.0s; 
-   animation: fadeIn ease-in 0.25s;
-   animation-duration: 0.25s;
-   animation-fill-mode: forwards;
-   
-}
-
-@media screen and (min-width: 770px) and (max-width: 2000px) { 
- .big-header {
-	  font-size: 42px !important;
- }
-}
-	 
-@media screen and (max-width: 769px) {
- .big-header {
-	 font-size: 36px !important;
- }
-}
-	   
-   
-.main-statement {
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+  .kn-container {
+      margin: 0 auto;
+      max-width: 960px !important;
+  }
+  }
  
-   font-family: 'Mulish', sans-serif;
-   text-align: center !important;
-   line-height: 1.3 !important;
-   margin: 20px 0px 13px 0px;
-   text-shadow: 0px 0px 6px #fff;
-   
-   -webkit-animation-delay: 1.2s !important;
-   opacity:0;
-   -webkit-animation:fadeIn ease-in 0.25s;
-   -webkit-animation-duration:0.25s;
-   -webkit-animation-fill-mode:forwards;
 
-   animation-delay: 0.75s; 
-   animation: fadeIn ease-in 0.25s;
-   animation-duration: 0.25s;
-   animation-fill-mode: forwards;
-}
-	   
-@media screen and (min-width: 770px) and (max-width: 2000px) { 
-   .main-statement {
-		font-size: 2.5em !important;
-   }
-}
-	   
-@media screen and (max-width: 769px) {
-   .main-statement {
-	   font-size: 1.5em !important;
-   }
-}
-	   
-.welcome-text {	
-   
-   font-size: 1.6em !important;
-   font-family: 'Mulish', sans-serif;
-   text-align: center !important;
-   margin-bottom: 35px;
-   
-   
-   -webkit-animation-delay: 2.2s !important;
-   opacity:0;
-   -webkit-animation:fadeIn ease-in 0.25s;
-   -webkit-animation-duration:0.25s;
-   -webkit-animation-fill-mode:forwards;
 
-   animation-delay: 2.2s; 
-   animation: fadeIn ease-in 0.25s;
-   animation-duration: 0.25s;
-   animation-fill-mode: forwards;
-	   }
 
-@media screen and (min-width: 770px) and (max-width: 2000px) { 
- .welcome-text {
-	   font-size: 1.8em !important;
- }
-}
-	 
-@media screen and (max-width: 769px) {
- .welcome-text {
-	 font-size: 1.2em !important;
- }
-}
 
-.tree-coins {
-        margin-top: -120px;
-        position: relative;
-        z-index: -1;
-        opacity:0;
-        
-        -webkit-animation-delay: 3s !important;
-        -webkit-animation:fadeIn ease-in 0.25s;
-        -webkit-animation-duration:0.25s;
-        -webkit-animation-fill-mode:forwards;
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+.top-graphic {
     
-        animation-delay: 3s; 
-        animation: fadeIn ease-in 0.25s;
-        animation-duration: 0.25s;
-        animation-fill-mode: forwards;
+	margin: auto;
+	margin-top: -50px;
+      position: relative;
+      z-index: 0;
+      margin-bottom: -30px;
+	  width: 500px;
+	  max-width: 87%;
+
+      
+      -webkit-animation-delay: 1.0s !important;
+      opacity:0;
+      -webkit-animation:fadeIn ease-in 0.25s;
+      -webkit-animation-duration:0.25s;
+      -webkit-animation-fill-mode:forwards;
+  
+      animation-delay: 1.0s; 
+      animation: fadeIn ease-in 0.25s;
+      animation-duration: 0.25s;
+      animation-fill-mode: forwards;
+
+  }
+          
+  /*
+  .login-top-graphic {
+      margin-top: -100px !important;
+	  width: 500px;
+	
+      position: relative;
+          }
+		  */
+  
+  .big-header {	
+ 
+      font-family: 'Arvo', serif;
+      margin-top: 20px;
+      text-align: center !important;
+      line-height: 1.2 !important;
+      margin-bottom: 25px;
+              
+      -webkit-animation-delay: 1.0s !important;
+      opacity:0;
+      -webkit-animation:fadeIn ease-in 0.25s;
+      -webkit-animation-duration:0.25s;
+      -webkit-animation-fill-mode:forwards;
+  
+      animation-delay: 1.0s; 
+      animation: fadeIn ease-in 0.25s;
+      animation-duration: 0.25s;
+      animation-fill-mode: forwards;
+      
+  }
+
+  @media screen and (min-width: 770px) and (max-width: 2000px) { 
+    .big-header {
+         font-size: 42px !important;
+    }
+}
         
-        }
+ @media screen and (max-width: 769px) {
+    .big-header {
+        font-size: 36px !important;
+    }
+}
+          
+      
+  .main-statement {
     
-        
-    .tree-text {
-      font-size: 16px !important;
       font-family: 'Mulish', sans-serif;
       text-align: center !important;
-      line-height: 1.4 !important;
+      line-height: 1.3 !important;
+      margin: 20px 0px 13px 0px;
+      text-shadow: 0px 0px 6px #fff;
+      
+      -webkit-animation-delay: 1.2s !important;
+      opacity:0;
+      -webkit-animation:fadeIn ease-in 0.25s;
+      -webkit-animation-duration:0.25s;
+      -webkit-animation-fill-mode:forwards;
+  
+      animation-delay: 0.75s; 
+      animation: fadeIn ease-in 0.25s;
+      animation-duration: 0.25s;
+      animation-fill-mode: forwards;
+  }
+          
+   @media screen and (min-width: 770px) and (max-width: 2000px) { 
+      .main-statement {
+           font-size: 2.5em !important;
+      }
+  }
+          
+   @media screen and (max-width: 769px) {
+      .main-statement {
+          font-size: 1.5em !important;
+      }
+  }
+          
+.welcome-text {	
+      
+      font-size: 1.6em !important;
+      font-family: 'Mulish', sans-serif;
+      text-align: center !important;
+	  /*
+      
+      -webkit-animation-delay: 2.2s !important;
+      opacity:0;
+      -webkit-animation:fadeIn ease-in 0.25s;
+      -webkit-animation-duration:0.25s;
+      -webkit-animation-fill-mode:forwards;
+  
+      animation-delay: 2.2s; 
+      animation: fadeIn ease-in 0.25s;
+      animation-duration: 0.25s;
+      animation-fill-mode: forwards;*/
+          }
+
+  @media screen and (min-width: 770px) and (max-width: 2000px) { 
+    .welcome-text {
+          font-size: 1.8em !important;
+    }
+}
+        
+  @media screen and (max-width: 769px) {
+    .welcome-text {
+        font-size: 1.2em !important;
+    }
+}
+      
+
+
+  
+  .social-buttons-box {
       position: relative;
       z-index: 5;
-      font-weight: 300;
-      margin: 5px 10px 3px 10px;
-      margin-bottom: -150px;
+      max-width: 600px;
+      margin: auto;
+      margin-top: 20px;
+      
+      -webkit-animation-delay: 2.0s !important;
       opacity:0;
-        
+      -webkit-animation:fadeIn ease-in 0.25s;
+      -webkit-animation-duration:0.25s;
+      -webkit-animation-fill-mode:forwards;
+  
+      animation-delay: 2s; 
+      animation: fadeIn ease-in 0.25s;
+      animation-duration: 0.25s;
+      animation-fill-mode: forwards;
+      
+      }
+  
+      
+  .tree-coins {
+      margin-top: -120px;
+      position: relative;
+      z-index: -1;
+      opacity:0;
+      
       -webkit-animation-delay: 3s !important;
       -webkit-animation:fadeIn ease-in 0.25s;
       -webkit-animation-duration:0.25s;
       -webkit-animation-fill-mode:forwards;
-    
+  
       animation-delay: 3s; 
       animation: fadeIn ease-in 0.25s;
       animation-duration: 0.25s;
       animation-fill-mode: forwards;
-    }
-        
-        @media screen and (min-width: 770px) and (max-width: 2000px) { 
-            .tree-text { 
-                margin-bottom: -150px;
-            }
-        }
- @media screen and (min-width: 1000px) {
- #vision-clouds {
-	position: relative;
-	width:100%;
-	z-index: -5;
-	background: url(svgs/footer-clouds-desktop.svg?v1.4) center top repeat-x ;
-    box-sizing: border-box;
-	background-size: 100%;
-	margin-bottom: -270px;
-min-height: 800px;
-margin-top: -300px;
-}
- }
-
-@media screen and (max-width: 999px) {
- #vision-clouds {
-	position: relative;
-	width:100%;
-	height: 30vh;
-	z-index: -5;
-	background: url(svgs/footer-clouds-mobile.svg?v1.2) center top repeat-x ;
-    box-sizing: border-box;
-	background-size: 100%;
-	margin-bottom: -270px;
-min-height: 515px;
-margin-top: -100px;
-}
-}
-
-
-#vision-landscape {
-    width: 100%;
-    position: relative;
-    z-index: -1;
-    margin-bottom: -6px;
-  }
+      
+      }
   
-  .vison-landscape img {
-    position: absolute;
-    left: 0px;
-    bottom: 0;
-    width: 100%;
+      
+  .tree-text {
+    font-size: 16px !important;
+    font-family: 'Mulish', sans-serif;
+    text-align: center !important;
+    line-height: 1.4 !important;
+    position: relative;
+    z-index: 5;
+    font-weight: 300;
+    margin: 5px 10px 3px 10px;
+    margin-bottom: -150px;
+    opacity:0;
+      
+    -webkit-animation-delay: 3s !important;
+    -webkit-animation:fadeIn ease-in 0.25s;
+    -webkit-animation-duration:0.25s;
+    -webkit-animation-fill-mode:forwards;
+  
+    animation-delay: 3s; 
+    animation: fadeIn ease-in 0.25s;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
   }
+      
+      @media screen and (min-width: 770px) and (max-width: 2000px) { 
+          .tree-text { 
+              margin-bottom: -150px;
+          }
+      }
 
+
+		
+			
   </style>
+	
 </head>
-
   
 <body id="full-page">
 	<div id="loading-box">
-				
-
 		<div id="header" class="top-menu">
-			<a href="/#home"><img src="svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a>
-
+			<a href="/#home"><img src="svgs/gobrik-logo-static.svg" width="165" height="47px"></a>
 		</div> 
-		<div id="lang-button">
-		<div class="topnav-lang" id="myTopnav-lang">
-			<div class="dropdown-lang">
-				<button class="dropbtn-lang"><img src="svgs/language-button2.svg" height="30px"></button>
-				<div class="dropdown-content-language">
-				   <a href='javascript:Localize.setLanguage("en")'>🇬🇧&nbsp;ENG</a>
-					<a href='javascript:Localize.setLanguage("id")'>🇮🇩&nbsp;IND</a>
-					<a href='javascript:Localize.setLanguage("es")'>🇪🇸&nbsp;ESP</a>
-			
-					<a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>	
-				</div>
-			</div> 
-		</div>
-		</div>
 
+	<!--	
+	
 
-		<div class="offline-image"><img src="svgs/earth-service4.svg" width="100%" height="96%"></div>
-		<div class="offline-header">GoBrik is offline for an Upgrade!</div> 
-		<div class="offline-text">We're doing some scheduled maintenance to improve GoBrik today.</div>
-		<div class="offline-subtext">We're sorry for the inconvenience.  GoBrik will be back in 2 hrs.</div>	
+	<div id="offline">
+		<div class="offline-image"><img src="svgs/earth-service3.svg" width="100%" height="96%"></div>
+		<div class="offline-header">We're Having Technical Difficulties</div> 
+		<div class="offline-text">GoBrik is offline for technical reasons :-(</div>
+		<div class="offline-subtext">We're sorry for the inconvenience.  Our team is working hard on the issue. </div>	
 	</div>
 </div>
 
-<!--
+-->
 		<div id="knack-dist_42" onload="topFunction();">
 			<div class="loader"></div>
 		</div>
-	</div>
--->
 	
-<!--FOOTER STARTS-->
+
+
+
+
 	<div id="footer-full">
-		<div id="vision-clouds"></div>
-		<div id="vision-landscape"><img src="webp/vision-background-2022-footer.webp?v=1.2" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
-			
+		<div id="ocean-vision"><img src="svgs/ocean-footer3.svg" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
+		
+	
+		
 		<div class="footer-vision">
 			
+			
+				
+			
+	
+		
 		We envision a Transition in our Households, Communities and Enterprises from Plastic to an ever Greener Harmony with Earth's Cycles.
 
 		<br><br>
-
+	 
+		<a href='https://www.gobrik.com/#home' style="color: #fff">Home</a>      |      <a href='javascript:Localize.setLanguage("en")' style="color: #fff">ENG</a>      |      <a href='javascript:Localize.setLanguage("id")' style="color: #fff">IND</a>     |      <a href='javascript:Localize.setLanguage("es")' style="color: #fff">ES</a></strong>
 	</div>
 	
 		<div class="footer-icons-container">
@@ -685,7 +736,13 @@ margin-top: -100px;
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
-
+	
+			<!--<div class="footer-icons">--NEXTCLOUD
+				<a href="https://files.mandala.team/" target="_blank">
+				<img src="icons/nextcloud.svg" width="100%" height="100%"></a>
+				<div class="icon-name">/ecobricks</div>
+				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
+			</div>-->
 				
 		</div>
 
@@ -693,13 +750,16 @@ margin-top: -100px;
 
 			<div class="footer-box">
 				<div class="footer-header">Ecobricks on Wikipedia</div>
-				<div class="footer-subtext">Also known as Eco Bricks, Eco-Bricks, Ecolladrillos, and bottle bricks the Global Ecobrick Alliance and Wikipedia endorse the spelling <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">'ecobrick'</a> to refer to the <a href="https://en.wikipedia.org/wiki/Plastic_Sequestration" target="_blank">sequestration of plastic</a> in a PET bottle to make a reusable building block.<br><br>
+				<div class="footer-subtext">Also known as Eco Bricks, Eco-Bricks, Ecolladrillos, and bottle bricks the Global Ecobrick Alliance and Wikipedia endorse the spelling<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">'ecobrick'</a> to refer to the <a href="https://en.wikipedia.org/wiki/Plastic_Sequestration" target="_blank">sequestration of plastic</a> in a PET bottle to make a reusable building block.<br><br>
 				</div>
 				
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Ecobricker Support</div>
 				<div class="footer-subtext">Got questions about ecobricking?  <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">Join Circles</a>, our community of ecobrickers and where our GEA trainer teams meets and collaborates. to connect with other ecobrickers and GEA Trainers.<br><br></div>
+				<!--<div class="footer-header">Trainer Support</div>
+				<div class="footer-header">Trainer Support</div>
+				<div class="footer-subtext">GEA Trainers access your <a href="https://www.ecobricks.org/webmail" target="_blank">webmail</a>, <a href="https://www.ecobricks.org/wp-admin" target="_blank">wordpress</a>, <a href="https://gobrik.com/#my-trainer" target="_blank">GoBrik</a> or <a href="https://files.mandala.team" target="_blank">NextCloud File Server</a> panels.</div>-->
 				
 			</div>
 			<div class="footer-box">
@@ -718,19 +778,21 @@ margin-top: -100px;
 				<div class="row">
 
 					<div class="virtue">
-						<a href="https://ecobricks.org/en/about.php" target="_blank"><img src="https://ecobricks.org/banners/forearth-dark-350px.png" width="300px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
-					</div>
+								<a href="https://ecobricks.org/en/about.php" target="_blank"><img src="https://ecobricks.org/banners/forearth-dark-350px.png" width="300px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
+							</div>
 			
-					<div class="virtue">
-						<a href="https://www.gobrik.com/#my-catalyst/previous-year-impacts2/5e1f513586a7fe0015e77628" target="_blank"><img src="https://ecobricks.org/banners/762-disclose-dark-350px.png" width="300px" height="" alt="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com"></a>
-					</div>
+						<div class="virtue">
+							<a href="https://www.gobrik.com/#my-catalyst/previous-year-impacts2/5e1f513586a7fe0015e77628" target="_blank"><img src="https://ecobricks.org/banners/762-disclose-dark-350px.png" width="300px" height="" alt="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com"></a>
+						</div>
 					
 			
-					<div class="virtue">
-						<a href="https://gobrik.com/#openbooks" target="_blank"><img src="https://ecobricks.org/banners/openbooks-dark-350px.png" width="300px" height="" alt="Click through to see our live financial tracking" title="Click through to see our live financial tracking"></a>	
-					</div>
+						<div class="virtue">
+						<a href="https://gobrik.com/#openbooks" target="_blank"><img src="https://ecobricks.org/banners/openbooks-dark-350px.png" width="300px" height="" alt="Click through to see our live financial tracking" title="Click through to see our live financial tracking"></a>
+			
 						
-				</div>
+						</div>
+						
+					</div>
 			
 					
 						
@@ -744,19 +806,20 @@ margin-top: -100px;
 				
 				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
 				<p><a href="#global">Gobrik global ecobricking data</a> is made available by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to "GoBrik.com/#global - Global Ecobrick Alliance" using the same license.</p>
-
 				<div class="footer-conclusion">	
 					<p>GoBrik, AES & Ecobricks.org logos and emblems are copyright 2022 by the Global Ecobrick Alliance.</p>
 				</div>
 			</div>
 			<div class="footer-invite">
-				GoBrik is open source and 100% volunteer built!<br>Contribute on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/index.html" target="_blank">Github</a>.<br><br>
-				
-				<button onclick="topFunction2()" id="myBtn" title="Go to top">Back to Top</button>
-				
-				<!--<br><a href="#my-offers" onclick="topFunction();">Test1</a><br><a href="#market" onclick="topFunction();">Test2</a>-->
+				GoBrik is 100% volunteer built!  Contribute on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/index.html" target="_blank">Github Repository</a>.<br><br>
+				<!--
+				<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><br><a href="#my-offers" onclick="topFunction();">Test1</a><br><a href="#market" onclick="topFunction();">Test2</a>-->
 
+			</div>
+	
 	</div>
+
+	
 	
 </body>
 </html>
