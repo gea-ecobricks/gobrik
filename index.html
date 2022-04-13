@@ -28,7 +28,7 @@ AND UNIQUE to HTML Pages-->
 	distribution_key="dist_42";
 	
 	</script>
-	<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_42/knack.js" async></script>
+	<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_42/knack.js"></script>
 
 
 
@@ -77,13 +77,13 @@ AND UNIQUE to HTML Pages-->
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 	
 <!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="spring-main-stylesheet.css?v1.5">
+<link rel="stylesheet" type="text/css" href="spring-main-stylesheet.css?v1.7">
 
 <!-- Footer stylesheet -->
 <link rel="stylesheet" type="text/css" href="spring-footer-stylesheet.css?2.0">
 
 <!-- Knack Stylesheet -->
-<link rel="stylesheet" type="text/css" href="spring-knack-stylesheet-v2.0.css?v0.3">
+<link rel="stylesheet" type="text/css" href="spring-knack-stylesheet.css?v0.4">
 
 <!-- CUSTOM PAGE SCRIPTS-->
 <script src="spring-scripts.js?v1.0" async></script> 
@@ -203,7 +203,8 @@ body {
 }
 @media screen and (max-width: 999px) {
 	#loading-box   {
-		min-height: 65vh;}
+		min-height: 51vh;
+        }
 }	
 
 @media screen and (min-width: 1000px) {
@@ -365,9 +366,8 @@ opacity: 50%;
         margin-bottom: -10px;
         width: 500px;
         max-width: 87%;
-		/*min-height: 561px;*/
   
-        
+        /*
         -webkit-animation-delay: 1.0s !important;
         opacity:0;
         -webkit-animation:fadeIn ease-in 0.25s;
@@ -378,7 +378,7 @@ opacity: 50%;
         animation: fadeIn ease-in 0.25s;
         animation-duration: 0.25s;
         animation-fill-mode: forwards;
-  
+  */
     }
 
 
@@ -390,7 +390,7 @@ opacity: 50%;
    line-height: 1.2 !important;
    margin-bottom: 25px;
    text-shadow: 0px 0px 8px #fff;
-		   
+		   /*
    -webkit-animation-delay: 1.0s !important;
    opacity:0;
    -webkit-animation:fadeIn ease-in 0.25s;
@@ -400,7 +400,7 @@ opacity: 50%;
    animation-delay: 1.0s; 
    animation: fadeIn ease-in 0.25s;
    animation-duration: 0.25s;
-   animation-fill-mode: forwards;
+   animation-fill-mode: forwards;*/
    
 }
 
@@ -424,7 +424,7 @@ opacity: 50%;
    line-height: 1.3 !important;
    margin: 20px 0px 13px 0px;
    text-shadow: 0px 0px 6px #fff;
-   
+   /*
    -webkit-animation-delay: 1.2s !important;
    opacity:0;
    -webkit-animation:fadeIn ease-in 0.25s;
@@ -434,7 +434,7 @@ opacity: 50%;
    animation-delay: 0.75s; 
    animation: fadeIn ease-in 0.25s;
    animation-duration: 0.25s;
-   animation-fill-mode: forwards;
+   animation-fill-mode: forwards;*/
 }
 	   
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
@@ -456,7 +456,7 @@ opacity: 50%;
    text-align: center !important;
    margin-bottom: 35px;
    
-   
+   /*
    -webkit-animation-delay: 2.2s !important;
    opacity:0;
    -webkit-animation:fadeIn ease-in 0.25s;
@@ -466,7 +466,7 @@ opacity: 50%;
    animation-delay: 2.2s; 
    animation: fadeIn ease-in 0.25s;
    animation-duration: 0.25s;
-   animation-fill-mode: forwards;
+   animation-fill-mode: forwards;*/
 	   }
 
 @media screen and (min-width: 770px) and (max-width: 2000px) { 
@@ -599,25 +599,25 @@ margin-top: -100px;
 		</div>
 		</div>
 
-
+<!--
 		<div class="offline-image"><img src="svgs/earth-service4.svg" width="100%" height="96%"></div>
 		<div class="offline-header">GoBrik is offline for an Upgrade!</div> 
 		<div class="offline-text">We're doing some scheduled maintenance to improve GoBrik today.</div>
 		<div class="offline-subtext">We're sorry for the inconvenience.  GoBrik will be back in 2 hrs.</div>	
 	</div>
 </div>
+-->
 
-<!--
 		<div id="knack-dist_42" onload="topFunction();">
 			<div class="loader"></div>
 		</div>
 	</div>
--->
+
 	
 <!--FOOTER STARTS-->
 	<div id="footer-full">
 		<div id="vision-clouds"></div>
-		<div id="vision-landscape"><img src="webp/vision-background-2022-footer.webp?v=1.2" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
+		<div id="vision-landscape"><img src="webp/vision-background-2022-footer.webp?v=1.3" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
 			
 		<div class="footer-vision">
 			
