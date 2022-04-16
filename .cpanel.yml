@@ -9,6 +9,7 @@ deployment:
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
+    - /bin/cp -R meta $DEPLOYPATH
 
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
@@ -18,5 +19,9 @@ deployment:
     - /bin/cp spring-knack-stylesheet.css $DEPLOYPATH
     - /bin/cp spring-main-stylesheet.css $DEPLOYPATH
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
-    
-    - /bin/cp index.html $DEPLOYPATH
+
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp core.php $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
+  
+    - /bin/cp index.php $DEPLOYPATH
