@@ -65,9 +65,6 @@ notVisible = 1;
 //Scroll to  kn-message element if any errors on login form.  Not yet working though :-()
 
 
-
-
-
 $(document).on('knack-view-render.any', function(event, page) {
 $("button.kn-button.is-primary").on("click", function(){
 setTimeout(function(){
