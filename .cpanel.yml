@@ -2,7 +2,7 @@
 deployment:
   tasks:
 
-    - export DEPLOYPATH=/home/ecobricks/repositories/gobrik/
+    - export DEPLOYPATH=/home/ecobricks/repositories/gobrik
 
     - /bin/cp -R dials $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
@@ -19,5 +19,4 @@ deployment:
     - /bin/cp spring-main-stylesheet.css $DEPLOYPATH
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
     
-
     - /bin/cp index.html $DEPLOYPATH
