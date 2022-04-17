@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ecobricks/gobrik-live/
+    - export DEPLOYPATH=/home/ecobricks/gobrik/
 
     - /bin/cp -R dials $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
