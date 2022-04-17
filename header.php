@@ -23,7 +23,6 @@
 <link rel="preload" as="image" href="svgs/footer-clouds-desktop.svg">
 <link rel="preload" as="image" href="svgs/footer-clouds-mobile.svg">
 <link rel="preload" as="image" href="svgs/vision-footer-2022.svg">
-<link rel="preload" as="image" href="svgs/Happy-turtle-dolphin-opti2.svg">
 
 <!-- This calls our GEA typography -->
 

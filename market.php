@@ -22,8 +22,11 @@ AND UNIQUE to HTML Pages-->
 <meta property="fb:app_id"  content="1781710898523821" >
 <meta property="og:image:width" content="1000" />
 <meta property="og:image:height" content="1028" />
-<meta property="og:image:alt"     content="An albatross exchange a brikcoin for an ecobrick"/>
+<meta property="og:image:alt"     content="An albatross exchanges some brikcoins for an authenticated ecobrick"/>
 <meta property="og:locale" content="en_GB, id_ID, es_ES" />
+
+<link rel="preload" as="image" href="webp/brikmarket-400px.webp">
+
 
 <!-- sets page meta tags:  be sure to add page name-->
 <?php require_once ("header.php");?>
