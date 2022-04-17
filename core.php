@@ -1,6 +1,3 @@
-
-
-
   
 <body id="full-page">
 	<div id="loading-box">

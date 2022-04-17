@@ -532,7 +532,7 @@ min-height: 515px;
 margin-top: -100px;
 }
 }
-
+ 
 
 #vision-landscape {
     width: 100%;
