@@ -3,7 +3,7 @@ deployment:
   tasks:
 
 
-    - export DEPLOYPATH=/home/ecobricks/public_html/
+    - export DEPLOYPATH=/home/ecobricks/gobrik-live/
 
 
     - /bin/cp -R icons $DEPLOYPATH
