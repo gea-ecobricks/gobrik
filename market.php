@@ -34,6 +34,6 @@ AND UNIQUE to HTML Pages-->
 <!-- sets footer of page:  be sure to add page name-->
 <?php require_once ("footer.php");?>
 
-	 Testing the php: <?php echo ($lang); ;?>/<?php echo ($name); ;?>
+	 Testing the php: <?php echo ($dist); ;?>
 </body>
 </html>

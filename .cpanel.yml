@@ -26,4 +26,5 @@ deployment:
     - /bin/cp footer.php $DEPLOYPATH
   
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp market.php $DEPLOYPATH
+
