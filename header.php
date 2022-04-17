@@ -10,10 +10,10 @@
 	api_subdomain='eu-api';
 	s3='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"assets.knack-eu.com"}';
 	s3_secure='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"eu-secure-assets.cloud-database.co"}';
-	distribution_key="dist_42";
+	distribution_key="dist_<?php echo ($dist); ;?>";
 	
 	</script>
-	<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_42/knack.js"></script>
+	<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_<?php echo ($dist); ;?>/knack.js"></script>
 
 <!-- preload key landing images  -->
 

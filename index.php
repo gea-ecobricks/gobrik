@@ -23,7 +23,7 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="1000" />
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above"/>
-<meta property="og:locale" content="en_GB, id_ID" />
+<meta property="og:locale" content="en_GB, id_ID, es_ES" />
 
 <!-- sets page meta tags:  be sure to add page name-->
 <?php require_once ("header.php");?>

@@ -31,7 +31,7 @@
 </div>
 -->
 
-		<div id="knack-dist_42" onload="topFunction();">
+		<div id="knack-dist_<?php echo ($dist); ;?>" onload="topFunction();">
 			<div class="loader"></div>
 		</div>
 	</div>
