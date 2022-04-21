@@ -1,10 +1,10 @@
     <div id="landing-content">
 
         <br><div class="top-graphic"><img src="svgs/Happy-turtle-dolphin-opti2.svg?v0.5"></div>
-        <div class="big-header">Let's keep our plastic out of the Biosphere.</div>
+        <div class="big-header">Happy Earth Week!.</div>
 
         <div class="welcome-text">
-        Manage your ecobricks, projects and plastic transition.  By putting our plastic to good use, together we can build our greenest visions.  
+        Let's keep our plastic out of the biosphere!  By putting our plastic to good use, together we can build our greenest visions.  
         </div>	
         
         <h4>Join GoBrik with a Free Account</h4><br>
