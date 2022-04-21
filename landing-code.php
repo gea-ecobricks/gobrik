@@ -7,18 +7,17 @@
         <div class="welcome-text">
         Let's keep our plastic out of the biosphere!  By putting our plastic to good use, together we can build our greenest visions.  
         </div>
-        <p>Newly launched! <a href="#market">The Brik Market</a></p>	
+        <h3<b>Newly launched!</b> <a href="#market">The Brik Market</a></h3><br><br>
         
-        <h4>Join GoBrik with a Free Account</h4><br>
-        <a href="#signup" class="kn-button is-primary" style="width: 200px;"><span>Sign up</span></a>
-        <br><p>Already have an account?</p>
         <a href="#home-login/" class="kn-link kn-link-1 kn-link-page kn-button" style="
         background-color: rgba(252, 250, 250, 0.8);
         width: 200px;
         border-width: 4px;
         padding: 19px;
         border-radius: 10px;
-        font: Mulish, sans-serif;"><span>Sign in</span></a>
+        font: Mulish, sans-serif;"><span>Sign in</span></a><br>
+         <h4>No account? Join GoBrik free and fast!</h4><br>
+        <a href="#signup" class="kn-button is-primary" style="width: 200px; box-shadow: 0px 0px 8px white;"><span>Sign up</span></a>
 </div>
 <!--
         <div class="social-buttons-box">
