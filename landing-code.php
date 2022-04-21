@@ -1,6 +1,6 @@
     <div id="landing-content">
     
-    <br><div class="top-graphic"><img src="webp/earthday2022-501px.webp"></div>
+    <br><div class="top-graphic"><img src="webp/earthday2022-500px.webp?v0.6"></div>
     <!--<br><div class="top-graphic"><img src="svgs/Happy-turtle-dolphin-opti2.svg?v0.5"></div>-->
         <div class="big-header">Happy Earth Week!.</div>
 
