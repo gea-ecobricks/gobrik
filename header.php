@@ -52,7 +52,7 @@
 <link rel="stylesheet" type="text/css" href="spring-knack-stylesheet.css?v0.4">
 
 <!-- CUSTOM PAGE SCRIPTS-->
-<script src="spring-javascript.js?v1.4" defer></script> 
+<script src="spring-javascript.js?v1.4" async></script> 
 
 
 <!-- Global site tag (gtag.js) - Google Analytics 
