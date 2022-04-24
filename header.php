@@ -49,7 +49,7 @@
 <link rel="stylesheet" type="text/css" href="spring-footer-stylesheet.css?2.0">
 
 <!-- Knack Stylesheet -->
-<link rel="stylesheet" type="text/css" href="spring-knack-stylesheet.css?v0.4">
+<link rel="stylesheet" type="text/css" href="spring-knack-stylesheet.css?v0.5">
 
 <!-- CUSTOM PAGE SCRIPTS
 <script src="spring-javascript.js?v1.4" async></script> -->

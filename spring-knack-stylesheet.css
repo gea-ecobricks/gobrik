@@ -218,6 +218,12 @@ This removes the three columns on the log in scenes but keeps it on the course a
         text-align: center;
         min-width: 100%;
  }
+
+ @media screen and (max-width: 900px) {
+.kn-login {
+  background: none;
+  box-shadow: none;}
+}
  
  #view_5870  {   /*corporate social platform text under login view*/
  

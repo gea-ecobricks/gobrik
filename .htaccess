@@ -17,10 +17,11 @@ Redirect /index.html /index.php
 Redirect /market /market.php
 Redirect /marketplace/ /market.php
 
-Redirect /shop /store.php
-Redirect /shop/ /store.php
-Redirect /store /store.php
-Redirect /store/ /store.php
+Redirect /shop /regen-store.php
+Redirect /shop/ /regen-store.php
+Redirect /store /regen-store.php
+Redirect /store/ /regen-store.php
+Redirect /regen-store /regen-store.php
 
 Redirect /courses /courses.php
 Redirect /courses/ /courses.php
