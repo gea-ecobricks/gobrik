@@ -16,3 +16,23 @@ Redirect /index.html /index.php
 
 Redirect /market /market.php
 Redirect /marketplace/ /market.php
+
+Redirect /shop /store.php
+Redirect /shop/ /store.php
+Redirect /store /store.php
+Redirect /store/ /store.php
+
+Redirect /courses /courses.php
+Redirect /courses/ /courses.php
+Redirect /course /courses.php
+Redirect /course/ /courses.php
+
+Redirect /kursus /kursus.php
+Redirect /kursus/ /kursus.php
+
+Redirect /disclosure /disclosure.php
+
+Redirect /earthwands /earthwands.php
+
+Redirect /offset /offset.php
+Redirect /offset/ /offset.php
