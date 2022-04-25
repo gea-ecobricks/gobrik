@@ -13,7 +13,7 @@
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages-->
 
-<title>Regen Store | GoBrik.com</title>
+<title>Regen Store | Green products from regenerative makers.</title>
 <meta name="keywords" content="green products, regenerative products, earth products, earthwands, earthcups, brikcoin, gobrik, regen store, green store">
 <meta name="description" content="Shop green products directly from regenerative makers.">
 
