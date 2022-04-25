@@ -15,15 +15,15 @@ AND UNIQUE to HTML Pages-->
 
 <title>Regen Store | GoBrik.com</title>
 <meta name="keywords" content="green products, regenerative products, earth products, earthwands, earthcups, brikcoin, gobrik, regen store, green store">
-<meta name="description" content="Shop regenerative products directly from makers.">
+<meta name="description" content="Shop green products directly from regenerative makers.">
 
 
 <!-- Facebook Open Graph Tags for social sharing-->
 
-<meta property="og:url"           content="https://www.gobrik.com/store.php">
+<meta property="og:url"           content="https://www.gobrik.com/regen-store.php">
 <meta property="og:type"          content="website">
 <meta property="og:title"         content="Regen Store | GoBrik.com">
-<meta property="og:description"   content="Shop regenerative products directly from makers." >
+<meta property="og:description"   content="Shop green products directly from regenerative makers." >
 <meta property="og:image"         content="https://www.gobrik.com/images/regen-store-banner-flat-1000px.png" >
 <meta property="fb:app_id"  content="1781710898523821" >
 <meta property="og:image:width" content="1000" />
