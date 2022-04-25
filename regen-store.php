@@ -28,7 +28,7 @@ AND UNIQUE to HTML Pages-->
 <meta property="fb:app_id"  content="1781710898523821" >
 <meta property="og:image:width" content="1000" />
 <meta property="og:image:height" content="" />
-<meta property="og:image:alt"     content="Regeneartive green products"/>
+<meta property="og:image:alt"     content="Regenerartive green products"/>
 <meta property="og:locale" content="en_GB, id_ID, es_ES" />
 
 
