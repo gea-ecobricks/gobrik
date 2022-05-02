@@ -43,6 +43,18 @@ AND UNIQUE to HTML Pages-->
 <!-- sets footer of page:  be sure to add page name-->
 <?php require_once ("footer.php");?>
 
-	 
+<script>
+(function() {
+      var linksOnPage = document.querySelectorAll("a");
+      var link = "";
+      for (var i = 0; i < linksOnPage.length; i++) {
+        link = linksOnPage[i];
+        link.setAttribute("onclick", "window.scrollTo(0, 0)");
+  
+      }
+    })();
+    </script>
+
+    
 </body>
 </html>
