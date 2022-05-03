@@ -1,13 +1,13 @@
     <div id="landing-content">
     
-    <br><div class="top-graphic"><img src="webp/earthday2022-500px.webp?v0.6"></div>
-    <!--<br><div class="top-graphic"><img src="svgs/Happy-turtle-dolphin-opti2.svg?v0.5"></div>-->
-        <div class="big-header">Happy Earth Week!.</div>
+    <!--<br><div class="top-graphic"><img src="webp/earthday2022-500px.webp?v0.6"></div>
+--><br><div class="top-graphic"><img src="svgs/Happy-turtle-dolphin-opti2.svg?v0.5"></div>
+        <div class="big-header">Let's keep our plastic out of the biosphere!</div>
 
         <div class="welcome-text">
-        Let's keep our plastic out of the biosphere!  By putting our plastic to good use, together we can build our greenest visions.  
+          By putting our plastic to good use, together we can build our greenest visions.  
         </div>
-        <h3<b>Newly launched!</b> <a href="#market">The Brik Market</a></h3><br><br>
+        <h3<b>New on GoBrik:</b> <a href="#market">The Brik Market</a></h3><br><br>
         
         <a href="#home-login/" class="kn-link kn-link-1 kn-link-page kn-button" style="
         background-color: rgba(252, 250, 250, 0.8);

@@ -5,10 +5,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
 
-<!-- Arc CDN Script without delay-->
-<script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
-
-
 
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages-->
