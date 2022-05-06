@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php $dist='42';?>
+<?php $dist='50';?>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
 
