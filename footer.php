@@ -133,7 +133,7 @@
 				</div>
 			</div>
 			<div class="footer-invite">
-				GoBrik is open source and 100% volunteer built!<br>Contribute on to this page <?php echo ($name); ;?> on <a href="https://github.com/gea-ecobricks/gobrik/<?php echo ($name); ;?>.php" target="_blank">Github</a>.<br><br>
+				GoBrik is open source and 100% volunteer built!<br>Contribute on to this page <?php echo ($name); ;?> (embed: <?php echo ($dist); ;?>) on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/<?php echo ($name); ;?>.php" target="_blank">Github</a>.<br><br>
 				
 				
 				
