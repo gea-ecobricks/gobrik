@@ -24,7 +24,7 @@
 
 
 		<div class="offline-image"><img src="svgs/earth-service4.svg" width="100%" height="96%"></div>
-		<div class="offline-header">GoBrik is offline for a bit!</div> 
+		<div class="offline-header">GoBrik is Offline for a Bit!</div> 
 		<div class="offline-text">We're working to get GoBrik back up.</div>
 		<div class="offline-subtext">We're sorry for the inconvenience.  GoBrik will be back in 6 hours.</div>	
 	</div>

@@ -137,6 +137,6 @@
 				
 				
 				
-				<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+				<!--<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>-->
 
 	</div>
