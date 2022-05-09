@@ -1,4 +1,7 @@
-
+<?php
+	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
+	$name = $parts [count($parts)-1];
+	;?>
 
 <script async type="text/javascript" async>
 	app_id='5b8c28c2a1152679c209ce0c';
