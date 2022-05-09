@@ -133,10 +133,10 @@
 				</div>
 			</div>
 			<div class="footer-invite">
-				GoBrik is open source and 100% volunteer built!<br>Contribute on to this page <?php echo ($name); ;?> (embed: <?php echo ($dist); ;?>) on <a href="https://github.com/gea-ecobricks/gobrik/blob/master/<?php echo ($name); ;?>.php" target="_blank">Github</a>.<br><br>
+				GoBrik is open source and 100% volunteer built!<br>Contribute on to this page <a href="https://github.com/gea-ecobricks/gobrik/blob/master/<?php echo ($name); ;?>" target="_blank"><?php echo ($name); ;?> (embed: <?php echo ($dist); ;?>) on Github</a>.<br><br>
 				
 				
 				
-				<!--<button onclick="topFunction2()" id="myBtn" title="Go to top">Back to Top</button><br><a href="#my-offers" onclick="topFunction();">Test1</a><br><a href="#market" onclick="topFunction();">Test2</a>-->
+				<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
 
 	</div>
