@@ -21,7 +21,7 @@
 <!-- preload key landing images  -->
 
 <link rel="preload" as="image" href="svgs/gobrik-logo-3.svg">
-<link rel="preload" as="image" href="svgs/top-clouds-desktop-animate-to-static.svg">
+<link rel="preload" as="image" href="svgs/top-clouds-desktop-animate-to-static.svg?v1.1">
 <link rel="preload" as="image" href="svgs/top-clouds-mobile.svg">
 <link rel="preload" as="image" href="svgs/footer-clouds-desktop.svg">
 <link rel="preload" as="image" href="svgs/footer-clouds-mobile.svg">
@@ -156,7 +156,7 @@ body {
 
 @media screen and (min-width: 769px) {
 	body {
-		background: url(svgs/top-clouds-desktop-animate-to-static.svg?v1.0) center top repeat-x ;
+		background: url(svgs/top-clouds-desktop-animate-to-static.svg) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 100%;
 	}
