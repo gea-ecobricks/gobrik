@@ -18,7 +18,7 @@ AND UNIQUE to HTML Pages-->
 
 <meta property="og:url"           content="https://www.gobrik.com">
 <meta property="og:type"          content="website">
-<meta property="og:title"         content="GoBrik | Ecobrick App">
+<meta property="og:title"         content="GoBrik">
 <meta property="og:description"   content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions." >
 <meta property="og:image"         content="https://www.gobrik.com/images/social-banner-1200px.png" >
 <meta property="fb:app_id"  content="1781710898523821" >
