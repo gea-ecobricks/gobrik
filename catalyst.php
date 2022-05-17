@@ -17,11 +17,11 @@ AND UNIQUE to HTML Pages-->
 
 <!-- Facebook Open Graph Tags for social sharing-->
 
-<meta property="og:url"           content="https://www.gobrik.com/catalyst">
+<meta property="og:url"           content="https://www.gobrik.com/catalyst.php">
 <meta property="og:type"          content="website">
 <meta property="og:title"         content="GoBrik Catalyst Program">
 <meta property="og:description"   content="A platform for keen green enterprises to track, disclose and accelearte their plastic transition." >
-<meta property="og:image"         content="pngs/catalyst-fb-banner.png"/>
+<meta property="og:image"         content="images/catalyst-fb-banner.png"/>
 <meta property="fb:app_id"  content="1781710898523821" >
 <meta property="og:image:width" content="1000px" />
 <meta property="og:image:height" content="1059px" />
