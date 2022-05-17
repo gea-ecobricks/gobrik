@@ -37,3 +37,10 @@ Redirect /earthwands /earthwands.php
 
 Redirect /offset /offset.php
 Redirect /offset/ /offset.php
+
+Redirect /catalyst /catalyst.php
+Redirect /catalyst/ /catalyst.php
+Redirect /catalyze /catalyst.php
+Redirect /catalyze/ /catalyst.php
+Redirect /my-catalyst /catalyst.php
+Redirect /my-catalyst/ /catalyst.php
