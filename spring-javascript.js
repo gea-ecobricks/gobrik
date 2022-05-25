@@ -33,7 +33,7 @@ This code sends the users browser view to the top of the page.
 /* -------------------------------------------------------------------------- */
 
 
-//Attempt to insert java  onclick="topFunction()" into every submit and login button
+//Attempt to insert java  onclick="topFunction()" into every submit and login button 
 
 
   
