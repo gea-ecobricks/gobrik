@@ -22,7 +22,7 @@
 
 <link rel="preload" as="image" href="svgs/gobrik-logo-3.svg">
 <link rel="preload" as="image" href="svgs/top-clouds-desktop-animate-to-static.svg?v1.1">
-<link rel="preload" as="image" href="svgs/top-clouds-mobile.svg">
+<link rel="preload" as="image" href="svgs/ashim-top-clouds-mobile">
 <link rel="preload" as="image" href="svgs/footer-clouds-desktop.svg">
 <link rel="preload" as="image" href="svgs/footer-clouds-mobile.svg">
 <link rel="preload" as="image" href="svgs/vision-footer-2022.svg">
@@ -163,7 +163,7 @@ body {
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
 	body {
-		background: url(svgs/top-clouds-mobile.svg?v1.3) center top repeat-x;
+		background: url(svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
     	box-sizing: border-box;
 		background-size: 100%;
 }
