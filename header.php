@@ -58,16 +58,17 @@
 <script src="spring-javascript.js?v1.4" async></script> -->
 
 
-<!-- Global site tag (gtag.js) - Google Analytics 
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-201489430-1"></script>
-
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z5NZX7H9MB"></script>
 <script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-201489430-1');
-</script>-->
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z5NZX7H9MB');
+</script>
+
+
   
 <!-- This calls our webmanifest wich turns our page into a progressive web app (PWA) -->
 <link rel="manifest" href="manifest.webmanifest">

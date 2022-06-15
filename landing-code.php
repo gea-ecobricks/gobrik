@@ -2,19 +2,19 @@
     
     <!--<br><div class="top-graphic"><img src="webp/earthday2022-500px.webp?v0.6"></div>
 --><br><div class="top-graphic"><img src="https://ecobricks.org/webp/world-ocean-day-2022-600px.webp"></div>
-        <div class="big-header">Happy World Oceans Day!</div>
+        <div class="big-header">Let's Keep our Plastic out of the Oceans!</div>
 
         <div class="welcome-text">
-        This week is a great time to focus on keeping the oceans free of our plastic.  To celebrate, post a selfie of you and your ecobrick using our frame for the day!
+        World Oceans week is a great time to focus on keeping the seas free of our plastic... and make an ecobrick.
         </div>
-        <h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>
+        <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
         
         <a href="#home-login/" class="kn-link kn-link-1 kn-link-page kn-button" style="
         background-color: rgba(252, 250, 250, 0.8);
         width: 200px;
         border-width: 4px;
         padding: 19px;
-        border-radius: 10px;
+        border-radius: 10px;    
         font: Mulish, sans-serif;"><span>Sign in</span></a><br>
          <h4>No account? Join GoBrik free and fast!</h4><br>
         <a href="#signup" class="kn-button is-primary" style="width: 200px; box-shadow: 0px 0px 8px white;"><span>Sign up</span></a>
