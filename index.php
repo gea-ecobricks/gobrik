@@ -27,7 +27,7 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above"/>
 <meta property="og:locale" content="en_GB, id_ID, es_ES" />
 
-<link rel="preload" as="image" href="svgs/Happy-turtle-dolphin-opti2.svg">
+<link rel="preload" as="image" href="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg">
 
 
 <!-- sets page meta tags:  be sure to add page name-->

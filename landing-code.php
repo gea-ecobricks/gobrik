@@ -1,11 +1,11 @@
     <div id="landing-content">
     
-    <!--<br><div class="top-graphic"><img src="webp/earthday2022-500px.webp?v0.6"></div>
---><br><div class="top-graphic"><img src="https://ecobricks.org/webp/world-ocean-day-2022-600px.webp"></div>
-        <div class="big-header">Let's Keep our Plastic out of the Oceans!</div>
+    <br><div class="top-graphic"><img src="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg" width="450px"></div>
+
+        <div class="big-header">Let's Keep our Plastic out of the Biosphere!</div>
 
         <div class="welcome-text">
-        World Oceans week is a great time to focus on keeping the seas free of our plastic... and make an ecobrick.
+        Ecobricking is a great way to take personal responsibility for our plastic, transition from it and put it to good green use.
         </div>
         <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
         
@@ -30,10 +30,10 @@
             <!--<a href="https://www.gobrik.com/#home/auth/google" class="social-button" id="google-connect"  onclick="topFunction()"> <span>Login with Google</span></a>
 
               
-            <br><br>
+            <br><br>/images/mangotreebluesky400px.png
         </div>-->
-        
-       <div class="tree-coins"><img src="/images/mangotreebluesky400px.png" style="width: 340px;"></div>
+      
+        <br><br><br><br><div class="tree-coins"><img src="https://ecobricks.org/webp/world-ocean-day-2022-600px.webp" style="width: 400px;"></div>
 
         <div class="tree-text">
             <h5>Together we're securing plastic out of the biosphere to make building blocks, brikcoins and green spaces.</h5>
