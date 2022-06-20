@@ -87,14 +87,13 @@
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Earth Enterprise</div>
-				<div class="footer-subtext">The <a href="https://ecobricks.org/gobrik" target="_blank">Gobrik project</a> is maintained and developed by the <a href="https://ecobricks.org/en/about.php" target="_blank">Global Ecobrick Alliance</a>.  The GEA is a for-Earth, not-for-profit, enterprise based on <a href="https://ecobricks.org/principles" target="_blank">regenerative principles.</a><br><br></div>
-			<!--<div class="footer-header">Deep Green</div>
-				<div class="footer-subtext">On principle we have no corporate, government or company sponsors and receive no grants nor billionaire donations. We generate revenue by providing <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0">deep green</a> ecological <a href="brikcoins">value</a>.</div>-->
+				<div class="footer-subtext">The <a href="https://ecobricks.org/gobrik" target="_blank">Gobrik project</a> is maintained and developed by the <a href="https://ecobricks.org/en/about.php" target="_blank">Global Ecobrick Alliance</a>.  The GEA is a for-Earth, not-for-profit, enterprise based on <a href="https://ecobricks.org/principles" target="_blank">regenerative principles.  On <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0">principle</a> we have no corporate, government or company sponsors and receive no grants nor billionaire donations. Our revenue is genearate by provide <a href="#offset">ecologial services.</a><br><br>We track and disclose our ecological impacts and ensure that it is net-green.  See our <a href="https://www.ecobricks.org/en/2021-regen-report.php" target="_blank">2021 Regen Report</a> and our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">dynamic impact accounting for 2022.</a></div>
+			
+			
 			</div>
-			<div class="footer-box">
-				<div class="footer-header">Ecological Impact</div>
-				<div class="footer-subtext">We track and disclose our ecological impacts and ensure that it is net-green.  See our <a href="https://www.ecobricks.org/en/2021-regen-report.php" target="_blank">2021 Regen Report</a> and our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">dynamic impact accounting for 2022.</a></div>
-			</div>
+			
+			<div class="footer-header">Tech Partners</div>
+				<div class="footer-subtext">Plastic transition is a global collaboration!  We are grateful to our partners who have given us full access to their awesome technologies.  Thank you to <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a> whose servers host our sites, <a href="https://wpml.org/" target="_blank" rel="noopener">to WPML whose plugin makes our wordpress pages multilingual</a>, to <a href="https://Knack.com" target="_blank">Knack</a> whose database development platform is behind our GoBrik app, and to <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> whose animation platform gives life to our graphics.</div>
 		</div>
 		<div class="footer-bottom">
 			<div class="footer-conclusion">	
