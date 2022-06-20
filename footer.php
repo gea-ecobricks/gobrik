@@ -7,7 +7,6 @@
 		<div class="footer-vision">
 			
 		We envision a Transition in our Households, Communities and Enterprises from Plastic to an ever Greener Harmony with Earth's Cycles.
-
 		<br><br>
 
 	</div>
@@ -87,12 +86,13 @@
 			</div>
 			<div class="footer-box">
 				<div class="footer-header">Earth Enterprise</div>
-				<div class="footer-subtext">The <a href="https://ecobricks.org/gobrik" target="_blank">Gobrik project</a> is maintained and developed by the <a href="https://ecobricks.org/en/about.php" target="_blank">Global Ecobrick Alliance</a>.  The GEA is a for-Earth, not-for-profit, enterprise based on <a href="https://ecobricks.org/principles" target="_blank">regenerative principles.  On <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0">principle</a> we have no corporate, government or company sponsors and receive no grants. Our revenue is genearate by providing <a href="#offset">ecologial services.</a><br><br>We track and disclose our net-green ecological impact.  See our <a href="https://www.ecobricks.org/en/2021-regen-report.php" target="_blank">2021 Regen Report</a> and our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">dynamic impact accounting for 2022.</a></div>
+				<div class="footer-subtext"><a href="https://ecobricks.org/gobrik" target="_blank">Gobrik</a> is developed by the <a href="https://ecobricks.org/en/about.php" target="_blank">Global Ecobrick Alliance</a>.  The GEA is a for-Earth, not-for-profit, enterprise based on <a href="https://ecobricks.org/principles" target="_blank">regenerative principles.  On <a href="https://russellmaier.medium.com/towards-subtraction-1c76bc486fd0">principle</a> we have no company or government endorsement and receive no grants or sponsorships. Our revenue is genearate by providing <a href="#offset">ecologial services.</a><br><br>We track and disclose our net-green ecological impact.  See our <a href="https://www.ecobricks.org/en/2021-regen-report.php" target="_blank">2021 Regen Report</a> and our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">dynamic impact accounting for 2022.</a></div>
 			</div>
 
 			<div class="footer-box">
 			<div class="footer-header">Tech Partners</div>
 				<div class="footer-subtext">Plastic transition is a global collaboration!  We are grateful to our partners who have given us full access to their awesome technologies.  Thank you to <a href="https://www.dewaweb.com/" target="_blank">DewaWeb Hosting</a> whose servers host our sites, to <a href="https://Knack.com" target="_blank">Knack</a> whose database development platform is behind our GoBrik app, and to <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> whose animation platform gives life to our graphics.</div>
+		</div>
 		</div>
 
 		<div class="footer-bottom">
