@@ -9,6 +9,7 @@ deployment:
     - /bin/cp -R svgs $DEPLOYPATH
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R meta $DEPLOYPATH
+    - /bin/cp -R stripe $DEPLOYPATH
 
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
