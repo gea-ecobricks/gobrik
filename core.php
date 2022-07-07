@@ -20,8 +20,8 @@
 					<a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>	
 				</div>
 			</div> 
-		</div>-->
 		</div>
+		</div>-->
 
 <!--
 		<div class="offline-image"><img src="svgs/earth-service4.svg" width="100%" height="96%"></div>
