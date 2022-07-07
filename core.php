@@ -7,9 +7,10 @@
 			<a href="/#home"><img src="svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a>
 
 		</div> 
+		<!--
 		<div id="lang-button">
-		<div class="topnav-lang" id="myTopnav-lang">
-			<div class="dropdown-lang">
+			<div class="topnav-lang" id="myTopnav-lang">
+				<div class="dropdown-lang">
 				<button class="dropbtn-lang"><img src="svgs/language-button2.svg" height="30px"></button>
 				<div class="dropdown-content-language">
 				   <a href='javascript:Localize.setLanguage("en")'>🇬🇧&nbsp;ENG</a>
@@ -19,7 +20,7 @@
 					<a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>	
 				</div>
 			</div> 
-		</div>
+		</div>-->
 		</div>
 
 <!--

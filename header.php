@@ -112,7 +112,7 @@
 
 
 	
-<!-- Localise translation script-->
+<!-- Localise translation script
 
 <script src="https://global.localizecdn.com/localize.js"></script>
 
@@ -126,7 +126,7 @@
   });
 </script>
 
-<script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
+<script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>-->
 
 <style>
 
