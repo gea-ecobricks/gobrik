@@ -4,9 +4,9 @@
 				
 
 		<div id="header" class="top-menu">
-			<a href="/#home"><img src="svgs/earthcup-logo.svg?v1.0" width="185" height=""></a>
+			<a href="/#home"><img src="svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a>
 
-		</div>  
+		</div> 
 		<!--
 		<div id="lang-button">
 			<div class="topnav-lang" id="myTopnav-lang">
