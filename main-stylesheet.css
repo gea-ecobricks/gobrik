@@ -2130,6 +2130,7 @@ background-size: contain;*/
 #menu-circle:hover {
   opacity: 120%;
 }
+
 @media screen and (max-width: 1000px) {
   .dropdown .dropbtn,
   .topnav a:not(:first-child) {
@@ -2144,6 +2145,7 @@ background-size: contain;*/
       display: none;
   }
 }
+
 @media screen and (max-width: 1000px) {
   .topnav.responsive {
       position: relative;
