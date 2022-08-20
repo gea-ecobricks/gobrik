@@ -21,7 +21,7 @@
 <!-- preload key landing images  -->
 
 <link rel="preload" as="image" href="svgs/gobrik-logo-3.svg">
-<link rel="preload" as="image" href="svgs/top-clouds-desktop-animate-to-static.svg?v1.1">
+<link rel="preload" as="image" href="svgs/top-clouds-desktop-static.svg?v1.1">
 <link rel="preload" as="image" href="svgs/ashim-top-clouds-mobile">
 <link rel="preload" as="image" href="svgs/footer-clouds-desktop.svg">
 <link rel="preload" as="image" href="svgs/footer-clouds-mobile.svg">
@@ -106,7 +106,7 @@
 <link href="icons/apple_splash_1668.png" sizes="1668x2224" rel="apple-touch-startup-image" />
 <!--<link href="/apple_splash_1536.png" sizes="1536x2048" rel="apple-touch-startup-image" />
 <link href="/apple_splash_1125.png" sizes="1125x2436" rel="apple-touch-startup-image" />
-<link href="/apple_splash_1242.png" sizes="1242x2208" rel="apple-touch-startup-image" />
+<link shref="/apple_splash_1242.png" sizes="1242x2208" rel="apple-touch-startup-image" />
 <link href="/apple_splash_750.png" sizes="750x1334" rel="apple-touch-startup-image" />
 <link href="/apple_splash_640.png" sizes="640x1136" rel="apple-touch-startup-image" />-->
 
@@ -157,7 +157,7 @@ body {
 
 @media screen and (min-width: 769px) {
 	body {
-		background: url(svgs/top-clouds-desktop-animate-to-static.svg) center top repeat-x ;
+		background: url(svgs/top-clouds-desktop-static.svg) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 100%;
 	}

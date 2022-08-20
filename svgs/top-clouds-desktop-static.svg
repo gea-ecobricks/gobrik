@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.1" viewBox="0 0 254.27 142.53" xmlns="http://www.w3.org/2000/svg">
+ <style><![CDATA[#e5aKc4gXFE85_to {animation: e5aKc4gXFE85_to__to 60000ms linear 1 normal forwards}@keyframes e5aKc4gXFE85_to__to { 0% {transform: translate(137.560165px,73.88102px)} 70% {transform: translate(353.195183px,74.254008px)} 100% {transform: translate(353.195183px,74.254008px)}} #e5aKc4gXFE86_to {animation: e5aKc4gXFE86_to__to 60000ms linear 1 normal forwards}@keyframes e5aKc4gXFE86_to__to { 0% {transform: translate(167.295792px,106.259434px)} 84% {transform: translate(354.998467px,106.259434px)} 100% {transform: translate(354.998467px,106.259434px)}} #e5aKc4gXFE87_to {animation: e5aKc4gXFE87_to__to 60000ms linear 1 normal forwards}@keyframes e5aKc4gXFE87_to__to { 0% {transform: translate(282.809555px,86.414761px)} 63.333333% {transform: translate(83.535584px,86.414761px)} 100% {transform: translate(83.535584px,86.414761px)}} #e5aKc4gXFE89_to {animation: e5aKc4gXFE89_to__to 60000ms linear 1 normal forwards}@keyframes e5aKc4gXFE89_to__to { 0% {transform: translate(271.781479px,131.720795px)} 70% {transform: translate(86.250962px,131.720795px)} 100% {transform: translate(86.250962px,131.720795px)}} #e5aKc4gXFE811_to {animation: e5aKc4gXFE811_to__to 60000ms linear 1 normal forwards}@keyframes e5aKc4gXFE811_to__to { 0% {transform: translate(216.917984px,163.696785px)} 66% {transform: translate(353.897047px,163.696785px)} 100% {transform: translate(353.897047px,163.696785px)}}]]></style>
+ <defs>
+  <linearGradient id="e5aKc4gXFE83-fill" x1="126.76" x2="125.49" y1="20.924" y2="142.48" gradientTransform="translate(0)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="rgba(0,255,255,0.886275)" offset="0"/>
+   <stop stop-color="rgba(156,229,255,0)" offset="1"/>
+  </linearGradient>
+  <linearGradient id="e5aKc4gXFE84-fill" x1="125.74" x2="125.27" y1="4.5202" y2="26.677" gradientTransform="translate(0)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#00d2d2" offset="0"/>
+   <stop stop-color="rgba(156,229,255,0)" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-92.586 -47.675)">
+  <rect transform="translate(92.586 47.676)" width="254.27" height="142.53" rx="0" ry="0" fill="url(#e5aKc4gXFE83-fill)" opacity=".9" stroke-width=".35619"/>
+  <rect transform="translate(92.586 47.676)" width="254.27" height="27.58" rx="0" ry="0" fill="url(#e5aKc4gXFE84-fill)" opacity=".9" stroke-width=".12821"/>
+  <g fill="#fff">
+   <path transform="translate(55.407)" d="m305.28 85.177c-1.8905 0.06816-2.7486-4.0203-5.8685-3.1664-3.3375-0.11901-3.1393 4.1159-6.2099 3.3892-3.3667 1.3316-1.4393 6.2484 2.0688 5.4501 3.5315-0.03716 7.0719 0.07485 10.598-0.05765 3.3698-0.63996 2.9094-5.6155-0.588-5.6155z" opacity=".6" stroke-width=".048176"/>
+   <path transform="translate(80.522)" d="m275.35 130.91c-1.2314 0.0444-1.7904-2.6188-3.8226-2.0626-2.174-0.0775-2.0449 2.681-4.045 2.2077-2.193 0.8674-0.93751 4.0701 1.3476 3.5501 2.3004-0.0242 4.6065 0.0487 6.903-0.0376 2.195-0.41686 1.8951-3.6578-0.38302-3.6578z" opacity=".55" stroke-width=".031381"/>
+   <path transform="translate(-130.67)" d="m220.61 162.86c-1.2762 0.0461-1.8555-2.714-3.9616-2.1376-2.253-0.0803-2.1192 2.7785-4.1921 2.288-2.2728 0.89896-0.97161 4.2181 1.3966 3.6792 2.384-0.025 4.774 0.0505 7.1541-0.0389 2.2748-0.43203 1.964-3.7909-0.39695-3.7909z" opacity=".67" stroke-width=".032522"/>
+  </g>
+ </g>
+</svg>

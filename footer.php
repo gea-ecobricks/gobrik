@@ -109,7 +109,7 @@
 					
 			
 					<div class="virtue">
-						<a href="https://gobrik.com/#openbooks" target="_blank"><img src="https://ecobricks.org/banners/openbooks-dark-350px.png" width="300px" height="" alt="Click through to see our live financial tracking" title="Click through to see our live financial tracking"></a>	
+						<a href="https://ecobricks.org/en/open-books.php" target="_blank"><img src="https://ecobricks.org/banners/openbooks-dark-350px.png" width="300px" height="" alt="Click through to see our live financial tracking" title="Click through to see our live financial tracking"></a>	
 					</div>
 						
 				</div>
