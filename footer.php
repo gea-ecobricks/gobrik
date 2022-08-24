@@ -116,9 +116,11 @@
 			
 					
 						
-							<!--
+							
 									<div id="wcb" class="carbonbadge wcb-d"></div>
 								<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+
+								<!--
 
 							<a href="https://www.websitecarbon.com/website/ecobricks-org/"><img src="webp/web-carbon.webp" width="330px"></a>-->
 								<br><br>
