@@ -2,9 +2,9 @@
     
     <!--<br><div class="top-graphic"><img src="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg" width="450px"></div>-->
 
-    <br><br><div class="top-graphic"><img src="https://gobrik.com/svgs/earth-home-animated-v4.svg" width="420px"></div>
+    <br><br><div class="top-graphic"><img src="https://gobrik.com/svgs/dolphin-top-optimized.svg" width="420px"></div>
 
-        <div class="big-header">Together we can build our greenest visions.</div>
+        <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
 
         <div class="welcome-text">
         Ecobricking is a great way to take personal responsibility for our plastic, transition from it and build regeneratively.

@@ -100,16 +100,16 @@
 				<div class="row">
 
 					<div class="virtue">
-						<a href="https://ecobricks.org/en/about.php" target="_blank"><img src="https://ecobricks.org/banners/forearth-dark-350px.png" width="300px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
+						<a href="https://ecobricks.org/about" target="_blank"><img src="https://ecobricks.org/banners/forearth-dark-350px.png" width="300px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
 					</div>
 			
 					<div class="virtue">
-						<a href="https://www.gobrik.com/#my-catalyst/previous-year-impacts2/5e1f513586a7fe0015e77628" target="_blank"><img src="https://ecobricks.org/banners/762-disclose-dark-350px.png" width="300px" height="" alt="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com"></a>
+						<a href="https://ecobricks.org/regenreports" target="_blank"><img src="https://ecobricks.org/banners/762-disclose-dark-350px.png" width="300px" height="" alt="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com"></a>
 					</div>
 					
 			
 					<div class="virtue">
-						<a href="https://ecobricks.org/en/open-books.php" target="_blank"><img src="https://ecobricks.org/banners/openbooks-dark-350px.png" width="300px" height="" alt="Click through to see our live financial tracking" title="Click through to see our live financial tracking"></a>	
+						<a href="https://ecobricks.org/open-books" target="_blank"><img src="https://ecobricks.org/banners/openbooks-dark-350px.png" width="300px" height="" alt="Click through to see our live financial tracking" title="Click through to see our live financial tracking"></a>	
 					</div>
 						
 				</div>
