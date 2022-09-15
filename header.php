@@ -369,21 +369,21 @@ opacity: 50%;
    line-height: 1.2 !important;
    margin-bottom: 25px;
    text-shadow: 0px 0px 8px #fff;
-		   /*
-   -webkit-animation-delay: 1.0s !important;
+		
+   -webkit-animation-delay: 0.3s !important;
    opacity:0;
    -webkit-animation:fadeIn ease-in 0.25s;
    -webkit-animation-duration:0.25s;
    -webkit-animation-fill-mode:forwards;
 
-   animation-delay: 1.0s; 
+   animation-delay: 0.3s; 
    animation: fadeIn ease-in 0.25s;
    animation-duration: 0.25s;
-   animation-fill-mode: forwards;*/
+   animation-fill-mode: forwards;
    
 }
 
-@media screen and (min-width: 770px) and (max-width: 2000px) { 
+@media screen and (min-width: 770px) { 
  .big-header {
 	  font-size: 42px !important;
  }
@@ -480,8 +480,8 @@ opacity: 50%;
     
         
     .tree-text {
-      font-size: 16px !important;
-      font-family: 'Mulish', sans-serif;
+      /*font-size: 16px !important;
+      font-family: 'Mulish', sans-serif;*/
       text-align: center !important;
       line-height: 1.4 !important;
       position: relative;
