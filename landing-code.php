@@ -35,11 +35,11 @@
             <br><br>
         </div>-->
       
-        <br><br><br><br><div class="tree-coins"><img src="https://ecobricks.org/images/mangotreebluesky400px.png" style="width: 400px;"></div>
+        <br><br><br><br><div class="tree-coins"><img src="images/mangotreebluesky400px.png" style="width: 400px;"></div>
 
         <div class="tree-text">
-            <h4>Together we're securing plastic out of the biosphere to make building blocks, brikcoins and green spaces.</h4>
-            <h5>GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.</h5><br>
+            <p>Together we're securing plastic out of the biosphere to make building blocks, brikcoins and green spaces.</p>
+            <h6>GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.</h6><br>
             <h4><img src="/svgs/aes-brk.svg" style="width: 200px;"></h4>
             <h6>Learn some more about<br><a href="#ecobricks">Ecobricks</a>, <a href="#gea">the GEA</a>, <a href="#brikcoins">Brikcoins</a> and <a href="#aes">AES Plastic Offsets</a></h6>
         </div>
