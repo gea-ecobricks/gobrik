@@ -44,3 +44,6 @@
             <h6>Learn some more about<br><a href="#ecobricks">Ecobricks</a>, <a href="#gea">the GEA</a>, <a href="#brikcoins">Brikcoins</a> and <a href="#aes">AES Plastic Offsets</a></h6>
         </div>
     </div>
+
+    <iframe src="https://gobrik.com/landing-code.php" title="welcome" width="100%" height="100%">
+</iframe>
