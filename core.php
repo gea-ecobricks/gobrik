@@ -22,12 +22,12 @@
 			</div> 
 		</div>
 		</div>-->
-<!--
+
 
 		<div class="offline-image"><img src="svgs/earth-service4.svg" width="100%" height="96%"></div>
-		<div class="offline-header">GoBrik is Offline for a Bit!</div> 
-		<div class="offline-text">We're working on an issue.</div>
-		<div class="offline-subtext">We're sorry for the inconvenience.  GoBrik should be back in about 6 hours.</div>	
+		<div class="offline-header">Happy New Year!</div> 
+		<div class="offline-text">GoBrik is Offline for a Bit!</div>
+		<div class="offline-subtext">We're paying our bill and... we're getting ready for some major revamps to the app in 2023!  We should be back online in 12hrs.</div>	
 	</div>
 </div>
 -->
