@@ -30,11 +30,12 @@
 		<div class="offline-subtext">We're paying our bill and... we're getting ready for some major revamps to the app in 2023!  We should be back online in 12hrs.</div>	
 	</div>
 </div>
--->
+<!--
 
 		<div id="knack-dist_<?php echo ($dist); ;?>" onload="topFunction();">
 			<div class="loader"></div>
 		</div>
+-->
 	</div>
 
 
