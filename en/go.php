@@ -31,7 +31,28 @@ AND UNIQUE to HTML Pages-->
 
 
 <!-- sets page meta tags:  be sure to add page name-->
-<?php require_once ("../header.php");?>
+<?php require_once ("header.php");?>
+
+<?php
+	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
+	$name = $parts [count($parts)-1];
+	;?>
+
+<script async type="text/javascript" async>
+	app_id='5b8c28c2a1152679c209ce0c';
+	region='eu-central';
+	api_subdomain='eu-api';
+	api_domain='knack.com';
+	cdn_url='https://cdn1.cloud-database.co';
+	assets='eu-secure-assets.cloud-database.co';
+	api_subdomain='eu-api';
+	s3='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"assets.knack-eu.com"}';
+	s3_secure='{"domain":"s3-eu-west-1.amazonaws.com","bucket":"eu-secure-assets.cloud-database.co"}';
+	distribution_key="dist_<?php echo ($dist); ;?>";
+	
+	</script>
+	<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_<?php echo ($dist); ;?>/knack.js"></script>
+
 
 <!-- sets header and core of page:  be sure to add page name-->
 <?php require_once ("../core.php");?>

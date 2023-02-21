@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<?php $dist='42';?>
 <?php $lang='en';?>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
