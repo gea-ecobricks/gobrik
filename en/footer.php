@@ -2,7 +2,7 @@
 <!--FOOTER STARTS-->
 <div id="footer-full">
 		<div id="vision-clouds"></div>
-		<div id="vision-landscape"><img src="webp/vision-background-2022-footer.webp?v=1.4" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
+		<div id="vision-landscape"><img src="../webp/vision-background-2022-footer.webp?v=1.4" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
 			
 		<div class="footer-vision">
 			
@@ -127,7 +127,7 @@
 				<p><a href="#global">Gobrik global ecobricking data</a> is made available by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to "GoBrik.com/#global - Global Ecobrick Alliance" using the same license.</p>
 
 				<div class="footer-conclusion">	
-					<p>GoBrik, AES & Ecobricks.org logos and emblems are copyright 2022 by the Global Ecobrick Alliance.</p>
+					<p>GoBrik, AES & Ecobricks.org logos and emblems are copyright 2023 by the Global Ecobrick Alliance.</p>
 				</div>
 			</div>
 			<div class="footer-invite">

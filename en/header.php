@@ -3,15 +3,14 @@
 	$name = $parts [count($parts)-1];
 	;?>
 
-
 <!-- preload key landing images  -->
 
-<link rel="preload" as="image" href="svgs/gobrik-logo-3.svg">
-<link rel="preload" as="image" href="svgs/top-clouds-desktop-static.svg?v1.1">
-<link rel="preload" as="image" href="svgs/ashim-top-clouds-mobile.svg">
-<link rel="preload" as="image" href="svgs/footer-clouds-desktop.svg">
-<link rel="preload" as="image" href="svgs/footer-clouds-mobile.svg">
-<link rel="preload" as="image" href="svgs/vision-footer-2022.svg">
+<link rel="preload" as="image" href="../svgs/gobrik-logo-3.svg">
+<link rel="preload" as="image" href="../svgs/top-clouds-desktop-static.svg?v1.1">
+<link rel="preload" as="image" href="../svgs/ashim-top-clouds-mobile.svg">
+<link rel="preload" as="image" href="../svgs/footer-clouds-desktop.svg">
+<link rel="preload" as="image" href="../svgs/footer-clouds-mobile.svg">
+<link rel="preload" as="image" href="../svgs/vision-footer-2022.svg">
 
 <!-- This calls our GEA typography -->
 
@@ -32,13 +31,13 @@
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 	
 <!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="main-stylesheet.css?v1.8">
+<link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">
 
 <!-- Footer stylesheet -->
-<link rel="stylesheet" type="text/css" href="footer-stylesheet.css?2.0">
+<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?2.0">
 
 <!-- Knack Stylesheet -->
-<link rel="stylesheet" type="text/css" href="knack-stylesheet.css?v0.6">
+<link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.6">
 
 <!-- CUSTOM PAGE SCRIPTS
 <script src="spring-javascript.js?v1.4" async></script> -->
