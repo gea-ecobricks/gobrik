@@ -10,6 +10,7 @@ deployment:
     - /bin/cp -R webp $DEPLOYPATH
     - /bin/cp -R meta $DEPLOYPATH
     - /bin/cp -R eb $DEPLOYPATH
+    - /bin/cp -R en $DEPLOYPATH
 
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
@@ -29,7 +30,7 @@ deployment:
     - /bin/cp market.php $DEPLOYPATH
 
 
-       - export DEPLOYPATH=/home/ecobricks/gobrik/en/
+    - export DEPLOYPATH=/home/ecobricks/gobrik/en/
 
     - /bin/cp -R dials $DEPLOYPATH
     - /bin/cp -R icons $DEPLOYPATH
