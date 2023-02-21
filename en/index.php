@@ -5,8 +5,6 @@
 <?php $lang='en';?>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
-<?php echo $lang; ?>/<?php echo $name; ?>
-
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages-->
 
@@ -89,7 +87,7 @@ AND UNIQUE to HTML Pages-->
         </div>
         <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
         
-        <a href="go.php#home-login/" class="kn-link kn-link-1 kn-link-page kn-button" style="
+        <a href="go.php#home-login"  style="
         background-color: rgba(252, 250, 250, 0.8);
         width: 200px;
         border-width: 4px;
@@ -99,7 +97,7 @@ AND UNIQUE to HTML Pages-->
          <h4>No account? Join GoBrik free and fast!</h4><br>
         <a href="go.php#signup" class="kn-button is-primary" style="width: 200px; box-shadow: 0px 0px 8px white;"><span>Sign up</span></a>
 </div>
-<!--
+<!--class="kn-link kn-link-1 kn-link-page kn-button"
         <div class="social-buttons-box">
                
             <a href="#signup" class="social-button" id="new-account" onclick="topFunction()" > <span>Sign up to GoBrik</span></a>

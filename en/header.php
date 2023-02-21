@@ -142,14 +142,14 @@ body {
 
 @media screen and (min-width: 769px) {
 	body {
-		background: url(svgs/top-clouds-desktop-static.svg) center top repeat-x ;
+		background: url(../svgs/top-clouds-desktop-static.svg) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 100%;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
 	body {
-		background: url(svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
+		background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
     	box-sizing: border-box;
 		background-size: 100%;
 }
@@ -497,7 +497,7 @@ opacity: 50%;
 	position: relative;
 	width:100%;
 	z-index: -5;
-	background: url(svgs/footer-clouds-desktop.svg?v1.4) center top repeat-x ;
+	background: url(../svgs/footer-clouds-desktop.svg?v1.4) center top repeat-x ;
     box-sizing: border-box;
 	background-size: 100%;
 	margin-bottom: -270px;
@@ -512,7 +512,7 @@ margin-top: -300px;
 	width:100%;
 	height: 30vh;
 	z-index: -5;
-	background: url(svgs/footer-clouds-mobile.svg?v1.2) center top repeat-x ;
+	background: url(../svgs/footer-clouds-mobile.svg?v1.2) center top repeat-x ;
     box-sizing: border-box;
 	background-size: 100%;
 	margin-bottom: -320px;
