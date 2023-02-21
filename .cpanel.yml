@@ -27,3 +27,23 @@ deployment:
   
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp market.php $DEPLOYPATH
+
+
+       - export DEPLOYPATH=/home/ecobricks/gobrik/en/
+
+    - /bin/cp -R dials $DEPLOYPATH
+    - /bin/cp -R icons $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R svgs $DEPLOYPATH
+    - /bin/cp -R webp $DEPLOYPATH
+    - /bin/cp -R meta $DEPLOYPATH
+    - /bin/cp -R eb $DEPLOYPATH
+
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp arc-sw.js $DEPLOYPATH
+    - /bin/cp spring-javascripts.js $DEPLOYPATH
+    - /bin/cp spring-footer-stylesheet.css $DEPLOYPATH
+    - /bin/cp spring-knack-stylesheet.css $DEPLOYPATH
+    - /bin/cp spring-main-stylesheet.css $DEPLOYPATH
+    - /bin/cp stylesheet-landing.css $DEPLOYPATH
