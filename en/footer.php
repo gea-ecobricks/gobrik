@@ -14,56 +14,56 @@
 		<div class="footer-icons-container">
 			<div class="footer-icons"><!--WIKIPEDIA-->
 				<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">
-				<img src="icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page"></a>
+				<img src="../icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 	
 			<div class="footer-icons">
 				<a href="https://circles.ecobricks.org" target="_blank"><!--MATTERMOST-->
-				<img src="icons/mattermost.svg" width="100%" height="100%" alt="Joinn our Circles Ecobrick Support Community"></a>
+				<img src="../icons/mattermost.svg" width="100%" height="100%" alt="Joinn our Circles Ecobrick Support Community"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 	
 			<div class="footer-icons"><!--ECOBRICKS.oRG-->
 				<a href="https://ecobricks.org" target="_blank">
-				<img src="icons/ecobricks-org.svg" width="100%" height="100%" alt="Sign up for our GoBrik app"></a>
+				<img src="../icons/ecobricks-org.svg" width="100%" height="100%" alt="Sign up for our GoBrik app"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 	
 			<div class="footer-icons">
 				<a href="https://medium.com/earthen/" target="_blank"><!--MEDIUM-->
-				<img src="icons/medium.svg" width="100%" height="100%" alt="Follow our Medium Earthen publication"></a>
+				<img src="../icons/medium.svg" width="100%" height="100%" alt="Follow our Medium Earthen publication"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 	
 			<div class="footer-icons"> <!--GITHUB-->
 				<a href="https://github.com/gea-ecobricks/ecobricks-org" target="_blank">
-				<img src="icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository"></a>
+				<img src="../icons/github.svg" width="100%" height="100%" alt="Contribute to our Ecobricks.org Github repository"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 			
 			<div class="footer-icons"><!--FACEBOOK-->
 				<a href="https://facebook.com/ecobricks.org" target="_blank">
-				<img src="icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"></a>
+				<img src="../icons/facebook.svg" width="100%" height="100%" alt="Follow our Facebook page"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 	
 			<div class="footer-icons"><!--YOUTUBE-->
 				<a href="https://www.youtube.com/c/Ecobricks" target="_blank">
-				<img src="icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"></a>
+				<img src="../icons/youtube.svg" width="100%" height="100%" alt="Subscribe to our Ecobricks YouTube channel"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 	
 			<div class="footer-icons"><!--INSTAGRAM-->
 				<a href="https://www.instagram.com/ecobricks.plastic.transition/" target="_blank">
-				<img src="icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"></a>
+				<img src="../icons/instagram.svg" width="100%" height="100%" alt="Instagram: Ecobricks.Plastic.Transition"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
@@ -123,7 +123,7 @@
 								<br><br>
 						
 				
-				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="icons/cc-by-sa.svg" width="200px" height="45px"/></a>
+				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="../icons/cc-by-sa.svg" width="200px" height="45px"/></a>
 				<p><a href="#global">Gobrik global ecobricking data</a> is made available by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to "GoBrik.com/#global - Global Ecobrick Alliance" using the same license.</p>
 
 				<div class="footer-conclusion">	
