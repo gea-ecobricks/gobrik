@@ -536,5 +536,18 @@ margin-top: -100px;
     width: 100%;
   }
 
+
+  .sign-in-button {
+    background-color: rgba(252, 250, 250, 0.8);
+  width: 200px;
+  border-width: 4px;
+  padding: 19px;
+  border-radius: 10px;
+  font: Mulish, sans-serif;
+  font-size: 19px;
+margin-bottom: 30px;
+color: #494949;
+  }
+
   </style>
 </head>

@@ -48,9 +48,9 @@ AND UNIQUE to HTML Pages-->
 				<div class="dropdown-lang">
 				<button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
 				<div class="dropdown-content-language">
-				   <a href='javascript:Localize.setLanguage("en")'>🇬🇧&nbsp;ENG</a>
-					<a href='javascript:Localize.setLanguage("id")'>🇮🇩&nbsp;IND</a>
-					<a href='javascript:Localize.setLanguage("es")'>🇪🇸&nbsp;ESP</a>
+				   <a href='../en/'>🇬🇧&nbsp;ENG</a>
+					<a href='../id/'>🇮🇩&nbsp;IND</a>
+					<a href='../es/'>🇪🇸&nbsp;ESP</a>
 			
 					<a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>	
 				</div>
@@ -67,12 +67,6 @@ AND UNIQUE to HTML Pages-->
 </div>-->
 
 
-		
-	
-
-
-
-
 
 <div id="landing-content">
     
@@ -87,15 +81,11 @@ AND UNIQUE to HTML Pages-->
         </div>
         <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
         
-        <a href="go.php#home-login"  style="
-        background-color: rgba(252, 250, 250, 0.8);
-        width: 200px;
-        border-width: 4px;
-        padding: 19px;
-        border-radius: 10px;    
-        font: Mulish, sans-serif;"><span>Sign in</span></a><br>
-         <h4>No account? Join GoBrik free and fast!</h4><br>
-        <a href="go.php#signup" class="kn-button is-primary" style="width: 200px; box-shadow: 0px 0px 8px white;"><span>Sign up</span></a>
+        <button type="button" aria-label="sign in" class="sign-in-button" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
+
+        <h4>No account? Join GoBrik free and fast!</h4><br>
+        
+        <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" style="width: 200px; box-shadow: 0px 0px 8px white;">Sign up</a>
 </div>
 <!--class="kn-link kn-link-1 kn-link-page kn-button"
         <div class="social-buttons-box">
