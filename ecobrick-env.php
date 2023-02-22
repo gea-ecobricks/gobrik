@@ -1,7 +1,7 @@
 
 <?php
 
-$servername = "localhost";
+$servername = "localhost:3306";
 $username = "ecobricks_brikchain_viewer";
 $password = "desperate-like-the-Dawn";
 $dbname = "ecobricks_gobrik_msql_db";
