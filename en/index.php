@@ -113,7 +113,7 @@ AND UNIQUE to HTML Pages-->
 
 <!-- FULL GALLERY-->
 
-<?php include '../ecobricks_env.php';?> 
+<?php include '../ecobrick_env.php';?> 
 
 
     <div class="gallery-background">
