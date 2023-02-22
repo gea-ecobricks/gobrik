@@ -34,7 +34,7 @@ AND UNIQUE to HTML Pages-->
 <?php include '../ecobrick_env.php';?> 
 
   
-<body id="full-page" style="position: relative;margin-top: -100px;">
+<body id="full-page">
 	<div id="loading-box">
 				
 
@@ -125,7 +125,7 @@ if (!$conn) {
             
         </div>
 
-    <div id="landing-content">
+    <div id="landing-content" style="position: relative;margin-top: -100px; z-index:10;">
 
     
     <!--<br><div class="top-graphic"><img src="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg" width="450px"></div>-->
@@ -174,9 +174,11 @@ if (!$conn) {
     
     </div>
 
-
+    <div style="z-index:5;">
     <!-- sets footer of page:  be sure to add page name-->
     <?php require_once ("footer.php");?>
+
+            </div>
 
 </div>
 </body>
