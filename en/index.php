@@ -115,7 +115,7 @@ AND UNIQUE to HTML Pages-->
 
 <?php include '../ecobricks_env.php';?> 
 
-<!--
+
 <div class="gallery-background">
 		
 				

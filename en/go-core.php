@@ -4,7 +4,7 @@
 				
 
 		<div id="header" class="top-menu">
-			<a href="/#home"><img src="svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a>
+			<a href="/#home"><img src="../svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a>
 
 		</div> 
 		<!--
