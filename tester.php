@@ -1,4 +1,24 @@
-<html><body><?php include 'ecobricks_env.php';?> 
+<html><body>
+
+tiniest
+
+
+<?php
+
+$servername = "localhost";
+$username = "ecobricks_brikchain_viewer";
+$password = "desperate-like-the-Dawn";
+$dbname = "ecobricks_gobrik_msql_db";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+?>
+
+test2
 
 			<div class="gallery10-content-block">
 								
@@ -25,6 +45,8 @@
 					?>
 							
 				</div>
+
+                test3
 		
 			</div>
 
