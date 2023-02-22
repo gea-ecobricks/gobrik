@@ -71,7 +71,7 @@ AND UNIQUE to HTML Pages-->
     
     <!--<br><div class="top-graphic"><img src="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg" width="450px"></div>-->
 
-    <br><br><div class="top-graphic"><img src="../svgs/dolphin-top-optimized.svg" width="500px"></div>
+    <br><br><div class="top-graphic"><img src="../svgs/dolphin-top-optimized.svg" width="100%"></div>
 
         <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
 
@@ -80,7 +80,7 @@ AND UNIQUE to HTML Pages-->
         </div>
         <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
         
-        <button type="button" aria-label="sign in" class="sign-in-button" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
+        <button type="button" aria-label="sign in" class=".kn-button.is-primary" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
 
         <h4>No account? Join GoBrik free and fast!</h4><br>
         
