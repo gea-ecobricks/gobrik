@@ -31,6 +31,7 @@ AND UNIQUE to HTML Pages-->
 <!-- sets page meta tags:  be sure to add page name-->
 <?php require_once ("header.php");?>
 
+<?php include '../ecobrick_env.php';?> 
 
   
 <body id="full-page">
@@ -55,7 +56,7 @@ AND UNIQUE to HTML Pages-->
 				</div>
 			</div> 
 		</div>
-	</div>
+		</div>
 
 <!--
 		<div class="offline-image"><img src="svgs/earth-service4.svg" width="100%" height="96%"></div>
@@ -68,6 +69,51 @@ AND UNIQUE to HTML Pages-->
 
 
 <div id="landing-content">
+
+
+<!-- FULL GALLERY-->
+
+    <div class="gallery-background">
+            
+        <div class="gallery-content-block">
+            
+            <div class="flex-container">
+
+                <?php
+
+                $sql = "SELECT * FROM vw_gallery_feed ;";
+                $result = $conn->query($sql);
+                if ($result->num_rows > 0) {
+                    array_reverse($result);
+                // output data of each row
+                while( $row= $result->fetch_assoc()) {
+
+                echo '
+                <div class="gal-photo">
+                    <div class="photo-box">
+                        <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>
+                    </div>';
+            
+                echo '
+                    <div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
+                    </div>
+                </div>';
+                }
+
+                } else {
+                echo "Failed to connect to the Brikchain database";
+                }
+
+                ?>
+
+            <div class="gal-photo" style="width: 200px; padding-top: 20px; margin-top: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
+                Latest authenticated ecobricks</p></div></div>
+                
+        
+            </div>
+            
+        </div>
+
     
     <!--<br><div class="top-graphic"><img src="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg" width="450px"></div>-->
 
@@ -110,66 +156,6 @@ AND UNIQUE to HTML Pages-->
         </div>
     </div>
 
-
-<!-- FULL GALLERY-->
-
-<?php
-
-$servername = "localhost";
-$username = "ecobricks_brikchain_viewer";
-$password = "desperate-like-the-Dawn";
-$dbname = "ecobricks_gobrik_msql_db";
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-?> 
-
-
-    <div class="gallery-background">
-		
-				
-        <div class="gallery-content-block">
-              
-            <div class="flex-container">
-    
-                <?php
-
-                $sql = "SELECT * FROM vw_gallery_feed ;";
-                $result = $conn->query($sql);
-                if ($result->num_rows > 0) {
-                    array_reverse($result);
-                // output data of each row
-                while( $row= $result->fetch_assoc()) {
-
-                echo '
-                <div class="gal-photo">
-                    <div class="photo-box">
-                        <a href="https://ecobricks.org/details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" loading="lazy"/></a>
-                    </div>';
-            
-                echo '
-                    <div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
-                    </div>
-                </div>';
-                }
-
-                } else {
-                echo "Failed to connect to the Brikchain database";
-                }
-
-                ?>
-
-               <div class="gal-photo" style="width: 200px; padding-top: 20px; margin-top: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-                Latest authenticated ecobricks</p></div></div>
-                
-        
-            </div>
-            
-        </div>
 
         
     
