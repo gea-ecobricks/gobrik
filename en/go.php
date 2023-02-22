@@ -55,7 +55,7 @@ AND UNIQUE to HTML Pages-->
 
 
 <!-- sets header and core of page:  be sure to add page name-->
-<?php require_once ("../core.php");?>
+<?php require_once ("go-core.php");?>
 
 <!-- sets footer of page:  be sure to add page name-->
 <?php require_once ("footer.php");?>
