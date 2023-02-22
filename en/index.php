@@ -162,9 +162,10 @@ AND UNIQUE to HTML Pages-->
     
     </div>
 
-    <?php include 'footer.php';?> 
 
+    <!-- sets footer of page:  be sure to add page name-->
+    <?php require_once ("footer.php");?>
 
-
-<!-- sets footer of page:  be sure to add page name-->
-<?php require_once ("footer.php");?>
+</div>
+</body>
+</html>
