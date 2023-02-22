@@ -80,11 +80,11 @@ AND UNIQUE to HTML Pages-->
         </div>
         <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
         
-        <button type="button" aria-label="sign in" class=".sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
+        <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
 
         <h4>No account? Join GoBrik free and fast!</h4><br>
         
-        <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class=" .sign-up-button">Sign up</a>
+        <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-up-button">Sign up</a>
 </div>
 <!--class="kn-link kn-link-1 kn-link-page kn-button"
         <div class="social-buttons-box">
@@ -115,7 +115,7 @@ AND UNIQUE to HTML Pages-->
 
 <?php include '../ecobricks_env.php';?> 
 
-
+<!--
 <div class="gallery-background">
 		
 				
@@ -164,7 +164,6 @@ AND UNIQUE to HTML Pages-->
         
             <h6><a href="/brikcoins">Brikcoins</a> | <a href="/aes">AES Plastic</a> | <a href="/gobrik">GoBrik Platform</a></h6>
         </div>
-
     
     </div>
 
