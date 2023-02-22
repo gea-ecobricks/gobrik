@@ -66,9 +66,20 @@ AND UNIQUE to HTML Pages-->
 	</div>
 </div>-->
 
+<?php
 
+$servername = "localhost";
+$username = "ecobricks_brikchain_viewer";
+$password = "desperate-like-the-Dawn";
+$dbname = "ecobricks_gobrik_msql_db";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 
-<div id="landing-content">
+?>
 
 
 <!-- FULL GALLERY-->
@@ -113,6 +124,8 @@ AND UNIQUE to HTML Pages-->
             </div>
             
         </div>
+
+    <div id="landing-content">
 
     
     <!--<br><div class="top-graphic"><img src="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg" width="450px"></div>-->
