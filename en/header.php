@@ -541,12 +541,12 @@ margin-top: -100px;
     background-color: rgba(252, 250, 250, 0.8);
   width: 200px;
   border-width: 4px;
-  padding: 19px;
   border-radius: 10px;
   font-family: 'Mulish', sans-serif;
-  font-size: 19px;
-margin-bottom: 30px;
+  font-size: 22px;
+  padding: 12px 22px 12px 22px;
 color: #494949;
+border-style: solid;
   }
 
   .sign-innn {
@@ -563,12 +563,13 @@ color: #494949;
   -moz-border-radius: 8;
   border-radius: 8px !important;
   color: #ffffff;
-  font-size: 19px !important;
-  padding: 8px 18px 34px 18px !important;
+  font-size: 22px !important;
+  padding: 12px 22px 12px 22px !important;
   text-decoration: none !important;
   margin-top: 0px;
   margin-bottom: 0px;
 	font-weight: 700;
+  border: none;
 }
 
 
