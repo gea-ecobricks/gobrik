@@ -34,7 +34,7 @@ AND UNIQUE to HTML Pages-->
 <?php include '../ecobrick_env.php';?> 
 
   
-<body id="full-page">
+<body id="full-page" style="position: relative;margin-top: -100px;">
 	<div id="loading-box">
 				
 
@@ -117,8 +117,8 @@ if (!$conn) {
 
                 ?>
 
-            <div class="gal-photo" style="width: 200px; padding-top: 20px; margin-top: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-                Latest authenticated ecobricks</p></div></div>
+            <!--<div class="gal-photo" style="width: 200px; padding-top: 20px; margin-top: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
+                Latest authenticated ecobricks</p></div></div>-->
                 
         
             </div>
