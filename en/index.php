@@ -87,7 +87,10 @@ margin: auto;
 			}
     }
 
-#header {transition: 0.4s;}
+#header {transition: 0.4s;
+display: flex;
+justify-content: center;
+height: 15vh;}
     @media screen and (min-width: 701px) {
 #header {  
 	padding-top: 18px;
