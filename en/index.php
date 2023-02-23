@@ -218,12 +218,14 @@ if (!$conn) {
                 ?>
 
             <!--<div class="gal-photo" style="width: 200px; padding-top: 20px; margin-top: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-                Latest authenticated ecobricks</p></div></div>-->
+                Latest authenticated ecobricks</p></div></div>-sdf-->
 
             </div>
         </div>
      </div>
  </div>
+
+ 
             
 <div class="clouds-new2">
     <div id="landing-content">
