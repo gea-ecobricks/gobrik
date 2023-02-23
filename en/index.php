@@ -125,11 +125,11 @@ if (!$conn) {
             
 
     <div id="landing-content" style="position: relative;margin-top: -100px; z-index:10;">
+     <div class="clouds-new">
 
     
     <!--<br><div class="top-graphic"><img src="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg" width="450px"></div>-->
-
-    <br><br><div class="top-graphic"><img src="../svgs/dolphin-top-optimized.svg" width="100%"></div>
+        <div class="top-graphic"><img src="../svgs/dolphin-top-optimized.svg" width="100%"></div>
 
         <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
 
