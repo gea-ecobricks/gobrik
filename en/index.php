@@ -535,12 +535,12 @@ function scrollFunction() {
    if ((mediaQuery.matches)  || (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30)) {
     
    
-    document.getElementById("the-gallery").style.marginTop = "0vh";
+    document.getElementById("the-gallery").style.height = "auto";
     
  
    } else {
      //BEFORE
-     document.getElementById("the-gallery").style.marginTop = "0pvh";
+     document.getElementById("the-gallery").style.height = "auto";
      
    
  
@@ -603,7 +603,7 @@ if (!$conn) {
 ?>
 
 <!-- FULL GALLERY-->
-    <div id="the-gallery" style="height:50vh;margin-top:-50vh;transition:0.5s;width:100%;">
+    <div id="the-gallery" style="height:0;transition:0.5s;width:100%;background-color:#30ffff">
     <div class="gallery-header">
         <div class="gallery-live-text"><span class="blink">⬤ </span>50 latest authenticated ecobricks</div>
     </div>
