@@ -612,7 +612,7 @@ if (!$conn) {
         
             <div>
                 <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in">
-                <i style="background-image: url(../svgs/bottle-icon.svg); width:32px; height:32px;display: inline-block;background-size: 22px;margin-bottom: -3px;margin-right: 5px;"></i>Sign in</button>
+                <i style="background-image: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size: 22px;margin-bottom: -3px;margin-right: 5px;"></i>Sign in</button>
             </div>
         
             <div>
