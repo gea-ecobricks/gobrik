@@ -609,11 +609,11 @@ if (!$conn) {
         
             <div>
                 <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in" style="cursor:pointer;">
-                <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:6px;"></i>Sign in</button>
+                <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:4px;"></i>Sign in</button>
             </div>
         
             <div>
-                <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp"><i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-right:6px;"></i>Sign up</a>
+                <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp" cursor:pointer;><i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-right:4px;"></i>Sign up</a>
             </div>
         </div>
         <h4>Use your GoBrik account to sign in.<br>
