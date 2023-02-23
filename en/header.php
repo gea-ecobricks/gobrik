@@ -643,7 +643,7 @@ border-style: solid;
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: #DFDFDF;
+  /*background-color: #DFDFDF;
   margin-top: 10px;
   /*flex-wrap: wrap-reverse;*/
 }
@@ -702,7 +702,7 @@ border-style: solid;
 @media screen and (max-width: 700px) { 
 
 	.flex-container > .gal-photo {
-		background-color: #DFDFDF;
+		/*background-color: #DFDFDF;*/
 		margin: 0px;
 		padding: 2px;
 		height: 81px;
@@ -815,7 +815,7 @@ margin-bottom: 25px;}
 		padding-bottom: 15px;*/
 	}
 
-}
+
 
 /*
 @media screen and (min-width: 700px) { 
