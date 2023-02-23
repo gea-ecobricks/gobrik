@@ -83,7 +83,7 @@ if (!$conn) {
 
 <!-- FULL GALLERY-->
 
-   <!-- <div class="gallery-background">-->
+   <div class="gallery-background">
             
         <div class="gallery-content-block">
             
@@ -120,6 +120,7 @@ if (!$conn) {
                 Latest authenticated ecobricks</p></div></div>-->
                 
         
+            </div>
             </div>
             
 
