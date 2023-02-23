@@ -89,15 +89,13 @@ margin: auto;
 
 #header {
     transition: 0.4s;
-display: flex;
-justify-content: center;
-height: 90vh;
-z-index: 20;
+    display: flex;
+    justify-content: center;
+    z-index: 20;
 	position: relative;
 	background: white;
 	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
     width: 100%;
-
 
 }
     @media screen and (min-width: 701px) {
@@ -360,8 +358,6 @@ width: 60px;
    }
 }
 
-
-
   .sign-innn {
   font-family: 'mulish', sans-serif !important;
   display: block;
@@ -531,6 +527,8 @@ transition: 0.3s;}
 
 </style>
 
+
+<!--
 <script>
 
 window.onscroll = function() {scrollFunction()};
@@ -558,7 +556,7 @@ function scrollFunction() {
    }
  }
 
- </script>
+ </script>-->
 
 
 <?php require_once ("header.php");?>
@@ -589,8 +587,9 @@ function scrollFunction() {
 		    </div>
 		</div>
        
-				<div class="dropdown-lang">
-                    <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
+		<div id="setting-button">
+            <button type="button" class="settings-"><img src="../svgs/settings-icon.svg" height="30px">
+        </button>
                    
 		        </div>
     </div> 
