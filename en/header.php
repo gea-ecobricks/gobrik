@@ -348,7 +348,7 @@ background: none;
         width: 500px;
         max-width: 87%;
   
-        /*
+  
         -webkit-animation-delay: 1.0s !important;
         opacity:0;
         -webkit-animation:fadeIn ease-in 0.25s;
@@ -359,7 +359,7 @@ background: none;
         animation: fadeIn ease-in 0.25s;
         animation-duration: 0.25s;
         animation-fill-mode: forwards;
-  */
+
     }
 
 
@@ -787,7 +787,9 @@ margin-bottom: 25px;}
     text-align: center;
     width: 100%;
     max-width: 100%;
-
+    background-color:#35d8da;
+    margin-top: -20px;
+    min-height: 60vh;
   	overflow-x: hidden;
 
 }
@@ -849,155 +851,6 @@ margin-bottom: 25px;}
 
 
 
-@media screen and (max-width: 700px) { 
-	.gallery10-content-block {
-		text-align: center;
-		z-index: 5;
-		position: relative;   
-        background-color: #0ff;
-		display: flex;
- 		box-sizing: border-box;
-		flex-direction: row;
-		width: 110%;
-  		margin-right: -5%;
-  		margin-left: -5%;
-		margin-top: 0px;
-        padding-top: 5px;
-        overflow: auto;
-        white-space: nowrap;
-     
-	}
-
-}
-
-
-@media screen and (min-width: 700px) { 
-	.gallery10-content-block {		
-		text-align: center;
-		/*min-height: 67vh;
-        flex-wrap: wrap;*/
-		z-index: 5;
-		position: relative;   
-        background-color: #0ff /*#dfdfdf*/;
-		display: flex;
- 		box-sizing: border-box;
-		flex-direction: row;
-		width: 120%;
-  		margin-right: -5%;
-  		margin-left: -5%;
-		margin-top: 0px;
-        margin-top: 70px;
-        padding-top: 20px;
-        padding-bottom: 15px;
-		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-		margin-bottom: 40px;
-		padding-bottom: 15px;*/
-        overflow: auto;
-        white-space: nowrap;
-     
-
-	}
-} 
-
-.flex-container10 {
-  display: flex;
-  /*flex-wrap: wrap;
-    overflow-x: scroll;*/
-  /*background-color: #0ff #dfdfdf;*/
-  margin-top: -10px;
-  margin-bottom: 0px;
-}
-
-
-@media screen and (min-width: 700px) { 
-
-.flex-container10 > .gal-photo10 {
-    background-color: #0ff /*#dfdfdf*/;;
-    margin: 0px;
-    padding: 2px;
-   /* max-height: 520px;
-    overflow: hidden;*/
-    text-align: center;
-    margin-top: -35px;
-}
-
-/*
-.photo-box10 {
-    max-height: 520px;
-    overflow: hidden;
-    
-}*/
-
-.gal-photo10 img {
-
-    height: 520px;
-    max-height: 520px;
-
-    
-}
-}
-
-
-
-.gal10-photo-text {
-    background-color: #8DF9F9 /*#DFDFDF*/;
-    margin: 0px;
-    text-align: left;
-    padding: 3px;
-    overflow: hidden;    
-    font-size: 0.8em;
-    font-family: Mulish;
-    width: 235px;
-    color: #504f4f;
-    border-radius: 0px 0px 10px 10px;
-padding: 15px;
-width: 80%;
-margin-top: -10px;
-margin-right: auto;
-margin-left: 0px;
-}
-
-
-
-@media screen and (max-width: 700px) { 
-
-.flex-container10 > .gal-photo10 {
-    background-color: #0ff #dfdfdf;
-    margin: 0px;
-    padding: 4px;
-    /*overflow: hidden;*/
-
-}
-
-/*
-.photo-box10 {
-    max-height: 225px;
-    overflow: hidden;
-    
-}*/
-
-.gal-photo10 img {
-    max-width: 235px;
-    max-height: 365px;
-    display: block;
-}
-}
-
-/*
-.gal-photo-text {
-    background-color: #DFDFDF;
-    margin: 2px;
-    text-align: center;
-    padding: 8px;
-    width: 205px;
-    max-width:205px;
-    overflow: hidden;
-        margin-bottom: 0px;
-}*/
-
-.gal-photo10 p {
-    font-size: 0.9em;
-}
 
 .clouds-new  {
     background: url(https://www.ecobricks.org/webp/mountain-top2.webp?v4) no-repeat center bottom;
