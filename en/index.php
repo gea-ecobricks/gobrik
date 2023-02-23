@@ -261,18 +261,18 @@ width: fit-content;
 
 @media screen and (min-width: 769px) {
   .clouds-new2  {
-    background-image: linear-gradient(grey, #30FFFF);
-    background: url(../svgs/top-clouds-desktop-animate-to-static2.svg) center top repeat-x ;
+    background-image: linear-gradient(#30ffff, #FFFF);
+  /*  background: url(../svgs/top-clouds-desktop-animate-to-static2.svg) center top repeat-x ;
     		box-sizing: border-box;
-		background-size: 100%;
+		background-size: 100%;*/
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .clouds-new2  {
-    background-image: linear-gradient(grey, #30FFFF);
-    background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
+    background-image: linear-gradient(#30ffff, #FFFF);
+   /* background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
     	box-sizing: border-box;
-		background-size: 100%;
+		background-size: 100%;*/
 }
 }
 
