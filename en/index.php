@@ -51,7 +51,7 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;
 	background-color: #f7fdff;
-    overflow-y: hidden;
+    overflow-x: hidden;
 	/*General interface background slightly off-white to make the white buttons and boxes show up better*/
 }
 
@@ -302,7 +302,7 @@ if (!$conn) {
         
         <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
 
-        <h4>No account? Join GoBrik free and fast!</h4><br>
+        <h4>No account?</h4><br>
         
         <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-up-button">Sign up</a>
 </div>
