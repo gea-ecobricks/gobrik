@@ -593,8 +593,6 @@ function scrollFunction() {
                     <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
                    
 		        </div>
-
-        
     </div> 
 <!--
 		<div class="offline-image"><img src="svgs/earth-service4.svg" width="100%" height="96%"></div>
