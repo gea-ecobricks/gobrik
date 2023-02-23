@@ -117,22 +117,6 @@
 
 
 
-#loading-box {
-	width: 100%;
-	}	
-
-@media screen and (min-width: 1000px) {
-		#loading-box {
-			min-height: 80vh;
-
-	}
-}
-@media screen and (max-width: 999px) {
-	#loading-box   {
-		min-height: 51vh;
-        }
-}	
-
 
 .fa-bars  {
  	background: url(svgs/grey-emblem-button.svg) no-repeat center;
@@ -348,53 +332,6 @@ opacity: 50%;
  }
 }
 
-.tree-coins {
-        margin-top: -120px;
-        position: relative;
-        z-index: -1;
-        opacity:0;
-        
-        -webkit-animation-delay: 3s !important;
-        -webkit-animation:fadeIn ease-in 0.25s;
-        -webkit-animation-duration:0.25s;
-        -webkit-animation-fill-mode:forwards;
-    
-        animation-delay: 3s; 
-        animation: fadeIn ease-in 0.25s;
-        animation-duration: 0.25s;
-        animation-fill-mode: forwards;
-        
-        }
-    
-        
-    .tree-text {
-      /*font-size: 16px !important;
-      font-family: 'Mulish', sans-serif;*/
-      text-align: center !important;
-      line-height: 1.4 !important;
-      position: relative;
-      z-index: 5;
-      font-weight: 300;
-      margin: 5px 10px 3px 10px;
-      margin-bottom: -150px;
-      opacity:0;
-        
-      -webkit-animation-delay: 3s !important;
-      -webkit-animation:fadeIn ease-in 0.25s;
-      -webkit-animation-duration:0.25s;
-      -webkit-animation-fill-mode:forwards;
-    
-      animation-delay: 3s; 
-      animation: fadeIn ease-in 0.25s;
-      animation-duration: 0.25s;
-      animation-fill-mode: forwards;
-    }
-        
-        @media screen and (min-width: 770px) and (max-width: 2000px) { 
-            .tree-text { 
-                margin-bottom: -150px;
-            }
-        }
  @media screen and (min-width: 1000px) {
  #vision-clouds {
 	position: relative;
