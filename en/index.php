@@ -121,7 +121,8 @@ if (!$conn) {
                 
         
             </div>
-            </div>
+        </div>
+     </div>
             
 <div class="clouds-new">
     <div id="landing-content">
