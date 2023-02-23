@@ -31,6 +31,32 @@ AND UNIQUE to HTML Pages-->
 <style>
 
 
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+html {
+height: 100%;
+}
+
+
+body {
+	z-index: 0;
+	position: relative;
+	position: bottom;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #f7fdff;
+    overflow-y: hidden;
+	/*General interface background slightly off-white to make the white buttons and boxes show up better*/
+}
+
+
+
 @media screen and (min-width: 1200px) { 
 
 #landing-content { 
