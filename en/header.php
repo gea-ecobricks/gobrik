@@ -788,9 +788,11 @@ margin-bottom: 25px;}
     width: 100%;
     max-width: 100%;
     background-color:#35d8da;
-    margin-top: -20px;
+    margin-top: -10px;
     min-height: 60vh;
   	overflow-x: hidden;
+    position: relative;
+    z-index: 0;
 
 }
 
@@ -852,25 +854,19 @@ margin-bottom: 25px;}
 
 
 
-.clouds-new  {
-    background: url(https://www.ecobricks.org/webp/mountain-top2.webp?v4) no-repeat center bottom;
-    width:100%;
-    text-align:center;
+@media screen and (min-width: 769px) {
+  .clouds-new  {
+		background: url(../svgs/top-clouds-desktop-static.svg) center top repeat-x ;
+    		box-sizing: border-box;
+		background-size: 100%;
+	}
 }
-
-@media screen and (min-width: 770px) { 
-    .clouds-new  {
-        background-size:cover;
-        padding-bottom: 50px;
-
-    }
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .clouds-new  {
+		background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
+    	box-sizing: border-box;
+		background-size: 100%;
 }
-
-@media screen and (max-width: 770px) { 
-    .clouds-new  {
-        background-size:contain;
-        padding-bottom: 10px;
-    }
 }
 
 
