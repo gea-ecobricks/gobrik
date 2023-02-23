@@ -130,10 +130,16 @@ width: fit-content;
     font-size:0.75em;
     font-family:'Mulish';
     font-weight:300; 
-    animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite; 
+
     color:white;
     height:fit-content;
     padding-top: 10px;
+}
+
+@keyframes blink {
+ 50% {
+  opacity:0
+ }
 }
 
 .blink {
@@ -141,11 +147,6 @@ width: fit-content;
   color: #0a4;
 }
 
-@keyframes blinker {
- 50% {
-  opacity:0
- }
-}
 
 .gallery-background {
     text-align: center;
@@ -153,7 +154,7 @@ width: fit-content;
     max-width: 100%;
     background-color:#30FFFF;
     margin-top: -10px;
-   /* min-height: 60vh;*/
+    min-height: 60vh;
   	overflow-x: hidden;
     position: relative;
     z-index: 0;
@@ -352,29 +353,29 @@ width: fit-content;
 
   
 <body id="full-page">
-	<div id="loading-box">
+
 				
 
-		<div id="header" class="top-menu">
-			<div class="gobrik-logo"><a href="/go.php#home"><img src="../svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a></div>
-
-		
-		
+	<div id="header" class="top-menu">
+		<div class="gobrik-logo">
+            <a href="/go.php#home"><img src="../svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a>
+        </div>
 		<div id="lang-button">
 			<div class="topnav-lang" id="myTopnav-lang">
 				<div class="dropdown-lang">
-				<button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
+                    <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
                     <div class="dropdown-content-language">
-                    <a href='../en/'>🇬🇧&nbsp;ENG</a>
+                        <a href='../en/'>🇬🇧&nbsp;ENG</a>
                         <a href='../id/'>🇮🇩&nbsp;IND</a>
                         <a href='../es/'>🇪🇸&nbsp;ESP</a>
                 
-                        <a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>	
+                        <!--<a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>-->	
                     </div>
 			    </div> 
 		    </div>
 		</div>
-        </div> 
+    </div> 
+
 <!--
 		<div class="offline-image"><img src="svgs/earth-service4.svg" width="100%" height="96%"></div>
 		<div class="offline-header">Happy New Year!</div> 
