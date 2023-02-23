@@ -814,9 +814,7 @@ margin-bottom: 25px;}
   		margin-right: -5%;
   		margin-left: -5%;
 		overflow-x: hidden;
-		/*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-		margin-bottom: 40px;
-		padding-bottom: 15px;*/
+
 	}
 
 
@@ -855,14 +853,14 @@ margin-bottom: 25px;}
 
 
 @media screen and (min-width: 769px) {
-  .clouds-new  {
+  .clouds-new2  {
 		background: url(../svgs/top-clouds-desktop-static.svg) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 100%;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
-  .clouds-new  {
+  .clouds-new2  {
 		background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
     	box-sizing: border-box;
 		background-size: 100%;
