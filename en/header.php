@@ -473,40 +473,6 @@ color: #494949;
 border-style: solid;
   }
 
-  .sign-innn {
-  font-family: 'mulish', sans-serif !important;
-  display: block;
-  margin: auto;
-  background: #00a1f2;
-  background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px !important;
-  color: #ffffff;
-  font-size: 22px !important;
-  padding: 12px 22px 12px 22px !important;
-  text-decoration: none !important;
-  margin-top: 0px;
-  margin-bottom: 0px;
-	font-weight: 700;
-  border: none;
-}
-
-
-.sign-innn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-}
-
 
 
 

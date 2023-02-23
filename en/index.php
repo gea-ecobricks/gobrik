@@ -107,6 +107,11 @@ margin: auto;
     padding-top: 10px;
 }
 
+.blink {
+  animation: blinker 1.5s linear infinite;
+  color: #0a4;
+}
+
 
 .gallery-background {
     text-align: center;
@@ -179,6 +184,78 @@ margin: auto;
     }
 
 
+  .sign-innn {
+  font-family: 'mulish', sans-serif !important;
+  display: block;
+  margin: auto;
+  background: #00a1f2;
+  background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px !important;
+  color: #ffffff;
+  font-size: 22px !important;
+  padding: 12px 22px 12px 22px !important;
+  text-decoration: none !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+	font-weight: 700;
+  border: none;
+}
+
+
+.sign-innn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+
+.sign-uppp {
+  font-family: 'mulish', sans-serif !important;
+  display: block;
+  margin: auto;
+  background: #00a1f2;
+  background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px !important;
+  color: #ffffff;
+  font-size: 22px !important;
+  padding: 12px 22px 12px 22px !important;
+  text-decoration: none !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+	font-weight: 700;
+  border: none;
+}
+
+
+.sign-uppp:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+
 </style>
 
 
@@ -192,7 +269,7 @@ margin: auto;
 				
 
 		<div id="header" class="top-menu">
-			<a href="/go.php#home"><img src="../svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a>
+			<div class="gobrik-logo"><a href="/go.php#home"><img src="../svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a></div>
 
 		
 		
@@ -237,7 +314,7 @@ if (!$conn) {
 <!-- FULL GALLERY-->
 
     <div class="gallery-header">
-        <div class="gallery-live-text">⬤ Live Feed: Latest authenticated ecobricks</div>
+        <div class="gallery-live-text"><span class="blink">⬤ </span> Live Feed: Latest authenticated ecobricks</div>
     </div>
    
 
@@ -302,9 +379,9 @@ if (!$conn) {
         
         <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
 
-        <h4>No account?</h4><br>
+        <h4>No account?  No problem!</h4><br>
         
-        <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-up-button">Sign up</a>
+        <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp">Sign up</a>
 </div>
 <!--class="kn-link kn-link-1 kn-link-page kn-button"
         <div class="social-buttons-box">
