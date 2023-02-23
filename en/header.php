@@ -338,30 +338,6 @@ background: none;
 
 /* LANDING PAGE */
   
-  .top-graphic {
-      
-      margin: auto;
-      margin-top: -25px;
-        position: relative;
-        z-index: 0;
-        margin-bottom: -10px;
-        width: 500px;
-        max-width: 87%;
-  
-  
-        -webkit-animation-delay: 1.0s !important;
-        opacity:0;
-        -webkit-animation:fadeIn ease-in 0.25s;
-        -webkit-animation-duration:0.25s;
-        -webkit-animation-fill-mode:forwards;
-    
-        animation-delay: 1.0s; 
-        animation: fadeIn ease-in 0.25s;
-        animation-duration: 0.25s;
-        animation-fill-mode: forwards;
-
-    }
-
 
 .big-header {	
    
