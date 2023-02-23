@@ -231,37 +231,6 @@ opacity: 50%;
 
 
 	   
-.welcome-text {	
-   
-   font-size: 1.6em !important;
-   font-family: 'Mulish', sans-serif;
-   text-align: center !important;
-   margin-bottom: 35px;
-   
-   /*
-   -webkit-animation-delay: 2.2s !important;
-   opacity:0;
-   -webkit-animation:fadeIn ease-in 0.25s;
-   -webkit-animation-duration:0.25s;
-   -webkit-animation-fill-mode:forwards;
-
-   animation-delay: 2.2s; 
-   animation: fadeIn ease-in 0.25s;
-   animation-duration: 0.25s;
-   animation-fill-mode: forwards;*/
-	   }
-
-@media screen and (min-width: 770px) and (max-width: 2000px) { 
- .welcome-text {
-	   font-size: 1.8em !important;
- }
-}
-	 
-@media screen and (max-width: 769px) {
- .welcome-text {
-	 font-size: 1.2em !important;
- }
-}
 
  @media screen and (min-width: 1000px) {
  #vision-clouds {
