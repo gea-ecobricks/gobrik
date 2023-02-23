@@ -243,7 +243,7 @@ width: 60px;
 
 
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 701px) {
   .clouds-new2  {
     background-image: linear-gradient(#30ffff, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0));
   /*  background: url(../svgs/top-clouds-desktop-animate-to-static2.svg) center top repeat-x ;
@@ -251,7 +251,7 @@ width: 60px;
 		background-size: 100%;*/
 	}
 }
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 700px) {
   .clouds-new2  {
     background-image: linear-gradient(#30ffff, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0));
    /* background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
@@ -493,7 +493,6 @@ width: 60px;
       z-index: 5;
       font-weight: 300;
       margin:auto;
-      margin-bottom: -150px;
       opacity:0;
       
       
@@ -509,11 +508,13 @@ width: 60px;
       animation-fill-mode: forwards;
     }
         
-        @media screen and (min-width: 770px) and (max-width: 2000px) { 
-            .tree-text { 
-                margin-bottom: -150px;
-            }
-        }
+
+
+
+.aes-logos {width: 100%;
+height: 60px;
+margin: auto;
+text-align: center;}
 
 
 
@@ -659,7 +660,7 @@ if (!$conn) {
                 GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
             </div>
 
-            <div>
+            <div class="aes-logos">
             <img src="../svgs/aes-brk.svg" style="width: 200px;">
             </div>
            <!-- <h6>Learn some more about<br><a href="#ecobricks">Ecobricks</a>, <a href="#gea">the GEA</a>, <a href="#brikcoins">Brikcoins</a> and <a href="#aes">AES Plastic Offsets</a></h6>-->
