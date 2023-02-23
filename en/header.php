@@ -789,7 +789,7 @@ margin-bottom: 25px;}
     max-width: 100%;
     background-color:#30FFFF;
     margin-top: -10px;
-    min-height: 60vh;
+   /* min-height: 60vh;*/
   	overflow-x: hidden;
     position: relative;
     z-index: 0;
@@ -810,8 +810,8 @@ margin-bottom: 25px;}
  		flex-wrap: wrap;
  		box-sizing: border-box;
 		flex-direction: row;
-		width: 110%;
-  		margin-right: -5%;
+		width: 115%;
+  		margin-right: -10%;
   		margin-left: -5%;
 		overflow-x: hidden;
 
@@ -854,7 +854,7 @@ margin-bottom: 25px;}
 
 @media screen and (min-width: 769px) {
   .clouds-new2  {
-		background: url(../svgs/top-clouds-desktop-static.svg) center top repeat-x ;
+		background: url(../svgs/top-clouds-desktop-animate-to-static) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 100%;
 	}
