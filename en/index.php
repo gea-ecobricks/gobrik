@@ -93,7 +93,7 @@ display: flex;
 justify-content: center;
 height: 15vh;
 z-index: 20;
-	position: fixed;
+	position: relative;
 	background: white;
 	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
     width: 100%;
@@ -525,7 +525,9 @@ text-align: center;
 margin-top: 26px;
 }
 
-
+#lang-button {position: relative;
+opacity:0;
+transition: 0.3s;}
 
 </style>
 
@@ -542,14 +544,15 @@ function scrollFunction() {
    if ((mediaQuery.matches)  || (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30)) {
     
    
-    document.getElementById("header").style.height = "10vh";
-    //document.getElementById("landing-content").style.margintop = "-75px";
+    document.getElementById("header").style.height = "50px";
+    document.getElementById("lang-button").style.opacity = "1";
+    document.getElementById("header").style.position = "fixed";
     
  
    } else {
      //BEFORE
-     document.getElementById("header").style.height = "15vh";
-     //document.getElementById("landing-content").style.margintop = "-75px";
+     document.getElementById("header").style.height = "200px";
+     document.getElementById("header").style.position = "relative";
      
  
    }
@@ -586,7 +589,8 @@ function scrollFunction() {
 		    </div>
 		</div>
 
-        <div class="topnav-lang" id="myTopnav-lang">
+        <div id="lang-button">
+			<div class="topnav-lang" id="myTopnav-lang">
 				<div class="dropdown-lang">
                     <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
                     <div class="dropdown-content-language">
@@ -599,6 +603,8 @@ function scrollFunction() {
 			    </div> 
 		    </div>
 		</div>
+
+        
     </div> 
 
 <!--
