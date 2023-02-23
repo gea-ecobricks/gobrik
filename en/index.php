@@ -377,16 +377,16 @@ width: 60px;
   margin-bottom: 0px;
 	font-weight: 700;
   border: none;
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 
 .sign-innn:hover {
   background: #5b5bf6;
-  background-image: -webkit-linear-gradient(top, #5b5bf6, #5454ff);
-  background-image: -moz-linear-gradient(top, #5b5bf6, #5454ff);
-  background-image: -ms-linear-gradient(top, #5b5bf6, #5454ff);
-  background-image: -o-linear-gradient(top, #5b5bf6, #5454ff);
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #5b5bf6, #5454ff);
   text-decoration: none;
 }
@@ -415,17 +415,17 @@ width: 60px;
   margin-bottom: 0px;
 	font-weight: 700;
   border: none;
-  margin-left: 5px;
+  margin-left: 3px;
 }
 
 
 .sign-uppp:hover {
   background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background-image: -webkit-linear-gradient(top, #5b5bf6, #5454ff);
+  background-image: -moz-linear-gradient(top, #5b5bf6, #5454ff);
+  background-image: -ms-linear-gradient(top, #5b5bf6, #5454ff);
+  background-image: -o-linear-gradient(top, #5b5bf6, #5454ff);
+  background-image: linear-gradient(to bottom, #5b5bf6, #5454ff);
   text-decoration: none;
 }
 
@@ -613,7 +613,7 @@ if (!$conn) {
             </div>
         
             <div>
-                <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp"><i style="background-image: url(../svgs/bottle-icon.svg); width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-right:6px;"></i>Sign up</a>
+                <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp"><i style="background-image: url(../svgs/strike-icon.svg); width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-right:6px;"></i>Sign up</a>
             </div>
         </div>
         <h4>Use your GoBrik account to sign in.<br>
