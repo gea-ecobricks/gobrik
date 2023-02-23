@@ -136,16 +136,17 @@ width: fit-content;
     padding-top: 10px;
 }
 
-@keyframes blink {
- 50% {
-  opacity:0
- }
-}
-
 .blink {
-  animation: blinker 1.5s linear infinite;
-  color: #0a4;
-}
+          animation: blinker 1.5s linear infinite;
+          color: #00AA44;
+          
+      }
+      @keyframes blinker {
+          50% {
+              opacity: 0;
+      
+          }
+      }
 
 
 .gallery-background {
@@ -241,6 +242,7 @@ width: fit-content;
   margin-bottom: 0px;
 	font-weight: 700;
   border: none;
+  margin-right: 5px;
 }
 
 
@@ -278,6 +280,7 @@ width: fit-content;
   margin-bottom: 0px;
 	font-weight: 700;
   border: none;
+  margin-left: 5px;
 }
 
 
@@ -404,7 +407,7 @@ if (!$conn) {
 <!-- FULL GALLERY-->
 
     <div class="gallery-header">
-        <div class="gallery-live-text"><span class="blink">⬤ </span> Live Feed: Latest authenticated ecobricks</div>
+        <div class="gallery-live-text"><span class="blink">⬤ </span>50 latest authenticated ecobricks</div>
     </div>
    
 
@@ -477,7 +480,7 @@ if (!$conn) {
                 <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp">Sign up</a>
             </div>
         </div>
-        <h4>No account?  No problem!</h4><br>
+        <h4>Use your GoBrik account to sign in. No account? Sign up for free.</h4><br>
 </div>
 <!--class="kn-link kn-link-1 kn-link-page kn-button"
         <div class="social-buttons-box">
