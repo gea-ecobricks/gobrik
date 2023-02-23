@@ -30,6 +30,39 @@ AND UNIQUE to HTML Pages-->
 
 <style>
 
+
+@media screen and (min-width: 1200px) { 
+
+#landing-content { 
+width: 70%;
+margin: auto;
+margin-bottom: 0px;
+background: none;
+    }
+  }
+  
+  
+  @media screen and (min-width: 700px) and (max-width: 1200px) { 
+
+  #landing-content { 
+	width: 80%;
+	margin: auto;
+	margin-bottom: 0px;
+	background: none;
+			}
+    }
+
+
+	@media screen and (max-width: 700px) { 
+#landing-content { 
+	background: none;
+max-width: 90%;
+margin: auto;
+			}
+    }
+
+
+
 .gallery-header {
     background-color:grey;
     height:40px;
@@ -100,7 +133,7 @@ AND UNIQUE to HTML Pages-->
 .top-graphic {
       
       margin: auto;
-      margin-top: -55px;
+      margin-top: -75px;
         position: relative;
         z-index: 0;
         margin-bottom: -10px;
