@@ -117,44 +117,6 @@
 
 
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-
-html {
-height: 100%;
-}
-
-
-body {
-	z-index: 0;
-	text-align: center;
-	position: relative;
-	position: bottom;
-	margin-top: 0px;
-	padding-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	background-color: #f7fdff;
-	/*General interface background slightly off-white to make the white buttons and boxes show up better*/
-}
-
-@media screen and (min-width: 769px) {
-	body {
-		background: url(../svgs/top-clouds-desktop-static.svg) center top repeat-x ;
-    		box-sizing: border-box;
-		background-size: 100%;
-	}
-}
-@media screen and (min-width: 0px) and (max-width: 768px) {
-	body {
-		background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
-    	box-sizing: border-box;
-		background-size: 100%;
-}
-}
-
 #loading-box {
 	width: 100%;
 	}	
