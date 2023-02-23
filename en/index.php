@@ -230,9 +230,9 @@ width: fit-content;
   background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
   background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
   background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px !important;
+  -webkit-border-radius: 8px 0px 0px 8px;
+  -moz-border-radius: 8px 0px 0px 8px;
+  border-radius: 8px 0px 0px 8px;
   color: #ffffff;
   font-size: 22px !important;
   padding: 12px 22px 12px 22px !important;
@@ -245,12 +245,12 @@ width: fit-content;
 
 
 .sign-innn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background: #5b5bf6;
+  background-image: -webkit-linear-gradient(top, #5b5bf6, #5454ff);
+  background-image: -moz-linear-gradient(top, #5b5bf6, #5454ff);
+  background-image: -ms-linear-gradient(top, #5b5bf6, #5454ff);
+  background-image: -o-linear-gradient(top, #5b5bf6, #5454ff);
+  background-image: linear-gradient(to bottom, #5b5bf6, #5454ff);
   text-decoration: none;
 }
 
@@ -261,14 +261,15 @@ width: fit-content;
   display: block;
   margin: auto;
   background: #00a1f2;
-  background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px !important;
+  background-image: -webkit-linear-gradient(top, #4646cf, #3b3baf);
+  background-image: -moz-linear-gradient(top, #4646cf, #3b3baf);
+  background-image: -ms-linear-gradient(top, #4646cf, #3b3baf);
+  background-image: -o-linear-gradient(top, #4646cf, #3b3baf);
+  background-image: linear-gradient(to bottom, #4646cf, #3b3baf);
+  -webkit-border-radius: 0px 8px 8px 0px;
+  -moz-border-radius: 0px 8px 8px 0px;
+  border-radius: 0px 8px 8px 0px;
+  padding-right: 5px;
   color: #ffffff;
   font-size: 22px !important;
   padding: 12px 22px 12px 22px !important;
@@ -466,7 +467,7 @@ if (!$conn) {
         </div>
         <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
 
-        <div class="sign-buttons" style="display:flex;flex-flow:row;">
+        <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
         
             <div>
                 <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
