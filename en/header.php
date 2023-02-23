@@ -672,7 +672,7 @@ border-style: solid;
 		height: 100px;
 	}
 
-	/*
+	
 	.gal-photo-text {
 		background-color: #DFDFDF;
 		margin: 0px;
@@ -697,13 +697,13 @@ border-style: solid;
 		text-decoration: none;
 		animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
 
-}*/
+}
 
 @media screen and (max-width: 700px) { 
 
 	.flex-container > .gal-photo {
-		/*background-color: #DFDFDF;
-		margin: 0px;
+		/*background-color: #DFDFDF;*/
+	/*	margin: 0px;
 		padding: 2px;*/
 		height: 81px;
 		overflow: hidden;
@@ -716,8 +716,6 @@ border-style: solid;
 
 	}
 
-
-  /*
 	.photo-box-end {
 		max-height: 81px;
 		width: 60px;
@@ -781,7 +779,7 @@ margin-bottom: 25px;}
   font-weight: 300;
 
 }
-    }*/
+    }
 
 
 
