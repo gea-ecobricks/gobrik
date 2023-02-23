@@ -81,10 +81,9 @@ if (!$conn) {
 
 ?>
 
-
 <!-- FULL GALLERY-->
 
-    <div class="gallery-background">
+   <!-- <div class="gallery-background">-->
             
         <div class="gallery-content-block">
             
@@ -123,7 +122,6 @@ if (!$conn) {
         
             </div>
             
-        </div>
 
     <div id="landing-content" style="position: relative;margin-top: -100px; z-index:10;">
 
