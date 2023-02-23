@@ -28,7 +28,58 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" as="image" href="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg">
 
 
-<!-- sets page meta tags:  be sure to add page name-->
+<style>
+
+.gallery-background {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    background-color:#30FFFF;
+    margin-top: -10px;
+   /* min-height: 60vh;*/
+  	overflow-x: hidden;
+    position: relative;
+    z-index: 0;
+
+}
+
+
+	.gallery-content-block {
+		text-align: center;
+		/*min-height: 67vh;*/
+		z-index: 5;
+		position: relative;   
+     /*background-color: #DFDFDF;*/
+		display: flex;
+ 		flex-wrap: wrap;
+ 		box-sizing: border-box;
+		flex-direction: row;
+		width: 115%;
+  		margin-right: -10%;
+  		margin-left: -5%;
+		overflow-x: hidden;
+
+	}
+
+
+@media screen and (min-width: 769px) {
+  .clouds-new2  {
+		background: url(../svgs/top-clouds-desktop-animate-to-static2.svg) center top repeat-x ;
+    		box-sizing: border-box;
+		background-size: 100%;
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .clouds-new2  {
+		background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
+    	box-sizing: border-box;
+		background-size: 100%;
+}
+}
+
+</style>
+
+
 <?php require_once ("header.php");?>
 
 <?php include '../ecobrick_env.php';?> 
