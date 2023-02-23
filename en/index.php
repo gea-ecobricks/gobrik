@@ -583,12 +583,11 @@ function scrollFunction() {
                         <a href='../id/'>🇮🇩&nbsp;IND</a>
                         <a href='../es/'>🇪🇸&nbsp;ESP</a>
                 
-                        <!--<a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>-->	
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>
                     </div>
 			    </div> 
 		    </div>
 		</div>
-
        
 				<div class="dropdown-lang">
                     <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
@@ -597,7 +596,6 @@ function scrollFunction() {
 
         
     </div> 
-
 <!--
 		<div class="offline-image"><img src="svgs/earth-service4.svg" width="100%" height="96%"></div>
 		<div class="offline-header">Happy New Year!</div> 
