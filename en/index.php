@@ -109,8 +109,8 @@ margin: auto;
 
 @media screen and (max-width: 700px) {
 #header {  
-	padding-top: 14px;
-	padding-bottom: 11px;
+
+    height: 70px;
 }
 }
 
@@ -521,7 +521,7 @@ text-align: center;
 margin-top: 26px;
 }
 
-#lang-button {position: relative;
+#lang-button {position: relative !important;
 transition: 0.3s;}
 
 </style>
@@ -588,7 +588,14 @@ function scrollFunction() {
                 </div>
             </div>
        
-		    <div id="setting-button" style="position: relative;">
+		    <div id="setting-button" style="position: relative;
+top: 0;
+right: 0;
+z-index: 10;
+margin-right: 30px;
+margin-top: 18px;
+width: 20px;
+padding: 0;">
                 <button type="button" style="background: none;
 border: none;" class="settings-"><img src="../svgs/settings-icon.svg" height="30px">
                 </button>
