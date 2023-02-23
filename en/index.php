@@ -572,11 +572,14 @@ function scrollFunction() {
             <a href="/go.php#home"><img src="../svgs/gobrik-logo-static.svg?v1.1" width="165" height=""></a>
         </div>
 		
-        <div class="button-list" style="display:flex;">
+        <div class="button-list" style="display:flex;display: flex;
+position: fixed;
+right: 0;
+top: 0;">
             <div id="lang-button">
                 <div class="topnav-lang" id="myTopnav-lang">
                     <div class="dropdown-lang">
-                        <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
+                        <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="28px"></button>
                         <div class="dropdown-content-language">
                             <a href='../en/'>🇬🇧&nbsp;ENG</a>
                             <a href='../id/'>🇮🇩&nbsp;IND</a>
@@ -638,7 +641,7 @@ if (!$conn) {
 
 
    <div class="gallery-background">
-   <div class="grey-gradient" style="background-image: linear-gradient(grey, #30FFFF);height:100px;margin-bottom:-100px;"></div>
+   <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>
             
         <div class="gallery-content-block">
             
