@@ -652,7 +652,6 @@ border-style: solid;
 @media screen and (min-width: 700px) { 
 
 	.flex-container > .gal-photo {
-		background-color: #DFDFDF;
 		margin: 2px;
 		padding: 2px;
 		max-height: 100px;
@@ -707,6 +706,7 @@ border-style: solid;
 		padding: 2px;
 		height: 81px;
 		overflow: hidden;
+    width: 60px;
 	}
 
 	.gal-photo img {
