@@ -209,18 +209,18 @@ width: fit-content;
 
 	.gal-photo img {
 		max-height: 160px;
-		height: 100px;
+		height: 160px;
 	}
 
 	
-	.gal-photo-text {
+	/*.gal-photo-text {
 		background-color: #DFDFDF;
 		margin: 0px;
 		text-align: center;
 		padding: 2px;
 		overflow: hidden;
         font-size: 0.9em;
-	}
+	}*/
 
 }
 
@@ -242,19 +242,6 @@ width: fit-content;
 
 	}
 
-	.photo-box-end {
-		max-height: 81px;
-		width: 60px;
-	
-		overflow: hidden;
-		background: grey;
-		line-height: 75px;
-		color: #dfdfdf;
-		text-align: center;
-		font-size: 2em;
-		padding: 2px;
-		text-decoration: none;
-		animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
 	
 }
 
