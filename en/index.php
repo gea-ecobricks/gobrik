@@ -87,7 +87,8 @@ margin: auto;
 			}
     }
 
-#header {transition: 0.4s;
+#header {
+    transition: 0.4s;
 display: flex;
 justify-content: center;
 height: 15vh;
@@ -95,6 +96,7 @@ z-index: 20;
 	position: fixed;
 	background: white;
 	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
+    width: 100%;
 
 
 }
@@ -540,7 +542,7 @@ function scrollFunction() {
    if ((mediaQuery.matches)  || (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30)) {
     
    
-    document.getElementById("header").style.height = "auto";
+    document.getElementById("header").style.height = "10vh";
     //document.getElementById("landing-content").style.margintop = "-75px";
     
  
