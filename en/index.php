@@ -570,7 +570,7 @@ function scrollFunction() {
 
 	<div id="header" class="top-menu">
 		<div class="gobrik-logo">
-            <a href="/go.php#home"><img src="../svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a>
+            <a href="/go.php#home"><img src="../svgs/gobrik-logo-static.svg?v1.1" width="185" height=""></a>
         </div>
 		<div id="lang-button">
 			<div class="topnav-lang" id="myTopnav-lang">
