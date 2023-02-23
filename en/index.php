@@ -536,12 +536,12 @@ function scrollFunction() {
    if ((mediaQuery.matches)  || (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30)) {
     
    
-    document.getElementById("the-gallery").style.height = "60vh";
+    document.getElementById("the-gallery").style.height = "auto";
     
  
    } else {
      //BEFORE
-     document.getElementById("the-gallery").style.height = "60vh";
+     document.getElementById("the-gallery").style.height = "auto";
      
    
  
