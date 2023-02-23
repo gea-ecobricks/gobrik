@@ -123,9 +123,9 @@ if (!$conn) {
             </div>
             </div>
             
-
-    <div id="landing-content" style="position: relative;margin-top: -100px; z-index:10;">
-     <div class="clouds-new">
+<div class="clouds-new">
+    <div id="landing-content">
+     
 
     
     <!--<br><div class="top-graphic"><img src="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg" width="450px"></div>-->
@@ -167,6 +167,7 @@ if (!$conn) {
            <!-- <h6>Learn some more about<br><a href="#ecobricks">Ecobricks</a>, <a href="#gea">the GEA</a>, <a href="#brikcoins">Brikcoins</a> and <a href="#aes">AES Plastic Offsets</a></h6>-->
         </div>
     </div>
+            </div>
 
 
         
