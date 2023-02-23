@@ -154,11 +154,10 @@ width: fit-content;
     max-width: 100%;
     background-color:#30FFFF;
     margin-top: -10px;
-    min-height: 60vh;
+    min-height: fit-content;
   	overflow-x: hidden;
     position: relative;
     z-index: 0;
-
 }
 
 
@@ -182,14 +181,16 @@ width: fit-content;
 
 @media screen and (min-width: 769px) {
   .clouds-new2  {
-		background: url(../svgs/top-clouds-desktop-animate-to-static2.svg) center top repeat-x ;
+    background-image: linear-gradient(grey, #30FFFF);
+    background: url(../svgs/top-clouds-desktop-animate-to-static2.svg) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 100%;
 	}
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .clouds-new2  {
-		background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
+    background-image: linear-gradient(grey, #30FFFF);
+    background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
     	box-sizing: border-box;
 		background-size: 100%;
 }
@@ -464,12 +465,18 @@ if (!$conn) {
         Ecobricking is a great way to take personal responsibility for our plastic and transition from it to build our greenest visions.
         </div>
         <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
-        
-        <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
 
-        <h4>No account?  No problem!</h4><br>
+        <div class="sign-buttons" style="display:flex;flex-flow:row;">
         
-        <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp">Sign up</a>
+            <div>
+                <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
+            </div>
+        
+            <div>
+                <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp">Sign up</a>
+            </div>
+        </div>
+        <h4>No account?  No problem!</h4><br>
 </div>
 <!--class="kn-link kn-link-1 kn-link-page kn-button"
         <div class="social-buttons-box">
