@@ -90,15 +90,19 @@ margin: auto;
 #header {transition: 0.4s;
 display: flex;
 justify-content: center;
-height: 15vh;}
+height: 15vh;
+z-index: 20;
+	position: fixed;
+	background: white;
+	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
+
+
+}
     @media screen and (min-width: 701px) {
 #header {  
 	padding-top: 18px;
 	padding-bottom: 15px;
-	z-index: 3;
-	position: relative;
-	background: white;
-	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
+	
     
 }
 }
@@ -107,10 +111,6 @@ height: 15vh;}
 #header {  
 	padding-top: 14px;
 	padding-bottom: 11px;
-	z-index: 3;
-	position: relative;
-	background: white;
-	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
 }
 }
 
@@ -573,6 +573,20 @@ function scrollFunction() {
 			<div class="topnav-lang" id="myTopnav-lang">
 				<div class="dropdown-lang">
                     <button class="dropbtn-lang"><img src="../svgs/language-button.svg" height="30px"></button>
+                    <div class="dropdown-content-language">
+                        <a href='../en/'>🇬🇧&nbsp;ENG</a>
+                        <a href='../id/'>🇮🇩&nbsp;IND</a>
+                        <a href='../es/'>🇪🇸&nbsp;ESP</a>
+                
+                        <!--<a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>-->	
+                    </div>
+			    </div> 
+		    </div>
+		</div>
+
+        <div class="topnav-lang" id="myTopnav-lang">
+				<div class="dropdown-lang">
+                    <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
                     <div class="dropdown-content-language">
                         <a href='../en/'>🇬🇧&nbsp;ENG</a>
                         <a href='../id/'>🇮🇩&nbsp;IND</a>
