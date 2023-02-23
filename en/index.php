@@ -453,7 +453,7 @@ width: 60px;
 .welcome-text {	
    
    font-size: 1.6em !important;
-   font-family: 'Arvo', serif;
+   font-family: 'Mulish', sans-serif;
    text-align: center !important;
    margin-bottom: 35px;
    
@@ -614,64 +614,58 @@ if (!$conn) {
 
                 ?>
 
-            <!--<div class="gal-photo" style="width: 200px; padding-top: 20px; margin-top: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-                Latest authenticated ecobricks</p></div></div>-sdf-->
-
             </div>
-        </div>
-     </div>
- </div>
+        </div><!--closes gallery content block-->
+    </div><!--closes gallery background-->
 
  
             
-<div class="clouds-new2">
-    <div id="landing-content">
+    <div class="clouds-new2">
+        <div id="landing-content">
 
-    
-    <!--<br><div class="top-graphic"><img src="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg" width="450px"></div>-->
-        <div class="top-graphic"><img src="../svgs/dolphin-top-optimized.svg" width="100%"></div>
+            <div class="top-graphic"><img src="../svgs/dolphin-top-optimized.svg" width="100%"></div>
 
-        <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
+            <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
 
-        <div class="welcome-text">
-        Ecobricking is a great way to take personal responsibility for our plastic and transition from it to build our greenest visions.
-        </div>
-        <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
-
-        <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
-        
-            <div>
-                <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in" style="cursor:pointer;">
-                <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:4px;"></i>Sign in</button>
+            <div class="welcome-text">
+            Ecobricking is a great way to take personal responsibility for our plastic and transition from it to build our greenest visions.
             </div>
+            <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
+
+            <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
         
-            <div>
-                <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp" cursor:pointer;>Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
+                <div>
+                    <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in" style="cursor:pointer;">
+                    <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:4px;"></i>Sign in</button>
+                </div>
+        
+                <div>
+                    <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp" cursor:pointer;>Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
+                </div>
             </div>
-        </div>
-        <h4>Use your GoBrik account to sign in.<br>
-        No account? Sign up for free!</h4>
-</div>
+            
+            <h4>Use your GoBrik account to sign in.<br>
+            No account? Sign up for free!</h4>
+        
 
       
-        <div class="tree-coins"><img src="../images/mangotreebluesky400px.png" style="width: 400px;"></div>
+            <div class="tree-coins"><img src="../images/mangotreebluesky400px.png" style="width: 400px;"></div>
 
             <div class="welcome-text">
                 Together we're securing plastic out of the biosphere to make building blocks, brikcoins and green spaces.
             </div>
+
             <div class="tree-text">
                 GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
             </div>
+
+            <div>
             <img src="../svgs/aes-brk.svg" style="width: 200px;">
+            </div>
            <!-- <h6>Learn some more about<br><a href="#ecobricks">Ecobricks</a>, <a href="#gea">the GEA</a>, <a href="#brikcoins">Brikcoins</a> and <a href="#aes">AES Plastic Offsets</a></h6>-->
-        </div>
+        </div><!--closes Landing content-->
     </div>
-</div>
 
-
-        
-    
-    </div>
 
     <div style="z-index:5;">
     <!-- sets footer of page:  be sure to add page name-->
