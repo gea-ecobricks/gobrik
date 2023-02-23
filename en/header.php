@@ -787,7 +787,7 @@ margin-bottom: 25px;}
     text-align: center;
     width: 100%;
     max-width: 100%;
-    background-color:#35d8da;
+    background-color:grey;
     margin-top: -10px;
     min-height: 60vh;
   	overflow-x: hidden;
