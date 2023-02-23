@@ -653,8 +653,8 @@ border-style: solid;
 
 	.flex-container > .gal-photo {
 		background-color: #DFDFDF;
-		margin: 2px;
-		padding: 2px;
+		/*margin: 2px;
+		padding: 2px;*/
 		max-height: 100px;
 		overflow: hidden;
 		text-align: center;
@@ -672,7 +672,7 @@ border-style: solid;
 		height: 100px;
 	}
 
-	
+	/*
 	.gal-photo-text {
 		background-color: #DFDFDF;
 		margin: 0px;
@@ -697,14 +697,14 @@ border-style: solid;
 		text-decoration: none;
 		animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;}
 
-}
+}*/
 
 @media screen and (max-width: 700px) { 
 
 	.flex-container > .gal-photo {
-		/*background-color: #DFDFDF;*/
+		/*background-color: #DFDFDF;
 		margin: 0px;
-		padding: 2px;
+		padding: 2px;*/
 		height: 81px;
 		overflow: hidden;
 	}
@@ -716,6 +716,8 @@ border-style: solid;
 
 	}
 
+
+  /*
 	.photo-box-end {
 		max-height: 81px;
 		width: 60px;
@@ -779,7 +781,7 @@ margin-bottom: 25px;}
   font-weight: 300;
 
 }
-    }
+    }*/
 
 
 
@@ -787,7 +789,7 @@ margin-bottom: 25px;}
     text-align: center;
     width: 100%;
     max-width: 100%;
-    background-color:grey;
+    background-color:#1AE5E5;
     margin-top: -10px;
     min-height: 60vh;
   	overflow-x: hidden;
