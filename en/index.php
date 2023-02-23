@@ -264,7 +264,7 @@ width: 60px;
 .top-graphic {
       
       margin: auto;
-      margin-top: 0px;
+      margin-top: -75px;
         position: relative;
         z-index: 0;
         margin-bottom: -10px;
@@ -536,16 +536,15 @@ function scrollFunction() {
    if ((mediaQuery.matches)  || (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30)) {
     
    
-    document.getElementById("the-gallery").style.height = "auto";
-    document.getElementById("landing-content").style.margintop = "-75px";
+    document.getElementById("header").style.height = "10vh";
+    //document.getElementById("landing-content").style.margintop = "-75px";
     
  
    } else {
      //BEFORE
-     document.getElementById("the-gallery").style.height = "auto";
-     document.getElementById("landing-content").style.margintop = "-75px";
+     document.getElementById("header").style.height = "100vh";
+     //document.getElementById("landing-content").style.margintop = "-75px";
      
-   
  
    }
  }
@@ -569,7 +568,7 @@ function scrollFunction() {
 		<div id="lang-button">
 			<div class="topnav-lang" id="myTopnav-lang">
 				<div class="dropdown-lang">
-                    <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
+                    <button class="dropbtn-lang"><img src="../svgs/language-button.svg" height="30px"></button>
                     <div class="dropdown-content-language">
                         <a href='../en/'>🇬🇧&nbsp;ENG</a>
                         <a href='../id/'>🇮🇩&nbsp;IND</a>
@@ -605,9 +604,12 @@ if (!$conn) {
 
 ?>
 
-<!-- FULL GALLERY-->
-    <div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
-    <div class="gallery-header">
+<!-- FULL GALLERY
+
+<div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
+    -->
+    
+    <div class="gallery-header" >
         <div class="gallery-live-text"><span class="blink">⬤ </span>50 latest authenticated ecobricks</div>
     </div>
    
@@ -650,7 +652,7 @@ if (!$conn) {
             </div>
         </div><!--closes gallery content block-->
     </div><!--closes gallery background-->
-     </div>
+     
 
  
             
