@@ -511,14 +511,43 @@ width: 60px;
 
 
 
-.aes-logos {width: 100%;
+.aes-logos {
+    width: 100%;
 height: 60px;
 margin: auto;
-text-align: center;}
+text-align: center;
+margin-top: 26px;
+}
 
 
 
 </style>
+
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+//Scroll on arrival 
+function scrollFunction() {
+
+ 
+   //AFTER
+   if ((mediaQuery.matches)  || (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30)) {
+    
+   
+    document.getElementById("the-gallery").style.marginTop = "0vh";
+    
+ 
+   } else {
+     //BEFORE
+     document.getElementById("the-gallery").style.marginTop = "0pvh";
+     
+   
+ 
+   }
+ }
+
+ </script>
 
 
 <?php require_once ("header.php");?>
@@ -574,7 +603,7 @@ if (!$conn) {
 ?>
 
 <!-- FULL GALLERY-->
-
+    <div id="the-gallery" style="height:50vh;margin-top:-50vh;transition:0.5s;width:100%;">
     <div class="gallery-header">
         <div class="gallery-live-text"><span class="blink">⬤ </span>50 latest authenticated ecobricks</div>
     </div>
@@ -618,6 +647,7 @@ if (!$conn) {
             </div>
         </div><!--closes gallery content block-->
     </div><!--closes gallery background-->
+     </div>
 
  
             
@@ -641,7 +671,7 @@ if (!$conn) {
                 </div>
         
                 <div>
-                    <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp" cursor:pointer;>Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
+                    <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp" style="cursor:pointer;">Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
                 </div>
             </div>
             
