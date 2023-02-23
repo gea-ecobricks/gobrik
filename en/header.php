@@ -133,27 +133,6 @@
         }
 }	
 
-@media screen and (min-width: 1000px) {
-#header {  
-	padding-top: 18px;
-	padding-bottom: 15px;
-	z-index: 3;
-	position: relative;
-	background: white;
-	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
-}
-}
-
-@media screen and (max-width: 999px) {
-#header {  
-	padding-top: 14px;
-	padding-bottom: 11px;
-	z-index: 3;
-	position: relative;
-	background: white;
-	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
-}
-}
 
 .fa-bars  {
  	background: url(svgs/grey-emblem-button.svg) no-repeat center;
