@@ -189,64 +189,61 @@ width: fit-content;
   /*flex-wrap: wrap-reverse;*/
 }
 
+@media screen and (max-width: 700px) { 
 
-@media screen and (min-width: 700px) { 
+.flex-container > .gal-photo {
+    /*background-color: #DFDFDF;*/
+    margin: 0px;
+    padding: 2px;
+    height: 81px;
+    overflow: hidden;
+width: 60px;
+}
+
+.gal-photo img {
+    height: 81px;
+    display: block;
+    margin: auto;
+
+}
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1200px) { 
 
 	.flex-container > .gal-photo {
 		margin: 2px;
 		padding: 2px;
-		max-height: 160px;
+		max-height: 130px;
 		overflow: hidden;
 		text-align: center;
 	}
 
-/*	.photo-box {
-		max-height: 225px;
-		overflow: hidden;
-		background: grey;
-	}
-    */
-
 	.gal-photo img {
-		max-height: 160px;
-		height: 160px;
+		max-height: 130px;
+		height: 130px;
 	}
-
-	
-	/*.gal-photo-text {
-		background-color: #DFDFDF;
-		margin: 0px;
-		text-align: center;
-		padding: 2px;
-		overflow: hidden;
-        font-size: 0.9em;
-	}*/
-
 }
 
-@media screen and (max-width: 700px) { 
+@media screen and (min-width: 1201px)  { 
 
-	.flex-container > .gal-photo {
-		/*background-color: #DFDFDF;*/
-		margin: 0px;
-		padding: 2px;
-		height: 81px;
-		overflow: hidden;
-    width: 60px;
-	}
+.flex-container > .gal-photo {
+    margin: 2px;
+    padding: 2px;
+    max-height: 160px;
+    overflow: hidden;
+    text-align: center;
+}
 
-	.gal-photo img {
-		height: 81px;
-		display: block;
-		margin: auto;
-
-	}
-
-	
+.gal-photo img {
+    max-height: 160px;
+    height: 160px;
+}
 }
 
 
-@media screen and (min-width: 769px) {
+
+@media screen and (min-width: 1201px) {
   .clouds-new2  {
     background-image: linear-gradient(#30ffff, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0));
   /*  background: url(../svgs/top-clouds-desktop-animate-to-static2.svg) center top repeat-x ;
@@ -612,11 +609,11 @@ if (!$conn) {
         
             <div>
                 <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in" style="cursor:pointer;">
-                <i style="background-image: url(../svgs/bottle-icon.svg); width:20px; height:26px;display: inline-block;background-size: 26px;margin-bottom: -3px;margin-right: 5px;"></i>Sign in</button>
+                <i style="background-image: url(../svgs/bottle-icon.svg); width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-right:6px;"></i>Sign in</button>
             </div>
         
             <div>
-                <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp">Sign up</a>
+                <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp"><i style="background-image: url(../svgs/bottle-icon.svg); width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-right:6px;"></i>Sign up</a>
             </div>
         </div>
         <h4>Use your GoBrik account to sign in.<br>
