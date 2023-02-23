@@ -32,19 +32,20 @@ AND UNIQUE to HTML Pages-->
 
 .gallery-header {
     background-color:grey;
-    height:70px;
+    height:40px;
     width:100%;
     display:flex;
     justify-content:center;
 }
 
 .gallery-live-text {
-    font-size:0.9em;
+    font-size:0.75em;
     font-family:'Mulish';
     font-weight:300; 
     animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite; 
     color:white;
     height:fit-content;
+    padding-top: 10px;
 }
 
 
@@ -183,7 +184,7 @@ if (!$conn) {
 
 
    <div class="gallery-background">
-   <div class="grey-gradient" style="background-image: linear-gradient(grey, #30FFFF);height100px;margin-bottom:-100px;"></div>
+   <div class="grey-gradient" style="background-image: linear-gradient(grey, #30FFFF);height:100px;margin-bottom:-100px;"></div>
             
         <div class="gallery-content-block">
             
@@ -222,6 +223,7 @@ if (!$conn) {
             </div>
         </div>
      </div>
+ </div>
             
 <div class="clouds-new2">
     <div id="landing-content">
