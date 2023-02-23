@@ -158,6 +158,9 @@ if (!$conn) {
 
 <!-- FULL GALLERY-->
 
+    <div class="gallery-header" style="background-color:grey;height:50px;width:100%;text-align:center;color:#30FFFF;font-size:1em;font-family:'Mulish';font-weight:300;"><span class="blink">⬤ Live Feed:</span>
+                Latest authenticated ecobricks</p></div>
+
    <div class="gallery-background">
             
         <div class="gallery-content-block">
