@@ -264,7 +264,7 @@ width: 60px;
 .top-graphic {
       
       margin: auto;
-      margin-top: -75px;
+      margin-top: 0px;
         position: relative;
         z-index: 0;
         margin-bottom: -10px;
@@ -537,11 +537,13 @@ function scrollFunction() {
     
    
     document.getElementById("the-gallery").style.height = "auto";
+    document.getElementById("landing-content").style.margintop = "-75px";
     
  
    } else {
      //BEFORE
      document.getElementById("the-gallery").style.height = "auto";
+     document.getElementById("landing-content").style.margintop = "-75px";
      
    
  
