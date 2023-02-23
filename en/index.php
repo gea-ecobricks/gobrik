@@ -248,7 +248,7 @@ width: fit-content;
 
 @media screen and (min-width: 769px) {
   .clouds-new2  {
-    background-image: linear-gradient(#30ffff, #FFFF);
+    background-image: linear-gradient(#30ffff, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0));
   /*  background: url(../svgs/top-clouds-desktop-animate-to-static2.svg) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 100%;*/
@@ -611,30 +611,20 @@ if (!$conn) {
         <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
         
             <div>
-                <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in">Sign in</button>
+                <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in">
+                <i style="background-image: url(../svgs/bottle-icon.svg); width:32px; height:32px;display: inline-block;background-size: 22px;margin-bottom: -3px;margin-right: 5px;"></i>Sign in</button>
             </div>
         
             <div>
                 <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp">Sign up</a>
             </div>
         </div>
-        <h4>Use your GoBrik account to sign in. No account? Sign up for free.</h4><br>
+        <h4>Use your GoBrik account to sign in.</h4>
+        <h4>No account? Sign up for free!</h4>
 </div>
-<!--class="kn-link kn-link-1 kn-link-page kn-button"
-        <div class="social-buttons-box">
-               
-            <a href="#signup" class="social-button" id="new-account" onclick="topFunction()" > <span>Sign up to GoBrik</span></a>
-            <a href="#home-login/" class="social-button" id="gobrik-connect"  onclick="topFunction()"> <span> GoBrik Users Login</span></a>
-        
-               <a href="#home/auth/facebook" class="social-button" id="facebook-connect"  onclick="topFunction()"> <span>Login with Facebook</span></a>-->
 
-            <!--<a href="https://www.gobrik.com/#home/auth/google" class="social-button" id="google-connect"  onclick="topFunction()"> <span>Login with Google</span></a>
-
-              <img src="https://ecobricks.org/webp/world-ocean-day-2022-600px.webp" style="width: 400px;"></div>
-            <br><br>
-        </div>-->
       
-        <br><br><br><br><div class="tree-coins"><img src="../images/mangotreebluesky400px.png" style="width: 400px;"></div>
+        <div class="tree-coins"><img src="../images/mangotreebluesky400px.png" style="width: 400px;"></div>
 
         <div class="tree-text">
             <p>Together we're securing plastic out of the biosphere to make building blocks, brikcoins and green spaces.</p>
