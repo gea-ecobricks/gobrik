@@ -653,8 +653,8 @@ border-style: solid;
 
 	.flex-container > .gal-photo {
 		background-color: #DFDFDF;
-		/*margin: 2px;
-		padding: 2px;*/
+		margin: 2px;
+		padding: 2px;
 		max-height: 100px;
 		overflow: hidden;
 		text-align: center;
@@ -703,8 +703,8 @@ border-style: solid;
 
 	.flex-container > .gal-photo {
 		/*background-color: #DFDFDF;*/
-	/*	margin: 0px;
-		padding: 2px;*/
+		margin: 0px;
+		padding: 2px;
 		height: 81px;
 		overflow: hidden;
 	}
@@ -787,7 +787,7 @@ margin-bottom: 25px;}
     text-align: center;
     width: 100%;
     max-width: 100%;
-    background-color:#1AE5E5;
+    background-color:#30FFFF;
     margin-top: -10px;
     min-height: 60vh;
   	overflow-x: hidden;
