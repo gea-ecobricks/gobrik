@@ -522,7 +522,6 @@ margin-top: 26px;
 }
 
 #lang-button {position: relative;
-opacity:0;
 transition: 0.3s;}
 
 </style>
@@ -589,10 +588,9 @@ function scrollFunction() {
                 </div>
             </div>
        
-		    <div id="setting-button" style="position: relative;
-background: none;
-border: none;">
-                <button type="button" class="settings-"><img src="../svgs/settings-icon.svg" height="30px">
+		    <div id="setting-button" style="position: relative;">
+                <button type="button" style="background: none;
+border: none;" class="settings-"><img src="../svgs/settings-icon.svg" height="30px">
                 </button>
                    
 		    </div>
