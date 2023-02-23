@@ -91,7 +91,7 @@ margin: auto;
     transition: 0.4s;
 display: flex;
 justify-content: center;
-height: 15vh;
+height: 90vh;
 z-index: 20;
 	position: relative;
 	background: white;
@@ -551,7 +551,7 @@ function scrollFunction() {
  
    } else {
      //BEFORE
-     document.getElementById("header").style.height = "200px";
+     document.getElementById("header").style.height = "90vh";
      document.getElementById("header").style.position = "relative";
      
  
@@ -589,20 +589,11 @@ function scrollFunction() {
 		    </div>
 		</div>
 
-        <div id="lang-button">
-			<div class="topnav-lang" id="myTopnav-lang">
+       
 				<div class="dropdown-lang">
                     <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="30px"></button>
-                    <div class="dropdown-content-language">
-                        <a href='../en/'>🇬🇧&nbsp;ENG</a>
-                        <a href='../id/'>🇮🇩&nbsp;IND</a>
-                        <a href='../es/'>🇪🇸&nbsp;ESP</a>
-                
-                        <!--<a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>-->	
-                    </div>
-			    </div> 
-		    </div>
-		</div>
+                   
+		        </div>
 
         
     </div> 
@@ -711,7 +702,7 @@ if (!$conn) {
         
 
       
-            <div class="tree-coins"><img src="../images/mangotreebluesky400px.png" style="width: 400px;"></div>
+            <div class="tree-coins"><img src="../images/mangotreebluesky400px.png"></div>
 
             <div class="welcome-text">
                 Together we're securing plastic out of the biosphere to make building blocks, brikcoins and green spaces.
