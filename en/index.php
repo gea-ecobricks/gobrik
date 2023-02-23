@@ -67,7 +67,7 @@ AND UNIQUE to HTML Pages-->
 </div>-->
 
 <?php
-
+   
 $servername = "localhost";
 $username = "ecobricks_brikchain_viewer";
 $password = "desperate-like-the-Dawn";
