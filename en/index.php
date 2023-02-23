@@ -253,7 +253,7 @@ width: 60px;
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .clouds-new2  {
-    background-image: linear-gradient(#30ffff, #FFFF);
+    background-image: linear-gradient(#30ffff, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0));
    /* background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
     	box-sizing: border-box;
 		background-size: 100%;*/
@@ -431,7 +431,7 @@ width: 60px;
 
 
 .tree-coins {
-        margin-top: -120px;
+        margin-top: 0px;
         position: relative;
         z-index: -1;
         opacity:0;
@@ -448,6 +448,39 @@ width: 60px;
         animation-fill-mode: forwards;
         
         }
+
+
+.welcome-text {	
+   
+   font-size: 1.6em !important;
+   font-family: 'Arvo', serif;
+   text-align: center !important;
+   margin-bottom: 35px;
+   
+   
+   -webkit-animation-delay: 2.2s !important;
+   opacity:0;
+   -webkit-animation:fadeIn ease-in 0.25s;
+   -webkit-animation-duration:0.25s;
+   -webkit-animation-fill-mode:forwards;
+
+   animation-delay: 2.2s; 
+   animation: fadeIn ease-in 0.25s;
+   animation-duration: 0.25s;
+   animation-fill-mode: forwards;*/
+	   }
+
+@media screen and (min-width: 770px) and (max-width: 2000px) { 
+ .welcome-text {
+	   font-size: 1.8em !important;
+ }
+}
+	 
+@media screen and (max-width: 769px) {
+ .welcome-text {
+	 font-size: 1.2em !important;
+ }
+}
     
         
     .tree-text {
@@ -613,7 +646,7 @@ if (!$conn) {
             </div>
         
             <div>
-                <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp" cursor:pointer;><i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-right:4px;"></i>Sign up</a>
+                <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp" cursor:pointer;>Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
             </div>
         </div>
         <h4>Use your GoBrik account to sign in.<br>
@@ -623,14 +656,17 @@ if (!$conn) {
       
         <div class="tree-coins"><img src="../images/mangotreebluesky400px.png" style="width: 400px;"></div>
 
-        <div class="tree-text">
-            <p>Together we're securing plastic out of the biosphere to make building blocks, brikcoins and green spaces.</p>
-            <h6>GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.</h6><br>
-            <h4><img src="../svgs/aes-brk.svg" style="width: 200px;"></h4>
+            <div class="welcome-text">
+                Together we're securing plastic out of the biosphere to make building blocks, brikcoins and green spaces.
+            </div>
+            <div class="tree-text">
+                GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
+            </div>
+            <img src="../svgs/aes-brk.svg" style="width: 200px;">
            <!-- <h6>Learn some more about<br><a href="#ecobricks">Ecobricks</a>, <a href="#gea">the GEA</a>, <a href="#brikcoins">Brikcoins</a> and <a href="#aes">AES Plastic Offsets</a></h6>-->
         </div>
     </div>
-            </div>
+</div>
 
 
         
