@@ -88,6 +88,35 @@ margin: auto;
     }
 
 
+    @media screen and (min-width: 701px) {
+#header {  
+	padding-top: 18px;
+	padding-bottom: 15px;
+	z-index: 3;
+	position: relative;
+	background: white;
+	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
+}
+}
+
+@media screen and (max-width: 700px) {
+#header {  
+	padding-top: 14px;
+	padding-bottom: 11px;
+	z-index: 3;
+	position: relative;
+	background: white;
+	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
+}
+}
+
+
+.gobrik-logo {
+    margin: auto;
+position: relative;
+width: fit-content;
+}
+
 
 .gallery-header {
     background-color:grey;
