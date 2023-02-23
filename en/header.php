@@ -802,7 +802,7 @@ margin-bottom: 25px;}
 
 	.gallery-content-block {
 		text-align: center;
-		min-height: 67vh;
+		/*min-height: 67vh;*/
 		z-index: 5;
 		position: relative;   
      /*background-color: #DFDFDF;*/
@@ -854,7 +854,7 @@ margin-bottom: 25px;}
 
 @media screen and (min-width: 769px) {
   .clouds-new2  {
-		background: url(../svgs/top-clouds-desktop-animate-to-static) center top repeat-x ;
+		background: url(../svgs/top-clouds-desktop-animate-to-static.svg) center top repeat-x ;
     		box-sizing: border-box;
 		background-size: 100%;
 	}
