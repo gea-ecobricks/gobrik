@@ -655,7 +655,7 @@ border-style: solid;
 		background-color: #DFDFDF;
 		margin: 2px;
 		padding: 2px;
-		max-height: 190px;
+		max-height: 100px;
 		overflow: hidden;
 		text-align: center;
 	}
@@ -668,8 +668,8 @@ border-style: solid;
     */
 
 	.gal-photo img {
-		max-height: 190px;
-		height: 190px;
+		max-height: 100px;
+		height: 100px;
 	}
 
 	
