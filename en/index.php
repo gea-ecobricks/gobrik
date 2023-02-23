@@ -30,6 +30,24 @@ AND UNIQUE to HTML Pages-->
 
 <style>
 
+.gallery-header {
+    background-color:grey;
+    height:70px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.gallery-live-text {
+    font-size:0.9em;
+    font-family:'Mulish';
+    font-weight:300; 
+    animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite; 
+    color:white;
+    height:fit-content;
+}
+
+
 .gallery-background {
     text-align: center;
     width: 100%;
@@ -158,14 +176,14 @@ if (!$conn) {
 
 <!-- FULL GALLERY-->
 
-    <div class="gallery-header" style="background-color:grey;height:50px;width:100%;text-align:center;font-size:0.9em;font-family:'Mulish';font-weight:300; animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite; color:white;display:flex;justify-content:center;">
-        <div class="blink">⬤ Live Feed: Latest authenticated ecobricks</div>
+    <div class="gallery-header">
+        <div class="gallery-live-text">⬤ Live Feed: Latest authenticated ecobricks</div>
     </div>
    
 
 
    <div class="gallery-background">
-   <div class="grey-gradient" style="background-image: linear-gradient(grey, #30FFFF);height:50px;margin-bottom:-50px;"></div>
+   <div class="grey-gradient" style="background-image: linear-gradient(grey, #30FFFF);height100px;margin-bottom:-100px;"></div>
             
         <div class="gallery-content-block">
             
