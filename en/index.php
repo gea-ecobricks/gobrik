@@ -141,6 +141,11 @@ width: fit-content;
   color: #0a4;
 }
 
+@keyframes blinker {
+ 50% {
+  opacity:0
+ }
+}
 
 .gallery-background {
     text-align: center;
@@ -282,6 +287,59 @@ width: fit-content;
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+
+
+.tree-coins {
+        margin-top: -120px;
+        position: relative;
+        z-index: -1;
+        opacity:0;
+        text-align: center;
+        
+        -webkit-animation-delay: 3s !important;
+        -webkit-animation:fadeIn ease-in 0.25s;
+        -webkit-animation-duration:0.25s;
+        -webkit-animation-fill-mode:forwards;
+    
+        animation-delay: 3s; 
+        animation: fadeIn ease-in 0.25s;
+        animation-duration: 0.25s;
+        animation-fill-mode: forwards;
+        
+        }
+    
+        
+    .tree-text {
+      font-size: 16px ;
+      font-family: 'Mulish', sans-serif;
+      width: 80%;
+      text-align: center;
+      line-height: 1.4;
+      position: relative;
+      z-index: 5;
+      font-weight: 300;
+      margin:auto;
+      margin-bottom: -150px;
+      opacity:0;
+      
+      
+        
+      -webkit-animation-delay: 3s !important;
+      -webkit-animation:fadeIn ease-in 0.25s;
+      -webkit-animation-duration:0.25s;
+      -webkit-animation-fill-mode:forwards;
+    
+      animation-delay: 3s; 
+      animation: fadeIn ease-in 0.25s;
+      animation-duration: 0.25s;
+      animation-fill-mode: forwards;
+    }
+        
+        @media screen and (min-width: 770px) and (max-width: 2000px) { 
+            .tree-text { 
+                margin-bottom: -150px;
+            }
+        }
 
 
 
