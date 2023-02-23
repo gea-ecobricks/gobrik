@@ -87,7 +87,7 @@ margin: auto;
 			}
     }
 
-
+#header {transition: 0.4s;}
     @media screen and (min-width: 701px) {
 #header {  
 	padding-top: 18px;
@@ -96,6 +96,7 @@ margin: auto;
 	position: relative;
 	background: white;
 	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
+    
 }
 }
 
@@ -536,13 +537,13 @@ function scrollFunction() {
    if ((mediaQuery.matches)  || (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30)) {
     
    
-    document.getElementById("header").style.height = "10vh";
+    document.getElementById("header").style.height = "auto";
     //document.getElementById("landing-content").style.margintop = "-75px";
     
  
    } else {
      //BEFORE
-     document.getElementById("header").style.height = "100vh";
+     document.getElementById("header").style.height = "15vh";
      //document.getElementById("landing-content").style.margintop = "-75px";
      
  
