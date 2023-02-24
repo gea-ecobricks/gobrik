@@ -119,7 +119,14 @@ margin: auto;
     margin: auto;
 position: absolute;
 width: fit-content;
-margin-top: -7px;
+margin-top: 13px;
+}
+
+
+@media screen and (max-width: 700px) {
+.top-menu-login-button {
+    display:none;
+}
 }
 
 
@@ -584,18 +591,18 @@ ressac
 
 	<div id="header" class="top-menu">
 
-    <div class="main-menu-button" style="position:absolute;left:0;"><button type="button" style="background: none;border: none;padding-left:20px;" class="settings-"></div>
+    <div class="main-menu-button" style="position:absolute;left:0;"><button type="button" style="background: none;border: none;padding-left:20px;" class="settings-">
                     <img src="../svgs/grey-emblem-button2.svg" height="30px">
-                </button>
+                </button></div>
 
 		<div class="gobrik-logo">
             <a href="/go.php#home"><img src="../svgs/gobrik-logo-static.svg?v1.1" width="165" height=""></a>
         </div>
 		
-        <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right: 30px;flex-flow:row;">
+        <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;"m>
           
             
-                <div><button type="button" style="font-family:'Mulish';color:grey;padding10px;background: none;border:1px;border-style:solid;border-color:grey;border-radius:6px;margin: auto;
+                <div class="top-menu-login-button"><button type="button" style="font-family:'Mulish';color:grey;padding10px;background: none;border:1px;border-style:solid;border-color:grey;border-radius:6px;margin: auto;
   margin-top: auto;
 align-content: center;
 font-size: 1em;
