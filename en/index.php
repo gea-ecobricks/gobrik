@@ -100,10 +100,7 @@ margin: auto;
 }
     @media screen and (min-width: 701px) {
 #header {  
-	padding-top: 18px;
-	padding-bottom: 15px;
-	
-    
+    height: 70px;
 }
 }
 
@@ -592,7 +589,7 @@ ressac
 	<div id="header" class="top-menu">
 
     <div class="main-menu-button" style="position:absolute;left:0;margin-top: 22px;margin-left:20px"><button type="button" style="background: none;border: none;">
-                    <img src="../svgs/grey-emblem-button2.svg" height="30px">
+                    <img src="../svgs/grey-emblem-button2.svg?v=2" height="30px">
                 </button></div>
 
 		<div class="gobrik-logo">
