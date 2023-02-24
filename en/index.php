@@ -874,7 +874,7 @@ margin-left: auto;
     border: none; 
     margin-right:10px;
     cursor:pointer;
-    background: url('../grey-emblem-button-over.svg') no-repeat;
+    background: url('../svgs/grey-emblem-button-over.svg') no-repeat;
     background-size: contain;
     height:30px;
     width:30px;
@@ -893,12 +893,10 @@ margin-left: auto;
 
 
 #left-menu-overlay {
-  background-color: var(--deeper-accent-color); 
+  background-color: var(--overlays-and-headers); 
   color: inherit;
   z-index: 26;
 }
-
-
 
 
 /* Table of Contents Menu (background) */

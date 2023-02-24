@@ -3,7 +3,11 @@
 /* dark.css: 👉 light-on-dark */
 
 :root {
-  --text-color: rgb(250, 250, 250);
+
+    --overlays-and-headers: rgb(36, 36, 40);
+    --text-color: rgb(250, 250, 250);
+
+    
   --drop-cap: rgb(200, 200, 200); /*drop cap, bookbox text*/
   --background-color: #222326 ;
   --link-color:  rgb(250, 250, 250);
