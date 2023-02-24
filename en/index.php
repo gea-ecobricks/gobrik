@@ -582,18 +582,11 @@ ressac
             <a href="/go.php#home"><img src="../svgs/gobrik-logo-static.svg?v1.1" width="165" height=""></a>
         </div>
 		
-        <div class="button-list" style="display:flex;position: relative;right: 0;top: 0;width:fit-content;flex-flow:row;">
+        <div class="button-list" style="display:flex;position:relative;width:fit-content;margin-right: 30px;
+margin-top: 18px;flex-flow:row;">
           
             
-		    <div id="setting-button" style="position: relative;
-top: 0;
-right: 0;
-z-index: 10;
-margin-right: 30px;
-margin-top: 18px;
-width: 20px;
-padding: 0;">
-                <div><button type="button" style="background: none;border:1px;border-style:solid;border-color:grey;border-radius:6px;" class="login-top">
+                <div><button type="button" style="font-family:'Mulish';color:grey;padding10px;background: none;border:1px;border-style:solid;border-color:grey;border-radius:6px;" class="login-top">
                     login
                 </button></div>
 
