@@ -666,6 +666,41 @@ border-color: #00a112 !important;
 
 
 
+/*Right Close Button*/
+
+#right-close-button {
+  position: absolute;
+  right: 0px;
+  transition: 0.3s;
+  border-radius: 70px;
+  height: 85px;
+  padding-right: 70px;
+  right: -60px;
+  top: -20px;
+
+  border: solid 1px var(--thin-border-color);
+  background-color: var(--deeper-accent-color); 
+  box-shadow: var(--element-shadow)
+}
+
+
+#right-close-button:hover {
+  right: -35px;
+  transition: 0.3s;
+  background-color: var(--background-color);
+  box-shadow: var(--element-shadow);
+
+}
+
+#right-close-button img {
+height: 50px;
+padding-top: 20px;
+padding-right: 24px;
+margin-right: -42px;
+}
+
+
+
 /* -------------------------------------------------------------------------- */
 
 /*	18. Sepia, Contrast, Brightness Sliders
@@ -899,7 +934,7 @@ ressac
 <?php include '../ecobrick_env.php';?> 
 
   
-<body id="full-page">
+<body id="full-page" class="accessibility-plugin-ac">
 
 				
 
@@ -1055,6 +1090,9 @@ if (!$conn) {
         </div><!--closes Landing content-->
     </div>
 
+    <?php require_once ("setting-curtain.php");?>
+
+<?php include '../menu-curtain.php';?> 
 
     <div style="z-index:5;">
     <!-- sets footer of page:  be sure to add page name-->
