@@ -47,6 +47,7 @@
 
 
 <script src="../accessibility.js" defer></script>
+<script src="../richard-scripts.js" defer></script>
  <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
  
 <link rel="stylesheet" href="../light.css?v2" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">

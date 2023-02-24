@@ -17,12 +17,23 @@
 
 
 .top-settings-button {
-    background: url('../svgs/settings-icon-dark.svg') no-repeat;
+    background: url(../svgs/settings-icon-dark.svg) no-repeat;
     background-size: contain;
 }
 
 #top-settings-button:hover {
-    background: url('../svgs/settings-icon-over-dark.svg') no-repeat;
+    background: url(../svgs/settings-icon-over-dark.svg) no-repeat;
+    background-size: contain;
+}
+
+
+.main-menu-button {
+    background: url(../svgs/grey-emblem-button3-dark.svg?v=2) no-repeat;
+    background-size: contain;
+}
+
+.main-menu-button:hover  {
+    background: url(../svgs/grey-emblem-button-over-dark.svg) no-repeat;
     background-size: contain;
 }
 
