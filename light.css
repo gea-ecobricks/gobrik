@@ -15,8 +15,15 @@
     background-size: contain;
 }
 
+#top-settings-button {
+    background: url('../svgs/settings-icon.svg') no-repeat;
+    background-size: contain;
+}
 
-
+#top-settings-button:hover {
+    background: url('../svgs/settings-icon-over.svg') no-repeat;
+    background-size: contain;
+}
 
 
 /* light.css

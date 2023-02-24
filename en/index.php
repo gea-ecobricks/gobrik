@@ -939,8 +939,6 @@ margin-left: auto;
     border: none; 
     margin-right:10px;
     cursor:pointer;
-    background: url('../svgs/settings-icon.svg') no-repeat;
-    background-size: contain;
     height:30px;
     width:30px;
     
@@ -950,8 +948,6 @@ margin-left: auto;
     border: none; 
     margin-right:10px;
     cursor:pointer;
-    background: url('../svgs/settings-icon-over.svg') no-repeat;
-    background-size: contain;
     height:30px;
     width:30px;
   }
@@ -1181,7 +1177,7 @@ function openKnack() {
 
   var modal = document.getElementById('knack-overlay-curtain');
 
-function modalShow () {
+  function modalShow () {
    modal.setAttribute('tabindex', '0');
    modal.focus();
 }
@@ -1199,7 +1195,7 @@ function focusRestrict ( event ) {
 
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
-function closeMenu() {
+function closeKnack() {
   document.getElementById("knack-overlay-curtain").style.height = "0%";
   document.body.style.overflowY = "unset";
   //document.body.style.maxHeight = "unset";
@@ -1216,7 +1212,7 @@ function modalCloseCurtains ( e ) {
   document.getElementById("right-share-overlay").style.width = "0%";
 
   document.getElementById("left-settings-overlay").style.width = "0%";
-  document.getElementById("kanck-overlay-curtain").style.height = "0%";
+  document.getElementById("knack-overlay-curtain").style.height = "0%";
 
   }
 }
