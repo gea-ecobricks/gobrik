@@ -673,8 +673,8 @@ border-color: #00a112 !important;
   position: absolute;
   right: 0px;
   transition: 0.3s;
-  height: 65px;
-  width:65px;
+  height: 75px;
+  width:75px;
   padding-right: 30px;
   padding-top: 30px;
   right: 0px;
@@ -685,16 +685,16 @@ border-color: #00a112 !important;
 .x-button {
     background: url('../svgs/right-x.svg') no-repeat;
     padding: 10px;
-    background-size: fit;
-    width: 50px;
-    height: 50px;
+    background-size: contain;
+    width: 75px;
+    height: 75px;
     border:none;
 }
 
 .x-button:hover {
-    width: 60px;
-    height: 60px;
-    padding: 5px;
+    background: url('../svgs/x-over.svg') no-repeat;
+    padding: 10px;
+    background-size: contain;
 
 }
 
