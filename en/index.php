@@ -864,7 +864,6 @@ margin-left: auto;
   }
 
   .top-settings-button  {
-    background: none;
     border: none; 
     margin-right:10px;
     cursor:pointer;
@@ -876,7 +875,6 @@ margin-left: auto;
   }
 
   .top-settings-button:hover  {
-    background: none;
     border: none; 
     margin-right:10px;
     cursor:pointer;
@@ -884,9 +882,33 @@ margin-left: auto;
     background-size: contain;
     height:30px;
     width:30px;
-    
   }
 
+  .main-menu-button {
+    position:absolute;
+    left:0;
+    margin-top: 22px;
+    margin-left:20px;
+
+    border: none; 
+    margin-right:10px;
+    cursor:pointer;
+    background: url('../svgs/grey-emblem-button3.svg?v=2') no-repeat;
+    background-size: contain;
+    height:30px;
+    width:30px;
+  }
+
+  .main-menu-button:hover  {
+    border: none; 
+    margin-right:10px;
+    cursor:pointer;
+    background: url('../grey-emblem-button-over.svg') no-repeat;
+    background-size: contain;
+    height:30px;
+    width:30px;
+  }
+  
 </style>
 
 <script>
@@ -1034,6 +1056,8 @@ ressac
                     <img src="../svgs/grey-emblem-button3.svg?v=2" height="30px">
                 </button></div>
 
+        <div><button type="button" class="main-menu-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
+
 		<div class="gobrik-logo">
             <a href="/go.php#home"><img src="../svgs/gobrik-logo-static.svg?v1.1" width="165" height=""></a>
         </div>
@@ -1179,6 +1203,8 @@ if (!$conn) {
     </div>
    
     <?php require_once ("settings-curtain.php");?>
+
+    <?php require_once ("menu-curtain.php");?>
 
 
 <div id="containerSepia"></div>
