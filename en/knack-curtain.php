@@ -1,7 +1,7 @@
-<div id="read-curtain" class="read-overlay">
+<div id="knack-curtain" class="knack-overlay">
     
 
-<div class="read-overlay-content">
+<div class="knack-overlay-content">
 
      
           <div class="read-book-pic">
@@ -50,7 +50,7 @@
 
 
       <div id="bottom-close-button" style="cursor:pointer" onclick="closeRead()" aria-label="Click to close this pop-up page">
-      <img src="../svgs/left-x.svg" alt="Buy page close button">
+      <img src="../svgs/right-x.svg" alt="Buy page close button">
   </div>
 </div>
       

@@ -4,8 +4,10 @@
 
 :root {
 
-    --overlays-and-headers: rgb(36, 36, 40);
-    --text-color: rgb(250, 250, 250);
+    --side-overlays: #1e233fff;
+    --text-color: #c0c5e1ff;
+    --top-header: #212544ff;
+
 
     
   --drop-cap: rgb(200, 200, 200); /*drop cap, bookbox text*/
@@ -24,176 +26,12 @@
  }
 
  
-  /*NAVBAR TOP*
-
-   #earthbook-navbar {
-    background-color: #1c1d20 !important;
-    border-color: rgb(66, 66, 66) !important;
-    color: white !important;
-    box-shadow: 0 1px 15px rgba(7, 7, 7, 0.15) !important;
-  }*/
-
-  #main-title {
-    text-shadow: 0 0 3px #000000;
-  }
-
-  #book-title { 
-    background: url(svgs/tractatus-mandala-full-black.svg) center no-repeat ;
-  }
-
-  #book-header-logo {  
-    background: url(svgs/my-book-header-logo-night.svg) center no-repeat;
-    width: 100%;
+ .gobrik-logo {
+    background: url('../svgs/gobrik-logo-dark.svg?v1.1') center no-repeat;
     background-size: contain;
-    transition: 0.3s;
-    filter: brightness(75%);
-    position: absolute;
-  }
+}
 
-  #top-bookplate {
-    text-shadow: 0 0px 4px #000000 ;
-  }
-
-  #bookplate-img {
-    background: url(svgs/tractatus-mandala-full-white.svg) center no-repeat;
-    width: 100%;
-    background-size: contain;
-    transition: 0.3s;
-  }
-
-  #table-of-contents {
-    background: url(svgs/tractatus-mandala-full-grey.svg) center no-repeat;
-    background-size: 30%;
-    background-color: var(--slider); 
-    color: var(--drop-cap);
-  }
-    
 
   .virtue img {
     filter: invert(100%);
   }
-
-
-    #book-box a  {
-    background: url(svgs/content-arrow-night.svg) left center no-repeat  var(--header-footer);
-    background-size: 30px !important;
-    background-position-x: 18px !important;
-    border:  var(--thin-border-color);
-
-  }
-  
-  #book-box a:hover {
-    background: url(svgs/content-arrow-45-night.svg) left center no-repeat var(--deeper-accent-color);
-    background-size: 30px !important;
-    background-position-x: 18px !important;  
-
-  }
-  
-/*CHAPTERS*/
-
-.background-000 {
-  background: url(svgs/00-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-00 {
-  background: url(svgs/tractatus-mandala-full-grey-grey.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-0 {
-  background: url(svgs/00-preamble-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-1 {
-  background: url(svgs/01-imagine-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-
-.background-2 {
-  background: url(svgs/01-plastic1-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-3 {
-  background: url(svgs/03-stellar-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-4 {
-  background: url(svgs/04-patterns-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-5 {
-  background: url(svgs/05-kincentric-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-6 {
-  background: url(svgs/06-nature-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-7 {
-  background: url(svgs/07-earthen-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-8 {
-  background: url(svgs/08-cycles-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-9 {
-  background: url(svgs/09-energy-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-.background-10 {
-  background: url(svgs/10-matter-dark.svg) no-repeat center;
-  background-size: contain;
-}
-
-#up-arrow {
-  background: url(svgs/up-arrow-dark.svg) center no-repeat;
-  background-size: 140px;
-
-}
-  /*
-  #settings-menu {
-    background: var(--deeper-accent-color) !important;
-    box-shadow: var(--element-shadow) !important;
-    border: solid 1px var(--fainter-border-color) !important;
-  }
-  
-  #settings-menu:hover {
-    background: var(--background-color) !important;
-    box-shadow: var(--element-shadow) !important;
-  }
-  
-  #share-menu {
-    background: var(--deeper-accent-color) !important;
-    box-shadow: var(--element-shadow) !important;
-    border: solid 1px var(--fainter-border-color) !important;
-  }
-  
-  #share-menu:hover {
-    background: var(--background-color) !important;
-    box-shadow: var(--element-shadow) !important;
-  }
-
-  #right-close-button {
-    background:  #252525   !important;
-  }
-  
-  #right-close-button:hover {
-    background: #242529 !important;
-  }
-*/
-
-
-
-
