@@ -117,7 +117,7 @@ margin: auto;
 
 .gobrik-logo {
     margin: auto;
-position: relative;
+position: absolute;
 width: fit-content;
 }
 
@@ -574,7 +574,7 @@ ressac
 
 	<div id="header" class="top-menu">
 
-    <button type="button" style="background: none;border: none;padding-left:20px;" class="settings-">
+    <div style="position:absolute;left:0;"><button type="button" style="background: none;border: none;padding-left:20px;" class="settings-"></div>
                     <img src="../svgs/grey-emblem-button2.svg" height="30px">
                 </button>
 
@@ -582,7 +582,7 @@ ressac
             <a href="/go.php#home"><img src="../svgs/gobrik-logo-static.svg?v1.1" width="165" height=""></a>
         </div>
 		
-        <div class="button-list" style="display:flex;position:relative;width:fit-content;margin-right: 30px;
+        <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right: 30px;
 margin-top: 18px;flex-flow:row;">
           
             
