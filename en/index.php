@@ -539,7 +539,327 @@ margin-top: 26px;
 #lang-button {position: relative !important;
 transition: 0.3s;}
 
+
+/*settings-curtain*/
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	4. User Settings Overlay Curtain 
+
+    Comes in from the left after clicking +- button.
+
+/* -------------------------------------------------------------------------- */
+
+#left-settings-overlay {
+  background-color: var(--deeper-accent-color); 
+  color: var(--text-color);
+  z-index: 26;
+}
+
+
+/* Table of Contents Menu (background) */
+.overlay-settings {
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 21; /* Sit on top */
+  left: 0;
+  top: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+
+/* Position the content inside the overlay */
+.overlay-content-settings {
+  position: initial;
+  text-align: center; /* Centered text/links */
+   /*margin-top: 30px; 30px top margin to avoid conflict with the close button on smaller screens */
+  font-family: "CooperLT";
+  font-size: smaller;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  height:100%;  
+  margin: auto;
+}
+
+
+@media screen and (max-width: 700px) {
+  .overlay-content-settings {
+    width: 77%;
+    font-size: 0.9em;
+    /*margin-top: 6%;*/
+}
+}
+
+@media screen and (min-width: 700px) and (max-width: 1324px) {
+  .overlay-content-settings {
+    width: 65%;
+    font-size: 0.9em;
+    /*margin-top: 2%;*/
+}
+}
+
+@media screen and (min-width: 1325px) {
+    .overlay-content-settings {
+      width: 69%;
+      margin: auto;
+    }
+}
+
+.settings-label {
+  font-family: 'Mulish';
+  font-size: 1.2em;
+  margin: 18px 0px 8px 0px;
+}
+
+#languages {
+  display: flex;
+  margin: 10px auto 10px auto;
+  justify-content: center;
+  padding: 5px 30px 5px 30px;
+  background: var(--background-color);
+  border-radius: 55px;
+  width: fit-content;
+}
+
+.language-selector {
+  font-family: 'Mulish';
+  padding: 10px 20px 10px 20px;
+  background: var(--deeper-accent-color);
+  border-radius: 10px;
+  margin: 10px;
+  filter: invert(100);
+  font-size: 1.1em;
+  cursor: pointer;
+
+}
+
+.language-selector a:hover {
+  color: var(--deeper-accent-color);
+}
+
+.language-selector a {
+  color: var(--text-color);
+}
+
+
+
+/*Carbon Badge */
+
+#wcb.wcb-d #wcb_a {
+  color: #2e2e2e !important;
+background: #27ad37 !important;
+border-color: #00a112 !important;
+}
+
+#wcb #wcb_a,
+#wcb #wcb_g {
+  border: 0.2em solid #2cb03c !important;
+}
+
+#wcb.wcb-d #wcb_2 {
+  color: grey !important;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	18. Sepia, Contrast, Brightness Sliders
+
+    This shows up on the settings page.
+    Unfortunately, it only works for one page at a time.
+
+/* -------------------------------------------------------------------------- */
+
+
+#containerSepia {
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    position: absolute;
+    background-color: var(--background-color);
+    top: 0;
+    overflow: hidden;
+  }
+
+  #containerContrast {
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    position: absolute;
+    background-color:var(--background-color);
+    top: 0;
+    overflow: hidden;
+  }
+
+
+  #containerBrightness {
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    position: absolute;
+    background-color: var(--background-color);
+    top: 0;
+    overflow: hidden;
+  }
+
+
+
+#range-scale {
+-webkit-appearance: none;
+background: #5c5c5c;
+height: 4px;
+outline: none;
+cursor: pointer;
+margin-top: 7px;
+margin-bottom: 14px;
+border-radius: 8px;
+border-width: 1px;
+border-color: #8b8a8a;
+border-style: solid;
+margin-right: auto;
+margin-left: auto;
+  }
+
+  @media screen and (max-width: 699px) {
+
+    #range-scale { 
+      width: 80%;
+    }
+
+  }
+
+  @media screen and (min-width: 700px) and (max-width: 1324px) {
+
+    #range-scale { 
+      width: 70%;
+    }
+
+  }
+
+  @media screen and (min-width: 1325px) {
+
+    #range-scale { 
+      width: 30%;
+    }
+
+  }
+
+
+  #brightness-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+       
+  }
+
+
 </style>
+
+<script>
+
+
+
+/* RIGHT SHARE OVERLAY 
+
+Triggers the right share link panel*/
+
+function openShare() {
+  document.getElementById("right-share-overlay").style.width = "100%";
+  document.body.style.overflowY = "hidden";
+  //document.body.style.maxHeight = "101vh";
+
+  var modal = document.getElementById('right-share-overlay');
+
+function modalShow () {
+   modal.setAttribute('tabindex', '0');
+   modal.focus();
+}
+
+function focusRestrict ( event ) {
+  document.addEventListener('focus', function( event ) {
+    if ( modalOpen && !modal.contains( event.target ) ) {
+      event.stopPropagation();
+      modal.focus();
+    }
+  }, true);
+}
+}
+
+
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeShare() {
+  document.getElementById("right-share-overlay").style.width = "0%";
+  document.body.style.overflowY = "unset";
+  //document.body.style.maxHeight = "unset";
+
+} 
+
+
+
+
+/* LEFT SETTINGS OVERLAY */
+function openSettings() {
+  document.getElementById("left-settings-overlay").style.width = "100%";
+  document.body.style.overflowY = "hidden";
+ // document.body.style.maxHeight = "101vh";
+
+ var modal = document.getElementById('left-settings-overlay');
+
+function modalShow () {
+   modal.setAttribute('tabindex', '0');
+   modal.focus();
+}
+
+function focusRestrict ( event ) {
+  document.addEventListener('focus', function( event ) {
+    if ( modalOpen && !modal.contains( event.target ) ) {
+      event.stopPropagation();
+      modal.focus();
+    }
+  }, true);
+}
+}
+
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeSettings() {
+  document.getElementById("left-settings-overlay").style.width = "0%";
+  document.body.style.overflowY = "unset";
+ // document.body.style.maxHeight = "unset";
+  //document.body.style.height = "unset";
+} 
+
+
+</script>
+
+<script>
+
+
+
+function modalCloseCurtains ( e ) {
+  if ( !e.keyCode || e.keyCode === 27 ) {
+    
+  document.body.style.overflowY = "unset";
+  document.getElementById("right-close-button2").style.position = "absolute";
+  document.getElementById("right-share-overlay").style.width = "0%";
+
+  document.getElementById("left-settings-overlay").style.width = "0%";
+
+  }
+}
+
+document.addEventListener('keydown', modalCloseCurtains);
+
+</script>
+
 
 
 <!--
