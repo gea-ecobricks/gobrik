@@ -680,19 +680,21 @@ border-color: #00a112 !important;
 }
 
 
-#right-close-button:hover {
-  right: -35px;
-  transition: 0.3s;
 
-}
 
 #right-close-button img {
 height: 50px;
-padding-top: 20px;
-padding-right: 24px;
-margin-right: -42px;
+padding-top: 40px;
+transition: 0.3s;
+
 }
 
+#right-close-button img:hover {
+  height: 70px;
+  padding-top:35px;
+
+
+}
 
 
 /* -------------------------------------------------------------------------- */
