@@ -54,8 +54,18 @@
 <!-- Knack Stylesheet -->
 <link rel="stylesheet" type="text/css" href="knack-stylesheet.css?v0.6">
 
-<!-- CUSTOM PAGE SCRIPTS
+<!-- CUSTOM PAGE SCRIPTS 
 <script src="spring-javascript.js?v1.4" async></script> -->
+<link rel="preload" href="../light.css?v1.8" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../acessibilidade.css" as="style" onload="this.rel='stylesheet'">
+
+
+<script src="../accessibility.js" defer></script>
+ <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+ 
+<link rel="stylesheet" href="../light.css?v1.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+ <link rel="stylesheet" href="../dark.css?v1.8" media="(prefers-color-scheme: dark)">
+ 
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

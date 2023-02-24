@@ -1,0 +1,223 @@
+/*LIGHT STYLE SHEET*/
+
+/* light.css: 👉 dark-on-light */
+
+
+   :root {
+
+    --overlays-and-headers: white;
+    --text-color: #242424;
+
+
+
+
+    
+    --background-color: rgb(250, 250, 250) ; /*button hover*/
+    --link-color:  #030303 ;
+    --pre-link-color:  #3c3c3c ;
+    --nav-bar-accent: rgb(244, 242, 242); /*OBSOLETE? navbar, footer, button color*/
+    --deeper-accent-color: rgb(222, 222, 222) ; /*rgb(235, 235, 235) main chart hover, top menu button backgrounds, footer bottom bottom*/ 
+    --thin-border-color: rgb(163, 163, 163); /*border color for almost everything*/
+    --fainter-border-color:  rgb(208, 207, 207); /*border color for the menu buttons*/
+    --element-shadow: 0 1px 15px rgba(7, 7, 7, 0.15 );  /*whenever a shadow is added*/
+    --drop-cap: rgb(63, 63, 63);
+    --header-footer: #e7e7e7;
+    --slider: rgb(228, 228, 228);
+    --strong-border: rgb(185, 188, 209);
+   }
+   
+
+#main-title {
+  text-shadow: 0 0 3px #ffffff;
+}
+
+
+#book-title {
+  background: url(svgs/tractatus-mandala-full-white.svg) center no-repeat;
+}
+
+#book-header-logo {  
+  background: url(svgs/my-book-header-logo-day.svg) center no-repeat;
+  width: 100%;
+  background-size: contain;
+  transition: 0.3s;
+  filter: brightness(75%);
+  position: absolute;
+ 
+  }
+
+
+#top-bookplate {
+  text-shadow: 0 0px 4px #ffffff;
+}
+
+#bookplate-img {
+  background: url(svgs/tractatus-mandala-full-black.svg) center no-repeat;
+  width: 100%;
+  background-size: contain;
+  transition: 0.3s;
+}
+
+
+#table-of-contents {
+  background: url(svgs/tractatus-mandala-full-light-grey.svg) center no-repeat;
+  background-size: contain;
+  background-color: var(--slider); 
+}
+
+
+#book-box a {  
+
+  background: url(svgs/content-arrow.svg) left center no-repeat var(--background-color);
+  background-size: 30px;
+  background-position-x: 18px;
+}
+
+#book-box a:hover {  
+
+  background: url(svgs/content-arrow-45.svg) left center no-repeat var(--deeper-accent-color);
+  background-size: 30px;
+  background-position-x: 18px;
+  ;
+}
+
+
+/*CHAPTERS*/
+
+.background-000 {
+  background: url(svgs/00-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-00 {
+  background: url(svgs/tractatus-mandala-full-grey-grey.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-0 {
+  background: url(svgs/00-preamble-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-1 {
+  background: url(svgs/01-imagine-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-2 {
+  background: url(svgs/02-plastic1-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-3 {
+  background: url(svgs/03-stellar-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-4 {
+  background: url(svgs/04-patterns-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-5 {
+  background: url(svgs/05-kincentric-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-6 {
+  background: url(svgs/06-nature-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-7 {
+  background: url(svgs/07-earthen-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-8 {
+  background: url(svgs/08-cycles-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-9 {
+  background: url(svgs/09-energy-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+.background-10 {
+  background: url(svgs/10-matter-white.svg) no-repeat center;
+  background-size: contain;
+}
+
+#up-arrow {
+  background: url(svgs/up-arrow-light.svg) center no-repeat;
+  background-size: 140px;
+
+}
+
+/*
+body {
+  background-color: rgb(250, 250, 250) !important;
+  color: #202124 !important;
+}
+
+#underlayer {   /*THis enables sepia/contrast/brightness
+    background-color: rgb(252, 251, 251);
+}*/
+
+
+/*NAVBAR TOP
+
+#earthbook-navbar {
+
+  background-color: rgb(244, 242, 242)  !important;
+  border-color: rgb(163, 163, 163)  !important;
+  color:  #202124  !important;
+  box-shadow: 0 4px 15px rgba(85, 84, 84, 0.3)  !important;
+
+}
+
+
+/*
+
+#settings-menu {
+  background: var(--deeper-accent-color) !important;
+  box-shadow: var(--element-shadow) !important;
+  border: solid 1px var(--fainter-border-color) !important;
+}
+
+#settings-menu:hover {
+  background: var(--background-color) !important;
+  box-shadow: var(--element-shadow) !important;
+}
+
+#share-menu {
+  background: var(--deeper-accent-color) !important;
+  box-shadow: var(--element-shadow) !important;
+  border: solid 1px var(--fainter-border-color) !important;
+}
+
+#share-menu:hover {
+  background: var(--background-color) !important;
+  box-shadow: var(--element-shadow) !important;
+}
+
+
+#right-close-button {
+  border: solid 1px gray !important;
+  background-color: white !important;
+  box-shadow: 0 1px 15px rgba(85, 84, 84, 0.1) !important;
+}
+
+
+
+
+
+
+/* light.css
+
+
+   
+/* light.css 
+--icon-filter_hover: invert(60%);*/
+

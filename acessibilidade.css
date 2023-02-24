@@ -1,0 +1,12 @@
+/*
+    Autor: Fábio Almeida
+    WebSite: www.fabiodeveloper.com
+    Data: 12/04/2020
+    Descrição: Recurso que possibilita o aumento do tamanho da fonte através do uso da classe .acessibilidade e de três
+    botões.
+
+*/
+
+.acessibilidade {
+    font-size: inherit;
+}

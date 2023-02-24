@@ -551,9 +551,9 @@ transition: 0.3s;}
 
 /* -------------------------------------------------------------------------- */
 
-#left-settings-overlay {
-  background-color: var(--deeper-accent-color); 
-  color: var(--text-color);
+#right-settings-overlay {
+  background-color: white /*var(--overlays-and-headers:)*/; 
+  color: black  /*var(--text-color)*/ ;
   z-index: 26;
 }
 
@@ -564,7 +564,7 @@ transition: 0.3s;}
   width: 0;
   position: fixed; /* Stay in place */
   z-index: 21; /* Sit on top */
-  left: 0;
+  right: 0;
   top: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
@@ -576,7 +576,7 @@ transition: 0.3s;}
   position: initial;
   text-align: center; /* Centered text/links */
    /*margin-top: 30px; 30px top margin to avoid conflict with the close button on smaller screens */
-  font-family: "CooperLT";
+  font-family: "Mulish";
   font-size: smaller;
   display: flex;
   justify-content: center;
@@ -766,7 +766,40 @@ margin-left: auto;
 
 
 
-/* RIGHT SHARE OVERLAY 
+/* RIGHT SETTINGS OVERLAY */
+function openSettings() {
+  document.getElementById("right-settings-overlay").style.width = "100%";
+  document.body.style.overflowY = "hidden";
+ // document.body.style.maxHeight = "101vh";
+
+ var modal = document.getElementById('right-settings-overlay');
+
+function modalShow () {
+   modal.setAttribute('tabindex', '0');
+   modal.focus();
+}
+
+function focusRestrict ( event ) {
+  document.addEventListener('focus', function( event ) {
+    if ( modalOpen && !modal.contains( event.target ) ) {
+      event.stopPropagation();
+      modal.focus();
+    }
+  }, true);
+}
+}
+
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeSettings() {
+  document.getElementById("right-settings-overlay").style.width = "0%";
+  document.body.style.overflowY = "unset";
+ // document.body.style.maxHeight = "unset";
+  //document.body.style.height = "unset";
+} 
+
+
+/* LEFT MAIN MENU OVERLAY 
 
 Triggers the right share link panel*/
 
@@ -801,42 +834,6 @@ function closeShare() {
   //document.body.style.maxHeight = "unset";
 
 } 
-
-
-
-
-/* LEFT SETTINGS OVERLAY */
-function openSettings() {
-  document.getElementById("left-settings-overlay").style.width = "100%";
-  document.body.style.overflowY = "hidden";
- // document.body.style.maxHeight = "101vh";
-
- var modal = document.getElementById('left-settings-overlay');
-
-function modalShow () {
-   modal.setAttribute('tabindex', '0');
-   modal.focus();
-}
-
-function focusRestrict ( event ) {
-  document.addEventListener('focus', function( event ) {
-    if ( modalOpen && !modal.contains( event.target ) ) {
-      event.stopPropagation();
-      modal.focus();
-    }
-  }, true);
-}
-}
-
-
-/* Close when someone clicks on the "x" symbol inside the overlay */
-function closeSettings() {
-  document.getElementById("left-settings-overlay").style.width = "0%";
-  document.body.style.overflowY = "unset";
- // document.body.style.maxHeight = "unset";
-  //document.body.style.height = "unset";
-} 
-
 
 </script>
 
