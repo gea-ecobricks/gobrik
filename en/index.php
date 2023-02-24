@@ -704,6 +704,76 @@ margin-right: -42px;
 
 /* -------------------------------------------------------------------------- */
 
+/*	13. Text Size Adjust Section
+
+/* -------------------------------------------------------------------------- */
+
+
+#text-adjust {
+margin: 10px auto 12px auto;
+width: fit-content;
+background: var(--header-footer);
+border-radius: 55px;
+
+}
+
+#increase-plugin-ac  {
+padding: 10px;
+border: grey;
+background: white;
+color: black;
+border-style: solid;
+border-radius: 40px 10px 10px 40px;
+border-width: 1px;
+font-size: 25px;
+margin: 20px;
+font-family: "Mulish";
+display: inline;
+text-align: center;
+text-decoration: none;
+margin: 7px;
+cursor: pointer;
+    }
+
+#normal-plugin-ac {
+  padding: 10px;
+  border: grey;
+  background: white;
+  color: black;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: 25px;
+  margin: 20px;
+  font-family: "Mulish";
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  margin: 7px;
+  cursor: pointer;
+    }
+
+#decrease-plugin-ac {
+  padding: 10px;
+  border: grey;
+  background: white;
+  color: black;
+  border-style: solid;
+  border-radius: 10px 40px 40px 10px;
+  border-width: 1px;
+  font-size: 25px;
+  margin: 20px;
+  font-family: "Mulish";
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  margin: 7px;
+  cursor: pointer;
+    }
+
+
+/* -------------------------------------------------------------------------- */
+
 /*	18. Sepia, Contrast, Brightness Sliders
 
     This shows up on the settings page.
@@ -829,6 +899,21 @@ function openSettings() {
   document.body.style.overflowY = "hidden";
   document.body.style.maxHeight = "101vh";
 
+  var modal = document.getElementById('right-settings-overlay');
+
+function modalShow () {
+   modal.setAttribute('tabindex', '0');
+   modal.focus();
+}
+
+function focusRestrict ( event ) {
+  document.addEventListener('focus', function( event ) {
+    if ( modalOpen && !modal.contains( event.target ) ) {
+      event.stopPropagation();
+      modal.focus();
+    }
+  }, true);
+}
 }
 
 
@@ -1097,7 +1182,7 @@ if (!$conn) {
     <div id="right-settings-overlay" class="overlay-settings">
 
 <div id="right-close-button">
-        <span style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page"><img src="../svgs/left-x.svg" alt="Close settings button"></span>
+        <span style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page"><img src="../svgs/right-x.svg" alt="Close settings button"></span>
     </div>
 
 <div class="overlay-content-settings">
@@ -1146,8 +1231,15 @@ if (!$conn) {
     <!-- sets footer of page:  be sure to add page name-->
     <?php require_once ("footer.php");?>
 
+    
+
             </div>
 
+            <div id="containerSepia"></div>
+  <div id="containerContrast"></div>
+  <div id="containerBrightness"></div>
+  
+  
 </div>
 </body>
 </html>
