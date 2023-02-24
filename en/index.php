@@ -811,7 +811,7 @@ margin-left: auto;
     border: none; 
     margin-right:10px;
     cursor:pointer;
-    background: url('../svgs/settioverngs-icon-.svg') no-repeat;
+    background: url('../svgs/settings-icon-over.svg') no-repeat;
     background-size: contain;
     height:30px;
     width:30px;
@@ -822,29 +822,12 @@ margin-left: auto;
 
 <script>
 
-
-
 /* RIGHT SETTINGS OVERLAY */
 function openSettings() {
   document.getElementById("right-settings-overlay").style.width = "100%";
   document.body.style.overflowY = "hidden";
   document.body.style.maxHeight = "101vh";
 
- var modal = document.getElementById('right-settings-overlay');
-
-function modalShow () {
-   modal.setAttribute('tabindex', '0');
-   modal.focus();
-}
-
-function focusRestrict ( event ) {
-  document.addEventListener('focus', function( event ) {
-    if ( modalOpen && !modal.contains( event.target ) ) {
-      event.stopPropagation();
-      modal.focus();
-    }
-  }, true);
-}
 }
 
 
