@@ -905,7 +905,7 @@ margin-left: auto;
   width: 0;
   position: fixed; /* Stay in place */
   z-index: 21; /* Sit on top */
-  right: 0;
+  left: 0;
   top: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
@@ -995,23 +995,8 @@ margin-left: auto;
   top: 0px;
 }
 
-#left-close-button:hover {
-  left: -40px;
-  transition: 0.5s;
-  background-color: var(--background-color);
-  box-shadow: var(--element-shadow);
-}
-
-
-#left-close-button img {
-  height: 50px;
-  padding-top: 20px;
-  padding-left: 7px;
-  margin-left: 0px;
-}  
-
-  
 </style>
+
 
 <script>
 
