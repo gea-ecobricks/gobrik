@@ -1,4 +1,4 @@
-<div id="knack-curtain" class="knack-overlay">
+<div id="knack-overlay-curtain" class="knack-overlay">
     
 
 <div class="knack-overlay-content">

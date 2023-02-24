@@ -584,7 +584,7 @@ transition: 0.3s;}
 
 
 
-#knack-curtain {
+#knack-overlay-curtain {
   background-color: var(--header-footer); 
   z-index: 26;
 }
@@ -592,7 +592,7 @@ transition: 0.3s;}
 
 
 /* Table of Contents Menu (background) */
-.read-overlay {
+.kanck-overlay {
 
   height: 0%;
   width: 100%;
@@ -609,7 +609,7 @@ transition: 0.3s;}
 
 
 /* Position the content inside the overlay */
-.read-overlay-content {
+.knack-overlay-content {
   position: initial;
   text-align: center; /* Centered text/links */
    /*margin-top: 30px; 30px top margin to avoid conflict with the close button on smaller screens */
@@ -621,21 +621,21 @@ transition: 0.3s;}
 }
 
 @media screen and (max-width: 700px) {
-  .read-overlay-content {
+  .knack-overlay-content {
     width: 88%; 
     flex-flow: column;  
 }
 }
 
 @media screen and (min-width: 700px) and (max-width: 1324px) {
-  .read-overlay-content {
+  .knack-overlay-content {
     width: 75%;
     flex-flow: row;
 }
 }
 
 @media screen and (min-width: 1325px) {
-    .read-overlay-content {
+    .knack-overlay-content {
       width: 60%;
       margin: auto;
       flex-flow: row;
@@ -985,7 +985,7 @@ margin-left: auto;
 
 /* -------------------------------------------------------------------------- */
 
-/*	5. Share Overlay Curtain
+/*	5. Left Menu Curtain
 
   Comes in from the right after clicking share button in header.
 
@@ -994,7 +994,7 @@ margin-left: auto;
 
 
 #left-menu-overlay {
-  background-color: var(--overlays-and-headers); 
+  background-color: var(--side-overlays); 
   color: inherit;
   z-index: 26;
 }
@@ -1168,11 +1168,43 @@ function closeMenu() {
   document.body.style.overflowY = "unset";
   //document.body.style.maxHeight = "unset";
 
+
+
+/* Knack OVERLAY 
+
+Triggers the right share link panel*/
+
+function openKnack() {
+  document.getElementById("knack-overlay-curtain").style.height = "100%";
+  document.body.style.overflowY = "hidden";
+  //document.body.style.maxHeight = "101vh";
+
+  var modal = document.getElementById('knack-overlay-curtain');
+
+function modalShow () {
+   modal.setAttribute('tabindex', '0');
+   modal.focus();
+}
+
+function focusRestrict ( event ) {
+  document.addEventListener('focus', function( event ) {
+    if ( modalOpen && !modal.contains( event.target ) ) {
+      event.stopPropagation();
+      modal.focus();
+    }
+  }, true);
+}
+}
+
+
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeMenu() {
+  document.getElementById("knack-overlay-curtain").style.height = "0%";
+  document.body.style.overflowY = "unset";
+  //document.body.style.maxHeight = "unset";
+
 } 
-
-</script>
-
-<script>
 
 
 
@@ -1184,19 +1216,15 @@ function modalCloseCurtains ( e ) {
   document.getElementById("right-share-overlay").style.width = "0%";
 
   document.getElementById("left-settings-overlay").style.width = "0%";
+  document.getElementById("kanck-overlay-curtain").style.height = "0%";
 
   }
 }
 
 document.addEventListener('keydown', modalCloseCurtains);
 
-</script>
 
-
-
-<!--
-<script>
-
+/*
 window.onscroll = function() {scrollFunction()};
 
 //Scroll on arrival 
@@ -1221,11 +1249,9 @@ function scrollFunction() {
  
    }
  }
-"des vivant parmi des vivantes"
 
-ressac
-
- </script>-->
+*/
+ </script>
 
 
  
