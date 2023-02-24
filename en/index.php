@@ -157,12 +157,13 @@ width: fit-content;
     text-align: center;
     width: 100%;
     max-width: 100%;
-    background-color:#30FFFF;
+    background-color:grey;
     margin-top: -10px;
     min-height: fit-content;
   	overflow-x: hidden;
     position: relative;
     z-index: 0;
+    padding-bottom: 14px;
 }
 
 
@@ -554,9 +555,11 @@ function scrollFunction() {
  
    }
  }
+"des vivant parmi des vivantes"
+
+ressac
 
  </script>-->
-
 
 
  
@@ -570,6 +573,11 @@ function scrollFunction() {
 				
 
 	<div id="header" class="top-menu">
+
+    <button type="button" style="background: none;border: none;" class="settings-">
+                    <img src="../svgs/grey-emblem.svg" height="30px">
+                </button>
+
 		<div class="gobrik-logo">
             <a href="/go.php#home"><img src="../svgs/gobrik-logo-static.svg?v1.1" width="165" height=""></a>
         </div>
@@ -578,21 +586,8 @@ function scrollFunction() {
 position: fixed;
 right: 0;
 top: 0;">
-            <div id="lang-button">
-                <div class="topnav-lang" id="myTopnav-lang">
-                    <div class="dropdown-lang">
-                        <button class="dropbtn-lang"><img src="../svgs/language-button2.svg" height="28px"></button>
-                        <div class="dropdown-content-language">
-                            <a href='../en/'>🇬🇧&nbsp;ENG</a>
-                            <a href='../id/'>🇮🇩&nbsp;IND</a>
-                            <a href='../es/'>🇪🇸&nbsp;ESP</a>
-                    
-                            <a href="javascript:void(0);" style="font-size:15px;" class="icon-lang" onclick="languageMenu()"></a>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-       
+          
+            
 		    <div id="setting-button" style="position: relative;
 top: 0;
 right: 0;
@@ -601,8 +596,16 @@ margin-right: 30px;
 margin-top: 18px;
 width: 20px;
 padding: 0;">
-                <button type="button" style="background: none;
-border: none;" class="settings-"><img src="../svgs/settings-icon.svg" height="30px">
+                <button type="button" style="background: none;border:1px;border-style:solid;border-color:grey;border-radius:6px;" class="login-top">
+                    login
+                </button>
+
+                <button type="button" style="background: none;border: none;" class="settings-">
+                    <img src="../svgs/settings-icon.svg" height="30px">
+                </button>
+
+                <button type="button" style="background: none;border: none;" class="settings-">
+                    <img src="../svgs/language-button2.svg" height="30px">
                 </button>
                    
 		    </div>
@@ -643,7 +646,7 @@ if (!$conn) {
 
 
    <div class="gallery-background">
-   <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>
+  <!-- <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>-->
             
         <div class="gallery-content-block">
             
