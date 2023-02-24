@@ -673,14 +673,28 @@ border-color: #00a112 !important;
   position: absolute;
   right: 0px;
   transition: 0.3s;
-  height: 85px;
-  padding-right: 70px;
-  right: -60px;
-  top: -20px;
+  height: 65px;
+  width:65px;
+  padding-right: 30px;
+  padding-top: 30px;
+  right: 0px;
+  top: 0px;
 }
 
 
+.x-button {
+    background: url('../svgs/right-x.svg" alt="Close settings button">') no-repeat;
+    padding: 10px;
+    background-size: fit;
+    width: 50px;
+    height: 50px;
+}
 
+.x-button:hover {
+    width: 60px;
+    height: 60px;
+
+}
 
 #right-close-button img {
 height: 50px;
@@ -1177,7 +1191,7 @@ if (!$conn) {
     <div id="right-settings-overlay" class="overlay-settings">
 
 <div id="right-close-button">
-        <span style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page"><img src="../svgs/right-x.svg" alt="Close settings button"></span>
+        <button type="button" style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page" class="x-button"></button>
     </div>
 
 <div class="overlay-content-settings">
