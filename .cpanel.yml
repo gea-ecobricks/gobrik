@@ -29,6 +29,11 @@ deployment:
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp market.php $DEPLOYPATH
     - /bin/cp ecobricks_env.php $DEPLOYPATH
+
+    - /bin/cp light.css $DEPLOYPATH
+    - /bin/cp dark.css $DEPLOYPATH
+    - /bin/cp accessibility.js $DEPLOYPATH
+    - /bin/cp accessibilidade.css $DEPLOYPATH
     
 
 
