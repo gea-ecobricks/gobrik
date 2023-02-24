@@ -574,18 +574,15 @@ ressac
 
 	<div id="header" class="top-menu">
 
-    <button type="button" style="background: none;border: none;" class="settings-">
-                    <img src="../svgs/grey-emblem.svg" height="30px">
+    <button type="button" style="background: none;border: none;padding-left:20px;" class="settings-">
+                    <img src="../svgs/grey-emblem-button.svg" height="30px">
                 </button>
 
 		<div class="gobrik-logo">
             <a href="/go.php#home"><img src="../svgs/gobrik-logo-static.svg?v1.1" width="165" height=""></a>
         </div>
 		
-        <div class="button-list" style="display:flex;display: flex;
-position: fixed;
-right: 0;
-top: 0;">
+        <div class="button-list" style="display:flex;position: relative;right: 0;top: 0;width:fit-content;flex-flow:row;">
           
             
 		    <div id="setting-button" style="position: relative;
@@ -596,17 +593,17 @@ margin-right: 30px;
 margin-top: 18px;
 width: 20px;
 padding: 0;">
-                <button type="button" style="background: none;border:1px;border-style:solid;border-color:grey;border-radius:6px;" class="login-top">
+                <div><button type="button" style="background: none;border:1px;border-style:solid;border-color:grey;border-radius:6px;" class="login-top">
                     login
-                </button>
+                </button></div>
 
-                <button type="button" style="background: none;border: none;" class="settings-">
+                <div><button type="button" style="background: none;border: none;" class="settings-">
                     <img src="../svgs/settings-icon.svg" height="30px">
-                </button>
+                </button></div>
 
-                <button type="button" style="background: none;border: none;" class="settings-">
+                <div><button type="button" style="background: none;border: none;" class="settings-">
                     <img src="../svgs/language-button2.svg" height="30px">
-                </button>
+                </button></div>
                    
 		    </div>
         </div>
