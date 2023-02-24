@@ -794,6 +794,18 @@ margin-left: auto;
        
   }
 
+  .top-settings-button  {
+    background: none;
+    border: none; 
+    margin-right:10px;
+    cursor:pointer;
+    background: url('./svgs/settings-icon.svg') no-repeat;
+    background-size: contain;
+    height:30px;
+    width:30px;
+    
+  }
+
 
 </style>
 
@@ -958,8 +970,8 @@ padding: 3px 14px 3px 14px; margin-right:10px;" class="login-top-button">
                     login
                 </button></div>
 
-                <div><button type="button" style="background: none;border: none; margin-right:10px;" class="settings-">
-                    <img src="../svgs/settings-icon.svg" height="30px">
+                <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page">
+                    
                 </button></div>
 
                <!-- <div><button type="button" style="background: none;border: none;" class="settings-">
@@ -1092,7 +1104,7 @@ if (!$conn) {
 
     <?php require_once ("setting-curtain.php");?>
 
-<?php include '../menu-curtain.php';?> 
+    
 
     <div style="z-index:5;">
     <!-- sets footer of page:  be sure to add page name-->
