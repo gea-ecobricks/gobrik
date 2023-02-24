@@ -561,7 +561,7 @@ transition: 0.3s;}
 /* Table of Contents Menu (background) */
 .overlay-settings {
   height: 100%;
-  width: 0;
+  width: 0%;
   position: fixed; /* Stay in place */
   z-index: 21; /* Sit on top */
   right: 0;
@@ -806,6 +806,18 @@ margin-left: auto;
     
   }
 
+  .top-settings-button:hover  {
+    background: none;
+    border: none; 
+    margin-right:10px;
+    cursor:pointer;
+    background: url('../svgs/settioverngs-icon-.svg') no-repeat;
+    background-size: contain;
+    height:30px;
+    width:30px;
+    
+  }
+
 </style>
 
 <script>
@@ -816,7 +828,7 @@ margin-left: auto;
 function openSettings() {
   document.getElementById("right-settings-overlay").style.width = "100%";
   document.body.style.overflowY = "hidden";
- // document.body.style.maxHeight = "101vh";
+  document.body.style.maxHeight = "101vh";
 
  var modal = document.getElementById('right-settings-overlay');
 
@@ -840,7 +852,7 @@ function focusRestrict ( event ) {
 function closeSettings() {
   document.getElementById("right-settings-overlay").style.width = "0%";
   document.body.style.overflowY = "unset";
- // document.body.style.maxHeight = "unset";
+document.body.style.maxHeight = "unset";
   //document.body.style.height = "unset";
 } 
 
@@ -969,9 +981,7 @@ padding: 3px 14px 3px 14px; margin-right:10px;" class="login-top-button">
                     login
                 </button></div>
 
-                <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page">
-                    
-                </button></div>
+                <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
 
                <!-- <div><button type="button" style="background: none;border: none;" class="settings-">
                     <img src="../svgs/language-button2.svg" height="30px">
