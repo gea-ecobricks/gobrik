@@ -1,6 +1,6 @@
- <div id="left-settings-overlay" class="overlay-settings">
+ <div id="right-settings-overlay" class="overlay-settings">
 
-    <div id="left-close-button">
+    <div id="right-close-button">
             <span style="cursor:pointer" onclick="closeSettings()" aria-label="Click to close settings page"><img src="../svgs/left-x.svg" alt="Close settings button"></span>
         </div>
     
