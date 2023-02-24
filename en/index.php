@@ -28,6 +28,9 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" as="image" href="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg">
 
 
+
+<?php require_once ("header.php");?>
+ 
 <style>
 
 
@@ -1087,11 +1090,12 @@ margin-left: auto;
   top: 0px;
 }
 
+</style>
 
+</head>
 
 
  
-<?php require_once ("header.php");?>
 
 <?php include '../ecobrick_env.php';?> 
 
