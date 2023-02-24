@@ -1,12 +1,13 @@
 
 
-      <div id="right-share-overlay" class="share-overlay">
+      <div id="left-menu-overlay" class="menu-overlay">
   
-      <div id="right-close-button">
-          <span style="cursor:pointer" onclick="closeShare()"><img src="../svgs/right-x.svg" alt="Close page button"></span>
-      </div>
-      
-        <div class="share-overlay-content">
+    
+      <div id="left-close-button">
+        <button type="button" style="cursor:pointer" onclick="closeMenu()" aria-label="Click to close settings page" class="x-button"></button>
+    </div>
+
+        <div class="menu-overlay-content">
               
               <div>
                   <h1 class="accessibility-plugin-ac">Share. Freely.</h1> 
