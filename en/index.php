@@ -119,6 +119,28 @@ width: fit-content;
 margin-top: 13px;
 }
 
+.top-menu-login-button {
+    font-family:'Mulish';
+    color:grey;
+    background: none;
+    border:0.5px;
+    border-style:solid;
+    border-color:grey;
+    border-radius:5px;
+    margin: auto;
+    margin-top:2px;
+    align-content: center;
+    font-size: 0.9em;
+    padding: 3px 14px 3px 14px;
+    margin-right:10px;
+}
+
+.top-menu-login-button:hover {
+    background: grey;
+    border:1px;
+    color:white;
+}
+
 
 @media screen and (max-width: 700px) {
 .top-menu-login-button {
@@ -1149,10 +1171,7 @@ ressac
         <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;"m>
           
             
-                <div class="top-menu-login-button"><button type="button" style="font-family:'Mulish';color:grey;padding10px;background: none;border:0.5px;border-style:solid;border-color:grey;border-radius:5px;margin: auto;margin-top:2px;
-align-content: center;
-font-size: 0.9em;
-padding: 3px 14px 3px 14px; margin-right:10px;" class="login-top-button">
+                <div><button type="button" class="top-menu-login-button" onclick="openKnack()" >
                     login
                 </button></div>
 
