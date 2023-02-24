@@ -591,7 +591,7 @@ ressac
 
 	<div id="header" class="top-menu">
 
-    <div class="main-menu-button" style="position:absolute;left:0;"><button type="button" style="background: none;border: none;padding-left:20px;" class="settings-">
+    <div class="main-menu-button" style="position:absolute;left:0;margin-top: 22px;margin-left:20px"><button type="button" style="background: none;border: none;">
                     <img src="../svgs/grey-emblem-button2.svg" height="30px">
                 </button></div>
 
