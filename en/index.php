@@ -589,7 +589,7 @@ ressac
 	<div id="header" class="top-menu">
 
     <div class="main-menu-button" style="position:absolute;left:0;margin-top: 22px;margin-left:20px"><button type="button" style="background: none;border: none;">
-                    <img src="../svgs/grey-emblem-button2.svg?v=2" height="30px">
+                    <img src="../svgs/grey-emblem-button3.svg?v=2" height="30px">
                 </button></div>
 
 		<div class="gobrik-logo">
@@ -599,11 +599,10 @@ ressac
         <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;"m>
           
             
-                <div class="top-menu-login-button"><button type="button" style="font-family:'Mulish';color:grey;padding10px;background: none;border:1px;border-style:solid;border-color:grey;border-radius:6px;margin: auto;
-  margin-top: auto;
+                <div class="top-menu-login-button"><button type="button" style="font-family:'Mulish';color:grey;padding10px;background: none;border:0.5px;border-style:solid;border-color:grey;border-radius:5px;margin: auto;margin-top:2px;
 align-content: center;
-font-size: 1em;
-padding: 4px 14px 4px 14px; margin-right:10px;" class="login-top-button">
+font-size: 0.9em;
+padding: 3px 14px 3px 14px; margin-right:10px;" class="login-top-button">
                     login
                 </button></div>
 
