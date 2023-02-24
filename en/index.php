@@ -683,11 +683,12 @@ border-color: #00a112 !important;
 
 
 .x-button {
-    background: url('../svgs/right-x.svg" alt="Close settings button">') no-repeat;
+    background: url('../svgs/right-x.svg') no-repeat;
     padding: 10px;
     background-size: fit;
     width: 50px;
     height: 50px;
+    border:none;
 }
 
 .x-button:hover {
