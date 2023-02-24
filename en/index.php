@@ -694,6 +694,7 @@ border-color: #00a112 !important;
 .x-button:hover {
     width: 60px;
     height: 60px;
+    padding: 5px;
 
 }
 
