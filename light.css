@@ -8,27 +8,10 @@
     --side-overlays: rgb(225, 225, 225);
     --top-header: #fff;
     --text-color: #242424;
-
-
-
-
-    
-    --background-color: rgb(250, 250, 250) ; /*button hover*/
-    --link-color:  #030303 ;
-    --pre-link-color:  #3c3c3c ;
-    --nav-bar-accent: rgb(244, 242, 242); /*OBSOLETE? navbar, footer, button color*/
-    --deeper-accent-color: rgb(222, 222, 222) ; /*rgb(235, 235, 235) main chart hover, top menu button backgrounds, footer bottom bottom*/ 
-    --thin-border-color: rgb(163, 163, 163); /*border color for almost everything*/
-    --fainter-border-color:  rgb(208, 207, 207); /*border color for the menu buttons*/
-    --element-shadow: 0 1px 15px rgba(7, 7, 7, 0.15 );  /*whenever a shadow is added*/
-    --drop-cap: rgb(63, 63, 63);
-    --header-footer: #e7e7e7;
-    --slider: rgb(228, 228, 228);
-    --strong-border: rgb(185, 188, 209);
    }
    
 .gobrik-logo {
-    background: url('../svgs/gobrik-logo-static.svg?v1.1') center no-repeat;
+    background: url(../svgs/gobrik-logo-static.svg?v1.1) center no-repeat;
     background-size: contain;
 }
 

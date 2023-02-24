@@ -117,10 +117,12 @@ margin: auto;
 position: absolute;
 width: fit-content;
 margin-top: 13px;
-background: url('../svgs/gobrik-logo-static.svg?v1.1');
-background-size: contain;
 width:165px;
 height:47px;
+border: none;
+right: 0;
+left: 0;
+border: none;
 }
 
 
