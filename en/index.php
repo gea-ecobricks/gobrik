@@ -93,7 +93,7 @@ margin: auto;
     justify-content: center;
     z-index: 20;
 	position: relative;
-	background: white;
+	background: var(--top-header);
 	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
     width: 100%;
 
@@ -113,11 +113,18 @@ margin: auto;
 
 
 .gobrik-logo {
-    margin: auto;
+margin: auto;
 position: absolute;
 width: fit-content;
 margin-top: 13px;
+background: url('../svgs/gobrik-logo-static.svg?v1.1');
+background-size: contain;
+width:165px;
+height:47px;
 }
+
+
+
 
 .top-menu-login-button {
     font-family:'Mulish';
@@ -133,6 +140,7 @@ margin-top: 13px;
     font-size: 0.9em;
     padding: 3px 14px 3px 14px;
     margin-right:10px;
+    cursor: pointer;
 }
 
 .top-menu-login-button:hover {
@@ -564,6 +572,75 @@ transition: 0.3s;}
 
 
 /*settings-curtain*/
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	7. KNACK Overlay Curtain
+
+/* -------------------------------------------------------------------------- */
+
+
+
+#knack-curtain {
+  background-color: var(--header-footer); 
+  z-index: 26;
+}
+
+
+
+/* Table of Contents Menu (background) */
+.read-overlay {
+
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 25;
+  bottom: 0;
+  left: 0;
+  overflow-y: hidden;
+  transition: 0.5s;
+  display: flex;
+/*
+  overflow-x: hidden;  Disable horizontal scroll */
+}
+
+
+/* Position the content inside the overlay */
+.read-overlay-content {
+  position: initial;
+  text-align: center; /* Centered text/links */
+   /*margin-top: 30px; 30px top margin to avoid conflict with the close button on smaller screens */
+  font-family: "CooperLT";
+  display: flex;
+  justify-content: center;
+  /*height:100%;*/
+  margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .read-overlay-content {
+    width: 88%; 
+    flex-flow: column;  
+}
+}
+
+@media screen and (min-width: 700px) and (max-width: 1324px) {
+  .read-overlay-content {
+    width: 75%;
+    flex-flow: row;
+}
+}
+
+@media screen and (min-width: 1325px) {
+    .read-overlay-content {
+      width: 60%;
+      margin: auto;
+      flex-flow: row;
+      
+    }
+}
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -1162,11 +1239,11 @@ ressac
 	<div id="header" class="top-menu">
 
 
-        <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Click to open settings page"></button></div>
+        <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>
 
-		<div class="gobrik-logo">
-            <a href="/go.php#home"><img src="../svgs/gobrik-logo-static.svg?v1.1" width="165" height=""></a>
-        </div>
+		<div><button type="button" class="gobrik-logo" onclick="closeMenu()" aria-label="Return to Home page"></button></div>
+        
+       
 		
         <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;"m>
           
