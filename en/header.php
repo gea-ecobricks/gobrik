@@ -42,15 +42,15 @@
 <!-- CUSTOM PAGE SCRIPTS
 <script src="spring-javascript.js?v1.4" async></script> -->
 
-<link rel="preload" href="../light.css?v1.8" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../light.css?v2" as="style" onload="this.rel='stylesheet'">
 <link rel="preload" href="../acessibilidade.css" as="style" onload="this.rel='stylesheet'">
 
 
 <script src="../accessibility.js" defer></script>
  <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
  
-<link rel="stylesheet" href="../light.css?v1.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
- <link rel="stylesheet" href="../dark.css?v1.8" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v2" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+ <link rel="stylesheet" href="../dark.css?v2" media="(prefers-color-scheme: dark)">
  
 
 

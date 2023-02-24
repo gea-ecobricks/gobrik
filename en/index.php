@@ -1388,6 +1388,8 @@ if (!$conn) {
 
     <?php require_once ("menu-curtain.php");?>
 
+    <?php require_once ("knack-curtain.php");?>
+
 
 <div id="containerSepia"></div>
   <div id="containerContrast"></div>
