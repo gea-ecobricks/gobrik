@@ -667,36 +667,7 @@ border-color: #00a112 !important;
 
 
 
-/*Right Close Button*/
 
-#right-close-button {
-  position: absolute;
-  right: 0px;
-  transition: 0.3s;
-  height: 75px;
-  width:75px;
-  padding-right: 30px;
-  padding-top: 30px;
-  right: 0px;
-  top: 0px;
-}
-
-
-.x-button {
-    background: url('../svgs/right-x.svg') no-repeat;
-    padding: 10px;
-    background-size: contain;
-    width: 75px;
-    height: 75px;
-    border:none;
-}
-
-.x-button:hover {
-    background: url('../svgs/x-over.svg') no-repeat;
-    padding: 10px;
-    background-size: contain;
-
-}
 
 
 
@@ -908,6 +879,139 @@ margin-left: auto;
     height:30px;
     width:30px;
   }
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	5. Share Overlay Curtain
+
+  Comes in from the right after clicking share button in header.
+
+/* -------------------------------------------------------------------------- */
+
+
+
+#left-menu-overlay {
+  background-color: var(--deeper-accent-color); 
+  color: inherit;
+  z-index: 26;
+}
+
+
+
+
+/* Table of Contents Menu (background) */
+.menu-overlay {
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 21; /* Sit on top */
+  right: 0;
+  top: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+
+/* Position the content inside the overlay */
+.menu-overlay-content {
+  position: initial;
+  text-align: center; /* Centered text/links */
+   /*margin-top: 30px; 30px top margin to avoid conflict with the close button on smaller screens */
+  font-family: "CooperLT";
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  height:100%;
+  margin: auto;
+}
+
+
+@media screen and (max-width: 700px) {
+  .menu-overlay-content {
+    width: 85%;
+    font-size: 0.9em;
+    /*margin-top: 6%;*/
+}
+}
+
+@media screen and (min-width: 700px) and (max-width: 1324px) {
+  .menu-overlay-content {
+    width: 65%;
+    font-size: 0.9em;
+    /*margin-top: 2%;*/
+}
+}
+
+@media screen and (min-width: 1325px) {
+    .menu-overlay-content {
+      width: 69%;
+      margin: auto;
+    }
+}
+
+
+/*Right Close Button*/
+
+#right-close-button {
+  position: absolute;
+  right: 0px;
+  transition: 0.3s;
+  height: 75px;
+  width:75px;
+  padding-right: 30px;
+  padding-top: 30px;
+  right: 0px;
+  top: 0px;
+}
+
+
+.x-button {
+    background: url('../svgs/right-x.svg') no-repeat;
+    padding: 10px;
+    background-size: contain;
+    width: 75px;
+    height: 75px;
+    border:none;
+}
+
+.x-button:hover {
+    background: url('../svgs/x-over.svg') no-repeat;
+    padding: 10px;
+    background-size: contain;
+
+}
+
+/*Left CLose Button*/
+
+#left-close-button {
+  position: absolute;
+  left: 0px;
+  transition: 0.3s;
+  height: 75px;
+  width:75px;
+  padding-left: 30px;
+  padding-top: 30px;
+  right: 0px;
+  top: 0px;
+}
+
+#left-close-button:hover {
+  left: -40px;
+  transition: 0.5s;
+  background-color: var(--background-color);
+  box-shadow: var(--element-shadow);
+}
+
+
+#left-close-button img {
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 7px;
+  margin-left: 0px;
+}  
+
   
 </style>
 
@@ -950,12 +1054,12 @@ document.body.style.maxHeight = "unset";
 
 Triggers the right share link panel*/
 
-function openShare() {
-  document.getElementById("right-share-overlay").style.width = "100%";
+function openMenu() {
+  document.getElementById("left-menu-overlay").style.width = "100%";
   document.body.style.overflowY = "hidden";
   //document.body.style.maxHeight = "101vh";
 
-  var modal = document.getElementById('right-share-overlay');
+  var modal = document.getElementById('left-menu-overlay');
 
 function modalShow () {
    modal.setAttribute('tabindex', '0');
@@ -975,8 +1079,8 @@ function focusRestrict ( event ) {
 
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
-function closeShare() {
-  document.getElementById("right-share-overlay").style.width = "0%";
+function closeMenu() {
+  document.getElementById("left-menu-overlay").style.width = "0%";
   document.body.style.overflowY = "unset";
   //document.body.style.maxHeight = "unset";
 
@@ -1052,11 +1156,8 @@ ressac
 
 	<div id="header" class="top-menu">
 
-    <div class="main-menu-button" style="position:absolute;left:0;margin-top: 22px;margin-left:20px"><button type="button" style="background: none;border: none;">
-                    <img src="../svgs/grey-emblem-button3.svg?v=2" height="30px">
-                </button></div>
 
-        <div><button type="button" class="main-menu-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
+        <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Click to open settings page"></button></div>
 
 		<div class="gobrik-logo">
             <a href="/go.php#home"><img src="../svgs/gobrik-logo-static.svg?v1.1" width="165" height=""></a>
