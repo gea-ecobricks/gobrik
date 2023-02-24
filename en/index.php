@@ -799,13 +799,12 @@ margin-left: auto;
     border: none; 
     margin-right:10px;
     cursor:pointer;
-    background: url('./svgs/settings-icon.svg') no-repeat;
+    background: url('../svgs/settings-icon.svg') no-repeat;
     background-size: contain;
     height:30px;
     width:30px;
     
   }
-
 
 </style>
 
