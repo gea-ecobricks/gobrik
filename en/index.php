@@ -575,7 +575,7 @@ ressac
 	<div id="header" class="top-menu">
 
     <button type="button" style="background: none;border: none;padding-left:20px;" class="settings-">
-                    <img src="../svgs/grey-emblem-button.svg" height="30px">
+                    <img src="../svgs/grey-emblem-button2.svg" height="30px">
                 </button>
 
 		<div class="gobrik-logo">
@@ -586,11 +586,15 @@ ressac
 margin-top: 18px;flex-flow:row;">
           
             
-                <div><button type="button" style="font-family:'Mulish';color:grey;padding10px;background: none;border:1px;border-style:solid;border-color:grey;border-radius:6px;" class="login-top">
+                <div><button type="button" style="font-family:'Mulish';color:grey;padding10px;background: none;border:1px;border-style:solid;border-color:grey;border-radius:6px;margin: auto;
+  margin-top: auto;
+align-content: center;
+font-size: 1em;
+padding: 4px 14px 4px 14px; margin-right:10px;" class="login-top-button">
                     login
                 </button></div>
 
-                <div><button type="button" style="background: none;border: none;" class="settings-">
+                <div><button type="button" style="background: none;border: none; margin-right:10px;" class="settings-">
                     <img src="../svgs/settings-icon.svg" height="30px">
                 </button></div>
 
