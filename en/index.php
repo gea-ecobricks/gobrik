@@ -673,23 +673,16 @@ border-color: #00a112 !important;
   position: absolute;
   right: 0px;
   transition: 0.3s;
-  border-radius: 70px;
   height: 85px;
   padding-right: 70px;
   right: -60px;
   top: -20px;
-
-  border: solid 1px var(--thin-border-color);
-  background-color: var(--deeper-accent-color); 
-  box-shadow: var(--element-shadow)
 }
 
 
 #right-close-button:hover {
   right: -35px;
   transition: 0.3s;
-  background-color: var(--background-color);
-  box-shadow: var(--element-shadow);
 
 }
 
@@ -1239,7 +1232,7 @@ if (!$conn) {
   <div id="containerContrast"></div>
   <div id="containerBrightness"></div>
   
-  
+
 </div>
 </body>
 </html>
