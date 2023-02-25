@@ -36,7 +36,7 @@
 }
 
 #top-settings-button:hover {
-    background: url(../svgs/settings-icon-over-dark.svg) no-repeat;
+    background: url(../svgs/settings-icon-over-dark.svg?v=2) no-repeat;
     background-size: contain;
 }
 
