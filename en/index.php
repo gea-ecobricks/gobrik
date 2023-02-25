@@ -572,14 +572,14 @@ transition: 0.3s;}
 
 
 #knack-overlay-curtain {
-  background-color: var(--header-footer); 
+  background-color: var(--general-background); 
   z-index: 26;
 }
 
 
 
 /* Table of Contents Menu (background) */
-.kanck-overlay {
+.knack-overlay {
 
   height: 0%;
   width: 100%;
@@ -641,8 +641,8 @@ transition: 0.3s;}
 /* -------------------------------------------------------------------------- */
 
 #right-settings-overlay {
-  background-color: white /*var(--overlays-and-headers:)*/; 
-  color:  var(--side-overlays); /*var(--text-color)*/ ;
+  background-color: var(--side-overlays) /*var(--overlays-and-headers:)*/; 
+  color:  var(--text-color); /*var(--text-color)*/ ;
   z-index: 26;
 }
 

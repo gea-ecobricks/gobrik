@@ -4,9 +4,9 @@
 
 :root {
 
-    --side-overlays: #1e233fff;
+    --side-overlays: rgb(58, 60, 74);
     --text-color: #c0c5e1ff;
-    --top-header: #212544ff;
+    --top-header: #1a1d32;
     --gallery:  rgb(51, 52, 63);
     --general-background: rgb(36, 37, 43);
  }
