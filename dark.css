@@ -11,6 +11,7 @@
     --general-background: rgb(50, 51, 61);
     --general-background-highlight: rgb(33, 33, 39);
     --deeper-accent-color:  rgb(14, 14, 16);
+    --header-accent: #a0c0d2fe;
  }
 
  
@@ -41,15 +42,6 @@
     background-size: contain;
 }
 
-.top-menu-login-button {
-    color: #a0c0d2fe;
-    border-color: #a0c0d2fe;
-}
-
-.top-menu-login-button {
-    color: #3d3d3efe;
-    background-color: #a0c0d2fe;
-}
 
 
 

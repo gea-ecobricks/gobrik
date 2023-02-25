@@ -146,14 +146,14 @@ border: none;
     padding: 3px 14px 3px 14px;
     margin-right:10px;
     cursor: pointer;
+    color: var(--header-accent-color);
+    border-color: var(--header-accent-color);
 }
 
 .top-menu-login-button:hover {
-    background: grey;
-    border:1px;
-    color:white;
+    color: var(--text-color);
+    background-color: var(--header-accent-color);
 }
-
 
 @media screen and (max-width: 700px) {
 .top-menu-login-button {
@@ -724,11 +724,14 @@ transition: 0.3s;}
   font-size: 1.1em;
   cursor: pointer;
   color: var(--text-color);
+  border-color:var(--header-accent-color);
+  border-width:o.5px;
 
 }
 
-.language-selector a:hover {
+.language-selector:hover {
   background: var(--gallery);
+  border-width:1px;
 }
 
 .language-selector a {
