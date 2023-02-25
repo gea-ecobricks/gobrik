@@ -146,13 +146,14 @@ border: none;
     padding: 3px 14px 3px 14px;
     margin-right:10px;
     cursor: pointer;
-    color: var(--header-accent-color);
-    border-color: var(--header-accent-color);
+    color: var(--header-accent);
+    border-color: var(--header-accent);
+    border-width: 0.5px;
 }
 
 .top-menu-login-button:hover {
     color: var(--text-color);
-    background-color: var(--header-accent-color);
+    background-color: var(--header-accent);
 }
 
 @media screen and (max-width: 700px) {
