@@ -9,6 +9,10 @@
     --top-header: #fff;
     --text-color: #242424;
     --gallery: grey;
+    --general-background: rgb(232, 232, 232);
+    --general-background-highlight: rgb(196, 195, 195);
+    --deeper-accent-color: rgb(148, 148, 148);
+    
    }
    
 .gobrik-logo {
