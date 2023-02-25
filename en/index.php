@@ -464,10 +464,14 @@ width: 60px;
 .tree-coins {
         margin-top: 0px;
         position: relative;
-        z-index: -1;
-        opacity:0;
+        z-index: 0;
         text-align: center;
-        
+        width: 400px;
+        height: 400px;
+        background: url(../images/mangotreebluesky400px.png) no-repeat;
+        background-size: contain;
+    
+        /*opacity:0;
         -webkit-animation-delay: 3s !important;
         -webkit-animation:fadeIn ease-in 0.25s;
         -webkit-animation-duration:0.25s;
@@ -476,15 +480,16 @@ width: 60px;
         animation-delay: 3s; 
         animation: fadeIn ease-in 0.25s;
         animation-duration: 0.25s;
-        animation-fill-mode: forwards;
+        animation-fill-mode: forwards;*/
         
         }
 
 
         @media screen and (max-width: 769px) {
 
-.tree-coins img {
+.tree-coins {
     width: 100%;
+    height: 100%;
 }
 
         }
@@ -1234,12 +1239,12 @@ if (!$conn) {
                 </div>
             </div>
             
-            <div class="tree-text"Use your GoBrik account to sign in.<br>
+            <div class="tree-text">Use your GoBrik account to sign in.<br>
             No account? Sign up for free!</div>
         
 
       
-            <div class="tree-coins"><img src="../images/mangotreebluesky400px.png"></div>
+            <div class="tree-coins"></div>
 
             <div class="welcome-text">
                 Together we're securing plastic out of the biosphere to make building blocks, brikcoins and green spaces.
