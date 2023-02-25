@@ -8,6 +8,7 @@
     --side-overlays: rgb(225, 225, 225);
     --top-header: #fff;
     --text-color: #242424;
+    --gallery: grey;
    }
    
 .gobrik-logo {
@@ -34,6 +35,12 @@
     background: url(../svgs/grey-emblem-button-over.svg) no-repeat;
     background-size: contain;
 }
+
+.top-menu-login-button {
+    color:grey;
+    border-color:grey;
+}
+
 
 /* light.css
 

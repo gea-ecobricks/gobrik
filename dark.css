@@ -7,6 +7,7 @@
     --side-overlays: #1e233fff;
     --text-color: #c0c5e1ff;
     --top-header: #212544ff;
+    --gallery:  rgb(51, 52, 63);
  }
 
  
@@ -35,6 +36,15 @@
 .main-menu-button:hover  {
     background: url(../svgs/grey-emblem-button-over-dark.svg) no-repeat;
     background-size: contain;
+}
+
+.top-menu-login-button {
+    color: #a0c0d2fe;
+    border-color: #a0c0d2fe;
+}
+
+.gallery-background {
+    background-color: grey;
 }
 
 
