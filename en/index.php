@@ -97,7 +97,7 @@ margin: auto;
     z-index: 25;
 	position: relative;
 	background: var(--top-header);
-	box-shadow: 0px 0px 32px var(--text-color);	
+	box-shadow: 0px 0px 12px var(--text-color 0.5);	
     width: 100%;
 
 }
