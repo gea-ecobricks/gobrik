@@ -585,7 +585,7 @@ transition: 0.3s;}
   width: 100%;
   position: fixed;
   z-index: 25;
-  bottom: 0;
+  top: 0;
   left: 0;
   overflow-y: hidden;
   transition: 0.5s;
@@ -1239,11 +1239,6 @@ if (!$conn) {
     <?php require_once ("menu-curtain.php");?>
 
     <?php require_once ("knack-curtain.php");?>
-
-
-<div id="containerSepia"></div>
-  <div id="containerContrast"></div>
-  <div id="containerBrightness"></div>
     
 
     <div style="z-index:5;">
