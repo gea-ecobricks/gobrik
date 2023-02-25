@@ -163,7 +163,7 @@ border: none;
 
 
 .gallery-header {
-    background-color:grey;
+    background-color: var(--gallery);
     height:40px;
     width:100%;
     display:flex;
@@ -289,22 +289,6 @@ width: 60px;
 
 
 
-@media screen and (min-width: 701px) {
-  .clouds-new2  {
-    background-image: linear-gradient(#30ffff, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0));
-  /*  background: url(../svgs/top-clouds-desktop-animate-to-static2.svg) center top repeat-x ;
-    		box-sizing: border-box;
-		background-size: 100%;*/
-	}
-}
-@media screen and (min-width: 0px) and (max-width: 700px) {
-  .clouds-new2  {
-    background-image: linear-gradient(#30ffff, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0));
-   /* background: url(../svgs/ashim-top-clouds-mobile.svg?v1.3) center top repeat-x;
-    	box-sizing: border-box;
-		background-size: 100%;*/
-}
-}
 
 
 .top-graphic {
@@ -658,7 +642,7 @@ transition: 0.3s;}
 
 #right-settings-overlay {
   background-color: white /*var(--overlays-and-headers:)*/; 
-  color: black  /*var(--text-color)*/ ;
+  color:  var(--side-overlays); /*var(--text-color)*/ ;
   z-index: 26;
 }
 
