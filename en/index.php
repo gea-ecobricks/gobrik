@@ -324,8 +324,8 @@ width: 60px;
    margin-top: 20px;
    text-align: center !important;
    line-height: 1.2 !important;
-   margin-bottom: 25px;
-   text-shadow: 0px 0px 8px #fff;
+   margin-bottom: 20px;
+   /*text-shadow: 0px 0px 8px #fff;*/
 		
    -webkit-animation-delay: 0.3s !important;
    opacity:0;
@@ -337,6 +337,7 @@ width: 60px;
    animation: fadeIn ease-in 0.25s;
    animation-duration: 0.25s;
    animation-fill-mode: forwards;
+   color:var(--text-color);
    
 }
 
@@ -359,7 +360,8 @@ width: 60px;
    text-align: center !important;
    line-height: 1.3 !important;
    margin: 20px 0px 13px 0px;
-   text-shadow: 0px 0px 6px #fff;
+   /*text-shadow: 0px 0px 6px #fff;*/
+   color:var(--text-color);
    /*
    -webkit-animation-delay: 1.2s !important;
    opacity:0;
@@ -494,6 +496,7 @@ width: 60px;
    font-family: 'Mulish', sans-serif;
    text-align: center !important;
    margin-bottom: 35px;
+   color:var(--text-color);
    
    
    -webkit-animation-delay: 2.2s !important;
@@ -532,7 +535,7 @@ width: 60px;
       font-weight: 300;
       margin:auto;
       opacity:0;
-      
+      color:var(--text-color);
       
         
       -webkit-animation-delay: 3s !important;
@@ -1231,8 +1234,8 @@ if (!$conn) {
                 </div>
             </div>
             
-            <h4>Use your GoBrik account to sign in.<br>
-            No account? Sign up for free!</h4>
+            <div class="tree-text"Use your GoBrik account to sign in.<br>
+            No account? Sign up for free!</div>
         
 
       
