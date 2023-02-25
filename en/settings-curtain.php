@@ -18,9 +18,9 @@
             </div>
                         
         <div class="language-box">
-            <button type=button aria-label="Switch to English" class="language-selector" onclick="location.href='../en/'">EN</div>
-            <button type=button aria-label="Switch to Indonesian" class="language-selector" onclick="location.href='../id/'">ID</div>
-            <button type=button aria-label="Switch to French" class="language-selector" onclick="location.href='../fr/'">FR</div>
+            <div><button type=button aria-label="Switch to English" class="language-selector" onclick="location.href='../en/'">EN</button></div>
+            <div><button type=button aria-label="Switch to Indonesian" class="language-selector" onclick="location.href='../id/'">ID</button></div>
+            <div><button type=button aria-label="Switch to French" class="language-selector" onclick="location.href='../fr/'">FR</button></div>
         </div> 
 
      
