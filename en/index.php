@@ -133,11 +133,11 @@ border: none;
 
 .top-menu-login-button {
     font-family:'Mulish';
-    color:grey;
+
     background: none;
     border:0.5px;
     border-style:solid;
-    border-color:grey;
+
     border-radius:5px;
     margin: auto;
     margin-top:2px;
@@ -197,7 +197,7 @@ border: none;
     text-align: center;
     width: 100%;
     max-width: 100%;
-    background-color:grey;
+    background-color: var(--gallery);
     margin-top: -10px;
     min-height: fit-content;
   	overflow-x: hidden;
