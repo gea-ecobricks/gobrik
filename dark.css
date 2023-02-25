@@ -38,7 +38,7 @@
 }
 
 .main-menu-button:hover  {
-    background: url(../svgs/grey-emblem-button-over-dark.svg) no-repeat;
+    background: url(../svgs/grey-emblem-button-over.svg) no-repeat;
     background-size: contain;
 }
 
