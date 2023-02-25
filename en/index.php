@@ -325,7 +325,8 @@ width: 60px;
    text-align: center !important;
    line-height: 1.2 !important;
    margin-bottom: 20px;
-   /*text-shadow: 0px 0px 8px #fff;*/
+   color: var(--h1);
+   /*text-shadow: 0px 0px 8px #fff;
 		
    -webkit-animation-delay: 0.3s !important;
    opacity:0;
@@ -336,8 +337,8 @@ width: 60px;
    animation-delay: 0.3s; 
    animation: fadeIn ease-in 0.25s;
    animation-duration: 0.25s;
-   animation-fill-mode: forwards;
-   color:var(--h1);
+   animation-fill-mode: forwards;*/
+ 
    
 }
 
@@ -391,34 +392,34 @@ width: 60px;
   font-family: 'mulish', sans-serif !important;
   display: block;
   margin: auto;
-  background: #00a1f2;
-  background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
-  background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
+  background: var(--button-2-1);
+  background-image: -webkit-linear-gradient(top, var(--button-2-1), var(--button-2-2));
+  background-image: -moz-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
+  background-image: -ms-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
+  background-image: -o-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
+  background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-2));
   -webkit-border-radius: 8px 0px 0px 8px;
   -moz-border-radius: 8px 0px 0px 8px;
   border-radius: 8px 0px 0px 8px;
-  color: #ffffff;
-  font-size: 22px !important;
-  padding: 12px 22px 12px 22px !important;
-  text-decoration: none !important;
+  color: var(--general-background);
+  font-size: 19px;
+  padding: 10px 20px 10px 20px ;
+  text-decoration: none;
   margin-top: 0px;
-  margin-bottom: 0px;
-	font-weight: 700;
+  margin-bottom: 12px;
+	font-weight: 500;
   border: none;
-  margin-right: 3px;
+  margin-left: 3px;
 }
 
 
 .sign-innn:hover {
-  background: #5b5bf6;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background: var(--button-2-1-over);
+  background-image: -webkit-linear-gradient(top,  var(--button-2-1-over), var(--button-2-2-over));
+  background-image: -moz-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
+  background-image: -ms-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
+  background-image: -o-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
+  background-image: linear-gradient(to bottom, var(--button-2-1-over), var(--button-2-2-over));
   text-decoration: none;
 }
 
@@ -428,35 +429,34 @@ width: 60px;
   font-family: 'mulish', sans-serif !important;
   display: block;
   margin: auto;
-  background: #00a1f2;
-  background-image: -webkit-linear-gradient(top, #4646cf, #3b3baf);
-  background-image: -moz-linear-gradient(top, #4646cf, #3b3baf);
-  background-image: -ms-linear-gradient(top, #4646cf, #3b3baf);
-  background-image: -o-linear-gradient(top, #4646cf, #3b3baf);
-  background-image: linear-gradient(to bottom, #4646cf, #3b3baf);
+  background: var(--button-1-1);
+  background-image: -webkit-linear-gradient(top, var(--button-1-1), var(--button-1-2));
+  background-image: -moz-linear-gradient(top, var(--button-1-1), var(--button-1-2));
+  background-image: -ms-linear-gradient(top, var(--button-1-1), var(--button-1-2));
+  background-image: -o-linear-gradient(top, var(--button-1-1), var(--button-1-2));
+  background-image: linear-gradient(to bottom, var(--button-1-1), var(--button-1-2));
   -webkit-border-radius: 0px 8px 8px 0px;
   -moz-border-radius: 0px 8px 8px 0px;
   border-radius: 0px 8px 8px 0px;
-  padding-right: 5px;
-  color: #ffffff;
-  font-size: 22px !important;
-  padding: 12px 22px 12px 22px !important;
-  text-decoration: none !important;
+  color: var(--general-background);
+  font-size: 19px;
+  padding: 10px 20px 10px 20px ;
+  text-decoration: none;
   margin-top: 0px;
-  margin-bottom: 0px;
-	font-weight: 700;
+  margin-bottom: 12px;
+	font-weight: 500;
   border: none;
   margin-left: 3px;
 }
 
 
 .sign-uppp:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #5b5bf6, #5454ff);
-  background-image: -moz-linear-gradient(top, #5b5bf6, #5454ff);
-  background-image: -ms-linear-gradient(top, #5b5bf6, #5454ff);
-  background-image: -o-linear-gradient(top, #5b5bf6, #5454ff);
-  background-image: linear-gradient(to bottom, #5b5bf6, #5454ff);
+  background: var(--button-1-1-over);
+  background-image: -webkit-linear-gradient(top, var(--button-1-1-over), var(--button-1-2-over));
+  background-image: -moz-linear-gradient(top, var(--button-1-1-over), var(--button-1-2-over));
+  background-image: -ms-linear-gradient(top, var(--button-1-1-over), var(--button-1-2-over));
+  background-image: -o-linear-gradient(top, var(--button-1-1-over), var(--button-1-2-over));
+  background-image: linear-gradient(to bottom, var(--button-1-1-over), var(--button-1-2-over));
   text-decoration: none;
 }
 
