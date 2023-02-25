@@ -97,7 +97,7 @@ margin: auto;
     z-index: 25;
 	position: relative;
 	background: var(--top-header);
-	box-shadow: 0px 0px 32px rgba(62, 65, 74, 0.6);	
+	box-shadow: 0px 0px 32px var(--text-color);	
     width: 100%;
 
 }
@@ -462,7 +462,6 @@ width: 60px;
 
 
 .tree-coins {
-        margin-top: 0px;
         position: relative;
         z-index: 0;
         text-align: center;
@@ -470,6 +469,7 @@ width: 60px;
         height: 400px;
         background: url(../images/mangotreebluesky400px.png) no-repeat;
         background-size: contain;
+        margin: 0px auto 0px auto;
     
         /*opacity:0;
         -webkit-animation-delay: 3s !important;
@@ -500,7 +500,7 @@ width: 60px;
    font-size: 1.6em !important;
    font-family: 'Mulish', sans-serif;
    text-align: center !important;
-   margin-bottom: 35px;
+   margin-bottom: 22px;
    color:var(--text-color);
    
    
