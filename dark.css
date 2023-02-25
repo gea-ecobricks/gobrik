@@ -60,7 +60,16 @@
           box-sizing: border-box;
           background-size: 100%;*/
   }
+
+
   }
+  
+  .tree-coins {
+    background: url(../webp/2023-tree-night.webp) no-repeat;
+    background-size: contain;
+  }
+
+
 
   .virtue img {
     filter: invert(100%);
