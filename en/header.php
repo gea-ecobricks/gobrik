@@ -42,7 +42,7 @@
 <!-- CUSTOM PAGE SCRIPTS
 <script src="spring-javascript.js?v1.4" async></script> -->
 
-<link rel="preload" href="../light.css?v2.2" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../light.css?v2.3" as="style" onload="this.rel='stylesheet'">
 <link rel="preload" href="../acessibilidade.css" as="style" onload="this.rel='stylesheet'">
 
 
@@ -50,8 +50,8 @@
 <script src="../richard-scripts.js"></script>
  <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
  
-<link rel="stylesheet" href="../light.css?v2.2" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
- <link rel="stylesheet" href="../dark.css?v2.2" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v2.3" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+ <link rel="stylesheet" href="../dark.css?v2.3" media="(prefers-color-scheme: dark)">
  
 
 
@@ -129,7 +129,7 @@
 
 
 
-
+/*
 .fa-bars  {
  	background: url(svgs/grey-emblem-button.svg) no-repeat center;
 	background-size: contain;
@@ -307,90 +307,6 @@ border-style: solid;
 
 
 /*Gallery CSS*/
-
-
-.block {
-  overflow: hidden;
-  width: 800px;
-  margin: 50px auto;
-  background: #fff;
-}
-.animation {
-  width: auto;
-  height: 100px;
-  font-size: 0px;
-}
-.animation div {
-  display: inline-block;
-  width: auto;
-  float: none;
-  padding: 0 10px;
-}
-
-
-
-/* FEATURED ECOBRICKS GALLERY FORMATING */
-
-.brik-co2 {
-    font-size: 0.7em;
-    color: white;
-    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
-    margin-top: -60px;
-    text-align: left;
-    padding: 0px 0px 10px 20px;
-    background-color: black !important;
-}
-
-
-
-
-.photo-box-end a {
-	color: #dfdfdf;
-	text-decoration: none;}
-
-
-    @media screen and (min-width: 700px) { 
-.feed-live {
-width: 100%;
-text-align: center;
-line-height: 1.5;
-margin: auto;
-padding: 10px;
-background-color: #DFDFDF;
-margin-bottom: 35px;
-}
-
-.feed-live p {
-  font-size: .9em;
-  font-family: courier new,monospace !important;
-  color: #222;
-  line-height: 1.3;
-  margin-top: 5px;
-  font-weight: 300;
-
-}
-    }
-
-    @media screen and (max-width: 700px) { 
-.feed-live {
-width: 100%;
-text-align: center;
-padding: 10px;
-line-height: 1.5;
-background-color: #DFDFDF;
-margin-bottom: 25px;}
-
-.feed-live p {
-  font-size: .8em;
-  font-family: courier new,monospace !important;
-  color: #222;
-  line-height: 1.3;
-  margin-top: 5px;
-  font-weight: 300;
-
-}
-    }
-
-  </style>
+</style>
 
 
