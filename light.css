@@ -41,12 +41,6 @@
     background-size: contain;
 }
 
-.top-menu-login-button {
-    color:grey;
-    border-color:grey;
-}
-
-
 
 @media screen and (min-width: 701px) {
     .clouds-new2  {
@@ -66,9 +60,6 @@
   }
 
 /* light.css
-
-
-   
-/* light.css 
+light.css 
 --icon-filter_hover: invert(60%);*/
 
