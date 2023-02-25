@@ -9,7 +9,7 @@
     --h1: #fff;
     --top-header: #21232f;
     --gallery:  rgb(51, 52, 63);
-    --general-background: rgb(50, 51, 61);
+    --general-background: rgb(31, 32, 37);
     --general-background-highlight: rgb(33, 33, 39);
     --deeper-accent:  rgb(14, 14, 16);
     --header-accent: #a0c0d2fe;
@@ -21,6 +21,7 @@
     --button-2-1-over:#013a60;
     --button-2-2:#236d96;
     --button-2-2-over:#143952;
+    --shadow: #dad8d86b;
  }
 
  

@@ -97,7 +97,7 @@ margin: auto;
     z-index: 25;
 	position: relative;
 	background: var(--top-header);
-	box-shadow: 0px 0px 12px var(--text-color);	
+	box-shadow: 0px 0px 12px var(--shadow);	
     width: 100%;
 
 }
@@ -401,13 +401,13 @@ width: 60px;
   -webkit-border-radius: 8px 0px 0px 8px;
   -moz-border-radius: 8px 0px 0px 8px;
   border-radius: 8px 0px 0px 8px;
-  color: var(--general-background);
+  color: #fff;
   font-size: 20px;
+  font-weight: 700;
   padding: 10px 20px 10px 20px ;
   text-decoration: none;
   margin-top: 0px;
   margin-bottom: 12px;
-	font-weight: 700;
   border: none;
   margin-left: 3px;
 }
@@ -440,11 +440,12 @@ width: 60px;
   border-radius: 0px 8px 8px 0px;
   color: #fff;
   font-size: 20px;
+  font-weight: 700;
   padding: 10px 20px 10px 20px ;
   text-decoration: none;
   margin-top: 0px;
   margin-bottom: 12px;
-	font-weight: 700;
+
   border: none;
   margin-left: 3px;
 }
@@ -1221,7 +1222,7 @@ if (!$conn) {
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
 
             <div class="welcome-text">
-            Ecobricking is a great way to take personal responsibility for our plastic and transition from it to build our greenest visions.
+            GoBrik helps you manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.
             </div>
             <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
 
