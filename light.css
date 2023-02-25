@@ -11,9 +11,8 @@
     --gallery: grey;
     --general-background: rgb(232, 232, 232);
     --general-background-highlight: rgb(196, 195, 195);
-    --deeper-accent-color: rgb(148, 148, 148);
-    --header-accent-color: grey;
-    
+    --deeper-accent: rgb(148, 148, 148);
+    --header-accent: grey;
    }
    
 .gobrik-logo {
