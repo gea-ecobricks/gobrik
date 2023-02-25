@@ -1168,7 +1168,7 @@ if (!$conn) {
     -->
     
     <div class="gallery-header" >
-        <div class="gallery-live-text"><span class="blink">⬤ </span>50 latest authenticated ecobricks</div>
+        <div class="gallery-live-text"><span class="blink">⬤ </span>Latest authenticated ecobricks</div>
     </div>
    
 
@@ -1229,12 +1229,12 @@ if (!$conn) {
             <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
         
                 <div>
-                    <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home-login'" title="Click here to sign in" style="cursor:pointer;">
+                    <button type="button" aria-label="sign in" class="sign-innn" onclick="openKnack()" title="Click here to sign in" style="cursor:pointer;">
                     <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:4px;"></i>Sign in</button>
                 </div>
         
                 <div>
-                    <button type="button" aria-label="Sign up" onclick="location.href='go.php#signup'" class="sign-uppp" style="cursor:pointer;">Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
+                    <button type="button" aria-label="Sign up" onclick="openKnack()" class="sign-uppp" style="cursor:pointer;">Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
                 </div>
             </div>
             
