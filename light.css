@@ -60,6 +60,12 @@
   }
   }
 
+
+  .tree-coins {
+    background: url(../webp/2023-tree-day.webp) no-repeat;
+    background-size: contain;
+  }
+
 /* light.css
 light.css 
 --icon-filter_hover: invert(60%);*/

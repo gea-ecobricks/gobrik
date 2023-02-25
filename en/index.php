@@ -337,7 +337,7 @@ width: 60px;
    animation: fadeIn ease-in 0.25s;
    animation-duration: 0.25s;
    animation-fill-mode: forwards;
-   color:var(--text-color);
+   color:var(--h1);
    
 }
 
@@ -467,8 +467,6 @@ width: 60px;
         text-align: center;
         width: 400px;
         height: 400px;
-        background: url(../images/mangotreebluesky400px.png) no-repeat;
-        background-size: contain;
         margin: 0px auto 0px auto;
     
         /*opacity:0;
