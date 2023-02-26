@@ -48,8 +48,6 @@ migrated from Knack CSS
 }
 
 .vision-landscape {
-  background: url(../svgs/vision-day.svg) no-repeat center;
-  background-size: contain;
   z-index: 1;
   width: 100%;
   height:fit-content;
