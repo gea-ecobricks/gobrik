@@ -36,8 +36,8 @@
 <!-- Footer stylesheet -->
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?2.0">
 
-<!-- Knack Stylesheet 
-<link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.6">-->
+<!-- Knack Stylesheet -->
+<link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.6">
 
 <!-- CUSTOM PAGE SCRIPTS
 <script src="spring-javascript.js?v1.4" async></script> -->
