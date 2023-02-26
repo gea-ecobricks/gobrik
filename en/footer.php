@@ -2,7 +2,7 @@
 <!--FOOTER STARTS-->
 <div id="footer-full">
 		<div class="vision-clouds"></div>
-		<div class="vision-landscape"></div>
+		<div class="vision-landscape"><img src="../svgs/vision-day.webp" width="100%"></div>
 			
 		<div class="footer-vision">
 			
