@@ -53,7 +53,7 @@ migrated from Knack CSS
   height:fit-content;
   margin-bottom: -10px;
   margin-top: -100px;
-  background-color: var(--footer-background);
+  background-color: var(--general-background);
 }
 
 .row {  
