@@ -545,7 +545,7 @@ if (!$conn) {
     </div><!--closes gallery background-->
      
 
-    <div class="bio-top"><img src="../svgs/bio-top-day.webp" width="100%"></div>
+    <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" width="100%"></div>
             
     <div class="clouds-new2" style="padding-top:35px;">
         <div id="landing-content">

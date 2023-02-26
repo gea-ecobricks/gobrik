@@ -267,10 +267,10 @@ background-color: var(--gallery);
 .top-graphic {
       
       margin: auto;
-      margin-top: -60px;
+      /*margin-top: -60px;*/
         position: relative;
         z-index: 11;
-        margin-bottom: 0px;
+        margin-bottom: 25px;
         max-width: 80%;
         background: url(../webp/ecobrick-team-day.webp) no-repeat;
         background-size: contain;
