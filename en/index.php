@@ -595,7 +595,7 @@ transition: 0.3s;}
   z-index: 25;
   top: 0;
   left: 0;
-  overflow-y: hidden;
+  overflow-y: scroll;
   transition: 0.5s;
   display: flex;
 /*
@@ -613,8 +613,10 @@ transition: 0.3s;}
   justify-content: center;
   /*height:100%;*/
   margin: auto;
+  width: 100%;
 }
 
+/*
 @media screen and (max-width: 700px) {
   .knack-overlay-content {
     width: 88%; 
@@ -638,7 +640,7 @@ transition: 0.3s;}
     }
 }
 
-
+*/
 
 /* -------------------------------------------------------------------------- */
 
