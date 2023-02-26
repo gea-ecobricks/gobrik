@@ -26,9 +26,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.60996058"
-     inkscape:cx="278.70653"
-     inkscape:cy="36.067904"
+     inkscape:zoom="1.7252291"
+     inkscape:cx="225.47731"
+     inkscape:cy="119.98407"
      inkscape:window-width="1503"
      inkscape:window-height="934"
      inkscape:window-x="0"
@@ -578,7 +578,8 @@
        x2="78.428"
        y1="148.52"
        y2="109.12"
-       gradientUnits="userSpaceOnUse">
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0047885,0,-0.83894971)">
       <stop
          stop-color="#0ff"
          offset="0"
@@ -623,12 +624,13 @@
          clip-path="url(#clipPath7104)"
          id="g86444">
         <path
-           d="m26.234 173.24 117.83 1.9624 0.31193-66.024h-140.14v65.373"
+           d="m 26.234,173.2306 117.83,1.9718 0.31193,-66.34015 h -140.14 v 65.68603"
            fill="url(#linearGradient22915)"
            filter="url(#filter1073)"
            stroke="#0ff"
-           stroke-width=".50996px"
-           id="path86070" />
+           stroke-width="0.51118px"
+           id="path86070"
+           style="fill:url(#linearGradient22915);stroke:none" />
         <path
            d="m4.1548 139.46c0.84746-0.46165 5.8154 2.3472 10.426 2.7818 10.961 1.0332 26.844 0.91004 30.574-0.10606 2.3978-0.65332 9.0366-2.8325 11.459-3.8773 1.1986-0.51688 2.9568-0.62285 4.0751-1.3095 3.0352 4.7764 4.4789 6.9854 7.9526 8.8877l2.297 0.97239c2.6541-2.6768 5.4704 1.0888 7.3595 1.718l4.578-4.7126c1.9563-1.9648 5.0487-2.9741 9.3116-4.8423 5.1209 1.6464 7.2526 4.568 9.8494 6.1883 1.2755 0.79585 18.972 0.68555 30.911-0.61694 4.2284-0.46129 10.964-3.7997 11.509-3.5133l-0.19937 12.858-139.52 1.5805"
            fill="#97b7f5"
