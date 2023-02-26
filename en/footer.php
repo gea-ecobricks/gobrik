@@ -1,8 +1,8 @@
 
 <!--FOOTER STARTS-->
 <div id="footer-full">
-		<div id="vision-clouds"></div>
-		<div id="vision-landscape"><img src="../webp/vision-background-2022-footer.webp?v=1.4" width="100%" height="63%"; position="absolute"; bottom="0"; ></div>
+		<div class="vision-clouds"></div>
+		<div class="vision-landscape"></div>
 			
 		<div class="footer-vision">
 			

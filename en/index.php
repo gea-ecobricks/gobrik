@@ -39,7 +39,21 @@ AND UNIQUE to HTML Pages-->
 /*	1. FOOTER 
 migrated from Knack CSS
 /* -------------------------------------------------------------------------- */
+.vision-clouds {
+  background: url(../svgs/footer-clouds-desktop.svg) no-repeat center bottom;
+  background-size: contain;
+  z-index: 0;
+  width: 100%;
+  height: 20vh;
+}
 
+.vision-landscape {
+  background: url(../webp/vision-background-2022-footer.webp?v=1.4) no-repeat center;
+  background-size: contain;
+  z-index: 1;
+}
+
+ 
 .row {  
     display: flex;
     flex-wrap: wrap;
