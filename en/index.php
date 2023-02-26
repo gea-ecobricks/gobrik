@@ -48,12 +48,14 @@ migrated from Knack CSS
 }
 
 .vision-landscape {
-  background: url(../webp/vision-background-2022-footer.webp?v=1.4) no-repeat center;
+  background: url(../svgs/vision-day.svg) no-repeat center;
   background-size: contain;
   z-index: 1;
+  width: 100%;
+  height:67vh;
+
 }
 
- 
 .row {  
     display: flex;
     flex-wrap: wrap;
