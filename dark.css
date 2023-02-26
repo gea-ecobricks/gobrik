@@ -9,7 +9,7 @@
     --h1: #fff;
     --top-header: #21232f;
     --gallery:  rgb(51, 52, 63);
-    --general-background: rgb(31, 32, 37);
+    --general-background: rgb(24, 26, 39);
     --general-background-highlight: rgb(33, 33, 39);
     --deeper-accent:  rgb(14, 14, 16);
     --header-accent: #a0c0d2fe;
@@ -38,7 +38,7 @@
 }
 
 #top-settings-button:hover {
-    background: url(../svgs/settings-icon-over-dark.svg?v=2) no-repeat;
+    background: url(../svgs/settings-icon-over-dark.svg?v=2.1) no-repeat;
     background-size: contain;
 }
 
@@ -75,7 +75,7 @@
   }
   
   .tree-coins {
-    background: url(../webp/2023-tree-night.webp) no-repeat;
+    background: url(../webp/2023-tree-night.webp?v=1.1) no-repeat;
     background-size: contain;
   }
 

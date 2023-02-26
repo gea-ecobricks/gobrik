@@ -37,7 +37,7 @@ document.body.style.maxHeight = "unset";
 Triggers the right share link panel*/
 
 function openMenu() {
-  document.getElementById("left-menu-overlay").style.width = "100%";
+  document.getElementById("left-menu-overlay").style.width = "90%";
   document.body.style.overflowY = "hidden";
   //document.body.style.maxHeight = "101vh";
 
