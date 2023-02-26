@@ -80,6 +80,11 @@
   }
 
 
+  .bio-top {
+    background: url(../svgs/biosphere-top-day.svg) no-repeat center top;
+    background-size: cover;
+  }
+
 /* light.css
 light.css 
 --icon-filter_hover: invert(60%);*/

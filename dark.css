@@ -79,6 +79,10 @@
     background-size: contain;
   }
 
+  .bio-top {
+    background: url(../svgs/biosphere-top-night.svg) no-repeat center top;
+    background-size: cover;
+  }
 
 
   .virtue img {

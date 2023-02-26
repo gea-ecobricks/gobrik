@@ -255,12 +255,10 @@ width: 60px;
 
 
 .bio-top {
-  width:100vh;
-  background: url(../svgs/biosphere-top-day.svg) no-repeat center top;
-  background-size: cover;
+  width:100%;
 height: 20vh;
 margin-bottom: -200px;
-z-index: 20;
+z-index: 10;
 position: relative;
 }
 
@@ -270,7 +268,7 @@ position: relative;
       margin: auto;
       margin-top: -65px;
         position: relative;
-        z-index: 0;
+        z-index: 11;
         margin-bottom: -10px;
         max-width: 80%;
         background: url(../webp/ecobrick-team-day.webp) no-repeat;
