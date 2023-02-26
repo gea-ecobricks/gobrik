@@ -126,6 +126,7 @@ border: none;
 right: 0;
 left: 0;
 border: none;
+cursor:pointer;
 }
 
 
@@ -133,8 +134,10 @@ border: none;
 
 .top-menu-login-button {
     font-family:'Mulish';
+    background: none;
     border:0.5px;
     border-style:solid;
+
     border-radius:5px;
     margin: auto;
     margin-top:2px;
@@ -1211,7 +1214,7 @@ if (!$conn) {
 
  
             
-    <div class="clouds-new2">
+    <div class="clouds-new2" style="padding-top:35px;">
         <div id="landing-content">
 
             <!--<div class="top-graphic"><img src="../svgs/dolphin-top-optimized.svg" width="100%"></div>-->
