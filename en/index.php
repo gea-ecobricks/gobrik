@@ -295,23 +295,13 @@ width: 60px;
 .top-graphic {
       
       margin: auto;
-      margin-top: -75px;
+      margin-top: -65px;
         position: relative;
         z-index: 0;
         margin-bottom: -10px;
-        width: 500px;
-        max-width: 87%;
-        -webkit-animation-delay: 1.0s !important;
-        opacity:0;
-        -webkit-animation:fadeIn ease-in 0.25s;
-        -webkit-animation-duration:0.25s;
-        -webkit-animation-fill-mode:forwards;
-    
-        animation-delay: 1.0s; 
-        animation: fadeIn ease-in 0.25s;
-        animation-duration: 0.25s;
-        animation-fill-mode: forwards;
-
+        max-width: 80%;
+        background: url(../webp/ecobrick-team-day.webp) no-repeat;
+        background-size: contain;
     }
 
 
@@ -1219,7 +1209,7 @@ if (!$conn) {
     <div class="clouds-new2" style="padding-top:35px;">
         <div id="landing-content">
 
-            <!--<div class="top-graphic"><img src="../svgs/dolphin-top-optimized.svg" width="100%"></div>-->
+            <div class="top-graphic"></div>
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
 
@@ -1248,7 +1238,7 @@ if (!$conn) {
             <div class="tree-coins"></div>
 
             <div class="welcome-text">
-                Together we're securing plastic out of the biosphere to make building blocks, brikcoins and green spaces.
+                Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
             </div>
 
             <div class="tree-text">
