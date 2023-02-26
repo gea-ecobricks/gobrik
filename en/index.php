@@ -289,7 +289,12 @@ width: 60px;
 }
 
 
-
+.bio-top {
+  width:100vh;
+  background: url(../svgs/biosphere-top-day.svg) no-repeat center top;
+  background-size:contain;
+  height: 14vh;
+}
 
 
 .top-graphic {
@@ -302,6 +307,9 @@ width: 60px;
         max-width: 80%;
         background: url(../webp/ecobrick-team-day.webp) no-repeat;
         background-size: contain;
+        width: 536px;
+        height: 200px;
+
     }
 
 
@@ -1204,7 +1212,7 @@ if (!$conn) {
     </div><!--closes gallery background-->
      
 
- 
+    <div class="bio-top"></div>
             
     <div class="clouds-new2" style="padding-top:35px;">
         <div id="landing-content">
