@@ -44,7 +44,7 @@ migrated from Knack CSS
   background-size: contain;
   z-index: 0;
   width: 100%;
-  height: 20vh;
+  height: fit-content;
 }
 
 .vision-landscape {
@@ -53,7 +53,8 @@ migrated from Knack CSS
   z-index: 1;
   width: 100%;
   height:fit-content;
-
+  margin-bottom: -10px;
+  margin-top: -100px;
 }
 
 .row {  
