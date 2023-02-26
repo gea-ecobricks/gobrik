@@ -133,11 +133,8 @@ border: none;
 
 .top-menu-login-button {
     font-family:'Mulish';
-
-    background: none;
     border:0.5px;
     border-style:solid;
-
     border-radius:5px;
     margin: auto;
     margin-top:2px;
@@ -1119,14 +1116,14 @@ margin-left: auto;
 
         <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>
 
-		<div><button type="button" class="gobrik-logo" onclick="closeMenu()" aria-label="Return to Home page"></button></div>
+		<div><button type="button" class="gobrik-logo" onclick="closeKnack()" aria-label="Return to Home page"></button></div>
         
        
 		
         <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;"m>
           
             
-                <div><button type="button" class="top-menu-login-button" onclick="openKnack()" >
+                <div id="top-menu-login-button"><button type="button" class="top-menu-login-button" onclick="openKnack()" >
                     login
                 </button></div>
 
@@ -1217,7 +1214,7 @@ if (!$conn) {
     <div class="clouds-new2">
         <div id="landing-content">
 
-            <div class="top-graphic"><img src="../svgs/dolphin-top-optimized.svg" width="100%"></div>
+            <!--<div class="top-graphic"><img src="../svgs/dolphin-top-optimized.svg" width="100%"></div>-->
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
 
@@ -1238,7 +1235,7 @@ if (!$conn) {
                 </div>
             </div>
             
-            <div class="tree-text">Use your GoBrik account to sign in.<br>
+            <div class="tree-text">Use your GoBrik account to sign in.
             No account? Sign up for free!</div>
         
 

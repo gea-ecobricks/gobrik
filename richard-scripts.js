@@ -74,6 +74,7 @@ Triggers the right share link panel*/
 
 function openKnack() {
   document.getElementById("knack-overlay-curtain").style.height = "100%";
+  document.getElementById("top-menu-login-button").style.display = "none";
   document.body.style.overflowY = "hidden";
   //document.body.style.maxHeight = "101vh";
 
@@ -99,6 +100,7 @@ function focusRestrict ( event ) {
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeKnack() {
   document.getElementById("knack-overlay-curtain").style.height = "0%";
+  document.getElementById("top-menu-login-button").style.display = "block";
   document.body.style.overflowY = "unset";
   //document.body.style.maxHeight = "unset";
 
