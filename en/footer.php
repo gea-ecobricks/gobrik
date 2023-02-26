@@ -1,7 +1,7 @@
 
 <!--FOOTER STARTS-->
 <div id="footer-full">
-		<div class="vision-clouds"><img src="../svgs/footer-clouds-desktop.webp" width="100%"></div>
+		<!--<div class="vision-clouds"><img src="../svgs/footer-clouds-desktop.webp" width="100%"></div>-->
 		<div class="vision-landscape"><img src="../svgs/vision-day.webp" width="100%"></div>
 			
 		<div class="footer-vision">
