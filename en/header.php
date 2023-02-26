@@ -30,11 +30,14 @@
 
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 	
+<!-- Main Landing stylesheet -->
+<link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.0">
+
 <!-- Primary stylesheet -->
 <link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">
 
-<!-- Footer stylesheet -->
-<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?2.0">
+<!-- Footer stylesheet 
+<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?2.0">-->
 
 <!-- Knack Stylesheet -->
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.6">
