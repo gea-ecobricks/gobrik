@@ -30,9 +30,9 @@
 
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 	
-<!-- Primary stylesheet 
+<!-- Primary stylesheet -->
 <link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">
--->
+
 <!-- Footer stylesheet -->
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?2.0">
 
