@@ -55,6 +55,7 @@ migrated from Knack CSS
   height:fit-content;
   margin-bottom: -10px;
   margin-top: -100px;
+  background-color: var(--footer-background);
 }
 
 .row {  
@@ -110,7 +111,7 @@ migrated from Knack CSS
     color:#b0fff7;
     font-weight: 500;
     text-align: center;
-    background-color: #252b4d;
+    background-color: var(--footer-background);
     padding-top: 36px;
     padding-bottom: 50px;
   }
@@ -141,7 +142,7 @@ migrated from Knack CSS
     font-family: Arvo, serif;
     color:   #a8aab8;
     text-align: center;
-    background-color: #252b4d;
+    background-color: var(--footer-background);
   }
   
   .footer-invite a {
@@ -179,7 +180,7 @@ migrated from Knack CSS
   .footer-icons-container {
   
     padding-bottom: 0px;
-    background-color: #252b4d;
+    background-color: var(--footer-background);
     display: flex;
     align-items: stretch;
     flex-direction: row;
@@ -269,7 +270,7 @@ migrated from Knack CSS
     padding-bottom: 40px;
     padding-right: 5%;
     padding-left: 5%;
-    background-color: #252b4d;
+    background-color: var(--footer-background);
     display: flex;
     align-items: stretch;
     flex-direction: row;
@@ -349,7 +350,7 @@ migrated from Knack CSS
   .footer-bottom {
     width: 100%;
     padding-bottom: 50px;
-    background-color: #252b4d;
+    background-color:var(--footer-background);
     margin-bottom: -20px;
   }
   
@@ -360,7 +361,7 @@ migrated from Knack CSS
     font-weight: 500;
     text-align: center;
   
-    background-color: #252b4d;
+    background-color: var(--footer-background);
     padding-top: 5px;
     padding-bottom: 20px;
   

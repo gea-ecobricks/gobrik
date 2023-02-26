@@ -24,6 +24,7 @@
     --button-2-2-over:#3498db;
     --shadow: rgba(57, 57, 57, 0.613);
     
+    --footer-background: #252b4d;
 
 
 
@@ -84,6 +85,12 @@
     background: url(../svgs/biosphere-top-day.svg) no-repeat center top;
     background-size: cover;
   }
+
+  .vision-landscape {
+    background: url(../svgs/vision-day.svg) no-repeat center;
+    background-size: contain;
+  }
+
 
 /* light.css
 light.css 
