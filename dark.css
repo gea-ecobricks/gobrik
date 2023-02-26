@@ -23,6 +23,8 @@
     --button-2-2-over:#143952;
     --shadow: #8484846b;
     --night: #13162b;
+
+    --footer-background: #111735ff;
  }
 
  
@@ -82,6 +84,11 @@
   .bio-top {
     background: url(../svgs/biosphere-top-night.svg) no-repeat center top;
     background-size: cover;
+  }
+
+  .vision-landscape {
+    background: url(../svgs/vision-night.svg) no-repeat center;
+    background-size: contain;
   }
 
 
