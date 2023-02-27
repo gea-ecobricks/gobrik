@@ -31,21 +31,21 @@
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 	
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.2">
+<link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.3">
 
-<!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">
+<!-- Primary stylesheet 
+<link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">-->
 
 <!-- Footer stylesheet 
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?2.0">-->
 
-<!-- Knack Stylesheet -->
-<link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.6">
+<!-- Knack Stylesheet 
+<link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.6">-->
 
 <!-- CUSTOM PAGE SCRIPTS
 <script src="spring-javascript.js?v1.4" async></script> -->
 
-<link rel="preload" href="../light.css?v2.7" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../light.css?v2.8" as="style" onload="this.rel='stylesheet'">
 <link rel="preload" href="../acessibilidade.css" as="style" onload="this.rel='stylesheet'">
 
 
@@ -53,8 +53,8 @@
 <script src="../richard-scripts.js?v=1.0"></script>
  <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
  
-<link rel="stylesheet" href="../light.css?v2.7" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
- <link rel="stylesheet" href="../dark.css?v2.7" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v2.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+ <link rel="stylesheet" href="../dark.css?v2.8" media="(prefers-color-scheme: dark)">
  
 
 
