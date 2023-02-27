@@ -14,26 +14,11 @@ Special Ecobrick View Page: v.1.0.1-->
 
 <?php require_once ("header.php");?>
 
-<?php
-   
-$servername = "localhost";
-$username = "ecobricks_brikchain_viewer";
-$password = "desperate-like-the-Dawn";
-$dbname = "ecobricks_gobrik_msql_db";
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-?>
 
 <!-- ENGLISH ECOBRICK DETAILS PAGE -->
 
 <?php
 
-include 'ecobricks_env.php';
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];
@@ -362,21 +347,55 @@ margin-bottom: 31px;}
 
 
 											  
-<BODY id="full-page">
 
-	  <div id="load-background">
+<body id="full-page" class="accessibility-plugin-ac">
+
+				
+
+	<div id="header" class="top-menu">
+
+
+        <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>
+
+		<div><button type="button" class="gobrik-logo" onclick="closeKnack()" aria-label="Return to Home page"></button></div>
         
-	<!-- This loads the page's language specific menu -->
+       
+		
+        <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;"m>
+          
+            
+                <div id="top-menu-login-button"><button type="button" class="top-menu-login-button" onclick="openKnack()" >
+                    login
+                </button></div>
+
+                <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
+
+               <!-- <div><button type="button" style="background: none;border: none;" class="settings-">
+                    <img src="../svgs/language-button2.svg" height="30px">
+                </button></div>-->
+                   
+		    </div>
+        </div>
+    </div> 
 
 
-							  
-											  
+<?php
+   
+$servername = "localhost";
+$username = "ecobricks_brikchain_viewer";
+$password = "desperate-like-the-Dawn";
+$dbname = "ecobricks_gobrik_msql_db";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 
-
+?>
  
 <?php 
 
-include '../ecobricks_env.php';
 
 include '../ssp.class.php';
 
