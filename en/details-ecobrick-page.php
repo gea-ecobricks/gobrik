@@ -1,52 +1,368 @@
+
 <!DOCTYPE html>
-<html>
-<head>
 <?php $lang='en';?>
+
+<head lang="en">
+
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+<!--PAGE LANGUAGE:  ENGLISH
+Special Ecobrick View Page: v.1.0.1-->
 
-<!-- Meta tags for page display and search engine listing
-AND UNIQUE to HTML Pages--> 
-
-<title>GoBrik</title>
-<meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
-<meta name="description" content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.">
-<meta name="author" content="Global Ecobrick Alliance">
-
-<!-- Facebook Open Graph Tags for social sharing-->
-
-<meta property="og:url"           content="https://www.gobrik.com/<?php echo $lang; ?>">
-<meta property="og:type"          content="app">
-<meta property="og:title"         content="GoBrik">
-<meta property="og:description"   content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions." >
-<meta property="og:image"         content="https://www.gobrik.com/images/social-banner-1200px.png" >
-<meta property="fb:app_id"  content="1781710898523821" >
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="1000" />
-<meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above"/>
-<meta property="og:locale" content="en_GB, id_ID, es_ES" />
-
-<link rel="preload" as="image" href="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg">
+<!--Content Page template: v.1.0.0-->
 
 
 
 <?php require_once ("header.php");?>
- 
-<style>
+
+<?php
+   
+$servername = "localhost";
+$username = "ecobricks_brikchain_viewer";
+$password = "desperate-like-the-Dawn";
+$dbname = "ecobricks_gobrik_msql_db";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+?>
+
+<?php include '../ssp.class.php';?>
+
+<!-- ENGLISH ECOBRICK DETAILS PAGE -->
+
+<?php
+
+// Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
+$serialNo = $_GET['serial_no'];
+
+// Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
+$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = " . $serialNo;
+
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+	
+    //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
+    while($array = $result->fetch_assoc()) {
+
+		echo '<title>Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .'g of plastic sequestered by '. $array["owner"] .' in '. $array["location_full"] .'.</title>';
+
+        echo '<meta name="description" content="An authenticated ecobrick that was published and archived on the brikcoin manual blockchain on ' . $array["last_validation_ts"] .'">';
+
+        if ( isset($array["vision"]) && $array["vision"] != '' ) {
+            echo '<meta name="description" content="'. $array["vision"] .'">';
+    
+        }
+
+		echo '<meta name="keywords" content="ecobrick, serial '. $array["owner"] .', '. $array["owner"] .', brikchain, brikcoin, brik record, plastic sequestration, recycling, alternative, sequestration of plastic, plastic offsetting, aes plastic, carbon sequestration. '. $array["location_full"] .'">';
+
+        echo '<meta property="og:url"           content="https://ecobricks.org/en/details-ecobrick-page.php?serial_no='. $array["serial_no"] .'"/>' ;
+        echo '<meta property="og:title"         content="Ecobrick '. $array["serial_no"] .' | '. $array["weight_g"] .'g of plastic sequestered by '. $array["owner"] .' in '. $array["location_full"] .'.">';
+        echo '<meta property="og:description"   content="An authenticated ecobrick that was published and archived on the brikcoin manual blockchain on ' . $array["last_validation_ts"] .'"/>';
+        echo '<meta property="og:image"         content="'. $array["ecobrick_full_photo_url"] .'"/>';
+        echo '<meta property="og:image:alt"     content="The brikchain record of an authenticated ecobrick on the brikchain"/>';
+        echo '<meta property="og:locale" content="en_GB" />';
+        echo '<meta property="og:type"          content="website">';
+ 	   
+
+        echo '<meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Ecobricks.org" />
+        <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
+        <meta property="article:modified_time" content="'. $array["last_validation_ts"] .'" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="author" content="Global Ecobrick Alliance" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:label1" content="Est. reading time" />
+        <meta name="twitter:data1" content="15 minutes" /> ';
+
+    }
+
+} else {
+    echo '<META NAME="robots" CONTENT="noindex">';
+    echo '<title>No Ecobrick Found | Ecobricks.org</title>';
+    echo '<meta name="description" content="No data found for this ecobrick serial number.  Most likely this is because the brikchain data is still in migration."> ';
+}
+$conn->close();
+
+?>
+
+<!-- Required script for something?? -->
 
 
-  
-  
-  
+<STYLE>
+
+
+.vision-quote {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #222222;
+  font-weight: 300;
+  text-shadow: 0 0 10px #fff;
+}
+@media screen and (max-width: 769px) {
+	.vision-quote {
+      font-size: 2.4em;
+      line-height: 1.2;
+      padding: 10px 6% 0px 6%;
+	  margin-bottom: -18px;
+  }
+}
+@media screen and (min-width: 769px) {
+	.vision-quote {
+      font-size: 4em;
+      line-height: 1.3;
+      padding: 15px;
+	  margin-top: -40px;
+	  margin-bottom: -20px;
+  }
+}
+
+/* Sidebar/right column */
+
+.row-details {  
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 700px) {
+.main-details {
+  flex: 60%;
+
+  padding: 0px;
+  box-sizing: border-box;
+}
+}
+
+@media screen and (max-width: 700px) {
+.main-details {
+  flex: 100%;
+  box-sizing: border-box;
+}
+}
+
+@media screen and (min-width: 700px) {
+	.side-details {
+	flex: 40%;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	background: #ECECEC;
+	padding: 10px;
+	height: fit-content;
+		}
+	}
+
+@media screen and (max-width: 700px) {
+	.side-details {
+	flex: 90%;
+	margin: 0px 5% 0px 5%;
+	box-sizing: border-box;
+	background: #ECECEC;
+	padding: 10px;
+	
+	
+	}
+	}
+
+#data-chunk {margin: 16px;}
+
+	
+@media screen and (max-width: 700px) { 
+	.splash-content-block {
+		text-align: left;
+		min-height: 73vh;
+		padding: 50px 5% 25px 5%;
+		margin-bottom: 0px;
+		z-index: 5;
+       
+		background: url(https://ecobricks.org/svgs/brik-market-banner3.svg) bottom;
+        background-color: #2A91DA;
+		
+    	background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: 45px;
+		width: 100%;
+		display: flex;
+ 		box-sizing: border-box;
+		flex-direction: column;
+	position: relative;
+
+	}
+}
+
+@media screen and (min-width: 700px) { 
+	.splash-content-block {
+		text-align: left;
+		min-height: 70vh;
+		padding: 0px 7% 0px 7%;
+		z-index: 5;
+		position: relative;
+		
+        
+		background: url(https://ecobricks.org/svgs/brik-market-banner3.svg) bottom;
+        background-color: #2A91DA;
+		
+    	background-repeat: no-repeat;
+		margin: -3px 0 -20px 0;
+		display: flex;
+ 		 flex-wrap: wrap;
+ 		 box-sizing: border-box;
+		  flex-direction: row;
+		  width: 100%;
+		  background-size: cover;
+
+	position: relative;
+
+
+}
+}
+
+
+@media screen and (min-width: 700px) { 
+.splash-image {
+  z-index: 5;
+  position: relative;
+  text-align: center;
+  flex: 35%;
+	padding: 0px;
+	box-sizing: border-box;
+	margin: auto;
+}
+}
+
+
+@media screen and (min-width: 700px) { 
+.splash-box {
+  z-index: 5;
+  position: relative;
+  flex: 65%;
+	padding: 10px 30px 0px 0px;
+	box-sizing: border-box;
+	text-align: left;
+    margin: auto;
+}
+}
+
+
+
+@media screen and (max-width: 700px) { 
+.splash-image {
+  z-index: 5;
+  position: relative;
+  text-align: left;
+
+  width: 100%;
+	padding: 0px;
+	box-sizing: border-box;
+	margin: 32px 8% -25px 4%;
+}
+}
+
+
+
+@media screen and (max-width: 700px) { 
+.splash-box {
+	position: relative;
+    flex: 100%;
+	padding: 10px 10px 0px 0px;
+	box-sizing: border-box;
+	text-align: right;
+    margin: auto;
+}
+}
+
+
+
+.splash-heading { 
+    /*font-family: 'Mulish', Arial, Helvetica, sans-serif;*/
+    font-family: Arvo, serif;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 0 8px black;
+
+}
+
+@media screen and (max-width: 700px) {
+	.splash-heading {
+      font-size: 3.0em;
+      line-height: 1.1;
+      margin: 10px 0;
+  }
+}
+
+@media screen and (min-width: 700px) {
+	.splash-heading {
+      font-size: 4em;
+      line-height: 1.3;
+      margin: 40px 0 10px;
+  }
+}
+
+
+.splash-sub {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #fff;
+  /*text-shadow: 0px 0px 10px #fff;*/
+  margin: 15px 0;
+  text-shadow: 0 0 7px black;
+}
+
+@media screen and (max-width: 700px) {
+	.splash-sub {
+		font-size: 1.25em;
+		line-height: 1.25;
+		font-weight: 400;
+  }
+}
+@media screen and (min-width: 700px) {
+	.splash-sub {
+		font-size: 2.5em;
+		line-height: 1.3;
+		font-weight: 400;
+  }
+}
+
+
+#splash-bar {
+	margin-top: -50px;
+	width: 100%;
+	
+	height:100px;	
+	
+	position: relative;
+	z-index: 0;
+
+box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
+    background-color: #2A91DA;
+
+	-webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+	margin-bottom: 40px;
+
+}
+
+hr {border: gray;
+border-style: dashed;
+border-width: 1px;
+margin-top: 31px;
+margin-bottom: 31px;}
+
+
+
+
+
 </style>
 
 </head>
 
 
- 
+											  
 
-<?php include '../ecobrick_env.php';?> 
-
-  
 <body id="full-page" class="accessibility-plugin-ac">
 
 				
@@ -78,122 +394,15 @@ AND UNIQUE to HTML Pages-->
     </div> 
 
 
-<?php
-   
-$servername = "localhost";
-$username = "ecobricks_brikchain_viewer";
-$password = "desperate-like-the-Dawn";
-$dbname = "ecobricks_gobrik_msql_db";
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
 
-?>
-
-<!-- FULL GALLERY
-
-<div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
-    -->
-    
-    <div class="gallery-header" >
-        <div class="gallery-live-text"><span class="blink">⬤ </span>Latest authenticated ecobricks</div>
-    </div>
-   
+							  
+											  
 
 
-   <div class="gallery-background">
-  <!-- <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>-->
-            
-        <div class="gallery-content-block">
-            
-            <div class="flex-container">
-
-                <?php
-
-                $sql = "SELECT * FROM vw_gallery_feed ;";
-                $result = $conn->query($sql);
-                if ($result->num_rows > 0) {
-                    array_reverse($result);
-                // output data of each row
-                while( $row= $result->fetch_assoc()) {
-
-                echo '
-                <div class="gal-photo">
-                    <div class="photo-box">
-                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1.1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"/></a>
-                    </div>';
-            
-                echo '
-                    <!--<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
-                    </div>-->
-                </div>';
-                }
-
-                } else {
-                echo "Failed to connect to the Brikchain database";
-                }
-
-                ?>
-
-            </div>
-        </div><!--closes gallery content block-->
-    </div><!--closes gallery background-->
-     
-
-    <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" width="100%"></div>
-            
-    <div class="clouds-new2" style="padding-top:35px;">
-        <div id="landing-content">
-
-            <div class="top-graphic"><img src="../webp/ecobrick-team-blank.webp" width="100%"></div>
-
-            <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
-
-            <div class="welcome-text">
-            GoBrik helps you manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.
-            </div>
-            <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
-
-            <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
-        
-                <div>
-                    <button type="button" aria-label="sign in" class="sign-innn" onclick="openKnack()" title="Click here to sign in" style="cursor:pointer;">
-                    <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:4px;"></i>Sign in</button>
-                </div>
-        
-                <div>
-                    <button type="button" aria-label="Sign up" onclick="openKnack()" class="sign-uppp" style="cursor:pointer;">Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
-                </div>
-            </div>
-            
-            <div class="tree-text">Use your GoBrik account to sign in.
-            No account? Sign up for free!</div>
-        
-
-      
-            <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" width="100%"></div>
-
-            <div class="welcome-text">
-                Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
-            </div>
-
-            <div class="tree-text">
-                GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
-            </div>
-
-            <div class="aes-logos">
-            <img src="../svgs/aes-brk.svg" style="width: 200px;">
-            </div>
-           <!-- <h6>Learn some more about<br><a href="#ecobricks">Ecobricks</a>, <a href="#gea">the GEA</a>, <a href="#brikcoins">Brikcoins</a> and <a href="#aes">AES Plastic Offsets</a></h6>-->
-        </div><!--closes Landing content-->
-    </div>
-
-    <?php require_once  '../ssp.class.php';?>
  
 <?php 
+
+
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];
@@ -444,40 +653,15 @@ echo '
 
 
 	<!--FOOTER STARTS HERE-->
-<?php require_once ("settings-curtain.php");?>
 
-<?php require_once ("menu-curtain.php");?>
-
-<?php require_once ("knack-curtain.php");?>
+	<?php require_once ("footer.php");?>
 
 
-<div style="z-index:5;">
-<!-- sets footer of page:  be sure to add page name-->
-<?php require_once ("footer.php");?>
+<!-- CUSTOM PAGE SCRIPTS-->
 
+<!-- This script is for pages that use the accordion content system
+<script src="accordion-scripts.js" defer></script>-->
 
-
-        </div>
-
-    
-   
-    <?php require_once ("settings-curtain.php");?>
-
-    <?php require_once ("menu-curtain.php");?>
-
-    <?php require_once ("knack-curtain.php");?>
-    
-
-    <div style="z-index:5;">
-    <!-- sets footer of page:  be sure to add page name-->
-    <?php require_once ("footer.php");?>
-
-    
-
-            </div>
-
-        
-  
 
 </div>
 </body>
