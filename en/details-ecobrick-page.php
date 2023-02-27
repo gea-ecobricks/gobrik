@@ -29,6 +29,10 @@ if (!$conn) {
 
 ?>
 
+<?php 
+
+include '../ssp.class.php';?>
+
 <!-- ENGLISH ECOBRICK DETAILS PAGE -->
 
 <?php
