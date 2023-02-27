@@ -18,7 +18,7 @@ Special Ecobrick View Page: v.1.0.1-->
    
 $servername = "localhost";
 $username = "ecobricks_brikchain_viewer";
-$password = "desperate-like-the-Dawns";
+$password = "desperate-like-the-Dawn";
 $dbname = "ecobricks_gobrik_msql_db";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -774,7 +774,7 @@ echo '
 			<div class="splash-heading">';
 	
 			echo 'Sorry! :-(</div>
-			<div class="splash-sub">No results for ecobrick '. $serialNo .' in the Brikchain.  Most likely this is because the Brikchain data is still in migration.</div>
+			<div class="splash-sub">No results for '. $array["weight_g"] .' ecobrick '. $serialNo .' in the Brikchain.  Most likely this is because the Brikchain data is still in migration.</div>
 		</div>
 		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>
