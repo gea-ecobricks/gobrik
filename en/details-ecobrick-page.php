@@ -551,6 +551,123 @@ border-radius: 5px;
 	
 	}
 	}
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	4. TYPOGRAPHY
+/* -------------------------------------------------------------------------- */
+
+
+p {
+	font-family: 'Mulish', sans-serif !important;
+	font-size: 15px !important;
+	font-weight: 300 !important;
+	-webkit-font-smoothing: antialiased !important;
+  	line-height: 1.5em !important;
+    color: var(--text-color);
+}
+
+b {	font-weight: 500 !important;}
+
+strong {font-weight: 500 !important;}
+
+
+h1 {
+	font-size: 28px !important;
+	font-family: 'Mulish', sans-serif !important;
+      text-align: center !important;
+	  line-height: 1.2 !important;
+	text-shadow: 0px 0px 10px #fff !important;
+	 font-weight: 300 !important;
+     color: var(--text-color);
+}
+
+h2 {
+	font-size: 29px;
+    font-family: 'Arvo', Georgia, serif !important;
+    text-align: center !important;
+	  line-height: 1.3 !important;
+	 font-weight: 400 !important;
+	text-shadow: 0px 0px 10px #fff !important;
+    color: var(--text-color);
+}
+
+h3 {
+    font-size: 22px !important;
+    font-family:'Mulish', sans-serif !important;
+    text-align: center !important;
+    line-height: 1.4 !important;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+h4 {
+	font-size: 17px !important;
+	font-family: 'Mulish', sans-serif !important;
+    text-align: center !important;
+          line-height: 1.4 !important;
+	    font-weight: 300 !important;
+        color: var(--text-color);
+}
+
+
+h5 {
+	font-size: 16px !important;
+    font-family: 'Arvo', serif;
+    text-align: center !important;
+  line-height: 1.3 !important;
+  color: var(--text-color);
+}
+
+h6 {
+	font-size: 16px !important;
+	font-family: 'Mulish', sans-serif !important;
+   /* text-align: center;*/
+  line-height: 1.4 !important;
+    font-weight: 300 !important;
+    color: var(--text-color);
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	5. Document Setup
+/* -------------------------------------------------------------------------- */
+
+
+
+.loader { 
+    z-index: 1;	
+    position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 90%;
+      z-index: 99;
+      background: url('svgs/bottle-loader.svg') center no-repeat;
+        box-sizing: border-box;
+     background-size: 38px;
+		
+	-webkit-animation-delay: 0s !important;
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 0.3s;
+	-webkit-animation-duration:0.3s;
+	-webkit-animation-fill-mode:forwards;
+
+  animation-delay: 0s; 
+  animation: fadeIn ease-in 0.3s;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+
+
+
 </style>
 
 </head>
@@ -867,36 +984,36 @@ echo '
 				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
-            <div class="flex-container">
+ <div class="flex-container">
 
-<?php
+                <?php
 
-$sql = "SELECT * FROM vw_gallery_feed ;";
-$result = $conn->query($sql);
-if ($result->num_rows > 0) {
-    array_reverse($result);
-// output data of each row
-while( $row= $result->fetch_assoc()) {
+                $sql = "SELECT * FROM vw_gallery_feed ;";
+                $result = $conn->query($sql);
+                if ($result->num_rows > 0) {
+                    array_reverse($result);
+                // output data of each row
+                while( $row= $result->fetch_assoc()) {
 
-echo '
-<div class="gal-photo">
-    <div class="photo-box">
-        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1.1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"/></a>
-    </div>';
+                echo '
+                <div class="gal-photo">
+                    <div class="photo-box">
+                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1.1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"/></a>
+                    </div>';
+            
+                echo '
+                    <!--<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
+                    </div>-->
+                </div>';
+                }
 
-echo '
-    <!--<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
-    </div>-->
-</div>';
-}
+                } else {
+                echo "Failed to connect to the Brikchain database";
+                }
 
-} else {
-echo "Failed to connect to the Brikchain database";
-}
+                ?>
 
-?>
-
-</div>
+            </div>
 
 
 		</div>
