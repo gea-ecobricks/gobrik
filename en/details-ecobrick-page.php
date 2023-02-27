@@ -12,9 +12,6 @@ Special Ecobrick View Page: v.1.0.1-->
 
 
 
-<?php require_once ("header.php");?>
-
-
 
 <!-- ENGLISH ECOBRICK DETAILS PAGE -->
 
@@ -31,7 +28,9 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
+include 'ecobricks_env.php';
 
+include 'ssp.class.php';
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];
@@ -84,7 +83,6 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 
-include 'ssp.class.php';
 
 ?>
 
