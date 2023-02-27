@@ -52,7 +52,7 @@ migrated from Knack CSS
   width: 100%;
   height:fit-content;
   margin-bottom: -10px;
-  margin-top: -100px;
+  /*margin-top: -100px;*/
   background-color: var(--general-background);
 }
 

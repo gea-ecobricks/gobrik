@@ -40,7 +40,7 @@
 }
 
 #top-settings-button:hover {
-    background: url(../svgs/settings-icon-over-dark.svg?v=2.1) no-repeat;
+    background: url(../svgs/settings-icon-over-dark.svg?v=2.2) no-repeat;
     background-size: contain;
 }
 
@@ -91,8 +91,8 @@
     background-size: contain;
   }
 
-
+/*
   .virtue img {
     filter: invert(100%);
   }
-
+*/
