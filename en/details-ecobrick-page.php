@@ -191,8 +191,7 @@ if (!$conn) {
         </div><!--closes Landing content-->
     </div>
 
-    <?php 
-require_once  'ssp.class.php';?>
+    <?php require_once  '../ssp.class.php';?>
  
 <?php 
 
