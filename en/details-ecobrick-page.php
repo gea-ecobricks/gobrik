@@ -774,7 +774,7 @@ echo '
 			<div class="splash-heading">';
 	
 			echo 'Sorry! :-(</div>
-			<div class="splash-sub">No results for '. $array["weight_g"] .' ecobrick '. $serialNo .' in the Brikchain.  Most likely this is because the Brikchain data is still in migration.</div>
+			<div class="splash-sub">No results for ecobrick '. $serialNo .' in the Brikchain.  Most likely this is because the Brikchain data is still in migration.</div>
 		</div>
 		<div class="splash-image"><img src="../webp/empty-ecobrick-450px.webp?v2" style="width: 80%; margin-top:20px;" alt="empty ecobrick"></div>	
 	</div>
@@ -804,6 +804,36 @@ echo '
 				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 				</div>
 			</div>
+             <div class="flex-container">
+
+                <?php
+
+                $sql = "SELECT * FROM vw_gallery_feed ;";
+                $result = $conn->query($sql);
+                if ($result->num_rows > 0) {
+                    array_reverse($result);
+                // output data of each row
+                while( $row= $result->fetch_assoc()) {
+
+                echo '
+                <div class="gal-photo">
+                    <div class="photo-box">
+                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1.1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"/></a>
+                    </div>';
+            
+                echo '
+                    <!--<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
+                    </div>-->
+                </div>';
+                }
+
+                } else {
+                echo "Failed to connect to the Brikchain database";
+                }
+
+                ?>
+
+            </div>
 
 			<div class="side">
 		  
@@ -837,7 +867,36 @@ echo '
 				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
+            <div class="flex-container">
 
+<?php
+
+$sql = "SELECT * FROM vw_gallery_feed ;";
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+    array_reverse($result);
+// output data of each row
+while( $row= $result->fetch_assoc()) {
+
+echo '
+<div class="gal-photo">
+    <div class="photo-box">
+        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1.1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"/></a>
+    </div>';
+
+echo '
+    <!--<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
+    </div>-->
+</div>';
+}
+
+} else {
+echo "Failed to connect to the Brikchain database";
+}
+
+?>
+
+</div>
 
 
 		</div>
