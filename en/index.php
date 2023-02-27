@@ -44,7 +44,7 @@ AND UNIQUE to HTML Pages-->
 
  
 
-<?php include '../ecobrick_env.php';?> 
+
 
   
 <body id="full-page" class="accessibility-plugin-ac">
@@ -79,6 +79,8 @@ AND UNIQUE to HTML Pages-->
 
 
 
+
+<?php include 'ecobrick_env.php';?> 
 
 <!-- FULL GALLERY
 

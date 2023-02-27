@@ -630,7 +630,7 @@ h6 {
    /* text-align: center;*/
   line-height: 1.4 !important;
     font-weight: 300 !important;
-    color: var(--text-color);
+     color: var(--text-color);
 }
 
 
@@ -984,36 +984,7 @@ echo '
 				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
- <div class="flex-container">
-
-                <?php
-
-                $sql = "SELECT * FROM vw_gallery_feed ;";
-                $result = $conn->query($sql);
-                if ($result->num_rows > 0) {
-                    array_reverse($result);
-                // output data of each row
-                while( $row= $result->fetch_assoc()) {
-
-                echo '
-                <div class="gal-photo">
-                    <div class="photo-box">
-                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1.1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"/></a>
-                    </div>';
-            
-                echo '
-                    <!--<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
-                    </div>-->
-                </div>';
-                }
-
-                } else {
-                echo "Failed to connect to the Brikchain database";
-                }
-
-                ?>
-
-            </div>
+ 
 
 
 		</div>
