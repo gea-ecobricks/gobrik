@@ -14,6 +14,20 @@ Special Ecobrick View Page: v.1.0.1-->
 
 <?php require_once ("header.php");?>
 
+<?php
+   
+$servername = "localhost";
+$username = "ecobricks_brikchain_viewer";
+$password = "desperate-like-the-Dawn";
+$dbname = "ecobricks_gobrik_msql_db";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+?>
 
 <!-- ENGLISH ECOBRICK DETAILS PAGE -->
 
@@ -379,23 +393,15 @@ margin-bottom: 31px;}
     </div> 
 
 
-<?php
-   
-$servername = "localhost";
-$username = "ecobricks_brikchain_viewer";
-$password = "desperate-like-the-Dawn";
-$dbname = "ecobricks_gobrik_msql_db";
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
 
-?>
+							  
+											  
+
+
  
 <?php 
 
+include '../ecobricks_env.php';
 
 include '../ssp.class.php';
 
