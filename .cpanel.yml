@@ -21,6 +21,8 @@ deployment:
     - /bin/cp spring-knack-stylesheet.css $DEPLOYPATH
     - /bin/cp spring-main-stylesheet.css $DEPLOYPATH
     - /bin/cp stylesheet-landing.css $DEPLOYPATH
+    - /bin/cp ssp.class.php $DEPLOYPATH
+
 
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp core.php $DEPLOYPATH
