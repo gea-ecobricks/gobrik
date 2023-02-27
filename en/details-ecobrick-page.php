@@ -14,8 +14,12 @@ Special Ecobrick View Page: v.1.0.1-->
 
 <?php require_once ("header.php");?>
 
+
+
+<!-- ENGLISH ECOBRICK DETAILS PAGE -->
+
 <?php
-   
+
 $servername = "localhost";
 $username = "ecobricks_brikchain_viewer";
 $password = "desperate-like-the-Dawn";
@@ -27,13 +31,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-?>
 
-<?php include '../ssp.class.php';?>
-
-<!-- ENGLISH ECOBRICK DETAILS PAGE -->
-
-<?php
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];
@@ -85,6 +83,8 @@ if ($result->num_rows > 0) {
     echo '<meta name="description" content="No data found for this ecobrick serial number.  Most likely this is because the brikchain data is still in migration."> ';
 }
 $conn->close();
+
+include 'ssp.class.php';
 
 ?>
 
@@ -651,7 +651,7 @@ echo '
 
 
 	<!--FOOTER STARTS HERE-->
-    <?php require_once ("settings-curtain.php");?>
+<?php require_once ("settings-curtain.php");?>
 
 <?php require_once ("menu-curtain.php");?>
 
