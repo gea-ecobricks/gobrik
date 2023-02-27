@@ -6,7 +6,7 @@
 
     <div class="overlay-content-settings">
         
-            <div class="compro-toggle">
+            <div class="compro-toggle" style="font-size:1.3em;padding 20px;">
                 <dark-mode-toggle
                 id="dark-mode-toggle-1"
                 legend=""
