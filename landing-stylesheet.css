@@ -254,13 +254,14 @@ width: 60px;
 
 
 .bio-top {
-  width:100%;
+width:100%;
 height: fit-content;
 margin-bottom: -160px;
 margin-top:-5px;
 z-index: 10;
 position: relative;
 background-color: var(--gallery);
+border:none;
 }
 
 
@@ -271,11 +272,10 @@ background-color: var(--gallery);
         position: relative;
         z-index: 11;
         margin-bottom: 25px;
-        max-width: 80%;
         background: url(../webp/ecobrick-team-day.webp) no-repeat;
         background-size: contain;
-        width: 536px;
-        height: 200px;
+        width: 100%;
+        height: fit-content;
 
     }
 
