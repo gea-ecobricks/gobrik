@@ -220,7 +220,7 @@ echo '
 			echo '
 			<br><hr><br> 
 			<div class="page-paragraph">
-				<h3><p>The Brikchain</p></h3>
+				<h2 style="text-align:left;text-shadow:none;">The Brikchain</h2>
 			
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
@@ -236,7 +236,7 @@ echo '
 			<div id="side-module-desktop-mobile">
 					<img src="pngs/authenticated-ecobrick.png" width="90%" alt="Following the Earths example through eco bricking">
 					<br><h4>Authenticated!</h4>
-					<h5>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</h5><br>
+					<p>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</p><br>
 					<a class="module-btn" href="/about">About Ecobricks</a>
 					<br><br>
 				</div>   ';
@@ -320,14 +320,14 @@ echo '
             <div id="side-module-desktop-mobile">
 				<img src="../webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<!--<h4>AES Plastic</h4>-->
-				<h5>The weight of the plastic inside an authenticated ecobrick is what we call Authenticated Ecobricked Plastic (AES plastic) for short.</h5><br>
+				<p>The weight of the plastic inside an authenticated ecobrick is what we call Authenticated Ecobricked Plastic (AES plastic) for short.</p><br>
 				<a class="module-btn" href="/aes" target="_blank">About AES</a><br><br>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="../webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
-				<h4>Brikcoins</h4>
-				<h5>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</h5><br>
+				<h2>Brikcoins</h2>
+				<p>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</p><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
 

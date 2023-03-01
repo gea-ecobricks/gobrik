@@ -409,7 +409,7 @@
         line-height: 1.3;
       margin-top: 12px;
       font-weight: 300;
-    background: aliceblue;
+    background: var(--notification);
   padding: 10px;
   border-radius: 5px;
   }
@@ -599,3 +599,23 @@
 }
 
 
+
+
+.action-btn-blue {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+font-family: 'Mulish', Arial, Helvetica, sans-serif;
+color: #fff;
+font-size: 20px;
+background: #2886C9;
+padding: 11px 17px;
+text-decoration: none;
+font-weight: 500;
+margin-top: 40px;
+}
+
+.action-btn:hover {
+  background: #2A91D9;
+  text-decoration: none;
+}
