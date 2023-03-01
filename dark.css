@@ -101,6 +101,7 @@
 
   #splash-bar {
     background-color: #103e5dff;
+    box-shadow: 0 8px 7px rgba(3, 3, 3, 0.4);
   }
 /*
   .virtue img {
