@@ -34,7 +34,7 @@
 <link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.6">
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../new-page-stylesheet.css?v1.2">
+<link rel="stylesheet" type="text/css" href="../new-page-stylesheet.css?v1.3">
 
 <!-- Primary stylesheet 
 <link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">-->
