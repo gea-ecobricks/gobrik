@@ -31,7 +31,10 @@
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 	
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.4">
+<link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.5">
+
+<!-- Main Landing stylesheet -->
+<link rel="stylesheet" type="text/css" href="../new-page-stylesheet.css?v1.0">
 
 <!-- Primary stylesheet 
 <link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">-->
