@@ -13,7 +13,7 @@
     <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;"m>
       
         
-            <div id="top-menu-login-button"><button type="button" class="top-menu-login-button" onclick="location.href='#header'" onclick="openKnack()" >
+            <div id="top-menu-login-button"><button type="button" class="top-menu-login-button"  onclick="openKnack()" >
                 login
             </button></div>
 
