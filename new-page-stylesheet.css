@@ -74,26 +74,28 @@
   #data-chunk {margin: 16px;}
   
       
+  .splash-content-block {
+
+    background: url(../svgs/brik-market-banner3.svg) bottom no-repeat;
+    background-size: cover;
+    text-align: left;
+    z-index: 5;
+    background-color: #2A91DA;
+    position: relative;
+    width: 100%;
+    display: flex;
+     box-sizing: border-box;
+  }
+
+
+
   @media screen and (max-width: 700px) { 
       .splash-content-block {
-          text-align: left;
           min-height: 73vh;
           padding: 50px 5% 25px 5%;
           margin-bottom: 0px;
-          z-index: 5;
-         
-          background: url(../svgs/brik-market-banner3.svg) bottom;
-          background-color: #2A91DA;
-          
-          background-repeat: no-repeat;
-          background-size: cover;
-          margin-top: 45px;
-          width: 100%;
-          display: flex;
-           box-sizing: border-box;
+           margin-top: 45px;
           flex-direction: column;
-      position: relative;
-  
       }
   }
   
@@ -102,25 +104,9 @@
           text-align: left;
           min-height: 70vh;
           padding: 0px 7% 0px 7%;
-          z-index: 5;
-          position: relative;
-          
-          
-          background: url(https://ecobricks.org/svgs/brik-market-banner3.svg) bottom;
-          background-color: #2A91DA;
-          
-          background-repeat: no-repeat;
           margin: -3px 0 -20px 0;
-          display: flex;
             flex-wrap: wrap;
-            box-sizing: border-box;
             flex-direction: row;
-            width: 100%;
-            background-size: cover;
-  
-      position: relative;
-  
-  
   }
   }
   
