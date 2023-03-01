@@ -88,9 +88,8 @@ $conn->close();
 
 <body id="full-page" class="accessibility-plugin-ac">
 
-<?php include 'top-menu';?>
+<?php include 'top-menu.php';?>
 
- 
 <?php 
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.

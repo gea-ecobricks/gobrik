@@ -36,7 +36,7 @@ deployment:
     - /bin/cp dark.css $DEPLOYPATH
     - /bin/cp accessibility.js $DEPLOYPATH
     - /bin/cp accessibilidade.css $DEPLOYPATH
-    - /bin/cp new-page-stylesheet.css $DEPLOYPATH
+     - /bin/cp new-page-stylesheet.css $DEPLOYPATH
     
 
 
