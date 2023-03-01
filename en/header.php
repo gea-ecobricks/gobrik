@@ -36,8 +36,8 @@
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../new-page-stylesheet.css?v1.5">
 
-<!-- Primary stylesheet 
-<link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">-->
+<!-- Primary stylesheet -->
+<link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">
 
 <!-- Footer stylesheet -->
 <link rel="stylesheet" type="text/css" href="../stylesheet-footer-new.css?2.0">
