@@ -425,8 +425,7 @@
       padding: 70px 20px 0px 20px;
       box-sizing: border-box;
       margin-top: -80px;
-      background: rgb(212,212,212);
-      background: linear-gradient(126deg, rgba(212,212,212,1) 10%, rgba(251,251,251,1) 71%);
+      background:var(--gallery);
     border-radius: 20px;
       }
       }
@@ -534,9 +533,9 @@
 	padding: 15px 15px 28px 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: #ECECEC;
+	background-color: var(--top)
 	text-align: center;
-	border-color: white;
+
 }
 
 @media screen and (max-width: 700px) {
