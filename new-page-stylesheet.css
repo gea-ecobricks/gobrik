@@ -222,9 +222,7 @@
       
       position: relative;
       z-index: 0;
-  
-  box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-  
+    
       -webkit-transform: skewY(-3deg);
     -moz-transform: skewY(-3deg);
     -ms-transform: skewY(-3deg);
@@ -425,7 +423,7 @@
       padding: 70px 20px 0px 20px;
       box-sizing: border-box;
       margin-top: -80px;
-      background:var(--gallery);
+      background:var(--top-header);
     border-radius: 20px;
       }
       }
@@ -533,7 +531,7 @@
 	padding: 15px 15px 28px 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: var(--top-header);
+	background-color: var(--gallery);
 	text-align: center;
 
 }
@@ -551,7 +549,7 @@
 	padding: 15px 15px 28px 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: var(--top-header);
+	background-color: var(--gallery);
   	text-align: center;
   
   }
