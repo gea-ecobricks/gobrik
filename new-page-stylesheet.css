@@ -608,7 +608,7 @@
 font-family: 'Mulish', Arial, Helvetica, sans-serif;
 color: #fff;
 font-size: 20px;
-background: #2886C9;
+background: var(--splash);
 padding: 11px 17px;
 text-decoration: none;
 font-weight: 500;
@@ -616,6 +616,5 @@ margin-top: 40px;
 }
 
 .action-btn:hover {
-  background: #2A91D9;
-  text-decoration: none;
+  background: var(--splash-over);
 }
