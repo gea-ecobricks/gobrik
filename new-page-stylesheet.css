@@ -533,7 +533,7 @@
 	padding: 15px 15px 28px 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: var(--top)
+	background-color: var(--top-menu);
 	text-align: center;
 
 }
@@ -551,9 +551,8 @@
 	padding: 15px 15px 28px 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: #ECECEC;
-	text-align: center;
-	border-color: white;
+	background-color: var(--top-menu);
+  	text-align: center;
   
   }
   
