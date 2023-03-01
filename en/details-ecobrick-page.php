@@ -1,18 +1,14 @@
 
 <!DOCTYPE html>
+
 <?php $lang='en';?>
 
 <head lang="en">
 
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
-<!--PAGE LANGUAGE:  ENGLISH
-Special Ecobrick View Page: v.1.0.1-->
-
-<!--Content Page template: v.1.0.0-->
-
-
 
 <?php require_once ("header.php");?>
+
 
 <?php
    
@@ -31,7 +27,6 @@ if (!$conn) {
 
 <?php include '../ssp.class.php';?>
 
-<!-- ENGLISH ECOBRICK DETAILS PAGE -->
 
 <?php
 
@@ -87,8 +82,6 @@ if ($result->num_rows > 0) {
 $conn->close();
 
 ?>
-
-<!-- Required script for something?? -->
 
 
 <STYLE>
@@ -347,53 +340,49 @@ box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
 }
 
 
+
+#side-module-desktop-only {
+	
+	border-radius: 12px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 15px 15px 28px 15px;
+	border-width: 1px;
+	text-align: center;
+	background-color: #ECECEC;
+	text-align: center;
+	border-color: white;
+}
+
+@media screen and (max-width: 700px) {
+  #side-module-desktop-only {   
+    display: none;
+  }
+}
+
+#side-module-desktop-mobile {
+	
+	border-radius: 12px;
+	margin-bottom: 20px;
+	padding: 15px 15px 28px 15px;
+	border-width: 1px;
+	text-align: center;
+	background-color: #ECECEC;
+	text-align: center;
+	border-color: white;
+  
+  }
+
+
 </style>
 
 </head>
 
-
-											  
-
 <body id="full-page" class="accessibility-plugin-ac">
 
-				
-
-	<div id="header" class="top-menu">
-
-
-        <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>
-
-		<div><button type="button" class="gobrik-logo" onclick="closeKnack()" aria-label="Return to Home page"></button></div>
-        
-       
-		
-        <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;"m>
-          
-            
-                <div id="top-menu-login-button"><button type="button" class="top-menu-login-button" onclick="openKnack()" >
-                    login
-                </button></div>
-
-                <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
-
-               <!-- <div><button type="button" style="background: none;border: none;" class="settings-">
-                    <img src="../svgs/language-button2.svg" height="30px">
-                </button></div>-->
-                   
-		    </div>
-        </div>
-    </div> 
-
-
-
-							  
-											  
-
-
- 
+<?php require_once ("header.php");?>
+							  								
 <?php 
-
-
 
 // Get the contents from the Ecobrick table as an ordered View, using the serial_no from the URL.
 $serialNo = $_GET['serial_no'];
