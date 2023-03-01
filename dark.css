@@ -4,7 +4,7 @@
 
 :root {
 
-    --side-overlays: rgb(34, 36, 52);
+    --side-overlays: rgb(47, 50, 72);
     --text-color: #c0c5e1ff;
     --h1: #fff;
     --top-header: #21232f;
@@ -94,7 +94,7 @@
   }
 
   .splash-content-block {
-  background: url(../svgs/brik-view-dark.svg?v=3) bottom no-repeat;
+  background: url(../svgs/brik-view-dark.svg?v=3.1) bottom no-repeat;
   background-size: cover;
   background-color: #103e5dff;
   }

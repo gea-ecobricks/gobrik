@@ -531,7 +531,7 @@
 	padding: 15px 15px 28px 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: var(--gallery);
+	background-color: var(--side-overlays);
 	text-align: center;
 
 }
@@ -549,7 +549,7 @@
 	padding: 15px 15px 28px 15px;
 	border-width: 1px;
 	text-align: center;
-	background-color: var(--gallery);
+	background-color: var(--side-overlays);
   	text-align: center;
   
   }
