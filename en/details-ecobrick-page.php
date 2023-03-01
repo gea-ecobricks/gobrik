@@ -284,10 +284,10 @@ echo '
 			
 			<div class="ecobrick-data">
 			<p>🚧 The data for ecobrick '. $serialNo .' has not yet been migrated to the blockchain.
-				</p></div><br><br><br><br>
+				</p></div><br><br>
 				
 				<div class="page-paragraph">
-				<p><h3>The Brikchain</h3></p>
+				<h2>The Brikchain</h2>
 			
 				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
