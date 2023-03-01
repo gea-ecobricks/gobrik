@@ -27,6 +27,8 @@
     --footer-background: #111735ff;
     --footer-text: #7ea9c2;
     --footer-header: #a8aab8;
+    --splash: #103e5dff;
+    --splash-over: #103e5dff;
  }
 
  
@@ -103,6 +105,10 @@
     background-color: #103e5dff;
     box-shadow: 0 8px 7px rgba(3, 3, 3, 0.4);
   }
+
+
+
+
 /*
   .virtue img {
     filter: invert(100%);
