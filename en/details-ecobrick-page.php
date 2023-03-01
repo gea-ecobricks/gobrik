@@ -338,19 +338,17 @@ echo '
 	</div>
 </div>
 
+<?php require_once ("settings-curtain.php");?>
+
+<?php require_once ("menu-curtain.php");?>
+
+<?php require_once ("knack-curtain.php");?>
 
 
-	<!--FOOTER STARTS HERE-->
-
-	<?php require_once ("footer.php");?>
-
-
-<!-- CUSTOM PAGE SCRIPTS-->
-
-<!-- This script is for pages that use the accordion content system
-<script src="accordion-scripts.js" defer></script>-->
-
-
+<div style="z-index:5;">
+<!-- sets footer of page:  be sure to add page name-->
+<?php require_once ("footer.php");?>
+</div>
 </div>
 </body>
 </html>

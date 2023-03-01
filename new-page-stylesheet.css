@@ -582,3 +582,24 @@
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
   }
+
+
+
+.module-btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  background: #a8a8a8;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  overflow-x: none;
+}
+
+.module-btn:hover {
+  background: #818181;
+  text-decoration: none;
+}
+
