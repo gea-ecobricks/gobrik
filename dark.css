@@ -94,7 +94,7 @@
   }
 
   .splash-content-block {
-  background: url(../svgs/brik-view-dark.svg) bottom no-repeat;
+  background: url(../svgs/brik-view-dark.svg?v=2) bottom no-repeat;
   background-size: cover;
   background-color: #103e5dff;
   }
