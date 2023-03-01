@@ -76,11 +76,9 @@
       
   .splash-content-block {
 
-    background: url(../svgs/brik-market-banner3.svg) bottom no-repeat;
-    background-size: cover;
+
     text-align: left;
     z-index: 5;
-    background-color: #2A91DA;
     position: relative;
     width: 100%;
     display: flex;
@@ -226,7 +224,6 @@
       z-index: 0;
   
   box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-      background-color: #2A91DA;
   
       -webkit-transform: skewY(-3deg);
     -moz-transform: skewY(-3deg);

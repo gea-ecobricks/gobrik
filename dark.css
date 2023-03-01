@@ -93,6 +93,15 @@
     background-size: contain;
   }
 
+  .splash-content-block {
+  background: url(../svgs/brik-view-dark.svg) bottom no-repeat;
+  background-size: cover;
+  background-color: #1a6396ff;
+  }
+
+  #splash-bar {
+    background-color: #1a6396ff;
+  }
 /*
   .virtue img {
     filter: invert(100%);
