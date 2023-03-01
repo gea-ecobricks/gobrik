@@ -202,14 +202,7 @@ if (!$conn) {
     <div style="z-index:5;">
     <!-- sets footer of page:  be sure to add page name-->
     <?php require_once ("footer.php");?>
-
-    
-
-            </div>
-
-        
-  
-
+    </div>
 </div>
 </body>
 </html>
