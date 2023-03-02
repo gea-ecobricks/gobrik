@@ -223,7 +223,7 @@ echo '
 			<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
 			<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 			</div>
-		</div>;
+		</div>';
 			
 			echo '	<div class="side">
 
