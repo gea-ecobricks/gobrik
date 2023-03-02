@@ -10,19 +10,19 @@
         <div class="menu-overlay-content">
               
               
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Home page</div>
+        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;" onclick="location.href='index.php'" aria-label="Go to top of page">Home page</div>
 
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Another page</div>
+        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Brikchain of Ecobricks</div>
         
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Another page</div>
+        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Brickhain of Coins</div>
         
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Another page</div>
+        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Search for Ecobricks</div>
         
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Another page</div>
+        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">GEA Open Books</div>
         
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Another page</div>
+        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Plastic Offsetting</div>
         
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Another page</div>
+        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Ecobricks.org</div>
         
         <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Another page</div>
         
