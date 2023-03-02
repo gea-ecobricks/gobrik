@@ -44,10 +44,10 @@
 <!--NEW STYLESHEETS-->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.6">
+<link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.7">
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../new-page-stylesheet.css?v1.5">
+<link rel="stylesheet" type="text/css" href="../new-page-stylesheet.css?v1.6">
 
 <!-- Footer stylesheet -->
 <link rel="stylesheet" type="text/css" href="../stylesheet-footer-new.css?2.0">
