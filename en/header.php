@@ -1,12 +1,18 @@
+<!-- GOBRIK.COM HTML HEADER v2.0-->
+
+<!-- This gets the name of the page.  This is then used for the custom metatags-->
+
 <?php
 	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
 	$name = $parts [count($parts)-1];
 	;?>
 
+<!-- Sets the language of the page for use in the meta tag link composition-->
+
 <?php $lang='en';?>
 
 
-<!-- preload key landing images  -->
+<!-- This preloads the above the fold key landing images  -->
 
 <link rel="preload" as="image" href="../svgs/gobrik-logo-dark.svg">
 <link rel="preload" as="image" href="../svgs/gobrik-logo-static.svg">
@@ -20,8 +26,6 @@
 <link rel="preload" as="image" href="../svgs/emblem-dark-over.svg">
 
 <!-- This calls our GEA typography -->
-
-<!-- This calls GEA typography -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,6 +62,7 @@
 
 
 <!--LEGACY Sheets to consolidate-->
+
 <!-- Primary stylesheet -->
 <link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">
 
@@ -66,23 +71,30 @@
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.6">
 
 
-<!-- CUSTOM PAGE SCRIPTS
 
+<!-- CUSTOM PAGE SCRIPTS-->
+
+<!--This is a script page with all the knack page controls.  Is it needed?? 
 <script src="spring-javascript.js?v1.4" async></script> -->
 
+<!--This enables accessibility text scaling on the page by the user-->
 <script src="../accessibility.js" defer></script>
 
+<!--These are the scripts for the new Richard Landing page-->
 <script src="../richard-scripts.js?v=1.0"></script>
 
+<!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
  
+<!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v2.94" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
- 
 <link rel="stylesheet" href="../dark.css?v2.94" media="(prefers-color-scheme: dark)">
  
 
 
-<!-- Global site tag (gtag.js) - Google Analytics 
+<!-- This doesn't seem to be working:
+
+Global site tag (gtag.js) - Google Analytics 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z5NZX7H9MB"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
