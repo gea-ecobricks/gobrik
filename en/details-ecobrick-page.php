@@ -8,7 +8,11 @@
 
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
+<!--This is our generic header that loads all the generic meta tags, stylesheets and scripts for the page-->
+
 <?php require_once ("header.php");?>
+
+<!-- This is the login information for the MYSQL database.  It is working.  And is already working on the index page -->
 
 
 <?php
@@ -26,9 +30,7 @@ if (!$conn) {
 
 ?>
 
-<?php include '../ssp.class.php';?>
-
-<!-- ENGLISH ECOBRICK DETAILS PAGE -->
+<!-- This accessess the ecobricks table, searches by serial number and should pull up the variables need to compose the unique meta tags of the pages -->
 
 <?php
 
