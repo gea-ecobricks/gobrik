@@ -3,14 +3,21 @@
 	$name = $parts [count($parts)-1];
 	;?>
 
+<?php $lang='en';?>
+
+
 <!-- preload key landing images  -->
 
-<link rel="preload" as="image" href="../svgs/gobrik-logo-3.svg">
-<link rel="preload" as="image" href="../svgs/top-clouds-desktop-static.svg?v1.1">
-<link rel="preload" as="image" href="../svgs/ashim-top-clouds-mobile.svg">
-<link rel="preload" as="image" href="../svgs/footer-clouds-desktop.svg">
-<link rel="preload" as="image" href="../svgs/footer-clouds-mobile.svg">
-<link rel="preload" as="image" href="../svgs/vision-footer-2022.svg">
+<link rel="preload" as="image" href="../svgs/gobrik-logo-dark.svg">
+<link rel="preload" as="image" href="../svgs/gobrik-logo-static.svg">
+<link rel="preload" as="image" href="../svgs/settings-icon.svg">
+<link rel="preload" as="image" href="../svgs/settings-icon-over.svg">
+<link rel="preload" as="image" href="../svgs/settings-icon-over-dark.svg">
+<link rel="preload" as="image" href="../svgs/settings-icon-dark.svg">
+<link rel="preload" as="image" href="../svgs/grey-emblem-button3.svg">
+<link rel="preload" as="image" href="../svgs/grey-emblem-button-over.svg">
+<link rel="preload" as="image" href="../svgs/grey-emblem-button3-dark.svg">
+<link rel="preload" as="image" href="../svgs/emblem-dark-over.svg">
 
 <!-- This calls our GEA typography -->
 
@@ -24,40 +31,54 @@
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
 </noscript>
 
+<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
 
 
-<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
-	
+
+<!--NEW STYLESHEETS-->
+
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.6">
 
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../new-page-stylesheet.css?v1.5">
 
+<!-- Footer stylesheet -->
+<link rel="stylesheet" type="text/css" href="../stylesheet-footer-new.css?2.0">
+
+
+<!--Default Light Styles to load first-->
+<link rel="preload" href="../light.css?v2.94" as="style" onload="this.rel='stylesheet'">
+
+<!--This enables text scaling-->
+<link rel="preload" href="../acessibilidade.css" as="style" onload="this.rel='stylesheet'">
+
+
+
+<!--LEGACY Sheets to consolidate-->
 <!-- Primary stylesheet -->
 <link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.8">
 
-<!-- Footer stylesheet -->
-<link rel="stylesheet" type="text/css" href="../stylesheet-footer-new.css?2.0">
 
 <!-- Knack Stylesheet -->
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.6">
 
+
 <!-- CUSTOM PAGE SCRIPTS
+
 <script src="spring-javascript.js?v1.4" async></script> -->
 
-<link rel="preload" href="../light.css?v2.94" as="style" onload="this.rel='stylesheet'">
-<link rel="preload" href="../acessibilidade.css" as="style" onload="this.rel='stylesheet'">
-
-
 <script src="../accessibility.js" defer></script>
+
 <script src="../richard-scripts.js?v=1.0"></script>
- <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+
+<script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
  
 <link rel="stylesheet" href="../light.css?v2.94" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
- <link rel="stylesheet" href="../dark.css?v2.94" media="(prefers-color-scheme: dark)">
+ 
+<link rel="stylesheet" href="../dark.css?v2.94" media="(prefers-color-scheme: dark)">
  
 
 

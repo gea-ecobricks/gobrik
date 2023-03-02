@@ -1,6 +1,8 @@
 
 <!DOCTYPE html>
-<?php $lang='en';?>
+
+<!--ENGLISH PAGE for grabbing the details of any ecobrick on the Brikchain and showing them on GoBrik.com-->
+
 
 <head lang="en">
 
