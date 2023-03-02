@@ -14,7 +14,7 @@
 
 <!-- This is the login information for the MYSQL database.  It is working.  And is already working on the index page -->
 
-<?php require_once ("../ecobrick-env.php");?>
+<?php require_once ("../ecobrick_env.php");?>
 
 
 <!-- This accessess the ecobricks table, searches by serial number and should pull up the variables need to compose the unique meta tags of the pages -->
