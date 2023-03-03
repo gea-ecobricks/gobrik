@@ -112,3 +112,6 @@
 light.css 
 --icon-filter_hover: invert(60%);*/
 
+.kn-login {
+  background: rgba(256, 256, 256, 0.7);
+}
