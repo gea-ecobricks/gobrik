@@ -126,7 +126,7 @@ if (!$conn) {
     <div class="clouds-new2" style="padding-top:35px;">
         <div id="landing-content">
 
-            <div class="top-graphic"><img src="../webp/ecobrick-team-blank.webp" width="100%"></div>
+            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" width="100%"></div>
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
 

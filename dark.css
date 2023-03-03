@@ -109,7 +109,13 @@
   }
 
 
+  .kn-info-bar {
+    background-color: black;
+  }
 
+  #view_1373 {
+    background: rgba(28, 31, 38, 0.7);
+  }
 
 /*
   .virtue img {

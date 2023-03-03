@@ -265,7 +265,7 @@ border:none;
 }
 
 
-.top-graphic {
+.main-landing-graphic {
       
       margin: auto;
         position: relative;
@@ -279,7 +279,7 @@ border:none;
     }
 
     @media screen and (max-width: 700px) { 
-      .top-graphic {
+      .main-landing-graphic {
         width: 90%;
         margin-top: 80px;
         margin-bottom: 10px;
@@ -287,7 +287,7 @@ border:none;
     }
 
     @media screen and (min-width: 700px) { 
-      .top-graphic {
+      .main-landing-graphic {
         width: 60%;
         margin-bottom: 25px;
       }
