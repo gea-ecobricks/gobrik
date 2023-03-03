@@ -311,7 +311,10 @@
   
   
   
-  
+  .lead-page-paragraph {
+    font-family: 'Arvo', serif;
+    font-weight: 300px;
+  }
    
   
   @media screen and (max-width: 700px) {
@@ -344,7 +347,7 @@
   
   @media screen and (min-width: 700px) {
       .lead-page-paragraph {
-        font-size: 1.4em;
+        font-size: 2em;
         line-height: 1.5;
         margin: 25px 10px 5px 10px;
     }

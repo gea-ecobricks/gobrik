@@ -81,6 +81,12 @@ $conn->close();
 
 <?php include 'top-menu.php';?>
 
+<?php require_once ("settings-curtain.php");?>
+
+<?php require_once ("menu-curtain.php");?>
+
+<?php require_once ("knack-curtain.php");?>
+
 <?php include ("../ecobrick_env.php");?>
 
 <?php 
@@ -137,7 +143,7 @@ echo '
 	
 			
 			echo '<div class="lead-page-paragraph">
-						<p><b>'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of used plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'.</b></p>
+						'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of used plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'.
 					</div>';
 
 	
@@ -333,11 +339,7 @@ echo '
 	</div>
 </div>
 
-<?php require_once ("settings-curtain.php");?>
 
-<?php require_once ("menu-curtain.php");?>
-
-<?php require_once ("knack-curtain.php");?>
 
 
 <div style="z-index:5;">
