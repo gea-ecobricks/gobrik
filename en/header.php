@@ -44,7 +44,7 @@
 <!--NEW STYLESHEETS-->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.7">
+<link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.8">
 
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../new-page-stylesheet.css?v1.6">

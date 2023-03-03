@@ -110,7 +110,7 @@
 
 
   .kn-info-bar {
-    background-color: black;
+    background: black !important;
   }
 
 
