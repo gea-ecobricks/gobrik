@@ -235,7 +235,7 @@ echo '
 
 			<div id="side-module-desktop-mobile">
 					<img src="../webp/auth-brik-455px.webp" width="90%" alt="Following Earths example through eco bricking">
-					<br><h4>Authenticated!</h4>
+					<br><h2>Authenticated!</h2>
 					<p>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</p><br>
 					<a class="module-btn" href="/about">About Ecobricks</a>
 					<br><br>

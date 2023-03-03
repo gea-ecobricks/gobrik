@@ -312,8 +312,9 @@
   
   
   .lead-page-paragraph {
-    font-family: 'Arvo', serif;
+    font-family: 'Arvo', Georgia, serif;
     font-weight: 300px;
+    color: var(--text-color)
   }
    
   
