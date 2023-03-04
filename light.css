@@ -50,6 +50,16 @@
     background-size: contain;
 }
 
+.top-down-button {
+  background: url(../up-arrow.svg) no-repeat;
+  background-size: contain;
+}
+
+#top-down-button:hover {
+  background: url(../svgs/down-arrow.svg) no-repeat;
+  background-size: contain;
+}
+
 .main-menu-button {
     background: url(../svgs/grey-emblem-button3.svg?v=2) no-repeat;
     background-size: contain;

@@ -23,11 +23,11 @@ strong {font-weight: 500 !important;}
 
 
 h1 {
-    font-size: 28px !important;
+    font-size: 2.4em !important;
     font-family: 'Mulish', sans-serif !important;
       text-align: center !important;
       line-height: 1.2 !important;
-    text-shadow: 0px 0px 10px #fff !important;
+    /*text-shadow: 0px 0px 10px #fff !important;*/
      font-weight: 300 !important;
      color: var(--text-color);
 }
@@ -232,7 +232,25 @@ cursor:pointer;
   
 }
 
-.top-settings-button:hover  {
+.top-close-button:hover  {
+  border: none; 
+  margin-right:10px;
+  cursor:pointer;
+  height:30px;
+  width:30px;
+}
+
+
+.top-close-button  {
+  border: none; 
+  margin-right:10px;
+  cursor:pointer;
+  height:30px;
+  width:30px;
+  
+}
+
+.top-close-button:hover  {
   border: none; 
   margin-right:10px;
   cursor:pointer;

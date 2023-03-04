@@ -51,6 +51,16 @@
     background-size: contain;
 }
 
+.top-down-button {
+  background: url(../up-arrow-night.svg) no-repeat;
+  background-size: contain;
+}
+
+#top-down-button:hover {
+  background: url(../svgs/down-arrow-night.svg) no-repeat;
+  background-size: contain;
+}
+
 
 .main-menu-button {
     background: url(../svgs/grey-emblem-button3-dark.svg?v=2) no-repeat;
