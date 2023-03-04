@@ -1636,8 +1636,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
 #kn-scene_1821 #kn-scene_1827 #kn-scene_1825 #kn-scene_1818 #kn-scene_1839,
     */
 
-
-    /*
+    
     .columns:not(.is-desktop) {display: contents !important;}
      
     .column.is-half {width: 100% !important;}
@@ -1724,7 +1723,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
     
     /*GENERAL LOGIN*/
 
-    /*MAIN LOGIN FORMATTING
+    /*MAIN LOGIN FORMATTING*/
 
  @media screen and (max-width: 770px) {
     .kn-login-form {
@@ -1750,13 +1749,14 @@ This removes the three columns on the log in scenes but keeps it on the course a
     }
  
  
- /*FORMATTING FOR MAIN HOME PAGE LOGIN
+ /*FORMATTING FOR MAIN HOME PAGE LOGIN*/
 
  .kn-login {
-
+    /*background: rgba(256, 256, 256, 0.7);
+    box-shadow: 0px 0px 10px grey;*/
     position: relative;
     z-index: 1;
-    box-shadow: 0px 0px 10px grey;
+    background: var(--top-header);
     border-radius: 0px 0px 10px 10px ;
     margin-top: -30px;
     text-align: center;
@@ -1780,10 +1780,12 @@ This removes the three columns on the log in scenes but keeps it on the course a
         min-width: 100%;
  }
 
- */
+
 
  @media screen and (max-width: 900px) {
 .kn-login {
   background: none;
   box-shadow: none;}
 }
+
+*/
