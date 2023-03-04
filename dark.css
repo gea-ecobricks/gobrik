@@ -56,7 +56,7 @@
   background-size: contain;
 }
 
-#top-close-button:hover {
+.top-close-button:hover {
   background: url(../svgs/down-arrow-night.svg) no-repeat;
   background-size: contain;
 }
@@ -100,7 +100,7 @@
   }*/
 
   .tree-coins {
-    background: url(../svgs/dolphin-top-optimized.svg) no-repeat;
+    background: url(../svgs/dolphin-top-optimized-dark.svg) no-repeat;
     background-size: contain;
   }
 
