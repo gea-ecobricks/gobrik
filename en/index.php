@@ -169,9 +169,7 @@ if (!$conn) {
         </div><!--closes Landing content-->
     </div>
    
-    <?php require_once ("settings-curtain.php");?>
-
-    <?php require_once ("menu-curtain.php");?>
+ 
 
 
     
@@ -183,6 +181,10 @@ if (!$conn) {
 </div>
             </div>
 </div> <!--landing page close-->
+
+<?php require_once ("settings-curtain.php");?>
+
+<?php require_once ("menu-curtain.php");?>
 
 <?php require_once ("knack-curtain.php");?>
 
