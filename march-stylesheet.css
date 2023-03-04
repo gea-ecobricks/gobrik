@@ -222,6 +222,44 @@ cursor:pointer;
 }
 }
 
+
+.top-settings-button  {
+  border: none; 
+  margin-right:10px;
+  cursor:pointer;
+  height:30px;
+  width:30px;
+  
+}
+
+.top-settings-button:hover  {
+  border: none; 
+  margin-right:10px;
+  cursor:pointer;
+  height:30px;
+  width:30px;
+}
+
+.main-menu-button {
+  position:absolute;
+  left:0;
+  margin-top: 22px;
+  margin-left:20px;
+  border: none; 
+  margin-right:10px;
+  cursor:pointer;
+  height:30px;
+  width:30px;
+}
+
+.main-menu-button:hover  {
+  border: none; 
+  margin-right:10px;
+  cursor:pointer;
+  height:30px;
+  width:30px;
+}
+
 /*------------------------------------
 
 
@@ -890,45 +928,9 @@ cursor: pointer;
         font-size: 22px;
     }
 
-/*
-  .top-settings-button  {
-    border: none; 
-    margin-right:10px;
-    cursor:pointer;
-    height:30px;
-    width:30px;
-    
-  }
 
-  .top-settings-button:hover  {
-    border: none; 
-    margin-right:10px;
-    cursor:pointer;
-    height:30px;
-    width:30px;
-  }
 
-  .main-menu-button {
-    position:absolute;
-    left:0;
-    margin-top: 22px;
-    margin-left:20px;
-    border: none; 
-    margin-right:10px;
-    cursor:pointer;
-    height:30px;
-    width:30px;
-  }
 
-  .main-menu-button:hover  {
-    border: none; 
-    margin-right:10px;
-    cursor:pointer;
-    height:30px;
-    width:30px;
-  }
-
-*/
 
 /* -------------------------------------------------------------------------- 
 
@@ -1626,3 +1628,162 @@ margin-top: 40px;
     
     #view_1249  .view-header {margin: 0px;}
     
+
+
+/*CUSTOM LOGINS
+In-house Login screens for registration views
+This removes the three columns on the log in scenes but keeps it on the course and product layouts
+#kn-scene_1821 #kn-scene_1827 #kn-scene_1825 #kn-scene_1818 #kn-scene_1839,
+    */
+
+
+    /*
+    .columns:not(.is-desktop) {display: contents !important;}
+     
+    .column.is-half {width: 100% !important;}
+    
+    #kn-scene_1812 .columns:not(.is-desktop) {display: flex !important;}
+    
+    #kn-scene_1543 .columns:not(.is-desktop) {display: flex !important;}
+     
+    #kn-scene_1870 .columns:not(.is-desktop) {display: flex !important;}
+    
+    
+    
+    .kn-sso-container {
+        display: contents !important;
+        margin-bottom: 20px !important;
+    }
+    
+    #need-account {
+        display: none;}
+    
+    #view_5829 #view_5835 #view_5827 #view_5833, #need-account {
+        display: contents ;
+        font-family: 'Mulish', sans-serif ;
+        font-size: 16px ;
+        font-weight: 300;
+        text-align: center;
+    
+    }
+    
+    .kn-login .kn-button .is-primary {
+        margin-bottom: 30px;
+    }
+    
+     #need-account .kn-button.register {
+        font-size: 17px;
+        padding: 16px;
+        font-family: 'Mulish', sans-serif !important;
+        font-weight: 400;
+    }
+    
+    .register {
+        margin-bottom: 16px;
+    }
+    
+    .login_form .control {
+        margin-bottom: 16x;
+    }
+
+    
+    .kn-button.is-google {
+        width: 275px !important;
+        margin: auto !important;
+        display: flex;
+        margin: 20px;}
+    
+    .kn-button.is-facebook  {
+        width: 275px !important;
+        margin: auto !important;
+        display: flex;
+    }
+    
+    .sso-button {
+        display: none;
+        margin: 10px;
+        text-align: center;
+        margin: auto !important;
+    }
+    
+    .sso-google {margin-left: 20%;}
+    
+    /* In-Scene Sigup Form */
+    
+    #register_profile_14 {
+        margin: auto;
+        width: 640px;
+        max-width: 97%;
+      /*background: rgba(256, 256, 256, 0.7);*/
+        position: relative;
+        z-index: 1;
+        margin-bottom: 5px;
+        min-height: 275px;
+      
+    }
+    
+    /*GENERAL LOGIN*/
+
+    /*MAIN LOGIN FORMATTING
+
+ @media screen and (max-width: 770px) {
+    .kn-login-form {
+            margin: auto;
+            max-width: 94% !important;
+            margin-right: 3% !important;
+            margin-left: 3% !important;
+    }
+}
+ 
+     @media screen and (min-width: 771px) {
+    .kn-login-form {
+            margin: auto;
+            max-width: 50% !important;
+            margin-right: 25% !important;
+            margin-left: 25% !important;
+       }
+    }
+ 
+ 
+ .kn-login-form {
+        margin: auto;
+    }
+ 
+ 
+ /*FORMATTING FOR MAIN HOME PAGE LOGIN
+
+ .kn-login {
+
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 0px 0px 10px 10px ;
+    margin-top: -30px;
+    text-align: center;
+    padding: 60px 5% 60px 5%;
+    margin-bottom: -100px;
+    }
+ 
+
+    /*login view - when ready transfer to all logings*/
+ /*   #view_1373 {  
+ 
+        background: rgba(256, 256, 256, 0.7);
+        position: relative;
+        z-index: 1;
+        padding-top: 18px;
+        box-shadow: 0px 0px 10px grey;
+        border-radius: 0px 0px 10px 10px ;
+        margin-top: -32px;
+        padding-bottom: 270px;
+        text-align: center;
+        min-width: 100%;
+ }
+
+ */
+
+ @media screen and (max-width: 900px) {
+.kn-login {
+  background: none;
+  box-shadow: none;}
+}
