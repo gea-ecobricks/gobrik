@@ -28,7 +28,7 @@ h1 {
       text-align: center !important;
       line-height: 1.2 !important;
     /*text-shadow: 0px 0px 10px #fff !important;*/
-     font-weight: 300 !important;
+     font-weight: 500 !important;
      color: var(--text-color) !important;
 }
 
@@ -1785,7 +1785,9 @@ This removes the three columns on the log in scenes but keeps it on the course a
   .top-graphic { display:none;}
  
 
-  .kn-label {color: var(--text-color) !important;
+  .kn-label {
+    color: var(--text-color) !important;
+    font-family: 'Arvo', serif;
   }
 
   
@@ -1813,3 +1815,191 @@ This removes the three columns on the log in scenes but keeps it on the course a
 }
 
 */
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	7. FORMS
+/* -------------------------------------------------------------------------- */
+
+
+/*top space for pop up menu title*/
+h1.modal-card-title {height: 35px !important;
+  padding-left: 5px !important;}
+  
+  /*underline terms of agreement links*/
+  .control .kn-instructions a {text-decoration: underline;}
+  
+  /*enlarge checkboxes on a all forms*/
+  
+  input[type='checkbox'] {
+  
+      width:15px;
+      height:15px;
+      border-radius:5px;
+      border:2px solid #555;
+  }
+  
+  .search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {
+     border: 1px solid #00D6FF !important;}
+  
+  
+  
+   input[type=text], input[type=email], input[type=password]{
+     border: 2px solid #00D6FF!important;}
+  
+  /*.search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {*/
+  
+  .chzn-container-single .chzn-single {
+    
+        width: 100%;
+    height: 36px !important;;
+      padding: 8px 10px !important;;
+      margin: 4px 0;
+    font-size:18px !important;;
+      box-sizing: border-box;
+        border: 1px solid #00D6FF;
+      border-radius: 5px;
+        background-color: #ebf0fa;
+      color: #373A43;
+  }
+  
+  
+  
+  select {
+    
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  appearance: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  /*background: url(https://gobrik.com/images/downarrow.png) no-repeat;*/
+  background-position: right center;
+  
+        border: 1px solid #00D6FF !important;
+      border-radius: 3px;
+        background-color: #c4efff;
+      color: #373A43;
+    
+      width: 100%;
+    height: 36px !important;
+      padding: 8px 10px;
+      margin: 4px 0;
+    font-size:18px !important;
+  
+  }
+  
+  
+    input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+      border: 2px solid #FF00FF !important;
+  }
+  
+  
+  
+  
+  input[type=text], input[type=email], input[type=password]{
+    
+        width: 100%;
+    height: 100%;
+      padding: 8px 10px;
+      margin: 4px 0;
+    font-size:18px !important;
+      box-sizing: border-box;
+        border: 3px solid #00D6FF;
+      border-radius: 5px;
+        background-color: var(--general-background);
+      color: var(--h1);
+  }
+   
+  
+  input[type=text] .kn-equation  {
+    
+  border: hidden !important;
+  }
+  
+   /*
+    input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+      border: 2px solid #FF00FF;
+  }
+  
+  */
+  
+  .chzn-drop { font-size: 16px;}
+  
+  #view_1163 .kn-records-nav{
+      display: block !important;
+    margin: auto !important;
+        text-align: center !important;
+  }
+  
+  .table-keyword-search .input{
+            width: 100%;
+    height: 100%;
+      padding: 2px 16px;
+      margin: 2px 0;
+    font-size: 17px;  /*was 13*/
+      box-sizing: border-box;
+        border: 1px solid #DBDBDB !important;
+      border-radius: 3px;
+        background-color: #ebf0fa;
+      color: grey;
+  }
+  
+  .kn-page-select {
+    border: 1px solid #DBDBDB !important;}
+  
+  .kn-input-image input.is-file {
+  
+      width: 250px;
+  }
+    
+    .kn-asset-current .level {color: green;
+      font-size: 18px;}
+  
+  .field input[type=file] {
+    display: none;
+  }
+  .field input[type=file] + label[for] {
+    font-size: 12px;
+  }
+  .field input[type=file] + label[for]:before {
+    content: attr(label);
+    border: solid 1px #0af;
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: #def;
+    color: #555;
+    cursor: pointer;
+    box-shadow: none;
+    margin-right: 2px;
+  }
+  .field input[type=file] + label[for]:hover:before {
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+    color: #dfdfdf;
+    background-color: #0af;
+  }
+  .field input[type=file] + label[for]:active:before {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+    color: #fff;
+  }
+  .field input[type=file] + label[for]:after {
+    padding: 3px 10px;
+    content: attr(title);
+    
+    
+  }
+  
+  #field_536 {padding: 5px 25px 5px 5px;}
+  
+  #field_565 {padding: 5px 25px 5px 5px;}
+  
+  #field_610 {padding: 5px 25px 5px 5px;}
+  
+  #field_999 {padding: 5px 25px 5px 5px;}
+  
+  #field_1238 {padding: 5px 25px 5px 5px;}
+  
+  #field_1286 {padding: 5px 25px 5px 5px;}
+  
+  
