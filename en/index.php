@@ -75,7 +75,7 @@ if (!$conn) {
 
 <div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
     -->
-    
+<div id="landing-page">
     <div class="gallery-header" >
         <div class="gallery-live-text"><span class="blink">⬤ </span>Latest authenticated ecobricks</div>
     </div>
@@ -173,7 +173,7 @@ if (!$conn) {
 
     <?php require_once ("menu-curtain.php");?>
 
-    <?php require_once ("knack-curtain.php");?>
+
     
 
     <div style="z-index:5;">
@@ -181,5 +181,11 @@ if (!$conn) {
     <?php require_once ("footer.php");?>
     </div>
 </div>
+</div> <!--landing page close-->
+
+<?php require_once ("knack-curtain.php");?>
+
+         
 </body>
 </html>
+landing-page
