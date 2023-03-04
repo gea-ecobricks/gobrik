@@ -29,7 +29,7 @@ h1 {
       line-height: 1.2 !important;
     /*text-shadow: 0px 0px 10px #fff !important;*/
      font-weight: 300 !important;
-     color: var(--text-color);
+     color: var(--text-color) !important;
 }
 
 h2 {
@@ -1785,7 +1785,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
   .top-graphic { display:none;}
  
 
-  .kn-label {color: var(--text-color);
+  .kn-label {color: var(--text-color) !important;
   }
 
   

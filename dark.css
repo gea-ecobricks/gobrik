@@ -9,7 +9,7 @@
     --h1: #fff;
     --top-header: #21232f;
     --gallery:  rgb(51, 52, 63);
-    --general-background: rgb(24, 26, 39);
+    --general-background: rgb(13, 15, 26);
     --login:rgb(40, 45, 84);
     --general-background-highlight: rgb(33, 33, 39);
     --deeper-accent:  rgb(14, 14, 16);
@@ -51,12 +51,12 @@
     background-size: contain;
 }
 
-.top-down-button {
+.top-close-button {
   background: url(../svgs/up-arrow-night.svg) no-repeat;
   background-size: contain;
 }
 
-#top-down-button:hover {
+#top-close-button:hover {
   background: url(../svgs/down-arrow-night.svg) no-repeat;
   background-size: contain;
 }
