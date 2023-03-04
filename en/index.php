@@ -181,6 +181,7 @@ if (!$conn) {
     <?php require_once ("footer.php");?>
     </div>
 </div>
+            </div>
 </div> <!--landing page close-->
 
 <?php require_once ("knack-curtain.php");?>
