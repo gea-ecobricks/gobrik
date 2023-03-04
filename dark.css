@@ -52,7 +52,7 @@
 }
 
 .top-down-button {
-  background: url(../up-arrow-night.svg) no-repeat;
+  background: url(../svgs/up-arrow-night.svg) no-repeat;
   background-size: contain;
 }
 
