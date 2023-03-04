@@ -311,17 +311,12 @@
   
   
   
-  .lead-page-paragraph {
-    font-family: 'Arvo', Georgia, serif;
-    font-weight: 300px;
-    color: var(--text-color)
-  }
-   
+
   
   @media screen and (max-width: 700px) {
   
   
-    .lead-page-paragraph p {
+    .lead-page-paragraph  {
       font-size: 1.45em;
       line-height: 1.4;
       margin: 35px 6% 25px 6%;
@@ -345,6 +340,14 @@
     }
   }
   
+  
+  .lead-page-paragraph {
+    font-family: 'Arvo', Georgia, serif;
+    font-weight: 300px;
+    color: var(--text-color);
+  }
+   
+
   
   @media screen and (min-width: 700px) {
       .lead-page-paragraph {
