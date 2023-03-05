@@ -1814,7 +1814,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
       padding: 60px 5% 60px 5%;
       border-width: 0.5px;
       border-style: solid;
-      border-color: grey;
+      border-color: var(--deeper-accent);
     }
 
   .top-graphic { display:none;}

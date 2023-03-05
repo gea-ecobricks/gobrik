@@ -129,11 +129,6 @@
     box-shadow: none !important;
   }
 
-
-  .kn-login {
-    background: rgba(28, 31, 38, 0.7);
-  }
-
   #forgot-pass {
     color:var(--fuscia-button) !important;
    }
