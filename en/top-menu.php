@@ -17,7 +17,7 @@
                 login
             </button></div>
 
-            <div><button type="button" class="top-close-button" onclick="closeKnack()" aria-label="Click to open settings page"></button></div>
+            <div id="top-close-button"><button type="button" class="top-close-button" onclick="closeKnack()" aria-label="Click to open settings page"></button></div>
 
 
             <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
