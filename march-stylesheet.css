@@ -1783,10 +1783,12 @@ This removes the three columns on the log in scenes but keeps it on the course a
     z-index: 1;
     background: var(--login);
     border-radius: 0px 0px 10px 10px ;
-    margin-top: -30px;
+    
     text-align: center;
+
+   /* margin-top: -30px;
     padding: 60px 5% 60px 5%;
-    margin-bottom: -100px;
+    margin-bottom: -100px;*/
     }
 
   .top-graphic { display:none;}
@@ -2063,8 +2065,16 @@ background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-
 }
 
 #forgot-pass {
-  font-family: 'Mulish', sans-serif;}
+  font-family: 'Mulish', sans-serif !important;}
 
 .remember {
-font-family: 'Mulish', sans-serif;
+font-family: 'Mulish', sans-serif !important;
+}
+
+
+#knack-dist_52 {
+position: absolute;
+width: 100%;
+top: 0;
+
 }
