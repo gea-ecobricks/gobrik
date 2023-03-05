@@ -233,7 +233,7 @@ cursor:pointer;
 }
 
 #top-close-button {
-  display: none;
+  display: block;
 }
 
 .top-close-button  {
@@ -1720,6 +1720,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
         width: 275px !important;
         margin: auto !important;
         display: flex;
+        border: none;
     }
     
     .sso-button {
