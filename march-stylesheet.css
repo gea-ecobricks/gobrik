@@ -2058,3 +2058,10 @@ background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-
   border-color: var(--general-background) !important;
   
 }
+
+#forgot-pass {
+  font-family: 'Mulish', sans-serif;}
+
+.remember {
+font-family: 'Mulish', sans-serif;
+}

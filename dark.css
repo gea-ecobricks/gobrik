@@ -130,11 +130,13 @@
     background: rgba(41, 46, 58, 0.7);
   }
 
-  #forgot-pass {color: #5a4e60 !important;
-    font-family: 'Mulish', sans-serif;}
+  #forgot-pass {
+    color: #5a4e60 !important;
+   }
 
-  .remember {color:#5a4e60 !important;
-  font-family: 'Mulish', sans-serif;
+  .remember {
+    color:#5a4e60 !important;
+ 
 }
 
 /*
