@@ -1766,9 +1766,9 @@ This removes the three columns on the log in scenes but keeps it on the course a
  
  /*FORMATTING FOR MAIN HOME PAGE LOGIN*/
 
+ /*
  .kn-login {
-    /*background: rgba(256, 256, 256, 0.7);
-    box-shadow: 0px 0px 10px grey;*/
+
     position: relative;
     z-index: 1;
     background: var(--login);
@@ -1798,7 +1798,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
       border-style: solid;
       border-color: var(--top-header);
      
-    }
+    }*/
 
     .kn-scene {
       position: relative;
@@ -1808,7 +1808,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
       
       text-align: center;
   
-      margin-top: -45px;
+      margin-top: -100px;
       padding: 60px 5% 60px 5%;
       border-width: 10px;
       border-style: solid;
