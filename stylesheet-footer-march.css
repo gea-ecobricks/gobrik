@@ -257,7 +257,7 @@ migrated from Knack CSS
   
   .footer-header {
     font-family: 'Arvo', serif;
-    color:  var(--footer-text);
+    color:  var(--footer-header);
     font-weight: 100;
     text-align: left;
     padding-bottom: 10px;
@@ -281,13 +281,13 @@ migrated from Knack CSS
   
   .footer-subtext {
     font-family: 'Mulish', sans-serif;
-    color:  var(--footer-header);
+    color:  var(--footer-text);
     font-weight: 300;
     text-align: left;
   }
   
   .footer-subtext a {
-    color: var(--footer-header);
+    color: var(--footer-text);
   }
   
   .footer-subtext a:hover {
@@ -318,8 +318,8 @@ migrated from Knack CSS
   }
   
   .footer-conclusion {
-    font-family: Mulish, sans;
-    color: #9fdafc;
+    font-family: 'Mulish', sans-serif;
+    color: var(--footer-text);
     line-height: 1.3;
     font-weight: 500;
     text-align: center;
