@@ -1684,8 +1684,8 @@ This removes the three columns on the log in scenes but keeps it on the course a
         background-color: var(--fuscia-button) !important;
     }
 
-    #need-account .kn-button.register:hover {
-      background-color: fuchsia;
+    #need-account .kn-button:hover {
+      background-color: fuchsia !important;
     }
     
     .register {
