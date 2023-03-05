@@ -256,8 +256,8 @@ migrated from Knack CSS
   
   
   .footer-header {
-    font-family: Arvo, serif;
-    color:  var(--footer-header);
+    font-family: 'Arvo', serif;
+    color:  var(--footer-text);
     font-weight: 100;
     text-align: left;
     padding-bottom: 10px;
@@ -287,7 +287,7 @@ migrated from Knack CSS
   }
   
   .footer-subtext a {
-    color: var(--footer-text);
+    color: var(--footer-header);
   }
   
   .footer-subtext a:hover {
@@ -331,7 +331,7 @@ migrated from Knack CSS
   }
   
   .footer-conclusion a {
-    color: color: var(--footer-text);;
+    color: var(--footer-text);
   }
   
   .footer-conclusion a:hover {
