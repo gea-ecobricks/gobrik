@@ -1697,6 +1697,9 @@ This removes the three columns on the log in scenes but keeps it on the course a
         padding: 16px;
         font-family: 'Mulish', sans-serif !important;
         font-weight: 400;
+        color: var(--general-background);
+        border: none; /*var(--general-background);*/
+        background-color: var(--fuscia-button);
     }
     
     .register {

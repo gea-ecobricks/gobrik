@@ -31,6 +31,7 @@
     --splash: #103e5dff;
     --splash-over: #103e5dff;
     --notification: #6e94bf;
+    --fuscia-button: #80418087;
 
  }
 
@@ -131,11 +132,11 @@
   }
 
   #forgot-pass {
-    color: #5a4e60 !important;
+    color:var(--fuscia-button) !important;
    }
 
   .remember {
-    color:#5a4e60 !important;
+    color:var(--fuscia-button) !important;
  
 }
 
