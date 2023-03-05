@@ -2055,6 +2055,6 @@ background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-
   
   font-size: 19px;
   margin-bottom:30px;
-  border-color: var(--general-background);
+  border-color: var(--general-background) !important;
   
 }
