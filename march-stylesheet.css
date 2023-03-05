@@ -1752,9 +1752,11 @@ This removes the three columns on the log in scenes but keeps it on the course a
  @media screen and (max-width: 770px) {
     .kn-login-form {
             margin: auto;
+            width: 100%;
+            /*
             max-width: 94% !important;
             margin-right: 3% !important;
-            margin-left: 3% !important;
+            margin-left: 3% !important;*/
     }
 }
  
@@ -1787,6 +1789,9 @@ This removes the three columns on the log in scenes but keeps it on the course a
 
     margin-top: -30px;
     padding: 60px 5% 60px 5%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: var(--general-background-highlight);
    
     }
 
