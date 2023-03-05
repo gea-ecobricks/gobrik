@@ -75,7 +75,7 @@ Triggers the right share link panel*/
 function openKnack() {
   document.getElementById("knack-overlay-curtain").style.height = "100%";
   document.getElementById("top-menu-login-button").style.display = "none";
-  document.getElementById("top-close-button").style.display = "none";
+  document.getElementById("top-close-buttoner").style.display = "contents";
   document.getElementById("landing-page").style.display = "none";
   //document.body.style.overflowY = "hidden";
   //document.body.style.maxHeight = "101vh";
