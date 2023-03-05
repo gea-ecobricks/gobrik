@@ -23,11 +23,12 @@ strong {font-weight: 500 !important;}
 
 
 h1 {
-    font-size: 2.4em !important;
-    font-family: 'Mulish', sans-serif !important;
+    font-size: 2.5em !important;
+    font-family: 'Arvo', serif !important;
       text-align: center !important;
       line-height: 1.2 !important;
-    /*text-shadow: 0px 0px 10px #fff !important;*/
+    /*text-shadow: 0px 0px 10px #fff !important;
+    font-family: 'Mulish', sans-serif !important;*/
      font-weight: 500 !important;
      color: var(--text-color) !important;
 }
@@ -1899,7 +1900,7 @@ h1.modal-card-title {height: 35px !important;
   
   
     input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
-      border: 2px solid #FF00FF !important;
+      border: 1.5px solid #00f200 !important;
   }
   
   
