@@ -1685,7 +1685,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
     }
 
     #need-account .kn-button:hover {
-      background-color: fuchsia !important;
+      background-color: rgb(189, 73, 189) !important;
     }
     
     .register {
@@ -1776,7 +1776,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
     
     text-align: center;
 
-    margin-top: -30px;
+    margin-top: -45px;
     padding: 60px 5% 60px 5%;
     border-width: 10px;
     border-style: solid;
@@ -1800,11 +1800,26 @@ This removes the three columns on the log in scenes but keeps it on the course a
      
     }
 
+    .kn-scene {
+      position: relative;
+      z-index: 1;
+      background: var(--login);
+      border-radius: 0px 0px 18px 18px ;
+      
+      text-align: center;
+  
+      margin-top: -45px;
+      padding: 60px 5% 60px 5%;
+      border-width: 10px;
+      border-style: solid;
+      border-color: var(--top-header);
+    }
+
   .top-graphic { display:none;}
  
 
   .kn-label {
-    color: var(--text-color) !important;
+    color: var(--footer-header) !important;
     font-family: 'Arvo', serif;
   }
 
@@ -2032,13 +2047,13 @@ Main Knack button - now blue
   font-family: 'mulish', sans-serif !important;
   display: block;
   margin: auto;
-
-  background: var(--button-2-1);
-background-image: -webkit-linear-gradient(top, var(--button-2-1), var(--button-2-2));
-background-image: -moz-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
-background-image: -ms-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
-background-image: -o-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
-background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-2));
+  background: var(--button-2-1-over);
+  background-image: -webkit-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
+  background-image: -moz-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
+  background-image: -ms-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
+  background-image: -o-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
+  background-image: linear-gradient(to bottom, var(--button-2-1-over), var(--button-2-2-over));
+  
  
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
@@ -2054,12 +2069,14 @@ background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-
 
 
 .kn-button.is-primary:hover {
-  background: var(--button-2-1-over);
-  background-image: -webkit-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
-  background-image: -moz-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
-  background-image: -ms-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
-  background-image: -o-linear-gradient(top, var(--button-2-1-over), var(--button-2-2-over));
-  background-image: linear-gradient(to bottom, var(--button-2-1-over), var(--button-2-2-over));
+
+  background: var(--button-2-1);
+background-image: -webkit-linear-gradient(top, var(--button-2-1), var(--button-2-2));
+background-image: -moz-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
+background-image: -ms-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
+background-image: -o-linear-gradient(top,  var(--button-2-1), var(--button-2-2));
+background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-2));
+ 
   text-decoration: none;
 }
 
@@ -2078,6 +2095,10 @@ background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-
 
 .remember {
 font-family: 'Mulish', sans-serif !important;
+}
+
+.ang-link {
+  font-family: 'Mulish', sans-serif;
 }
 
 
