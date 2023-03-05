@@ -157,8 +157,10 @@ if (!$conn) {
             </div>
             <div class="welcome-text">
                 Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
+            
+               <br><br> <img src="../svgs/aes-brk.svg" style="width: 200px;">
             </div>
-            <img src="../svgs/aes-brk.svg" style="width: 200px;">
+            
             <div class="tree-text">
                 GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
             </div>
