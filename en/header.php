@@ -90,7 +90,7 @@
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v2.98" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v2.98" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../dark.css?v2.99" media="(prefers-color-scheme: dark)">
  
 
 
