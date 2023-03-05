@@ -154,11 +154,11 @@ if (!$conn) {
       
             <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" width="100%"></div>
             <div class="aes-logos">
-            <img src="../svgs/aes-brk.svg" style="width: 200px;">
             </div>
             <div class="welcome-text">
                 Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
             </div>
+            <img src="../svgs/aes-brk.svg" style="width: 200px;">
             <div class="tree-text">
                 GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
             </div>

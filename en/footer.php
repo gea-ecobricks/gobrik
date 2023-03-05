@@ -125,7 +125,7 @@
 						
 				
 				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="../icons/cc-by-sa.svg" width="200px" height="45px"/></a>
-				<a href="#global">Gobrik global ecobricking data</a> is made available by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to "GoBrik.com/#global - Global Ecobrick Alliance" using the same license.
+				<a href="#global"><br><br>Gobrik global ecobricking data</a> is made available by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to "GoBrik.com/#global - Global Ecobrick Alliance" using the same license.
 
 				<div class="footer-conclusion">	
 					GoBrik, AES & Ecobricks.org logos and emblems are copyright 2023 by the Global Ecobrick Alliance.

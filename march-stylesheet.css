@@ -631,7 +631,6 @@ text-decoration: none;
     z-index: 5;
     font-weight: 300;
     margin:auto;
-    opacity:0;
     color:var(--text-color);
     
   }
