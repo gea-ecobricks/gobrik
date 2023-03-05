@@ -232,13 +232,6 @@ cursor:pointer;
   
 }
 
-.top-close-button:hover  {
-  border: none; 
-  margin-right:10px;
-  cursor:pointer;
-  height:30px;
-  width:30px;
-}
 
 
 .top-close-button  {
@@ -247,7 +240,17 @@ cursor:pointer;
   cursor:pointer;
   height:30px;
   width:30px;
+  display: none;
   
+}
+
+/*
+.top-close-button:hover  {
+  border: none; 
+  margin-right:10px;
+  cursor:pointer;
+  height:30px;
+  width:30px;
 }
 
 .top-close-button:hover  {
@@ -257,6 +260,7 @@ cursor:pointer;
   height:30px;
   width:30px;
 }
+*/
 
 .main-menu-button {
   position:absolute;
@@ -330,7 +334,7 @@ cursor:pointer;
   position: relative;
   z-index: 0;
   padding-bottom: 14px;
-  min-height: 70vh;
+  min-height: 90vh;
 }
 
 
