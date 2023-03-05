@@ -232,7 +232,9 @@ cursor:pointer;
   
 }
 
-
+#top-close-button {
+  display: none;
+}
 
 .top-close-button  {
   border: none; 
@@ -240,8 +242,6 @@ cursor:pointer;
   cursor:pointer;
   height:30px;
   width:30px;
-  display: none;
-  
 }
 
 /*
@@ -1681,11 +1681,10 @@ This removes the three columns on the log in scenes but keeps it on the course a
     
     #view_5829 #view_5835 #view_5827 #view_5833, #need-account {
         display: contents ;
-        font-family: 'Mulish', sans-serif ;
-        font-size: 16px ;
+        font-family: 'Mulish', sans-serif !important;
+        font-size: 0.9em !important;
         font-weight: 300;
         text-align: center;
-    
     }
     
     .kn-login .kn-button .is-primary {
@@ -1699,7 +1698,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
         font-weight: 400;
         color: var(--general-background);
         border: none; /*var(--general-background);*/
-        background-color: var(--fuscia-button);
+        background-color: var(--fuscia-button) !important;
     }
     
     .register {
