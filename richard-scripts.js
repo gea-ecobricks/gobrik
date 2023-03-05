@@ -109,7 +109,7 @@ function closeKnack() {
   document.getElementById("top-menu-login-button").style.display = "block";
   document.body.style.overflowY = "unset";
   document.getElementById("landing-page").style.display = "block";
-  document.getElementById("top-close-button").style.display = "none";
+  document.getElementById("top-close-buttoner").style.display = "none";
 
 
   //document.body.style.maxHeight = "unset";

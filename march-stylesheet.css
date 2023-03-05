@@ -1553,7 +1553,6 @@ cursor: pointer;
   
   
   .loader { 
-      z-index: 1;	
       position: fixed;
         left: 0px;
         top: 0px;
@@ -1563,17 +1562,6 @@ cursor: pointer;
         background: url('svgs/bottle-loader.svg') center no-repeat;
           box-sizing: border-box;
        background-size: 38px;
- /*         
-      -webkit-animation-delay: 0s !important;
-      opacity:0;
-      -webkit-animation:fadeIn ease-in 0.3s;
-      -webkit-animation-duration:0.3s;
-      -webkit-animation-fill-mode:forwards;
-  
-    animation-delay: 0s; 
-    animation: fadeIn ease-in 0.3s;
-    animation-duration: 0.3s;
-    animation-fill-mode: forwards;*/
   }
 
 
@@ -1695,6 +1683,10 @@ This removes the three columns on the log in scenes but keeps it on the course a
         border: none; /*var(--general-background);*/
         background-color: var(--fuscia-button) !important;
     }
+
+    #need-account .kn-button.register:over {
+      background-color: fuchsia;
+    }
     
     .register {
         margin-bottom: 16px;
@@ -1780,7 +1772,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
     position: relative;
     z-index: 1;
     background: var(--login);
-    border-radius: 0px 0px 10px 10px ;
+    border-radius: 0px 0px 18px 18px ;
     
     text-align: center;
 

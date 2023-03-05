@@ -33,7 +33,7 @@
     --notification: #a1ccfd;
     --fuscia-button: #a458a4;
 
-    --facebook: #086392;
+    --facebook: #1b74e4;
 
    }
    
@@ -119,6 +119,16 @@
       box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
     }
 
+
+    .top-close-button {
+      background: url(../svgs/down-arrow.svg) no-repeat;
+      background-size: contain;
+    }
+    
+    .top-close-button:hover {
+      background: url(../svgs/up-arrow.svg) no-repeat;
+      background-size: contain;
+    }
 
 /* light.css
 light.css 
