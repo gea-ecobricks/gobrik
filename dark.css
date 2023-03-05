@@ -93,14 +93,9 @@
 
   }
   
-  /*
-  .tree-coins {
-    background: url(../webp/2023-tree-night.webp?v=1.1) no-repeat;
-    background-size: contain;
-  }*/
 
   .tree-coins {
-    background: url(../svgs/dolphin-top-optimized-dark.svg) no-repeat;
+    background: url(../webp/2023-tree-night.webp?v=1.1) no-repeat;
     background-size: contain;
   }
 
@@ -132,8 +127,11 @@
 
 
   .kn-login {
-    background: rgba(28, 31, 38, 0.7);
+    background: rgba(41, 46, 58, 0.7);
   }
+
+  #forgot-pass {color:#5a4e60 !important;}
+
 /*
   .virtue img {
     filter: invert(100%);
