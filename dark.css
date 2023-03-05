@@ -27,7 +27,7 @@
 
     --footer-background: #111735ff;
     --footer-text: #7ea9c2;
-    --footer-header: #a8aab8;
+    --footer-header: #a4a7c2;
     --splash: #103e5dff;
     --splash-over: #103e5dff;
     --notification: #6e94bf;
@@ -50,7 +50,7 @@
 }
 
 #top-settings-button:hover {
-    background: url(../svgs/settings-icon-over-dark.svg?v=3) no-repeat;
+    background: url(../svgs/settings-icon-over-dark.svg?v=4) no-repeat;
     background-size: contain;
 }
 
