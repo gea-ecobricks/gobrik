@@ -1721,6 +1721,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
         margin: auto !important;
         display: flex;
         border: none;
+        background-color: var(--facebook) !important;
     }
     
     .sso-button {
@@ -1850,12 +1851,12 @@ h1.modal-card-title {height: 35px !important;
   }
   
   .search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {
-     border: 1px solid #00D6FF !important;}
+     border: 1px solid var(--button-2-1) !important;}
   
   
   
    input[type=text], input[type=email], input[type=password]{
-     border: 2px solid #00D6FF!important;}
+     border: 2px solid var(--button-2-1) !important;}
   
   /*.search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {*/
   
@@ -1886,7 +1887,7 @@ h1.modal-card-title {height: 35px !important;
   /*background: url(https://gobrik.com/images/downarrow.png) no-repeat;*/
   background-position: right center;
   
-        border: 1px solid #00D6FF !important;
+        border: 1px solid var(--button-2-1) !important;
       border-radius: 3px;
         background-color: #c4efff;
       color: #373A43;
@@ -1915,7 +1916,7 @@ h1.modal-card-title {height: 35px !important;
       margin: 4px 0;
     font-size:18px !important;
       box-sizing: border-box;
-        border: 3px solid #00D6FF;
+        border: 3px solid var(--button-2-1);
       border-radius: 5px;
         background-color: var(--general-background);
       color: var(--h1);
