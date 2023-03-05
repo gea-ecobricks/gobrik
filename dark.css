@@ -55,12 +55,12 @@
 }
 
 .top-close-button {
-  background: url(../svgs/up-arrow-night.svg) no-repeat;
+  background: url(../svgs/down-arrow-night.svg) no-repeat;
   background-size: contain;
 }
 
 .top-close-button:hover {
-  background: url(../svgs/down-arrow-night.svg) no-repeat;
+  background: url(../svgs/up-arrow-night.svg) no-repeat;
   background-size: contain;
 }
 
@@ -108,7 +108,7 @@
   }
 
   .vision-landscape {
-    background: url(../svgs/ocean-footer-night.svg) no-repeat center;
+    background: url(../svgs/ocean-footer-night.svg?v=2) no-repeat center;
     background-size: contain;
   }
 
