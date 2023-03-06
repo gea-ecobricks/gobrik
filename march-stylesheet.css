@@ -2129,9 +2129,23 @@ font-family: 'Mulish', sans-serif !important;
   font-size: smaller;
   }
 
-.ang-link {
+.option a {color: var(--subdued-text);}
+.option a:hover {color: var(--text-color);}
+
+.kn-content a {color: var(--text-color) !important;}
+.kn-content a:hover {color: var(--h1) !important;}
+
+.ang-link a{
   font-family: 'Mulish', sans-serif;
+  color: var(--subdued-text) !important;
 }
+
+.ang-link a:hover{
+  font-family: 'Mulish', sans-serif;
+  color: var(--h1) !important;
+}
+
+.kn-register .sso-facebook {display:none;}
 
 
 #knack-dist_52 {
