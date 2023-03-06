@@ -1804,18 +1804,34 @@ This removes the three columns on the log in scenes but keeps it on the course a
     .kn-scene {
       position: relative;
       z-index: 1;
-      background: var(--login);
-      border-radius: 0px 0px 18px 18px ;
+
       
       text-align: center;
   
       margin-top: -40px !important;
       padding-top: 50px !important;
-      padding: 60px 5% 60px 5%;
-      border-width: 0.5px;
-      border-style: solid;
-      border-color: var(--deeper-accent);
+      
+
     }
+
+    @media screen and (max-width: 700px) {
+      .kn-scene {
+        background: none;
+        box-shadow: none;
+        border: none;}
+      }
+      
+
+      @media screen and (min-width: 701px) {
+        .kn-scene {
+          background: var(--login) !important;
+          border-radius: 0px 0px 18px 18px ;
+          padding: 60px 5% 60px 5%;
+          border-width: 0.5px;
+          border-style: solid;
+          border-color: var(--deeper-accent);
+        }
+      }
 
   .top-graphic { display:none;}
  
