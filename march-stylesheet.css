@@ -368,13 +368,13 @@ flex-wrap: wrap;
   /*background-color: #DFDFDF;*/
   margin: 0px;
   padding: 2px;
-  height: 81px;
+  height: 95px;
   overflow: hidden;
-width: 60px;
+/*width: 60px;*/
 }
 
 .gal-photo img {
-  height: 81px;
+  height: 95px;
   display: block;
   margin: auto;
 
@@ -2122,6 +2122,12 @@ background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-
 .remember {
 font-family: 'Mulish', sans-serif !important;
 }
+
+.option {
+  font-family: 'Mulish', sans-serif !important;
+  color: var(--subdued-text);
+  font-size: smaller;
+  }
 
 .ang-link {
   font-family: 'Mulish', sans-serif;
