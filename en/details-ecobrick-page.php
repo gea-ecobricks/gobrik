@@ -219,8 +219,8 @@ echo '
 			echo '
 			<br><hr>
 			<div class="page-paragraph">
-			<h2 style="text-align: left !important;
-			text-shadow: none !important;">The Brikchain</h2>
+			<p><h1 style="text-align: left !important;
+			text-shadow: none !important;">The Brikchain</h1></p>
 		
 			<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
 
@@ -234,7 +234,7 @@ echo '
 			echo '	<div class="side">
 
 			<div id="side-module-desktop-mobile">
-					<img src="../webp/auth-brik-455px.webp" width="90%" alt="Following Earths example through eco bricking">
+					<img src="../svgs/authenticated-brik.svg" width="80%" alt="Following Earths example through eco bricking">
 					<br><h2>Authenticated!</h2>
 					<p>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</p><br>
 					<a class="module-btn" href="/about">About Ecobricks</a>
