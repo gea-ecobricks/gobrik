@@ -2157,6 +2157,7 @@ font-family: 'Mulish', sans-serif !important;
 .ang-link a{
   font-family: 'Mulish', sans-serif !important;
   color: var(--subdued-text) !important;
+  font-size: smaller;
 }
 
 .ang-link a:hover{
