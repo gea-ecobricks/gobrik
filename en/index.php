@@ -187,7 +187,9 @@ if (!$conn) {
 
 <?php require_once ("menu-curtain.php");?>
 
-<?php require_once ("knack-curtain.php");?>
+<!--
+<?php require_once ("knack-curtain.php");?>-->
+
 
 <?php require_once ("knack-curtain-signup.php");?>
 
