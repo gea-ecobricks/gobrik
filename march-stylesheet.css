@@ -58,7 +58,7 @@ h4 {
     text-align: center !important;
           line-height: 1.4 !important;
         font-weight: 300 !important;
-        color: var(--text-color);
+        color: var(--text-color) !important;
 }
 
 
@@ -105,6 +105,18 @@ html {
     background-color: var(--general-background);
       overflow-x: hidden;
     /*General interface background slightly off-white to make the white buttons and boxes show up better*/
+  }
+
+  @media screen and (max-width: 700px) { 
+    body { 
+      background: var(--login);
+    }
+  }
+
+  @media screen and (min-width: 701px) { 
+    body { 
+      background: var(--general-background);
+    }
   }
   
   
@@ -1804,14 +1816,9 @@ This removes the three columns on the log in scenes but keeps it on the course a
     .kn-scene {
       position: relative;
       z-index: 1;
-
-      
       text-align: center;
-  
       margin-top: -40px !important;
       padding-top: 50px !important;
-      
-
     }
 
     @media screen and (max-width: 700px) {
@@ -1829,7 +1836,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
           padding: 60px 5% 60px 5%;
           border-width: 0.5px;
           border-style: solid;
-          border-color: var(--deeper-accent);
+          border-color: rgba(128, 128, 128, 0.812);
         }
       }
 
@@ -1837,7 +1844,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
  
 
   .kn-label {
-    color: var(--footer-header) !important;
+    color: var(--subdued-text) !important;
     font-family: 'Arvo', serif;
   }
 
