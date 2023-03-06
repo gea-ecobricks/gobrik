@@ -44,8 +44,8 @@ h2 {
 }
 
 h3 {
-    font-size: 22px !important;
-    font-family:'Mulish', sans-serif !important;
+    font-size: 1.8em !important;
+    font-family: 'Arvo', serif !important;
     text-align: center !important;
     line-height: 1.4 !important;
     font-weight: 300;
@@ -53,7 +53,7 @@ h3 {
 }
 
 h4 {
-    font-size: 17px !important;
+    font-size: 1.5em !important;
     font-family: 'Mulish', sans-serif !important;
     text-align: center !important;
           line-height: 1.4 !important;
@@ -71,12 +71,12 @@ h5 {
 }
 
 h6 {
-    font-size: 16px !important;
+    font-size: 1em !important;
     font-family: 'Mulish', sans-serif !important;
    /* text-align: center;*/
   line-height: 1.4 !important;
     font-weight: 300 !important;
-     color: var(--text-color);
+     color: var(--text-color) !important;
 }
 
 
@@ -107,17 +107,7 @@ html {
     /*General interface background slightly off-white to make the white buttons and boxes show up better*/
   }
 
-  @media screen and (max-width: 700px) { 
-    body { 
-      background: var(--login);
-    }
-  }
 
-  @media screen and (min-width: 701px) { 
-    body { 
-      background: var(--general-background);
-    }
-  }
   
   
   
@@ -669,8 +659,19 @@ transition: 0.3s;}
 
 
 #knack-overlay-curtain {
-  background-color: var(--general-background); 
   z-index: 20;
+}
+
+@media screen and (max-width: 700px) { 
+  #knack-overlay-curtain { 
+    background: var(--login);
+  }
+}
+
+@media screen and (min-width: 701px) { 
+  #knack-overlay-curtain { 
+    background: var(--general-background);
+  }
 }
 
 
