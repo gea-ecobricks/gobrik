@@ -676,6 +676,25 @@ transition: 0.3s;}
 
 
 
+
+#knack-overlay-curtain2 {
+  z-index: 20;
+}
+
+@media screen and (max-width: 700px) { 
+  #knack-overlay-curtain2 { 
+    background: var(--login);
+  }
+}
+
+@media screen and (min-width: 701px) { 
+  #knack-overlay-curtain2 { 
+    background: var(--general-background);
+  }
+}
+
+
+
 /* Table of Contents Menu (background) */
 .knack-overlay {
 
@@ -2136,7 +2155,7 @@ font-family: 'Mulish', sans-serif !important;
 .kn-content a:hover {color: var(--h1) !important;}
 
 .ang-link a{
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Mulish', sans-serif !important;
   color: var(--subdued-text) !important;
 }
 
