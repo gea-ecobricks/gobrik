@@ -73,19 +73,20 @@ function closeMenu() {
 Triggers the down fall of the knack sign in curtain*/
 
 function openKnack() {
-  document.getElementById("header").style.display = "none !important";
 
   document.getElementById("knack-overlay-curtain").style.height = "100%";
   document.getElementById("top-menu-login-button").style.display = "none";
 
   document.getElementById("top-close-buttoner").style.display = "contents";
+  document.getElementById("header").style.display = "none";
+
   document.getElementById("landing-page").style.display = "none";
   //document.body.style.overflowY = "hidden";
   //document.body.style.maxHeight = "101vh";
   //document.body.style.overflowY = "unset"; please work
-  window.scrollTo(0, 0);
-  document.getElementById("knack-overlay-curtain").scrollTo(0, 0);
-  document.getElementById("knack-overlay-curtain").scrollTo(0, 0);
+  //window.scrollTo(0, 0);
+  //document.getElementById("knack-overlay-curtain").scrollTo(0, 0);
+  //document.getElementById("knack-overlay-curtain").scrollTo(0, 0);
 
   var modal = document.getElementById('knack-overlay-curtain');
 
