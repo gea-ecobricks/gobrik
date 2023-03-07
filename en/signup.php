@@ -35,7 +35,7 @@ AND UNIQUE to HTML Pages-->
 /* Table of Contents Menu (background) */
 .knack-overlay {
 
-height: 100%;
+height: 100% !important;
 width: 100%;
 position: fixed;
 z-index: 25;
