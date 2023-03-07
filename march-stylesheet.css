@@ -2343,4 +2343,9 @@ top: 0;
   }	
   
   */
+
+  .kn-info-bar {
+    font-family: 'Mulish', sans-serif;
+    color: var(--subdued-text);
+  }
   

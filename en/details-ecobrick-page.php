@@ -113,8 +113,6 @@ $conn->close();
 <?php require_once ("settings-curtain.php");?>
 
 <?php require_once ("menu-curtain.php");?>
-<!--
-<?php require_once ("knack-curtain.php");?>-->
 
 <?php include ("../ecobrick_env.php");?>
 
