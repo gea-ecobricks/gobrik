@@ -2227,7 +2227,7 @@ top: 0;
 
 }
 
-.modal-card-body {background-color: var(--side-overlays);}
+.modal-card-body {background-color: var(--side-overlays) !important;}
 
 
-.modal-card-body .kn-scene {background-color:none;}
+.modal-card-body .kn-scene {background-color:none !important;}
