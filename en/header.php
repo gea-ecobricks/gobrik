@@ -47,7 +47,7 @@
 <link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.9">-->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v8.7">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v8.8">
 
 <!--LEGACY Sheets to consolidate-->
 
@@ -89,8 +89,8 @@
 <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v3.91" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v3.91" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v3.92" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v3.92" media="(prefers-color-scheme: dark)">
  
 
 
