@@ -2243,3 +2243,5 @@ top: 0;
 }
 
 .modal-card-head  {background: var(--side-overlays) !important;}
+
+.kn-modal {background: var(--side-overlays) !important;}

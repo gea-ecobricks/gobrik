@@ -81,6 +81,7 @@ function openKnack() {
   document.getElementById("header").style.display = "none";
 
   document.getElementById("landing-page").style.display = "none";
+  
   //document.body.style.overflowY = "hidden";
   //document.body.style.maxHeight = "101vh";
   //document.body.style.overflowY = "unset"; please work
