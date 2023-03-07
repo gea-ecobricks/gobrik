@@ -111,6 +111,13 @@ function openKnack2() {
   document.getElementById("top-menu-login-button").style.display = "none";
   document.getElementById("top-close-buttoner").style.display = "contents";
   document.getElementById("landing-page").style.display = "none";
+
+  document.getElementById("header").style.background = "none";
+  document.getElementById("knack-logo").style.display = "none";
+  document.getElementById("kn-app-header").style.background = "var(--header)";
+
+  
+
   //document.body.style.overflowY = "hidden";
   //document.body.style.maxHeight = "101vh";
   //document.body.style.overflowY = "unset"; please work
