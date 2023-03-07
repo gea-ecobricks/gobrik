@@ -51,7 +51,7 @@ overflow-x: hidden;  Disable horizontal scroll */
 #kn-app-header {
 z-index: 20;
 position: relative;
-background: var(--top-header);
+background: var(--top-header) !important;
 border-bottom: gray .5px solid;}
 
 </style>
@@ -60,7 +60,12 @@ border-bottom: gray .5px solid;}
 
 <body id="full-page" class="accessibility-plugin-ac">
 
-<div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>
+
+
+<div id="knack-overlay-curtain2" class="knack-overlay">
+  <div class="knack-overlay-content">
+
+  <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>
 
 <div><button type="button" class="gobrik-logo" onclick="closeKnack()" aria-label="Return to Home page"></button></div>
 
@@ -77,11 +82,6 @@ border-bottom: gray .5px solid;}
 
 
         <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
-
-        
-<div id="knack-overlay-curtain2" class="knack-overlay">
-  <div class="knack-overlay-content">
-
 
     <!--<div id="loading-box">
       <div id="header" class="top-menu">
