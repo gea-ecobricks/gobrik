@@ -1640,9 +1640,9 @@ cursor: pointer;
   
   .loader { 
       position: fixed;
-        left: 50;
-        top: 50;
-        width: 40px;
+        left: 0;
+        top: 0;
+        width: 100%;
         height: 100%;
         margin:auto;
         z-index: 5;
@@ -1650,7 +1650,7 @@ cursor: pointer;
           box-sizing: border-box;
        background-size: 38px;
   }
-
+  
 
 
 .module-btn {
@@ -1892,8 +1892,8 @@ This removes the three columns on the log in scenes but keeps it on the course a
       position: relative;
       z-index: 1;
       text-align: center;
-      margin-top: -40px !important;
-      padding-top: 50px !important;
+      margin-top: -25px !important;
+      padding-top: 38px !important;
     }
 
     @media screen and (max-width: 700px) {
@@ -1921,6 +1921,11 @@ This removes the three columns on the log in scenes but keeps it on the course a
   .kn-label {
     color: var(--subdued-text) !important;
     font-family: 'Arvo', serif;
+  }
+
+
+  #kn-mobile-menu {
+    background-color: var(--side-overlays) !important;
   }
 
   
