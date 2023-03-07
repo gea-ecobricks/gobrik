@@ -1640,10 +1640,11 @@ cursor: pointer;
   
   .loader { 
       position: fixed;
-        left: 50%;
-        top: 50%;
-        width: 100%;
+        left: 50;
+        top: 50;
+        width: 40px;
         height: 100%;
+        margin:auto;
         z-index: 5;
         background: url('svgs/bottle-loader.svg') center no-repeat;
           box-sizing: border-box;
