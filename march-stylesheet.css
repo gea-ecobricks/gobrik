@@ -2141,6 +2141,12 @@ background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-
 font-family: 'Mulish', sans-serif !important;
 }
 
+.kn-instructions  {
+   font-family: 'Mulish', sans-serif !important;
+color: var(--subdued-text);
+font-size: smaller;
+}
+
 .option {
   font-family: 'Mulish', sans-serif !important;
   color: var(--subdued-text);
