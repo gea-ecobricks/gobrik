@@ -47,7 +47,7 @@
 <link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.9">-->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v8.57">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v8.58">
 
 <!--LEGACY Sheets to consolidate-->
 
@@ -83,7 +83,7 @@
 <script src="../accessibility.js" defer></script>
 
 <!--These are the scripts for the new Richard Landing page-->
-<script src="../richard-scripts.js?v=1.7"></script>
+<script src="../richard-scripts.js?v=1.8"></script>
 
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
