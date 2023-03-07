@@ -104,7 +104,7 @@ function focusRestrict ( event ) {
 
 /* Knack OVERLAY 
 
-Triggers the down fall of the knack sign in curtain*/
+Triggers the down fall of the knack sign in curtain
 
 function openKnack2() {
   document.getElementById("knack-overlay-curtain2").style.height = "100%";
@@ -112,20 +112,11 @@ function openKnack2() {
   document.getElementById("top-close-buttoner").style.display = "contents";
   document.getElementById("landing-page").style.display = "none";
 
-  document.getElementById("header").style.background = "none";
-  document.getElementById("knack-logo").style.display = "none";
-  document.getElementById("kn-app-header").style.background = "var(--header)";
-
-  
-
-  //document.body.style.overflowY = "hidden";
-  //document.body.style.maxHeight = "101vh";
-  //document.body.style.overflowY = "unset"; please work
   window.scrollTo(0, 0);
   document.getElementById("knack-overlay-curtain2").scrollTo(0, 0);
   document.getElementById("knack-overlay-curtain2").scrollTo(0, 0);
 
-  var modal = document.getElementById('knack-overlay-curtain2');
+  var modal = document.getElementById('knack-overlay-curtain');
 
   function modalShow () {
    modal.setAttribute('tabindex', '0');
@@ -140,14 +131,13 @@ function focusRestrict ( event ) {
     }
   }, true);
 }
-}
+}*/
 
 
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeKnack() {
   document.getElementById("knack-overlay-curtain").style.height = "0%";
-  document.getElementById("knack-overlay-curtain2").style.height = "0%";
   document.getElementById("top-menu-login-button").style.display = "block";
   document.body.style.overflowY = "unset";
   document.getElementById("landing-page").style.display = "block";

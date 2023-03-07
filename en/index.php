@@ -143,7 +143,7 @@ if (!$conn) {
                 </div>
         
                 <div>
-                    <button type="button" aria-label="Sign up" onclick="openKnack2()" class="sign-uppp" style="cursor:pointer;">Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
+                    <button type="button" aria-label="Sign up" onclick="location.href='signup.php'" class="sign-uppp" style="cursor:pointer;">Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
                 </div>
             </div>
             
@@ -176,7 +176,6 @@ if (!$conn) {
     
     <?php require_once ("knack-curtain.php");?>
 
-    
     <div style="z-index:5;">
     <!-- sets footer of page:  be sure to add page name-->
     <?php require_once ("footer.php");?>
