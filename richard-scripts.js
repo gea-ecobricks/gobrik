@@ -144,6 +144,8 @@ function closeKnack() {
   document.body.style.overflowY = "unset";
   document.getElementById("landing-page").style.display = "block";
   document.getElementById("top-close-buttoner").style.display = "none";
+  document.getElementById("header").style.display = "content";
+
 
 
   //document.body.style.maxHeight = "unset";

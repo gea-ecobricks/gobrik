@@ -1,7 +1,7 @@
 <div id="knack-overlay-curtain" class="knack-overlay">
 
 
-<div id="header-knack" class="top-menu">
+  <div id="header-knack" class="top-menu">
 
 
     <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>
@@ -26,9 +26,9 @@
                 <img src="../svgs/language-button2.svg" height="30px">
             </button></div>-->
                
-        </div>
     </div>
-</div> 
+  </div>
+
 
 
 
