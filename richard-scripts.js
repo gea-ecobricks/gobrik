@@ -75,6 +75,8 @@ Triggers the down fall of the knack sign in curtain*/
 function openKnack() {
   document.getElementById("knack-overlay-curtain").style.height = "100%";
   document.getElementById("top-menu-login-button").style.display = "none";
+  document.getElementById("header").style.display = "none";
+
   document.getElementById("top-close-buttoner").style.display = "contents";
   document.getElementById("landing-page").style.display = "none";
   //document.body.style.overflowY = "hidden";
