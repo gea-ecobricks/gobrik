@@ -73,9 +73,10 @@ function closeMenu() {
 Triggers the down fall of the knack sign in curtain*/
 
 function openKnack() {
+  document.getElementById("header").style.display = "none";
+
   document.getElementById("knack-overlay-curtain").style.height = "100%";
   document.getElementById("top-menu-login-button").style.display = "none";
-  document.getElementById("header").style.display = "none";
 
   document.getElementById("top-close-buttoner").style.display = "contents";
   document.getElementById("landing-page").style.display = "none";
@@ -144,7 +145,7 @@ function closeKnack() {
   document.body.style.overflowY = "unset";
   document.getElementById("landing-page").style.display = "block";
   document.getElementById("top-close-buttoner").style.display = "none";
-  document.getElementById("header").style.display = "contents";
+  document.getElementById("header").style.display = "block";
 
 
 

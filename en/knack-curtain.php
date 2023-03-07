@@ -13,11 +13,9 @@
     <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;"m>
       
         
-            <div id="top-menu-login-button"><button type="button" class="top-menu-login-button"  onclick="openKnack()" >
-                login
-            </button></div>
+            
 
-            <div id="top-close-buttoner" style="display: none;"><button type="button" class="top-close-button" onclick="closeKnack()" aria-label="Click to open settings page"></button></div>
+            <div id="top-close-buttoner" style="display: contents;"><button type="button" class="top-close-button" onclick="closeKnack()" aria-label="Click to open settings page"></button></div>
 
 
             <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
