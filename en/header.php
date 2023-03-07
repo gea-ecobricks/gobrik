@@ -47,7 +47,7 @@
 <link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.9">-->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v8.56">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v8.57">
 
 <!--LEGACY Sheets to consolidate-->
 
@@ -65,7 +65,7 @@
 
 
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../light.css?v3.5" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../light.css?v3.9" as="style" onload="this.rel='stylesheet'">
 
 <!--This enables text scaling-->
 <link rel="preload" href="../acessibilidade.css" as="style" onload="this.rel='stylesheet'">
@@ -83,14 +83,14 @@
 <script src="../accessibility.js" defer></script>
 
 <!--These are the scripts for the new Richard Landing page-->
-<script src="../richard-scripts.js?v=1.6"></script>
+<script src="../richard-scripts.js?v=1.7"></script>
 
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v3.7" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v3.7" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v3.9" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v3.9" media="(prefers-color-scheme: dark)">
  
 
 
