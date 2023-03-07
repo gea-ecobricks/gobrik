@@ -1135,13 +1135,15 @@ cursor: pointer;
   font-family:'Mulish';
   font-size:1.4em;
   color:var(--text-color);
-  border-bottom:1px solid var(--general-background);
+  border-bottom:1px solid var(--subdued-text);
   cursor: pointer;
 }
 
+
 .menu-page-item:hover {
  
-  border-bottom:2px solid var(--general-background-highlight);
+  border-bottom:2px solid var(--text-color);
+  color: var(--header-accent)
   
 }
 
