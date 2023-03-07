@@ -1095,6 +1095,23 @@ cursor: pointer;
   top: 0px;
 }
 
+.menu-page-item {
+  padding:10px;
+  font-family:'Mulish';
+  font-size:1.4em;
+  color:var(--text-color);
+  border-bottom:1px solid grey;
+  cursor: pointer;
+}
+
+.menu-page-item:hover {
+ 
+  border-bottom:2px solid grey;
+  
+}
+
+
+
 
 
 /*------------------------------------

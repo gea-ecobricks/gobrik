@@ -31,6 +31,23 @@ AND UNIQUE to HTML Pages-->
  
 <style>
 
+
+/* Table of Contents Menu (background) */
+.knack-overlay {
+
+height: 100%;
+width: 100%;
+position: fixed;
+z-index: 25;
+top: 0;
+left: 0;
+overflow-y: scroll;
+transition: 0.5s;
+display: flex;
+/*
+overflow-x: hidden;  Disable horizontal scroll */
+}
+
 </style>
 
 </head>
@@ -39,7 +56,7 @@ AND UNIQUE to HTML Pages-->
 
 <?php include 'top-menu.php';?>
 
-<?php require_once ("knack-curtain.php");?>
+<?php require_once ("knack-curtain2.php");?>
 
 </div> <!--landing page close-->
 

@@ -10,24 +10,23 @@
         <div class="menu-overlay-content">
               
               
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;" onclick="location.href='index.php'" aria-label="Go to top of page">Home page</div>
+        <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Go to top of page">Home page</div>
 
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Brikchain of Ecobricks</div>
+        <div class="menu-page-item" onclick="location.href='login.php'" aria-label="Go to top of page">Login</div>
+
+        <div class="menu-page-item" onclick="location.href='signup.php'" aria-label="Go to top of page">Sign up</div>
+
+
+        <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Go to top of page">Search Ecobricks</div>
+
+        <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Go to top of page">Brikchain</div>
+
+        <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Go to top of page">Open Books</div>
         
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Brickhain of Coins</div>
-        
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Search for Ecobricks</div>
-        
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">GEA Open Books</div>
-        
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Plastic Offsetting</div>
-        
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Ecobricks.org</div>
-        
-        <div class="menu-page-item" style="padding:10px;font-family:'Mulish';font-size:1em;color:var(--text-color);border-bottom:1px solid grey;">Another page</div>
-        
+        <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Go to top of page">Brikcoin Pricing</div>
+Ecobricks.org</div>
         <div>
-          <p>The content of an Earthbook is under a Creative-Commons ND-SA-AT 4.0 license which means you can freely share the links to this page, quote passages, download and share the PDF-- just be sure to attribute to this Earthbook and share in the way.</p>
+          <p>GoBrik is developed by volunteers who are passionate about plastic transition just like you!</p>
         </div>
           <div><img src="../icons/cc-by-sa.svg" alt="Creative Commons CC-BY-SA icon" style="height: 35px"></div>
     </div>
