@@ -54,10 +54,12 @@ overflow-x: hidden;  Disable horizontal scroll */
 
 <body id="full-page" class="accessibility-plugin-ac">
 
-<?php include 'top-menu.php';?>
 
 <div id="knack-overlay-curtain2" class="knack-overlay">
   <div class="knack-overlay-content">
+
+  <?php include 'top-menu.php';?>
+
     <!--<div id="loading-box">
       <div id="header" class="top-menu">
 			    <a href="/#home"><img src="svgs/gobrik-logo-3.svg?v1.1" width="185" height=""></a>
