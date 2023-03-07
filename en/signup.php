@@ -48,17 +48,40 @@ display: flex;
 overflow-x: hidden;  Disable horizontal scroll */
 }
 
+#kn-app-header {
+z-index: 20;
+position: relative;
+background: var(--top-header);
+border-bottom: gray .5px solid;}
+
 </style>
 
 </head>
 
 <body id="full-page" class="accessibility-plugin-ac">
 
+<div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>
 
+<div><button type="button" class="gobrik-logo" onclick="closeKnack()" aria-label="Return to Home page"></button></div>
+
+
+
+<div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;"m>
+  
+    
+        <div id="top-menu-login-button"><button type="button" class="top-menu-login-button"  onclick="openKnack()" >
+            login
+        </button></div>
+
+        <div id="top-close-buttoner" style="display: none;"><button type="button" class="top-close-button" onclick="closeKnack()" aria-label="Click to open settings page"></button></div>
+
+
+        <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
+
+        
 <div id="knack-overlay-curtain2" class="knack-overlay">
   <div class="knack-overlay-content">
 
-  <?php include 'top-menu.php';?>
 
     <!--<div id="loading-box">
       <div id="header" class="top-menu">
