@@ -1786,6 +1786,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
         display: flex;
         border: none;
         background-color: var(--facebook) !important;
+        margin-bottom: 50px !important;
     }
     
     .sso-button {
@@ -2205,13 +2206,13 @@ padding-bottom:20px;
 .kn-content a {color: var(--text-color) !important;}
 .kn-content a:hover {color: var(--h1) !important;}
 
-.ang-link a{
+.ang-link {
   font-family: 'Mulish', sans-serif !important;
   color: var(--subdued-text) !important;
   font-size: smaller;
 }
 
-.ang-link a:hover{
+.ang-link:hover{
   font-family: 'Mulish', sans-serif;
   color: var(--h1) !important;
 }
@@ -2226,4 +2227,7 @@ top: 0;
 
 }
 
-.kn-modal {background-color: red !important;}
+.modal-card-body {background-color: var(--side-overlays);}
+
+
+.modal-card-body .kn-scene {background-color:none;}

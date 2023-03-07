@@ -83,7 +83,7 @@
 <script src="../accessibility.js" defer></script>
 
 <!--These are the scripts for the new Richard Landing page-->
-<script src="../richard-scripts.js?v=1.5"></script>
+<script src="../richard-scripts.js?v=1.6"></script>
 
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
