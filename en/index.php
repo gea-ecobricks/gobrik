@@ -174,7 +174,6 @@ if (!$conn) {
 
 
     
-    <?php require_once ("knack-curtain.php");?>
 
     <div style="z-index:5;">
     <!-- sets footer of page:  be sure to add page name-->
@@ -183,6 +182,9 @@ if (!$conn) {
 </div>
             </div>
 </div> <!--landing page close-->
+
+<?php require_once ("knack-curtain.php");?>
+
 
 <?php require_once ("settings-curtain.php");?>
 
