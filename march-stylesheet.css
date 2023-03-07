@@ -184,7 +184,7 @@ background: var(--top-header);
   display: flex;
   justify-content: center;
   z-index: 25;
-position: relative;
+position: absolute;
 background: var(--top-header);
 /*box-shadow: 0px 0px 12px var(--shadow);	*/
   width: 100%;
