@@ -61,9 +61,12 @@ border-bottom: gray .5px solid;}
 <body id="full-page" class="accessibility-plugin-ac">
 
 
+<div id="header" class="top-menu">
+    <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>
+    <div><button type="button" class="gobrik-logo" onclick="closeKnack()" aria-label="Return to Home page"></button></div>
+    <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
+</div>
 
-<div id="knack-overlay-curtain2" class="knack-overlay">
-  <div class="knack-overlay-content">
 
 
     <!--<div id="loading-box">
