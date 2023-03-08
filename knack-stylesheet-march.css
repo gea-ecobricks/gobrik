@@ -1343,6 +1343,7 @@ margin: 18px;
     #view_748 .kn-scene .kn-container  {  text-align: center !important;}
       
     
+    /*
     #view_753  .kn-link .kn-link-1 .kn-link-page .kn-button{
       background: #fff;}
     
@@ -1356,12 +1357,13 @@ margin: 18px;
       #view_739 .kn-button.kn-link{
       background: #fff;
       }
-    
+    */
     
     
     #kn-input-field_44 .help {display: none;}
     
     
+    /*
     
     #view_497 .kn-button.kn-link{
       background: #fff;}
@@ -1369,7 +1371,7 @@ margin: 18px;
     #view_739 .kn-button.kn-link{
         background: #fff;}
     
-    
+    */
     
     
     
@@ -1457,14 +1459,9 @@ margin: 18px;
     }
     
     
+  
     
-    
-    #view_497 .control {
-      
-      text-align: center !important;
-    margin-bottom: 30px;
-      margin-top: 0px !important;
-    }
+   
     
     
     #view_732 .control {
