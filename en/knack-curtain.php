@@ -4,9 +4,9 @@
   <div id="header-knack" class="top-menu">
 
 
-    <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>
+    <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Site menu"></button></div>
 
-    <div><button type="button" class="gobrik-logo" onclick="closeKnack()" aria-label="Return to Home page"></button></div>
+    <div><button type="button" class="gobrik-logo" onclick="location.href='index.php'"  aria-label="Return to Home page"></button></div>
     
    
     
@@ -37,7 +37,7 @@
       </div>-->
 
         <script type="text/javascript">app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_52"; async</script>
-        <script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_52/knack.js" async></script><div id="knack-dist_52"><div class="loader"></div>Loading...</div>
+        <script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_52/knack.js" async></script><div id="knack-dist_52"><div class="loader"></div></div>
         
 
   </div>
