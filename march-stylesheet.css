@@ -501,7 +501,7 @@ border:none;
   @media screen and (max-width: 700px) { 
     .main-landing-graphic {
       width: 90%;
-      margin-top: 80px;
+      margin-top: 40px;
       margin-bottom: 10px;
     }
   }
@@ -1925,8 +1925,8 @@ This removes the three columns on the log in scenes but keeps it on the course a
         background: none;
         box-shadow: none;
         border: none;
-      margin-top: -38px !important;
-      padding-top: 20px !important;
+      margin-top: -48px !important;
+      padding-top: 30px !important;
     }
       
       }
