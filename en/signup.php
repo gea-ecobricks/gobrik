@@ -47,7 +47,7 @@ display: flex;
 /*
 overflow-x: hidden;  Disable horizontal scroll */
 }
-
+/*
 #kn-app-header {
 z-index: 20;
 position: relative;
@@ -60,6 +60,7 @@ position: absolute;
 right: 100px;
 
 }
+*/
 .main-menu-button {
 
 background: url(../svgs/grey-emblem-button3-dark.svg?v=2) no-repeat;
@@ -74,6 +75,8 @@ background: url(../up-arrow.svg) no-repeat;
 background-size: contain;
 
 }
+
+/*
 .main-menu-button {
 
 position: absolute;
@@ -87,6 +90,7 @@ height: 30px;
 width: 30px;
 
 }
+*/
 
 </style>
 
