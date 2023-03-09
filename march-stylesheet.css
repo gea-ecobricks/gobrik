@@ -36,7 +36,7 @@ h1 {
   background-size: 400px 100px;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  animation: rainbow 2s linear forwards, fade-to-grey 1s linear 2s forwards;
+  animation: rainbow 2s linear forwards, fade-to-grey 2s linear 2s forwards;
 }
 
 @keyframes rainbow {

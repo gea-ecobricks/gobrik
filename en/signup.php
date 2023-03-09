@@ -92,7 +92,13 @@ width: 30px;
 }
 */
 
-.kn-mobile-controls { z-index: 30;}
+.kn-mobile-controls { 
+  z-index: 30 !important;
+  margin-top: 7px;
+margin-left: 15px;
+  }
+
+.fa-bars {background: red !important}
 
 </style>
 
@@ -113,8 +119,8 @@ width: 30px;
       
         
             
-
-            <div id="top-close-buttoner" style="display: contents;"><button type="button" class="top-close-button" onclick="closeKnack()" aria-label="Click to open settings page"></button></div>
+<!--
+            <div id="top-close-buttoner" style="display: contents;"><button type="button" class="top-close-button" onclick="closeKnack()" aria-label="Click to open settings page"></button></div>-->
 
 
             <div><button type="button" class="top-settings-button" onclick="openSettings()" aria-label="Click to open settings page"></button></div>
