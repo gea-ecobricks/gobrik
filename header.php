@@ -46,13 +46,13 @@
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 	
 <!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="main-stylesheet.css?v1.9">
+<link rel="stylesheet" type="text/css" href="main-stylesheet.css?v1.91">
 
 <!-- Footer stylesheet -->
-<link rel="stylesheet" type="text/css" href="footer-stylesheet.css?2.0">
+<link rel="stylesheet" type="text/css" href="footer-stylesheet.css?2.10">
 
 <!-- Knack Stylesheet -->
-<link rel="stylesheet" type="text/css" href="knack-stylesheet.css?v0.6">
+<link rel="stylesheet" type="text/css" href="knack-stylesheet.css?v0.61">
 
 <!-- CUSTOM PAGE SCRIPTS 
 <script src="spring-javascript.js?v1.4" async></script> -->

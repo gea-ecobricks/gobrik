@@ -36,7 +36,7 @@ h1 {
   background-size: 400px 100px;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  animation: rainbow 4s linear forwards, fade-to-grey 1s linear 3s forwards;
+  animation: rainbow 2s linear forwards, fade-to-grey 1s linear 2s forwards;
 }
 
 @keyframes rainbow {
@@ -1917,15 +1917,18 @@ This removes the three columns on the log in scenes but keeps it on the course a
       position: relative;
       z-index: 1;
       text-align: center;
-      margin-top: -25px !important;
-      padding-top: 38px !important;
+     
     }
 
     @media screen and (max-width: 700px) {
       .kn-scene {
         background: none;
         box-shadow: none;
-        border: none;}
+        border: none;
+      margin-top: -38px !important;
+      padding-top: 20px !important;
+    }
+      
       }
       
 
@@ -1937,6 +1940,9 @@ This removes the three columns on the log in scenes but keeps it on the course a
           border-width: 0.5px;
           border-style: solid;
           border-color: rgba(128, 128, 128, 0.812);
+          margin-top: -25px !important;
+          padding-top: 38px !important;
+
         }
       }
 
