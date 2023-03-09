@@ -54,6 +54,40 @@ position: relative;
 background: var(--top-header) !important;
 border-bottom: gray .5px solid;}
 
+element {
+
+position: absolute;
+right: 100px;
+
+}
+.main-menu-button {
+
+background: url(../svgs/grey-emblem-button3-dark.svg?v=2) no-repeat;
+    background-size: auto;
+background-size: contain;
+position: absolute;
+
+}
+.main-menu-button {
+
+background: url(../up-arrow.svg) no-repeat;
+background-size: contain;
+
+}
+.main-menu-button {
+
+position: absolute;
+left: 0;
+margin-top: 22px;
+margin-left: 20px;
+border: none;
+margin-right: 10px;
+cursor: pointer;
+height: 30px;
+width: 30px;
+
+}
+
 </style>
 
 </head>
