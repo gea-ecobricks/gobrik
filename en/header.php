@@ -74,12 +74,8 @@
 
 
 
-<!-- CUSTOM PAGE SCRIPTS-->
-
-<!--This is a script page with all the knack page controls.  Is it needed?? 
-<script src="spring-javascript.js?v1.4" async></script> -->
-
-<!--This enables accessibility text scaling on the page by the user-->
+<!-- CUSTOM PAGE SCRIPTS
+This enables accessibility text scaling on the page by the user-->
 <script src="../accessibility.js" defer></script>
 
 <!--These are the scripts for the new Richard Landing page-->

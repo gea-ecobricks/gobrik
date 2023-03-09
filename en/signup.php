@@ -98,8 +98,6 @@ width: 30px;
 margin-left: 15px;
   }
 
-.fa-bars {background-image: none !important;
-background-color: red;}
 
 #kn-title {
   color: var(--header-accent) !important;
