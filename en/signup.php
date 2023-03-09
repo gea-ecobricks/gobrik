@@ -102,7 +102,7 @@ margin-left: 15px;
 background-color: red;}
 
 #kn-title {
-  color: var(--header-accent);
+  color: var(--header-accent) !important;
 }
 
 </style>
