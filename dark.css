@@ -140,6 +140,11 @@
  
 }
 
+.earth-com {
+  background: url(../svgs/earth-community-night.svg) no-repeat;
+  background-size: contain;
+}
+
 /*
   .virtue img {
     filter: invert(100%);

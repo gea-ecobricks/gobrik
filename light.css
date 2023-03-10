@@ -131,6 +131,11 @@
       background-size: contain;
     }
 
+    .earth-com {
+      background: url(../svgs/earth-community-day.svg) no-repeat;
+      background-size: contain;
+    }
+
 /* light.css
 light.css 
 --icon-filter_hover: invert(60%);*/
