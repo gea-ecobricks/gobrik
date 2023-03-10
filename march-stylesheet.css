@@ -1726,9 +1726,8 @@ margin-top: 40px;
 .action-btn:hover {
   background: var(--splash-over);
 }
-
-
-
+/*March: reduces margin under Welcome Ecobricker*/
+#view_433 { margin-bottom: -20px !important}
 
 /*NEW CONFIRMED KNACK CODE*/
 
@@ -1737,7 +1736,7 @@ margin-top: 40px;
     /* Welcome page formating
     #view_432 { margin-bottom: -20px !important}
     
-    #view_433 { margin-bottom: -40px !important}
+  
     
     
     /* Landing page formating  
@@ -1970,6 +1969,10 @@ This removes the three columns on the log in scenes but keeps it on the course a
     background-color: var(--side-overlays) !important;
   }
 
+
+  .kn-title {
+    color: var(--header-accent) !important;
+  }
   
     /*login view - when ready transfer to all logings*/
  /*   #view_1373 {  
@@ -2040,8 +2043,8 @@ h1.modal-card-title {height: 35px !important;
       box-sizing: border-box;
         border: 1px solid #00D6FF;
       border-radius: 5px;
-        background-color: var(--general-background);
-      color: var(--subdued-text);
+        background-color: var(--general-background) !important;
+      color: var(--subdued-text)  !important;
   }
 
   
@@ -2381,7 +2384,7 @@ top: 0;
     font-family: 'Mulish', sans-serif;
     color: var(--subdued-text) !important;
     font-size: smaller;
-    padding-top: 4px;
+    /*padding-top: 4px;*/
     padding-right: 15px;
   }
   

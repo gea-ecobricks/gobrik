@@ -55,12 +55,6 @@ padding-left: 30px;
   }
 
 
-
-
-.kn-title {
-  color: var(--header-accent) !important;
-}
-
 </style>
 
 </head>
