@@ -42,6 +42,8 @@ Redirect /index /index.php
 Redirect /index.html /index.php
 
 
+
+
 Redirect /market /market.php
 Redirect /marketplace/ /market.php
 

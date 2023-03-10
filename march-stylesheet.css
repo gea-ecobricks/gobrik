@@ -1950,7 +1950,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
           border-width: 0.5px;
           border-style: solid;
           border-color: rgba(128, 128, 128, 0.812);
-          margin-top: -25px !important;
+          /*margin-top: -25px !important;*/
           padding-top: 38px !important;
 
         }
