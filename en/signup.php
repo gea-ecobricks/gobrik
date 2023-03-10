@@ -48,15 +48,16 @@ display: flex;
 
 
 .kn-mobile-controls { 
-  z-index: 30 !important;
+  z-index: 26 !important;
   margin-top: 7px;
 margin-left: 15px;
+padding-left: 30px;
   }
 
 
-  
 
-#kn-title {
+
+.kn-title {
   color: var(--header-accent) !important;
 }
 
