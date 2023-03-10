@@ -50,9 +50,14 @@ display: flex;
 .kn-mobile-controls { 
   z-index: 26 !important;
   margin-top: 7px;
-margin-left: 15px;
-padding-left: 30px;
+/*margin-left: 15px;
+padding-left: 30px;*/
   }
+
+#main-menu-button {
+  right: 0px !important;
+  margin-right: 70px !important;
+}
 
 
 </style>
