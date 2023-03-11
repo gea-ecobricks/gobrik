@@ -513,6 +513,16 @@ border:none;
       width: 70%;
   }
 
+  .region-image {
+    margin: auto;
+      position: relative;
+      z-index: 11;
+      height: fit-content;
+      width: 70%;
+      background: url(../svgs/region.svg) no-repeat;
+      background-size: contain;
+  }
+
 
 
   @media screen and (max-width: 700px) { 
