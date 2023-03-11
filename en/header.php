@@ -47,12 +47,12 @@
 <link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.9">-->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v8.991">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9">
 
 <!--LEGACY Sheets to consolidate-->
 
 <!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v1.96">
+<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v1.97">
 
 
 <!-- Knack Stylesheet -->
@@ -65,13 +65,10 @@
 
 
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../light.css?v3.91" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../light.css?v3.92" as="style" onload="this.rel='stylesheet'">
 
 <!--This enables text scaling-->
 <link rel="preload" href="../acessibilidade.css" as="style" onload="this.rel='stylesheet'">
-
-
-
 
 
 <!-- CUSTOM PAGE SCRIPTS
@@ -85,8 +82,8 @@ This enables accessibility text scaling on the page by the user-->
 <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v3.96" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v3.96" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v3.92" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v3.92" media="(prefers-color-scheme: dark)">
  
 
 
