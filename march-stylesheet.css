@@ -59,7 +59,7 @@ h1 {
 
 
 h2 {
-    font-size: 2.1em;
+    font-size: 2.1em !important;
     font-family: 'Mulish', sans-serif !important;
     text-align: center !important;
       line-height: 1.3 !important;
@@ -73,7 +73,7 @@ h3 {
     font-family: 'Arvo', serif !important;
     text-align: center !important;
     line-height: 1.4 !important;
-    font-weight: 300;
+    font-weight: 300 !important;;
     color: var(--text-color) !important;
 }
 
@@ -488,7 +488,6 @@ border:none;
 
 
 .main-landing-graphic {
-    
     margin: auto;
       position: relative;
       z-index: 11;
@@ -506,6 +505,14 @@ border:none;
       width: 80%;
   }
 
+  .city-image {
+    margin: auto;
+      position: relative;
+      z-index: 11;
+      background: url(../svgs/city-village-night) no-repeat;
+      background-size: contain;
+      height: fit-content;
+  }
 
 
 
@@ -960,9 +967,6 @@ border-color: #00a112 !important;
 #wcb.wcb-d #wcb_2 {
   color: grey !important;
 }
-
-
-
 
 
 
@@ -1673,20 +1677,6 @@ cursor: pointer;
   
   }
   
-  
-  .loader { 
-      position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        margin:auto;
-        z-index: 5;
-        background: url('svgs/bottle-loader.svg') center no-repeat;
-          box-sizing: border-box;
-       background-size: 38px;
-  }
-  
 
 
 .module-btn {
@@ -1726,6 +1716,32 @@ margin-top: 40px;
 .action-btn:hover {
   background: var(--splash-over);
 }
+
+
+
+/* ----------------------------------------------
+
+
+LOADING AND LOGIN  
+
+
+-----------------------------------------------*/
+
+
+.loader { 
+  position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    z-index: 5;
+    background: url('svgs/bottle-loader.svg') center no-repeat;
+      box-sizing: border-box;
+   background-size: 38px;
+}
+
+
 /*March: reduces margin under Welcome Ecobricker*/
 #view_433 { margin-bottom: -20px !important}
 
@@ -1767,12 +1783,14 @@ This removes the three columns on the log in scenes but keeps it on the course a
     .columns:not(.is-desktop) {display: contents !important;}
      
     .column.is-half {width: 100% !important;}
+
+    /*which scenes are these?!
     
     #kn-scene_1812 .columns:not(.is-desktop) {display: flex !important;}
     
     #kn-scene_1543 .columns:not(.is-desktop) {display: flex !important;}
      
-    #kn-scene_1870 .columns:not(.is-desktop) {display: flex !important;}
+    #kn-scene_1870 .columns:not(.is-desktop) {display: flex !important;}*/
     
     
     
@@ -1923,6 +1941,33 @@ This removes the three columns on the log in scenes but keeps it on the course a
      
     }*/
 
+
+
+
+/* ----------------------------------
+
+
+Basic Knack page Setup
+
+
+-------------------*/
+
+
+#knack-dist_52 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  }
+
+
+  .kn-info-bar {
+    font-family: 'Mulish', sans-serif;
+    color: var(--subdued-text) !important;
+    font-size: smaller;
+    /*padding-top: 4px;*/
+    padding-right: 15px;
+  }
+
     .kn-scene {
       position: relative;
       z-index: 1;
@@ -1956,8 +2001,6 @@ This removes the three columns on the log in scenes but keeps it on the course a
         }
       }
 
-  .top-graphic { display:none;}
- 
 
   .kn-label {
     color: var(--subdued-text) !important;
@@ -1974,31 +2017,9 @@ This removes the three columns on the log in scenes but keeps it on the course a
     color: var(--header-accent) !important;
   }
   
-    /*login view - when ready transfer to all logings*/
- /*   #view_1373 {  
- 
-        background: rgba(256, 256, 256, 0.7);
-        position: relative;
-        z-index: 1;
-        padding-top: 18px;
-        box-shadow: 0px 0px 10px grey;
-        border-radius: 0px 0px 10px 10px ;
-        margin-top: -32px;
-        padding-bottom: 270px;
-        text-align: center;
-        min-width: 100%;
- }
 
 
-
- @media screen and (max-width: 900px) {
-.kn-login {
-  background: none;
-  box-shadow: none;}
-}
-
-*/
-
+    
 
 /* -------------------------------------------------------------------------- */
 
@@ -2047,10 +2068,6 @@ h1.modal-card-title {height: 35px !important;
       color: var(--subdued-text)  !important;
   }
 
-  
-  
-  
-  
   select {
     
   -webkit-appearance: none; 
@@ -2080,9 +2097,6 @@ h1.modal-card-title {height: 35px !important;
       border: 2px solid #00f200 !important;
   }
   
-  
-  
-  
   input[type=text], input[type=email], input[type=password]{
     
         width: 100%;
@@ -2103,22 +2117,17 @@ h1.modal-card-title {height: 35px !important;
   border: hidden !important;
   }
   
-   /*
-    input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
-      border: 2px solid #FF00FF;
-  }
-  
-  */
-  
   .chzn-drop { font-size: 16px;
     background-color: var(--general-background) !important;
   }
   
+
+  /* What's this?! 
   #view_1163 .kn-records-nav{
       display: block !important;
     margin: auto !important;
         text-align: center !important;
-  }
+  }*/
   
   .table-keyword-search .input{
             width: 100%;
@@ -2176,6 +2185,8 @@ h1.modal-card-title {height: 35px !important;
     
     
   }
+
+  /*what's this?!
   
   #field_536 {padding: 5px 25px 5px 5px;}
   
@@ -2188,6 +2199,8 @@ h1.modal-card-title {height: 35px !important;
   #field_1238 {padding: 5px 25px 5px 5px;}
   
   #field_1286 {padding: 5px 25px 5px 5px;}
+
+  *?
   
   
 /* --------------------------------------
@@ -2284,16 +2297,20 @@ padding-bottom:20px;
 .kn-register .sso-facebook {display:none;}
 
 
-#knack-dist_52 {
-position: absolute;
-width: 100%;
-top: 0;
 
-}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	8. NOTIFICATIONS
+/* -------------------------------------------------------------------------- */
+
+
 
 .modal-card-body {background-color: var(--side-overlays) !important;}
-
-
+    
+    
 .modal-card-body .kn-scene {
   background:none !important;
   border: none !important;
@@ -2303,12 +2320,6 @@ top: 0;
 
 .kn-modal {background: var(--side-overlays) !important;}
 
-
-
-/* -------------------------------------------------------------------------- */
-
-/*	8. NOTIFICATIONS
-/* -------------------------------------------------------------------------- */
 
 /*
 
@@ -2380,13 +2391,7 @@ top: 0;
 
   /*DASHBOARD*/
 
-  .kn-info-bar {
-    font-family: 'Mulish', sans-serif;
-    color: var(--subdued-text) !important;
-    font-size: smaller;
-    /*padding-top: 4px;*/
-    padding-right: 15px;
-  }
+
   
   #view_6532 {display: none;}
 
@@ -2430,3 +2435,19 @@ STEP 2 LOGIN
         }
   }
   */
+
+
+        /*what is this??!*/
+        .top-graphic { display:none;}
+
+
+
+        .city-image {
+          margin: auto;
+            position: relative;
+            z-index: 11;
+            background: url(../svgs/city-village-night.svg) no-repeat;
+            background-size: contain;
+            height: fit-content;
+        }
+
