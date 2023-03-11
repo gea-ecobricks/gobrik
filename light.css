@@ -136,6 +136,12 @@
       background-size: contain;
     }
 
+
+    .city-image {
+      background: url(../svgs/city-village-day.svg) no-repeat;
+      background-size: contain;
+    }
+
 /* light.css
 light.css 
 --icon-filter_hover: invert(60%);*/

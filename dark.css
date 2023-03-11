@@ -145,6 +145,13 @@
   background-size: contain;
 }
 
+
+.city-image {
+  background: url(../svgs/city-village-night.svg) no-repeat;
+  background-size: contain;
+}
+
+
 /*
   .virtue img {
     filter: invert(100%);
