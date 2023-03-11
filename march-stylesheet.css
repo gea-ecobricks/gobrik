@@ -509,9 +509,8 @@ border:none;
     margin: auto;
       position: relative;
       z-index: 11;
-      background: url(../svgs/city-village-night) no-repeat;
-      background-size: contain;
       height: fit-content;
+      width: 70%;
   }
 
 
@@ -2298,8 +2297,8 @@ padding-bottom:20px;
 
 
 .kn-details-body {
-  font-family: 'Mulish', sans-serif;
-  color: var(--fuscia-button);
+  font-family: 'Mulish', sans-serif !important;
+  color: var(--fuscia-button) !important;
 }
 
 
@@ -2448,11 +2447,5 @@ STEP 2 LOGIN
 
 
 
-        .city-image {
-          margin: auto;
-            position: relative;
-            z-index: 11;
-         
-            height: fit-content;
-        }
+
 
