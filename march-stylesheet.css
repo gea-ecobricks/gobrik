@@ -510,7 +510,7 @@ border:none;
       position: relative;
       z-index: 11;
       height: fit-content;
-      width: 70%;
+      width: 50%;
   }
 
   .region-image {
@@ -518,7 +518,7 @@ border:none;
       position: relative;
       z-index: 11;
       height: fit-content;
-      width: 70%;
+      width: 40%;
       background: url(../svgs/region.svg) no-repeat;
       background-size: contain;
   }
@@ -2004,9 +2004,8 @@ Basic Knack page Setup
           border-width: 0.5px;
           border-style: solid;
           border-color: rgba(128, 128, 128, 0.812);
-          /*margin-top: -25px !important;*/
+          margin-top: -25px !important;
           padding-top: 38px !important;
-
         }
       }
 
@@ -2306,7 +2305,7 @@ padding-bottom:20px;
 .kn-register .sso-facebook {display:none;}
 
 
-.kn-details-body {
+.kn-details .kn-detail-body {
   font-family: 'Mulish', sans-serif !important;
   color: var(--fuscia-button) !important;
 }
