@@ -139,7 +139,7 @@
 
 
     .city-image {
-      background: url(../svgs/city-village-day.svg) no-repeat;
+      background: url(../svgs/city-village-day.svg?v=2) no-repeat;
       background-size: contain;
     }
 

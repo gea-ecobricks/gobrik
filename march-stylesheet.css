@@ -2329,7 +2329,8 @@ padding-bottom:20px;
 
 .kn-details .kn-detail-body {
   font-family: 'Mulish', sans-serif !important;
-  color: var(--fuscia-button) !important;
+  color: var(--header-accent) !important;
+  font-size: smaller !important;
 }
 
 
