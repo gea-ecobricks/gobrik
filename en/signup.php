@@ -46,19 +46,19 @@ transition: 0.5s;
 display: flex;
 }
 
-
+/*
 .kn-mobile-controls { 
   z-index: 26 !important;
   margin-top: 7px;
 /*margin-left: 15px;
 padding-left: 30px;*/
-  }
-
+  
+/*
 #main-menu-button {
   right: 0px !important;
   margin-right: 70px !important;
 }
-
+*/
 
 </style>
 
@@ -69,7 +69,7 @@ padding-left: 30px;*/
 <div id="header-knack" class="top-menu">
 
 
-    <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Site menu"></button></div>
+   <!-- <div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Site menu"></button></div>-->
 
     <div><button type="button" class="gobrik-logo" onclick="location.href='index.php'"  aria-label="Return to Home page"></button></div>
     
