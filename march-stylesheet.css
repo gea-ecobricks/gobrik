@@ -928,7 +928,7 @@ transition: 0.3s;}
   margin: 10px auto 10px auto;
   justify-content: center;
   padding: 5px 30px 5px 30px;
-  background: var(--general-background-highlight);
+  background: var(--slide-highlight);
   border-radius: 55px;
   width: fit-content;
 }
@@ -949,13 +949,13 @@ transition: 0.3s;}
 }
 
 .language-selector:hover {
-  background: var(--top-header);
+  background: var(--header-accent);
   border-width:1px;
   border-color:var(--gallery);
 }
 
 .language-selector a {
-  color: var(--text-color);
+  color: var(--side-overlays);
 }
 
 

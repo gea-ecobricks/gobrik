@@ -7,22 +7,8 @@
     <div class="overlay-content-settings">
         
          
-    <div class="compro-toggle" style="font-size:1.3em;padding 12px;">
-                <dark-mode-toggle
-                id="dark-mode-toggle-1"
-                legend=""
-                appearance="switch"
-                dark="Dark"
-                light="Light&nbsp;&nbsp;&nbsp;"
-                remember="Remember this"
-                ></dark-mode-toggle>
-            </div>
                         
-        <div class="language-box">
-            <div><button type=button aria-label="Switch to English" class="language-selector" onclick="location.href='../en/'">EN</button></div>
-            <div><button type=button aria-label="Switch to Indonesian" class="language-selector" onclick="location.href='../id/'">ID</button></div>
-            <div><button type=button aria-label="Switch to French" class="language-selector" onclick="location.href='../fr/'">FR</button></div>
-        </div> 
+       
 
         <div>
               
@@ -38,6 +24,23 @@
       
                 <p>GoBrik is developed by the Global Ecobrick Alliance a not-for-profit Earth enterprise focused on plastic transtion.</p>
                 
+        </div>
+
+        <div class="language-box">
+            <div><button type=button aria-label="Switch to English" class="language-selector" onclick="location.href='../en/'">EN</button></div>
+            <div><button type=button aria-label="Switch to Indonesian" class="language-selector" onclick="location.href='../id/'">ID</button></div>
+            <div><button type=button aria-label="Switch to French" class="language-selector" onclick="location.href='../fr/'">FR</button></div>
+        </div> 
+
+        <div class="compro-toggle" style="font-size:1.3em;padding 12px;">
+            <dark-mode-toggle
+            id="dark-mode-toggle-1"
+            legend=""
+            appearance="switch"
+            dark="Dark"
+            light="Light&nbsp;&nbsp;&nbsp;"
+            remember="Remember this"
+            ></dark-mode-toggle>
         </div>
 
 

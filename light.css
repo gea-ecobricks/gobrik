@@ -6,6 +6,7 @@
    :root {
 
     --side-overlays: rgb(225, 225, 225);
+    --slide-highlight: rgb(212, 212, 213);
     --top-header: #fff;
     --text-color: #242424;
     --subdued-text: #454545;
