@@ -147,7 +147,7 @@
 
 
 .city-image {
-  background: url(../svgs/city-village-night.svg?v=2) no-repeat;
+  background: url(../svgs/city-village-night.svg) no-repeat;
   background-size: contain;
 }
 
