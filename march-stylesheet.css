@@ -510,7 +510,19 @@ border:none;
       position: relative;
       z-index: 11;
       height: fit-content;
-      width: 50%;
+  }
+
+
+  @media screen and (max-width: 700px) { 
+    .city-image {
+      width: 70%;
+    }
+  }
+
+  @media screen and (min-width: 700px) { 
+    .city-image {
+      width: 45%;
+    }
   }
 
   .region-image {
@@ -525,7 +537,7 @@ border:none;
 
   @media screen and (max-width: 700px) { 
     .region-image {
-      width: 90%;
+      width: 70%;
     }
   }
 
@@ -534,8 +546,6 @@ border:none;
       width: 45%;
     }
   }
-
-
 
   @media screen and (max-width: 700px) { 
     .main-landing-graphic {
