@@ -10,7 +10,7 @@
                         
        
 
-        <div>
+        <div style="margin-bottom: 20px;">
               
               
               <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Go to top of page">Home</div>
@@ -22,7 +22,7 @@
               <div class="menu-page-item" onclick="location.href='https:\/\|\:ecobricks.org/en/gobrik.php'" aria-label="About the GoBrik project">About GoBrik</div>
               
       
-                <p>GoBrik is developed by the Global Ecobrick Alliance a not-for-profit Earth enterprise focused on plastic transtion.</p>
+                <p>GoBrik is developed by the <a href="https://ecobricks.org/about">Global Ecobrick Alliance</a> a not-for-profit Earth enterprise focused on plastic transtion.</p>
                 
         </div>
 

@@ -518,9 +518,21 @@ border:none;
       position: relative;
       z-index: 11;
       height: fit-content;
-      width: 40%;
+ 
       background: url(../svgs/region.svg) no-repeat;
       background-size: contain;
+  }
+
+  @media screen and (max-width: 700px) { 
+    .region-image {
+      width: 90%;
+    }
+  }
+
+  @media screen and (min-width: 700px) { 
+    .region-image {
+      width: 45%;
+    }
   }
 
 
@@ -936,7 +948,7 @@ transition: 0.3s;}
 .language-selector {
   font-family: 'Mulish';
   padding: 10px 20px 10px 20px;
-  background: var(--general-background);
+  background: var(--side-overlays);
   border-radius: 10px;
   margin: 10px;
  /* filter: invert(100);*/
@@ -2021,7 +2033,7 @@ Basic Knack page Setup
   }
 
 
-  .kn-title {
+  #kn-app-header {
     color: var(--header-accent) !important;
   }
   
