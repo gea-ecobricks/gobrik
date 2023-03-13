@@ -2040,6 +2040,11 @@ Basic Knack page Setup
         }
       }
 
+    .kn-label {
+      color:var(--text-color);
+      background-color: unset;
+    }
+
 
   .kn-label {
     color: var(--subdued-text) !important;
