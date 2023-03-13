@@ -17,6 +17,15 @@
     color: var(--text-color);
 }
 
+p a {
+  color: var(--text-color) !important;
+}
+
+p a:hover {
+  color: var(--h1) !important;
+}
+
+
 b {	font-weight: 500 !important;}
 
 strong {font-weight: 500 !important;}
@@ -36,7 +45,7 @@ h1 {
   background-size: 400px 100px;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  animation: rainbow 2s linear forwards, fade-to-grey 2s linear 2s forwards;
+  animation: rainbow 3s linear forwards, fade-to-grey 2s linear 1s forwards;
 }
 
 @keyframes rainbow {
@@ -973,7 +982,7 @@ transition: 0.3s;}
 .language-selector:hover {
   background: var(--header-accent);
   border-width:1px;
-  border-color:var(--gallery);
+  border-color:var(--top-header);
 }
 
 .language-selector a {
@@ -2080,7 +2089,8 @@ h1.modal-card-title {height: 35px !important;
   
   
    input[type=text], input[type=email], input[type=password]{
-     border: 2px solid var(--button-2-1) !important;}
+     border: 2px solid var(--button-2-1) !important;
+      background-color: #00AA44 !important;}
   
   /*.search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {*/
   

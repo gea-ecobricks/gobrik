@@ -153,6 +153,12 @@
 }
 
 
+.loader {
+  background: url('svgs/bottle-loader-night.svg') center no-repeat !important;
+  box-sizing: border-box;
+background-size: 38px;
+}
+
 /*
   .virtue img {
     filter: invert(100%);
