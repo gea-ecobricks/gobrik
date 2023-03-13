@@ -974,7 +974,7 @@ transition: 0.3s;}
   font-size: 1.1em;
   cursor: pointer;
   color: var(--text-color);
-  border-color:var(--header-accent);
+  /*border-color:var(--header-accent);*/
   border-width:0.5px;
 
 }
@@ -982,7 +982,7 @@ transition: 0.3s;}
 .language-selector:hover {
   background: var(--header-accent);
   border-width:1px;
-  border-color:var(--top-header);
+  color:var(--top-header);
 }
 
 .language-selector a {
