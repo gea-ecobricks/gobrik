@@ -2040,9 +2040,9 @@ Basic Knack page Setup
         }
       }
 
-    .kn-label {
+    .kn-table {
       color:var(--text-color);
-      background-color: unset;
+      background-color: unset !important;
     }
 
 
