@@ -153,8 +153,7 @@ if (!$conn) {
 
       
             <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" width="100%"></div>
-            <div class="aes-logos">
-            </div>
+        
             <div class="welcome-text">
                 Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
             
