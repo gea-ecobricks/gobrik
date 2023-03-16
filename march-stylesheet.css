@@ -268,7 +268,8 @@ cursor:pointer;
 
   position:absolute;
   left:0;
- 
+ margin-top: 22px;
+ margin-left: 22px;
 
 
   font-family:'Mulish';
@@ -278,7 +279,6 @@ cursor:pointer;
 
   border-radius:5px;
   margin: auto;
-  margin-top:2px;
   align-content: center;
   font-size: 0.9em;
   padding: 3px 14px 3px 14px;
