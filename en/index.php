@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 
-<?php $lang='en';?>
+<html lang="en">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
-<html lang="<?php echo $lang; ?>">
 <head>
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
@@ -24,7 +23,7 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:width" content="1200" >
 <meta property="og:image:height" content="1000" >
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
-<meta property="og:locale" content="en_GB, id_ID, es_ES">
+<meta property="og:locale" content="en_GB">
 
 <link rel="preload" as="image" href="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg">
 

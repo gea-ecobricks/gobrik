@@ -9,8 +9,7 @@
 
 <!-- Sets the language of the page for use in the meta tag link composition-->
 
-<?php $lang='en';?>
-
+<?php require_once ("lang.php");?>
 
 <!-- This preloads the above the fold key landing images  -->
 
