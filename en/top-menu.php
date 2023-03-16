@@ -6,6 +6,10 @@
 
     <!--<div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>-->
 
+    <div id="top-menu-login-button"><button type="button" class="top-menu-login-button"  onclick="openKnack()" >
+                login
+            </button></div>
+
     <div>
         <button type="button" class="gobrik-logo" onclick="closeKnack()" aria-label="Return to Home page"></button>
     </div>
@@ -13,9 +17,7 @@
     <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;">
       
         
-            <div id="top-menu-login-button"><button type="button" class="top-menu-login-button"  onclick="openKnack()" >
-                login
-            </button></div>
+           
 
             <div id="top-close-buttoner" style="display: none;"><button type="button" class="top-close-button" onclick="closeKnack()" aria-label="Click to open settings page"></button></div>
 
