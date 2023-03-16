@@ -52,7 +52,7 @@
     background-size: contain;
 }
 
-#top-settings-button:hover {
+.top-settings-button:hover {
     background: url(../svgs/settings-icon-over-dark2.svg?v=2) no-repeat !important;
     background-size: contain;
 }

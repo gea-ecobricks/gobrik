@@ -1255,15 +1255,28 @@ cursor: pointer;
 .menu-page-item:hover {
  
   border-bottom:2px solid var(--text-color);
-  color: var(--header-accent)
+  color: var(--header-accent);
   
 }
 
-.menu-page-item a {  text-decoration: none;}
+.menu-page-item a {  text-decoration: none;
+color: var(--subdued-text);
+}
+
+.menu-page-item a:hover {  text-decoration: none;
+  color: var(--h1);
+  }
 
 [part="darkLabel"], [part="lightLabel"], [part="toggleLabel"] {
 
   font-size: 20px;
+}
+
+legend {
+  font: var(--dark-mode-toggle-legend-font,inherit);
+  padding: 10px;
+  text-align: center;
+  margin: auto;
 }
 
 
