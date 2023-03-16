@@ -33,7 +33,7 @@
 
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" media="print" onload="this.media='all'">
 
 
 
@@ -73,7 +73,7 @@ This enables accessibility text scaling on the page by the user-->
 <script src="../richard-scripts.js?v=3.5"></script>
 
 <!--This enables the Light and Dark mode switching-->
-<script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+<script src="https://unpkg.com/dark-mode-toggle"></script>
 
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
@@ -128,9 +128,11 @@ Global site tag (gtag.js) - Google Analytics
 <!-- Launch screens for iOS - Not sure if this working -->
 
 <meta name="apple-mobile-web-app-capable" content="yes">
-<link href="../icons/splashes/apple_splash_2048.png" sizes="2048x2732" rel="apple-touch-startup-image">
+
+<!--
+  <link href="../icons/splashes/apple_splash_2048.png" sizes="2048x2732" rel="apple-touch-startup-image">
 <link href="../icons/apple_splash_1668.png" sizes="1668x2224" rel="apple-touch-startup-image">
-<!--<link href="/apple_splash_1536.png" sizes="1536x2048" rel="apple-touch-startup-image" />
+<link href="/apple_splash_1536.png" sizes="1536x2048" rel="apple-touch-startup-image" />
 <link href="/apple_splash_1125.png" sizes="1125x2436" rel="apple-touch-startup-image" />
 <link shref="/apple_splash_1242.png" sizes="1242x2208" rel="apple-touch-startup-image" />
 <link href="/apple_splash_750.png" sizes="750x1334" rel="apple-touch-startup-image" />

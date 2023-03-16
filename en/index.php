@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
 <head>
 <!-- Meta tags for page display and search engine listing
@@ -13,7 +12,7 @@ AND UNIQUE to HTML Pages-->
 <meta name="author" content="Global Ecobrick Alliance">
 
 <!-- Facebook Open Graph Tags for social sharing-->
-
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 <meta property="og:url"           content="https://www.gobrik.com/<?php echo $lang; ?>">
 <meta property="og:type"          content="app">
 <meta property="og:title"         content="GoBrik">
@@ -178,14 +177,11 @@ if (!$conn) {
     <!-- sets footer of page:  be sure to add page name-->
     <?php require_once ("footer.php");?>
     </div>
-</div>
-            </div>
+
 </div> <!--landing page close-->
 
 
 <?php require_once ("settings-curtain.php");?>
-
-<?php require_once ("menu-curtain.php");?>
 
          
 </body>
