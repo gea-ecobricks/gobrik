@@ -111,7 +111,7 @@ padding-left: 30px;*/
 
   <!-- Main knack loader--> 
   <div id="knack-dist_53">
-        <div class="loader"></div>
+        <div class="loader-spin"></div>
   </div>
         
 <!--

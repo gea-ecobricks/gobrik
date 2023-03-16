@@ -13,13 +13,14 @@
         <div style="margin-bottom: 20px;">
               
               
-              <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Return Home">Home</div>
+              <div class="menu-page-item"><a href="index.php"  aria-label="Return Home">Home</a></div>
       
-              <div class="menu-page-item"><button type="button" onclick="location.href='signup.php'">Sign up</button><div class="vert-line" style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px grey;"></div><button onclick="location.href='signup.php'" aria-label="Sign up">Sign up</div>Sign up</div>
+              <div class="menu-page-item" style="display:inline"><button type="button" onclick="location.href='signup.php'">Sign up</button><div class="vert-line" style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px white;"></div><button onclick="location.href='signup.php'" aria-label="Sign up">Sign up</div>Sign up</div>
       
               <div class="menu-page-item" onclick="location.href='index.php'" aria-label="About the Brikchain">Brikchain</div>
       
-              <div class="menu-page-item"aria-label="About the GoBrik project"><a href="https://ecobricks.org/gobrik" target="_blank">About GoBrik</div>
+              <div class="menu-page-item"><a href="https://ecobricks.org/gobrik" target="_blank">About GoBrik</a>
+                </div>
               
       
                 <p>GoBrik is developed by the <a href="https://ecobricks.org/about" target="_blank">Global Ecobrick Alliance</a> a not-for-profit Earth enterprise focused on plastic transtion.</p>
