@@ -500,7 +500,7 @@ border:none;
     margin: auto;
       position: relative;
       z-index: 11;
-      background: url(../webp/ecobrick-team-day.webp) no-repeat;
+      background: url(../webp/ecobrick-team-day.webp?v=2) no-repeat;
       background-size: contain;
       height: fit-content;
   }
