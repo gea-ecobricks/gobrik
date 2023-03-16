@@ -143,6 +143,12 @@
       background-size: contain;
     }
 
+
+    .loader {
+      background: url('svgs/bottle-loader.svg') center no-repeat;
+      background-size: 38px;
+    }
+
 /* light.css
 light.css 
 --icon-filter_hover: invert(60%);*/
