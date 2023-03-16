@@ -1248,7 +1248,7 @@ cursor: pointer;
   color:var(--text-color);
   border-bottom:1px solid var(--subdued-text);
   cursor: pointer;
-  text-decoration: none;
+
 }
 
 
@@ -1258,6 +1258,8 @@ cursor: pointer;
   color: var(--header-accent)
   
 }
+
+.menu-page-item a {  text-decoration: none;}
 
 
 

@@ -15,7 +15,7 @@
               
               <div class="menu-page-item"><a href="index.php"  aria-label="Return Home">Home</a></div>
       
-              <div class="menu-page-item" style="display:inline"><button type="button" onclick="location.href='signup.php'">Sign up</button><div class="vert-line" style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px white;"></div><button onclick="location.href='signup.php'" aria-label="Sign up">Sign up</button></div>
+              <div class="menu-page-item"><a href="sign-up" aria-label="Register">Sign up</a><span style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px white;"></span><a href="login.php" aria-label="Login">Login</a></div>
       
               <div class="menu-page-item" onclick="location.href='index.php'" aria-label="About the Brikchain">Brikchain</div>
       
@@ -33,10 +33,10 @@
             <div><button type=button aria-label="Switch to French" class="language-selector" onclick="location.href='../fr/'">FR</button></div>
         </div> 
 
-        <div class="compro-toggle" style="font-size:1.3em;padding:12px;">
+        <div class="compro-toggle" style="padding:12px;">
             <dark-mode-toggle
             id="dark-mode-toggle-1"
-            legend="Change between dark & light theme"
+            legend="<p>Change between dark & light theme</p>"
             appearance="switch"
             dark="Night"
             light="Day&nbsp;&nbsp;&nbsp;"
