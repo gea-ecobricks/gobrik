@@ -33,10 +33,10 @@
             <div><button type=button aria-label="Switch to French" class="language-selector" onclick="location.href='../fr/'">FR</button></div>
         </div> 
 
-        <div class="compro-toggle" style="padding:12px;">
+        <div class="compro-toggle" style="padding:15px;text-align:center;">
             <dark-mode-toggle
             id="dark-mode-toggle-1"
-            legend="<p>Change between dark & light theme</p>"
+            legend="Change between dark & light theme"
             appearance="switch"
             dark="Night"
             light="Day&nbsp;&nbsp;&nbsp;"
