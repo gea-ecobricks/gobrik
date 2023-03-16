@@ -15,7 +15,7 @@
               
               <div class="menu-page-item"><a href="index.php"  aria-label="Return Home">Home</a></div>
       
-              <div class="menu-page-item" style="display:inline"><button type="button" onclick="location.href='signup.php'">Sign up</button><div class="vert-line" style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px white;"></div><button onclick="location.href='signup.php'" aria-label="Sign up">Sign up</div>Sign up</div>
+              <div class="menu-page-item" style="display:inline"><button type="button" onclick="location.href='signup.php'">Sign up</button><div class="vert-line" style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px white;"></div><button onclick="location.href='signup.php'" aria-label="Sign up">Sign up</button></div>
       
               <div class="menu-page-item" onclick="location.href='index.php'" aria-label="About the Brikchain">Brikchain</div>
       
