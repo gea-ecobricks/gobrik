@@ -169,7 +169,7 @@ html {
     width: 80%;
     margin: auto;
     margin-bottom: 0px;
-    
+
         }
       }
   
@@ -504,6 +504,16 @@ border:none;
       background-size: contain;
       height: fit-content;
   }
+
+  .signup-team {
+    margin: auto;
+      position: relative;
+      z-index: 11;
+      background: url(../webp/signup-team-day.webp) no-repeat;
+      background-size: contain;
+      height: fit-content;
+  }
+
 
   .earth-com {
     
