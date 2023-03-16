@@ -2574,5 +2574,28 @@ STEP 2 LOGIN
 
 
 
+/*Newest*/
+
+.kn-content .tabs ul:not(.kn-dropdown-menu-list) {
+  justify-content: center !important;
+}
+
+.kn-detail-body {
+  font-family: 'Mulish', sans-serif !important;
+  color: var(--text-color) !important;
+
+}
+
+.detail-label {
+
+  font-family: 'Arvo', serif !important;
+  text-align: right;
+  min-width: 40% !important;
+  max-width: 40% !important;
+  background-color: var(--general-background) !important;
+  color: var(--subdued-text) !important;
+
+}
+
 
 
