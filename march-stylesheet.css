@@ -45,7 +45,7 @@ h1 {
   background-size: 400px 100px;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  animation: rainbow 3s linear forwards, fade-to-grey 2s linear 1s forwards;
+  animation: rainbow 2s linear forwards, fade-to-grey 1.5s linear 0.5s forwards;
 }
 
 @keyframes rainbow {
@@ -1810,7 +1810,26 @@ LOADING AND LOGIN
     background: url('svgs/bottle-loader.svg') center no-repeat;
       box-sizing: border-box;
    background-size: 38px;
-}
+
+   animation-name: spin;
+   animation-duration: 1000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear; 
+   /* transform: rotate(3deg); */
+    /* transform: rotate(0.3rad);/ */
+    /* transform: rotate(3grad); */ 
+    /* transform: rotate(.03turn);  */
+ }
+
+ @keyframes spin {
+     from {
+         transform:rotate(0deg);
+     }
+     to {
+         transform:rotate(360deg);
+     }
+ }
+
 
 
 /*March: reduces margin under Welcome Ecobricker*/

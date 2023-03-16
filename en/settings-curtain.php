@@ -13,13 +13,13 @@
         <div style="margin-bottom: 20px;">
               
               
-              <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Go to top of page">Home</div>
+              <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Return Home">Home</div>
       
-              <div class="menu-page-item" onclick="location.href='signup.php'" aria-label="Go to top of page">Login  |  Sign up</div>
+              <div class="menu-page-item"><div onclick="location.href='signup.php'" aria-label="Sign up">Sign up</div><div class="vert-line" style="height: 10px, width: 20px"></div>div onclick="location.href='signup.php'" aria-label="Sign up">Sign up</div>Sign up</div>
       
               <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Go to top of page">Brikchain</div>
       
-              <div class="menu-page-item" onclick="location.href='https:\/\|\:ecobricks.org/en/gobrik.php'" aria-label="About the GoBrik project">About GoBrik</div>
+              <div class="menu-page-item"aria-label="About the GoBrik project"><a href="https://ecobricks.org/gobrik" target="_blank">About GoBrik</div>
               
       
                 <p>GoBrik is developed by the <a href="https://ecobricks.org/about">Global Ecobrick Alliance</a> a not-for-profit Earth enterprise focused on plastic transtion.</p>
