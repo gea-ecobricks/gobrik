@@ -73,7 +73,7 @@ This enables accessibility text scaling on the page by the user-->
 <script src="../richard-scripts.js?v=3.5"></script>
 
 <!--This enables the Light and Dark mode switching-->
-<script src="https://unpkg.com/dark-mode-toggle"></script>
+<script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
 
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->

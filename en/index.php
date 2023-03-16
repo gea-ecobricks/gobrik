@@ -137,7 +137,7 @@ if (!$conn) {
             <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
         
                 <div>
-                    <button type="button" aria-label="sign in" class="sign-innn" onclick="openKnack()" title="Click here to sign in" style="cursor:pointer;">
+                    <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='login.php'" title="Click here to sign in" style="cursor:pointer;">
                     <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:4px;"></i>Sign in</button>
                 </div>
         
