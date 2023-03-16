@@ -125,7 +125,7 @@ if (!$conn) {
     <div class="clouds-new2" style="padding-top:35px;">
         <div id="landing-content">
 
-            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" width="100%"></div>
+            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%"></div>
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
 
@@ -142,7 +142,8 @@ if (!$conn) {
                 </div>
         
                 <div>
-                    <button type="button" aria-label="Sign up" onclick="location.href='signup.php'" class="sign-uppp" style="cursor:pointer;">Sign up<i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i></a>
+                    <button type="button" aria-label="Sign up" onclick="location.href='signup.php'" class="sign-uppp" style="cursor:pointer;">
+                    <i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i>Sign up</button>
                 </div>
             </div>
             
@@ -151,12 +152,12 @@ if (!$conn) {
         
 
       
-            <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" width="100%"></div>
+            <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" style="width:100%;"></div>
         
             <div class="welcome-text">
                 Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
             
-               <br><br> <img src="../svgs/aes-brk.svg" style="width: 200px;">
+               <br><br> <img src="../svgs/aes-brk.svg" style="width:200px;">
             </div>
             
             <div class="tree-text">
@@ -169,9 +170,6 @@ if (!$conn) {
     </div>
    
  
-
-
-    
 
     <div style="z-index:5;">
     <!-- sets footer of page:  be sure to add page name-->
