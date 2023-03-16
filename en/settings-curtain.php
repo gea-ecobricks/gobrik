@@ -17,12 +17,12 @@
       
               <div class="menu-page-item"><div onclick="location.href='signup.php'" aria-label="Sign up">Sign up</div><div class="vert-line" style="height: 10px, width: 20px"></div>div onclick="location.href='signup.php'" aria-label="Sign up">Sign up</div>Sign up</div>
       
-              <div class="menu-page-item" onclick="location.href='index.php'" aria-label="Go to top of page">Brikchain</div>
+              <div class="menu-page-item" onclick="location.href='index.php'" aria-label="About the Brikchain">Brikchain</div>
       
               <div class="menu-page-item"aria-label="About the GoBrik project"><a href="https://ecobricks.org/gobrik" target="_blank">About GoBrik</div>
               
       
-                <p>GoBrik is developed by the <a href="https://ecobricks.org/about">Global Ecobrick Alliance</a> a not-for-profit Earth enterprise focused on plastic transtion.</p>
+                <p>GoBrik is developed by the <a href="https://ecobricks.org/about" target="_blank">Global Ecobrick Alliance</a> a not-for-profit Earth enterprise focused on plastic transtion.</p>
                 
         </div>
 
@@ -32,13 +32,13 @@
             <div><button type=button aria-label="Switch to French" class="language-selector" onclick="location.href='../fr/'">FR</button></div>
         </div> 
 
-        <div class="compro-toggle" style="font-size:1.3em;padding 12px;">
+        <div class="compro-toggle" style="font-size:1.3em;padding:12px;">
             <dark-mode-toggle
             id="dark-mode-toggle-1"
-            legend=""
+            legend="Change between dark & light theme"
             appearance="switch"
-            dark="Dark"
-            light="Light&nbsp;&nbsp;&nbsp;"
+            dark="Night"
+            light="Day&nbsp;&nbsp;&nbsp;"
             remember="Remember this"
             ></dark-mode-toggle>
         </div>

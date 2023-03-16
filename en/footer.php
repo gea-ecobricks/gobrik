@@ -132,6 +132,8 @@
 			<div class="footer-invite">
 				GoBrik is open source and 100% volunteer built!<br>Contribute on to this page <a href="https://github.com/gea-ecobricks/gobrik/blob/master/<?php echo ($name); ;?>" target="_blank"><?php echo ($name); ;?> (embed: <?php echo ($dist); ;?>) on Github</a>.<br><br>
 			</div>
+		
+		</div>
 				
 				
 				

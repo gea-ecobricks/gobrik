@@ -186,7 +186,7 @@ if (!$conn) {
 
 <?php require_once ("settings-curtain.php");?>
 
-         
+            </div>
 </body>
 
 </html>
