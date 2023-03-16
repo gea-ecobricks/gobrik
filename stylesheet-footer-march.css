@@ -76,7 +76,7 @@ migrated from Knack CSS
     text-align: center;
     background-color: var(--footer-background);
     padding-top: 36px;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
   }
   
   @media screen and (max-width: 800px) {
