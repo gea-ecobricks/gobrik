@@ -1261,7 +1261,10 @@ cursor: pointer;
 
 .menu-page-item a {  text-decoration: none;}
 
+[part="darkLabel"], [part="lightLabel"], [part="toggleLabel"] {
 
+  font-size: 20px;
+}
 
 
 
