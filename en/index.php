@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
-<head>
+
 <?php $lang='en';?>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
+<html lang="<?php echo $lang; ?>">
+<head>
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
@@ -20,10 +21,10 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:description"   content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions." >
 <meta property="og:image"         content="https://www.gobrik.com/images/social-banner-1200px.png" >
 <meta property="fb:app_id"  content="1781710898523821" >
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="1000" />
-<meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above"/>
-<meta property="og:locale" content="en_GB, id_ID, es_ES" />
+<meta property="og:image:width" content="1200" >
+<meta property="og:image:height" content="1000" >
+<meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
+<meta property="og:locale" content="en_GB, id_ID, es_ES">
 
 <link rel="preload" as="image" href="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg">
 
@@ -101,7 +102,7 @@ if (!$conn) {
                 echo '
                 <div class="gal-photo">
                     <div class="photo-box">
-                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1.1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"/></a>
+                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=1.1"  alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>
                     </div>';
             
                 echo '
