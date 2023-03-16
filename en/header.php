@@ -43,7 +43,7 @@
 <link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.9">-->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v96.7">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v96.8">
 
 <!--LEGACY Sheets to consolidate-->
 
@@ -59,7 +59,7 @@
 
 
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../light.css?v3.97" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../light.css?v3.98" as="style" onload="this.rel='stylesheet'">
 
 <!--This enables text scaling-->
 <link rel="preload" href="../acessibilidade.css" as="style" onload="this.rel='stylesheet'">
@@ -77,8 +77,8 @@ This enables accessibility text scaling on the page by the user-->
 
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v4.2" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v4.2" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v4.3" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v4.3" media="(prefers-color-scheme: dark)">
  
 
 

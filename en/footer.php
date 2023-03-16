@@ -15,14 +15,14 @@
 		<div class="footer-icons-container">
 			<div class="footer-icons"><!--WIKIPEDIA-->
 				<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">
-				<img src="../icons/wikipedia.svg" width="100%" height="100%" alt="Check out the official Ecobricks wikipedia page"></a>
+				<img src="../icons/wikipedia.svg" width="100" height="100" alt="Check out the official Ecobricks wikipedia page"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 	
 			<div class="footer-icons">
 				<a href="https://circles.ecobricks.org" target="_blank"><!--MATTERMOST-->
-				<img src="../icons/mattermost.svg" width="100%" height="100%" alt="Joinn our Circles Ecobrick Support Community"></a>
+				<img src="../icons/mattermost.svg" width="100" height="100" alt="Joinn our Circles Ecobrick Support Community"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
@@ -101,38 +101,37 @@
 				<div class="row">
 
 					<div class="virtue">
-						<a href="https://ecobricks.org/about" target="_blank"><img src="https://ecobricks.org/banners/forearth-dark-350px.png" width="300px" height="" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
+						<a href="https://ecobricks.org/about" target="_blank"><img src="https://ecobricks.org/banners/forearth-dark-350px.png" style="width:300px" alt="Learn more about our Earth Enterprise structure" title="Learn more about our Earth Enterprise structure"></a>
 					</div>
 			
 					<div class="virtue">
-						<a href="https://ecobricks.org/regenreports" target="_blank"><img src="https://ecobricks.org/banners/762-disclose-dark-350px.png" width="300px" height="" alt="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com"></a>
+						<a href="https://ecobricks.org/regenreports" target="_blank"><img src="https://ecobricks.org/banners/762-disclose-dark-350px.png" style="width:300px" height="" alt="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com" title="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com"></a>
 					</div>
 					
 			
 					<div class="virtue">
-						<a href="https://ecobricks.org/open-books" target="_blank"><img src="https://ecobricks.org/banners/openbooks-dark-350px.png" width="300px" height="" alt="Click through to see our live financial tracking" title="Click through to see our live financial tracking"></a>	
+						<a href="https://ecobricks.org/open-books" target="_blank"><img src="https://ecobricks.org/banners/openbooks-dark-350px.png" style="width:300px" height="" alt="Click through to see our live financial tracking" title="Click through to see our live financial tracking"></a>	
 					</div>
 						
 				</div>
 							
-									<div id="wcb" class="carbonbadge wcb-d"></div>
-								<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
-
-								<!--
-
-							<a href="https://www.websitecarbon.com/website/ecobricks-org/"><img src="webp/web-carbon.webp" width="330px"></a>-->
+				<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+				
+				<div id="wcb" class="carbonbadge wcb-d"></div>
+								
 								<br><br>
 						
 				
-				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="../icons/cc-by-sa.svg" width="200px" height="45px"/></a>
+				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons BY SA 4.0 License" style="border-width:0" src="../icons/cc-by-sa.svg" width="200px" height="45px"></a>
 				<a href="#global"><br><br>Gobrik global ecobricking data</a> is made available by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to "GoBrik.com/#global - Global Ecobrick Alliance" using the same license.
 
 				<div class="footer-conclusion">	
 					GoBrik, AES & Ecobricks.org logos and emblems are copyright 2023 by the Global Ecobrick Alliance.
 				</div>
-			</div>
+			
 			<div class="footer-invite">
 				GoBrik is open source and 100% volunteer built!<br>Contribute on to this page <a href="https://github.com/gea-ecobricks/gobrik/blob/master/<?php echo ($name); ;?>" target="_blank"><?php echo ($name); ;?> (embed: <?php echo ($dist); ;?>) on Github</a>.<br><br>
+			</div>
 				
 				
 				

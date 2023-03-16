@@ -74,6 +74,7 @@ if (!$conn) {
 
 <div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
     -->
+
 <div id="landing-page">
     <div class="gallery-header" >
         <div class="gallery-live-text"><span class="blink">⬤ </span>  Latest authenticated ecobricks</div>
@@ -120,12 +121,12 @@ if (!$conn) {
     </div><!--closes gallery background-->
      
 
-    <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" width="100%"></div>
+    <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>
             
     <div class="clouds-new2" style="padding-top:35px;">
         <div id="landing-content">
 
-            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%"></div>
+            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" alt="Unite with ecobrickers around the world"></div>
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
 
@@ -152,12 +153,12 @@ if (!$conn) {
         
 
       
-            <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" style="width:100%;"></div>
+            <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks"></div>
         
             <div class="welcome-text">
                 Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
             
-               <br><br> <img src="../svgs/aes-brk.svg" style="width:200px;">
+               <br><br> <img src="../svgs/aes-brk.svg" style="width:200px;" alt="Introducing Brikcoins and AES Plastic Offsetting">
             </div>
             
             <div class="tree-text">
