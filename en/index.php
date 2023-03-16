@@ -105,7 +105,7 @@ if (!$conn) {
                 echo '
                 <div class="gal-photo">
                     <div class="photo-box">
-                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=2"></a>
+                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=2" alt="ecobrick"></a>
                     </div>';
             
                 echo '
