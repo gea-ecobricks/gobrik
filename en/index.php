@@ -182,8 +182,6 @@ if (!$conn) {
             </div>
 </div> <!--landing page close-->
 
-<?php require_once ("knack-curtain.php");?>
-
 
 <?php require_once ("settings-curtain.php");?>
 
