@@ -17,7 +17,10 @@
       
               <div class="menu-page-item"><a href="sign-up" aria-label="Register">Sign up</a><span style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px white;"></span><a href="login.php" aria-label="Login">Login</a></div>
       
-              <div class="menu-page-item" onclick="location.href='index.php'" aria-label="About the Brikchain">Brikchain</div>
+              <div class="menu-page-item"><a href="https://ecobricks.org/brikchain" target="_blank">The Brikchain</a></div>
+
+              <div class="menu-page-item"><a href="https://ecobricks.org/brikchain" target="_blank">Brikcoins</a></div>
+
       
               <div class="menu-page-item"><a href="https://ecobricks.org/gobrik" target="_blank">About GoBrik</a>
                 </div>
@@ -33,15 +36,18 @@
             <div><button type=button aria-label="Switch to French" class="language-selector" onclick="location.href='../fr/'">FR</button></div>
         </div> 
 
-        <div class="compro-toggle" style="padding:15px;text-align:center;">
+        <div class="compro-toggle" style="padding:15px;margin: 10px auto 10px auto;">
+        <p style="font-size:1em">Change between dark & light theme</p>
+        <div style="font-size:1.5em">
             <dark-mode-toggle
             id="dark-mode-toggle-1"
-            legend="Change between dark & light theme"
+            legend=""
             appearance="switch"
             dark="Night"
             light="Day&nbsp;&nbsp;&nbsp;"
             remember="Remember this"
             ></dark-mode-toggle>
+        </div>
         </div>
 
 

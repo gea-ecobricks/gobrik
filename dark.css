@@ -53,7 +53,7 @@
 }
 
 .top-settings-button:hover {
-    background: url(../svgs/settings-icon-over-dark2.svg?v=2) no-repeat !important;
+    background: url(../svgs/settings-icon-over-dark2.svg) no-repeat !important;
     background-size: contain;
 }
 
@@ -159,6 +159,11 @@
 background-size: 38px;
 }
 
+.loader-spin {
+  background: url('svgs/bottle-loader-night.svg') center no-repeat !important;
+  box-sizing: border-box;
+background-size: 38px;
+}
 /*
   .virtue img {
     filter: invert(100%);

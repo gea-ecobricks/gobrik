@@ -127,7 +127,8 @@ if (!$conn) {
 
     <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>
             
-    <div class="clouds-new2" style="padding-top:60px; margin-top:-30px; margin-bottom:-10px;">
+    <div class="clouds-new2" style="padding-top:60px; margin-top:-30px; margin-bottom: -30px;
+padding-bottom: 10px;">
         <div id="landing-content">
 
             <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" alt="Unite with ecobrickers around the world"></div>

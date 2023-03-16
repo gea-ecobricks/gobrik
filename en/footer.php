@@ -15,21 +15,21 @@
 		<div class="footer-icons-container">
 			<div class="footer-icons"><!--WIKIPEDIA-->
 				<a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank">
-				<img src="../icons/wikipedia.svg" width="100" height="100" alt="Check out the official Ecobricks wikipedia page"></a>
+				<img src="../icons/wikipedia.svg" style="width:100%" alt="Check out the official Ecobricks wikipedia page"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 	
 			<div class="footer-icons">
 				<a href="https://circles.ecobricks.org" target="_blank"><!--MATTERMOST-->
-				<img src="../icons/mattermost.svg" width="100" height="100" alt="Joinn our Circles Ecobrick Support Community"></a>
+				<img src="../icons/mattermost.svg" style="width:100%" alt="Joinn our Circles Ecobrick Support Community"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 	
 			<div class="footer-icons"><!--ECOBRICKS.oRG-->
 				<a href="https://ecobricks.org" target="_blank">
-				<img src="../icons/ecobricks-org.svg" width="100" height="100" alt="Sign up for our GoBrik app"></a>
+				<img src="../icons/ecobricks-org.svg" style="width:100%" alt="Sign up for our GoBrik app"></a>
 				<div class="icon-name">/ecobricks</div>
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
