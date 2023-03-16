@@ -65,12 +65,12 @@
 }
 
 .main-menu-button {
-    background: url(../svgs/grey-emblem-button3.svg?v=2) no-repeat;
+    background: url(../svgs/login-icon.svg) no-repeat;
     background-size: contain;
 }
 
 .main-menu-button:hover  {
-    background: url(../svgs/grey-emblem-button-over.svg) no-repeat;
+    background: url(../svgs/login-icon-over.svg) no-repeat;
     background-size: contain;
 }
 

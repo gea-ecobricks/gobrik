@@ -6,8 +6,7 @@
 
     <!--<div><button type="button" class="main-menu-button" onclick="openMenu()" aria-label="Login to Gobrik"></button></div>-->
 
-    <div id="top-menu-login-button"><button type="button" class="top-menu-login-button"  onclick="location.href='login.php'" >
-                login
+    <div id="top-menu-login-button"><button type="button" class="main-menu-button"  onclick="location.href='login.php'" >
             </button></div>
 
     <div>

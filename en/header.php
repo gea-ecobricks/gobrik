@@ -28,8 +28,8 @@
 
 <!-- Mulish loads first for first page view-->
 
-<noscript><link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
-</noscript>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> 
+
 
 <!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 
@@ -43,7 +43,7 @@
 <link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.9">-->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v97.7">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v97.8">
 
 <!--LEGACY Sheets to consolidate-->
 
@@ -59,7 +59,7 @@
 
 
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../light.css?v3.991" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../light.css?v3.992" as="style" onload="this.rel='stylesheet'">
 
 <!--This enables text scaling-->
 <link rel="preload" href="../acessibilidade.css" as="style" onload="this.rel='stylesheet'">
@@ -77,8 +77,8 @@ This enables accessibility text scaling on the page by the user-->
 
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v4.7" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v4.7" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v4.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v4.8" media="(prefers-color-scheme: dark)">
  
 
 

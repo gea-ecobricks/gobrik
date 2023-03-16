@@ -69,12 +69,12 @@
 
 
 .main-menu-button {
-    background: url(../svgs/grey-emblem-button3-dark.svg?v=2) no-repeat;
+    background: url(../svgs/login-icon-night.svg?v=2) no-repeat;
     background-size: contain;
 }
 
 .main-menu-button:hover  {
-    background: url(../svgs/emblem-dark-over.svg) no-repeat;
+    background: url(../svgs/login-icon-night-over.svg) no-repeat;
     background-size: contain;
 }
 
