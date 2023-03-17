@@ -149,6 +149,12 @@
       background-size: 38px;
     }
 
+
+    .my-ecobricks {
+
+      background: url(../webp/my-ecobricks-day.webp) no-repeat;
+      background-size: contain;
+      }
 /* light.css
 light.css 
 --icon-filter_hover: invert(60%);*/

@@ -534,6 +534,29 @@ margin-bottom: 10px;
   }
 
 
+  .my-ecobricks {
+    margin: auto;
+      position: relative;
+      z-index: 11;
+      height: fit-content;
+  }
+
+  @media screen and (max-width: 700px) { 
+    .my-ecobricks {
+      width: 90%;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+  }
+
+  @media screen and (min-width: 700px) { 
+    .my-ecobricks {
+      width: 59%;
+margin-bottom: 10px;
+    }
+  }
+
+
   .earth-com {
     
     margin: auto;
