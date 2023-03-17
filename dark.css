@@ -175,3 +175,9 @@ background-size: 38px;
 background: url(../webp/my-ecobricks-night.webp) no-repeat;
 background-size: contain;
 }
+
+.help-validate {
+  background: url(../webp/help-validate-night.webp) no-repeat;
+  background-size: contain;
+
+}
