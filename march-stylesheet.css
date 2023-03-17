@@ -553,10 +553,12 @@ margin-bottom: 10px;
     .help-validate {
       width: 50%;
       margin-bottom: 10px;
-      background: url(../svgs/.help-validate.svg) no-repeat;
+      background: url(../svgs/help-validate.svg) no-repeat;
       background-size: contain;
     }
   }
+
+  
 
   .help-validate {
     margin: auto;
