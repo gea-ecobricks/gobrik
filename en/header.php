@@ -48,7 +48,7 @@
 <!--LEGACY Sheets to consolidate-->
 
 <!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v1.97">
+<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v1.98">
 
 
 <!-- Knack Stylesheet -->
@@ -77,8 +77,8 @@ This enables accessibility text scaling on the page by the user-->
 
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v4.911" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v4.913" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v4.914" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v4.914" media="(prefers-color-scheme: dark)">
  
 
 

@@ -159,5 +159,7 @@
 light.css 
 --icon-filter_hover: invert(60%);*/
 
-
+[part="permanentLabel"] {
+  font-size: smaller !important;
+}
 
