@@ -145,7 +145,7 @@
 
 
     .loader {
-      background: url('svgs/bottle-loader.svg') center no-repeat;
+      background: url(../svgs/bottle-loader.svg) center no-repeat;
       background-size: 38px;
     }
 
