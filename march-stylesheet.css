@@ -538,10 +538,7 @@ margin-bottom: 10px;
     margin: auto;
       position: relative;
       z-index: 11;
-      background: url(../svgs/help-validate.svg) no-repeat;
-      background-size: contain;
       height: fit-content;
-   
   }
 
   @media screen and (max-width: 700px) { 
@@ -556,6 +553,8 @@ margin-bottom: 10px;
     .help-validate {
       width: 50%;
       margin-bottom: 10px;
+      background: url(../svgs/.help-validate.svg) no-repeat;
+      background-size: contain;
     }
   }
 
