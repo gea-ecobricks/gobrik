@@ -534,6 +534,9 @@ margin-bottom: 10px;
   }
 
 
+
+  /*my ecobricks pgae*/
+
   .my-ecobricks {
     margin: auto;
       position: relative;
@@ -549,22 +552,31 @@ margin-bottom: 10px;
     }
   }
 
+
+  @media screen and (min-width: 700px) { 
+    .my-ecobricks {
+      width: 50%;
+      margin-bottom: 0px;
+    }
+  }
+
+    /*help validate pgae*/
+
+    .help-validate {
+      margin: auto;
+        position: relative;
+        z-index: 11;
+        height: fit-content;
+    }
+
   @media screen and (min-width: 700px) { 
     .help-validate {
-      width: 50%;
-      margin-bottom: 10px;
+      width: 36%;
+      margin-bottom: 0px;
   
     }
   }
 
-
-
-  .help-validate {
-    margin: auto;
-      position: relative;
-      z-index: 11;
-      height: fit-content;
-  }
 
   @media screen and (max-width: 700px) { 
     .help-validate {
@@ -574,12 +586,6 @@ margin-bottom: 10px;
     }
   }
 
-  @media screen and (min-width: 700px) { 
-    .my-ecobricks {
-      width: 30%;
-      margin-bottom: 0px;
-    }
-  }
 
 
   .earth-com {
