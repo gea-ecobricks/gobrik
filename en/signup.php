@@ -34,22 +34,6 @@ AND UNIQUE to HTML Pages-->
  
 <style>
 
-
-/* Table of Contents Menu (background) */
-.knack-overlay {
-
-height: 100% !important;
-width: 100%;
-position: fixed;
-z-index: 25;
-top: 0;
-left: 0;
-overflow-y: scroll;
-transition: 0.5s;
-display: flex;
-}
-
-
 .kn-mobile-controls { 
   z-index: 26 !important;
   margin-top: 7px;
@@ -58,6 +42,9 @@ display: flex;
 .main-menu-button {
   display:none;
 }
+
+.kn-content {
+  margin-top: -70px;}
 
 </style>
 

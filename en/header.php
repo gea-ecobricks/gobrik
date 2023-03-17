@@ -43,7 +43,7 @@
 <link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.9">-->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v97.94">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v97.95">
 
 <!--LEGACY Sheets to consolidate-->
 
@@ -78,7 +78,7 @@ This enables accessibility text scaling on the page by the user-->
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v4.911" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v4.912" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../dark.css?v4.913" media="(prefers-color-scheme: dark)">
  
 
 
