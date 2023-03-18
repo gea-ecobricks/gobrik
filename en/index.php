@@ -80,7 +80,7 @@ position: fixed;
   display: flex; top: -60vh;
   left: 0;
   right: 0;
-  flex-flow: column-reverse;position: absolute;  z-index: 3;">     
+  flex-flow: column-reverse;position: absolute;  z-index: 3;align-items:end;">     
 
 
 
