@@ -404,8 +404,8 @@ cursor:pointer;
   max-width: 100%;
   background-color: var(--gallery);
   margin-top: -10px;
-  min-height: fit-content;
-  overflow-x: hidden;
+  /*min-height: fit-content;
+  overflow-x: hidden;*/
   position: relative;
   z-index: 0;
   padding-bottom: 14px;

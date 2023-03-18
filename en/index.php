@@ -117,8 +117,8 @@ if (!$conn) {
     </div><!--closes gallery background-->
 </div><!--closes regular ecobrick curtain-->
      
-
- <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>
+<!--
+ <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
             
     <div class="clouds-new2" style="padding-top:60px; margin-top:-30px; margin-bottom: -30px;
 padding-bottom: 10px;">
