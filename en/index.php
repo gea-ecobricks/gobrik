@@ -87,7 +87,7 @@ if (!$conn) {
                 $sql = "SELECT * FROM vw_gallery_feed ;";
                 $result = $conn->query($sql);
                 if ($result->num_rows > 0) {
-                    ($result);
+                   array_reverse ($result);
                 // output data of each row
                 while( $row= $result->fetch_assoc()) {
 
@@ -107,11 +107,13 @@ if (!$conn) {
                 ?>
 
             </div>
-            <div class="gallery-header">
-<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
-</div>
+           
 
         </div><!--closes gallery content block-->
+
+        <div class="gallery-header">
+<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
+</div>
     </div><!--closes gallery background-->
 </div><!--closes regular ecobrick curtain-->
      

@@ -434,7 +434,7 @@ cursor:pointer;
 
 .flex-container {
 display: flex;
-flex-wrap: wrap;
+flex-wrap: wrap-reverse;
 }
 
 @media screen and (max-width: 700px) { 
