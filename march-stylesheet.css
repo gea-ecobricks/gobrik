@@ -369,7 +369,7 @@ cursor:pointer;
 
 .gallery-header {
   background-color: var(--gallery);
-  height:40px;
+  height:30px;
   width:100%;
   display:flex;
   justify-content:center;
@@ -381,7 +381,8 @@ cursor:pointer;
   font-weight:300; 
   color:white;
   height:fit-content;
-  padding-top: 10px;
+  margin: auto;
+  /*padding-top: 10px;*/
 }
 
 .blink {
