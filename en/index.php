@@ -63,9 +63,8 @@ if (!$conn) {
 
 <div id="landing-page">
     <div class="gallery-header" >
-        <div class="gallery-live-text"><span class="blink">⬤ </span>  Latest authenticated ecobricks</div>
-    </div>
-   
+      
+   <div id="regular-ecobricks">
 
 
    <div class="gallery-background">
@@ -73,7 +72,10 @@ if (!$conn) {
 
 -->
 
- <!-- alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"-->
+ <!--   echo '
+            <div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
+                    </div>
+                    </div>';-->
             
         <div class="gallery-content-block">
             
@@ -91,13 +93,10 @@ if (!$conn) {
                 echo '
                 <div class="gal-photo">
                     <div class="photo-box">
-                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=2" alt="ecobrick"></a>
-                    </div>';
-            
-                echo '
-                    <!--<div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
-                    </div>-->
+                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=2" alt="alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'""></a>
+                    </div>
                 </div>';
+        
                 }
 
                 } else {
@@ -107,8 +106,13 @@ if (!$conn) {
                 ?>
 
             </div>
+            <div class="gallery-header">
+<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
+</div>
+
         </div><!--closes gallery content block-->
     </div><!--closes gallery background-->
+</div><!--closes regular ecobrick curtain-->
      
 
     <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>
