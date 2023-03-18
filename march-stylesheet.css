@@ -419,7 +419,7 @@ cursor:pointer;
   text-align: center;
   /*min-height: 67vh;*/
   z-index: 5;
-  position: relative;   
+  position: absolute;   
   background-color: var(--gallery);
   display: flex;
    flex-wrap: wrap;

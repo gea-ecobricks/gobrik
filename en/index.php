@@ -77,10 +77,10 @@ position: fixed;
 
 
 <div id="regular-ecobricks" style="transition:1s;box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);height:90vh;min-height:90vh;max-height:110vh;  overflow-y: clip;
-  display: flex; to: -80vh;
+  display: flex; top: -60vh;
   left: 0;
   right: 0;
-  flex-flow: row-reverse;position: fixed;  z-index: 3;">     
+  flex-flow: column-reverse;position: fixed;  z-index: 3;">     
 
 
 
