@@ -418,7 +418,7 @@ cursor:pointer;
   /*min-height: 67vh;*/
   z-index: 5;
   position: relative;   
-   /*background-color: #DFDFDF;*/
+  background-color: var(--gallery);
   display: flex;
    flex-wrap: wrap;
    box-sizing: border-box;
