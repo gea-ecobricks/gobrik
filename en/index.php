@@ -63,7 +63,7 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<div id="regular-ecobricks" style="margin-top:-600px, transition:1s;">      
+<div id="regular-ecobricks" style="margin-top:-600px; box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);">      
 
    <div class="gallery-background">
   <!-- <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>
@@ -116,7 +116,7 @@ if (!$conn) {
 </div><!--closes regular ecobrick curtain-->
      
 
-   <!-- <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
+ <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>
             
     <div class="clouds-new2" style="padding-top:60px; margin-top:-30px; margin-bottom: -30px;
 padding-bottom: 10px;">
