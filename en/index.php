@@ -65,7 +65,6 @@ if (!$conn) {
 
 <div id="gallery-overlay-button" style="
 position: absolute;
-  display: contents;
   width: 100%;
   left: 0;
   right: 0;
@@ -73,7 +72,7 @@ position: absolute;
   z-index: 5;
   cursor: pointer;
   height: 100vh;
-top: -74vh;"> </div><!--closes gallery-overlay"-->
+top: -73vh;"> </div><!--closes gallery-overlay"-->
 
 
 <div id="regular-ecobricks" style="transition: 1s;
@@ -87,7 +86,7 @@ flex-flow: row-reverse;
 position: absolute;
 z-index: 3;
 align-items: end;
-top: -70vh;">     
+top: -73vh;">     
 
 
 
@@ -146,8 +145,8 @@ top: -70vh;">
 <!--
  <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
             
-    <div class="clouds-new2" style=" margin-top:20vh; margin-bottom: -30px;
-padding-bottom: 10px;">
+    <div class="clouds-new2" style=" margin-top:10vh; margin-bottom: -30px;
+padding-bottom: 10px;padding-top:10px">
         <div id="landing-content">
 
             <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" alt="Unite with ecobrickers around the world"></div>
