@@ -62,10 +62,8 @@ if (!$conn) {
     -->
 
 <div id="landing-page">
-    <div class="gallery-header" >
-      
-   <div id="regular-ecobricks">
 
+<div id="regular-ecobricks">      
 
    <div class="gallery-background">
   <!-- <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>
@@ -79,7 +77,7 @@ if (!$conn) {
             
 
 
-                    
+
         <div class="gallery-content-block">
             
             <div class="flex-container">
