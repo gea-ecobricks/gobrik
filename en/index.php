@@ -63,7 +63,7 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<div id="regular-ecobricks">      
+<div id="regular-ecobricks" style="margin-top:-600px, transition:1s;">      
 
    <div class="gallery-background">
   <!-- <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>
@@ -87,14 +87,14 @@ if (!$conn) {
                 $sql = "SELECT * FROM vw_gallery_feed ;";
                 $result = $conn->query($sql);
                 if ($result->num_rows > 0) {
-                    ($result);
+                    array($result);
                 // output data of each row
                 while( $row= $result->fetch_assoc()) {
 
                 echo '
                 <div class="gal-photo">
                     <div class="photo-box">
-                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=2" alt="alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'""></a>
+                        <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=2" load="lazy" alt="alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'""></a>
                     </div>
                 </div>';
         
@@ -116,7 +116,7 @@ if (!$conn) {
 </div><!--closes regular ecobrick curtain-->
      
 
-    <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>
+   <!-- <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
             
     <div class="clouds-new2" style="padding-top:60px; margin-top:-30px; margin-bottom: -30px;
 padding-bottom: 10px;">
