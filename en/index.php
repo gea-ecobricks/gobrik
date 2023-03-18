@@ -73,7 +73,8 @@ position: fixed;
   right: 0;
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
-  cursor: pointer;">
+  cursor: pointer;"> </div><!--closes gallery-overlay"-->
+
 
 <div id="regular-ecobricks" style="transition:1s;box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);height:90vh;min-height:90vh;max-height:90vh;  overflow-y: clip;
   display: flex; bottom: 90;
@@ -133,7 +134,6 @@ position: fixed;
 <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
 </div>
     </div><!--closes gallery background-->
-            </div><!--closes gallery-overlay"-->
 </div><!--closes regular ecobrick curtain-->
      
 <!--
