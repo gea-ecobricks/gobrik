@@ -34,6 +34,8 @@ AND UNIQUE to HTML Pages-->
  
 <style>
 
+  html {background-color: black;}
+
 .kn-mobile-controls { 
   z-index: 26 !important;
   margin-top: 7px;
