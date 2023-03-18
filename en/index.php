@@ -65,15 +65,15 @@ if (!$conn) {
 
 <div id="gallery-overlay-button" style="
 position: fixed;
-  display: none;
+  display: contents;
   width: 100%;
-  height: 10vh;
-  top: 0;
   left: 0;
   right: 0;
   background-color: rgba(0,0,0,0.5);
-  z-index: 2;
-  cursor: pointer;"> </div><!--closes gallery-overlay"-->
+  z-index: 5;
+  cursor: pointer;
+  height: 100vh;
+top: -74vh;"> </div><!--closes gallery-overlay"-->
 
 
 <div id="regular-ecobricks" style="transition: 1s;
@@ -146,7 +146,7 @@ top: -70vh;">
 <!--
  <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
             
-    <div class="clouds-new2" style="padding-top:60px; margin-top:-30px; margin-bottom: -30px;
+    <div class="clouds-new2" style="padding-top:60px; margin-top:-5px; margin-bottom: -30px;
 padding-bottom: 10px;">
         <div id="landing-content">
 
