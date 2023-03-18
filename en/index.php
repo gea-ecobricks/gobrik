@@ -63,11 +63,25 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<div id="regular-ecobricks" style="margin-top:-80vh; padding-top: 50px; transition:1s;box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);height:90vh;min-height:90vh;max-height:90vh;  overflow-y: clip;
-  display: flex;
-  flex-flow: row-reverse;">     
+<div id="gallery-overlay-button" style="
+position: fixed;
+  display: none;
+  width: 100%;
+  height: 10vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;">
 
-<div class="gallery-overlay-button" style="width:100%; height: 100%;background-color: black;">
+<div id="regular-ecobricks" style="transition:1s;box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);height:90vh;min-height:90vh;max-height:90vh;  overflow-y: clip;
+  display: flex; bottom: 90;
+  left: 0;
+  right: 0;
+  flex-flow: row-reverse;position: fixed;  z-index: 3;">     
+
+
 
    <div class="gallery-background">
   <!-- <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>
