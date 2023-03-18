@@ -369,7 +369,7 @@ cursor:pointer;
 
 .gallery-header {
   background-color: var(--gallery);
-  height:30px;
+  height:fit-content;
   width:100%;
   display:flex;
   justify-content:center;
@@ -382,6 +382,7 @@ cursor:pointer;
   color:white;
   height:fit-content;
   margin: auto;
+  padding: 10px;
   /*padding-top: 10px;*/
 }
 
@@ -403,13 +404,14 @@ cursor:pointer;
   width: 100%;
   max-width: 100%;
   background-color: var(--gallery);
-  margin-top: -10px;
+
   /*min-height: fit-content;
-  overflow-x: hidden;*/
+  overflow-x: hidden;
+    margin-top: -10px;
+     padding-bottom: 14px;*/
   position: relative;
   z-index: 0;
-  padding-bottom: 14px;
-  height: 90vh;
+ 
 }
 
 

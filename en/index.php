@@ -63,7 +63,11 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<div id="regular-ecobricks" style="margin-top:-90vh; padding-top: 70px; transition:1s;box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);">      
+<div id="regular-ecobricks" style="margin-top:-80vh; padding-top: 50px; transition:1s;box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);height:90vh;min-height:90vh;max-height:90vh;  overflow-y: clip;
+  display: flex;
+  flex-flow: row-reverse;">     
+
+<div class="gallery-overlay-button" style="width:100%; height: 100%;background-color: black;">
 
    <div class="gallery-background">
   <!-- <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>
@@ -115,6 +119,7 @@ if (!$conn) {
 <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
 </div>
     </div><!--closes gallery background-->
+            </div><!--closes gallery-overlay"-->
 </div><!--closes regular ecobrick curtain-->
      
 <!--
