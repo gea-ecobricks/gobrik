@@ -572,7 +572,7 @@ margin-bottom: 10px;
   @media screen and (min-width: 700px) { 
     .help-validate {
       width: 36%;
-      margin-bottom: 0px;
+      margin-bottom: -15px;
   
     }
   }
@@ -580,9 +580,9 @@ margin-bottom: 10px;
 
   @media screen and (max-width: 700px) { 
     .help-validate {
-      width: 60%;
+      width: 65%;
       margin-top: 10px;
-      margin-bottom: 10px;
+      margin-bottom: -10px;
     }
   }
 
