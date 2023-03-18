@@ -163,6 +163,12 @@
       
       }
 
+      .log-ecobricks {
+        background: url(../webp/log-ecobricks-day.webp) no-repeat;
+        background-size: contain;
+      
+      }
+
 /* light.css
 light.css 
 --icon-filter_hover: invert(60%);*/

@@ -588,6 +588,33 @@ margin-bottom: 10px;
   }
 
 
+   /*log ecobricks pgae*/
+
+   .log-ecobricks {
+    margin: auto;
+      position: relative;
+      z-index: 11;
+      height: fit-content;
+  }
+
+@media screen and (min-width: 700px) { 
+  .log-ecobricks {
+    width: 30%;
+    margin-bottom: -15px;
+
+  }
+}
+
+
+@media screen and (max-width: 700px) { 
+  .log-ecobricks {
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+}
+
+
 
   .earth-com {
     

@@ -181,3 +181,9 @@ background-size: contain;
   background-size: contain;
 
 }
+
+.log-ecobricks {
+  background: url(../webp/log-ecobricks-night.webp) no-repeat;
+  background-size: contain;
+
+}
