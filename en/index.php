@@ -76,8 +76,8 @@ position: fixed;
   cursor: pointer;"> </div><!--closes gallery-overlay"-->
 
 
-<div id="regular-ecobricks" style="transition:1s;box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);height:90vh;min-height:90vh;max-height:90vh;  overflow-y: clip;
-  display: flex; bottom: 90;
+<div id="regular-ecobricks" style="transition:1s;box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);height:90vh;min-height:90vh;max-height:110vh;  overflow-y: clip;
+  display: flex; to: -80vh;
   left: 0;
   right: 0;
   flex-flow: row-reverse;position: fixed;  z-index: 3;">     
