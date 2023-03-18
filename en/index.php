@@ -87,7 +87,7 @@ if (!$conn) {
                 $sql = "SELECT * FROM vw_gallery_feed ;";
                 $result = $conn->query($sql);
                 if ($result->num_rows > 0) {
-                    array($result);
+                    array_reverse($result);
                 // output data of each row
                 while( $row= $result->fetch_assoc()) {
 
