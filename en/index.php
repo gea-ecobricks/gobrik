@@ -64,7 +64,7 @@ if (!$conn) {
 <div id="landing-page">
 
 <div id="gallery-overlay-button" style="
-position: fixed;
+position: absolute;
   display: contents;
   width: 100%;
   left: 0;
@@ -146,7 +146,7 @@ top: -70vh;">
 <!--
  <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
             
-    <div class="clouds-new2" style="padding-top:60px; margin-top:-5px; margin-bottom: -30px;
+    <div class="clouds-new2" style=" margin-top:20vh; margin-bottom: -30px;
 padding-bottom: 10px;">
         <div id="landing-content">
 
