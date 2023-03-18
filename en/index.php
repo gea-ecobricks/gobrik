@@ -63,7 +63,7 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<div id="regular-ecobricks" style="margin-top:-600px; box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);">      
+<div id="regular-ecobricks" style="margin-top:-80vh; transition:1s;box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);">      
 
    <div class="gallery-background">
   <!-- <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>
