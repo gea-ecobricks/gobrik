@@ -45,7 +45,7 @@ position: absolute;
   height: 100vh;
 top: -73vh;
 background-image: url('../svgs/down-arrow-white.svg?v=3.1');
-background-size: 200px;
+background-size: 160px;
 background-position: bottom center;
 background-repeat: no-repeat;
 border:none;
