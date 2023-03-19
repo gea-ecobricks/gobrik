@@ -54,8 +54,10 @@ top: -73vh;
 .down-arrow {
     width:100%;
     height:100%;
-    background: url(../svgs/down-arrow-white.svg) no-repeat center bottom;
-    background-size: 50%;
+    background: url(../svgs/down-arrow-white.svg?v=2) no-repeat center bottom;
+    background-size: 30%;
+    transition: 0.5s;
+    padding-bottom: 15px;
 }
 
 #regular-ecobricks {
@@ -70,6 +72,7 @@ top: -73vh;
     z-index: 3;
     align-items: end;
     top: -73vh;
+    transition: 0.5s;
 }
 
     #regular-ecobricks:hover {
