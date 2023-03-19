@@ -31,8 +31,7 @@ function openGallery() {
   document.getElementById("right-settings-overlay").style.width = "90%";
   document.body.style.overflowY = "hidden";
   document.body.style.maxHeight = "101vh";
-  document.getElementById("regular-ecobricks").display ="none";
-
+  document.getElementById("gallery-overlay-button").display = "none";
 }
 
 
