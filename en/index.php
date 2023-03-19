@@ -96,23 +96,7 @@ top: -72vh;
 
     </style>
 
-    <script>
 
- function openGallery() {
-
-    document.getElementById("regular-ecobricks").position = "relative";
-    document.getElementById("regular-ecobricks").top = "20vh";
-    document.getElementById("regular-ecobricks").top = "20vh";
-    document.getElementById("landing-content").top = "-20vh";
-
- }
-
- document.getElementById("gallery-overlay-button").addEventListener("click", function() {
-			openGallery();
-        });
-
-
- </script>
 
  
 
@@ -122,7 +106,7 @@ top: -72vh;
 
 </head>
 
-<body id="full-page" class="accessibility-plugin-ac">
+<body id="full-page">
 
 <?php include 'top-menu.php';?>
 
@@ -157,6 +141,21 @@ if (!$conn) {
 
 <button type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="See the latest ecobricks"></button><!--closes gallery-overlay"-->
 
+<script>
+
+function openGallery() {
+   document.getElementById("regular-ecobricks").position = "relative";
+   document.getElementById("regular-ecobricks").top = "20vh";
+   document.getElementById("regular-ecobricks").top = "20vh";
+   document.getElementById("landing-content").top = "-20vh";
+}
+
+document.getElementById("gallery-overlay-button").addEventListener("click", function() {
+           openGallery();
+       });
+
+
+</script>
 
 <div id="regular-ecobricks">     
    <div class="gallery-background">
