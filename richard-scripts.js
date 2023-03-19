@@ -32,7 +32,7 @@ function focusRestrict ( event ) {
 
 
 /* RIGHT SETTINGS OVERLAY */
-function openSettings2() {
+function openGallery() {
   document.getElementById("right-settings-overlay").style.width = "90%";
   document.body.style.overflowY = "hidden";
   document.body.style.maxHeight = "101vh";
