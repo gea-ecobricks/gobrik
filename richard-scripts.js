@@ -28,7 +28,7 @@ function focusRestrict ( event ) {
 
 /* RIGHT SETTINGS OVERLAY */
 function openGallery() {
-  document.getElementById("right-settings-overlay").style.width = "90%";
+  document.getElementById("regular-ecobrick").style.marginTop = "70vh";
   document.body.style.overflowY = "hidden";
   document.body.style.maxHeight = "101vh";
 }
