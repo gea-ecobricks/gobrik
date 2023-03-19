@@ -53,6 +53,8 @@ background-repeat: no-repeat;
 
 #gallery-overlay-button:hover {
     background-color: rgba(0,0,0,0.1);
+    top: -72vh;
+
 }
 
 #gallery-overlay-button:hover + #regular-ecobricks {
@@ -132,11 +134,11 @@ if (!$conn) {
 <div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
     -->
 
-    
+
 
 <div id="landing-page">
 
-<div id="gallery-overlay-button" class="down-arrow" onclick="openGallery()" aria-label="See the latest ecobricks"> </div><!--closes gallery-overlay"-->
+<button type="button" id="gallery-overlay-button" class="down-arrow" onclick="openGallery()" aria-label="See the latest ecobricks"> </div><!--closes gallery-overlay"-->
 
 
 <div id="regular-ecobricks">     
