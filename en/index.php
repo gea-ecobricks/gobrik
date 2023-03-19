@@ -128,6 +128,9 @@ if (!$conn) {
 
 
 
+
+
+
 <!-- FULL GALLERY
 
 <div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
