@@ -44,17 +44,20 @@ position: absolute;
   cursor: pointer;
   height: 100vh;
 top: -73vh;
-background-image: url('../svgs/down-arrow-white.svg?v=3');
+background-image: url('../svgs/down-arrow-white.svg?v=3.1');
 background-size: 30%;
 background-position: bottom center;
 background-repeat: no-repeat;
 border:none;
-opacity:0.5
+opacity:0.5;
+transition: 0.5s;
 }
 
 
 #gallery-overlay-button:hover {
 opacity: 0.1;
+top: -72vh;
+
 }
 
 #gallery-overlay-button:hover + #regular-ecobricks {
@@ -89,9 +92,6 @@ opacity: 0.1;
 
 }
 
-    #regular-ecobricks:hover {
-        top:-71vh;
-    }
 
 
     </style>
@@ -107,7 +107,7 @@ opacity: 0.1;
    document.getElementById("gallery-overlay-button").addEventListener("click", function() {
 			openGallery();
         });
-        
+
  </script>
 
 </head>
@@ -145,7 +145,7 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<button type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="See the latest ecobricks"> </div><!--closes gallery-overlay"-->
+<button type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="See the latest ecobricks"></button><!--closes gallery-overlay"-->
 
 
 <div id="regular-ecobricks">     
@@ -211,7 +211,7 @@ padding-bottom: 10px;padding-top:10px">
             <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" alt="Unite with ecobrickers around the world"></div>
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
-
+            <button type="button" id="go" onclick="openGallery()" aria-label="See the latest ecobricks">Open Gallery</button>
             <div class="welcome-text">
             GoBrik helps you manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.
             </div>
