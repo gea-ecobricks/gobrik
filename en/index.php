@@ -45,7 +45,7 @@ position: absolute;
   height: 100vh;
 top: -73vh;
 background-image: url('../svgs/down-arrow-white.svg?v=3.1');
-background-size: 200px;
+background-size: 50%;
 background-position: bottom center;
 background-repeat: no-repeat;
 border:none;
@@ -148,7 +148,7 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<button type="button" id="gallery-overlay-button" onclick="openGallery()"></button><!--closes gallery-overlay"-->
+<button type="button" id="gallery-overlay-button" onclick="openSettings()"></button><!--closes gallery-overlay"-->
 
 
 
