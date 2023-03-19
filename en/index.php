@@ -45,7 +45,7 @@ position: absolute;
   height: 100vh;
 top: -73vh;
 background-image: url('../svgs/down-arrow-white.svg?v=3.1');
-background-size: 50%;
+background-size: 200px;
 background-position: bottom center;
 background-repeat: no-repeat;
 border:none;
@@ -98,7 +98,16 @@ top: -72vh;
 
 
 
- 
+<script>
+
+function openGallery() {
+   document.getElementById("regular-ecobricks").position = "relative";
+   document.getElementById("regular-ecobricks").top = "20vh";
+   document.getElementById("regular-ecobricks").top = "20vh";
+   document.getElementById("landing-content").top = "-20vh";
+}
+
+</script>
 
 
 
@@ -139,23 +148,9 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<button type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="See the latest ecobricks"></button><!--closes gallery-overlay"-->
-
-<script>
-
-function openGallery() {
-   document.getElementById("regular-ecobricks").position = "relative";
-   document.getElementById("regular-ecobricks").top = "20vh";
-   document.getElementById("regular-ecobricks").top = "20vh";
-   document.getElementById("landing-content").top = "-20vh";
-}
-
-document.getElementById("gallery-overlay-button").addEventListener("click", function() {
-           openGallery();
-       });
+<button type="button" id="gallery-overlay-button" onclick="openGallery()"></button><!--closes gallery-overlay"-->
 
 
-</script>
 
 <div id="regular-ecobricks">     
    <div class="gallery-background">
