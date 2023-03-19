@@ -47,7 +47,7 @@ top: -73vh;
 }
 
 #gallery-overlay-button:hover {
-    top: -71vh;
+    top: -72vh;
     background-color: rgba(0,0,0,0.1);
 }
 
@@ -57,7 +57,7 @@ top: -73vh;
     background: url(../svgs/down-arrow-white.svg?v=2) no-repeat center bottom;
     background-size: 30%;
     transition: 0.5s;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
 
 #regular-ecobricks {
