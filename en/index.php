@@ -44,9 +44,10 @@ position: absolute;
   cursor: pointer;
   height: 100vh;
 top: -73vh;
-background-image: url(../svgs/down-arrow-white.svg?v=2);
+background-image: url('../svgs/down-arrow-white.svg?v=3');
 background-size: 30%;
 background-position: bottom center;
+background-repeat: no-repeat;
 }
 
 
@@ -99,12 +100,7 @@ background-position: bottom center;
    //document.getElementById("gallery-overlay-button").display = "none";
 
  }
- 
- 
- /* Close when someone clicks on the "x" symbol inside the overlay */
- function closeGallery() {
-    document.getElementById("regular-ecobricks").top = "-73vh";
- }
+
  
  </script>
 
