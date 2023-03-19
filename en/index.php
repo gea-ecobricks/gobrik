@@ -106,17 +106,8 @@ top: -72vh;
     document.getElementById("landing-content").top = "-20vh";
 
  }
-
-
- 
-
-}
-
-   document.getElementById("gallery-overlay-button").addEventListener("click", function() {
-			openGallery();
-        });
-
  </script>
+
 
 </head>
 
