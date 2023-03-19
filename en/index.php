@@ -39,7 +39,7 @@ position: absolute;
   width: 100%;
   left: 0;
   right: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: black;
   z-index: 5;
   cursor: pointer;
   height: 100vh;
@@ -48,13 +48,13 @@ background-image: url('../svgs/down-arrow-white.svg?v=3');
 background-size: 30%;
 background-position: bottom center;
 background-repeat: no-repeat;
+border:none;
+opacity:0.5
 }
 
 
 #gallery-overlay-button:hover {
-    background-color: rgba(0,0,0,0.1);
-    top: -72vh;
-
+opacity: 0.1;
 }
 
 #gallery-overlay-button:hover + #regular-ecobricks {
@@ -85,6 +85,8 @@ background-repeat: no-repeat;
     align-items: end;
     top: -73vh;
     transition: 0.5s;
+
+
 }
 
     #regular-ecobricks:hover {
@@ -100,10 +102,12 @@ background-repeat: no-repeat;
    //document.getElementById("regular-ecobricks").position = "relative";
    document.getElementById("regular-ecobricks").top = "0vh";
    //document.getElementById("gallery-overlay-button").display = "none";
-
  }
 
- 
+   document.getElementById("gallery-overlay-button").addEventListener("click", function() {
+			openGallery();
+        });
+        
  </script>
 
 </head>
@@ -129,6 +133,9 @@ if (!$conn) {
 ?>
 
 
+
+
+
 <!-- FULL GALLERY
 
 <div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
@@ -138,7 +145,7 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<button type="button" id="gallery-overlay-button" class="down-arrow" onclick="openGallery()" aria-label="See the latest ecobricks"> </div><!--closes gallery-overlay"-->
+<button type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="See the latest ecobricks"> </div><!--closes gallery-overlay"-->
 
 
 <div id="regular-ecobricks">     
