@@ -206,7 +206,7 @@ padding-bottom: 10px;padding-top:10px">
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
            
             <div class="welcome-text">
-            GoBrik helps you manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.
+            GoBrik helps you manage your ecobricks, projects and plastic transition. By sequestering our plastic we can put it to good use to build our greenest visions.
             </div>
             <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
 

@@ -1,10 +1,5 @@
 
-function openGallery() {
-  document.getElementById("regular-ecobricks").display ="none";
-  document.getElementById("regular-ecobricks").top = "20vh";
-  document.getElementById("regular-ecobricks").top = "20vh";
-  document.getElementById("landing-content").top = "-20vh";
-}
+
 
 
 /* RIGHT SETTINGS OVERLAY */
@@ -36,23 +31,10 @@ function openGallery() {
   document.getElementById("right-settings-overlay").style.width = "90%";
   document.body.style.overflowY = "hidden";
   document.body.style.maxHeight = "101vh";
-
-  var modal = document.getElementById('right-settings-overlay');
-
-function modalShow () {
-   modal.setAttribute('tabindex', '0');
-   modal.focus();
 }
 
-function focusRestrict ( event ) {
-  document.addEventListener('focus', function( event ) {
-    if ( modalOpen && !modal.contains( event.target ) ) {
-      event.stopPropagation();
-      modal.focus();
-    }
-  }, true);
-}
-}
+
+
 
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
