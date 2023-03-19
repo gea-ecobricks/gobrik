@@ -29,16 +29,55 @@ AND UNIQUE to HTML Pages-->
 
 
 <?php require_once ("header.php");?>
+
+
  
 <style>
 
-</style>
+#gallery-overlay-button {
+position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 5;
+  cursor: pointer;
+  height: 100vh;
+top: -73vh;"}
+
+#gallery-overlay-button:hover {
+    top: -71vh;
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+#regular-ecobricks {
+     style="transition: 1s; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
+    height: 100vh;
+    display: flex;
+    left: 0;
+    right: 0;
+    flex-flow: row-reverse;
+    position: absolute;
+    z-index: 3;
+    align-items: end;
+    top: -73vh;"}
+
+    #regular-ecobricks:hover {
+        top:-71vh;
+    }
+
+
+    </style>
 
 </head>
 
 <body id="full-page" class="accessibility-plugin-ac">
 
 <?php include 'top-menu.php';?>
+
+<?php require_once ("../ecobrick-env.php");?>
 
 <?php
    
@@ -63,30 +102,10 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<div id="gallery-overlay-button" style="
-position: absolute;
-  width: 100%;
-  left: 0;
-  right: 0;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 5;
-  cursor: pointer;
-  height: 100vh;
-top: -73vh;"> </div><!--closes gallery-overlay"-->
+<div id="gallery-overlay-button" class="bouncing-down-arrow"> </div><!--closes gallery-overlay"-->
 
 
-<div id="regular-ecobricks" style="transition: 1s;
-box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
-height: 100vh;
-display: flex;
-
-left: 0;
-right: 0;
-flex-flow: row-reverse;
-position: absolute;
-z-index: 3;
-align-items: end;
-top: -73vh;">     
+<div id="regular-ecobricks">     
 
 
 
