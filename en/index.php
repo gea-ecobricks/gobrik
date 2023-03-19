@@ -44,6 +44,8 @@ position: absolute;
   cursor: pointer;
   height: 100vh;
 top: -73vh;
+background: url(../svgs/down-arrow-white.svg?v=2) no-repeat center bottom;
+background-size: 30%;
 }
 
 #gallery-overlay-button:hover {
@@ -54,15 +56,18 @@ top: -73vh;
     top: -72vh;
 }
 
+/*
 .down-arrow {
     width:100%;
     height:100%;
-    background: url(../svgs/down-arrow-white.svg?v=2) no-repeat center bottom;
+    background-image: url(../svgs/down-arrow-white.svg?v=2) no-repeat center bottom;
     background-size: 30%;
     transition: 0.5s;
     padding-bottom: 0px;
     opacity:0.5
-}
+}*/
+
+.down-arrow:hover {mar}
 
 #regular-ecobricks {
     transition: 1s; 
