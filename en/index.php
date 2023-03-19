@@ -109,7 +109,7 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<div id="gallery-overlay-button" class="bouncing-down-arrow"> </div><!--closes gallery-overlay"-->
+<div id="gallery-overlay-button" class="down-arrow"> </div><!--closes gallery-overlay"-->
 
 
 <div id="regular-ecobricks">     

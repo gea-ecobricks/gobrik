@@ -678,9 +678,9 @@ margin-bottom: 10px;
 
   @media screen and (min-width: 700px) { 
     .main-landing-graphic {
-      width: 60%;
-      margin-bottom: 25px;
-      margin-top: 50px;
+      width: 58%;
+      margin-bottom: 20px;
+      margin-top: 45px;
     }
   }
 
