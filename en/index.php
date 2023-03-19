@@ -43,7 +43,8 @@ position: absolute;
   z-index: 5;
   cursor: pointer;
   height: 100vh;
-top: -73vh;"}
+top: -73vh;
+}
 
 #gallery-overlay-button:hover {
     top: -71vh;
@@ -62,7 +63,8 @@ top: -73vh;"}
     position: absolute;
     z-index: 3;
     align-items: end;
-    top: -73vh;"}
+    top: -73vh;
+}
 
     #regular-ecobricks:hover {
         top:-71vh;
