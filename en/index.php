@@ -99,10 +99,18 @@ top: -72vh;
     <script>
 
  function openGallery() {
-   //document.getElementById("regular-ecobricks").position = "relative";
-   document.getElementById("regular-ecobricks").top = "0vh";
-   //document.getElementById("gallery-overlay-button").display = "none";
+
+    document.getElementById("regular-ecobricks").position = "relative";
+    document.getElementById("regular-ecobricks").top = "20vh";
+    document.getElementById("regular-ecobricks").top = "20vh";
+    document.getElementById("landing-content").top = "-20vh";
+
  }
+
+
+ 
+
+}
 
    document.getElementById("gallery-overlay-button").addEventListener("click", function() {
 			openGallery();
