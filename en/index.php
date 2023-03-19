@@ -132,6 +132,8 @@ if (!$conn) {
 <div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
     -->
 
+    
+
 <div id="landing-page">
 
 <div id="gallery-overlay-button" class="down-arrow" onclick="openGallery()" aria-label="See the latest ecobricks"> </div><!--closes gallery-overlay"-->
