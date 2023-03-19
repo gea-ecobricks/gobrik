@@ -44,9 +44,9 @@ position: absolute;
   cursor: pointer;
   height: 100vh;
 top: -73vh;
-background-image: url(../svgs/down-arrow-white.svg?v=2) no-repeat center bottom;
+background-image: url(../svgs/down-arrow-white.svg?v=2);
 background-size: 30%;
-background-position: bottom;
+background-position: bottom center;
 }
 
 
@@ -94,9 +94,9 @@ background-position: bottom;
     <script>
 
  function openGallery() {
-   document.getElementById("regular-ecobricks").position = "relative";
+   //document.getElementById("regular-ecobricks").position = "relative";
    document.getElementById("regular-ecobricks").top = "0vh";
-   document.getElementById("gallery-overlay-button").display = "none";
+   //document.getElementById("gallery-overlay-button").display = "none";
 
  }
  
@@ -142,9 +142,6 @@ if (!$conn) {
 
 
 <div id="regular-ecobricks">     
-
-
-
    <div class="gallery-background">
   <!-- <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>
 
