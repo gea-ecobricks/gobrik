@@ -51,9 +51,15 @@ top: -73vh;
     background-color: rgba(0,0,0,0.1);
 }
 
+.down-arrow {
+    width:100%;
+    height:100%;
+    background: url(../svgs/down-arrow-white.svg) no-repeat center bottom;
+    background-size: 50%;
+}
 
 #regular-ecobricks {
-     style="transition: 1s; 
+    transition: 1s; 
     box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
     height: 100vh;
     display: flex;
