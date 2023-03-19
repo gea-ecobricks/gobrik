@@ -1,4 +1,12 @@
 
+function openGallery() {
+  document.getElementById("regular-ecobricks").display ="none";
+  document.getElementById("regular-ecobricks").top = "20vh";
+  document.getElementById("regular-ecobricks").top = "20vh";
+  document.getElementById("landing-content").top = "-20vh";
+}
+
+
 /* RIGHT SETTINGS OVERLAY */
 function openSettings() {
   document.getElementById("right-settings-overlay").style.width = "90%";

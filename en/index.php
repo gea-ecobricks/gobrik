@@ -45,7 +45,7 @@ position: absolute;
   height: 100vh;
 top: -73vh;
 background-image: url('../svgs/down-arrow-white.svg?v=3.1');
-background-size: 50%;
+background-size: 30%;
 background-position: bottom center;
 background-repeat: no-repeat;
 border:none;
@@ -98,17 +98,6 @@ top: -72vh;
 
 
 
-<script>
-
-function openGallery() {
-   document.getElementById("regular-ecobricks").display ="none";
-   document.getElementById("regular-ecobricks").top = "20vh";
-   document.getElementById("regular-ecobricks").top = "20vh";
-   document.getElementById("landing-content").top = "-20vh";
-}
-
-</script>
-
 
 
 
@@ -148,7 +137,7 @@ if (!$conn) {
 
 <div id="landing-page">
 
-<button type="button" id="gallery-overlay-button" onclick="openSettings()"></button><!--closes gallery-overlay"-->
+<button type="button" id="gallery-overlay-button" onclick="openGallery()"></button><!--closes gallery-overlay"-->
 
 
 
