@@ -37,8 +37,6 @@ function openGallery() {
 }
 
 
-
-
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeSettings() {
   document.getElementById("right-settings-overlay").style.width = "0%";
