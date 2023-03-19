@@ -77,7 +77,6 @@ top: -73vh;"}
 
 <?php include 'top-menu.php';?>
 
-<?php require_once ("ecobrick-env.php");?>
 
 <?php
    
