@@ -103,7 +103,7 @@ Global site tag (gtag.js) - Google Analytics
 <!-- This allows GoBrik to be used a PWA on iPhones -->
 
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="viewport" content="width=device-width, initial-scale=1, target-density-dpi=160, maximum-scale=3, user-scalable =yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3, user-scalable =yes">
 <meta name="apple-mobile-web-app-title" content="GoBrik">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 	
