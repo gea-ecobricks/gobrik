@@ -876,23 +876,22 @@ opacity: 0.9;
     width:100%;
     height:100%;
     background: url(../svgs/down-arrow2.svg?v2) no-repeat center bottom;
-    background-size: 30%;
+    background-size: 20%;
     transition: 0.5s;
     opacity:0.5;
 }
 
 .up-arrow {
     width:70px;
-    height:20px;
+    height:18px;
     background: url(../svgs/up-arrow-white.svg?v=3) no-repeat center bottom;
     background-size: contain;
     transition: 0.5s;
     opacity:0.5;
-    margin: auto auto 20px auto;
     display: none;
     cursor: pointer;
     position: absolute;
-    bottom: 30px;
+    bottom: 26px;
 }
 
 .up-arrow:hover {
@@ -968,7 +967,7 @@ function closeGallery() {
 
 
 <div id="regular-ecobricks">   
-    <div id="gallery" class="gallery-content-block">
+    <div id="gallery" class="gallery-content-block" style="margin-bottom:-60px;">
     <?php include 'gallery.php';?>
     </div>
     <div class="gallery-header">
