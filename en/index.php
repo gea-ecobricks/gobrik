@@ -861,12 +861,10 @@ transition: 0.5s;
 #gallery-overlay-button:hover {
 opacity: 0.9;
 top: -72vh;
-
 }
 
 #gallery-overlay-button:hover + #gallery {
 opacity: 0.9;
-
 }
 
 #gallery-overlay-button:hover + #regular-ecobricks {
@@ -924,7 +922,8 @@ opacity: 0.9;
 
 #gallery {
     opacity:0.5;
-
+    height: 150px;
+overflow-y: hidden;
 }
 
 
