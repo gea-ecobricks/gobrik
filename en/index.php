@@ -153,7 +153,7 @@ document.getElementById("regular-ecobrick").style.display = "none";
 function openGallery() {
     document.getElementById("gallery-overlay-button").style.display = "none";
     document.getElementById("regular-ecobricks").style.top = "-20vh";
-    document.getElementById("regular-ecobricks").style.zindex = "10";
+    document.getElementById("regular-ecobricks").style.zindex = "20";
     document.getElementById("up-arrow").style.display = "contents";
 
 
@@ -174,8 +174,9 @@ function openGallery() {
 
     
 test content
-</div>
 <div id="up-arrow"></div>
+
+</div>
 
 </div><!--closes regular ecobrick curtain-->     
 <!--
