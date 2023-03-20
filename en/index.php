@@ -64,7 +64,7 @@ top: -72vh;
     top: -72vh;
 }
 
-/*
+
 .down-arrow {
     width:100%;
     height:100%;
@@ -73,7 +73,7 @@ top: -72vh;
     transition: 0.5s;
     padding-bottom: 0px;
     opacity:0.5
-}*/
+}
 
 
 #regular-ecobricks {
@@ -149,6 +149,7 @@ function openGallery() {
 </script>
 
 <div id="gallery-overlay-button" onclick="openGallery()">
+<div class="down-arrow"></div>
 </div><!--closes gallery-overlay"-->
 
 
