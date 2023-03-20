@@ -109,27 +109,6 @@ top: -72vh;
 <?php include 'top-menu.php';?>
 
 
-<?php
-   
-$servername = "localhost";
-$username = "ecobricks_brikchain_viewer";
-$password = "desperate-like-the-Dawn";
-$dbname = "ecobricks_gobrik_msql_db";
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-?>
-
-
-
-
-
-
-
 
 <!-- FULL GALLERY
 
@@ -143,8 +122,11 @@ if (!$conn) {
 <button type="button" id="gallery-overlay-button" onclick="openGallery()"></button><!--closes gallery-overlay"-->
 
 
+<div id="regular-ecobricks">   
+    
+test content
 
-     
+</div><!--closes regular ecobrick curtain-->     
 <!--
  <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
             
