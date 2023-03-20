@@ -34,6 +34,7 @@ AND UNIQUE to HTML Pages-->
  
 <style>
 
+
 #gallery-overlay-button {
 position: absolute;
   width: 100%;
@@ -72,20 +73,20 @@ opacity: 0.9;
 .down-arrow {
     width:100%;
     height:100%;
-    background: url(../svgs/down-arrow2.svg) no-repeat center bottom;
+    background: url(../svgs/down-arrow2.svg?v2) no-repeat center bottom;
     background-size: 30%;
     transition: 0.5s;
     opacity:0.5;
 }
 
 .up-arrow {
-    width:100px;
-    height:30px;
+    width:70px;
+    height:20px;
     background: url(../svgs/up-arrow-white.svg?v=3) no-repeat center bottom;
     background-size: contain;
     transition: 0.5s;
     opacity:0.5;
-    margin: auto auto 30px auto;
+    margin: auto auto 20px auto;
     display: none;
     cursor: pointer;
     position: absolute;
