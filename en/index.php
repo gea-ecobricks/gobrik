@@ -147,6 +147,28 @@ cursor:pointer;
 
 
 
+.main-menu-button {
+  position:absolute;
+  left:0;
+  margin-top: 22px;
+  margin-left:25px;
+  border: none; 
+  margin-right:10px;
+  cursor:pointer;
+  height:30px;
+  width:30px;
+}
+
+
+.main-menu-button:hover  {
+  border: none; 
+  margin-right:10px;
+  cursor:pointer;
+  height:30px;
+  width:30px;
+}*/
+
+
 
 .top-menu-login-button {
 
@@ -756,7 +778,7 @@ color: var(--subdued-text);
   margin: auto;
     position: relative;
     z-index: 11;
-    background: url(../webp/signup-team-day.webp) no-repeat;
+    background: url(../webp/signup-team-day.webp?v=2) no-repeat;
     background-size: contain;
     height: fit-content;
 }
