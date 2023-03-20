@@ -43,7 +43,7 @@ position: absolute;
   cursor: pointer;
   height: 100vh;
 top: -73vh;
-background: url(../svgs/down-arrow2.svg) no-repeat center bottom;
+background: url(../svgs/down-arrow-white.svg?v=4) no-repeat center bottom;
 background-size: 160px;
 background-position: bottom center;
 background-repeat: no-repeat;
@@ -207,7 +207,7 @@ function closeGallery() {
 padding-bottom: 10px;padding-top:10px">
         <div id="landing-content">
 
-            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" width="500" height="192" alt="Unite with ecobrickers around the world"></div>
+            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" width="500" height="" alt="Unite with ecobrickers around the world"></div>
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
            
