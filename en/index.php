@@ -81,8 +81,9 @@ top: -72vh;
     background-size: contain;
     transition: 0.5s;
     opacity:0.5;
-    margin: auto auto 20px auto;
+    margin: auto auto 30px auto;
     display: none;
+    cursor: pointer;
     
 }
 
@@ -158,6 +159,15 @@ function openGallery() {
 
     alert("It works!");
 }
+
+function closeGallery() {
+    document.getElementById("gallery-overlay-button").style.display = "contens";
+    document.getElementById("regular-ecobricks").style.top = "-73vh";
+    document.getElementById("regular-ecobricks").style.zIndex = "0";
+    document.getElementById("up-arrow").style.display = "none";
+
+    alert("It works!");
+}
 </script>
 
 
@@ -176,8 +186,7 @@ test content2
 
 </div>
 <div class="gallery-header">
-<div id="up-arrow" class="up-arrow">arrow</div>
-
+<div id="up-arrow" class="up-arrow" onclick="closeGallery()"></div>
 <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
 </div>
 
