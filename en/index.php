@@ -399,6 +399,7 @@ border:none;
   @media screen and (max-width: 700px) { 
     .main-landing-graphic {
       width: 90%;
+      height:39%;
       margin-top: 70px;
       margin-bottom: 0px;
     }
@@ -407,6 +408,7 @@ border:none;
   @media screen and (min-width: 700px) { 
     .main-landing-graphic {
       width: 58%;
+      height:25%;
       margin-bottom: 5px;
       margin-top: 45px;
     }
@@ -867,6 +869,10 @@ top: -72vh;
 opacity: 0.9;
 }
 
+#gal-button:hover + #gallery {
+opacity: 0.9;
+}
+
 #gallery-overlay-button:hover + #regular-ecobricks {
     top: -72vh;
 }
@@ -922,8 +928,6 @@ opacity: 0.9;
 
 #gallery {
     opacity:0.5;
-    height: 150px;
-overflow-y: hidden;
 }
 
 
@@ -963,7 +967,7 @@ function closeGallery() {
         <?php include 'top-menu.php';?>
 
         <div id="gallery-overlay-button">
-            <button  onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"></button>
+            <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"></button>
         </div>
 
 
