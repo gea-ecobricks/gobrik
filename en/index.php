@@ -957,58 +957,69 @@ function closeGallery() {
 
 <body id="full-page">
 
-<div class="landing-scope" style="min-height:100vh; height: 100%; width:100%;">
+    <div class="landing-scope" style="min-height:100vh; height: 100%; width:100%;">
 
-<?php include 'top-menu.php';?>
-
-
-<div id="gallery-overlay-button"><button  onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;  cursor: pointer;
-"></button></div>
+        <?php include 'top-menu.php';?>
 
 
-<div id="regular-ecobricks">   
-    <div id="gallery" class="gallery-content-block" style="margin-bottom:-60px;">
-    <?php include 'gallery.php';?>
-    </div>
-    <div class="gallery-header">
-        <div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
-            <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
-    </div>
-</div><!--closes regular ecobrick curtain-->     
-<!--
- <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
-            
-    <div class="clouds-new2" style=" margin-top:10vh; margin-bottom: -30px;
-padding-bottom: 10px;padding-top:10px">
-        <div class="landing-content">
+        <div id="gallery-overlay-button">
+            <button  onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;  cursor: pointer;"></button>
+        </div>
 
-            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" width="500" height="" alt="Unite with ecobrickers around the world"></div>
 
-            <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
-           
-            <div class="welcome-text">
-            GoBrik helps you manage your ecobricks, projects and plastic transition. By sequestering our plastic we can put it to good use to build our greenest visions.
+        <div id="regular-ecobricks">   
+            <div id="gallery" class="gallery-content-block" style="margin-bottom:-60px;">
+        <!-- <?php include 'gallery.php';?>-->
             </div>
-            <!--<h3<b>Selfie Frame</b> <a href="https://twb.nz/ecobrick4oceans" target="_blank">My Ecobrick For the Oceans</a></h3><br><br>-->
 
-            <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
-        
-                <div>
-                    <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='login.php'" title="Click here to sign in" style="cursor:pointer;">
-                    <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:4px;"></i>Sign in</button>
-                </div>
-        
-                <div>
-                    <button type="button" aria-label="Sign up" onclick="location.href='signup.php'" class="sign-uppp" style="cursor:pointer;">
-                    <i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i>Sign up</button>
-                </div>
+            <div class="gallery-header">
+
+                <div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
+
+                <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
+
             </div>
-            
-            <div class="tree-text" style="padding-bottom:24px;">Use your GoBrik account to sign in.
-            No account? Sign up for free!</div>
-    </div>
+        </div><!--closes regular ecobrick curtain-->     
+        <!--
+        <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
+                    
+        <div class="clouds-new2" style=" margin-top:10vh; margin-bottom: -30px;
+        padding-bottom: 10px;padding-top:10px">
+                
+            <div class="landing-content">
 
-</div><!--landing-scope-->
+                <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" width="500" height="" alt="Unite with ecobrickers around the world"></div>
+
+                <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
+                
+                <div class="welcome-text">
+                GoBrik helps you manage your ecobricks, projects and plastic transition. By sequestering our plastic we can put it to good use to build our greenest visions.
+                </div>
+
+                <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
+                
+                    <div>
+                        <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='login.php'" title="Click here to sign in" style="cursor:pointer;">
+                        <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:4px;"></i>Sign in</button>
+                    </div>
+            
+                    <div>
+                        <button type="button" aria-label="Sign up" onclick="location.href='signup.php'" class="sign-uppp" style="cursor:pointer;">
+                        <i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i>Sign up</button>
+                    </div>
+
+                </div>
+                    
+                <div class="tree-text" style="padding-bottom:35px;">
+                Use your GoBrik account to sign in.
+                No account? Sign up for free!
+                </div>
+
+            </div><!--landing-content-->
+            
+        </div><!--clouds-->
+
+    </div><!--landing-scope-->
 
     <div class="bottom-scope" style="width:100%;height:100%;margin-top:25px;">
          <div class="landing-content">
