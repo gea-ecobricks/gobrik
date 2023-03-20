@@ -1,7 +1,7 @@
 
 <!--FOOTER STARTS-->
 
-<!--SCRIPT THAT LOADS ARVO FONT at end of page load-->
+<!--SCRIPT THAT LOADS ARVO FONT at end of page load
 	
 <script type="text/javascript">
 /* First CSS File */
@@ -12,7 +12,7 @@ giftofspeed.type = 'text/css';
 var godefer = document.getElementsByTagName('link')[0];
 godefer.parentNode.insertBefore(giftofspeed, godefer);
 
-</script>
+</script>-->
 
 
 <div id="footer-full">
