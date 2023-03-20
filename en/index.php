@@ -963,7 +963,8 @@ function closeGallery() {
 <?php include 'top-menu.php';?>
 
 
-<div id="gallery-overlay-button"><button  onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;"></button></div>
+<div id="gallery-overlay-button"><button  onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;  cursor: pointer;
+"></button></div>
 
 
 <div id="regular-ecobricks">   
@@ -1007,6 +1008,8 @@ padding-bottom: 10px;padding-top:10px">
             <div class="tree-text">Use your GoBrik account to sign in.
             No account? Sign up for free!</div>
     </div><!--landing-scope-->
+
+    <div class="bottom-scope" style="width:100%;height:100%;">
       
             <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks"></div>
         
