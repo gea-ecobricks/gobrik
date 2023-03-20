@@ -124,7 +124,9 @@ top: -72vh;
 /* OPEN THE GALLERY ON MAIN PAGE */
 
 function openGallery() {
+    document.getElementById("regular-ecobricks").display ="none";
     alert("It works!");
+
 }
 
 
@@ -142,7 +144,7 @@ document.getElementById("regular-ecobrick").style.display = "none";
 }*/
 </script>
 
-<div id="gallery-overlay-button">
+<div id="gallery-overlay-button" onclick="openGallery()">
 </div><!--closes gallery-overlay"-->
 
 
