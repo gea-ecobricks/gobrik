@@ -993,7 +993,7 @@ function closeGallery() {
                 
             <div class="landing-content">
 
-                <div class="main-landing-graphic"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%" width="100" height="43" alt="Unite with ecobrickers around the world"></div>
+                <div class="main-landing-graphic"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%" width="100%" height="43%" alt="Unite with ecobrickers around the world"></div>
 
                 <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
                 
