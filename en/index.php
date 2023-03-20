@@ -142,12 +142,14 @@ function openGallery() {
 </script>
 
 <div id="gallery-overlay-button">
-</button><!--closes gallery-overlay"-->
+</div><!--closes gallery-overlay"-->
 
 
 <div id="regular-ecobricks">   
+<div class="gallery-background">
     
 test content
+</div>
 
 </div><!--closes regular ecobrick curtain-->     
 <!--
