@@ -1,5 +1,20 @@
 
 <!--FOOTER STARTS-->
+
+<!--SCRIPT THAT LOADS ARVO FONT at end of page load-->
+	
+<script type="text/javascript">
+/* First CSS File */
+var giftofspeed = document.createElement('link');
+giftofspeed.rel = 'stylesheet';
+giftofspeed.href = 'https://fonts.googleapis.com/css2?family=Arvo&display=swap';
+giftofspeed.type = 'text/css';
+var godefer = document.getElementsByTagName('link')[0];
+godefer.parentNode.insertBefore(giftofspeed, godefer);
+
+</script>
+
+
 <div id="footer-full">
 		<!--<div class="vision-clouds"><img src="../svgs/footer-clouds-desktop.webp" width="100%"></div>-->
 		<div class="vision-landscape"><img src="../svgs/vision-day.webp" style="width:100%" alt="Our vision of a great green transition!"></div>
