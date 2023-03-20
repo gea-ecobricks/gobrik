@@ -188,8 +188,8 @@ function closeGallery() {
 
 
 
-<div type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="open gallery">
-<div class="down-arrow"></div>
+<div type="button" id="gallery-overlay-button" class="down-arrow" onclick="openGallery()" aria-label="open gallery">
+<div >
 </div><!--closes gallery-overlay"-->
 
 
@@ -198,7 +198,7 @@ function closeGallery() {
         test content2
     </div>
     <div class="gallery-header">
-        <div><button type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;"><div class="up-arrow"></div> </button></div>
+        <div id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;"><div class="up-arrow"></div></div>
             <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
     </div>
 </div><!--closes regular ecobrick curtain-->     
