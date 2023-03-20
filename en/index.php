@@ -75,10 +75,10 @@ top: -72vh;
 }
 
 .up-arrow {
-    width:100%;
-    height:100%;
+    width:100px;
+    height:30px;
     background: url(../svgs/up-arrow-white.svg?v=3) no-repeat center bottom;
-    background-size: 100px;
+    background-size: contain;
     transition: 0.5s;
     opacity:0.5;
     margin-bottom: 20px;
@@ -91,13 +91,12 @@ top: -72vh;
     display: flex;
     left: 0;
     right: 0;
-    flex-flow: row-reverse;
     position: absolute;
     z-index: 3;
     align-items: end;
     top: -73vh;
     transition: 0.5s;
-
+    flex-wrap: wrap;
     text-align: center;
   width: 100%;
   max-width: 100%;
