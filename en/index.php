@@ -185,10 +185,8 @@ function closeGallery() {
 }
 </script>
 
-
-
-<button type="button"><div id="gallery-overlay-button" onclick="openGallery()" aria-label="open gallery"></div>
-</button><!--closes gallery-overlay"-->
+<div type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="open gallery"></div>
+<!--closes gallery-overlay-button"-->
 
 
 <div id="regular-ecobricks">   
