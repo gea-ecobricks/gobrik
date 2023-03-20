@@ -74,7 +74,7 @@ top: -72vh;
     opacity:0.5;
 }
 
-#up-arrow {
+.up-arrow {
     width:100%;
     height:100%;
     background: url(../svgs/up-arrow-white.svg?v=3) no-repeat center bottom;
@@ -175,7 +175,7 @@ function openGallery() {
 test content2
 
 </div>
-<div id="up-arrow">arrow</div>
+<div id="up-arrow" class="up-arrow">arrow</div>
 
 
 </div><!--closes regular ecobrick curtain-->     
