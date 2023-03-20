@@ -1,18 +1,18 @@
 
 <!--FOOTER STARTS-->
 
-<!--SCRIPT THAT LOADS ARVO FONT at end of page load
+<!--SCRIPT THAT LOADS ARVO FONT at end of page load-->
 	
 <script type="text/javascript">
 /* First CSS File */
 var giftofspeed = document.createElement('link');
 giftofspeed.rel = 'stylesheet';
-giftofspeed.href = 'https://fonts.googleapis.com/css2?family=Arvo&display=swap';
+giftofspeed.href = 'https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap';
 giftofspeed.type = 'text/css';
 var godefer = document.getElementsByTagName('link')[0];
 godefer.parentNode.insertBefore(giftofspeed, godefer);
 
-</script>-->
+</script>
 
 
 <div id="footer-full">
