@@ -89,6 +89,12 @@ top: -72vh;
     
 }
 
+.up-arrow:hover {
+
+    opacity:0.9;
+    
+}
+
 #regular-ecobricks {
     box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
     height: 100vh;
@@ -158,8 +164,6 @@ function openGallery() {
     document.getElementById("regular-ecobricks").style.top = "-20vh";
     document.getElementById("regular-ecobricks").style.zIndex = "20";
     document.getElementById("up-arrow").style.display = "block";
-
-    alert("It works!");
 }
 
 function closeGallery() {
@@ -168,7 +172,6 @@ function closeGallery() {
     document.getElementById("regular-ecobricks").style.zIndex = "0";
     document.getElementById("up-arrow").style.display = "none";
 
-    alert("It works!");
 }
 </script>
 
