@@ -932,40 +932,6 @@ opacity: 0.9;
 
 
 
-
-
-
-
-</head>
-
-<body id="full-page">
-
-<?php include 'top-menu.php';?>
-
-
-
-<!-- FULL GALLERY
-
-<div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
-
-/*
-document.getElementById("regular-ecobrick").style.display = "none";
-  document.getElementById("gallery-overlay-button").style.display = "none";
-    document.getElementById("right-settings-overlay").style.width = "0%";
-    
-    function openGallery() {
-  document.getElementById("regular-ecobricks").display ="none";
-  document.getElementById("regular-ecobricks").top = "20vh";
-  document.getElementById("regular-ecobricks").top = "20vh";
-  document.getElementById("landing-content").top = "-20vh";
-}*/
-    -->
-
-
-
-
-
-
 <script>
 /* OPEN THE GALLERY ON MAIN PAGE */
 
@@ -984,12 +950,20 @@ function closeGallery() {
     document.getElementById("regular-ecobricks").style.top = "-73vh";
     document.getElementById("regular-ecobricks").style.zIndex = "0";
     document.getElementById("up-arrow").style.display = "none";
-
 }
 </script>
 
-<div type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="open gallery"></div>
-<!--closes gallery-overlay-button"-->
+
+</head>
+
+<body id="full-page">
+
+<div class="landing-scope" style="height:100vh; width:100%;">
+
+<?php include 'top-menu.php';?>
+
+
+<div id="gallery-overlay-button"><button  onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;"></button></div>
 
 
 <div id="regular-ecobricks">   
@@ -1032,7 +1006,7 @@ padding-bottom: 10px;padding-top:10px">
             
             <div class="tree-text">Use your GoBrik account to sign in.
             No account? Sign up for free!</div>
-        
+    </div><!--landing-scope-->
       
             <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks"></div>
         
