@@ -33,9 +33,9 @@
 
 
 
-<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  
+<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
 
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" media="print" onload="this.media='all'">--> 
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" media="print" onload="this.media='all'">
 
 
 
@@ -47,14 +47,7 @@
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v98.1">
 
-<!--LEGACY Sheets to consolidate-->
 
-<!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v2">
-
-
-<!-- Knack Stylesheet -->
-<link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.5">
 
 <!-- Footer stylesheet -->
 <link rel="stylesheet" type="text/css" href="../stylesheet-footer-march.css?2.21">
