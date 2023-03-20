@@ -240,7 +240,7 @@ padding-bottom: 10px;padding-top:10px">
             <div class="welcome-text">
                 Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
             
-               <br><br> <img src="../svgs/aes-brk.svg" style="width:200px;" alt="Introducing Brikcoins and AES Plastic Offsetting">
+               <br><br> <img src="../svgs/aes-brk.svg" style="width:200px;" width="200" height="" alt="Introducing Brikcoins and AES Plastic Offsetting">
             </div>
             
             <div class="tree-text">
