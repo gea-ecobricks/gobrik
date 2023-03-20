@@ -43,7 +43,7 @@ position: absolute;
   cursor: pointer;
   height: 100vh;
 top: -73vh;
-background-image: url('../svgs/down-arrow-white.svg?v=3.1');
+background: url(../svgs/down-arrow2.svg) no-repeat center bottom;
 background-size: 160px;
 background-position: bottom center;
 background-repeat: no-repeat;
@@ -187,8 +187,8 @@ function closeGallery() {
 
 
 
-<div type="button" id="gallery-overlay-button" class="down-arrow" onclick="openGallery()" aria-label="open gallery">
-</div><!--closes gallery-overlay"-->
+<button type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="open gallery">
+</button><!--closes gallery-overlay"-->
 
 
 <div id="regular-ecobricks">   
