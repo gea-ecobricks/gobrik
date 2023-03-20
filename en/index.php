@@ -43,7 +43,7 @@ position: absolute;
   cursor: pointer;
   height: 100vh;
 top: -73vh;
-background: url(../svgs/down-arrow-white.svg?v=4) no-repeat center bottom;
+background: url(../svgs/down-arrow2.svg?v=4) no-repeat center bottom;
 background-size: 160px;
 background-position: bottom center;
 background-repeat: no-repeat;
