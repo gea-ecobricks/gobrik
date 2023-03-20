@@ -124,7 +124,7 @@ top: -72vh;
 /* OPEN THE GALLERY ON MAIN PAGE */
 
 function openGallery() {
-    document.getElementById("regular-ecobricks").display ="none";
+    document.getElementById("regular-ecobricks").display ="flex";
     alert("It works!");
 
 }
@@ -148,7 +148,7 @@ document.getElementById("regular-ecobrick").style.display = "none";
 </div><!--closes gallery-overlay"-->
 
 
-<div id="regular-ecobricks">   
+<div id="regular-ecobricks" style="display:none">   
 <div class="gallery-background">
     
 test content
