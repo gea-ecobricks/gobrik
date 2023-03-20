@@ -24,15 +24,15 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
 
-<link rel="preload" as="image" href="../svgs/richard-and-team.svg">
+<link rel="preload" as="image" href="../svgs/richard-and-team.svg?v=2">
 <link rel="preload" as="image" href="../webp/ecobrick-team-blank.webp">
-
-
 
 
 <?php require_once ("header.php");?>
 
 
+<!-- Footer stylesheet -->
+<link rel="stylesheet" type="text/css" href="../stylesheet-footer-march.css?2.21" defer>
  
 <style>
 
@@ -389,7 +389,7 @@ border:none;
     margin: auto;
       position: relative;
       z-index: 11;
-      background: url(../svgs/richard-and-team.svg) no-repeat;
+      background: url(../svgs/richard-and-team.svg?v=2) no-repeat;
       background-size: contain;
       height: fit-content;
   }
