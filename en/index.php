@@ -116,6 +116,7 @@ opacity: 0.9;
   max-width: 100%;
   background-color: var(--gallery);
   z-index: 0;
+  overflow-x:clip;
 }
 
 #gallery {
@@ -197,7 +198,7 @@ function closeGallery() {
         test content2
     </div>
     <div class="gallery-header">
-        <div><button type="button" id="up-arrow" class="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;"></button></div>
+        <div><button type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;"><div class="up-arrow"></div> </button></div>
             <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
     </div>
 </div><!--closes regular ecobrick curtain-->     
