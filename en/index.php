@@ -754,7 +754,7 @@ border-color: #00a112 !important;
  
   border-bottom:2px solid var(--text-color);
   color: var(--header-accent);
-  
+
 }
 
 .menu-page-item a {  text-decoration: none;
@@ -770,6 +770,13 @@ color: var(--subdued-text);
   font-size: 22px !important;
 }
 
+p a {
+  color: var(--text-color) !important;
+}
+
+p a:hover {
+  color: var(--h1) !important;
+}
 
 /*Right Close Button*/
 
