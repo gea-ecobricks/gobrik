@@ -187,22 +187,19 @@ function closeGallery() {
 
 
 
-<div id="gallery-overlay-button" onclick="openGallery()">
+<button type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="open gallery">
 <div class="down-arrow"></div>
-</div><!--closes gallery-overlay"-->
+</button><!--closes gallery-overlay"-->
 
 
 <div id="regular-ecobricks">   
-<!--<div class="gallery-background">-->
-<div id="gallery" class="gallery-content-block">
-test content2
-</div>
-<div class="gallery-header">
-<div id="up-arrow" class="up-arrow" onclick="closeGallery()"></div>
-<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
-</div>
-
-
+    <div id="gallery" class="gallery-content-block">
+        test content2
+    </div>
+    <div class="gallery-header">
+        <button type="button" id="up-arrow" class="up-arrow" onclick="closeGallery()" aria-label="Close Gallery"></div>
+            <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
+    </div>
 </div><!--closes regular ecobrick curtain-->     
 <!--
  <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->

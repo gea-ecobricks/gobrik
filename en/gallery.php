@@ -56,9 +56,5 @@ if (!$conn) {
             </div>
            
 
-        </div><!--closes gallery content block-->
 
-        <div class="gallery-header">
-<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
-</div>
-    </div><!--closes gallery background-->
+  
