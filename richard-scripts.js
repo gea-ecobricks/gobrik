@@ -26,20 +26,6 @@ function focusRestrict ( event ) {
 }
 
 
-/* RIGHT SETTINGS OVERLAY */
-function openGallery() {
-  document.getElementById("regular-ecobrick").style.marginTop = "70vh";
-  document.body.style.overflowY = "hidden";
-  document.body.style.maxHeight = "101vh";
-}
-
-/*function openGallery() {
-  document.getElementById("regular-ecobricks").display ="none";
-  document.getElementById("regular-ecobricks").top = "20vh";
-  document.getElementById("regular-ecobricks").top = "20vh";
-  document.getElementById("landing-content").top = "-20vh";
-}*/
-
 
 
 /* Close when someone clicks on the "x" symbol inside the overlay */
