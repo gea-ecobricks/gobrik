@@ -66,6 +66,36 @@ html {
   }
 
 
+  @media screen and (min-width: 1200px) { 
+  
+  #landing-content { 
+  width: 70%;
+  margin: auto;
+  margin-bottom: 0px;
+      }
+    }
+    
+    
+    @media screen and (min-width: 700px) and (max-width: 1200px) { 
+  
+    #landing-content { 
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0px;
+
+        }
+      }
+  
+  
+    @media screen and (max-width: 700px) { 
+  #landing-content { 
+    background: none;
+  max-width: 90%;
+  margin: auto;
+        }
+      }
+
+
 
 /*------------------------------------
 
@@ -357,7 +387,7 @@ border:none;
     margin: auto;
       position: relative;
       z-index: 11;
-      background: url(../webp/ecobrick-team-day.webp?v=2) no-repeat;
+      background: url(../webp/ecobrick-team-day2.webp?v=2) no-repeat;
       background-size: contain;
       height: fit-content;
   }
