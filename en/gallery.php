@@ -14,7 +14,6 @@ if (!$conn) {
 ?>
 
 
-   <div class="gallery-background">
   <!-- <div class="grey-gradient" style="background-image: linear-gradient(grey,grey, #30FFFF);height:60vh;margin-bottom:-60vh;max-height:fit-content;"></div>
 
 -->
@@ -27,7 +26,6 @@ if (!$conn) {
 
 
 
-        <div class="gallery-content-block">
             
             <div class="flex-container">
 
