@@ -1008,7 +1008,7 @@ padding-bottom: 10px;padding-top:10px">
             No account? Sign up for free!</div>
     </div><!--landing-scope-->
 
-    <div class="bottom-scope" style="width:100%;height:100%;">
+    <div class="bottom-scope" style="width:100%;height:100%;margin-top:25px;">
          <div class="landing-content">
             <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks"></div>
         
