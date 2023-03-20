@@ -48,11 +48,16 @@ background-size: 160px;
 background-position: bottom center;
 background-repeat: no-repeat;
 border:none;
-opacity:0.5;
+opacity:0.3;
 transition: 0.5s;
 }
 
 
+#gallery-overlay-button:hover {
+opacity: 0.9;
+top: -72vh;
+
+}
 
 #gallery-overlay-button:hover + #gallery {
 opacity: 0.9;
@@ -190,10 +195,7 @@ function closeGallery() {
 <div id="regular-ecobricks">   
 <!--<div class="gallery-background">-->
 <div id="gallery" class="gallery-content-block">
-
-    
 test content2
-
 </div>
 <div class="gallery-header">
 <div id="up-arrow" class="up-arrow" onclick="closeGallery()"></div>
