@@ -72,7 +72,7 @@ opacity: 0.9;
 .down-arrow {
     width:100%;
     height:100%;
-    background: url(../svgs/down-arrow-white.svg?v=3) no-repeat center bottom;
+    background: url(../svgs/down-arrow2.svg) no-repeat center bottom;
     background-size: 30%;
     transition: 0.5s;
     opacity:0.5;
@@ -90,7 +90,6 @@ opacity: 0.9;
     cursor: pointer;
     position: absolute;
     bottom: 30px;
-    
 }
 
 .up-arrow:hover {
@@ -197,7 +196,7 @@ function closeGallery() {
         test content2
     </div>
     <div class="gallery-header">
-        <div id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;"><div class="up-arrow"></div></div>
+        <div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
             <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
     </div>
 </div><!--closes regular ecobrick curtain-->     
@@ -208,7 +207,7 @@ function closeGallery() {
 padding-bottom: 10px;padding-top:10px">
         <div id="landing-content">
 
-            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" loading="lazy" alt="Unite with ecobrickers around the world"></div>
+            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" width="500" height="192" alt="Unite with ecobrickers around the world"></div>
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
            
