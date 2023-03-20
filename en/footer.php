@@ -11,7 +11,6 @@ giftofspeed.href = 'https://fonts.googleapis.com/css2?family=Mulish:wght@300;500
 giftofspeed.type = 'text/css';
 var godefer = document.getElementsByTagName('link')[0];
 godefer.parentNode.insertBefore(giftofspeed, godefer);
-
 </script>
 
 

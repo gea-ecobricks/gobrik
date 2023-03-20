@@ -25,6 +25,8 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:locale" content="en_GB">
 
 <link rel="preload" as="image" href="https://www.gobrik.com/svgs/richard-and-team.svg">
+<link rel="preload" as="image" href="https://www.gobrik.com/webp/ecobrick-team-blank.webp">
+
 
 
 
@@ -55,7 +57,7 @@ html {
   body {
     z-index: 0;
     position: relative;
-    position: bottom;
+    /*position: bottom;*/
     margin-top: 0px;
     padding-bottom: 0px;
     margin-left: 0px;
@@ -732,7 +734,7 @@ border-color: #00a112 !important;
 }
 
 #wcb.wcb-d #wcb_2 {
-  color: var(--footer-text); !important;
+  color: var(--footer-text) !important;
 }
 
 
@@ -988,7 +990,7 @@ function closeGallery() {
                 
             <div class="landing-content">
 
-                <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" width="500" height="" alt="Unite with ecobrickers around the world"></div>
+                <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" alt="Unite with ecobrickers around the world"></div>
 
                 <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
                 
