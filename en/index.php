@@ -136,7 +136,7 @@ document.getElementById("regular-ecobrick").style.display = "none";
 /* OPEN THE GALLERY ON MAIN PAGE */
 
 function openGallery() {
-    document.getElementById("regular-ecobricks").style.display = "flex";
+    document.getElementById("regular-ecobricks").style.display = "none";
     alert("It works!");
 }
 </script>
@@ -145,7 +145,7 @@ function openGallery() {
 </div><!--closes gallery-overlay"-->
 
 
-<div id="regular-ecobricks" style="display:none">   
+<div id="regular-ecobricks">   
 <div class="gallery-background">
     
 test content
