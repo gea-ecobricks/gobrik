@@ -175,7 +175,11 @@ function openGallery() {
 test content2
 
 </div>
+<div class="gallery-header">
 <div id="up-arrow" class="up-arrow">arrow</div>
+
+<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
+</div>
 
 
 </div><!--closes regular ecobrick curtain-->     
