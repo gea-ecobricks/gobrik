@@ -985,8 +985,8 @@ function closeGallery() {
 
             </div>
         </div><!--closes regular ecobrick curtain-->     
-        <!--
-        <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
+                <!--
+<div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
                     
         <div class="clouds-new2" style=" margin-top:10vh; margin-bottom: -30px;
         padding-bottom: 10px;padding-top:10px">
