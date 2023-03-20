@@ -160,7 +160,7 @@ document.getElementById("regular-ecobrick").style.display = "none";
 
 
 
-<div id="landing-page">
+
 
 
 <script>
@@ -187,7 +187,7 @@ function closeGallery() {
 
 
 
-<button type="button" id="gallery-overlay-button" onclick="openGallery()" aria-label="open gallery">
+<button type="button"><div id="gallery-overlay-button" onclick="openGallery()" aria-label="open gallery"></div>
 </button><!--closes gallery-overlay"-->
 
 
@@ -232,7 +232,6 @@ padding-bottom: 10px;padding-top:10px">
             <div class="tree-text">Use your GoBrik account to sign in.
             No account? Sign up for free!</div>
         
-
       
             <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks"></div>
         
