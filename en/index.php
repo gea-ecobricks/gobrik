@@ -887,16 +887,16 @@ opacity: 0.9;
     background: url(../svgs/up-arrow-white.svg?v=3) no-repeat center bottom;
     background-size: contain;
     transition: 0.5s;
-    opacity:0.5;
+    opacity:1;
     display: none;
     cursor: pointer;
     position: absolute;
-    bottom: 26px;
+    bottom: 30px;
 }
 
 .up-arrow:hover {
 
-    opacity:0.9;
+    opacity:0.6;
     
 }
 
@@ -936,7 +936,7 @@ opacity: 0.9;
 
 function openGallery() {
     document.getElementById("gallery-overlay-button").style.display = "none";
-    document.getElementById("regular-ecobricks").style.top = "-20vh";
+    document.getElementById("regular-ecobricks").style.top = "-8vh";
 
     document.getElementById("gallery").style.opacity = "1";
 
@@ -980,7 +980,7 @@ function closeGallery() {
             
     <div class="clouds-new2" style=" margin-top:10vh; margin-bottom: -30px;
 padding-bottom: 10px;padding-top:10px">
-        <div id="landing-content">
+        <div class="landing-content">
 
             <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" width="500" height="" alt="Unite with ecobrickers around the world"></div>
 
@@ -1009,7 +1009,7 @@ padding-bottom: 10px;padding-top:10px">
     </div><!--landing-scope-->
 
     <div class="bottom-scope" style="width:100%;height:100%;">
-      
+         <div class="landing-content">
             <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks"></div>
         
             <div class="welcome-text">
@@ -1022,8 +1022,7 @@ padding-bottom: 10px;padding-top:10px">
                 GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
             </div>
 
-            
-           <!-- <h6>Learn some more about<br><a href="#ecobricks">Ecobricks</a>, <a href="#gea">the GEA</a>, <a href="#brikcoins">Brikcoins</a> and <a href="#aes">AES Plastic Offsets</a></h6>-->
+
         </div><!--closes Landing content-->
     </div>
    
