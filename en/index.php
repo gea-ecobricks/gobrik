@@ -39,7 +39,6 @@ position: absolute;
   width: 100%;
   left: 0;
   right: 0;
-  background-color: black;
   z-index: 5;
   cursor: pointer;
   height: 100vh;
@@ -54,9 +53,9 @@ transition: 0.5s;
 }
 
 
-#gallery-overlay-button:hover {
-opacity: 0.1;
-top: -72vh;
+
+#gallery-overlay-button:hover + #gallery {
+opacity: 0.9;
 
 }
 
@@ -112,7 +111,10 @@ top: -72vh;
   max-width: 100%;
   background-color: var(--gallery);
   z-index: 0;
+}
 
+#gallery {
+    opacity:0.5;
 
 }
 
@@ -162,12 +164,15 @@ document.getElementById("regular-ecobrick").style.display = "none";
 function openGallery() {
     document.getElementById("gallery-overlay-button").style.display = "none";
     document.getElementById("regular-ecobricks").style.top = "-20vh";
+
+    document.getElementById("gallery").style.opacity = "1";
+
     document.getElementById("regular-ecobricks").style.zIndex = "20";
     document.getElementById("up-arrow").style.display = "block";
 }
 
 function closeGallery() {
-    document.getElementById("gallery-overlay-button").style.display = "block";
+    document.getElementById("gallery-overlay-button").style.display = "unset";
     document.getElementById("regular-ecobricks").style.top = "-73vh";
     document.getElementById("regular-ecobricks").style.zIndex = "0";
     document.getElementById("up-arrow").style.display = "none";
@@ -184,7 +189,7 @@ function closeGallery() {
 
 <div id="regular-ecobricks">   
 <!--<div class="gallery-background">-->
-<div class="gallery-content-block">
+<div id="gallery" class="gallery-content-block">
 
     
 test content2
