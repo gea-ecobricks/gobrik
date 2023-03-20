@@ -1004,9 +1004,11 @@ padding-bottom: 10px;padding-top:10px">
                 </div>
             </div>
             
-            <div class="tree-text">Use your GoBrik account to sign in.
+            <div class="tree-text" style="padding-bottom:24px;">Use your GoBrik account to sign in.
             No account? Sign up for free!</div>
-    </div><!--landing-scope-->
+    </div>
+
+</div><!--landing-scope-->
 
     <div class="bottom-scope" style="width:100%;height:100%;margin-top:25px;">
          <div class="landing-content">
