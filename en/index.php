@@ -68,7 +68,7 @@ html {
 
   @media screen and (min-width: 1200px) { 
   
-  #landing-content { 
+  .landing-content { 
   width: 70%;
   margin: auto;
   margin-bottom: 0px;
@@ -78,7 +78,7 @@ html {
     
     @media screen and (min-width: 700px) and (max-width: 1200px) { 
   
-    #landing-content { 
+    .landing-content { 
     width: 80%;
     margin: auto;
     margin-bottom: 0px;
@@ -88,7 +88,7 @@ html {
   
   
     @media screen and (max-width: 700px) { 
-  #landing-content { 
+  .landing-content { 
     background: none;
   max-width: 90%;
   margin: auto;
@@ -387,7 +387,7 @@ border:none;
     margin: auto;
       position: relative;
       z-index: 11;
-      background: url(../webp/ecobrick-team-day2.webp?v=2) no-repeat;
+      background: url(../svgs/richard-and-team.svg) no-repeat;
       background-size: contain;
       height: fit-content;
   }
@@ -398,14 +398,14 @@ border:none;
     .main-landing-graphic {
       width: 90%;
       margin-top: 70px;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
     }
   }
 
   @media screen and (min-width: 700px) { 
     .main-landing-graphic {
       width: 58%;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
       margin-top: 45px;
     }
   }
