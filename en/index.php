@@ -119,6 +119,28 @@ top: -72vh;
 
 <div id="landing-page">
 
+
+<script>
+/* OPEN THE GALLERY ON MAIN PAGE */
+
+function openGallery() {
+  document.getElementById("regular-ecobrick").style.display = "none";
+  document.getElementById("gallery-overlay-button").style.display = "none";
+    document.getElementById("right-settings-overlay").style.width = "0%";
+
+
+}
+
+
+
+/*function openGallery() {
+  document.getElementById("regular-ecobricks").display ="none";
+  document.getElementById("regular-ecobricks").top = "20vh";
+  document.getElementById("regular-ecobricks").top = "20vh";
+  document.getElementById("landing-content").top = "-20vh";
+}*/
+</script>
+
 <button type="button" id="gallery-overlay-button" onclick="openGallery()"></button><!--closes gallery-overlay"-->
 
 
