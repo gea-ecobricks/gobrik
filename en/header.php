@@ -33,11 +33,11 @@
 
 
 
-<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  --> 
+<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" media="print" onload="this.media='all'">--> 
 
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" media="print" onload="this.media='all'">
 
-
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> 
 
 <!--NEW STYLESHEETS-->
 
