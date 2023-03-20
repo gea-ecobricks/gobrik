@@ -17,7 +17,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 
 <div id="footer-full">
 		<!--<div class="vision-clouds"><img src="../svgs/footer-clouds-desktop.webp" width="100%"></div>-->
-		<div class="vision-landscape"><img src="../svgs/vision-day.webp" style="width:100%" alt="Our vision of a great green transition!"></div>
+		<div class="vision-landscape"><img src="../svgs/vision-day.webp" style="width:100%" loading="lazy" alt="Our vision of a great green transition!"></div>
 		
 			
 		<div class="footer-vision">
