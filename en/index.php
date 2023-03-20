@@ -24,7 +24,7 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
 
-<!--<link rel="preload" as="image" href="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg">-->
+<link rel="preload" as="image" href="https://gobrik.com//webp/ecobrick-team-day.webp">
 
 
 
@@ -189,7 +189,6 @@ function closeGallery() {
 
 
 <div type="button" id="gallery-overlay-button" class="down-arrow" onclick="openGallery()" aria-label="open gallery">
-<div >
 </div><!--closes gallery-overlay"-->
 
 
@@ -209,7 +208,7 @@ function closeGallery() {
 padding-bottom: 10px;padding-top:10px">
         <div id="landing-content">
 
-            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" alt="Unite with ecobrickers around the world"></div>
+            <div class="main-landing-graphic"><img src="../webp/ecobrick-team-blank.webp" style="width:100%" loading="lazy" alt="Unite with ecobrickers around the world"></div>
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
            
