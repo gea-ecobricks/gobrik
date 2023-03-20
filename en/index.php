@@ -141,7 +141,8 @@ function openGallery() {
 }*/
 </script>
 
-<button type="button" id="gallery-overlay-button" onclick="openGallery()"></button><!--closes gallery-overlay"-->
+<div id="gallery-overlay-button">
+</button><!--closes gallery-overlay"-->
 
 
 <div id="regular-ecobricks">   
@@ -160,6 +161,8 @@ padding-bottom: 10px;padding-top:10px">
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
            
+            <button type="button" onclick="openGallery()">Open Gallery</button>
+
             <div class="welcome-text">
             GoBrik helps you manage your ecobricks, projects and plastic transition. By sequestering our plastic we can put it to good use to build our greenest visions.
             </div>
