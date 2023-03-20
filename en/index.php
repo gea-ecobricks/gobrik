@@ -113,23 +113,6 @@ top: -72vh;
 <!-- FULL GALLERY
 
 <div id="the-gallery" style="height:0vh;transition:0.5s;width:100%;background-color:#30ffff;overflow-y:clip;">
-    -->
-
-
-
-<div id="landing-page">
-
-
-<script>
-/* OPEN THE GALLERY ON MAIN PAGE */
-
-function openGallery() {
-    document.getElementById("regular-ecobricks").display ="flex";
-    alert("It works!");
-
-}
-
-
 
 /*
 document.getElementById("regular-ecobrick").style.display = "none";
@@ -142,6 +125,20 @@ document.getElementById("regular-ecobrick").style.display = "none";
   document.getElementById("regular-ecobricks").top = "20vh";
   document.getElementById("landing-content").top = "-20vh";
 }*/
+    -->
+
+
+
+<div id="landing-page">
+
+
+<script>
+/* OPEN THE GALLERY ON MAIN PAGE */
+
+function openGallery() {
+    document.getElementById("regular-ecobricks").style.display = "flex";
+    alert("It works!");
+}
 </script>
 
 <div id="gallery-overlay-button" onclick="openGallery()">
