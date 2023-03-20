@@ -68,13 +68,22 @@ top: -72vh;
 .down-arrow {
     width:100%;
     height:100%;
-    background-image: url(../svgs/down-arrow-white.svg?v=2) no-repeat center bottom;
+    background: url(../svgs/down-arrow-white.svg?v=3) no-repeat center bottom;
     background-size: 30%;
     transition: 0.5s;
     padding-bottom: 0px;
     opacity:0.5
 }
 
+.up-arrow {
+    width:100%;
+    height:100%;
+    background: url(../svgs/up-arrow-white.svg?v=3) no-repeat center bottom;
+    background-size: 30%;
+    transition: 0.5s;
+    padding-bottom: 0px;
+    opacity:0.5
+}
 
 #regular-ecobricks {
     box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
@@ -144,9 +153,13 @@ document.getElementById("regular-ecobrick").style.display = "none";
 function openGallery() {
     document.getElementById("gallery-overlay-button").style.display = "none";
     document.getElementById("regular-ecobricks").style.top = "-20vh";
+    document.getElementById("regular-ecobricks").style.position = "relative";
+
     alert("It works!");
 }
 </script>
+
+
 
 <div id="gallery-overlay-button" onclick="openGallery()">
 <div class="down-arrow"></div>
@@ -157,6 +170,7 @@ function openGallery() {
 <!--<div class="gallery-background">-->
     
 test content
+<div class="up-arrow"></div>
 
 
 </div><!--closes regular ecobrick curtain-->     
