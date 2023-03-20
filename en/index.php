@@ -958,7 +958,7 @@ function closeGallery() {
 
 <body id="full-page">
 
-<div class="landing-scope" style="min-height:100vh; width:100%;">
+<div class="landing-scope" style="min-height:100vh; height: 100%; width:100%;">
 
 <?php include 'top-menu.php';?>
 
@@ -969,7 +969,7 @@ function closeGallery() {
 
 <div id="regular-ecobricks">   
     <div id="gallery" class="gallery-content-block">
-        test content2
+    <?php include 'gallery.php';?>
     </div>
     <div class="gallery-header">
         <div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
