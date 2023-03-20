@@ -76,7 +76,7 @@
 
 
     .clouds-new2  {
-      background-image: linear-gradient(#30ffff, var(--general-background),var(--general-background));
+      background-image: linear-gradient(#30ffff, var(--general-background),var(--general-background),var(--general-background));
       }
   
 
@@ -89,7 +89,7 @@
           background-size: 100%;*/
   
           .bottom-scope  {
-            background-image: linear-gradient(var(--general-background), #30ffff);
+            background-image: linear-gradient(var(--general-background),var(--general-background), #30ffff);
           }
 
 

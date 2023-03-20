@@ -24,7 +24,7 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
 
-<link rel="preload" as="image" href="https://gobrik.com/webp/ecobrick-team-day.webp">
+<link rel="preload" as="image" href="https://www.gobrik.com/webp/ecobrick-team-day2.webp?v=2">
 
 
 
@@ -732,7 +732,7 @@ border-color: #00a112 !important;
 }
 
 #wcb.wcb-d #wcb_2 {
-  color: grey !important;
+  color: var(--footer-text); !important;
 }
 
 
@@ -958,7 +958,7 @@ function closeGallery() {
 
 <body id="full-page">
 
-<div class="landing-scope" style="height:100vh; width:100%;">
+<div class="landing-scope" style="min-height:100vh; width:100%;">
 
 <?php include 'top-menu.php';?>
 
