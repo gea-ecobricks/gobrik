@@ -24,7 +24,7 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
 
-<link rel="preload" as="image" href="https://www.gobrik.com/webp/ecobrick-team-day2.webp?v=2">
+<link rel="preload" as="image" href="https://www.gobrik.com/svgs/richard-and-team.svg">
 
 
 
@@ -815,7 +815,7 @@ p a:hover {
   margin: auto;
     position: relative;
     z-index: 11;
-    background: url(../webp/signup-team-day.webp?v=2) no-repeat;
+    background: url(../svgs/richard-and-team.svg) no-repeat;
     background-size: contain;
     height: fit-content;
 }
