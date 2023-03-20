@@ -81,8 +81,9 @@ top: -72vh;
     background-size: contain;
     transition: 0.5s;
     opacity:0.5;
-    margin-bottom: 20px;
+    margin: auto auto 20px auto;
     display: none;
+    
 }
 
 #regular-ecobricks {
@@ -153,7 +154,7 @@ function openGallery() {
     document.getElementById("gallery-overlay-button").style.display = "none";
     document.getElementById("regular-ecobricks").style.top = "-20vh";
     document.getElementById("regular-ecobricks").style.zIndex = "20";
-    document.getElementById("up-arrow").style.display = "contents";
+    document.getElementById("up-arrow").style.display = "block";
 
     alert("It works!");
 }
