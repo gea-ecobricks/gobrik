@@ -961,15 +961,15 @@ function closeGallery() {
 
         <?php include 'top-menu.php';?>
 
-
         <div id="gallery-overlay-button">
-            <button  onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;  cursor: pointer;"></button>
+            <button  onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"></button>
         </div>
 
 
         <div id="regular-ecobricks">   
             <div id="gallery" class="gallery-content-block" style="margin-bottom:-60px;">
-        <!-- <?php include 'gallery.php';?>-->
+
+        <?php include 'gallery.php';?>
             </div>
 
             <div class="gallery-header">
@@ -1016,7 +1016,7 @@ function closeGallery() {
                 </div>
 
             </div><!--landing-content-->
-            
+
         </div><!--clouds-->
 
     </div><!--landing-scope-->
