@@ -1,4 +1,29 @@
   
+.signup-team {
+  margin: auto;
+    position: relative;
+    z-index: 11;
+    background: url(../svgs/richard-and-team.svg) no-repeat;
+    background-size: contain;
+    height: fit-content;
+}
+
+@media screen and (max-width: 700px) { 
+  .signup-team {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 700px) { 
+  .signup-team {
+    width: 59%;
+margin-bottom: 10px;
+  }
+}
+
+
   /* -------------------------------------------------------------------------- 
   
   
