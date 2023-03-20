@@ -163,7 +163,7 @@ function openGallery() {
 }
 
 function closeGallery() {
-    document.getElementById("gallery-overlay-button").style.display = "contens";
+    document.getElementById("gallery-overlay-button").style.display = "block";
     document.getElementById("regular-ecobricks").style.top = "-73vh";
     document.getElementById("regular-ecobricks").style.zIndex = "0";
     document.getElementById("up-arrow").style.display = "none";
