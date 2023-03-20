@@ -197,7 +197,7 @@ function closeGallery() {
         test content2
     </div>
     <div class="gallery-header">
-        <button type="button" id="up-arrow" class="up-arrow" onclick="closeGallery()" aria-label="Close Gallery"></div>
+        <div><button type="button" id="up-arrow" class="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;"></button></div>
             <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
     </div>
 </div><!--closes regular ecobrick curtain-->     
