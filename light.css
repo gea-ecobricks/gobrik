@@ -88,7 +88,9 @@
           box-sizing: border-box;
           background-size: 100%;*/
   
-  
+          .bottom-scope  {
+            background-image: linear-gradient(var(--general-background), #30ffff);
+          }
 
 
   .tree-coins {

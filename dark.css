@@ -86,6 +86,13 @@
               box-sizing: border-box;
           background-size: 100%;*/
       }
+
+      .bottom-scope  {
+        background-image: linear-gradient(var(--general-background), black);
+      /*  background: url(../svgs/top-clouds-desktop-animate-to-static2.svg) center top repeat-x ;
+                box-sizing: border-box;
+            background-size: 100%;*/
+        }
   
 
       /*
