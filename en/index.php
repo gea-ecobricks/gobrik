@@ -71,18 +71,18 @@ top: -72vh;
     background: url(../svgs/down-arrow-white.svg?v=3) no-repeat center bottom;
     background-size: 30%;
     transition: 0.5s;
-    padding-bottom: 0px;
-    opacity:0.5
+    opacity:0.5;
 }
 
-.up-arrow {
+#up-arrow {
     width:100%;
     height:100%;
     background: url(../svgs/up-arrow-white.svg?v=3) no-repeat center bottom;
-    background-size: 30%;
+    background-size: 100px;
     transition: 0.5s;
-    padding-bottom: 0px;
-    opacity:0.5
+    opacity:0.5;
+    margin-bottom: 20px;
+    display: none;
 }
 
 #regular-ecobricks {
@@ -153,7 +153,9 @@ document.getElementById("regular-ecobrick").style.display = "none";
 function openGallery() {
     document.getElementById("gallery-overlay-button").style.display = "none";
     document.getElementById("regular-ecobricks").style.top = "-20vh";
-    document.getElementById("regular-ecobricks").style.position = "relative";
+    document.getElementById("regular-ecobricks").style.z-index = "10";
+    document.getElementById("up-arrow").style.display = "contents";
+
 
     alert("It works!");
 }
@@ -168,9 +170,12 @@ function openGallery() {
 
 <div id="regular-ecobricks">   
 <!--<div class="gallery-background">-->
+<div class="gallery-content-block">
+
     
 test content
-<div class="up-arrow"></div>
+</div>
+<div id="up-arrow"></div>
 
 
 </div><!--closes regular ecobrick curtain-->     
