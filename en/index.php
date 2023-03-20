@@ -84,6 +84,8 @@ top: -72vh;
     margin: auto auto 30px auto;
     display: none;
     cursor: pointer;
+    position: absolute;
+    bottom: 30px;
     
 }
 
@@ -203,8 +205,6 @@ padding-bottom: 10px;padding-top:10px">
 
             <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
            
-            <button type="button" onclick="openGallery()">Open Gallery</button>
-
             <div class="welcome-text">
             GoBrik helps you manage your ecobricks, projects and plastic transition. By sequestering our plastic we can put it to good use to build our greenest visions.
             </div>
