@@ -400,17 +400,26 @@ border:none;
     .main-landing-graphic {
       width: 92%;
       height:39%;
-      margin-top: 70px;
+      margin-top: 0px;
       margin-bottom: 0px;
     }
   }
 
-  @media screen and (min-width: 700px) { 
+  @media screen and (min-width: 701px) (max-width: 1300px){ 
     .main-landing-graphic {
-      width: 68%;
+      width: 75%;
       height:30%;
       margin-bottom: 5px;
-      margin-top: 45px;
+      margin-top: 0px;
+    }
+  }
+
+  @media screen and (min-width: 1301px) { 
+    .main-landing-graphic {
+      width: 66%;
+      height:30%;
+      margin-bottom: 5px;
+      margin-top: 0px;
     }
   }
 
@@ -426,15 +435,24 @@ border:none;
 
 }
 
-@media screen and (min-width: 770px) { 
+@media screen and (max-width: 700px) {
 .big-header {
-  font-size: 42px !important;
+ font-size: 2em !important;
+}
+}
+
+
+@media screen and (min-width: 701px) (max-width: 1300px){ 
+.big-header {
+  font-size: 2.3em !important;
 }
 }
  
-@media screen and (max-width: 769px) {
+
+
+@media screen and (min-width: 1301px) {
 .big-header {
- font-size: 36px !important;
+ font-size: 2.5em !important;
 }
 }
    
@@ -571,15 +589,23 @@ text-decoration: none;
  
    }
 
-@media screen and (min-width: 770px) and (max-width: 2000px) { 
-.welcome-text {
-   font-size: 1.8em !important;
-}
-}
+
  
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 700px) {
 .welcome-text {
- font-size: 1.2em !important;
+ font-size: 1.17em !important;
+}
+}
+
+@media screen and (min-width: 701px) and (max-width: 1300px) { 
+.welcome-text {
+   font-size: 1.5em !important;
+}
+}
+
+@media screen and (min-width: 701px) and (max-width: 1300px) { 
+.welcome-text {
+   font-size: 1.7em !important;
 }
 }
   
@@ -880,20 +906,20 @@ transition: 0.5s;
 
 @media screen and (min-width: 701px) { 
     #gallery-overlay-button {
-        top: -73vh;
+        top: -77vh;
     }
     #regular-ecobricks {
-        top: -73vh;
+        top: -77vh;
     }
  
 }
 
 @media screen and (max-width: 700px) { 
     #gallery-overlay-button {
-        top: -73vh;
+        top: -77vh;
     }
     #regular-ecobricks {
-        top: -73vh;
+        top: -77vh;
     }
 }
 
@@ -970,7 +996,7 @@ function openGallery() {
 
 function closeGallery() {
     document.getElementById("gallery-overlay-button").style.display = "unset";
-    document.getElementById("regular-ecobricks").style.top = "-73vh";
+    document.getElementById("regular-ecobricks").style.top = "-77vh";
     document.getElementById("regular-ecobricks").style.zIndex = "0";
     document.getElementById("up-arrow").style.display = "none";
 }
