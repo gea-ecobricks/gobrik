@@ -919,7 +919,7 @@ transition: 0.5s;
   max-width: 100%;
   background-color: var(--gallery);
   z-index: 0;
-  overflow-x:clip;
+  overflow-x: scroll;
 }
 
 @media screen and (min-width: 701px) { 
@@ -968,7 +968,7 @@ opacity: 0.9 !important;
 }
 
 .up-arrow {
-    width:70px;
+    width:100%;
     height:18px;
     background: url(../svgs/up-arrow-white.svg?v=3) no-repeat center bottom;
     background-size: contain;
@@ -976,8 +976,6 @@ opacity: 0.9 !important;
     opacity:1;
     display: none;
     cursor: pointer;
-    position: absolute;
-    bottom: 30px;
 }
 
 .up-arrow:hover {

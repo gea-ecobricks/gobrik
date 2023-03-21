@@ -13,7 +13,7 @@
 <?php require_once ("header.php");?>
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v98.1">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v98.2">
 
 <!-- Footer stylesheet -->
 
