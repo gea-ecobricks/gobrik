@@ -32,8 +32,9 @@ AND UNIQUE to HTML Pages-->
 
 
 <!-- Footer stylesheet -->
-<link rel="stylesheet" type="text/css" href="../stylesheet-footer-march.css?2.21" defer>
- 
+
+<link rel="preload" href="../stylesheet-footer-march.css?2.22" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="../stylesheet-footer-march.css?2.22" href="styles.css"></noscript>
 <style>
 
 /*COMMON*/
@@ -1090,7 +1091,7 @@ function closeGallery() {
 
     </div><!--landing-scope-->
 
-    <div class="bottom-scope" style="width:100%;height:100%;margin-top:25px;">
+    <div class="bottom-scope" style="width:100%;height:100%;">
          <div class="landing-content">
             <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks"></div>
         
