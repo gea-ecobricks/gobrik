@@ -97,7 +97,10 @@
         background-image: linear-gradient(var(--general-background),var(--general-background), black);
 
         }
-  
+        .main-landing-graphic {
+          background: url(https://www.gobrik.com/svgs/richard-and-team-night.svg) no-repeat;
+          background-size: contain;
+          }
 
       /*
   @media screen and (min-width: 0px) and (max-width: 700px) {
