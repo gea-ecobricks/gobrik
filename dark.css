@@ -125,6 +125,8 @@
   .vision-landscape {
     background: url(../webp/ocean-footer-night3.webp?v=2) no-repeat center;
     background-size: contain;
+    background-color: var(--general-background);
+
   }
 
   .splash-content-block {

@@ -124,7 +124,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 					
 			
 					<div class="virtue">
-						<a href="https://ecobricks.org/open-books" target="_blank"><img src="..wevp/banners/openbooks-dark-350px.webp" style="width:300px"  alt="Click through to see our live financial tracking" loading="lazy" title="Click through to see our live financial tracking"></a>	
+						<a href="https://ecobricks.org/open-books" target="_blank"><img src="..webp/banners/openbooks-dark-350px.webp" style="width:300px"  alt="Click through to see our live financial tracking" loading="lazy" title="Click through to see our live financial tracking"></a>	
 					</div>
 						
 				</div>

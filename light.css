@@ -112,6 +112,8 @@
   .vision-landscape {
     background: url(../webp/ocean-footer-day.webp?v=3) no-repeat center;
     background-size: contain;
+    background-color: #5bfefe;
+    
   }
 
   .splash-content-block {
