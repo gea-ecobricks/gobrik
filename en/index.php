@@ -913,7 +913,7 @@ transition: 0.5s;
     z-index: 3;
     align-items: end;
     transition: 0.5s;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     text-align: center;
   width: 100%;
   max-width: 100%;
@@ -929,45 +929,32 @@ transition: 0.5s;
     #regular-ecobricks {
         top: -77vh;
     }
-    #gallery-overlay-button:hover {
-/*opacity: 0.9;*/
-top: -72vh;
-}
-
-#gallery-overlay-button:hover + #regular-ecobricks {
-    top: -72vh;
-}
-
  
 }
 
 @media screen and (max-width: 700px) { 
     #gallery-overlay-button {
-        top: -85vh;
+        top: -77vh;
     }
     #regular-ecobricks {
-        top: -85vh;
+        top: -77vh;
     }
+}
 
-    #gallery-overlay-button:hover {
+
+#gallery-overlay-button:hover {
 /*opacity: 0.9;*/
-top: -79vh;
+top: -72vh;
 }
-
-#gallery-overlay-button:hover + #regular-ecobricks {
-    top: -79vh;
-}
-
-}
-
-
-
 
 #gallery-overlay-button:hover + #gallery {
 opacity: 0.9 !important;
 }
 
 
+#gallery-overlay-button:hover + #regular-ecobricks {
+    top: -72vh;
+}
 
 
 .down-arrow {
@@ -1049,7 +1036,14 @@ function closeGallery() {
         </div>
 
 
-        <div id="regular-ecobricks">   
+        <div id="regular-ecobricks">  
+        <div class="gallery-header">
+
+<div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
+
+<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
+
+</div> 
             <div id="gallery" class="gallery-content-block">
 
             <?php include 'gallery.php';?>
@@ -1057,13 +1051,7 @@ function closeGallery() {
 
             </div>
 
-            <div class="gallery-header">
-
-                <div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
-
-                <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
-
-            </div>
+            
         </div><!--closes regular ecobrick curtain-->     
                 <!--
 <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>
