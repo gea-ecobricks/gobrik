@@ -312,6 +312,7 @@ cursor:pointer;
   width: 115%;
     margin-right: -10%;
     margin-left: -1%;
+    margin-top: 65px;
 
 }
 
@@ -947,7 +948,7 @@ top: -72vh;
 }
 
 #gallery-overlay-button:hover + #gallery {
-opacity: 0.9;
+opacity: 0.9 !important;
 }
 
 
@@ -959,11 +960,11 @@ opacity: 0.9;
 .down-arrow {
     width:100%;
     height:100%;
-    background: url(../svgs/down-arrow2.svg?v3) no-repeat center bottom;
-    background-size: 20%;
+    background: url(../svgs/down-arrow2.svg?v4) no-repeat center bottom;
+    background-size: 75px;
     transition: 0.5s;
     opacity:0.5;
-    margin-bottom:18px;
+    margin-top:-58px;
 }
 
 .up-arrow {

@@ -12,6 +12,15 @@
 
 <?php require_once ("header.php");?>
 
+<!-- Main Landing stylesheet -->
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v98.1">
+
+<!-- Footer stylesheet -->
+
+<link rel="preload" href="../stylesheet-footer-march.css?2.23" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="../stylesheet-footer-march.css?2.23" href="styles.css"></noscript>
+<style>
+
 <!-- This is the login information for the MYSQL database.  It is working.  And is already working on the index page -->
 
 <?php include ("../ecobrick_env.php");?>
