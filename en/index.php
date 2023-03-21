@@ -843,13 +843,12 @@ margin-bottom: 10px;
 
 #gallery-overlay-button {
 position: absolute;
-  width: 100%;
-  left: 0;
-  right: 0;
-  z-index: 5;
-  cursor: pointer;
-  height: 100vh;
-top: -73vh;
+width: 100%;
+left: 0;
+right: 0;
+z-index: 5;
+cursor: pointer;
+height: 100vh;
 background: url(../svgs/down-arrow2.svg?v=4) no-repeat center bottom;
 background-size: 160px;
 background-position: bottom center;
@@ -857,6 +856,47 @@ background-repeat: no-repeat;
 border:none;
 opacity:0.3;
 transition: 0.5s;
+}
+
+
+#regular-ecobricks {
+    box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
+    height: 100vh;
+    display: flex;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 3;
+    align-items: end;
+    transition: 0.5s;
+    flex-wrap: wrap;
+    text-align: center;
+  width: 100%;
+  max-width: 100%;
+  background-color: var(--gallery);
+  z-index: 0;
+  overflow-x:clip;
+}
+
+@media screen and (min-width: 701px) { 
+    #gallery-overlay-button {
+        top: -73vh;
+    }
+    #regular-ecobricks {
+        top: -73vh;
+    }
+    #gallery {
+        margin-top:-50px;
+    }
+}
+
+@media screen and (max-width: 700px) { 
+    #gallery-overlay-button {
+        top: -73vh;
+    }
+    #regular-ecobricks {
+        top: -73vh;
+    }
 }
 
 
@@ -906,25 +946,6 @@ opacity: 0.9;
     
 }
 
-#regular-ecobricks {
-    box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
-    height: 100vh;
-    display: flex;
-    left: 0;
-    right: 0;
-    position: absolute;
-    z-index: 3;
-    align-items: end;
-    top: -73vh;
-    transition: 0.5s;
-    flex-wrap: wrap;
-    text-align: center;
-  width: 100%;
-  max-width: 100%;
-  background-color: var(--gallery);
-  z-index: 0;
-  overflow-x:clip;
-}
 
 #gallery {
     opacity:0.5;
@@ -972,7 +993,7 @@ function closeGallery() {
 
 
         <div id="regular-ecobricks">   
-            <div id="gallery" class="gallery-content-block" style="margin-bottom:-60px;">
+            <div id="gallery" class="gallery-content-block">
 
         <?php include 'gallery.php';?>
             </div>
@@ -993,7 +1014,7 @@ function closeGallery() {
                 
             <div class="landing-content">
 
-                <div class="main-landing-graphic"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%" width="100%" height="43%" alt="Unite with ecobrickers around the world"></div>
+                <div class="main-landing-graphic" style="width:100%;height:43%;"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%;height:43%;" alt="Unite with ecobrickers around the world"></div>
 
                 <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
                 
