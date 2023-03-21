@@ -945,14 +945,11 @@ transition: 0.5s;
 /*opacity: 0.9;*/
 top: -72vh;
 }
-/*
+
 #gallery-overlay-button:hover + #gallery {
 opacity: 0.9;
 }
 
-#gal-button:hover + #gallery {
-opacity: 0.9;
-}*/
 
 #gallery-overlay-button:hover + #regular-ecobricks {
     top: -72vh;
@@ -989,7 +986,7 @@ opacity: 0.9;
 
 
 #gallery {
-    opacity:0.5;
+    opacity:0.6;
 }
 
 
@@ -1033,7 +1030,7 @@ function closeGallery() {
         </div>-->
 
         <div id="gallery-overlay-button">
-            <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"></button>
+            <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"><div class="down-arrow"></div></button>
         </div>
 
 
