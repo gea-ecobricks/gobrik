@@ -64,8 +64,8 @@ This enables accessibility text scaling on the page by the user
 
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.1" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v5.1" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v5.2" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v5.2" media="(prefers-color-scheme: dark)">
  
 
 

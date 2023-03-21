@@ -389,27 +389,25 @@ border:none;
     margin: auto;
       position: relative;
       z-index: 11;
-      /*background: url(https://www.gobrik.com/svgs/richard-and-team.svg?v=2) no-repeat;
-      background-size: contain;*/
-      height: fit-content;
+    
   }
 
 
 
   @media screen and (max-width: 700px) { 
     .main-landing-graphic {
-      width: 92%;
+      width: 93%;
       height:39%;
       margin-top: 16px;
-      margin-bottom: -8px;
+      margin-bottom: -15px;
     }
   }
 
   @media screen and (min-width: 701px) (max-width: 1300px){ 
     .main-landing-graphic {
       width: 75%;
-      height:30%;
-      margin-bottom: 5px;
+      height:31%;
+      margin-bottom: -5px;
       margin-top: 0px;
     }
   }
@@ -417,8 +415,8 @@ border:none;
   @media screen and (min-width: 1301px) { 
     .main-landing-graphic {
       width: 66%;
-      height:30%;
-      margin-bottom: 5px;
+      height:28%;
+      margin-bottom: -5px;
       margin-top: 0px;
     }
   }
@@ -611,7 +609,7 @@ text-decoration: none;
   
       
   .tree-text {
-    font-size: 1em ;
+    font-size: 0.9em ;
     font-family: 'Mulish', sans-serif;
     width: 85%;
     text-align: center;
@@ -1043,7 +1041,7 @@ function closeGallery() {
                 
             <div class="landing-content">
 
-                <div class="main-landing-graphic"><img src="https://www.gobrik.com/svgs/richard-and-team.svg?v=2" width="100%" height="43%" alt="Unite with ecobrickers around the world"></div>
+                <div class="main-landing-graphic"><!--<img src="https://www.gobrik.com/svgs/richard-and-team.svg?v=2" width="100%" height="43%" alt="Unite with ecobrickers around the world">--></div>
 
                 
 
