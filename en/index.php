@@ -919,7 +919,8 @@ transition: 0.5s;
   max-width: 100%;
   background-color: var(--gallery);
   z-index: 0;
-  overflow-x: scroll;
+  overflow-x: clip;
+  overflow-y: scroll;
 }
 
 @media screen and (min-width: 701px) { 
