@@ -53,9 +53,9 @@
 }
 
 .top-settings-button:hover {
-    background: url(../svgs/settings-icon-over-dark2.svg) no-repeat !important;
-    background-size: contain;
-}
+      background: url(../svgs/settings-icon-over-dark2.svg) no-repeat;
+      background-size: contain;
+  }
 
 .top-close-button {
   background: url(../svgs/down-arrow-night.svg) no-repeat;

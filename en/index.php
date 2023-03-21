@@ -394,6 +394,10 @@ border:none;
     
   }
 
+  .main-landing-graphic  img {
+  height: auto;
+  width: 100%;
+}
 
 
   @media screen and (max-width: 700px) { 
