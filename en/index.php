@@ -885,10 +885,6 @@ transition: 0.5s;
     #regular-ecobricks {
         top: -73vh;
     }
-
-    #gallery {
-        top: -50px;
-    }
  
 }
 
@@ -989,14 +985,18 @@ function closeGallery() {
 
         <?php include 'top-menu.php';?>
 
-        <div id="gallery-overlay-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;">
+        <!--<div id="gallery-overlay-button">
+            <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"></button>
+        </div>-->
+
+        <div id="gallery-overlay-button">
+            <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"></button>
         </div>
 
 
         <div id="regular-ecobricks">   
             <div id="gallery" class="gallery-content-block">
 
-        <?php include 'gallery.php';?>
             </div>
 
             <div class="gallery-header">
