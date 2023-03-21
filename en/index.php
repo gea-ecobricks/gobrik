@@ -405,8 +405,8 @@ border:none;
     .main-landing-graphic {
       width: 93%;
       height:39%;
-      margin-top: 16px;
-      margin-bottom: -15px;
+      margin-top: 19px;
+      margin-bottom: -12px;
       min-width: 250px;
     min-height: 145px;
     }
@@ -929,32 +929,45 @@ transition: 0.5s;
     #regular-ecobricks {
         top: -77vh;
     }
+    #gallery-overlay-button:hover {
+/*opacity: 0.9;*/
+top: -72vh;
+}
+
+#gallery-overlay-button:hover + #regular-ecobricks {
+    top: -72vh;
+}
+
  
 }
 
 @media screen and (max-width: 700px) { 
     #gallery-overlay-button {
-        top: -77vh;
+        top: -85vh;
     }
     #regular-ecobricks {
-        top: -77vh;
+        top: -85vh;
     }
-}
 
-
-#gallery-overlay-button:hover {
+    #gallery-overlay-button:hover {
 /*opacity: 0.9;*/
-top: -72vh;
+top: -79vh;
 }
+
+#gallery-overlay-button:hover + #regular-ecobricks {
+    top: -79vh;
+}
+
+}
+
+
+
 
 #gallery-overlay-button:hover + #gallery {
 opacity: 0.9 !important;
 }
 
 
-#gallery-overlay-button:hover + #regular-ecobricks {
-    top: -72vh;
-}
 
 
 .down-arrow {
