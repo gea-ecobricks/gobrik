@@ -37,7 +37,7 @@
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" media="print" onload="this.media='all'">--> 
 
 
-  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet" async> 
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> 
 
 <!--NEW STYLESHEETS-->
 
