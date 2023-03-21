@@ -1036,10 +1036,10 @@ function closeGallery() {
 
 
         <div id="regular-ecobricks">  
+
         <div class="gallery-header" style="display:flex;flex-flow:column;">
-        
+
             <div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
-            </div>
 
             <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
 
