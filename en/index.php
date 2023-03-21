@@ -1040,6 +1040,9 @@ function closeGallery() {
         <div id="regular-ecobricks">   
             <div id="gallery" class="gallery-content-block">
 
+            <?php include 'gallery.php';?>
+
+
             </div>
 
             <div class="gallery-header">
