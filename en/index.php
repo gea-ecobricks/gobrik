@@ -400,8 +400,8 @@ border:none;
       height:39%;
       margin-top: 16px;
       margin-bottom: -15px;
-      min-width: 644px;
-      min-height:272px;
+      min-width: 250px;
+    min-height: 145px;
     }
   }
 
@@ -409,8 +409,10 @@ border:none;
     .main-landing-graphic {
       width: 75%;
       height:31%;
-      min-width: 644px;
-      min-height:272px;
+      min-width: 250px;
+    min-height: 145px;
+      max-width: 644px;
+      max-height:272px;
       margin-bottom: -5px;
       margin-top: 0px;
     }
@@ -422,8 +424,8 @@ border:none;
       height:28%;
       margin-bottom: -5px;
       margin-top: 0px;
-      min-width: 975px;
-      min-height:408px;
+      min-width: 250px;
+    min-height: 145px;
     }
   }
 
