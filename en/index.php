@@ -400,8 +400,8 @@ border:none;
     .main-landing-graphic {
       width: 92%;
       height:39%;
-      margin-top: 0px;
-      margin-bottom: 0px;
+      margin-top: 16px;
+      margin-bottom: -8px;
     }
   }
 
@@ -437,7 +437,7 @@ border:none;
 
 @media screen and (max-width: 700px) {
 .big-header {
- font-size: 2em !important;
+ font-size: 1.95em !important;
 }
 }
 
@@ -584,7 +584,7 @@ text-decoration: none;
  font-size: 1.6em !important;
  font-family: 'Mulish', sans-serif;
  text-align: center !important;
- margin-bottom: 32px;
+ margin-bottom: 30px;
  color:var(--text-color);
  
    }
@@ -593,7 +593,7 @@ text-decoration: none;
  
 @media screen and (max-width: 700px) {
 .welcome-text {
- font-size: 1.17em !important;
+ font-size: 1.11em !important;
 }
 }
 
@@ -611,9 +611,9 @@ text-decoration: none;
   
       
   .tree-text {
-    font-size: 16px ;
+    font-size: 1em ;
     font-family: 'Mulish', sans-serif;
-    width: 80%;
+    width: 85%;
     text-align: center;
     line-height: 1.4;
     position: relative;
