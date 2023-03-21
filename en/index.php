@@ -24,9 +24,9 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
 
-<link rel="preload" as="image" href="https://www.gobrik.com/svgs/richard-and-team-day.svg">
-<link rel="preload" as="image" href="https://www.gobrik.com/svgs/richard-and-team-night.svg">
-<link rel="preload" as="image" href="https://www.gobrik.com/webp/ecobrick-team-blank.webp">
+<link rel="preload" as="image" href="../svgs/richard-and-team-day.svg">
+<link rel="preload" as="image" href="../svgs/richard-and-team-night.svg">
+<link rel="preload" as="image" href="../webp/ecobrick-team-blank.webp">
 
 
 <?php require_once ("header.php");?>
@@ -1057,7 +1057,7 @@ function closeGallery() {
             <div class="landing-content">
 
                 <div class="main-landing-graphic"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
-    min-height: 145px; width:100%;" alt="Unite with ecobrickers around the world"></div>
+    min-height: 145px; width:100%;" width="250" height="145" alt="Unite with ecobrickers around the world"></div>
 
                 
 

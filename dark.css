@@ -42,7 +42,7 @@
 
  
  .gobrik-logo {
-    background: url(../svgs/gobrik-logo-dark.svg?v1.2) center no-repeat;
+    background: url(../svgs/gobrik-logo-dark.svg) center no-repeat;
     background-size: contain;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .top-settings-button:hover {
-    background: url(https://gobrik.com/svgs/settings-icon-over-dark2.svg) no-repeat !important;
+    background: url(../svgs/settings-icon-over-dark2.svg) no-repeat !important;
     background-size: contain;
 }
 
@@ -98,7 +98,7 @@
 
         }
         .main-landing-graphic {
-          background: url(https://www.gobrik.com/svgs/richard-and-team-night.svg) no-repeat center center;
+          background: url(../svgs/richard-and-team-night.svg) no-repeat center center;
           background-size: contain;
           }
 

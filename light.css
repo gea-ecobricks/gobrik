@@ -40,7 +40,7 @@
    }
    
 .gobrik-logo {
-    background: url(../svgs/gobrik-logo-static.svg?v1.1) center no-repeat;
+    background: url(../svgs/gobrik-logo-static.svg) center no-repeat;
     background-size: contain;
 }
 
@@ -177,7 +177,7 @@
       }
 
       .main-landing-graphic {
-      background: url(https://www.gobrik.com/svgs/richard-and-team-day.svg) no-repeat center center;
+      background: url(../svgs/richard-and-team-day.svg) no-repeat center center;
       background-size: contain;
       }
 

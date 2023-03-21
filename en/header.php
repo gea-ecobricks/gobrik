@@ -16,8 +16,8 @@
 <link rel="preload" as="image" href="../svgs/gobrik-logo-dark.svg">
 <link rel="preload" as="image" href="../svgs/gobrik-logo-static.svg">
 <link rel="preload" as="image" href="../svgs/settings-icon.svg">
-<link rel="preload" as="image" href="../svgs/settings-icon-over.svg?v=2">
-<link rel="preload" as="image" href="../svgs/settings-icon-over-dark2.svg?v=2">
+<link rel="preload" as="image" href="../svgs/settings-icon-over.svg">
+<link rel="preload" as="image" href="../svgs/settings-icon-over-dark2.svg">
 <link rel="preload" as="image" href="../svgs/settings-icon-dark.svg">
 
 
@@ -74,8 +74,8 @@ This enables accessibility text scaling on the page by the user
 
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.4" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v5.4" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v5.5" media="(prefers-color-scheme: dark)">
  
 
 
