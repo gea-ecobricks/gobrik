@@ -115,16 +115,16 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 				<div class="row">
 
 					<div class="virtue">
-						<a href="https://ecobricks.org/about" target="_blank"><img src="..webp/banners/forearth-dark-350px.webp" style="width:300px" alt="Learn more about our Earth Enterprise structure" loading="lazy" title="Learn more about our Earth Enterprise structure"></a>
+						<a href="https://ecobricks.org/about" target="_blank"><img src="../webp/banners/forearth-dark-350px.webp" style="width:300px" alt="Learn more about our Earth Enterprise structure" loading="lazy" title="Learn more about our Earth Enterprise structure"></a>
 					</div>
 			
 					<div class="virtue">
-						<a href="https://ecobricks.org/regenreports" target="_blank"><img src="..webp/banners/762-disclose-dark-350px.webp" style="width:300px" alt="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com" loading="lazy" title="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com"></a>
+						<a href="https://ecobricks.org/regenreports" target="_blank"><img src="../webp/banners/762-disclose-dark-350px.webp" style="width:300px" alt="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com" loading="lazy" title="Click through to see a full and live breakdown of our 2022 ecological impacts on the GoBrik.com"></a>
 					</div>
 					
 			
 					<div class="virtue">
-						<a href="https://ecobricks.org/open-books" target="_blank"><img src="..webp/banners/openbooks-dark-350px.webp" style="width:300px"  alt="Click through to see our live financial tracking" loading="lazy" title="Click through to see our live financial tracking"></a>	
+						<a href="https://ecobricks.org/open-books" target="_blank"><img src="../webp/banners/openbooks-dark-350px.webp" style="width:300px"  alt="Click through to see our live financial tracking" loading="lazy" title="Click through to see our live financial tracking"></a>	
 					</div>
 						
 				</div>
