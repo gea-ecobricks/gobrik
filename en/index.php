@@ -892,12 +892,12 @@ right: 0;
 z-index: 5;
 cursor: pointer;
 height: 100vh;
-background: url(../svgs/down-arrow2.svg?v=4) no-repeat center bottom;
+border:none;
+/*background: url(../svgs/down-arrow2.svg?v=4) no-repeat center bottom;
 background-size: 160px;
 background-position: bottom center;
 background-repeat: no-repeat;
-border:none;
-opacity:0.3;
+opacity:0.3;*/
 transition: 0.5s;
 }
 
@@ -942,17 +942,17 @@ transition: 0.5s;
 
 
 #gallery-overlay-button:hover {
-opacity: 0.9;
+/*opacity: 0.9;*/
 top: -72vh;
 }
-
+/*
 #gallery-overlay-button:hover + #gallery {
 opacity: 0.9;
 }
 
 #gal-button:hover + #gallery {
 opacity: 0.9;
-}
+}*/
 
 #gallery-overlay-button:hover + #regular-ecobricks {
     top: -72vh;
