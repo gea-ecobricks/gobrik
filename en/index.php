@@ -405,7 +405,7 @@ border:none;
     }
   }
 
-  @media screen and (min-width: 701px) (max-width: 1300px){ 
+  @media screen and (min-width: 701px) and (max-width: 1300px){ 
     .main-landing-graphic {
       width: 75%;
       height:31%;
@@ -448,7 +448,7 @@ border:none;
 }
 
 
-@media screen and (min-width: 701px) (max-width: 1300px){ 
+@media screen and (min-width: 701px) and (max-width: 1300px){ 
 .big-header {
   font-size: 2.3em !important;
 }
