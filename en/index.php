@@ -424,8 +424,8 @@ border:none;
       height:28%;
       margin-bottom: -5px;
       margin-top: 0px;
-      min-width: 250px;
-    min-height: 145px;
+      min-width: 644px;
+      min-height:272px;
     }
   }
 
@@ -499,14 +499,14 @@ background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-
 -moz-border-radius: 8px 0px 0px 8px;
 border-radius: 8px 0px 0px 8px;
 color: #fff;
-font-size: 20px;
+font-size: 1.3em;
 font-weight: 700;
-padding: 10px 20px 10px 20px ;
+padding: 9px 18px 9px 18px ;
 text-decoration: none;
 margin-top: 0px;
 margin-bottom: 12px;
 border: none;
-margin-left: 3px;
+margin-right: 3px;
 }
 
 
@@ -536,9 +536,9 @@ background-image: linear-gradient(to bottom, var(--button-1-1), var(--button-1-2
 -moz-border-radius: 0px 8px 8px 0px;
 border-radius: 0px 8px 8px 0px;
 color: #fff;
-font-size: 20px;
+font-size: 1.3em;
 font-weight: 700;
-padding: 10px 20px 10px 20px ;
+padding: 9px 18px 9px 9px ;
 text-decoration: none;
 margin-top: 0px;
 margin-bottom: 12px;
@@ -590,7 +590,7 @@ text-decoration: none;
  font-size: 1.6em !important;
  font-family: 'Mulish', sans-serif;
  text-align: center !important;
- margin-bottom: 30px;
+
  color:var(--text-color);
  
    }
@@ -600,24 +600,27 @@ text-decoration: none;
 @media screen and (max-width: 700px) {
 .welcome-text {
  font-size: 1.11em !important;
+ margin-bottom: 26px;
 }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1300px) { 
 .welcome-text {
    font-size: 1.5em !important;
+   margin-bottom: 28px;
 }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1300px) { 
 .welcome-text {
    font-size: 1.7em !important;
+   margin-bottom: 30px;
 }
 }
   
       
   .tree-text {
-    font-size: 0.9em ;
+    font-size: 0.83em ;
     font-family: 'Mulish', sans-serif;
     width: 85%;
     text-align: center;
@@ -1056,7 +1059,7 @@ function closeGallery() {
                 <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
                 
                 <div class="welcome-text">
-                GoBrik helps you manage your ecobricks, projects and plastic transition. By sequestering our plastic we can put it to good use to build our greenest visions.
+                GoBrik helps you manage your ecobricks, projects and accelerate your plastic transition so that we can build a green home for all.
                 </div>
 
                 <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
@@ -1073,7 +1076,7 @@ function closeGallery() {
 
                 </div>
                     
-                <div class="tree-text" style="padding-bottom:35px;">
+                <div class="tree-text" style="padding-bottom:15px;">
                 Use your GoBrik account to sign in.
                 No account? Sign up for free!
                 </div>
