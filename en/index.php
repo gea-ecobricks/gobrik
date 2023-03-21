@@ -409,10 +409,8 @@ border:none;
     .main-landing-graphic {
       width: 75%;
       height:31%;
-      min-width: 250px;
-    min-height: 145px;
-      max-width: 644px;
-      max-height:272px;
+      min-width: 644px;
+      min-height:272px;
       margin-bottom: -5px;
       margin-top: 0px;
     }
@@ -424,8 +422,8 @@ border:none;
       height:28%;
       margin-bottom: -5px;
       margin-top: 0px;
-      min-width: 644px;
-      min-height:272px;
+      min-width: 900px;
+      min-height:377px;
     }
   }
 
@@ -1052,7 +1050,8 @@ function closeGallery() {
                 
             <div class="landing-content">
 
-                <div class="main-landing-graphic"><!--<img src="https://www.gobrik.com/svgs/richard-and-team.svg?v=2" width="100%" height="43%" alt="Unite with ecobrickers around the world">--></div>
+                <div class="main-landing-graphic"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
+    min-height: 145px; width:100%;" alt="Unite with ecobrickers around the world"></div>
 
                 
 
