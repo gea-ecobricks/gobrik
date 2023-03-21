@@ -959,10 +959,11 @@ opacity: 0.9;
 .down-arrow {
     width:100%;
     height:100%;
-    background: url(../svgs/down-arrow2.svg?v2) no-repeat center bottom;
+    background: url(../svgs/down-arrow2.svg?v3) no-repeat center bottom;
     background-size: 20%;
     transition: 0.5s;
     opacity:0.5;
+    margin-bottom:18px;
 }
 
 .up-arrow {
