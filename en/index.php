@@ -389,8 +389,8 @@ border:none;
     margin: auto;
       position: relative;
       z-index: 11;
-      background: url(https://www.gobrik.com/svgs/richard-and-team.svg?v=2) no-repeat;
-      background-size: contain;
+      /*background: url(https://www.gobrik.com/svgs/richard-and-team.svg?v=2) no-repeat;
+      background-size: contain;*/
       height: fit-content;
   }
 
@@ -398,7 +398,7 @@ border:none;
 
   @media screen and (max-width: 700px) { 
     .main-landing-graphic {
-      width: 90%;
+      width: 92%;
       height:39%;
       margin-top: 70px;
       margin-bottom: 0px;
@@ -407,8 +407,8 @@ border:none;
 
   @media screen and (min-width: 700px) { 
     .main-landing-graphic {
-      width: 58%;
-      height:25%;
+      width: 68%;
+      height:30%;
       margin-bottom: 5px;
       margin-top: 45px;
     }
@@ -885,9 +885,11 @@ transition: 0.5s;
     #regular-ecobricks {
         top: -73vh;
     }
+
     #gallery {
-        margin-top:-50px;
+        top: -50px;
     }
+ 
 }
 
 @media screen and (max-width: 700px) { 
@@ -987,8 +989,7 @@ function closeGallery() {
 
         <?php include 'top-menu.php';?>
 
-        <div id="gallery-overlay-button">
-            <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"></button>
+        <div id="gallery-overlay-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;">
         </div>
 
 
@@ -1007,14 +1008,18 @@ function closeGallery() {
             </div>
         </div><!--closes regular ecobrick curtain-->     
                 <!--
-<div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>-->
+<div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>
+
+<div class="main-landing-graphic" style="width:100%;height:43%;"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%;height:43%;" alt="Unite with ecobrickers around the world"></div>-->
                     
         <div class="clouds-new2" style=" margin-top:10vh; margin-bottom: -30px;
         padding-bottom: 10px;padding-top:10px">
                 
             <div class="landing-content">
 
-                <div class="main-landing-graphic" style="width:100%;height:43%;"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%;height:43%;" alt="Unite with ecobrickers around the world"></div>
+                <div class="main-landing-graphic"><img src="https://www.gobrik.com/svgs/richard-and-team.svg?v=2" width="100%" height="43%" alt="Unite with ecobrickers around the world"></div>
+
+                
 
                 <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
                 
