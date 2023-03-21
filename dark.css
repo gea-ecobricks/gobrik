@@ -98,8 +98,8 @@
 
         }
         .main-landing-graphic {
-          background: url(https://www.gobrik.com/svgs/richard-and-team-night.svg) no-repeat;
-          background-size: contain center center;
+          background: url(https://www.gobrik.com/svgs/richard-and-team-night.svg) no-repeat center center;
+          background-size: contain;
           }
 
       /*
