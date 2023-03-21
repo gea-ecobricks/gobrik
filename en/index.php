@@ -1036,13 +1036,14 @@ function closeGallery() {
 
 
         <div id="regular-ecobricks">  
-        <div class="gallery-header">
+        <div class="gallery-header" style="display:flex;flex-flow:column;">
+        
+            <div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
+            </div>
 
-<div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
+            <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
 
-<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
-
-</div> 
+        </div> 
             <div id="gallery" class="gallery-content-block">
 
             <?php include 'gallery.php';?>

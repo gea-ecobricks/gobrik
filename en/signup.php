@@ -6,7 +6,7 @@
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
-<title>GoBrik | βeta</title>
+<title>GoBrik | Signup</title>
 <meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
 <meta name="description" content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.">
 <meta name="author" content="Global Ecobrick Alliance">
@@ -31,6 +31,19 @@ AND UNIQUE to HTML Pages-->
 <script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_53/knack.js" async></script>
 
 <?php require_once ("header.php");?>
+
+<!--LEGACY Sheets to consolidate-->
+
+<!-- Primary stylesheet -->
+<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v2">
+
+<!-- Knack Stylesheet -->
+<link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.5">
+
+<!-- Main Landing stylesheet -->
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v98.1">
+
+ 
  
 <style>
 
