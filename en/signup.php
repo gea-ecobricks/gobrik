@@ -43,6 +43,10 @@ AND UNIQUE to HTML Pages-->
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.2">
 
+ <!--Stylesheets for light and dark mode.  They need to be called here-->
+<link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+
+<!--<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">-->
  
  
 <style>

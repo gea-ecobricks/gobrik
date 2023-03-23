@@ -32,6 +32,14 @@ AND UNIQUE to HTML Pages-->
 <?php require_once ("includes/header.php");?>
 
 
+ 
+<!--Stylesheets for light and dark mode.  They need to be called here-->
+<link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">
+ 
+
+
+
 <!-- Footer stylesheet -->
 
 <link rel="preload" href="../stylesheet-footer-march.css?2.23" as="style" onload="this.onload=null;this.rel='stylesheet'">

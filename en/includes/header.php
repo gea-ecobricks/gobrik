@@ -72,12 +72,6 @@ This enables accessibility text scaling on the page by the user
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
 
- 
-<!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">
- 
-
 
 <!-- This doesn't seem to be working:
 
