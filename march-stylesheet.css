@@ -3,7 +3,7 @@
   margin: auto;
     position: relative;
     z-index: 11;
-    background: url(../svgs/richard-and-team.svg) no-repeat;
+    background: url(../svgs/signup-team.svg) no-repeat center;
     background-size: contain;
     height: fit-content;
 }
@@ -351,7 +351,7 @@ cursor:pointer;
   cursor:pointer;
   height:30px;
   width:30px;
-}*/
+}
 
 
 /*------------------------------------
@@ -473,7 +473,7 @@ cursor:pointer;
 
 /*	6. User Settings Overlay Curtain 
 
-    Comes in from the left after clicking +- button.
+    Comes in from the right after clicking +- button.
 
 /* -------------------------------------------------------------------------- */
 
@@ -597,6 +597,39 @@ border-color: #00a112 !important;
 
 
 
+.menu-page-item {
+  padding:10px;
+  font-family:'Mulish';
+  font-size:1.4em;
+  color:var(--text-color);
+  border-bottom:1px solid var(--subdued-text);
+  cursor: pointer;
+
+}
+
+
+.menu-page-item:hover {
+ 
+  border-bottom:2px solid var(--text-color);
+  color: var(--header-accent);
+  
+}
+
+.menu-page-item a {  text-decoration: none;
+color: var(--subdued-text);
+}
+
+.menu-page-item a:hover {  text-decoration: none;
+  color: var(--h1);
+  }
+
+
+  /*working?!*/
+[part="darkLabel"], [part="lightLabel"], [part="toggleLabel"] {
+
+  font-size: 22px !important;
+}
+
 
 /* -------------------------------------------------------------------------- */
 
@@ -693,7 +726,7 @@ cursor: pointer;
 -------------------------------------------------------------------------- */
 
 
-
+/*
 #left-menu-overlay {
   background-color: var(--side-overlays); 
   color: inherit;
@@ -701,24 +734,21 @@ cursor: pointer;
 }
 
 
-/* Table of Contents Menu (background) */
 .menu-overlay {
   height: 100%;
   width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 21; /* Sit on top */
+  position: fixed; 
+  z-index: 21;
   left: 0;
   top: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  overflow-x: hidden; 
+  transition: 0.5s;
 }
 
 
-/* Position the content inside the overlay */
 .menu-overlay-content {
   position: initial;
-  text-align: center; /* Centered text/links */
-   /*margin-top: 30px; 30px top margin to avoid conflict with the close button on smaller screens */
+  text-align: center;
   font-family: "CooperLT";
   display: flex;
   justify-content: center;
@@ -732,7 +762,7 @@ cursor: pointer;
   .menu-overlay-content {
     width: 85%;
     font-size: 0.9em;
-    /*margin-top: 6%;*/
+ 
 }
 }
 
@@ -740,7 +770,6 @@ cursor: pointer;
   .menu-overlay-content {
     width: 65%;
     font-size: 0.9em;
-    /*margin-top: 2%;*/
 }
 }
 
@@ -783,7 +812,7 @@ cursor: pointer;
 
 }
 
-/*Left CLose Button*/
+/*Left CLose Button
 
 #left-close-button {
   position: absolute;
@@ -795,38 +824,7 @@ cursor: pointer;
   padding-top: 30px;
   right: 0px;
   top: 0px;
-}
-
-.menu-page-item {
-  padding:10px;
-  font-family:'Mulish';
-  font-size:1.4em;
-  color:var(--text-color);
-  border-bottom:1px solid var(--subdued-text);
-  cursor: pointer;
-
-}
-
-
-.menu-page-item:hover {
- 
-  border-bottom:2px solid var(--text-color);
-  color: var(--header-accent);
-  
-}
-
-.menu-page-item a {  text-decoration: none;
-color: var(--subdued-text);
-}
-
-.menu-page-item a:hover {  text-decoration: none;
-  color: var(--h1);
-  }
-
-[part="darkLabel"], [part="lightLabel"], [part="toggleLabel"] {
-
-  font-size: 22px !important;
-}
+}*/
 
 
 

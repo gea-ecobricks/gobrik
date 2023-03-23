@@ -39,12 +39,11 @@ document.body.style.maxHeight = "unset";
 
 /* LEFT MAIN MENU OVERLAY 
 
-Triggers the right share link panel*/
+Triggers the right share link panel
 
 function openMenu() {
   document.getElementById("left-menu-overlay").style.width = "90%";
   document.body.style.overflowY = "hidden";
-  //document.body.style.maxHeight = "101vh";
 
   var modal = document.getElementById('left-menu-overlay');
 
@@ -63,9 +62,10 @@ function focusRestrict ( event ) {
 }
 }
 
+*/
 
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
+/* Close when someone clicks on the "x" symbol inside the overlay 
 function closeMenu() {
   document.getElementById("left-menu-overlay").style.width = "0%";
   document.body.style.overflowY = "unset";
@@ -73,9 +73,11 @@ function closeMenu() {
 
 }
 
+*/
+
 /* Knack OVERLAY 
 
-Triggers the down fall of the knack sign in curtain*/
+Triggers the down fall of the knack sign in curtain
 
 function openKnack() {
 
@@ -86,13 +88,6 @@ function openKnack() {
   document.getElementById("header").style.display = "none";
 
   document.getElementById("landing-page").style.display = "none";
-  
-  //document.body.style.overflowY = "hidden";
-  //document.body.style.maxHeight = "101vh";
-  //document.body.style.overflowY = "unset"; please work
-  //window.scrollTo(0, 0);
-  //document.getElementById("knack-overlay-curtain").scrollTo(0, 0);
-  //document.getElementById("knack-overlay-curtain").scrollTo(0, 0);
 
   var modal = document.getElementById('knack-overlay-curtain');
 
@@ -145,7 +140,7 @@ function focusRestrict ( event ) {
 
 
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
+/* Close when someone clicks on the "x" symbol inside the overlay 
 function closeKnack() {
   document.getElementById("knack-overlay-curtain").style.height = "0%";
   document.getElementById("top-menu-login-button").style.display = "block";
@@ -158,7 +153,7 @@ function closeKnack() {
 
   //document.body.style.maxHeight = "unset";
 
-} 
+} */
 
 
 
@@ -166,11 +161,8 @@ function modalCloseCurtains ( e ) {
   if ( !e.keyCode || e.keyCode === 27 ) {
     
   document.body.style.overflowY = "unset";
-  document.getElementById("right-close-button2").style.position = "absolute";
-  document.getElementById("right-share-overlay").style.width = "0%";
-
-  document.getElementById("left-settings-overlay").style.width = "0%";
-  document.getElementById("knack-overlay-curtain").style.height = "0%";
+  document.getElementById("right-settings-overlay").style.width = "0%";
+  /*document.getElementById("knack-overlay-curtain").style.height = "0%";*/
 
   }
 }

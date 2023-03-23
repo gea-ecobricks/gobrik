@@ -29,7 +29,7 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" as="image" href="../webp/ecobrick-team-blank.webp">
 
 
-<?php require_once ("header.php");?>
+<?php require_once ("includes/header.php");?>
 
 
 <!-- Footer stylesheet -->
@@ -1002,9 +1002,7 @@ opacity: 0.9 !important;
 function openGallery() {
     document.getElementById("gallery-overlay-button").style.display = "none";
     document.getElementById("regular-ecobricks").style.top = "-8vh";
-
     document.getElementById("gallery").style.opacity = "1";
-
     document.getElementById("regular-ecobricks").style.zIndex = "20";
     document.getElementById("up-arrow").style.display = "block";
 }
@@ -1024,7 +1022,7 @@ function closeGallery() {
 
     <div class="landing-scope" style="min-height:100vh; height: 100%; width:100%;">
 
-        <?php include 'top-menu.php';?>
+        <?php include 'includes/top-menu.php';?>
 
         <!--<div id="gallery-overlay-button">
             <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"></button>
@@ -1046,7 +1044,7 @@ function closeGallery() {
         </div> 
             <div id="gallery" class="gallery-content-block">
 
-            <?php include 'gallery.php';?>
+            <?php include 'includes/gallery.php';?>
 
 
             </div>
@@ -1121,13 +1119,13 @@ function closeGallery() {
 
     <div style="z-index:5;">
     <!-- sets footer of page:  be sure to add page name-->
-    <?php require_once ("footer.php");?>
+    <?php require_once ("includes/footer.php");?>
     </div>
 
 </div> <!--landing page close-->
 
 
-<?php require_once ("settings-curtain.php");?>
+<?php require_once ("includes/settings-curtain.php");?>
 
             </div>
 </body>
