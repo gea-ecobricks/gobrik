@@ -156,13 +156,13 @@
 }
 
 .earth-com {
-  background: url(../svgs/earth-community-night.svg) no-repeat;
+  background: url(../svgs/earth-community-night.svg) no-repeat center;
   background-size: contain;
 }
 
 
 .city-image {
-  background: url(../svgs/city-village-night.webp) no-repeat;
+  background: url(../svgs/city-village-night.webp) no-repeat center;
   background-size: contain;
 }
 

@@ -99,7 +99,7 @@
 
 
   .tree-coins {
-    background: url(../webp/2023-tree-day.webp) no-repeat;
+    background: url(../webp/2023-tree-day.webp) no-repeat center;
     background-size: contain;
   }
 
@@ -140,13 +140,13 @@
     }
 
     .earth-com {
-      background: url(../svgs/earth-community-day.svg) no-repeat;
+      background: url(../svgs/earth-community-day.svg) no-repeat center;
       background-size: contain;
     }
 
 
     .city-image {
-      background: url(../svgs/city-village-day.svg?v=2) no-repeat;
+      background: url(../svgs/city-village-day.svg?v=2) no-repeat center;
       background-size: contain;
     }
 
@@ -159,19 +159,19 @@
 
     .my-ecobricks {
 
-      background: url(../webp/my-ecobricks-day.webp) no-repeat;
+      background: url(../webp/my-ecobricks-day.webp) no-repeat center;
       background-size: contain;
       }
 
 
       .help-validate {
-        background: url(../webp/help-validate-day.webp) no-repeat;
+        background: url(../webp/help-validate-day.webp) no-repeat center;
         background-size: contain;
       
       }
 
       .log-ecobricks {
-        background: url(../webp/log-ecobricks-day.webp) no-repeat;
+        background: url(../webp/log-ecobricks-day.webp) no-repeat center;
         background-size: contain;
       
       }

@@ -205,7 +205,8 @@ This removes the three columns on the log in scenes but keeps it on the course a
     margin-bottom: -100px;
     }
  
-    #view_1373 {  /*login view - when ready transfer to all logings*/
+    /*
+    #view_1373 { 
  
         background: rgba(256, 256, 256, 0.7);
         position: relative;
@@ -223,7 +224,8 @@ This removes the three columns on the log in scenes but keeps it on the course a
 .kn-login {
   background: none;
   box-shadow: none;}
-}
+}*/
+
  
  #view_5870  {   /*corporate social platform text under login view*/
  
@@ -781,7 +783,7 @@ margin: 18px;
     
     
     /* Landing page formating  
-    */
+   
     
     #view_1373 .view-header {margin: 0px;}
     
