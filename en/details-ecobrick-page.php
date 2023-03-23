@@ -124,7 +124,7 @@ echo
 	</div>
 	
 	<div class="splash-image">
-		<a href="ecobrick_full_photo_url"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
+		<a href="'. $array["ecobrick_full_photo_url"] .'"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
 	border-color: #97C4E3;
 	width: 85%;
 	margin-top:-20px;
@@ -150,9 +150,9 @@ echo '
 			}
 	
 			
-			echo '<div class="lead-page-paragraph">
+			echo '<div class="lead-page-paragraph"><p>
 						'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of used plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'.
-					</div>';
+						</p></div>';
 
 	
 
