@@ -60,7 +60,7 @@
 
 
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../light.css?v5.1" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../light.css?v5.6" as="style" onload="this.rel='stylesheet'">
 
 <!-- CUSTOM PAGE SCRIPTS
 This enables accessibility text scaling on the page by the user
