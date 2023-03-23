@@ -64,16 +64,16 @@ AND UNIQUE to HTML Pages-->
 
 </head>
 
-<body id="full-page" class="accessibility-plugin-ac">
+<body id="full-page">
 
-    <?php include 'top-menu.php';?>
+    <?php include 'includes/top-menu.php';?>
 
   <!-- Main knack loader--> 
   <div id="knack-dist_53">
         <div class="loader-spin"></div>
   </div>
 
-<?php require_once ("settings-curtain.php");?>
+<?php require_once ("includes/settings-curtain.php");?>
          
 </body>
 
