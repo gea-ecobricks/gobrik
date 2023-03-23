@@ -3,7 +3,7 @@
   margin: auto;
     position: relative;
     z-index: 11;
-    background: url(../svgs/signup-team.svg) no-repeat center;
+    background: url(../svgs/signup-team.svg?v=2) no-repeat center;
     background-size: contain;
     height: fit-content;
 }
@@ -1387,7 +1387,7 @@ LOADING AND LOGIN
     z-index: 5;
     background: url('svgs/bottle-loader-day-3.svg') center no-repeat;
       box-sizing: border-box;
-   background-size: 38px;
+   background-size: 100px;
 
   /* animation-name: spin;
    animation-duration: 1000ms;
