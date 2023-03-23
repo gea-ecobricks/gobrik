@@ -34,12 +34,12 @@ AND UNIQUE to HTML Pages-->
 
 <!--LEGACY Sheets to consolidate-->
 
-<!-- Primary stylesheet -->
+<!-- Primary stylesheet 
 <link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v2.1">
+-->
 
 <!-- Knack Stylesheet -->
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.6">
-
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.5">
 
@@ -72,7 +72,7 @@ AND UNIQUE to HTML Pages-->
     height: 100%;
     margin:auto;
     z-index: 5;
-    background: url('svgs/bottle-loader-day-4.svg') center no-repeat;
+    background: url('../svgs/bottle-loader-day-4.svg') center no-repeat;
       box-sizing: border-box;
    background-size: 100px;
 
