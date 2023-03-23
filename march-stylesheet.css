@@ -843,7 +843,7 @@ cursor: pointer;
     font-family: 'Mulish', Arial, Helvetica, sans-serif;
     color: var(--text-color);
     font-weight: 300;
-    text-shadow: 0 0 10px var(--shadow);
+    /*text-shadow: 0 0 10px var(--shadow);*/
   }
   @media screen and (max-width: 769px) {
       .vision-quote {
@@ -1385,14 +1385,14 @@ LOADING AND LOGIN
     height: 100%;
     margin:auto;
     z-index: 5;
-    background: url('svgs/bottle-loader.svg') center no-repeat;
+    background: url('svgs/bottle-loader-day-3.svg') center no-repeat;
       box-sizing: border-box;
    background-size: 38px;
 
-   animation-name: spin;
+  /* animation-name: spin;
    animation-duration: 1000ms;
    animation-iteration-count: infinite;
-   animation-timing-function: linear; 
+   animation-timing-function: linear; */
    /* transform: rotate(3deg); */
     /* transform: rotate(0.3rad);/ */
     /* transform: rotate(3grad); */ 

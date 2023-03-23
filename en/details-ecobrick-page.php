@@ -242,7 +242,7 @@ echo '
 			echo '	<div class="side">
 
 			<div id="side-module-desktop-mobile">
-					<img src="../svgs/authenticated-brik.svg?v=2" width="80%" alt="Following Earths example through eco bricking">
+					<img src="../svgs/authenticated-brik.svg?v=3" width="80%" alt="Following Earths example through eco bricking">
 					<br><h2>Authenticated!</h2>
 					<p>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</p><br>
 					<a class="module-btn" href="/about">About Ecobricks</a>
