@@ -21,9 +21,6 @@
 <noscript><link rel="../stylesheet-footer-march.css?2.23" href="styles.css"></noscript>
 
 
-<!-- This is the login information for the MYSQL database.  It is working.  And is already working on the index page -->
-
-<?php include ("../ecobrick_env.php");?>
 
 
 <!-- This accessess the ecobricks table, searches by serial number and should pull up the variables need to compose the unique meta tags of the pages -->
@@ -86,7 +83,7 @@ $conn->close();
 </head>
 
 
-<body id="full-page" class="accessibility-plugin-ac">
+<body id="full-page">
 
 <?php include 'includes/top-menu.php';?>
 
@@ -166,7 +163,7 @@ echo '
 						<p>This ecobrick was completed with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>
 
 						<p>On '. $array["date_logged_ts"] .' the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
-						<br>
+						
 					</div>
 				</div>';
 
