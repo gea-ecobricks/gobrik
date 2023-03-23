@@ -30,7 +30,7 @@ AND UNIQUE to HTML Pages-->
         
 <script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_53/knack.js" async></script>
 
-<?php require_once ("header.php");?>
+<?php require_once ("includes/header.php");?>
 
 <!--LEGACY Sheets to consolidate-->
 
@@ -41,7 +41,7 @@ AND UNIQUE to HTML Pages-->
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.5">
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v98.1">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.2">
 
  
  
@@ -65,14 +65,14 @@ AND UNIQUE to HTML Pages-->
 
 <body id="full-page" class="accessibility-plugin-ac">
 
-    <?php include 'top-menu.php';?>
+    <?php include 'includes/top-menu.php';?>
 
   <!-- Main knack loader--> 
   <div id="knack-dist_53">
         <div class="loader-spin"></div>
   </div>
 
-<?php require_once ("settings-curtain.php");?>
+<?php require_once ("includes/settings-curtain.php");?>
          
 </body>
 
