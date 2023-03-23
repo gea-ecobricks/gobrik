@@ -1,27 +1,4 @@
-  
-.signup-team {
-  margin: auto;
-    position: relative;
-    z-index: 11;
-    background: url(../svgs/signup-team.svg?v=2) no-repeat center;
-    background-size: contain;
-    height: fit-content;
-}
 
-@media screen and (max-width: 700px) { 
-  .signup-team {
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-}
-
-@media screen and (min-width: 700px) { 
-  .signup-team {
-    width: 59%;
-margin-bottom: 10px;
-  }
-}
 
 
   /* -------------------------------------------------------------------------- 
@@ -1377,51 +1354,10 @@ LOADING AND LOGIN
 -----------------------------------------------*/
 
 
-.loader-spin { 
-  position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    margin:auto;
-    z-index: 5;
-    background: url('svgs/bottle-loader-day-3.svg') center no-repeat;
-      box-sizing: border-box;
-   background-size: 100px;
-
-  /* animation-name: spin;
-   animation-duration: 1000ms;
-   animation-iteration-count: infinite;
-   animation-timing-function: linear; */
-   /* transform: rotate(3deg); */
-    /* transform: rotate(0.3rad);/ */
-    /* transform: rotate(3grad); */ 
-    /* transform: rotate(.03turn);  */
- }
-
- @keyframes spin {
-     from {
-         transform:rotate(0deg);
-     }
-     to {
-         transform:rotate(360deg);
-     }
- }
 
 
 
-.loader { 
-  position: fixed;
-  box-sizing: border-box;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    margin:auto;
-    z-index: 5;
- 
 
- }
 
 
 
@@ -2170,6 +2106,31 @@ margin-left: auto;
 
 
 /* PAGE IMAGES */
+
+  
+.signup-team {
+  margin: auto;
+    position: relative;
+    z-index: 11;
+    background: url(../svgs/signup-team.svg?v=2) no-repeat center;
+    background-size: contain;
+    height: fit-content;
+}
+
+@media screen and (max-width: 700px) { 
+  .signup-team {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 700px) { 
+  .signup-team {
+    width: 59%;
+margin-bottom: 10px;
+  }
+}
 
 
   /*my ecobricks pgae*/

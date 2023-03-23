@@ -20,6 +20,11 @@
 <link rel="preload" href="../stylesheet-footer-march.css?2.23" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="../stylesheet-footer-march.css?2.23" href="styles.css"></noscript>
 
+<!--Stylesheets for light and dark mode.  They need to be called here-->
+<link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+
+<!--<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">-->
+ 
 
 <!-- This is the login information for the MYSQL database.  It is working.  And is already working on the index page -->
 

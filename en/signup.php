@@ -63,6 +63,21 @@ AND UNIQUE to HTML Pages-->
 .kn-content {
   margin-top: -70px;}
 
+
+.loader-spin { 
+  position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    z-index: 5;
+    background: url('svgs/bottle-loader-day-4.svg?v=2') center no-repeat;
+      box-sizing: border-box;
+   background-size: 100px;
+
+ }
+
 </style>
 
 </head>
