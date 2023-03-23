@@ -2196,6 +2196,8 @@ margin-bottom: 10px;
       z-index: 11;
       height: fit-content;
       width: 80%;
+      margin-top: 45px;
+      transition: 1s;
   }
 
   .city-image {

@@ -41,7 +41,7 @@ AND UNIQUE to HTML Pages-->
 <!-- Knack Stylesheet -->
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.6">
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.5">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.6">
 
 <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.7" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
