@@ -35,16 +35,16 @@ AND UNIQUE to HTML Pages-->
 <!--LEGACY Sheets to consolidate-->
 
 <!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v2">
+<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v2.1">
 
 <!-- Knack Stylesheet -->
-<link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.5">
+<link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.6">
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.3">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.5">
 
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../light.css?v5.6" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
 <!--<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">-->
  
@@ -72,7 +72,7 @@ AND UNIQUE to HTML Pages-->
     height: 100%;
     margin:auto;
     z-index: 5;
-    background: url('svgs/bottle-loader-day-4.svg?v=2') center no-repeat;
+    background: url('svgs/bottle-loader-day-4.svg') center no-repeat;
       box-sizing: border-box;
    background-size: 100px;
 
