@@ -21,6 +21,9 @@
 <noscript><link rel="../stylesheet-footer-march.css?2.23" href="styles.css"></noscript>
 
 
+<!-- This is the login information for the MYSQL database.  It is working.  And is already working on the index page -->
+
+<?php include ("../ecobrick_env.php");?>
 
 
 <!-- This accessess the ecobricks table, searches by serial number and should pull up the variables need to compose the unique meta tags of the pages -->
@@ -83,7 +86,7 @@ $conn->close();
 </head>
 
 
-<body id="full-page">
+<body id="full-page" class="accessibility-plugin-ac">
 
 <?php include 'includes/top-menu.php';?>
 
