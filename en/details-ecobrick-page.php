@@ -10,7 +10,7 @@
 
 <!--This is our generic header that loads all the generic meta tags, stylesheets and scripts for the page-->
 
-<?php require_once ("header.php");?>
+<?php require_once ("includes/header.php");?>
 
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v98.2">
@@ -24,6 +24,7 @@
 <!-- This is the login information for the MYSQL database.  It is working.  And is already working on the index page -->
 
 <?php include ("../ecobrick_env.php");?>
+
 
 
 <!-- This accessess the ecobricks table, searches by serial number and should pull up the variables need to compose the unique meta tags of the pages -->
@@ -88,13 +89,13 @@ $conn->close();
 
 <body id="full-page" class="accessibility-plugin-ac">
 
-<?php include 'top-menu.php';?>
+<?php include 'includes/top-menu.php';?>
 
 
 
-<?php require_once ("settings-curtain.php");?>
+<?php require_once ("includes/settings-curtain.php");?>
 
-<?php include ("../ecobrick_env.php");?>
+
 
 <?php 
 
@@ -338,20 +339,13 @@ echo '
 				<p>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</p><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
-
-
-
 		</div>
-
 	</div>
 </div>
 
-
-
-
+<!-- sets footer of page-->
 <div style="z-index:5;">
-<!-- sets footer of page:  be sure to add page name-->
-<?php require_once ("footer.php");?>
+	<?php require_once ("footer.php");?>
 </div>
 </div>
 </body>
