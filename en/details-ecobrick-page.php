@@ -150,9 +150,9 @@ echo '
 			}
 	
 			
-			echo '<div class="lead-page-paragraph"><p>
+			echo '<div class="lead-page-paragraph">
 						'. $array["owner"] .' has ecobricked '. $array["weight_g"] .'&#8202;g of used plastic in '. $array["location_city"] .', '. $array["location_country"] .' using a '. $array["volume_ml"] .' bottle to make a '. $array["sequestration_type"].'.
-						</p></div>';
+						</div>';
 
 	
 
