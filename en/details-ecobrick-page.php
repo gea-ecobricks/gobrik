@@ -26,7 +26,6 @@
 <?php include ("../ecobrick_env.php");?>
 
 
-
 <!-- This accessess the ecobricks table, searches by serial number and should pull up the variables need to compose the unique meta tags of the pages -->
 
 <?php
@@ -95,6 +94,7 @@ $conn->close();
 
 <?php require_once ("includes/settings-curtain.php");?>
 
+<?php include ("../ecobrick_env.php");?>
 
 
 <?php 
@@ -339,13 +339,21 @@ echo '
 				<p>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</p><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
+
+
+
 		</div>
+
 	</div>
 </div>
 
-<!-- sets footer of page-->
+
+
+<div class="bottom-scope" style="width:100%;height:400px;margin-top:-350px"></div>
+
 <div style="z-index:5;">
-	<?php require_once ("footer.php");?>
+<!-- sets footer of page:  be sure to add page name-->
+<?php require_once ("includes/footer.php");?>
 </div>
 </div>
 </body>
