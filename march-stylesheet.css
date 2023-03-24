@@ -1923,7 +1923,7 @@ font: var(--top-header) !important;}
             #view_6765 .kn-button.kn-link /* Save for Later Button in Logging P2 */
             {
               background: var(--notification);
-              font: var(--top-header) !important;
+              font-family: var(--subdued-text) !important;
               font-weight: 500 !important;
             }      
 

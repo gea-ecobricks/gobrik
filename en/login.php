@@ -35,14 +35,16 @@ AND UNIQUE to HTML Pages-->
 <!--LEGACY Sheet to move into march-stylesheet
 <link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v9.6">
 -->
+<!--Default Light Styles to load first-->
+<link rel="preload" href="../light.css?v5.71" as="style" onload="this.rel='stylesheet'">
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.7">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.71">
 
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.7" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../light.css?v5.71" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
-<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../dark.css?v5.7" media="(prefers-color-scheme: dark)">
  
 <style>
 

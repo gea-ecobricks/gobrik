@@ -24,7 +24,7 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
 
-<!--<link rel="preload" as="image" href="https://gobrik.com/svgs/casandra.svg">-->
+
 
 <script type="text/javascript">app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; async</script>
         
@@ -32,8 +32,13 @@ AND UNIQUE to HTML Pages-->
 
 <?php require_once ("includes/header.php");?>
 
+
+
+<!--Default Light Styles to load first-->
+<link rel="preload" href="../light.css?v5.7" as="style" onload="this.rel='stylesheet'">
+
 <!--LEGACY Sheets to consolidate-->
-<link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v1">
+<link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v=1.01">
 
 <!-- Old stylesheet 
 <link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v1.1">
@@ -44,9 +49,9 @@ AND UNIQUE to HTML Pages-->
 <link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.3">
 
  <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../light.css?v5.7" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
-<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../dark.css?v5.7" media="(prefers-color-scheme: dark)">
  
 <style>
 
