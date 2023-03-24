@@ -61,12 +61,6 @@ AND UNIQUE to HTML Pages-->
   margin-top: 7px;
 }
 
-.main-menu-button {
-  display:none;
-}
-
-.kn-content {
-  margin-top: -70px;}
 
 
 .loader-spin { 
