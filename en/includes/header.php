@@ -49,18 +49,6 @@
 <noscript><link rel="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap"></noscript>
 
 
-<!--NEW STYLESHEETS-->
-
-<!-- Main Landing stylesheet 
-<link rel="stylesheet" type="text/css" href="../landing-stylesheet.css?v1.9">-->
-
-
-
-
-
-
-<!--Default Light Styles to load first-->
-<link rel="preload" href="../light.css?v5.6" as="style" onload="this.rel='stylesheet'">
 
 <!-- CUSTOM PAGE SCRIPTS
 This enables accessibility text scaling on the page by the user
