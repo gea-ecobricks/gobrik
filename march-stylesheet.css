@@ -1901,7 +1901,10 @@ font: var(--top-header) !important;}
         #view_773 .kn-button.kn-link{
             background: var(--top-header);}
 
-
+            #view_739 .kn-link .kn-link-1 .kn-link-page .kn-button {
+              background: var(--top-header);
+            }
+            
       
     /*
     #view_753  .kn-link .kn-link-1 .kn-link-page .kn-button{
