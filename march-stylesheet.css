@@ -258,7 +258,13 @@ background: var(--top-header) !important;
 }
 
 
-
+.kn-view .notification {
+  width: 80%;
+margin: auto;
+margin-top: -10px;
+padding-top: 20px;
+margin-bottom: -20px;
+}
 
 
   /* -------------------------------------------------------------------------- 
@@ -1619,11 +1625,13 @@ LOADING AND LOGIN
 
 
 
+.kn-subtitle {
+  color: var(--subdued-text) !important;
+}
 
 
-
-/*March: reduces margin under Welcome Ecobricker*/
-#view_433 { margin-bottom: -20px !important}
+/*March: reduces margin under Welcome Ecobricker
+#view_433 { margin-bottom: -20px !important}*/
 
 /*NEW CONFIRMED KNACK CODE*/
 
@@ -2287,7 +2295,7 @@ padding-bottom:20px;
 .kn-modal {background: var(--side-overlays) !important;}
 
 
-/*
+
 
 .kn-message, .kn-notification, .notification {
 
@@ -2352,7 +2360,7 @@ padding-bottom:20px;
     
   }	
   
-  */
+  
 
 
   /*DASHBOARD*/
