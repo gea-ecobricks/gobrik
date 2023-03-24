@@ -258,13 +258,6 @@ background: var(--top-header) !important;
 }
 
 
-.kn-view .notification {
-  width: 80%;
-margin: auto;
-margin-top: -10px;
-padding-top: 20px;
-margin-bottom: -20px;
-}
 
 
   /* -------------------------------------------------------------------------- 
@@ -2278,6 +2271,15 @@ padding-bottom:20px;
 /* -------------------------------------------------------------------------- */
 
 /*	8. NOTIFICATIONS
+
+
+.kn-view .notification {
+  width: 80%;
+margin: auto;
+margin-top: -10px;
+padding-top: 20px;
+margin-bottom: -20px;
+}
 /* -------------------------------------------------------------------------- */
 
 
@@ -2318,6 +2320,7 @@ padding-bottom:20px;
     margin-left: 13px;
   position: absolute !important;
     left:0; right:0;  top: 0;
+    margin-top: -20px;
       
   }
   

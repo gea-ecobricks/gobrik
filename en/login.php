@@ -77,7 +77,7 @@ AND UNIQUE to HTML Pages-->
     height: 100%;
     margin:auto;
     z-index: 5;
-    background: url('../svgs/bottle-loader-day-4.svg') center no-repeat;
+    background: url('../svgs/bottle-loader-day-5.svg') center no-repeat;
       box-sizing: border-box;
    background-size: 100px;
 
