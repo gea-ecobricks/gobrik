@@ -33,12 +33,12 @@ AND UNIQUE to HTML Pages-->
 <?php require_once ("includes/header.php");?>
 
 <!--LEGACY Sheets to consolidate-->
+<link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v1">
 
-<!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v2">
-
-<!-- Knack Stylesheet -->
+<!-- Old stylesheet 
+<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v1.1">
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.5">
+-->
 
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.3">
@@ -46,8 +46,7 @@ AND UNIQUE to HTML Pages-->
  <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
-<!--<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">-->
- 
+<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">
  
 <style>
 

@@ -36,22 +36,19 @@ AND UNIQUE to HTML Pages-->
 <link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v9.6">
 -->
 
-
-
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.6">
 
 <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.7" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
-<!--<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">-->
+<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">
  
 <style>
 
 #header {
   box-shadow: none !important;
 }
-
 
 .kn-mobile-controls { 
   z-index: 26 !important;
