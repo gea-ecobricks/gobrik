@@ -143,10 +143,10 @@ background: var(--top-header) !important;
 #view_655 .kn-table { 
   padding: 18px;
   box-shadow: 0px 2px 5px grey;
-background: #fff;
+background: var(--top-header) !important;
     border-style: solid;
   border-width: 8px;
-  border-color: #d6f9ff;
+  border-color: #00d6fb31;
   padding-bottom: 25px;
 margin-top: -10px;
   margin-left: 4px;
@@ -158,7 +158,7 @@ margin-top: -10px;
 max-width: 50% !important;
   text-align: right;
 padding-right: 10px;
-  background: #fff;
+  background: var(--top-header) !important;
   
 
 }
@@ -167,10 +167,10 @@ padding-right: 10px;
 
 #view_1189 { padding: 15px;
   box-shadow: 0px 2px 5px grey;
-background: #fff;
+background: var(--top-header) !important;
     border-style: solid;
   border-width: 8px;
-  border-color: #d6f5d6;
+  border-color: #01fe012e;
   border-radius: 10px;
   margin-bottom: 38px;
 	  margin-right: 9px;
@@ -182,10 +182,10 @@ background: #fff;
 
 #view_2967 { padding: 15px;
   box-shadow: 0px 2px 5px grey;
-background: #fff;
+background: var(--top-header) !important;
     border-style: solid;
   border-width: 8px;
-  border-color:  #ffffe6;
+  border-color:  #fcfc032f;
   border-radius: 10px;
 
   margin-bottom: 38px;
@@ -199,10 +199,10 @@ background: #fff;
 
 #view_4054 { padding: 15px;
   box-shadow: 0px 2px 5px grey;
-background: #fff;
+background: var(--top-header) !important;
     border-style: solid;
   border-width: 8px;
-  border-color: #ffe6ff;
+  border-color: #f802f82b;
   border-radius: 10px;
     margin-bottom: 38px;
 		  margin-right: 9px;
@@ -214,10 +214,10 @@ background: #fff;
 
 #view_1541 { padding: 15px;
   box-shadow: 0px 2px 5px grey;
-background: #fff;
+background: var(--top-header) !important;
     border-style: solid;
   border-width: 8px;
-  border-color: #ddd;
+  border-color: #ff000032;
   border-radius: 10px;
   margin-bottom: 38px;
 		  margin-right: 9px;
@@ -229,10 +229,10 @@ background: #fff;
 
 #view_1485 { padding: 15px;
   box-shadow: 0px 2px 5px grey;
-background: #fff;
+background: var(--top-header) !important;
     border-style: solid;
   border-width: 8px;
-  border-color: #fad7d1;
+  border-color: #ff58052c;
   border-radius: 10px;
   margin-bottom: 38px;
 		  margin-right: 9px;
@@ -247,10 +247,10 @@ background: #fff;
 #view_6626
 { padding: 15px;
   box-shadow: 0px 2px 5px grey;
-background: #fff;
+background: var(--top-header) !important;
     border-style: solid;
   border-width: 8px;
-  border-color: #ffe6e6;
+  border-color: #fc020228;
   border-radius: 10px;
   margin-bottom: 38px;
 	  margin-right: 9px;
