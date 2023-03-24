@@ -1,0 +1,3166 @@
+/*
+GoBrik.com Server Side CSS File
+Version: 3.0
+Description: This CSS file is called by the knack script and accompanies our custom knack CSS file and default knack css file.  We have access to the knack custom css file on the knack builder and we are in the process of migrating all the established css from this file to here.  The Default knack css file we do not have access to, and we must overide its css here in order to customize the GoBrik.com appearance.
+Orginal Author:  Russell Maier
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+	0.	Landing page
+	1.   	New Dashboard
+	2.   	Logins
+   	3.	Navigation Bar
+	4. 	Typography
+	5. 	Document Setup
+	6.	Buttons
+	7.      Forms
+	8. 	Notifications
+	9. 	Needs Review
+	10.  	New
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	0. LANDING PAGE HTML
+/* -------------------------------------------------------------------------- */
+
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+    .kn-container {
+        margin: 0 auto;
+        max-width: 960px !important;
+    }
+    }
+   
+  
+  
+  
+  
+            
+    /*
+    .login-top-graphic {
+        margin-top: -100px !important;
+        width: 500px;
+      
+        position: relative;
+            }
+            */
+    
+        
+  
+  
+    /*
+    .social-buttons-box {
+        position: relative;
+        z-index: 5;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 20px;
+        
+        -webkit-animation-delay: 2.0s !important;
+        opacity:0;
+        -webkit-animation:fadeIn ease-in 0.25s;
+        -webkit-animation-duration:0.25s;
+        -webkit-animation-fill-mode:forwards;
+    
+        animation-delay: 2s; 
+        animation: fadeIn ease-in 0.25s;
+        animation-duration: 0.25s;
+        animation-fill-mode: forwards;
+        
+        }
+
+        */
+  
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. PERMANENT PAGE RULES
+migrated from Knack CSS
+/* -------------------------------------------------------------------------- */
+
+/* OFFSETTING PAGE*/
+
+#kn-menu .kn-view .view_6269 {margin-top: -20px !important;}
+
+/* OFFSETTING PAGE*/
+
+
+
+/* AES PLASTIC OFFSET SALE */
+
+
+/* "How much would you like to offset today? " */
+#kn-input-field_1802 > label:nth-child(1) {
+  font-weight: bold !important;
+font-size: 20px !important;
+color: #fff;
+font-weight: 500 !important;}  
+
+
+
+/*  Aligns and Formats Prices */
+#view_4979 .kn-equation {
+  display: block;
+  padding-left: 0px;
+padding-top: 0px;
+padding-bottom: 10px;
+text-align: center;
+font-size: 24px !important;
+  color: #fff;
+}
+
+
+/*  Underline Brikcoin Symbol */
+.kn-equation a {text-decoration: underline;
+text-align: center;
+ color: #fff;}
+
+/* Align price exchanges! */
+#view_4979 .kn-instructions {padding-top: 5px;
+/*text-decoration: underline;*/
+text-align: center;
+ color: #fff !important;}
+
+#view_4979 .kn-form-col.is-one-half {width: 100%;}
+
+#view_4979 .fa-calculator {  display: none;}
+
+#view_4979 .label {padding-top: 0px;
+text-align: center;}
+
+#view_4979 {/*background-color: #bce7f5;*/
+  padding-bottom: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 5px 10px grey;
+  
+ background: #c9ecf7;
+  background-image: -webkit-linear-gradient(top, #7bb356,#44aa00);
+  background-image: -moz-linear-gradient(top, #7bb356,#44aa00);
+  background-image: -ms-linear-gradient(top, #7bb356,#44aa00);
+  background-image: -o-linear-gradient(top, #7bb356,#44aa00);
+  background-image: linear-gradient(to bottom, #7bb356,#44aa00);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+
+  text-align: center;
+  padding: 20px;
+  border-color: #1aa3ff;
+  border: 1px;
+}
+
+/*monthly subscription box*/
+#view_5407, #view_5400, #view_5930 {padding-bottom: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 5px 10px grey;
+  
+ background: #c9ecf7;
+  background-image: -webkit-linear-gradient(top, #1aa3ff,#66c2ff);
+  background-image: -moz-linear-gradient(top, #1aa3ff,#66c2ff);
+  background-image: -ms-linear-gradient(top, #1aa3ff,#66c2ff);
+  background-image: -o-linear-gradient(top, #1aa3ff,#66c2ff);
+  background-image: linear-gradient(to bottom, #1aa3ff,#66c2ff);
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+
+  text-align: center;
+  padding: 20px;
+  border-color: #1aa3ff;
+  border: 1px;}
+
+#view_5407, #view_5400, #view_5930  .kn-title {color: white;}
+
+
+#field_1802 {font-size: 55px !important;
+text-align: center;
+color: grey;}
+
+#view_4979 ul.kn-form-group:nth-child(2) {margin-top: -27px}
+
+#payment-processor-container-stripe {margin-top: 35px}
+
+.checkout-view .kn-form .update-info {margin-top: 10px;} /*space above credit card rememberbered number*/
+
+#view_4830 .field_1910 {background-color: white;
+}
+
+
+label.option.checkbox a {text-decoration: underline;}
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. ONBOARDING
+/* -------------------------------------------------------------------------- */
+
+
+/* EMAIL SIGN UP STEP 1*/
+
+
+
+#view_300 {
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 0px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  text-align: center;
+} 
+
+ @media screen and (max-width: 770px) {
+   #view_300, view_5901 {
+  margin: auto;
+     padding: 0px 14px 20px 14px;
+   }
+}
+
+    @media screen and (min-width: 771px) {
+   #view_300 {
+     padding-bottom: 50px;
+      }
+}
+
+#view_300 .control a {text-decoration: underline !important}
+
+#view_5041 {text-align: left !important}
+
+
+
+/*LOGIN WITH NEW ACCOUNT > WELCOME SET UP YOUR ACCOUNT*/
+
+  /*
+#view_433 {
+  
+background: rgba(256, 256, 256, 0.7);
+position: relative;
+z-index: 1;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+    text-align: center;
+  margin-top: 0px;
+  padding-bottom: 750px;
+  }
+
+#view_612 {margin-top: -740px;
+position: relative;
+z-index: 2;
+}
+
+ @media screen and (max-width: 770px) {
+   #view_612 {
+     padding-right: 14px;
+     padding-left: 14px;
+   }
+}
+
+
+    @media screen and (min-width: 771px) {
+   #view_612 .kn-description{
+     margin-right: 10%;
+     margin-left: 10%;
+     margin-bottom: 10px;
+      }
+}
+*/
+
+/* REGISTRATION FLOW */
+
+/*Underline on terms of agreement text and justify left
+
+#kn-scene_1560 .control a, .kn-table th a {
+  text-decoration: underline;}
+
+#kn-scene_1560 {text-align: left;}*/
+
+
+
+/* PULL UP LOGIN AND ONBOARDING FOOTERS */
+
+/*#kn-scene_106 {margin-bottom: -400px !important;}*/
+
+#kn-scene_79 {margin-bottom: -200px !important;}
+
+
+
+
+
+/*STEP 1 REGISTRATION
+
+Just clouds now*/
+
+
+/*COMPLETED REGISTRATION*/
+
+#view_1020 {   /*with community*/
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 15px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  text-align: center;
+
+} 
+
+ @media screen and (max-width: 770px) {
+   #view_1020 {
+  margin: auto;
+     padding: 0px 14px 20px 14px;
+       padding-bottom: 220px;
+   }
+}
+
+    @media screen and (min-width: 771px) {
+   #view_1020 {
+     margin-bottom: 30px;
+       padding-bottom: 220px;
+      }
+}
+
+#view_5316 {   /*no community*/
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 15px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  text-align: center;
+
+} 
+
+ @media screen and (max-width: 770px) {
+   #view_5316 {
+  margin: auto;
+     padding: 0px 14px 20px 14px;
+       padding-bottom: 220px;
+   }
+}
+
+    @media screen and (min-width: 771px) {
+   #view_5316 {
+     margin-bottom: 30px;
+       padding-bottom: 220px;
+      }
+}
+
+#view_5314 {
+  margin-top: -235px;
+
+  position: relative;
+  z-index: 2;
+}
+
+#kn-scene_300 div.kn-view:nth-child(3)  {  padding-top: 100px;
+  margin-bottom: -400px;
+position: relative;
+z-index: 3;}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. NEW DASHBAORD
+/* -------------------------------------------------------------------------- */
+
+
+
+
+/*General table styling for dashboard- soon this could transfer to all tables*/
+
+#scene_18 .kn-table { 
+  padding: 18px;
+
+  box-shadow: 0px 2px 5px grey;
+  background: #fff;
+  border-style: solid;
+  border-width: 8px;
+}
+
+
+/* WHITE PHOTO OF THE DAY PANEL */
+
+#view_3340 { margin-top: -96px !important;}
+
+#view_3340 .kn-table {
+    	background-color: #fff !important;
+	position: relative;
+	z-index: 0;
+	
+	 padding: 10px 6px 18px 11px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+  border-radius: 10px;
+	border-color: #fff;
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 769px) {
+ #view_3340
+  {  margin-right: -28px;
+  margin-left: -18px;}
+}
+
+#vision {font-size: 18px;
+  font-weight: 400;}
+
+
+
+/*Welcome Ecobricker*/
+#view_235 .kn-details-group {
+  margin-bottom: 0px;
+	margin-top: -25px;
+}
+
+
+
+/* WELCOME MESSAGE BOX for First time users only */
+
+#view_2715 {  /*home*/
+  padding: 17px;
+background: #c3f8ff;
+border-color:#b0e5eb;
+border: 6px;
+ border-radius: 8px;
+ 
+	margin-top: -40px;
+	margin-bottom: 70px;
+	
+	  box-shadow: 0px 2px 5px grey;
+
+  }
+
+#view_5270 { /*got-it button*/
+  margin-top: -100px;
+padding-bottom: 50px;
+position: relative;
+z-index: 3;
+}
+
+
+
+/* General Menu of to dashboard buttons
+*/
+#view_497 {
+  
+margin-bottom: -20px;
+  margin-top: -30px;
+	 border-radius: 0px;
+}
+
+
+/* Community Leader Setting
+*/
+
+#view_1230  .control {
+  
+  text-align: center !important;
+margin-bottom: 20px;
+  margin-top: 0px !important;
+}
+
+
+
+#view_1230 {
+  margin-bottom: 40px;}
+
+
+
+
+/*Personal Stats*/
+
+
+#view_159 .kn-detail-label {
+  min-width: 50% !important;
+max-width: 50% !important;
+  text-align: right;
+padding-right: 10px;
+background: #fff;}
+
+#view_159 .kn-table { 
+  border-color: #fff5e6;
+  margin-top: 25px;
+	padding: 18px;
+	  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  padding-bottom: 25px;
+	
+  margin-left: 4px;
+}
+
+
+/*Community Stats*/
+
+
+#view_655 .kn-table { 
+  padding: 18px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  border-color: #d6f9ff;
+  padding-bottom: 25px;
+margin-top: -10px;
+  margin-left: 4px;
+}
+
+
+#view_655 .kn-detail-label {
+  min-width: 50% !important;
+max-width: 50% !important;
+  text-align: right;
+padding-right: 10px;
+  background: #fff;
+  
+
+}
+
+/*Trainer panel*/
+
+#view_1189 { padding: 15px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  border-color: #d6f5d6;
+  border-radius: 10px;
+  margin-bottom: 38px;
+	  margin-right: 9px;
+  margin-left: 9px;
+}
+
+
+/*Dev Team Panel*/
+
+#view_2967 { padding: 15px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  border-color:  #ffffe6;
+  border-radius: 10px;
+
+  margin-bottom: 38px;
+		  margin-right: 9px;
+  margin-left: 9px;
+}
+
+
+
+/*Master Trainer panel*/
+
+#view_4054 { padding: 15px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  border-color: #ffe6ff;
+  border-radius: 10px;
+    margin-bottom: 38px;
+		  margin-right: 9px;
+  margin-left: 9px;
+}
+
+
+/*Catalyst panel*/
+
+#view_1541 { padding: 15px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  border-color: #ddd;
+  border-radius: 10px;
+  margin-bottom: 38px;
+		  margin-right: 9px;
+  margin-left: 9px;
+}
+
+
+/*admin panel*/
+
+#view_1485 { padding: 15px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  border-color: #fad7d1;
+  border-radius: 10px;
+  margin-bottom: 38px;
+		  margin-right: 9px;
+  margin-left: 9px;
+}
+
+
+/* Dashboard panel box for Validator*/
+
+
+
+#view_6626
+{ padding: 15px;
+  box-shadow: 0px 2px 5px grey;
+background: #fff;
+    border-style: solid;
+  border-width: 8px;
+  border-color: #ffe6e6;
+  border-radius: 10px;
+  margin-bottom: 38px;
+	  margin-right: 9px;
+  margin-left: 9px;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	2. LOGINS
+/* -------------------------------------------------------------------------- */
+
+
+
+#view_5006 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+#view_5026  {   /*social buttons under offset login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+#view_5026 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+/*LOGIN FOR REGEN SHOP*/
+
+#view_3465 {  /*login view - when ready transfer to all logings*/
+
+background: rgba(256, 256, 256, 0.7);
+  position: relative;
+z-index: 1;
+padding-top: 100px;
+box-shadow: 0px 0px 10px grey;
+border-radius: 10px;
+  margin-top: -143px;
+  padding-bottom: 480px;
+  text-align: center;
+}
+
+
+#view_5080  {   /*social buttons under offset login view*/
+
+  position: relative;
+  z-index: 4;
+  margin: auto;
+  max-width: 500px;
+  min-width: 300px;
+text-align: center;
+margin-top: -485px;
+  margin-bottom: -250px;
+}
+#view_5080 h6 {padding: 0px 10px 0px 15px;} /*non-corportate message*/
+
+
+
+/* LOGIN BOOM PAGE */
+
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+
+#view_5266  {
+	max-width: 500px; }
+#view_5288 {
+  max-width: 500px;}
+
+  }
+  
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	6. BUTTONS
+/* -------------------------------------------------------------------------- */
+
+/*NEW BOOM SOCIAL BUTTONS
+
+.social-button {
+	  background-position: 25px 0px;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+	  line-height: 50px;
+    text-align: left;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    vertical-align: middle;
+
+	  border-radius: 8px;
+    margin: 8px auto;
+    outline: rgb(255, 255, 255) none 0px;
+    padding-left: 12%;
+  padding-right: 22px;
+  width: 80%;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  font-weight: 400;
+  letter-spacing: .3px;
+
+	font-family: 'Mulish', sans-serif;
+}
+
+
+
+#gobrik-connect {
+    background: rgb(255, 255, 255) url('https://www.ecobricks.org/wp-content/uploads/2020/07/GoBrik-Emblem-blue-100px.png') no-repeat scroll 13px 9px / 20px 31px padding-box border-box;
+    border: 2px solid #00c3e9;
+}
+
+#gobrik-connect:hover {
+	  border-color: #00c3e9;
+	  background: #00c3e9 url('https://www.ecobricks.org/wp-content/uploads/2020/07/GoBrik-Emblem-white-100px.png') no-repeat scroll 13px 9px / 20px 31px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#gobrik-connect span {
+	  box-sizing: border-box;
+    color: #00c3e9;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#gobrik-connect:hover span {
+	  color: #FFF;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+
+#facebook-connect {
+    background: rgb(255, 255, 255) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/facebook.svg?sanitize=true') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+    border: 1px solid rgb(60, 90, 154);
+}
+
+#facebook-connect:hover {
+	  border-color: rgb(60, 90, 154);
+	  background: rgb(60, 90, 154) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/facebook-white.svg?sanitize=true') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#facebook-connect span {
+	  box-sizing: border-box;
+    color: rgb(60, 90, 154);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(255, 255, 255);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#facebook-connect:hover span {
+	  color: #FFF !important;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#google-connect {
+    background: rgb(255, 255, 255) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+    border: 1px solid rgb(220, 74, 61);
+}
+
+#google-connect:hover {
+	  border-color: rgb(220, 74, 61);
+	  background: rgb(220, 74, 61) url('https://raw.githubusercontent.com/eswarasai/social-login/master/img/google-plus-white.png') no-repeat scroll 5px 0px / 50px 50px padding-box border-box;
+	  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#google-connect span {
+	  box-sizing: border-box;
+    color: rgb(220, 74, 61);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(220, 74, 61);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#google-connect:hover span {
+	  color: #FFF;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+
+#new-account {
+
+  
+  border-color: rgb(0, 161, 242);
+	 
+background-image: -webkit-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -moz-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -ms-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: -o-linear-gradient(top, #00a1f2, #008ad4);
+  background-image: linear-gradient(to bottom, #00a1f2, #008ad4);
+  text-shadow: 0px 0px 6px #fff;
+  box-shadow: 0px 0px 6px #ddd;
+   background: #00a1f2 url('https://cdn.ecobricks.org/wp-content/uploads/2020/07/LIGHTNING.png') no-repeat scroll 15px 5px / 20px padding-box border-box;
+  
+}
+
+#new-account:hover {
+	  
+      background: rgb(255, 255, 255) url('https://www.ecobricks.org/wp-content/uploads/2020/07/LIGHTNING-blue.png') no-repeat scroll 15px 5px / 20px padding-box border-box;
+    border: 1px solid rgb(0, 161, 242);
+  -webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+
+
+#new-account span {
+	  box-sizing: border-box;
+    color: rgb(0, 119, 181);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(0, 119, 181);
+    outline: rgb(255, 255, 255) none 0px;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  	  color: #FFF;
+}
+
+#new-account:hover span {
+	  color: #00a1f2;
+	  -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+/* GO VALIDATE BUTTON */
+
+.go-button { 
+ 
+ background: #d8dadb;
+  background-image: -webkit-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: -moz-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: -ms-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: -o-linear-gradient(top, #d8dadb, #c4c4c4);
+  background-image: linear-gradient(to bottom, #d8dadb, #c4c4c4);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+}
+  
+.go-button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* MAIN PAGE LOGIN BUTTONS */
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.2em;
+  padding: 0 15px 0 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+  margin-top: 25px;
+    font-family: 'Arvo', Arial Black, Arial Bold, Gadget, sans-serif;
+}
+
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+
+.loginBtn:focus {
+  outline: none;
+}
+
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+
+/* E-Mail */
+.email {
+  background-color: #00CCFF;
+  background-image: linear-gradient(#19d1ff, #00b8e6);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 0px 0 #666666;
+  border: #00add4 1px solid;
+}
+
+.email:before {
+  border-right: #00add4 1px solid;
+  background: url('https://gobrik.com/images/emailicon.png') 6px 6px no-repeat;
+}
+
+
+.email:hover,
+.email:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#26d7ff, #19d1ff);
+}
+
+
+/*email2*/
+
+.email2 {
+  background-color: #00CCFF;
+  background-image: linear-gradient(#19d1ff, #00b8e6);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 0px 0 #666666;
+  border: #00add4 1px solid;
+}
+
+.email2:before {
+  border-right: #00add4 1px solid;
+  background: url('https://gobrik.com/images/emailicon.png') 6px 6px no-repeat;
+}
+
+.email2:hover,
+.email2:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#26d7ff, #19d1ff);
+}
+
+
+
+/* Facebook */
+.loginBtn--facebook {
+  background-color: #4C69BA;
+  background-image: linear-gradient(#4C69BA, #3B55A0);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354C8C;
+}
+
+.loginBtn--facebook:before {
+  border-right: #364e92 1px solid;
+  background: url('https://gobrik.com/images/icon_facebook.png') 6px 6px no-repeat;
+}
+
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+
+/* Google */
+.loginBtn--google {
+  /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+  background: #DD4B39;
+}
+
+.loginBtn--google:before {
+  border-right: #BB3F30 1px solid;
+  background: url('https://gobrik.com/images/icon_google.png') 6px 6px no-repeat;
+}
+
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+  background: #E74B37;
+}
+
+#buy-button {
+	background:    #ffa500;
+	border-radius: 11px;
+	padding:       12px 24px;
+	color:         #ffffff;
+	display:       inline-block;
+	font:          normal bold 20px/1 "Open Sans", sans-serif;
+  	text-align:    center;}
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	9. NEEDS REVIEW
+/* -------------------------------------------------------------------------- */
+
+/*
+.kn-map .kn-view {
+  
+     border-radius: 3px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+  	border: 2px;
+}
+
+
+
+.label.kn-label.kn-required.label-135 {
+    display: block !important;
+  margin: auto !important;
+ 
+}
+
+/*
+.et_pb_text_align_left  {
+  
+  text-align: center !important;
+  display: block !important;
+  margin: auto !important; 
+}
+
+
+
+*/
+
+/* Remove scroll on members pop up */
+
+/*
+.kn-entries-summary {text-align: center;}
+
+*/
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	10. NEW
+/* ---------------------------------------------*---------------------------- */
+/*MISC??*/ 	
+#view_6432  .kn-menu .kn-button {
+    color: #fff !important;
+   padding: 15px !important;
+     font-size: 18px !important;
+   }
+       
+
+
+
+
+/*the ENG */
+
+.topnav-lang a {
+  font-size: 1.1em;
+  font-family: 'Mulish', sans-serif;
+  /*text-shadow: 0px 0px 10px #ccc ;*/
+  font-weight: 300;
+  padding: 14px 16px;
+  display: block;
+  color: #4e1313;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  position: relative;
+  z-index: 9;
+
+}
+
+.topnav-lang .icon {
+  display: none;
+}
+.dropdown-lang:hover .dropbtn,
+.topnav-lang a:hover {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+
+#drop-text {
+  padding: 0 0 9px;
+}
+
+.dropdown-lang .dropbtn-lang {
+  border: none;
+  outline: none;
+  color: rgb(53, 53, 53);
+  padding: 12px 25px 23px 13px;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: inherit;
+  margin-top: 0;
+
+  font-family: 'Mulish', sans-serif;
+  /*text-shadow: 0px 0px 10px #ccc ;*/
+  font-weight: 300;
+  margin-right: 0;
+  float: right;
+  font-family: 'Mulish', sans-serif;
+}
+@media screen and (min-width: 1000px) {
+  .dropdown-lang .dropbtn-lang {
+      font-size: 1.3em;
+      padding: 17px 25px 26px 13px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .dropdown-lang .dropbtn-lang {
+      font-size: 1.2em;
+      padding: 18px 20px 26px 3px;
+  }
+}
+
+/*White language drop down menu items*/
+
+/*Drop down on desktop*/
+
+.dropdown-content-language {
+  font-size: 1em;
+  padding-top: 4px;
+}
+@media screen and (min-width: 769px) {
+  .dropdown-content-language {
+      display: none;
+      position: absolute;
+      background-color: white;
+      box-shadow: 0 3px 3px rgba(85, 84, 84, 0.6);
+      z-index: 10;
+      border-radius: 0 0 5px 5px;
+      right: 0;
+      top: 68px;
+      width: fit-content;
+      margin-right: 0px;
+      text-align: left;
+  }
+}
+
+/*Drop down on mobile
+display: none;
+      position: absolute;
+      background-color:white;
+      float: right;
+      margin-right: 20px;
+      width: 150px;
+      margin-top: 60px;
+      right: 0;
+      top: 0;
+      margin-right: 15px;
+      text-align: left;*/
+@media screen and (max-width: 769px) {
+  .dropdown-content-language {
+      display: none;
+      position: absolute;
+      background-color: white;
+      box-shadow: 0 3px 3px rgba(85, 84, 84, 0.6);
+      z-index: 10;
+      border-radius: 0 0 5px 5px;
+      right: 0;
+      top: 68px;
+      width: fit-content;
+      margin-right: 10px;
+      text-align: left;
+
+  }
+}
+
+.dropdown-content-language a {
+  color: rgb(97, 96, 96);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  z-index: 10;
+
+}
+.dropdown-content-language a:hover {
+  background-color: rgb(238, 237, 237);
+  color: rgb(51, 51, 51);
+}
+.dropdown-lang:hover .dropdown-content-language {
+  display: block;
+  z-index: 9;
+}
+
+#faq-icon {
+  margin-right: -5px;
+  font-size: 1.35em;
+}
+@media screen and (max-width: 1000px) {
+  #faq-icon {
+      display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #faq-menu-text {
+      display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  /* removing this show the rest of the languages
+  .topnav-lang a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }*/
+  .topnav-lang a.icon-lang {
+      float: right;
+      display: block;
+  }
+
+  #menu-circle {
+      display: none;
+      padding: 1px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .topnav-lang.responsive {
+      position: relative;
+  }
+  .topnav-lang.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  .topnav-lang.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+  }
+  .topnav-lang.responsive .dropdown-lang {
+      float: none;
+  }
+  .topnav-lang.responsive .dropdown-content-app .dropdown-content-normal {
+      position: relative;
+  }
+  .topnav-lang.responsive .dropdown-lang .dropbtn-lang {
+      display: block;
+      width: 100%;
+      text-align: right;
+  }
+}
+
+.topnav .icon-lang {
+  display: none;
+}
+
+.topnav a {
+  font-size: 1.3em;
+  font-family: 'Mulish', sans-serif;
+  /*text-shadow: 0px 0px 10px #ccc ;*/
+  font-weight: 300;
+  padding: 14px 16px;
+  display: block;
+  color: #666666;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  position: relative;
+  z-index: 12;
+}
+
+/*
+
+.topnav .dropdown-content-normal a {
+  font-family: 'Mulish', sans-serif;
+  color: #666666;
+  font-size: 1.3em;
+
+}
+
+.dropbtn a {
+  color: #666666;
+  text-align: center;
+  text-decoration: none !important;
+}
+*/
+
+.topnav .icon {
+  display: none;
+
+}
+.dropdown:hover .dropbtn,
+.topnav a:hover {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* The text of dropdowns as it appears in the white menu bar*/
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: rgb(53, 53, 53);
+  padding: 14px 16px;
+  background-color: white;
+  font-family: inherit;
+  margin-top: 0;
+  margin-bottom: 9px;
+  font-size: 1.3em;
+  font-family: 'Mulish', sans-serif;
+  /*text-shadow: 0px 0px 10px #ccc ;*/
+  font-weight: 300;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/*Grey app drop down menu items*/
+@media screen and (min-width: 769px) {
+  .dropdown-content-app {
+      display: none;
+      position: absolute;
+      background-color: #666666;
+      width: 400px;
+      box-shadow: 0 3px 5px rgba(85, 84, 84, 0.6);
+      border-radius: 0 0 15px 15px;
+      margin-left: -290px;
+      margin-top: 0;
+      margin-bottom: 6px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .dropdown-content-app {
+      display: none !important;
+      position: absolute;
+      background-color: #666666;
+      min-width: 160px;
+      z-index: 1;
+
+  }
+}
+
+.dropdown-content-app a {
+  float: none;
+  color: rgb(202, 201, 201);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content-app a:hover {
+  background-color: rgb(93, 93, 93);
+  color: rgb(251, 251, 251);
+}
+.dropdown:hover .dropdown-content-app {
+  display: block;
+}
+
+/*NOrmal items White  drop menu items*/
+@media screen and (min-width: 769px) {
+  .dropdown-content-normal {
+      display: none;
+      position: absolute;
+      background-color: #e2e2e2;
+      width: 400px;
+      box-shadow: 0 3px 5px rgba(85, 84, 84, 0.6);
+      z-index: 1;
+      border-radius: 0 0 12px 12px;
+      margin-left: 0;
+      margin-top: 0;
+      margin-bottom: 6px;
+      padding: 5px;
+
+  }
+}
+@media screen and (max-width: 769px) {
+  .dropdown-content-normal {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 100px;
+      z-index: 1;
+      margin-left: 0;
+      width: 100%;
+
+  }
+}
+
+.dropdown-content-normal a {
+  float: none;
+  color: rgb(97, 96, 96);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content-normal a:hover {
+  background-color: rgb(238, 237, 237);
+  color: rgb(51, 51, 51);
+}
+.dropdown:hover .dropdown-content-normal {
+  display: block;
+}
+.dropdown-lang:hover .dropdown-content-language {
+  display: block;
+}
+
+#circles-menu,
+#github-menu,
+#gobrik-menu,
+#mattermost-menu {
+  /*background: url(icons/gobrik.png) center left no-repeat;
+background-size: contain;*/
+
+  width: 100%;
+}
+
+#gobrik-menu {
+  height: 122px;
+  margin-top: 20px;
+}
+
+#mattermost-menu {
+  height: 130px;
+  margin-top: 0;
+}
+
+#github-menu {
+  height: 135px;
+  margin-top: 0;
+}
+
+#offset-menu {
+  height: 125px;
+  margin-top: 0;
+}
+@media screen and (max-width: 769px) {
+  #github-menu,
+  #gobrik-menu,
+  #mattermost-menu,
+  #offset-menu {
+      display: none;
+  }
+}
+
+#icon-menu {
+
+  width: 30%;
+  float: left;
+  padding: 0 18px 0 10px;
+  height: 70px;
+}
+
+#icon-menu img {
+  width: fit-content;
+}
+
+#apptext-menu {
+  width: 70%;
+  float: right;
+  padding: 5px 15px;
+  height: 70px;
+  margin-top: -70px;
+  margin-left: 20px;
+}
+
+.apptext-header {
+  font-size: 1.3em;
+  font-family: Arvo;
+}
+
+.apptext-sub {
+  font-size: 0.8em;
+  font-family: Mulish;
+  font-weight: 300;
+}
+
+#menu-text {
+  display: none;
+}
+#menu-circle {
+  opacity: 80%;
+}
+#menu-circle:hover {
+  opacity: 120%;
+}
+
+@media screen and (max-width: 1000px) {
+  .dropdown .dropbtn,
+  .topnav a:not(:first-child) {
+      display: none;
+  }
+  .topnav a.icon {
+      float: right;
+      display: block;
+  }
+
+  #menu-circle {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .topnav.responsive {
+      position: relative;
+  }
+  .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: white;
+  }
+  .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+  .topnav.responsive .dropdown {
+      float: none;
+  }
+  .topnav.responsive .dropdown-content-app .dropdown-content-normal {
+      position: relative;
+  }
+  .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+#lang-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	margin-right: 23%;
+	margin-top: 11px;
+	width: 50px;
+	padding: 0px 0px 0px 0px;
+}
+}
+
+@media screen and (max-width: 999px) {
+
+#lang-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	margin-right: 0%;
+	margin-top: 3px;
+	width: 50px;
+	padding: 0px 0px 0px 0px;
+}
+
+}
+
+
+/* OLD KNACK STYLESHEET MARCH */
+
+
+/*
+GoBrik.com Knack CSS File
+Version: 2.1
+Description: This our app native CSS file and is called THIRD, after the Knack.com original CSS, our inline index CSS.  It is called BEORE our Github CSS>builder and we are in the process of migrating all the established css from this file to here.  The Default knack css file we do not have access to, and we must overide its css here in order to customize the GoBrik.com appearance.
+Orginal Author:  Russell Maier
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+*/
+
+.kn-rich_text {overflow: visible !important;}
+#view_7108 .kn-title {display: none;}
+#view-column view-column-group-1 {display: none;}
+
+#kn-scene_2174 .kn-back-link {display: none;}
+
+#dial {background: url('https://www.gobrik.com/webp/PT-dial-420px.webp') top no-repeat;
+  background-size: contain;
+  height: 380px;
+  width: 380px;
+  max-width: 100% !important;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding-top: 164px;
+  margin: -10px auto -5px auto;
+  color: #ddd;/* Default base colour if JS doesn't change it*/
+ /* -webkit-text-stroke: 1px white; */
+ text-shadow: 0px 0px 3px #4d4d4d;
+ font-family: 'Mulish', sans-serif;
+ font-weight: 500;
+ font-size: 45px;
+}
+
+
+
+
+/* emergency removal of potentially blocking view to facebook login */
+
+#view_5870 {display: none !important;
+}
+
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+	0.	Live Draft CSS
+	1.  New Dashboard
+	2.  Logins
+  3.	Navigation Bar
+	4. 	Typography
+	5. 	Document Setup
+	6.	Buttons
+	7.  Forms
+	8. 	Notifications
+	9. 	Needs Review
+	10.	New
+  11. Reject Notice
+/* -------------------------------------------------------------------------- */
+
+/*	1. PERMANENT PAGE RULES
+migrated from Knack CSS
+/* -------------------------------------------------------------------------- */
+
+/* code for cleaning up new iOS login page  */
+
+ 
+ #view_5870  {   /*corporate social platform text under login view*/
+ 
+    position: relative;
+    z-index: 4;
+    margin: auto;
+    max-width: 500px;
+    min-width: 300px;
+    text-align: center;
+    margin-top: -242px;
+    padding: 0px 10px 130px 15px;
+ }
+    
+    /*top login page image*/
+    
+.login-top {
+    margin-top: -100px !important;
+}
+    
+
+
+    
+    /*Exceptions that have their own page and signup*/
+    
+    
+#view_5829.kn-login {
+    padding-top: 0px;
+    box-shadow: none !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    
+    
+#view_5827.kn-login {
+    padding-top: 0px;
+    box-shadow: none !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    
+    
+#view_5835.kn-login {
+    padding-top: 0px;
+    box-shadow: none !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    
+    
+#view_5833.kn-login {
+    padding-top: 0px;
+    box-shadow: none !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    
+    #view_5825.kn-login {
+    padding-top: 0px;
+    box-shadow: none !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    
+    /*#view_5901.kn-login {
+    padding-top: 0px;
+    box-shadow: none !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    */
+    
+    
+    /*Keep Going and Setup Account*/
+#view_5862, #view_5849, #view_5858, #view_5847 {
+    padding-bottom: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 10px grey;
+      
+    background: #c9ecf7;
+    background-image: -webkit-linear-gradient(top, #1aa3ff,#66c2ff);
+    background-image: -moz-linear-gradient(top, #1aa3ff,#66c2ff);
+    background-image: -ms-linear-gradient(top, #1aa3ff,#66c2ff);
+    background-image: -o-linear-gradient(top, #1aa3ff,#66c2ff);
+    background-image: linear-gradient(to bottom, #1aa3ff,#66c2ff);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    
+    text-align: center;
+    padding: 20px;
+    border-color: #1aa3ff;
+    border: 1px;
+}
+    
+    #view_5862 .kn-title, #view_5847 .kn-title, #view_5849 .kn-title, #view_5858 .kn-title {color: white;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj*/
+
+
+
+    
+    
+    /*My Catalyst Page Custom Formatting*/
+    
+    #kn-scene_2117 .view-header {margin-top: 12px;  /*All titles*/
+    margin-bottom: -10px;}
+    
+    #view_6739 {margin-top: -37px; /*Grey button*/
+    margin-bottom: 30px;
+    }
+    #view_6741 {margin-top: -37px;  /*Green buttons*/
+    margin-bottom: 30px;
+    }
+    
+    #view_6743 {margin-top: -37px;  /*goal button*/
+    margin-bottom: 30px;
+    }
+    
+    #view_6745 {margin-top: -37px;  /*goal button*/
+    margin-bottom: 30px;
+    }
+    
+    #view_6747 {margin-top: -37px;  /*goal button*/
+    margin-bottom: 30px;
+    }
+    
+    #view_6749 {margin-top: -37px;  /*goal button*/
+    margin-bottom: 30px;
+    }
+    
+    
+    
+    /* Catalyst Admin */
+    #view_6751 {
+        background: #adebeb !important;
+        border-radius: 15px;
+        margin-top: -50px;
+        padding-top: 50px;
+        box-shadow: 5px black;
+        padding-bottom: 20px;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+    }
+    
+    /*Catalyst login pages*/
+    #view_2463 .view-header {
+        margin-top: -86px;
+    }
+    
+    #view_6735, #view_6732 {
+        margin-top: -120px;
+    }
+    
+    /*Disclose top bar*/
+    
+    #view_6649 {
+        background: white !important;
+        border-radius: 15px;
+        margin-top: -50px;
+        padding: 50px 10% 20px 10%;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+        color: black;
+    
+    
+    }
+
+     /*Public Report Top Bar*/
+    
+    #view_6917  
+    { background: white !important;
+        border-radius: 15px;
+        margin-top: -50px;
+        padding: 50px 10% 20px 10%;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+        color: black !important;
+  
+    }
+
+/*Ecobrick Stats button*/
+
+#view_6924 
+  { margin: -20px auto 60px auto;}
+
+/* Report title*/
+.field_2413 {font-size: 2em;
+font-family: Mulish;
+font-weight: 500;
+margin: 5px 0px 15px 0px;}
+
+/*Report Signup Button*/
+
+#view_6923 .kn-menu  {
+padding: 25px !important;
+font-size: 20px !important;
+font-weight: bold !important;
+margin: 18px;
+}
+
+
+    /*personal household disclosure top bar*/
+    
+    #view_6442  {
+        background: #6ba3ff !important;
+        border-radius: 15px;
+        margin-top: -50px;
+        padding: 50px 10% 20px 10%;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+        color: white !important;
+    }
+    /*catalyst set community step 2*/
+    
+    #view_3795 {
+        background: #bfeeff !important;
+        border-radius: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: -10px;
+    }
+        
+    #view_2219 {
+        background: #bfeeff !important;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: -40px;
+        border-radius: 15px;
+    }
+    
+/*catalyst grey assessment sentence*/
+    
+    .field_2285 {
+        font-size: 20px;
+        padding: 20px;
+        font-family: Mulish;
+    }
+    
+/*catalyst conclusion page*/
+    
+    #view_6597 {
+        margin-top: -50px;
+    }
+    
+/* LIVE DRAFT CODE */
+    
+/*Centering fix for weird alignment issue on plastic assessment*/
+    .kn-back-link {margin: auto;}
+    
+/* Fix weird misalignment on logout*/
+    
+    .group-layout-wrapper { flex: none !important;}
+    
+    
+/*NEW DASHBOARD PHOTO SLIDER*/
+    
+    
+    #view_6532 { 
+        margin-top: -36px !important;
+        margin-bottom: 60px;
+}
+    
+    #view_6532  {
+        background-color: #fff !important;
+        position: relative;
+        z-index: 0;
+        padding: 10px 5px 5px 5px;
+        box-shadow: 0px 2px 5px grey;
+        background: #fff;
+        border-radius: 0px 0px 10px  10px;
+        border-color: #fff;
+    }
+    
+    
+    
+    
+    #view_235 {margin-top: -40px;}
+    
+    
+    #view_235 .kn-special-title {margin: -20px auto 30px auto;}
+    
+    
+    #view_6434 .field_2166 .kn-detail-body {font-size: 20px;}
+    #view_6434 .field_2164 .kn-detail-body {font-size: 20px;}
+    #view_6434 .field_2165 .kn-detail-body {font-size: 20px;}
+    
+    #view_6434 .field_2212 .kn-detail-body {font-size: 20px;}
+    #view_6434 .field_1997 .kn-detail-body {font-size: 20px;}
+    #view_6434 .field_1838 .kn-detail-body {font-size: 2px;}
+    
+    
+    
+    #view_6432 .kn-button {
+      background-color: rgb(31, 199, 7) !important;
+       color: white !important;
+    padding: 15px !important;
+      font-size: 18px !important;}
+      
+    
+    #view_6432 {
+      margin-top: -24px;
+    margin-bottom: 50px;
+      color: white !important;}
+    
+    
+    
+    
+    
+    
+    /*New Log Ecobrick Screens*/
+    
+    #view_6404 .kn-form-col.is-one-half {margin: auto;}
+    
+    #view_3340 { margin-top: -96px !important;}
+    
+    #view_3340 .kn-table {
+            background-color: #fff !important;
+        position: relative;
+        z-index: 0;
+        
+         padding: 10px 6px 18px 11px;
+      box-shadow: 0px 2px 5px grey;
+    background: #fff;
+      border-radius: 10px;
+        border-color: #fff;
+    }
+    
+    
+    
+    
+    
+    /* SET PHONE ONBOARDING */
+    
+    #view_6269 {margin-top: -20px !important;} /*move up 'or'*/
+    
+    #view_6260  {margin-top: -25px !important;}  /*move up phone field*/
+    
+    /* AES PLASTIC OFFSET SALE */
+    
+    /* Step 1 white box */
+    
+    
+        @media screen and (min-width: 771px) {
+       #kn-scene_1950 {
+         background: rgba(256, 256, 256, 0.7);
+      position: relative;
+    z-index: 1;
+    padding-top: 0px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+      text-align: center;
+         width: 80%;
+         margin: auto;
+         margin-top: -30px;
+         padding-bottom: 20px;
+          }
+    }
+    
+    
+    
+    
+    /* "How much would you like to offset today? " */
+    #kn-input-field_1802 > label:nth-child(1) {
+      font-weight: bold !important;
+    font-size: 20px !important;
+    color: #fff;
+    font-weight: 400 !important;}  
+    
+    
+    
+    /*  Aligns and Formats Prices */
+    #view_4979 .kn-equation {
+      display: block;
+      padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 24px !important;
+      color: #fff;
+    }
+    
+    
+    /*  Underline Brikcoin Symbol */
+    .kn-equation a {text-decoration: underline;
+    text-align: center;
+     color: #fff;}
+    
+    /* Align price exchanges! */
+    #view_4979 .kn-instructions {padding-top: 5px;
+    /*text-decoration: underline;*/
+    text-align: center;
+     color: #fff !important;}
+    
+    #view_4979 .kn-form-col.is-one-half {width: 100%;}
+    
+    #view_4979 .fa-calculator {  display: none;}
+    
+    #view_4979 .label {padding-top: 0px;
+    text-align: center;}
+    
+    #view_4979 {/*background-color: #bce7f5;*/
+      padding-bottom: 20px;
+      border-radius: 16px;
+      box-shadow: 0px 5px 10px grey;
+      
+     background: #c9ecf7;
+      background-image: -webkit-linear-gradient(top, #81d500,#7bb356);
+      background-image: -moz-linear-gradient(top, #81d500,#7bb356);
+      background-image: -ms-linear-gradient(top, #81d500,#7bb356);
+      background-image: -o-linear-gradient(top, #81d500,#7bb356);
+      background-image: linear-gradient(to bottom, #81d500,#7bb356);
+      -webkit-border-radius: 16;
+      -moz-border-radius: 16;
+    
+      text-align: center;
+      padding: 20px;
+      border-color: #1aa3ff;
+      border: 1px;
+    }
+    
+    /*monthly subscription box*/
+    #view_5407, #view_5400, #view_5930, #view_6344 {padding-bottom: 20px;
+      border-radius: 16px;
+      box-shadow: 0px 5px 10px grey;
+      
+     background: #c9ecf7;
+      background-image: -webkit-linear-gradient(top, #1aa3ff,#66c2ff);
+      background-image: -moz-linear-gradient(top, #1aa3ff,#66c2ff);
+      background-image: -ms-linear-gradient(top, #1aa3ff,#66c2ff);
+      background-image: -o-linear-gradient(top, #1aa3ff,#66c2ff);
+      background-image: linear-gradient(to bottom, #1aa3ff,#66c2ff);
+      -webkit-border-radius: 16;
+      -moz-border-radius: 16;
+    
+      text-align: center;
+      padding: 20px;
+      border-color: #1aa3ff;
+      border: 1px;}
+    
+    #view_5407, #view_5400, #view_5930  .kn-title {color: white;}
+    
+    
+    #field_1802 {font-size: 55px !important;
+    text-align: center;
+    color: grey;}
+    
+    #view_4979 ul.kn-form-group:nth-child(2) {margin-top: -27px}
+    
+    #payment-processor-container-stripe {margin-top: 35px}
+    
+    .checkout-view .kn-form .update-info {margin-top: 10px;} /*space above credit card rememberbered number*/
+    
+    #view_4830 .field_1910 {background-color: white;
+    }
+    
+    
+    label.option.checkbox a {text-decoration: underline;}
+    
+    
+    
+    
+    
+    
+    /*FEEDGRABBER Slider
+    
+    padding: 50px 18px 4px 15px;
+     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
+       border-radius: 8px;
+    border: 1px #ddd;*/
+    
+    
+    #view_2587 {
+      
+         padding: 10px 6px 0px 6px;
+      box-shadow: 0px 2px 5px grey;
+    background: #fff;
+      border-radius: 10px;
+        border-color: #fff;
+      
+    
+      width: 700px;
+      max-width: 100%;
+    
+    
+      min-height: 700px;
+         
+      margin: auto;
+        margin-top: -100px;
+      margin-bottom: 50px;
+        position: relative;
+      z-index: 0;
+    
+        background: url('/svgs/slider-loader.svg') center no-repeat, url('/svgs/slider-loader-back.svg') center no-repeat, #fff;
+     
+      
+    
+    }
+    
+    
+    /*hide residual slider view text*/
+    #view_2587 h6 {
+        display: none !important;
+    }
+    
+    
+    #view_300 {
+    
+    background: rgba(256, 256, 256, 0.7);
+      position: relative;
+    z-index: 1;
+    padding-top: 0px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+      text-align: center;
+    } 
+    
+     @media screen and (max-width: 770px) {
+       #view_300 {
+      margin: auto;
+         padding: 0px 14px 20px 14px;
+       }
+    }
+    
+        @media screen and (min-width: 771px) {
+       #view_300 {
+         padding-bottom: 50px;
+          }
+    }
+    
+    #view_300 .control a {text-decoration: underline !important}
+    
+    
+    
+    #view_5041 {text-align: left !important}
+    
+    
+    /*MAIN LANDING: 
+    #view_1376 {display: none !important;} hides old welcome intro
+    #view_1373 {display: none;}
+    
+    #view_5497 {margin-top: -100px}*/
+    
+ 
+    
+    
+    
+    
+    
+    
+    /*General Table Presentation*/
+    
+    
+    @media screen and (min-width: 769px) and (max-width: 2000px) {
+    
+    .kn-form-col.is-constrained {
+        max-width: 80% !important;
+        margin-right: 10% !important;
+        margin-left: 10% !important;
+    
+    }
+      
+    }
+    
+    
+    .kn-details-group-column {
+      margin: auto;
+      display:block;
+      width: 100%;
+    }
+    
+    .kn-content .column.is-half {flex: auto;}
+    
+    .kn-content .columns {
+      margin-left: -3px;
+    margin-right: -18px;
+      margin-top: -10px;}
+    
+    
+    
+    .kn-detail .kn-detail-body {
+    max-width: 100% !important;
+    text-align: left !important;}
+    
+    
+    .kn-table {
+    border-radius: 10px;
+      /*margin-right:0px;
+      padding-right: 0px;*/
+    
+    } 
+    
+    .kn-label-left {
+      background-color: #e8f4f9;
+    }
+    
+    
+    /*three column offering styling for COURSES*/
+    #kn-scene_1812  .kn-table {
+      padding: 7px;
+      box-shadow: 0px 2px 5px grey !important; 
+    background: #fff !important; 
+      border-style: solid !important; 
+      border-width: 8px !important; 
+      border-color: #d6f9ff !important; 
+      margin-bottom: 25px;
+      max-width: 98%;
+    }
+    
+    /*three column offering styling for STORE*/
+    #kn-scene_1870 .kn-table {
+      padding: 0px;
+      box-shadow: 0px 2px 5px grey !important; 
+    background: #fff !important; 
+      border-style: solid !important; 
+      border-width: 8px !important; 
+      border-color: #d6f5d6 !important; 
+      margin-bottom: 25px;
+      max-width: 98%;
+    }
+    
+    /*store images*/
+    
+    .field_882_thumb_32 {margin: -5px -8px 0px -5px;
+    }
+    
+    #view_5762 .kn-detail-label /*COURSES*/ {
+      min-width: 40% !important;
+    max-width: 40% !important;
+      text-align: right;
+    padding-right: 10px;
+    }
+    
+    #view_5958 .kn-detail-label /*STORE*/ {
+      min-width: 40% !important;
+    max-width: 40% !important;
+      text-align: right;
+    padding-right: 10px;
+    }
+    
+    #view_5958 .field_2094 /*STORE product subtitles*/{
+      font-size: 15px;
+    font-family: Mulish;
+      margin: -15px 5px 10px 5px;}
+    
+    #view_5958 .field_877 /*STORE buy button*/
+    {margin-top:15px;}
+    
+    
+    
+    #view_5762 .field_877 /*COURSES titles*/{
+      font-size: 17px !important;
+    font-family: Mulish;
+    }
+    
+    #view_5762 .field_2094 /*COURSES subtitles*/{
+      font-size: 15px;
+    font-family: Mulish;
+      margin: -15px 5px 10px 5px;}
+    
+    #view_5762 .field_877 /*COURSES register button*/
+    {margin-top:15px;}
+    
+    
+    
+    /*centers generic logins by removing right side empty column from knack SSO formating*/
+    .kn-content .column.is-1 {
+      display: none !important;}
+    
+    
+    
+    
+    
+    /*REGEN STore PAGE CSS*/
+    
+    #view_3466 {margin-top: -70px;}
+    
+    #kn-scene_1028 div.kn-details-group.column-2.columns div.kn-details-group-column.column {margin-right: -15px;
+    margin-bottom: -15px;}
+    
+    #kn-scene_1028 .columns {margin-bottom: 10px;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .modal-card-title {text-align: left !important;
+        font-size: 16px !important;
+        font-family: 'ubuntu', sans-serif;
+      font-weight: 400;
+      padding-top: 10px !important;
+      padding-bottom: 0px !important;
+      margin-left: -5px;
+        color: grey !important;
+      
+    }
+    
+    .kn-page-modal .kn-details-group { overflow: hidden; overflow-y:hidden; }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #view_5343 {
+      padding-top: 40px;
+      margin-bottom: 340px;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*TRAINER REPORTS*/
+    
+    #kn-scene_996
+    
+    {text-align: left !important;}
+    
+    
+    /*OLD AUTH FRESH*/
+    
+    /*
+    
+    #view_5112 {
+      background-image: url("https://www.ecobricks.org/wp-content/uploads/2020/06/yeay-1.svg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: top; 
+      padding: 100px;
+      margin-top: -40px;
+    }
+    
+    #view_5113 {
+      background: none !important;
+      margin-top: -130px;
+      margin-bottom: 20px;
+    -webkit-animation-delay: 2s !important;
+    
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1s;
+    -webkit-animation-duration:1s;
+    -webkit-animation-fill-mode:forwards;
+    }
+    
+    */
+    
+    
+    #view_1925 {margin-top: -35px !important;
+    overflow: hidden;
+    overflow-y:hidden; 
+    overflow-x:hidden; }
+    
+    
+    
+    /*GoBrik summary*/
+    
+    #view_874 {
+    
+      margin-top: 0px;
+      margin-right: 10px !important;
+      margin-left: 10px !important;
+    margin-bottom: 20px !important;
+    padding: 0px;
+    width: 100%;
+    height:100%;
+    }
+    
+    
+    
+    
+    
+    
+    #view_884 { 
+    overflow-y:hidden; overflow-x:hidden; }
+    
+    
+    
+    
+    .field_386  {margin-top:-50px;}
+    
+    
+    
+    
+    
+    
+    /* TRAINER MAP */
+    
+    #view_2319 {background: #f8f8f8;
+      background-image: url("https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5e8c666a670927001952458c/original/backgroundforhubsearch.png");
+      min-height: 400px;
+      background-repeat: no-repeat;
+      background-position: top; 
+    margin-top: 15px;}
+    
+    
+    /* HUB MAP */
+    
+    #view_4674 {background: #f8f8f8;
+      background-image: url("https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5e8c666a670927001952458c/original/backgroundforhubsearch.png");
+      min-height: 400px;
+      background-repeat: no-repeat;
+      background-position: top; 
+    margin-top: 15px;}
+    
+    
+    
+    /*Shop Buying Options
+    
+    #view_3469 .kn-button.is-primary { background: #e47117 !important;}
+    
+    
+    #view_3541  .kn-button.is-primary { background: #192a86 !important;}
+    
+    #view_3467 .button {font-size: 24px; background:#e47117; color:white;}*/
+    
+    #view_5957 {margin-top: -56px} /*regen new store banner tuck in*/
+    
+    #view_4674 {background: #f8f8f8;
+      background-image: url("https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5e8c666a670927001952458c/original/backgroundforhubsearch.png");
+      min-height: 400px;
+      background-repeat: no-repeat;
+      background-position: top; 
+    margin-top: 15px;}
+    
+    
+    /*Processing */
+    
+    #scene_538 .delete .close-modal {display: none}
+    
+    #view_3063 .kn-detail-body {background: white !important;}
+    
+    
+    
+    
+    /* Forumulas */
+    
+    .input.is-equation {border: none !important;}
+    
+    
+    /*Validations */
+    
+    #view_1694 {margin-bottom: 0.5em;}
+    
+    #bodyContent {display: none !important;}
+    
+    .kn-input-rating .input {text-align: center !important;
+    display: block !important;
+    border: none !important;
+    background: none;}
+    
+    
+    
+    
+    #kn-scene_640 {  margin-top: 100px;}
+    
+    
+    
+    #kn-scene_962 .kn-back-link {display: none !important;}
+    #kn-scene_966 .kn-back-link {display: none !important;}
+    #kn-scene_963 .kn-back-link {display: none !important;}
+    #kn-scene_964 .kn-back-link {display: none !important;}
+    #kn-scene_965 .kn-back-link {display: none !important;}
+    #kn-scene_1189 .kn-back-link {display: none !important;}
+    #kn-scene_1190 .kn-back-link {display: none !important;}
+    #kn-scene_1193 .kn-back-link {display: none !important;}
+    #kn-scene_1244 .kn-back-link {display: none !important;}
+    #kn-scene_1258 .kn-back-link {display: none !important;}
+    #kn-scene_1245 .kn-back-link {display: none !important;}
+    #kn-scene_1273 .kn-back-link {display: none !important;}
+    #kn-scene_1370 .kn-back-link {display: none !important;}
+    #kn-scene_1448 .kn-back-link {display: none !important;}
+    
+    
+    @media screen and (min-width: 769px) and (max-width: 2000px) {
+    #view_2587 .content {display:inline-block;
+      width: 600px;
+      text-align: center !important;
+      margin-top: -20px;}}
+    
+    @media screen and (max-width: 768px) {
+    #view_2587 .content {display:inline-block;
+      width: 100%;
+      text-align: center !important;
+      margin-top: -15x;}}
+    
+    
+    .kn-search_form
+    
+    {display: inline-block;}
+    
+    #kn-scene_344 .kn-view .kn-back-link {display: none !important;}
+    
+    .kn-img-gallery {
+      text-align: center !important;}
+    
+    #nailthumb-container {
+      text-align: center !important;
+    width: 100% !important;
+    height: 100% !important;}
+    
+    .nailthumb-container {
+      text-align: center !important;
+    width: 100% !important;
+    height: 100% !important;}
+    
+    #scene_91 #kn-app-menu {
+      display:none !important;
+    }
+    
+    #view_1298 .kn-button {
+         background-color: #fff !important;}
+    
+    #view_1298  .control {text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+    #view_2070 .kn-button {
+         background-color: #fff !important;}
+    
+    #view_2063 .kn-button {
+         background-color: #fff !important;}
+    
+    
+    #kn-scene_596 .kn-back-link, #kn-scene_593 .kn-back-link {
+      display: none !important;}
+    
+    #view_2101 .kn-button {
+         background-color: #fff !important;}
+    
+    
+    #kn-input-field_421 .kn-instructions {
+    
+      margin-top: 0px !important;}
+    
+    #kn-input-field_148 .kn-instructions {
+    
+      margin-top: 0px !important;}
+    
+    #kn-input-field_530 .kn-instructions {
+    
+      margin-top: 0px !important;}
+    
+    
+    
+    #kn-input-field_752 .kn-instructions {
+    
+      margin-top: 0px !important;}
+    
+    #kn-input-field_748 .kn-instructions {
+    
+      margin-top: 0px !important;}
+    
+    
+    
+    
+    
+    
+    
+    .kn-instructions {margin-top: -15px !important;}
+    
+    
+    
+    #view_1317
+    
+    .view-header {
+    margin-bottom:20px;
+      margin-top:30px;
+    }
+    
+    #view_4430 .control has-icon {
+    
+      text-align: center !important;
+    }
+    
+    
+    
+    /*
+    #view_5065 .control, #view_4933 .control, #view_5045 .control, #view_4998 .control, #view_5005 .control, #view_4979 .control, #view_5042 .control, #view_4992 .control, #view_4978 .control, #view_5002 .control, #view_4937 .control, #view_4938 .control, #view_4749 .control, #view_4430 .control, #view_2698 .control, #view_4751 .control, #view_4696 .control, #view_4630 .control, #view_4377 .control, #view_4376 .control, #view_4346 .control, #view_4547 .control, #view_4555 .control, #view_4831 .control, #view_4539  .control, #view_4505 .control, #view_4521 .control, #view_4041 .control, #view_2209 .control, #view_4350 .control, #view_2198 .control, #view_4306 .control, #view_3108 .control, #view_4177 .control, #view_4126 .control, #view_4130 .control, #view_4125 .control,  #view_4010 .control, #view_4001 .control, #view_3919 .control, #view_3924 .control, #view_3931 .control, #view_3789 .control, #view_3782 .control, #view_3447 .control, #view_3360 .control, #view_3347 .control, #view_2105 .control, #view_3121 .control, #view_2376 .control, #view_3201 .control, #view_3187 .control, #view_3206 .control, #view_3208 .control, #view_3074  #view_3061 .control, #view_3083 .control, #view_3079 .control, #view_2889  .control,  #view_2717  .control, #view_2732 .control, #view_2700 .control, #view_2581  .control, #view_2494 .control, #view_2329 .control, #view_2315 .control, #view_2306 .control,  #view_2223 .control, #view_2271 .control, #view_2253 .control, #view_1898 .control, #view_2100 .control, #view_2101 .control, #view_2063 .control, #view_1609 .control, #view_1689 .control, #view_1485 .control, #view_1541 .control, #view_1317 .control, #view_1634 .control, #view_1541 .control, #view_2070 .control{
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+    */
+    
+    
+
+    
+    
+    
+    
+    
+    #kn-map-list #knack-body {
+      text-align: left !important;}
+    
+    
+    
+    
+    
+    
+    /*Messages*/
+    #view_1121{
+    
+      text-align:left !important}
+    
+    
+    #view_1116 .kn-search_form
+    
+    {display: none;}
+    
+    /* Trainer Map 
+    #view_490 .kn-map-search
+    
+    {display: none;}  */
+    
+    
+    
+    #knack-dist_5 {
+      margin-top: -50px;}
+    
+    
+    
+    #view_1122 .view-header
+    {
+    margin-bottom:0px !important;
+      margin-top:0px !important;
+    }
+    
+    /*Your Ecobricks*/
+    
+    #view_1820 .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+    
+
+    
+    
+    
+    /*Transactions*/
+    
+    #view_1366 .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+   
+    
+    #view_741 .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+    /*Account*/
+    #view_1447 .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+    
+    
+    
+    /* Search
+    */
+    
+    #view_1251 .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+
+    
+    
+    #view_1189  .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+    
+    
+    /* Projects */
+    
+    #view_1224  .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+
+    
+    #view_1229 .view-header {margin-top: 0px;}
+    
+    .kn-content h1:not(:first-child), .kn-content h2:not(:first-child), .kn-content h3:not(:first-child)  {margin-top: 0px;}
+    
+    
+    
+    
+    
+    
+    #view_753 .kn-content img {
+      
+      display: block;
+    margin: auto;
+    }
+    
+    
+    
+    /* Remove close modal */
+    
+    #scene_195 html.notranslate body#knack-body div#knack-dist_1.kn-content div#kn-modal-bg-0.kn-modal-bg div.kn-modal.default header.modal-card-head button.delete.close-modal
+    {display: none;}
+    
+    
+    
+    /*Messages*/
+    
+    #view_1118 .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+
+    
+    
+    /*Map  */
+    
+    
+    
+    
+    /*The Earth Thanks You*/
+    
+    #view_773  .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+    #view_909 .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+    
+
+    /*city*/
+    
+    #view_1012 { margin-top: -45px}
+    
+    /* Your Community */
+    
+    #view_869  .control {
+      
+      text-align: center !important;
+    margin-bottom: 0px;
+      margin-top: 0px !important;
+    }
+    
+    #view_748 div.kn-details-column:nth-child(2) {
+      flex-basis: 0% !important;}
+    
+    
+    #view_840 img {
+      display: block;
+    margin: auto;
+    }
+    
+    /*Set your community*/
+    
+    
+    #view_837 .view-header  {
+      margin-top: -45px;
+      margin-bottom: 15px !important;}
+    
+    
+    /* Community */
+    
+    
+    #view_753, #view_754, #view_739 .control {
+      
+      text-align: center !important;
+    margin-bottom: -30px;
+      margin-top: 0px !important;
+    }
+    
+    #view_748 .kn-scene .kn-container  {  text-align: center !important;}
+      
+
+    
+    
+    #kn-input-field_44 .help {display: none;}
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #view_430 .register {
+      display: none !important;}
+    
+    
+    
+    
+    
+    
+    
+      
+      /* Community Page */
+    
+    #view_739 .kn-link .kn-link-1 .kn-link-page .kn-button {
+      background: #fff;
+    }
+    
+    
+    #kn-input-field_324  {
+      
+      text-align: center !important;
+    
+    }
+    
+    #kn-input-field_324 .control {
+      
+      text-align: center !important;
+    
+    }
+    
+    
+    #view_716 {
+      
+      margin-top:-60px;
+       margin-left: -20px;
+      margin-right: -10px;}
+    
+    #scene-21 {
+       display: none;}
+    
+    #scene-21 #kn-app-header {
+       display: none;}
+    
+    #kn-input-field_319{
+       display: none;}
+    
+    
+    /* General Settings */
+    
+    
+    
+    
+    
+    #view_656 .control {
+      
+      text-align: center !important;
+    margin-bottom: 30px;
+      margin-top: 0px !important;
+    }
+    
+    #view_747 .control {
+      
+      text-align: center !important;
+    margin-bottom: 30px;
+      margin-top: 0px !important;
+    }
+    
+    #view_746 .control {
+      
+      text-align: center !important;
+    margin-bottom: 30px;
+      margin-top: 0px !important;
+    }
+    
+
+  
+    
+   
+    
+    
+    #view_732 .control {
+      
+      text-align: center !important;
+    margin-bottom: 30px;
+      margin-top: 0px !important;
+    }
+    
+    
+    
+    /* set address .kn-map kn-view #view_484.kn-map.kn-map-search {display:none;} */
+    
+    
+    
+    #view_484 .kn-map-search {display:none !important;}
+    
+    
+    #view_484  .kn-map-list {display:none !important;}
+    
+    #view_484  .kn-entries-summary {display:none !important;}
+    
+    
+    #view_361 table td {text-align: center !important;
+     }
+      
+    
+    #view_314 .control {text-align: center !important;
+     }
+    
+    
+    
+    
+    
+    
+    #view_319 {
+    
+        display: block !important;
+      margin: auto !important;
+          text-align: center !important;
+    }
+    
+    
+    
+    
+    
+    /* 11.  NOTICES*/
+    
+    /*REJECTION*/
+    
+    #view_6558{ 
+      border-color: #ffb3b3;
+      margin-top: -30px;
+        padding: 18px;
+          box-shadow: 0px 2px 5px grey;
+    background: #fff;
+        border-style: solid;
+      border-width: 8px;
+      padding-bottom: 25px;
+      margin-left: 4px;
+       border-radius: 10px;
+    }
+    
+    #view_6558 .kn-detail-label {
+      min-width: 50% !important;
+    max-width: 50% !important;
+      text-align: right !important;
+    padding-right: 10px;
+      background: #fff;}
+    
+      #view_6558 .kn-table { 
+      
+    background: #fff !important;
+    
+    }
+    
+    /* AES PURCHASE CONFIRMED*/
+    
+    #view_6625 { 
+      border-color: #93d800;
+      margin-top: -30px;
+        padding: 18px;
+          box-shadow: 0px 2px 5px grey;
+    background: #fff;
+        border-style: solid;
+      border-width: 8px;
+      padding-bottom: 25px;
+      margin-left: 4px;
+       border-radius: 10px;
+    }
+    
