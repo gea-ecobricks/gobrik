@@ -32,14 +32,12 @@ AND UNIQUE to HTML Pages-->
 
 <?php require_once ("includes/header.php");?>
 
-<!--LEGACY Sheets to consolidate-->
-
-<!-- Primary stylesheet 
-<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v2.1">
+<!--LEGACY Sheet to move into march-stylesheet
+<link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v9.6">
 -->
 
-<!-- Knack Stylesheet 
-<link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.6">-->
+
+
 <!-- Main Landing stylesheet -->
 <link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.6">
 

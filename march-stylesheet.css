@@ -1848,15 +1848,110 @@ background-image: linear-gradient(to bottom,  var(--button-2-1), var(--button-2-
   text-decoration: none;
 }
 
-/* Secondary Knack Button 15px 0px 30px 0px; */
+/*-------------------------
+
+
+KNACK SECONDARY BUTTON 
+
+
+---------------------------*/
 
 .kn-button.kn-link {
   
   font-size: 19px;
   margin-bottom:30px;
   border-color: var(--general-background) !important;
-  
+  font-family: 'Mulish', sans-serif !important;
+  background-color: var(--side-overlays);
 }
+
+
+#view_4696 .kn-button.kn-link, #view_6626 .kn-button.kn-link, #view_4346 .kn-button.kn-link, #view_4547 .kn-button.kn-link, #view_4555 .kn-button.kn-link, #view_4556 .kn-button.kn-link, #view_4539  .kn-button.kn-link, #view_4505 .kn-button.kn-link, #view_2198 .kn-button.kn-link, #view_4306 .kn-button.kn-link, #view_3108 .kn-button.kn-link, #view_4177 .kn-button.kn-link, #view_4126 .kn-button.kn-link, #view_4130 .kn-button.kn-link, #view_4125 .kn-button.kn-link,  #view_4001 .kn-button.kn-link,  #view_3919 .kn-button.kn-link, #view_3924 .kn-button.kn-link, #view_3931 .kn-button.kn-link,  #view_3789  .kn-button.kn-link, #view_3782 .kn-button.kn-link,  #view_3447 .kn-button.kn-link, #view_3360 .kn-button.kn-link, #view_3347 .kn-button.kn-link, #view_2105 .kn-button.kn-link, #view_2376 .kn-button.kn-link, #view_3201 .kn-button.kn-link, #view_3187  .kn-button.kn-link, #view_3206 .kn-button.kn-link, #view_3208 .kn-button.kn-link, #view_3074 .kn-button.kn-link, #view_3061 .kn-button.kn-link, #view_3083 .kn-button.kn-link, #view_3079 .kn-button.kn-link,  #view_2889 .kn-button.kn-link,  #view_2717 .kn-button.kn-link, #view_2732 .kn-button.kn-link, #view_2700 .kn-button.kn-link, #view_2581 .kn-button.kn-link,  #view_2494 .kn-button.kn-link,  #view_2329  .kn-button.kn-link, #view_2315 .kn-button.kn-link,  #view_2306 .kn-button.kn-link, #view_2223 .kn-button.kn-link, #view_2271 .kn-button.kn-link, #view_2253 .kn-button.kn-link, #view_1898 .kn-button.kn-link, #view_2100 .kn-button.kn-link, #view_2101 .kn-button.kn-link, #view_1485 .kn-button.kn-link, #view_1541 .kn-button.kn-link, #view_1317 .kn-button.kn-link,  #view_1609 .kn-button.kn-link, #view_1634 .kn-button.kn-link,  #view_1541 .kn-link .kn-link-1 .kn-link-page .kn-button  {
+  background: var(--top-header) !important;}
+
+#view_4010 .kn-button.kn-link {
+
+  background: var(--fuscia-button);
+font: var(--top-header) !important;}
+
+#view_4521 .kn-button.kn-link {
+
+  background: var(--notification);
+font: var(--top-header) !important;}
+
+#view_1820 .kn-button.kn-link{
+  background: var(--top-header);}
+
+ 
+  #view_1366 .kn-button.kn-link{
+    background: var(--top-header);}
+
+    #view_1251 .kn-button.kn-link{
+      background: var(--top-header);}
+  
+      #view_1224 .kn-button.kn-link{
+        background: var(--top-header);}
+
+        #view_1118 .kn-button.kn-link{
+          background: var(--top-header);}
+      
+          #view_909 .kn-button.kn-link{
+            background: var(--top-header);}
+        
+        #view_773 .kn-button.kn-link{
+            background: var(--top-header);}
+
+
+      
+    /*
+    #view_753  .kn-link .kn-link-1 .kn-link-page .kn-button{
+      background: #fff;}
+    
+     #view_747 .kn-button.kn-link{
+       background: #fff;}
+      
+       #view_754 .kn-button.kn-link{
+        background: #fff;}
+    
+      
+      #view_739 .kn-button.kn-link{
+      background: #fff;
+      }
+    */
+
+
+            #view_6765 .kn-button.kn-link /* Save for Later Button in Logging P2 */
+            {
+              background: var(--notification);
+              font: var(--top-header) !important;
+              font-weight: 500 !important;
+            }      
+
+    #view_746 .kn-button.kn-link{
+      background: var(--top-header);
+    }
+    
+  #view_1230 .kn-button.kn-link{
+      background: var(--top-header);}
+
+    /*
+    
+    #view_497 .kn-button.kn-link{
+      background: #fff;}
+      
+    #view_739 .kn-button.kn-link{
+        background: #fff;}
+    
+    */
+
+
+
+
+
+
+
+
+
 
 #forgot-pass {
   font-family: 'Mulish', sans-serif !important;}

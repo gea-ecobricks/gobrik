@@ -7,15 +7,13 @@
     <div class="overlay-content-settings">
         
          
-                        
-       
 
         <div style="margin-bottom: 20px;">
               
               
               <div class="menu-page-item"><a href="index.php"  aria-label="Return Home">Home</a></div>
       
-              <div class="menu-page-item"><a href="sign-up" aria-label="Register">Sign up</a><span style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px var(--header-accent);"></span><a href="login.php" aria-label="Login">Login</a></div>
+              <div class="menu-page-item"><a href="login.php" aria-label="Register">Login</a><span style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px var(--header-accent);"></span><a href="signup.php" aria-label="Sign up">Sign up</a></div>
       
               <div class="menu-page-item"><a href="https://ecobricks.org/brikchain" target="_blank">The Brikchain</a></div>
 
