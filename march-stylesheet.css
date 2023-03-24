@@ -2310,7 +2310,7 @@ margin-bottom: -20px;
      border-style: solid;
      border-color: #6ba3ff;
   
-      background-color: var(--top-header);
+      background-color: var(--top-header) !important;
     color: var(--text-color) !important;
    /* background-image: linear-gradient(#e2e2e2, #ededed);
     text-shadow: 0 1px 2px white;*/
@@ -2320,7 +2320,7 @@ margin-bottom: -20px;
     margin-left: 13px;
   position: absolute !important;
     left:0; right:0;  top: 0;
-    margin-top: -20px;
+    margin-top: -50px;
       
   }
   
