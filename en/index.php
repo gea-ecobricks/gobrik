@@ -325,15 +325,15 @@ transition: 0.5s;
         animation-duration: 0.25s;
         animation-fill-mode: forwards;*/
 
-        -webkit-animation: regular-ecobricks 1.1s forwards;
+        -webkit-animation: regularecobricks 1.1s forwards;
 -webkit-animation-delay: 3s;
 
-animation: regular-ecobricks 1.1s forwards;
+animation: regularecobricks 1.1s forwards;
 animation-delay: 3s;        
 }
 
 
-@-webkit-keyframes regular-ecobricks {
+@-webkit-keyframes regularecobricks {
 
 
 0% {
@@ -345,7 +345,7 @@ animation-delay: 3s;
 }
 
 }
-@keyframes regular-ecobricks {
+@keyframes regularecobricks {
 0% {
   top: -90vh;
 }
@@ -359,20 +359,20 @@ animation-delay: 3s;
 
 @media screen and (min-width: 701px) { 
     #gallery-overlay-button {
-        top: -77vh;
+        top: -90vh;
     }
     #regular-ecobricks {
-        top: -77vh;
+        top: -90vh;
     }
  
 }
 
 @media screen and (max-width: 700px) { 
     #gallery-overlay-button {
-        top: -77vh;
+        top: -90vh;
     }
     #regular-ecobricks {
-        top: -77vh;
+        top: -90vh;
     }
 }
 
