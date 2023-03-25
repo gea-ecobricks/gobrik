@@ -1121,7 +1121,7 @@ function closeGallery() {
         <div class="clouds-new2" style=" padding-top:10vh; margin-bottom: -30px;
         padding-bottom: 10px;padding-top:10px">
             
-            <div class="biosphere" style="height:500px, margin:0px auto -350px auto;"><img src="../webp/biosphere.webp" width="500" height="500" style="width=500px;"></div>
+            <div class="biosphere" style="height:500px; margin:0px auto -350px auto;"><img src="../webp/biosphere.webp" width="500" height="500" style="width=500px;"></div>
           
             <div class="landing-content">
 
