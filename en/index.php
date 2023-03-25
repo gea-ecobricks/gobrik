@@ -197,7 +197,7 @@ cursor:pointer;
 }
 
 
-/*
+/*needed!*/
 
 .main-menu-button {
   position:absolute;
@@ -289,6 +289,11 @@ transition: 0.5s;
 }
 
 
+#gallery {
+    opacity:0.7;
+}
+
+
 #regular-ecobricks {
     box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
     height: 100vh;
@@ -333,25 +338,21 @@ animation-delay: 3s;
 
 0% {
   top: -90vh;
-  opacity: 50;
 }
 
 100% {
     top: -77vh;
-    opacity: 1;
 }
 
 }
 @keyframes regular-ecobricks {
 0% {
   top: -90vh;
-  opacity: 50;
 }
 
 
 100% {
     top: -77;
-    opacity: 1;
 }
 
 }
@@ -419,9 +420,6 @@ opacity: 0.9 !important;
 }
 
 
-#gallery {
-    opacity:0.6;
-}
 
 
 
