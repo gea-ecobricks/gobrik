@@ -81,14 +81,14 @@
 
 @media screen and (min-width: 0px) and (max-width: 700px) {
     .clouds-new2  {
-      background-image: linear-gradient(var(--night),var(--general-background),var(--general-background));
+      background-image: linear-gradient(var(black),var(--general-background),var(--general-background));
       }
     }
 
 
     @media screen and (min-width: 701px) {
       .clouds-new2  {
-        background-image: linear-gradient(var(--night),var(--general-background));
+        background-image: linear-gradient(var(black),var(--general-background));
         }
       }
 

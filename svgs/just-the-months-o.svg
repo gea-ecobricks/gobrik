@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="103.58mm" height="103.59mm" version="1.1" viewBox="0 0 103.58 103.59" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath241508">
+   <path d="m-1.1143-89.355a90.251 90.251 0 0 0-90.251 90.251 90.251 90.251 0 0 0 90.251 90.251 90.251 90.251 0 0 0 90.251-90.251 90.251 90.251 0 0 0-90.251-90.251zm0 11.813a78.437 78.437 0 0 1 78.437 78.437 78.437 78.437 0 0 1-78.437 78.437 78.437 78.437 0 0 1-78.437-78.437 78.437 78.437 0 0 1 78.437-78.437z"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(-340.85 172.61)">
+  <g transform="matrix(.57548 0 0 .57548 393.14 -121.3)" clip-path="url(#clipPath241508)" stroke-width=".92194">
+   <path id="october" d="m-45.782-77.133a90 90 0 0 1 45.225-12.02l-0.29047 90z" fill="#00e6a7" opacity=".5"/>
+   <path id="september" d="m-78.752-44.219a90 90 0 0 1 32.97-32.915l44.934 77.98z" fill="#00e513" opacity=".5"/>
+   <path id="august" d="m-90.848 0.77143a90 90 0 0 1 12.095-44.989l77.904 45.065z" fill="#beee00" opacity=".5"/>
+   <path d="m-78.827 45.782a90 90 0 0 1-12.02-45.01l90 0.075889z" fill="#fbfb00" opacity=".5"/>
+   <path id="june" d="m-45.914 78.752a90 90 0 0 1-32.915-32.97l77.98-44.934z" fill="#ffd119" opacity=".5"/>
+   <path id="july" d="m-0.92271 90.847a90 90 0 0 1-44.989-12.095l45.065-77.904z" fill="#ff8201" opacity=".5"/>
+   <path id="april" d="m44.087 78.827a90 90 0 0 1-45.01 12.02l0.075889-90z" fill="#ff6303" opacity=".5"/>
+   <path id="march" d="m77.057 45.913a90 90 0 0 1-32.97 32.915l-44.934-77.98z" fill="#fb0000" opacity=".5"/>
+   <path id="february" d="m89.152 0.92271a90 90 0 0 1-12.095 44.989l-77.904-45.065z" fill="#ff11ce" opacity=".5"/>
+   <path id="january" d="m77.309-43.817c7.8877 13.688 11.857 28.941 11.844 44.74l-90-0.075889z" fill="#7f2aff" opacity=".5"/>
+   <path id="december" d="m44.218-77.057a90 90 0 0 1 32.915 32.97l-77.98 44.934z" fill="#4343ff" opacity=".5"/>
+   <path id="november" d="m-0.77143-89.153a90 90 0 0 1 44.989 12.095l-45.065 77.904z" fill="#0cacf5" opacity=".5"/>
+  </g>
+ </g>
+</svg>
