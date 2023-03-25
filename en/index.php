@@ -357,6 +357,7 @@ animation-delay: 3s;
 
 }
 
+/*
 @media screen and (min-width: 701px) { 
     #gallery-overlay-button {
         top: -90vh;
@@ -375,6 +376,7 @@ animation-delay: 3s;
         top: -90vh;
     }
 }
+*/
 
 
 #gallery-overlay-button:hover {
