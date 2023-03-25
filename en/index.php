@@ -334,30 +334,22 @@ animation-delay: 3s;
 
 
 @-webkit-keyframes regularecobricks {
-
-
 0% {
   top: -90vh;
 }
-
 100% {
     top: -77vh;
-}
+} }
 
-}
 @keyframes regularecobricks {
 0% {
   top: -90vh;
 }
-
-
 100% {
     top: -77;
-}
+}}
 
-}
 
-/*
 @media screen and (min-width: 701px) { 
     #gallery-overlay-button {
         top: -90vh;
@@ -376,7 +368,7 @@ animation-delay: 3s;
         top: -90vh;
     }
 }
-*/
+
 
 
 #gallery-overlay-button:hover {
@@ -1132,7 +1124,7 @@ function closeGallery() {
             <div class="landing-content">
 
                 <div class="main-landing-graphic"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
-    min-height: 145px; width:100%;" width="250" height="145" alt="Unite with ecobrickers around the world"></div>
+    min-height: 145px; width:100%;" width="250" height="145" alt="Unite"></div>
 
                 
 
