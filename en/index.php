@@ -26,7 +26,7 @@ AND UNIQUE to HTML Pages-->
 
 <link rel="preload" as="image" href="../svgs/richard-and-team-day.svg">
 <link rel="preload" as="image" href="../svgs/richard-and-team-night.svg">
-<link rel="preload" as="image" href="../webp/ecobrick-team-blank.webp">
+<link rel="preload" as="image" href="https://www.gobrik.com/webp/ecobrick-team-blank.webp">
 
 
 <?php require_once ("includes/header.php");?>
@@ -294,7 +294,7 @@ transition: 0.5s;
 }
 
 
-#regular-ecobricks {
+#regularecobricks {
     box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
     height: 100vh;
     display: flex;
@@ -362,7 +362,7 @@ animation-delay: 3s;
     #gallery-overlay-button {
         top: -90vh;
     }
-    #regular-ecobricks {
+    #regularecobricks {
         top: -90vh;
     }
  
@@ -372,7 +372,7 @@ animation-delay: 3s;
     #gallery-overlay-button {
         top: -90vh;
     }
-    #regular-ecobricks {
+    #regularecobricks {
         top: -90vh;
     }
 }
@@ -389,7 +389,7 @@ opacity: 0.9 !important;
 }
 
 
-#gallery-overlay-button:hover + #regular-ecobricks {
+#gallery-overlay-button:hover + #regularecobricks {
     top: -72vh;
 }
 
@@ -1071,16 +1071,16 @@ p a:hover {
 
 function openGallery() {
     document.getElementById("gallery-overlay-button").style.display = "none";
-    document.getElementById("regular-ecobricks").style.top = "-8vh";
+    document.getElementById("regularecobricks").style.top = "-8vh";
     document.getElementById("gallery").style.opacity = "1";
-    document.getElementById("regular-ecobricks").style.zIndex = "20";
+    document.getElementById("regularecobricks").style.zIndex = "20";
     document.getElementById("up-arrow").style.display = "block";
 }
 
 function closeGallery() {
     document.getElementById("gallery-overlay-button").style.display = "unset";
-    document.getElementById("regular-ecobricks").style.top = "-77vh";
-    document.getElementById("regular-ecobricks").style.zIndex = "0";
+    document.getElementById("regularecobricks").style.top = "-77vh";
+    document.getElementById("regularecobricks").style.zIndex = "0";
     document.getElementById("up-arrow").style.display = "none";
 }
 </script>
@@ -1103,7 +1103,7 @@ function closeGallery() {
         </div>
 
 
-        <div id="regular-ecobricks">  
+        <div id="regularecobricks">  
 
         <div class="gallery-header" style="display:flex;flex-flow:column;">
 
