@@ -65,8 +65,8 @@ AND UNIQUE to HTML Pages-->
   display:none;
 }
 
-/*.kn-content {
-  margin-top: -70px;}*/
+.kn-content {
+  margin-top: -70px;}
 
 .loader-spin { 
   position: fixed;

@@ -13,18 +13,22 @@
 <?php require_once ("includes/header.php");?>
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v98.2">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v=3">
+
+
+<!--Default Light Styles to load first-->
+<link rel="preload" href="../light.css?v=3" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="../light.css?v=3" href="styles.css"></noscript>
 
 <!-- Footer stylesheet -->
 
-<link rel="preload" href="../stylesheet-footer-march.css?2.23" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="../stylesheet-footer-march.css?2.23" href="styles.css"></noscript>
+<link rel="preload" href="../stylesheet-footer-march.css?v=3" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="../stylesheet-footer-march.css?v=3" href="styles.css"></noscript>
 
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../light.css?v=3" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
-<!--<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">-->
- 
+<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">
 
 <!-- This is the login information for the MYSQL database.  It is working.  And is already working on the index page -->
 
