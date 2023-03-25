@@ -44,7 +44,16 @@ AND UNIQUE to HTML Pages-->
 
 <link rel="preload" href="../stylesheet-footer-march.css?2.23" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="../stylesheet-footer-march.css?2.23" href="styles.css"></noscript>
+
+
 <style>
+
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  
 
 /*COMMON*/
 
@@ -188,6 +197,7 @@ cursor:pointer;
 }
 
 
+/*
 
 .main-menu-button {
   position:absolute;
@@ -257,6 +267,161 @@ cursor:pointer;
 }
 
 /* LANDING SPECIFIC */
+
+
+/* RECENT */
+
+#gallery-overlay-button {
+position: absolute;
+width: 100%;
+left: 0;
+right: 0;
+z-index: 5;
+cursor: pointer;
+height: 100vh;
+border:none;
+/*background: url(../svgs/down-arrow2.svg?v=4) no-repeat center bottom;
+background-size: 160px;
+background-position: bottom center;
+background-repeat: no-repeat;
+opacity:0.3;*/
+transition: 0.5s;
+}
+
+
+#regular-ecobricks {
+    box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
+    height: 100vh;
+    display: flex;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 3;
+    align-items: end;
+    transition: 0.5s;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+  width: 100%;
+  max-width: 100%;
+  background-color: var(--gallery);
+  z-index: 0;
+  overflow-x: clip;
+  overflow-y: scroll;
+
+    /*
+        -webkit-animation-delay: 3.0s !important;
+        opacity:0;
+        -webkit-animation:fadeIn ease-in 0.25s;
+        -webkit-animation-duration:0.25s;
+        -webkit-animation-fill-mode:forwards;
+    
+        animation-delay: 1.0s; 
+        animation: fadeIn ease-in 0.25s;
+        animation-duration: 0.25s;
+        animation-fill-mode: forwards;*/
+
+        -webkit-animation: regular-ecobricks 1.1s forwards;
+-webkit-animation-delay: 3s;
+
+animation: regular-ecobricks 1.1s forwards;
+animation-delay: 3s;        
+}
+
+
+@-webkit-keyframes regular-ecobricks {
+
+
+0% {
+  top: -90vh;
+  opacity: 50;
+}
+
+100% {
+    top: -77vh;
+    opacity: 1;
+}
+
+}
+@keyframes regular-ecobricks {
+0% {
+  top: -90vh;
+  opacity: 50;
+}
+
+
+100% {
+    top: -77;
+    opacity: 1;
+}
+
+}
+
+@media screen and (min-width: 701px) { 
+    #gallery-overlay-button {
+        top: -77vh;
+    }
+    #regular-ecobricks {
+        top: -77vh;
+    }
+ 
+}
+
+@media screen and (max-width: 700px) { 
+    #gallery-overlay-button {
+        top: -77vh;
+    }
+    #regular-ecobricks {
+        top: -77vh;
+    }
+}
+
+
+#gallery-overlay-button:hover {
+/*opacity: 0.9;*/
+top: -72vh;
+}
+
+#gallery-overlay-button:hover + #gallery {
+opacity: 0.9 !important;
+}
+
+
+#gallery-overlay-button:hover + #regular-ecobricks {
+    top: -72vh;
+}
+
+
+.down-arrow {
+    width:100%;
+    height:100%;
+    background: url(../svgs/down-arrow2.svg?v4) no-repeat center bottom;
+    background-size: 75px;
+    transition: 0.5s;
+    opacity:0.5;
+    margin-top:-58px;
+}
+
+.up-arrow {
+    width:100%;
+    height:18px;
+    background: url(../svgs/up-arrow-white.svg?v=3) no-repeat center bottom;
+    background-size: contain;
+    transition: 0.5s;
+    opacity:1;
+    display: none;
+    cursor: pointer;
+}
+
+.up-arrow:hover {
+
+    opacity:0.6;
+    
+}
+
+
+#gallery {
+    opacity:0.6;
+}
 
 
 
@@ -441,6 +606,36 @@ border:none;
       min-height:272px;*/
     }
   }
+
+
+/*main landing image*/
+
+
+/*
+.signup-team {
+  margin: auto;
+    position: relative;
+    z-index: 11;
+    background: url(https://www.gobrik.com/svgs/richard-and-team.svg) no-repeat;
+    background-size: contain;
+    height: fit-content;
+}
+
+@media screen and (max-width: 700px) { 
+  .signup-team {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 700px) { 
+  .signup-team {
+    width: 59%;
+margin-bottom: 10px;
+  }
+}*/
+
 
 
 .big-header {	
@@ -662,14 +857,12 @@ transition: 0.3s;}
 
 
 
-/* COMMON OVERLAYS */
-
 
 /* -------------------------------------------------------------------------- */
 
 /*	6. User Settings Overlay Curtain 
 
-    Comes in from the left after clicking +- button.
+    Comes in from the right after clicking +- button.
 
 /* -------------------------------------------------------------------------- */
 
@@ -865,138 +1058,7 @@ p a:hover {
 
 }
 
-/*main landing image*/
 
-.signup-team {
-  margin: auto;
-    position: relative;
-    z-index: 11;
-    background: url(https://www.gobrik.com/svgs/richard-and-team.svg) no-repeat;
-    background-size: contain;
-    height: fit-content;
-}
-
-@media screen and (max-width: 700px) { 
-  .signup-team {
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-}
-
-@media screen and (min-width: 700px) { 
-  .signup-team {
-    width: 59%;
-margin-bottom: 10px;
-  }
-}
-
-/* RECENT */
-
-#gallery-overlay-button {
-position: absolute;
-width: 100%;
-left: 0;
-right: 0;
-z-index: 5;
-cursor: pointer;
-height: 100vh;
-border:none;
-/*background: url(../svgs/down-arrow2.svg?v=4) no-repeat center bottom;
-background-size: 160px;
-background-position: bottom center;
-background-repeat: no-repeat;
-opacity:0.3;*/
-transition: 0.5s;
-}
-
-
-#regular-ecobricks {
-    box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
-    height: 100vh;
-    display: flex;
-    left: 0;
-    right: 0;
-    position: absolute;
-    z-index: 3;
-    align-items: end;
-    transition: 0.5s;
-    flex-wrap: wrap-reverse;
-    text-align: center;
-  width: 100%;
-  max-width: 100%;
-  background-color: var(--gallery);
-  z-index: 0;
-  overflow-x: clip;
-  overflow-y: scroll;
-}
-
-@media screen and (min-width: 701px) { 
-    #gallery-overlay-button {
-        top: -77vh;
-    }
-    #regular-ecobricks {
-        top: -77vh;
-    }
- 
-}
-
-@media screen and (max-width: 700px) { 
-    #gallery-overlay-button {
-        top: -77vh;
-    }
-    #regular-ecobricks {
-        top: -77vh;
-    }
-}
-
-
-#gallery-overlay-button:hover {
-/*opacity: 0.9;*/
-top: -72vh;
-}
-
-#gallery-overlay-button:hover + #gallery {
-opacity: 0.9 !important;
-}
-
-
-#gallery-overlay-button:hover + #regular-ecobricks {
-    top: -72vh;
-}
-
-
-.down-arrow {
-    width:100%;
-    height:100%;
-    background: url(../svgs/down-arrow2.svg?v4) no-repeat center bottom;
-    background-size: 75px;
-    transition: 0.5s;
-    opacity:0.5;
-    margin-top:-58px;
-}
-
-.up-arrow {
-    width:100%;
-    height:18px;
-    background: url(../svgs/up-arrow-white.svg?v=3) no-repeat center bottom;
-    background-size: contain;
-    transition: 0.5s;
-    opacity:1;
-    display: none;
-    cursor: pointer;
-}
-
-.up-arrow:hover {
-
-    opacity:0.6;
-    
-}
-
-
-#gallery {
-    opacity:0.6;
-}
 
 
 
