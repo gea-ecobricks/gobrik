@@ -1049,9 +1049,11 @@ p a:hover {
 function showDivAfterDelay() {
       const div = document.getElementById('regularecobricks');
       setTimeout(() => {
-        div.style.display = 'unset';
+        div.style.display = 'block';
       }, 2000);
     }
+
+    showDivAfterDelay();
 
 function openGallery() {
     document.getElementById("gallery-overlay-button").style.display = "none";
