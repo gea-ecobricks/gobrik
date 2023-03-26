@@ -529,6 +529,53 @@ background-color: var(--gallery);
 border:none;
 }
 
+.biosphere {
+    margin: auto;
+      position: relative;
+      z-index: 0;
+    
+  }
+
+  .biosphere  img {
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) { 
+    .biosphere {
+      width: 93%;
+      height:39%;
+margin: 0px auto -250px auto;
+width: 100%;
+text-align: center;
+margin-top: -190px;
+    }
+  }
+
+  @media screen and (min-width: 701px) and (max-width: 1300px){ 
+    .biosphere {
+      width: 75%;
+      height:31%;
+     /* min-width: 644px;
+      min-height:272px;*/
+      margin-bottom: -5px;
+      margin-top: 0px;
+    }
+  }
+
+  @media screen and (min-width: 1301px) { 
+    .biosphere {
+      width: 66%;
+      height:28%;
+      margin-bottom: -5px;
+      margin-top: 0px;
+      /*min-width: 644px;
+      min-height:272px;*/
+    }
+  }
+
+
+
 
 .main-landing-graphic {
     margin: auto;
@@ -1105,12 +1152,7 @@ function closeGallery() {
         <div class="clouds-new2" style=" padding-top:10vh; margin-bottom: -30px;
         padding-bottom: 10px;margin-top:-10px">
             
-            <div class="biosphere" style="height: 500px;
-margin: 0px auto -250px auto;
-  margin-top: 0px;
-width: 100%;
-text-align: center;
-margin-top: -190px;"><img src="../webp/biosphere.webp" width="500" height="500" style="width=500px;"></div>
+            <div class="biosphere"><img src="../webp/biosphere.webp" width="400" height="400"></div>
           
             <div class="landing-content">
 
