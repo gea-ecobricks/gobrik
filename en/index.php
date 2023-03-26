@@ -359,8 +359,8 @@ animation-delay: 2s;
     #gallery-overlay-button {
         top: -65vh;
     }
- /*   #regularecobricks {
-        top: -90vh;*/
+  #regularecobricks {
+        top: -90vh;
     }
  
 }
@@ -369,8 +369,8 @@ animation-delay: 2s;
     #gallery-overlay-button {
         top: -65vh;
     }
-  /*  #regularecobricks {
-        top: -90vh;*/
+  #regularecobricks {
+        top: -90vh;
     }
 }
 
