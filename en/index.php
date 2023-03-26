@@ -35,7 +35,7 @@ AND UNIQUE to HTML Pages-->
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v=6" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../dark.css?v=6.1" media="(prefers-color-scheme: dark)">
  
 
 
@@ -321,12 +321,13 @@ transition: 0.5s;
   z-index: 0;
   overflow-x: clip;
   overflow-y: scroll;
-  top: -94vh;
+  top: -65vh;
+  /*
 animation: regularecobricks;
 animation-delay: 1.0s; 
         animation: ease-in 0.25s;
         animation-duration: 0.25s;
-        animation-fill-mode: forwards;
+        animation-fill-mode: forwards;*/
 }
 
 @keyframes regularecobricks {
