@@ -533,7 +533,10 @@ border:none;
     margin: auto;
       position: relative;
       z-index: 0;
-    
+    margin: 0px auto -250px auto;
+width: 100%;
+text-align: center;
+margin-top: -190px;
   }
 
   .biosphere  img {
@@ -545,10 +548,7 @@ border:none;
     .biosphere {
       width: 93%;
       height:39%;
-margin: 0px auto -250px auto;
-width: 100%;
-text-align: center;
-margin-top: -190px;
+
     }
   }
 
@@ -1152,7 +1152,7 @@ function closeGallery() {
         <div class="clouds-new2" style=" padding-top:10vh; margin-bottom: -30px;
         padding-bottom: 10px;margin-top:-10px">
             
-            <div class="biosphere"><img src="../webp/biosphere.webp" width="400" height="400"></div>
+            <div class="biosphere"><img src="../webp/biosphere2.webp" width="400" height="400"></div>
           
             <div class="landing-content">
 
