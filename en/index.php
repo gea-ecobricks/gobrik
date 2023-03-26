@@ -289,6 +289,20 @@ transition: 0.5s;
 }*/
 
 
+   /*
+        -webkit-animation-delay: 3.0s !important;
+        opacity:0;
+        -webkit-animation:fadeIn ease-in 0.25s;
+        -webkit-animation-duration:0.25s;
+        -webkit-animation-fill-mode:forwards;
+    
+        animation-delay: 1.0s; 
+        animation: fadeIn ease-in 0.25s;
+        animation-duration: 0.25s;
+        animation-fill-mode: forwards;*/
+
+    /*    -webkit-animation: regularecobricks 1.1s forwards;
+-webkit-animation-delay: 2s;*/
 
 #regularecobricks {
     box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
@@ -309,28 +323,10 @@ transition: 0.5s;
   overflow-x: clip;
   overflow-y: scroll;
   top: -94vh;
-
-    /*
-        -webkit-animation-delay: 3.0s !important;
-        opacity:0;
-        -webkit-animation:fadeIn ease-in 0.25s;
-        -webkit-animation-duration:0.25s;
-        -webkit-animation-fill-mode:forwards;
-    
-        animation-delay: 1.0s; 
-        animation: fadeIn ease-in 0.25s;
-        animation-duration: 0.25s;
-        animation-fill-mode: forwards;*/
-
-    /*    -webkit-animation: regularecobricks 1.1s forwards;
--webkit-animation-delay: 2s;*/
-
 animation: regularecobricks 1.1s forwards;
 animation-delay: 2s;        
+animation-duration: 3.1s;
 }
-
-
-
 
 @keyframes regularecobricks {
 0% {
