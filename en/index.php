@@ -320,9 +320,8 @@ transition: 0.5s;
   background-color: var(--gallery);
   overflow-x: clip;
   overflow-y: scroll;
-  top: -65vh;
+  top: -94vh;
   transition: 0.5s;
-  display:none;
   
 animation: regularecobricks;
 animation-delay: 2.0s; 
@@ -332,7 +331,6 @@ animation-delay: 2.0s;
 
 @keyframes regularecobricks {
 0% {
-  display: flex;
   top: -94vh;
 }
 
