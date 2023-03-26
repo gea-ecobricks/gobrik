@@ -355,8 +355,8 @@ animation-timing-function:
 
 #regularecobricks:hover {
 opacity: 0.9;
-top: -70vh !important;
-transition: top 0.5s;
+top: -63vh !important;
+transition: top 1s;
 }
 
 
