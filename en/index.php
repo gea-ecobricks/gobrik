@@ -366,6 +366,7 @@ opacity: 0;
 
 
 
+
 .down-arrow {
     background: url(../svgs/down-arrow3.svg) no-repeat center bottom;
     background-size: 100px;
