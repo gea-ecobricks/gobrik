@@ -1095,13 +1095,13 @@ function closeGallery() {
 
             <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
 
-        </div> 
-            <div id="gallery" class="gallery-content-block">
+           </div> 
+        <div id="gallery" class="gallery-content-block">
 
-            <?php include 'includes/gallery.php';?>
+        <?php include 'includes/gallery.php';?>
 
 
-            </div>
+        </div>
 
             
         </div><!--closes regular ecobrick curtain-->     
