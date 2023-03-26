@@ -1049,7 +1049,7 @@ p a:hover {
 function showDivAfterDelay() {
       const div = document.getElementById('regularecobricks');
       setTimeout(() => {
-        div.style.display = 'block';
+        div.style.display = 'unset';
       }, 2000);
     }
 
