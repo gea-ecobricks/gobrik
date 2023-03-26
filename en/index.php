@@ -1097,14 +1097,15 @@ p a:hover {
 <script>
 /* OPEN THE GALLERY ON MAIN PAGE */
 
+
 function showDivAfterDelay() {
       const div = document.getElementById('gal-button');
       setTimeout(() => {
-        div.style.display = 'flex';
+        div.style.display = 'absolute';
       }, 3000);
     }
-
     showDivAfterDelay();
+
 
 function openGallery() {
     document.getElementById("regularecobricks").style.top = "-8vh";
@@ -1139,7 +1140,7 @@ function closeGallery() {
 
         <div id="regularecobricks">  
 
-          <div id="gal-button" style="background-color:#07070769;right:0;z-index:21;border:none;width:100%;height:100%;with:100%;position:absolute;transition: 0.5s ease;"><button  type="button"
+          <div id="gal-button" style="background-color:#07070769;right:0;z-index:21;border:none;width:100%;height:100%;with:100%;position:absolute;transition: 0.5s ease;display:none;"><button  type="button"
           class="down-arrow" onclick="openGallery()" aria-label="open gallery"></button></div>
 
 
