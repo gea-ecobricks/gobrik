@@ -324,8 +324,6 @@ transition: 0.5s;
   top: -94vh;
 animation: regularecobricks 1.1s forwards;
 animation-delay: 2s;        
-animation-duration: 3.1s;
-transition: 0.5s;
 animation: ease-in;
 }
 
@@ -363,7 +361,7 @@ z-index:20;
 
 #regularecobricks:hover .gal-button {
 opacity: 0;
-transition: 0.5s ease;
+transition: 1s ease;
 }
 
 
