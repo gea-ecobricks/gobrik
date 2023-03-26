@@ -1113,8 +1113,10 @@ function showDivAfterDelay() {
 
 
 function openGallery() {
-    document.getElementById("regularecobricks").style.top = "-8vh";
-    document.getElementById("gal-button").style.display = "none";
+  document.getElementById("regularecobricks").style.top = "-8vh";
+
+  document.getElementById("regularecobricks").style.animation = "none";
+  document.getElementById("gal-button").style.display = "none";
     document.getElementById("gallery").style.opacity = "1";
     document.getElementById("regularecobricks").style.zIndex = "20";
     document.getElementById("up-arrow").style.display = "block";
