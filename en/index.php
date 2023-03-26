@@ -1087,7 +1087,7 @@ function closeGallery() {
 
         <div id="regularecobricks">  
 
-          <button  type="button" id="gal-button" style="down-arrow" onclick="openGallery()" aria-label="open gallery" style="background-color:#ff00001c;right:0;z-index:20;border:none;width:100%;height:100%;with:100%;position:absolute;cursor: pointer;"></button>
+          <button  type="button" id="gal-button" class="down-arrow" onclick="openGallery()" aria-label="open gallery" style="background-color:#ff00001c;right:0;z-index:20;border:none;width:100%;height:100%;with:100%;position:absolute;cursor: pointer;"></button>
 
 
           <div class="gallery-header" style="display:flex;flex-flow:column;">
