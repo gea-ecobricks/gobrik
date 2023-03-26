@@ -326,6 +326,7 @@ animation: regularecobricks 1.1s forwards;
 animation-delay: 2s;        
 animation-duration: 3.1s;
 transition: 0.5s;
+animation: ease-in;
 }
 
 @keyframes regularecobricks {
@@ -362,7 +363,7 @@ z-index:20;
 
 #regularecobricks:hover .gal-button {
 opacity: 0;
-transition: opacity 0.5s ease;
+transition: 0.5s ease;
 }
 
 
@@ -1079,7 +1080,7 @@ function closeGallery() {
 
         <div id="regularecobricks">  
 
-          <button  type="button" id="gal-button" class="down-arrow" onclick="openGallery()" aria-label="open gallery" style="background-color:black;opacity:0.2;right:0;z-index:20;border:none;width:100%;height:100%;with:100%;position:absolute;cursor: pointer;"></button>
+          <button  type="button" id="gal-button" class="down-arrow" onclick="openGallery()" aria-label="open gallery" style="background-color:black;opacity:0.2;right:0;z-index:20;border:none;width:100%;height:100%;with:100%;position:absolute;cursor: pointer;transition: 0.5s ease;"></button>
 
 
           <div class="gallery-header" style="display:flex;flex-flow:column;">
