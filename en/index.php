@@ -340,7 +340,7 @@ animation-delay: 2s;
 0% {
   top: -94vh;
 }
-95% {
+75% {
     top: -60vh;
 }
     100% {
@@ -1049,7 +1049,7 @@ p a:hover {
 function showDivAfterDelay() {
       const div = document.getElementById('regularecobricks');
       setTimeout(() => {
-        div.style.display = 'unset';
+        div.style.display = 'flex';
       }, 2000);
     }
 
