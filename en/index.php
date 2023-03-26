@@ -355,13 +355,14 @@ transition: 0.5s;
 #regularecobricks:hover {
 opacity: 0.9;
 top: -63vh !important;
-transition: top 1s;
+transition: top 1s ease;
 z-index:20;
 }
 
 
-#regularecobricks:hover > gal-button {
+#regularecobricks:hover .gal-button {
 opacity: 0;
+transition: opacity 0.5s ease;
 }
 
 
