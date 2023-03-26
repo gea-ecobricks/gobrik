@@ -530,19 +530,20 @@ border:none;
 }
 
 .biosphere {
-    margin: auto;
       position: relative;
       z-index: 0;
     margin: 0px auto -250px auto;
-width: 100%;
+height: 10vh;
+width:auto;
 text-align: center;
 
   }
 
   .biosphere  img {
   height: auto;
-  width: 100%;
 }
+
+/*
 
 @media screen and (max-width: 700px) { 
     .biosphere {
@@ -557,8 +558,7 @@ text-align: center;
     .biosphere {
       width: 75%;
       height:31%;
-     /* min-width: 644px;
-      min-height:272px;*/
+
     }
   }
 
@@ -566,12 +566,11 @@ text-align: center;
     .biosphere {
       width: 46%;
       height:;
-      /*min-width: 644px;
-      min-height:272px;*/
+ 
     }
   }
 
-
+*/
 
 
 .main-landing-graphic {
@@ -592,7 +591,7 @@ text-align: center;
       width: 93%;
       height:39%;
       margin-top: 19px;
-      margin-bottom: 0px;
+      margin-bottom: px;
       min-width: 250px;
     min-height: 145px;
     }
