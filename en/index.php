@@ -313,7 +313,6 @@ transition: 0.5s;
     position: absolute;
     z-index: 3;
     align-items: end;
-    transition: 0.5s;
     flex-wrap: wrap-reverse;
     text-align: center;
   width: 100%;
@@ -326,7 +325,7 @@ transition: 0.5s;
 animation: regularecobricks 1.1s forwards;
 animation-delay: 2s;        
 animation-duration: 3.1s;
-animation-timing-function: 
+transition: 0.5s;
 }
 
 @keyframes regularecobricks {
@@ -357,6 +356,7 @@ animation-timing-function:
 opacity: 0.9;
 top: -63vh !important;
 transition: top 1s;
+z-index:20;
 }
 
 
