@@ -1046,6 +1046,13 @@ p a:hover {
 <script>
 /* OPEN THE GALLERY ON MAIN PAGE */
 
+function showDivAfterDelay() {
+      const div = document.getElementById('regularecobricks');
+      setTimeout(() => {
+        div.style.display = 'unset';
+      }, 2000);
+    }
+
 function openGallery() {
     document.getElementById("gallery-overlay-button").style.display = "none";
     document.getElementById("regularecobricks").style.top = "-8vh";
