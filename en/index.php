@@ -360,6 +360,11 @@ z-index:20;
 }
 
 
+#regularecobricks:hover > gal-button {
+opacity: 0;
+}
+
+
 
 .down-arrow {
     background: url(../svgs/down-arrow3.svg) no-repeat center bottom;
@@ -1072,7 +1077,7 @@ function closeGallery() {
 
         <div id="regularecobricks">  
 
-          <button  type="button" id="gal-button" class="down-arrow" onclick="openGallery()" aria-label="open gallery" style="background-color:red;opacity:0.2;right:0;z-index:20;border:none;width:100%;height:100%;with:100%;position:absolute;cursor: pointer;"></button>
+          <button  type="button" id="gal-button" class="down-arrow" onclick="openGallery()" aria-label="open gallery" style="background-color:black;opacity:0.2;right:0;z-index:20;border:none;width:100%;height:100%;with:100%;position:absolute;cursor: pointer;"></button>
 
 
           <div class="gallery-header" style="display:flex;flex-flow:column;">
