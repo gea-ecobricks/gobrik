@@ -269,7 +269,7 @@ cursor:pointer;
 /* LANDING SPECIFIC */
 
 
-/* RECENT */
+/* RECENT 
 
 #gallery-overlay-button {
 position: absolute;
@@ -284,14 +284,10 @@ border:none;
 background-size: 160px;
 background-position: bottom center;
 background-repeat: no-repeat;
-opacity:0.3;*/
+opacity:0.3;
 transition: 0.5s;
-}
+}*/
 
-
-#gallery {
-    opacity:0.7;
-}
 
 
 #regularecobricks {
@@ -361,8 +357,8 @@ animation-delay: 2s;
 
 
 #regularecobrick:hover {
-/*opacity: 0.9;*/
-top: -70vh;
+opacity: 0.9;
+top: -70vh !important;
 }
 
 
@@ -1048,7 +1044,6 @@ function showDivAfterDelay() {
     showDivAfterDelay();
 
 function openGallery() {
-    document.getElementById("gallery-overlay-button").style.display = "none";
     document.getElementById("regularecobricks").style.top = "-8vh";
     document.getElementById("gallery").style.opacity = "1";
     document.getElementById("regularecobricks").style.zIndex = "20";
@@ -1056,7 +1051,6 @@ function openGallery() {
 }
 
 function closeGallery() {
-    document.getElementById("gallery-overlay-button").style.display = "unset";
     document.getElementById("regularecobricks").style.top = "-77vh";
     document.getElementById("regularecobricks").style.zIndex = "0";
     document.getElementById("up-arrow").style.display = "none";
