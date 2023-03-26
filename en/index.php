@@ -322,11 +322,11 @@ transition: 0.5s;
   overflow-y: scroll;
   top: -65vh;
   transition: 0.5s;
-  /*
+  
 animation: regularecobricks;
 animation-delay: 2.0s; 
         animation-duration: 1s;
-        animation-fill-mode: forwards;*/
+        animation-fill-mode: forwards;
 }
 
 @keyframes regularecobricks {
@@ -373,24 +373,24 @@ opacity: 1;
 
 .down-arrow {
   background: url(../svgs/down-arrow4.svg) no-repeat center bottom;
-  background-size: auto;
+  background-position-y: bottom;
 background-size: 100px;
-background-position-y: bottom 60px;
+background-position-y: bottom 24px;
 position: absolute;
 bottom: 0;
-margin-bottom: 60px;
 width: 200px;
-height: 200px;
+height: 100px;
 margin: auto;
 left: 0;
 text-align: center;
 align-content: center;
 right: 0;
-margin-right: auto;
-margin-left: auto;
 cursor: pointer;
 border: none;
 opacity: 0.5;
+background-color: #202127;
+margin-bottom: 30px;
+border-radius: 10px;
 }
 
 .up-arrow {
