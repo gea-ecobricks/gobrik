@@ -322,10 +322,10 @@ transition: 0.5s;
   z-index: 0;
   overflow-x: clip;
   overflow-y: scroll;
-  top: -94vh;
 animation: regularecobricks 1.1s forwards;
 animation-delay: 2s;        
 animation-duration: 3.1s;
+animation-timing-function: 
 }
 
 @keyframes regularecobricks {
@@ -355,6 +355,7 @@ animation-duration: 3.1s;
 #regularecobrick:hover {
 opacity: 0.9;
 top: -70vh !important;
+transition: top 0.5s;
 }
 
 
