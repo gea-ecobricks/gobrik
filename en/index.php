@@ -1098,10 +1098,10 @@ p a:hover {
 /* OPEN THE GALLERY ON MAIN PAGE */
 
 function showDivAfterDelay() {
-      const div = document.getElementById('regularecobricks');
+      const div = document.getElementById('gal-button');
       setTimeout(() => {
         div.style.display = 'flex';
-      }, 2000);
+      }, 3000);
     }
 
     showDivAfterDelay();
