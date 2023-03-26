@@ -369,9 +369,23 @@ transition: 0.5s ease;
 
 
 .down-arrow {
-    background: url(../svgs/down-arrow3.svg) no-repeat center bottom;
-    background-size: 100px;
-    background-position-y:bottom 60px
+  background: url(../svgs/down-arrow3.svg) no-repeat center bottom;
+  background-size: auto;
+background-size: 100px;
+background-position-y: bottom 60px;
+position: absolute;
+bottom: 0;
+margin-bottom: 60px;
+width: 200px;
+height: 200px;
+margin: auto;
+left: 0;
+text-align: center;
+align-content: center;
+right: 0;
+margin-right: auto;
+margin-left: auto;
+cursor: pointer;
 }
 
 .up-arrow {
@@ -1125,7 +1139,7 @@ function closeGallery() {
 
         <div id="regularecobricks">  
 
-          <div id="gal-button" style="background-color:black;opacity:0.3;right:0;z-index:21;border:none;width:100%;height:100%;with:100%;position:absolute;cursor: pointer;transition: 0.5s ease;"><button  type="button"
+          <div id="gal-button" style="background-color:black;opacity:0.3;right:0;z-index:21;border:none;width:100%;height:100%;with:100%;position:absolute;transition: 0.5s ease;"><button  type="button"
           class="down-arrow" onclick="openGallery()" aria-label="open gallery"></button></div>
 
 
