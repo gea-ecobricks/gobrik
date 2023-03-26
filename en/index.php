@@ -325,6 +325,7 @@ transition: 0.5s;
 animation: regularecobricks 1.1s forwards;
 animation-delay: 2s;        
 animation: ease-in;
+animation-duration: 3.1s;
 }
 
 @keyframes regularecobricks {
@@ -572,7 +573,6 @@ text-align: center;
     }
   }
 
-*/
 
 
 .main-landing-graphic {
