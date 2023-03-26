@@ -325,29 +325,31 @@ transition: 0.5s;
         animation-duration: 0.25s;
         animation-fill-mode: forwards;*/
 
-        -webkit-animation: regularecobricks 1.1s forwards;
--webkit-animation-delay: 3s;
+    /*    -webkit-animation: regularecobricks 1.1s forwards;
+-webkit-animation-delay: 2s;*/
 
 animation: regularecobricks 1.1s forwards;
-animation-delay: 3s;        
+animation-delay: 2s;        
 }
 
 
-@-webkit-keyframes regularecobricks {
-0% {
-  top: -90vh;
-}
-100% {
-    top: -77vh;
-} }
+
 
 @keyframes regularecobricks {
 0% {
   top: -90vh;
 }
 100% {
-    top: -77vh;
+    top: -70vh;
 }}
+
+/*@-webkit-keyframes regularecobricks {
+0% {
+  top: -90vh;
+}
+100% {
+    top: -77vh;
+} }*/
 
 
 @media screen and (min-width: 701px) { 
