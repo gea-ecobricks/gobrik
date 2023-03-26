@@ -333,6 +333,8 @@ animation-delay: 2s;
 }
 
 
+
+
 @keyframes regularecobricks {
 0% {
   top: -90vh;
@@ -375,7 +377,7 @@ animation-delay: 2s;
 
 #gallery-overlay-button:hover {
 /*opacity: 0.9;*/
-top: -60vh;
+top: -72vh;
 }
 
 #gallery-overlay-button:hover + #gallery {
@@ -384,7 +386,7 @@ opacity: 0.9 !important;
 
 
 #gallery-overlay-button:hover + #regularecobricks {
-    top: -vh;
+    top: -72vh;
 }
 
 
