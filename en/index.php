@@ -35,7 +35,7 @@ AND UNIQUE to HTML Pages-->
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v5.9" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../dark.css?v=6" media="(prefers-color-scheme: dark)">
  
 
 
@@ -536,7 +536,7 @@ border:none;
     margin: 0px auto -250px auto;
 width: 100%;
 text-align: center;
-margin-top: -190px;
+
   }
 
   .biosphere  img {
@@ -547,7 +547,8 @@ margin-top: -190px;
 @media screen and (max-width: 700px) { 
     .biosphere {
       width: 93%;
-      height:39%;
+      margin-top: -190px;
+      margin-bottom: -100px;
 
     }
   }
@@ -558,17 +559,13 @@ margin-top: -190px;
       height:31%;
      /* min-width: 644px;
       min-height:272px;*/
-      margin-bottom: -5px;
-      margin-top: 0px;
     }
   }
 
   @media screen and (min-width: 1301px) { 
     .biosphere {
-      width: 66%;
-      height:28%;
-      margin-bottom: -5px;
-      margin-top: 0px;
+      width: 46%;
+      height:;
       /*min-width: 644px;
       min-height:272px;*/
     }
@@ -595,7 +592,7 @@ margin-top: -190px;
       width: 93%;
       height:39%;
       margin-top: 19px;
-      margin-bottom: -12px;
+      margin-bottom: 0px;
       min-width: 250px;
     min-height: 145px;
     }
