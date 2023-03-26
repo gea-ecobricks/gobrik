@@ -340,7 +340,7 @@ animation-delay: 2s;
 0% {
   top: -94vh;
 }
-75% {
+71% {
     top: -60vh;
 }
     100% {
@@ -360,19 +360,11 @@ animation-delay: 2s;
 
 
 
-#gallery-overlay-button:hover {
+#regularecobrick:hover {
 /*opacity: 0.9;*/
-top: -72vh;
+top: -70vh;
 }
 
-#gallery-overlay-button:hover + #gallery {
-opacity: 0.9 !important;
-}
-
-
-#gallery-overlay-button:hover + #regularecobricks {
-    top: -72vh;
-}
 
 
 .down-arrow {
