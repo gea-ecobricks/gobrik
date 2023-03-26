@@ -322,10 +322,11 @@ transition: 0.5s;
   overflow-x: clip;
   overflow-y: scroll;
   top: -94vh;
-animation: regularecobricks 1.1s forwards;
-animation-delay: 2s;        
-animation: ease-in;
-animation-duration: 3.1s;
+animation: regularecobricks;
+animation-delay: 1.0s; 
+        animation: ease-in 0.25s;
+        animation-duration: 0.25s;
+        animation-fill-mode: forwards;
 }
 
 @keyframes regularecobricks {
@@ -335,8 +336,10 @@ animation-duration: 3.1s;
 71% {
     top: -60vh;
 }
-    100% {
+100% {
     top: -65vh;
+    animation-play-state: paused
+;
     
 }}
 
