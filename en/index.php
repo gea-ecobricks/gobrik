@@ -339,8 +339,10 @@ animation-delay: 2s;
 0% {
   top: -90vh;
 }
+95% {
+    top: -65vh;
 100% {
-    top: -77vh;
+    top: -60vh;
 }}
 
 /*@-webkit-keyframes regularecobricks {
@@ -349,7 +351,7 @@ animation-delay: 2s;
 }
 100% {
     top: -77vh;
-} }
+} }*/
 
 
 @media screen and (min-width: 701px) { 
@@ -371,10 +373,9 @@ animation-delay: 2s;
     }
 }
 
-
+/*
 
 #gallery-overlay-button:hover {
-/*opacity: 0.9;*/
 top: -72vh;
 }
 
@@ -391,7 +392,7 @@ opacity: 0.9 !important;
 .down-arrow {
     width:100%;
     height:100%;
-    background: url(../svgs/down-arrow2.svg?v4) no-repeat center bottom;
+    background: url(../svgs/down-arrow3.svg?v4) no-repeat center bottom;
     background-size: 75px;
     transition: 0.5s;
     opacity:0.5;
@@ -417,7 +418,7 @@ opacity: 0.9 !important;
 
 
 
-
+*/
 
 .gallery-header {
   background-color: var(--gallery);
