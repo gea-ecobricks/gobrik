@@ -1119,9 +1119,14 @@ function closeGallery() {
 <div class="main-landing-graphic" style="width:100%;height:43%;"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%;height:43%;" alt="Unite with ecobrickers around the world"></div>-->
                     
         <div class="clouds-new2" style=" padding-top:10vh; margin-bottom: -30px;
-        padding-bottom: 10px;padding-top:10px">
+        padding-bottom: 10px;margin-top:-10px">
             
-            <div class="biosphere" style="height:500px; margin:0px auto -350px auto;"><img src="../webp/biosphere.webp" width="500" height="500" style="width=500px;"></div>
+            <div class="biosphere" style="height: 500px;
+margin: 0px auto -250px auto;
+  margin-top: 0px;
+width: 100%;
+text-align: center;
+margin-top: -100px;"><img src="../webp/biosphere.webp" width="500" height="500" style="width=500px;"></div>
           
             <div class="landing-content">
 
