@@ -321,12 +321,12 @@ transition: 0.5s;
   overflow-x: clip;
   overflow-y: scroll;
   top: -65vh;
-  /*
+  
 animation: regularecobricks;
 animation-delay: 1.0s; 
         animation: ease-in 0.25s;
         animation-duration: 0.25s;
-        animation-fill-mode: forwards;*/
+        animation-fill-mode: forwards;
 }
 
 @keyframes regularecobricks {
@@ -1096,6 +1096,7 @@ function showDivAfterDelay() {
 
 function openGallery() {
     document.getElementById("regularecobricks").style.top = "-8vh";
+    document.getElementById("gal-button").style.display = "none";
     document.getElementById("gallery").style.opacity = "1";
     document.getElementById("regularecobricks").style.zIndex = "20";
     document.getElementById("up-arrow").style.display = "block";
@@ -1103,6 +1104,7 @@ function openGallery() {
 
 function closeGallery() {
     document.getElementById("regularecobricks").style.top = "-77vh";
+    document.getElementById("gal-button").style.display = "unset";
     document.getElementById("regularecobricks").style.zIndex = "0";
     document.getElementById("up-arrow").style.display = "none";
 }
