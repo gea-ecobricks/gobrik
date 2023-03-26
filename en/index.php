@@ -368,7 +368,7 @@ transition: 0.5s ease;
 
 
 .down-arrow {
-  background: url(../svgs/down-arrow3.svg) no-repeat center bottom;
+  background: url(../svgs/down-arrow4.svg) no-repeat center bottom;
   background-size: auto;
 background-size: 100px;
 background-position-y: bottom 60px;
