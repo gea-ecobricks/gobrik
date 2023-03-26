@@ -312,6 +312,7 @@ transition: 0.5s;
   z-index: 0;
   overflow-x: clip;
   overflow-y: scroll;
+  top: -90vh;
 
     /*
         -webkit-animation-delay: 3.0s !important;
@@ -1084,14 +1085,14 @@ function closeGallery() {
             <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"></button>
         </div>-->
 
-        <div id="gallery-overlay-button">
-            <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"><div class="down-arrow"></div></button>
-        </div>
-
+ 
 
         <div id="regularecobricks">  
 
-        <div class="gallery-header" style="display:flex;flex-flow:column;">
+          <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:red;border:none;width:100%;height:100%;with:100%;position:absolute;cursor: pointer;"><div class="down-arrow"></div></button>
+
+
+          <div class="gallery-header" style="display:flex;flex-flow:column;">
 
             <div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
 
@@ -1138,12 +1139,12 @@ margin-top: -190px;"><img src="../webp/biosphere.webp" width="500" height="500" 
                 <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
                 
                     <div>
-                        <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='login.php'" title="Click here to sign in" style="cursor:pointer;">
+                        <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home'" title="Click here to sign in" style="cursor:pointer;">
                         <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:4px;"></i>Sign in</button>
                     </div>
             
                     <div>
-                        <button type="button" aria-label="Sign up" onclick="location.href='signup.php'" class="sign-uppp" style="cursor:pointer;">
+                        <button type="button" aria-label="Sign up" onclick="location.href='go.php'" class="sign-uppp" style="cursor:pointer;">
                         <i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i>Sign up</button>
                     </div>
 
