@@ -340,7 +340,7 @@ animation-delay: 2s;
   top: -90vh;
 }
 100% {
-    top: -70vh;
+    top: -60vh;
 }}
 
 /*@-webkit-keyframes regularecobricks {
