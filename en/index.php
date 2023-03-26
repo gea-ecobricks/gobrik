@@ -346,7 +346,7 @@ animation-delay: 3s;
   top: -90vh;
 }
 100% {
-    top: -77;
+    top: -77vh;
 }}
 
 
@@ -1126,7 +1126,7 @@ margin: 0px auto -250px auto;
   margin-top: 0px;
 width: 100%;
 text-align: center;
-margin-top: -100px;"><img src="../webp/biosphere.webp" width="500" height="500" style="width=500px;"></div>
+margin-top: -190px;"><img src="../webp/biosphere.webp" width="500" height="500" style="width=500px;"></div>
           
             <div class="landing-content">
 
