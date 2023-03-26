@@ -322,6 +322,7 @@ transition: 0.5s;
   overflow-y: scroll;
   top: -65vh;
   transition: 0.5s;
+  display:none;
   
 animation: regularecobricks;
 animation-delay: 2.0s; 
@@ -331,8 +332,10 @@ animation-delay: 2.0s;
 
 @keyframes regularecobricks {
 0% {
+  display: flex;
   top: -94vh;
 }
+
 71% {
     top: -60vh;
 }
