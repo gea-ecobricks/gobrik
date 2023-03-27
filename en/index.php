@@ -325,7 +325,7 @@ transition: 0.5s;
   overflow-y: scroll;
   top: -94vh;
   transition: 0.5s;
-  opacity: 0.9;
+  opacity: 0.81;
   
 animation: regularecobricks;
 animation-delay: 0s; 
@@ -339,12 +339,11 @@ animation-delay: 0s;
 }
 
 71% {
-    top: -62vh;
+    top: -64vh;
 }
 100% {
-    top: -67vh;
-    animation: none;
-    animation-play-state: paused;    
+    top: -70vh;
+  
 }}
 
 /*@-webkit-keyframes regularecobricks {
@@ -369,7 +368,9 @@ animation-delay: 0s;
 #regularecobricks:hover {
 z-index:20;
 opacity:1;
-top: -65vh;
+top: -65vh;   
+animation: none;
+  animation-play-state: paused;   
 
 }
 
@@ -565,7 +566,6 @@ border:none;
 .biosphere {
   position: relative;
 z-index: 0;
-margin: -20vh auto -180px auto;
 padding-bottom: 300px;
 height: 20vh;
 width: auto;
@@ -577,15 +577,13 @@ text-align: center;
 
 @media screen and (max-width: 700px) { 
     .biosphere {
-      margin: -35vh auto -135px auto;
-
-
+      margin: -39vh auto -145px auto;
     }
   }
 
   @media screen and (min-width: 701px) and (max-width: 1300px){ 
     .biosphere {
-      margin: -23vh auto -180px auto;
+      margin: -25vh auto -180px auto;
 
 
     }
@@ -595,7 +593,7 @@ text-align: center;
 
   @media screen and (min-width: 1301px) { 
     .biosphere {
-      margin: -25vh auto -180px auto;
+      margin: -27vh auto -180px auto;
 
  
     }
