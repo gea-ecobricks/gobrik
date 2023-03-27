@@ -66,7 +66,7 @@ AND UNIQUE to HTML Pages-->
 
 .kn-mobile-controls { 
   z-index: 26 !important;
-  margin-top: 7px;
+  margin-top: -20px;
 }
 
 .main-menu-button {
