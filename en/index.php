@@ -1185,7 +1185,7 @@ function closeGallery() {
             <div class="landing-content">
 
                 <div class="main-landing-graphic"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
-    min-height: 145px; width:100%;" width="250" height="145" alt="Unite"></div>
+    min-height: 145px; width:100%;" width="250" height="112" alt="Unite"></div>
 
                 
 
