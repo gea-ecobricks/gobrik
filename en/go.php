@@ -72,12 +72,13 @@ AND UNIQUE to HTML Pages-->
 .kn-content {
   margin-top: -70px;}
 
-  /*
+  
 
   @media screen and (max-width: 700px) {
     .kn-content {
-  margin-top: -90px;}
-    }*/
+  margin-top: -90px;
+padding-top: 30px;}
+    }
 
 .loader-spin { 
   position: fixed;
