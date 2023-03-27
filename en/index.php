@@ -325,7 +325,7 @@ transition: 0.5s;
   overflow-y: scroll;
   top: -94vh;
   transition: 0.5s;
-  opacity: 0.8;
+  opacity: 0.9;
   
 animation: regularecobricks;
 animation-delay: 0s; 
@@ -358,7 +358,6 @@ animation-delay: 0s;
 
 
 #gal-button {
-  background-color:#07070769;
   right:0;
   z-index:21;
   border:none;
@@ -378,7 +377,6 @@ top: -63vh;
 
 
 #regularecobricks:hover #gal-button {
-background-color: #05050500;
 transition: 0.5s ease;
 }
 
@@ -392,7 +390,7 @@ transition: 0.5s ease;
 .down-arrow {
   background: url(../svgs/down-arrow4.svg?v=2) no-repeat center bottom;
   background-position-y: bottom;
-background-size: 100px;
+background-size: 88px;
 background-position-y: bottom 10px;
 position: absolute;
 bottom: 0;
@@ -405,7 +403,6 @@ align-content: center;
 right: 0;
 cursor: pointer;
 border: none;
-opacity: 1;
 background-color: var(--gallery);
 margin-bottom: 30px;
 border-radius: 10px;
@@ -578,15 +575,11 @@ text-align: center;
 
   }
 
-  .biosphere  img {
-  height: auto;
-}
-
 
 
 @media screen and (max-width: 700px) { 
     .biosphere {
-      margin: -28vh auto -130px auto;
+      margin: -33vh auto -135px auto;
 
 
     }
@@ -1124,7 +1117,7 @@ function showDivAfterDelay() {
       const div = document.getElementById('regularecobricks');
       setTimeout(() => {
         div.style.display = 'flex';
-      }, 10000);
+      }, 32000);
     }
     showDivAfterDelay();
 
