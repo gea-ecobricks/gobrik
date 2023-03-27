@@ -400,7 +400,7 @@ right: 0;
 cursor: pointer;
 border: none;
 opacity: 0.5;
-background-color: #202127;
+background-color: var(--gallery);
 margin-bottom: 30px;
 border-radius: 10px;
 }
@@ -564,7 +564,8 @@ border:none;
 .biosphere {
   position: relative;
 z-index: 0;
-margin: -20vh auto 100px auto;
+margin: -20vh auto 0px auto;
+padding-bottom: 100px;
 height: 20vh;
 width: auto;
 text-align: center;
