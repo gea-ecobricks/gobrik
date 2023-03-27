@@ -339,13 +339,12 @@ animation-delay: 0s;
 }
 
 71% {
-    top: -60vh;
+    top: -62vh;
 }
 100% {
-    top: -65vh;
-    animation-play-state: paused;
+    top: -67vh;
     animation: none;
-    
+    animation-play-state: paused;    
 }}
 
 /*@-webkit-keyframes regularecobricks {
@@ -370,9 +369,7 @@ animation-delay: 0s;
 #regularecobricks:hover {
 z-index:20;
 opacity:1;
-animation-play-state: paused;
-top: -63vh;
-animation: none;
+top: -65vh;
 
 }
 
@@ -624,7 +621,7 @@ text-align: center;
       width: 93%;
       height:39%;
       margin-top: 19px;
-      margin-bottom: px;
+      margin-bottom: 0px;
       min-width: 250px;
     min-height: 145px;
     }
