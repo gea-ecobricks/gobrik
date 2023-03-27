@@ -371,11 +371,6 @@ opacity:1;
 top: -67vh;   
 }
 
-#regularecobricks:active {
-
-animation: none;
-  animation-play-state: paused;  
-} 
 
 
 #regularecobricks:hover #gal-button {
@@ -580,7 +575,7 @@ text-align: center;
 
 @media screen and (max-width: 700px) { 
     .biosphere {
-      margin: -40vh auto -135px auto;
+      margin: -40vh auto -105px auto;
     }
   }
 

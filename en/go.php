@@ -55,8 +55,8 @@ AND UNIQUE to HTML Pages-->
  
 <style>
 
-.kn-content--embedded-with-header-background #kn-app-header {
-  background-color: none !important;
+#kn-app-header {
+  background-color: var(--general-background) !important;
 }
 
 #header {
