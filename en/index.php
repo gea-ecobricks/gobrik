@@ -344,7 +344,7 @@ animation-delay: 0s;
 100% {
     top: -65vh;
     animation-play-state: paused;
-;
+    animation: none;
     
 }}
 
@@ -372,6 +372,7 @@ z-index:20;
 opacity:1;
 animation-play-state: paused;
 top: -63vh;
+animation: none;
 
 }
 
