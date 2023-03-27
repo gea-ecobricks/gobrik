@@ -331,6 +331,10 @@ animation: regularecobricks;
 animation-delay: 0s; 
         animation-duration: 1s;
         animation-fill-mode: forwards;
+
+        -webkit-animation: regularecobricks 1.1s forwards;
+-webkit-animation-delay: 0s;
+
 }
 
 @keyframes regularecobricks {
@@ -338,7 +342,7 @@ animation-delay: 0s;
   top: -94vh;
 }
 
-71% {
+75% {
     top: -64vh;
 }
 100% {
@@ -346,13 +350,16 @@ animation-delay: 0s;
   
 }}
 
-/*@-webkit-keyframes regularecobricks {
+@-webkit-keyframes regularecobricks {
 0% {
-  top: -90vh;
+  top: -94vh;
 }
-100% {
-    top: -77vh;
-} }*/
+75% {
+    top: -64vh;
+
+    100% {
+    top: -70vh;
+} }
 
 
 #gal-button {
