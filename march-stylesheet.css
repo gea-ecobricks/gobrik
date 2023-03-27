@@ -1912,7 +1912,8 @@ h1.modal-card-title {height: 35px !important;
   
    input[type=text], input[type=email], input[type=password]{
      border: 2px solid var(--button-2-1) !important;
-      background-color: #6afca4 !important;} /*sets the background of the text entry*/
+   }
+      /*background-color: #6afca4 !important;} sets the background of the text entry*/
   
   /*.search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {*/
   
