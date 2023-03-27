@@ -48,12 +48,15 @@
 
 
 .top-settings-button {
-    background: url(../svgs/settings-icon-dark.svg) no-repeat;
+    /*background: url(../svgs/settings-icon-dark.svg) no-repeat;*/
+    background: url(../svgs/grey-emblem-button3-dark.svg) no-repeat;
+
     background-size: contain;
 }
 
 .top-settings-button:hover {
-      background: url(../svgs/settings-icon-over-dark2.svg) no-repeat;
+     /* background: url(../svgs/settings-icon-over-dark2.svg) no-repeat;*/
+      background: url(../svgs/emblem-dark-over.svg) no-repeat;
       background-size: contain;
   }
 
@@ -98,7 +101,7 @@
 
         }
         .main-landing-graphic {
-          background: url(../svgs/richard-and-team-night3.svg?v=3) no-repeat center center;
+          background: url(../svgs/richard-and-team-night.svg?v=3) no-repeat center center;
           background-size: contain;
           }
 
@@ -198,6 +201,12 @@ background-size: contain;
 
 .log-ecobricks {
   background: url(../webp/log-ecobricks-night.webp) no-repeat;
+  background-size: contain;
+
+}
+
+.biosphere {
+  background: url(../webp/biosphere2.webp) no-repeat;
   background-size: contain;
 
 }

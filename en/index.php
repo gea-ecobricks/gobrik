@@ -34,8 +34,8 @@ AND UNIQUE to HTML Pages-->
 
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.5" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v=6.2" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v5.6" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v=6.6" media="(prefers-color-scheme: dark)">
  
 
 
@@ -43,7 +43,7 @@ AND UNIQUE to HTML Pages-->
 <!-- Footer stylesheet -->
 
 <link rel="preload" href="../stylesheet-footer-march.css?2.23" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="../stylesheet-footer-march.css?2.23" href="styles.css"></noscript>
+<noscript><link rel="../stylesheet-footer-march.css?2.3" href="styles.css"></noscript>
 
 
 <style>
@@ -1175,7 +1175,7 @@ function closeGallery() {
         <div class="clouds-new2" style=" padding-top:10vh; margin-bottom: -30px;
         padding-bottom: 10px;margin-top:-10px">
             
-            <div class="biosphere"><img src="../webp/biosphere2.webp" width="400" height="400"></div>
+            <div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div>
           
             <div class="landing-content">
 

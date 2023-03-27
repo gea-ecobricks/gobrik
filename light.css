@@ -45,15 +45,20 @@
 }
 
 .top-settings-button {
-    background: url(../svgs/settings-icon.svg) no-repeat;
+    /*background: url(../svgs/settings-icon.svg) no-repeat;*/
+    background: url(../svgs/grey-emblem-button3.svg) no-repeat;
+
     background-size: contain;
 }
 
 .top-settings-button:hover {
-    background: url(../svgs/settings-icon-over.svg) no-repeat;
+    /*background: url(../svgs/settings-icon-over.svg) no-repeat;*/
+    background: url(../svgs/grey-emblem-button.svg) no-repeat;
     background-size: contain;
 }
 
+
+/*
 .top-down-button {
   background: url(../up-arrow.svg) no-repeat;
   background-size: contain;
@@ -63,6 +68,7 @@
   background: url(../svgs/down-arrow.svg) no-repeat;
   background-size: contain;
 }
+*/
 
 .main-menu-button {
     background: url(../svgs/login-icon.svg) no-repeat;
@@ -99,7 +105,7 @@
 
 
   .tree-coins {
-    background: url(../webp/2023-tree-day.webp) no-repeat center;
+    background: url(../svgs/earth-home-animated-day.svg) no-repeat center;
     background-size: contain;
   }
 
@@ -179,6 +185,12 @@
       .main-landing-graphic {
       background: url(../svgs/richard-and-team-day.svg) no-repeat center center;
       background-size: contain;
+      }
+
+      .biosphere {
+        background: url(../webp/biosphere-day.webp) no-repeat;
+        background-size: contain;
+      
       }
 
 /* light.css

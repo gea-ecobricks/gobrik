@@ -70,7 +70,7 @@ AND UNIQUE to HTML Pages-->
 }
 
 .kn-content {
-  margin-top: -70px;}
+  margin-top: -90px;}
 
 
 .loader-spin { 
