@@ -55,6 +55,10 @@ AND UNIQUE to HTML Pages-->
  
 <style>
 
+.kn-content--embedded-with-header-background #kn-app-header {
+  background-color: none !important;
+}
+
 #header {
   box-shadow: none !important;
 }
@@ -70,15 +74,9 @@ AND UNIQUE to HTML Pages-->
 }
 
 .kn-content {
-  margin-top: -70px;}
+  margin-top: -40px;}
 
   
-
-  @media screen and (max-width: 700px) {
-    .kn-content {
-  margin-top: -90px;
-padding-top: 30px;}
-    }
 
 .loader-spin { 
   position: fixed;

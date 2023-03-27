@@ -580,7 +580,7 @@ text-align: center;
 
 @media screen and (max-width: 700px) { 
     .biosphere {
-      margin: -37vh auto -135px auto;
+      margin: -40vh auto -135px auto;
     }
   }
 
