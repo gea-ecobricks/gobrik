@@ -307,7 +307,7 @@ transition: 0.5s;
 #regularecobricks {
     box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
     height: 100vh;
-    display: flex;
+    display: none;
     left: 0;
     right: 0;
     position: absolute;
@@ -384,14 +384,14 @@ opacity: 1;
 
 
 .down-arrow {
-  background: url(../svgs/down-arrow4.svg) no-repeat center bottom;
+  background: url(../svgs/down-arrow4.svg?v=2) no-repeat center bottom;
   background-position-y: bottom;
 background-size: 100px;
-background-position-y: bottom 24px;
+background-position-y: bottom 10px;
 position: absolute;
 bottom: 0;
-width: 200px;
-height: 100px;
+width: 150px;
+height: 70px;
 margin: auto;
 left: 0;
 text-align: center;
@@ -1118,7 +1118,7 @@ p a:hover {
 function showDivAfterDelay() {
       const div = document.getElementById('regularecobricks');
       setTimeout(() => {
-        div.style.display = 'absolute';
+        div.style.display = 'flex';
       }, 10000);
     }
     showDivAfterDelay();
