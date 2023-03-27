@@ -115,10 +115,10 @@
  
   
 
-  .tree-coins {
-    background: url(../webp/2023-tree-night.webp?v=1.1) no-repeat;
-    background-size: contain;
-  }
+          .tree-coins {
+            background: url(../svgs/earth-home-animated-v5.svg) no-repeat center;
+            background-size: contain;
+          }
 
   .bio-top {
     background: url(../svgs/biosphere-top-night.svg) no-repeat center top;
