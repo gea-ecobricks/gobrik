@@ -322,6 +322,7 @@ transition: 0.5s;
   overflow-y: scroll;
   top: -94vh;
   transition: 0.5s;
+  opacity: 0.8;
   
 animation: regularecobricks;
 animation-delay: 2.0s; 
@@ -353,10 +354,20 @@ animation-delay: 2.0s;
 } }*/
 
 
-
+#gal-button {
+  background-color:#07070769;
+  right:0;
+  z-index:21;
+  border:none;
+  width:100%;
+  height:100%;
+  position:absolute;
+  transition: 0.5s ease;
+}
 
 #regularecobricks:hover {
 z-index:20;
+opacity:1;
 }
 
 
@@ -1102,14 +1113,14 @@ p a:hover {
 <script>
 /* OPEN THE GALLERY ON MAIN PAGE */
 
-/*
+
 function showDivAfterDelay() {
-      const div = document.getElementById('gal-button');
+      const div = document.getElementById('regularecobricks');
       setTimeout(() => {
         div.style.display = 'absolute';
-      }, 3000);
+      }, 10000);
     }
-    showDivAfterDelay();*/
+    showDivAfterDelay();
 
 
 function openGallery() {
@@ -1139,15 +1150,12 @@ function closeGallery() {
 
         <?php include 'includes/top-menu.php';?>
 
-        <!--<div id="gallery-overlay-button">
-            <button  type="button" id="gal-button" onclick="openGallery()" aria-label="open gallery" style="background:none;border:none;width:100%;height:100%;cursor: pointer;"></button>
-        </div>-->
 
  
 
         <div id="regularecobricks">  
 
-          <div id="gal-button" style="background-color:#07070769;right:0;z-index:21;border:none;width:100%;height:100%;with:100%;position:absolute;transition: 0.5s ease;"><button  type="button"
+          <div id="gal-button"><button  type="button"
           class="down-arrow" onclick="openGallery()" aria-label="open gallery"></button></div>
 
 
