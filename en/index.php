@@ -577,7 +577,7 @@ text-align: center;
 
 @media screen and (max-width: 700px) { 
     .biosphere {
-      margin: -33vh auto -135px auto;
+      margin: -35vh auto -135px auto;
 
 
     }
@@ -621,7 +621,7 @@ text-align: center;
       width: 93%;
       height:39%;
       margin-top: 19px;
-      margin-bottom: 0px;
+      margin-bottom: -5px;
       min-width: 250px;
     min-height: 145px;
     }
@@ -1192,7 +1192,7 @@ function closeGallery() {
                 <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
                 
                 <div class="welcome-text">
-                GoBrik helps you manage your ecobricks, projects and accelerate your plastic transition so that we can build a green home for all.
+                GoBrik helps manage your ecobricks, projects and plastic transition so that we can build our greenest visions.
                 </div>
 
                 <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
