@@ -27,6 +27,9 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" as="image" href="../svgs/richard-and-team-day.svg">
 <link rel="preload" as="image" href="../svgs/richard-and-team-night.svg">
 <link rel="preload" as="image" href="https://www.gobrik.com/webp/ecobrick-team-blank.webp">
+<link rel="preload" as="image" href="../webp/biosphere2.webp">
+<link rel="preload" as="image" href="../webp/biosphere-day.webp">
+
 
 
 <?php require_once ("includes/header.php");?>
