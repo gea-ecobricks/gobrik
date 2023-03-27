@@ -564,8 +564,8 @@ border:none;
 .biosphere {
   position: relative;
 z-index: 0;
-margin: -20vh auto 0px auto;
-padding-bottom: 100px;
+margin: -20vh auto -180px auto;
+padding-bottom: 300px;
 height: 20vh;
 width: auto;
 text-align: center;
@@ -580,7 +580,7 @@ text-align: center;
 
 @media screen and (max-width: 700px) { 
     .biosphere {
-      margin: -18vh auto 0 auto;
+      margin: -18vh auto -180px auto;
 
 
     }
@@ -588,7 +588,7 @@ text-align: center;
 
   @media screen and (min-width: 701px) and (max-width: 1300px){ 
     .biosphere {
-      margin: -21vh auto 0 auto;
+      margin: -21vh auto -180px auto;
 
 
     }
@@ -598,7 +598,7 @@ text-align: center;
 
   @media screen and (min-width: 1301px) { 
     .biosphere {
-      margin: -23vh auto 0 auto;
+      margin: -23vh auto -180px auto;
 
  
     }
