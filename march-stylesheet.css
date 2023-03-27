@@ -2570,6 +2570,18 @@ margin-top:-10px;
       transition: 1s;
   }
 
+  @media screen and (max-width: 700px) { 
+    .earth-com  {
+      width: 80%;
+    }
+  }
+
+  @media screen and (min-width: 700px) { 
+    .earth-com  {
+      width: 90%;
+    }
+  }
+
   .city-image {
     margin: auto;
       position: relative;

@@ -1115,7 +1115,7 @@ function showDivAfterDelay() {
       const div = document.getElementById('regularecobricks');
       setTimeout(() => {
         div.style.display = 'flex';
-      }, 32000);
+      }, 3200);
     }
     showDivAfterDelay();
 
