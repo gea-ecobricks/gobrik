@@ -206,7 +206,7 @@ background-size: contain;
 }
 
 .biosphere {
-  background: url(../webp/biosphere2.webp) no-repeat;
+  background: url(../webp/biosphere2.webp) no-repeat center bottom;
   background-size: contain;
 
 }

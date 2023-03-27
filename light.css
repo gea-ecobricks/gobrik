@@ -188,7 +188,7 @@
       }
 
       .biosphere {
-        background: url(../webp/biosphere-day.webp) no-repeat;
+        background: url(../webp/biosphere-day.webp) no-repeat  center bottom;
         background-size: contain;
       
       }
