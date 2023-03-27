@@ -34,7 +34,7 @@ AND UNIQUE to HTML Pages-->
 
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../light.css?v5.9" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 <link rel="stylesheet" href="../dark.css?v=6.9" media="(prefers-color-scheme: dark)">
  
 
@@ -325,7 +325,7 @@ transition: 0.5s;
   opacity: 0.8;
   
 animation: regularecobricks;
-animation-delay: 2.0s; 
+animation-delay: 0s; 
         animation-duration: 1s;
         animation-fill-mode: forwards;
 }
@@ -340,7 +340,7 @@ animation-delay: 2.0s;
 }
 100% {
     top: -65vh;
-    animation-play-state: paused
+    animation-play-state: paused;
 ;
     
 }}
@@ -368,6 +368,9 @@ animation-delay: 2.0s;
 #regularecobricks:hover {
 z-index:20;
 opacity:1;
+animation-play-state: paused;
+top: -63vh;
+
 }
 
 
@@ -1119,7 +1122,7 @@ function showDivAfterDelay() {
       const div = document.getElementById('regularecobricks');
       setTimeout(() => {
         div.style.display = 'flex';
-      }, 30000);
+      }, 3000);
     }
     showDivAfterDelay();
 
