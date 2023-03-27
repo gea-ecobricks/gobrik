@@ -34,8 +34,8 @@ AND UNIQUE to HTML Pages-->
 
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.7" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v=6.7" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../dark.css?v=6.9" media="(prefers-color-scheme: dark)">
  
 
 
@@ -580,7 +580,7 @@ text-align: center;
 
 @media screen and (max-width: 700px) { 
     .biosphere {
-      margin: -18vh auto 100px auto;
+      margin: -18vh auto 0 auto;
 
 
     }
@@ -588,7 +588,7 @@ text-align: center;
 
   @media screen and (min-width: 701px) and (max-width: 1300px){ 
     .biosphere {
-      margin: -21vh auto 100px auto;
+      margin: -21vh auto 0 auto;
 
 
     }
@@ -598,7 +598,7 @@ text-align: center;
 
   @media screen and (min-width: 1301px) { 
     .biosphere {
-      margin: -23vh auto 100px auto;
+      margin: -23vh auto 0 auto;
 
  
     }
