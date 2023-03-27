@@ -1912,7 +1912,7 @@ h1.modal-card-title {height: 35px !important;
   
    input[type=text], input[type=email], input[type=password]{
      border: 2px solid var(--button-2-1) !important;
-      background-color: #00AA44 !important;}
+      background-color: #6afca4 !important;} /*sets the background of the text entry*/
   
   /*.search-field input, .chzn-container-single .chzn-single, .input, .kn-textarea {*/
   
@@ -1969,7 +1969,7 @@ h1.modal-card-title {height: 35px !important;
       box-sizing: border-box;
         border: 3px solid var(--button-2-1);
       border-radius: 5px;
-        background-color: var(--general-background) !important;
+        /*background-color: var(--general-background) !important;*/
       color: var(--h1);
   }
    
@@ -2313,7 +2313,7 @@ margin-bottom: -20px;
    /* background-image: linear-gradient(#e2e2e2, #ededed);
     text-shadow: 0 1px 2px white;*/
     font-size: 16px;
-    z-index: 1;
+    z-index: 20;
     margin-right: 13px;
     margin-left: 13px;
   position: absolute !important;
