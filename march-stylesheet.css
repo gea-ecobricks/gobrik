@@ -1969,7 +1969,7 @@ h1.modal-card-title {height: 35px !important;
       box-sizing: border-box;
         border: 3px solid var(--button-2-1);
       border-radius: 5px;
-        /*background-color: var(--general-background) !important;*/
+      background-color: rgba(109, 255, 109, 0.517) !important;/*background text box*/
       color: var(--h1);
   }
    
