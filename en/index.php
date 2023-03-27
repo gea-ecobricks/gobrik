@@ -368,11 +368,14 @@ animation-delay: 0s;
 #regularecobricks:hover {
 z-index:20;
 opacity:1;
-top: -65vh;   
-animation: none;
-  animation-play-state: paused;   
-
+top: -67vh;   
 }
+
+#regularecobricks:active {
+
+animation: none;
+  animation-play-state: paused;  
+} 
 
 
 #regularecobricks:hover #gal-button {
@@ -577,7 +580,7 @@ text-align: center;
 
 @media screen and (max-width: 700px) { 
     .biosphere {
-      margin: -39vh auto -145px auto;
+      margin: -37vh auto -135px auto;
     }
   }
 
