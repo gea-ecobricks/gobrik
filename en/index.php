@@ -315,8 +315,7 @@ transition: 0.5s;
     right: 0;
     position: absolute;
     z-index: 3;
-    align-items: end;
-    flex-wrap: wrap-reverse;
+    flex-flow: column;
     text-align: center;
   width: 100%;
   max-width: 100%;
@@ -570,6 +569,8 @@ background-color: var(--gallery);
 border:none;
 }
 
+
+
 .biosphere {
   position: relative;
 z-index: 0;
@@ -590,9 +591,7 @@ text-align: center;
 
   @media screen and (min-width: 701px) and (max-width: 1300px){ 
     .biosphere {
-      margin: -25vh auto -180px auto;
-
-
+      margin: -25vh auto -170px auto;
     }
   }
 
@@ -600,9 +599,7 @@ text-align: center;
 
   @media screen and (min-width: 1301px) { 
     .biosphere {
-      margin: -27vh auto -180px auto;
-
- 
+      margin: -27vh auto -100px auto;
     }
   }
 
@@ -1161,19 +1158,21 @@ function closeGallery() {
           class="down-arrow" onclick="openGallery()" aria-label="open gallery"></button></div>
 
 
-          <div class="gallery-header" style="display:flex;flex-flow:column;">
-
-            <div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
-
-            <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
-
-          </div> 
+         
           <div id="gallery" class="gallery-content-block">
 
             <?php include 'includes/gallery.php';?>
 
 
           </div>
+
+          <div class="gallery-header" style="display:flex;flex-flow:column;">
+
+<div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
+
+<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
+
+</div> 
 
             
         </div><!--closes regular ecobrick curtain-->     
