@@ -386,7 +386,9 @@ transition: 0.5s ease;
 }
 
 #regularecobricks:hover .down-arrow {
-  background-size: 120px;
+  background: url(../svgs/down-arrow-over.svg) no-repeat center bottom;
+  background-position-y: bottom;
+background-size: 88px;
 }
 
 
@@ -1134,13 +1136,10 @@ function openGallery() {
 }
 
 function closeGallery() {
-    document.getElementById("regularecobricks").style.top = "-90vh";
-    document.getElementById("gal-button").style.display = "unset";
+    document.getElementById("regularecobricks").style.top = "-80vh";
+    document.getElementById("gal-button").style.display = "flex";
     document.getElementById("regularecobricks").style.zIndex = "5";
     document.getElementById("up-arrow").style.display = "none";
-    document.getElementById("regularecobricks").style.animation = "ecobricks";
-    document.getElementById("regularecobricks").style.animationplaystate = "running";
-
 
 }
 </script>
