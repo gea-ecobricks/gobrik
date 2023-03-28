@@ -348,14 +348,15 @@ animation-delay: 0s;
 100% {
     top: -70vh;
   
-}}
+}
+}
 
 @-webkit-keyframes regularecobricks {
 0% {
   top: -94vh;
 }
 75% {
-    top: -64vh;
+    top: -64vh;}
 
     100% {
     top: -70vh;
@@ -590,8 +591,6 @@ text-align: center;
   @media screen and (min-width: 701px) and (max-width: 1300px){ 
     .biosphere {
       margin: -25vh auto -170px auto;
-
-
     }
   }
 
@@ -600,8 +599,6 @@ text-align: center;
   @media screen and (min-width: 1301px) { 
     .biosphere {
       margin: -27vh auto -100px auto;
-
- 
     }
   }
 
