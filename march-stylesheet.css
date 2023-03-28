@@ -2300,9 +2300,10 @@ margin-bottom: 30px;}
 
 .close-modal {z-index: 30 !important;}
 
-.kn-detail .kn-detail-body {margin: auto;}
 
-.field_734 {background-color: #3d4678;}
+.field_734 {background-color: #3d4678;
+border-radius: 10px;
+margin: auto !important;}
 
 
 .kn-message, .kn-notification, .notification {
