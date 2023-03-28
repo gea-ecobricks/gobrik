@@ -1164,6 +1164,7 @@ function closeGallery() {
           <div id="gallery" class="gallery-content-block">
 
             <?php include 'includes/gallery.php';?>
+          </div>
           
             <div class="gallery-header" style="display:flex;flex-flow:column;">
 
