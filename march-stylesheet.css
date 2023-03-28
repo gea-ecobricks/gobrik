@@ -1860,9 +1860,32 @@ Basic Knack page Setup
     .kn-table {
       color:var(--text-color);
       background-color: unset !important;
+      
+    }
+  
+
+    .kn-table .kn-view {
+
+      font-size: smaller;
+    }
+
+    .table-keyword-search {
+    margin: auto;
+    width: 60%;
+
+    }
+
+    .kn-table-wrapper {
+      font-family: 'Mulish', sans-serif;
+      color: var(--text-color);
+    }
+
+    .kn-table.is-striped tbody tr:nth-child(2n) {
+      background-color: var(--general-background-highlight);
     }
 
 
+    
   .kn-label {
     color: var(--subdued-text) !important;
     font-family: 'Arvo', serif;
