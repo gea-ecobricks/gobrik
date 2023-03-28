@@ -1139,6 +1139,8 @@ function closeGallery() {
     document.getElementById("regularecobricks").style.zIndex = "5";
     document.getElementById("up-arrow").style.display = "none";
     document.getElementById("regularecobricks").style.animation = "ecobricks";
+    document.getElementById("regularecobricks").style.animationplaystate = "running";
+
 
 }
 </script>
