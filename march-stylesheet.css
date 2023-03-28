@@ -1858,8 +1858,10 @@ Basic Knack page Setup
       }
 
     .kn-table {
-      color:var(--text-color);
+      color:var(--text-color) !important;
       background-color: unset !important;
+      font-family: 'Mulish', sans-serif;
+  
       
     }
   
@@ -1881,7 +1883,7 @@ Basic Knack page Setup
     }
 
     .kn-table.is-striped tbody tr:nth-child(2n) {
-      background-color: var(--general-background-highlight);
+      background-color: var(--general-background-highlight) !important;
     }
 
 
