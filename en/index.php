@@ -1134,10 +1134,12 @@ function openGallery() {
 }
 
 function closeGallery() {
-    document.getElementById("regularecobricks").style.top = "-65vh";
+    document.getElementById("regularecobricks").style.top = "-90vh";
     document.getElementById("gal-button").style.display = "unset";
-    document.getElementById("regularecobricks").style.zIndex = "unset";
+    document.getElementById("regularecobricks").style.zIndex = "5";
     document.getElementById("up-arrow").style.display = "none";
+    document.getElementById("regularecobricks").style.animation = "ecobricks";
+
 }
 </script>
 
