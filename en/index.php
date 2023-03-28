@@ -316,6 +316,7 @@ transition: 0.5s;
     position: absolute;
     z-index: 3;
     flex-flow: column;
+    justify-content: end;
     text-align: center;
   width: 100%;
   max-width: 100%;
@@ -494,7 +495,7 @@ border-radius: 10px;
     margin-right: -10%;
     margin-left: -1%;
     margin-top: 65px;
-    margin-bottom: -5px;
+    margin-bottom: 0px;
 
 }
 
