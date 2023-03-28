@@ -586,13 +586,13 @@ text-align: center;
 
 @media screen and (max-width: 700px) { 
     .biosphere {
-      margin: -40vh auto -105px auto;
+      margin: -40vh auto -9vh auto;
     }
   }
 
   @media screen and (min-width: 701px) and (max-width: 1300px){ 
     .biosphere {
-      margin: -25vh auto -170px auto;
+      margin: -25vh auto -21vh auto;
     }
   }
 
@@ -600,7 +600,7 @@ text-align: center;
 
   @media screen and (min-width: 1301px) { 
     .biosphere {
-      margin: -27vh auto -100px auto;
+      margin: -27vh auto -19vh auto;
     }
   }
 
@@ -1136,7 +1136,7 @@ function openGallery() {
 function closeGallery() {
     document.getElementById("regularecobricks").style.top = "-65vh";
     document.getElementById("gal-button").style.display = "unset";
-    document.getElementById("regularecobricks").style.zIndex = "3";
+    document.getElementById("regularecobricks").style.zIndex = "unset";
     document.getElementById("up-arrow").style.display = "none";
 }
 </script>
