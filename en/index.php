@@ -315,8 +315,8 @@ transition: 0.5s;
     right: 0;
     position: absolute;
     z-index: 3;
-    align-items: end;
-    flex-wrap: wrap-reverse;
+    /*align-items: end;
+    flex-wrap: wrap-reverse;*/
     text-align: center;
   width: 100%;
   max-width: 100%;
@@ -494,6 +494,7 @@ border-radius: 10px;
     margin-right: -10%;
     margin-left: -1%;
     margin-top: 65px;
+    margin-bottom: -5px;
 
 }
 
@@ -588,7 +589,7 @@ text-align: center;
 
   @media screen and (min-width: 701px) and (max-width: 1300px){ 
     .biosphere {
-      margin: -25vh auto -180px auto;
+      margin: -25vh auto -170px auto;
 
 
     }
@@ -598,7 +599,7 @@ text-align: center;
 
   @media screen and (min-width: 1301px) { 
     .biosphere {
-      margin: -27vh auto -180px auto;
+      margin: -27vh auto -100px auto;
 
  
     }
@@ -1136,7 +1137,7 @@ function openGallery() {
 function closeGallery() {
     document.getElementById("regularecobricks").style.top = "-65vh";
     document.getElementById("gal-button").style.display = "unset";
-    document.getElementById("regularecobricks").style.zIndex = "3";
+    document.getElementById("regularecobricks").style.zIndex = "5";
     document.getElementById("up-arrow").style.display = "none";
 }
 </script>
@@ -1159,16 +1160,18 @@ function closeGallery() {
           class="down-arrow" onclick="openGallery()" aria-label="open gallery"></button></div>
 
 
-          <div class="gallery-header" style="display:flex;flex-flow:column;">
-
-            <div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
-
-            <div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
-
-          </div> 
+         
           <div id="gallery" class="gallery-content-block">
 
             <?php include 'includes/gallery.php';?>
+          
+            <div class="gallery-header" style="display:flex;flex-flow:column;">
+
+<div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
+
+<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
+
+</div> 
 
 
           </div>
