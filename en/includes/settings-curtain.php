@@ -13,7 +13,7 @@
               
               <div class="menu-page-item"><a href="index.php"  aria-label="Return Home">Home</a></div>
       
-              <div class="menu-page-item"><a href="login.php" aria-label="Register">Login</a><span style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px var(--header-accent);"></span><a href="signup.php" aria-label="Sign up">Sign up</a></div>
+              <div class="menu-page-item"><a href="go.php#home" aria-label="Register">Login</a><span style="height: 10px; margin-right:10px;margin-left:10px;width:1px; border-right:solid 1px var(--header-accent);"></span><a href="go.php" aria-label="Sign up">Sign up</a></div>
       
               <div class="menu-page-item"><a href="https://ecobricks.org/brikchain" target="_blank">The Brikchain</a></div>
 
@@ -23,7 +23,6 @@
               <div class="menu-page-item"><a href="https://ecobricks.org/gobrik" target="_blank">About GoBrik</a>
                 </div>
               
-      
                 <p>GoBrik is developed by the <a href="https://ecobricks.org/about" target="_blank">Global Ecobrick Alliance</a> a not-for-profit Earth enterprise focused on plastic transtion.</p>
                 
         </div>
@@ -35,8 +34,7 @@
         </div> -->
 
         <div class="compro-toggle" style="margin: 10px auto 10px auto;">
-        <p style="font-size:1em">Change between dark & light theme</p>
-        <p>🚧 This feature is still in beta! 👷
+        <p style="font-size:1em">Change between dark & light theme 🚧</p>
         <div style="font-size:1.25em">
             <dark-mode-toggle
             id="dark-mode-toggle-1"

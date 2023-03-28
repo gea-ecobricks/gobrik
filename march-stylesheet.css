@@ -2293,9 +2293,12 @@ margin-bottom: -20px;
   border: none !important;
 }
 
-.modal-card-head  {background: var(--side-overlays) !important;}
+.modal-card-head  {background: var(--side-overlays) !important;
+margin-bottom: 30px;}
 
 .kn-modal {background: var(--side-overlays) !important;}
+
+.close-modal {z-index: 30 !important;}
 
 
 
