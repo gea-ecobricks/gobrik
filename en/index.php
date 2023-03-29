@@ -332,7 +332,7 @@ animation-delay: 0s;
         animation-duration: 1s;
         animation-fill-mode: forwards;
 
-        -webkit-animation: regularecobricks 1.1s forwards;
+-webkit-animation: regularecobricks 1.1s forwards;
 -webkit-animation-delay: 0s;
 
 }
@@ -1122,7 +1122,7 @@ function showDivAfterDelay() {
       const div = document.getElementById('regularecobricks');
       setTimeout(() => {
         div.style.display = 'flex';
-      }, 2200);
+      }, 2000);
     }
     showDivAfterDelay();
 
@@ -1132,7 +1132,7 @@ function openGallery() {
 
   document.getElementById("regularecobricks").style.animation = "none";
   document.getElementById("gal-button").style.display = "none";
-    document.getElementById("gallery").style.opacity = "1";
+    document.getElementById("regularecobricks").style.opacity = "1";
     document.getElementById("regularecobricks").style.zIndex = "20";
     document.getElementById("up-arrow").style.display = "block";
 }
