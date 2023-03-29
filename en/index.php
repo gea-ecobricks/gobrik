@@ -38,7 +38,7 @@ AND UNIQUE to HTML Pages-->
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.93" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v=6.93" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../dark.css?v=6.94" media="(prefers-color-scheme: dark)">
  
 
 
