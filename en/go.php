@@ -6,7 +6,10 @@
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
-<title>GoBrik | Signup</title>
+<title>GoBrik | Beta</title>
+
+
+
 <meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
 <meta name="description" content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.">
 <meta name="author" content="Global Ecobrick Alliance">
@@ -66,7 +69,7 @@ AND UNIQUE to HTML Pages-->
 
 .kn-mobile-controls { 
   z-index: 26 !important;
-  margin-top: -20px;
+  margin-top: -24px;
 }
 
 .main-menu-button {

@@ -388,6 +388,8 @@ transition: 0.5s ease;
 #regularecobricks:hover .down-arrow {
   background: url(../svgs/down-arrow-over.svg) no-repeat center bottom;
   background-position-y: bottom;
+  background-color: var(--gallery);
+
 background-size: 88px;
 }
 
@@ -1120,7 +1122,7 @@ function showDivAfterDelay() {
       const div = document.getElementById('regularecobricks');
       setTimeout(() => {
         div.style.display = 'flex';
-      }, 3200);
+      }, 2200);
     }
     showDivAfterDelay();
 
