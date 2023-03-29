@@ -2330,7 +2330,12 @@ margin-bottom: 30px;
 .view_3903 .field_734 .kn-detail .kn-detail-body {margin: auto !important;}
  
 .view_3903 .field_734 {background-color: var(--fuscia-button);
-border-radius: 10px; color: var(--top-header)}
+border-radius: 10px; color: var(--top-header) !important;
+}
+
+.knTable th {
+  background-color: var(--top-header) !important;
+}
 
 
 .kn-message, .kn-notification, .notification {
