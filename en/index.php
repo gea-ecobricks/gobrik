@@ -385,7 +385,7 @@ top: -67vh;
 transition: 0.5s ease;
 }
 
-#regularecobricks:hover .down-arrow {
+.down-arrow:hover {
   background: url(../svgs/down-arrow-over.svg) no-repeat center bottom;
   background-position-y: bottom;
   background-color: var(--gallery);
