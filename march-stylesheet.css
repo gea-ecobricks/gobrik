@@ -2337,6 +2337,7 @@ border-radius: 10px; color: var(--top-header) !important;
   background-color: var(--top-header) !important;
 }
 
+.knViewLink {background-color: var(--fuscia-button);}
 
 .kn-message, .kn-notification, .notification {
 
