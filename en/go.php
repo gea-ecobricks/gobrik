@@ -38,7 +38,7 @@ AND UNIQUE to HTML Pages-->
 
 
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../light.css?v5.7" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
 <!--LEGACY Sheets to consolidate-->
 <link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v=1.01">
@@ -49,10 +49,10 @@ AND UNIQUE to HTML Pages-->
 -->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.8">
+<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.9">
 
  <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.7" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
 <link rel="stylesheet" href="../dark.css?v=7.1" media="(prefers-color-scheme: dark)">
  

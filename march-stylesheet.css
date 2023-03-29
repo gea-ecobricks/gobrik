@@ -2339,6 +2339,8 @@ border-radius: 10px; color: var(--top-header) !important;
 
 .knViewLink {background-color: var(--fuscia-button) !important;}
 
+.js-filter-menu {border-color: var(--gallery) !important}
+
 .js-filter-menu.tabs .is-active a { background-color: var(--button-1-2-over) !important;}
 
 .kn-message, .kn-notification, .notification {
