@@ -28,8 +28,7 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" as="image" href="../svgs/richard-and-team-night.svg">
 <link rel="preload" as="image" href="https://www.gobrik.com/webp/ecobrick-team-blank.webp">
 <link rel="preload" as="image" href="../webp/biosphere2.webp">
-<link rel="preload" as="image" href="../webp/biosphere-day.webp">
-
+<link rel="preload" as="image" href="https://gobrik.com/webp/biosphere-day.webp">
 
 
 <?php require_once ("includes/header.php");?>
@@ -315,7 +314,9 @@ transition: 0.5s;
     right: 0;
     position: absolute;
     z-index: 3;
-    flex-flow: column;
+    /*flex-flow: column;*/
+    flex-direction: column; 
+    align-items: flex-end;
     justify-content: end;
     text-align: center;
   width: 100%;
