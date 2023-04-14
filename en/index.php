@@ -1118,6 +1118,10 @@ p a:hover {
 <script>
 /* OPEN THE GALLERY ON MAIN PAGE */
 
+window.onload = function() {
+  showDivAfterDelay();
+}
+
 
 function showDivAfterDelay() {
       const div = document.getElementById('regularecobricks');
@@ -1125,7 +1129,8 @@ function showDivAfterDelay() {
         div.style.display = 'flex';
       }, 2000);
     }
-    showDivAfterDelay();
+
+   
 
 
 function openGallery() {

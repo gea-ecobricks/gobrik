@@ -146,7 +146,7 @@
     }
 
     .earth-com {
-      background: url(../svgs/earth-community-day.svg) no-repeat center;
+      background: url(../svgs/earth-community-day.svg?v=2) no-repeat center;
       background-size: contain;
     }
 
