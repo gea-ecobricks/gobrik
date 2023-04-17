@@ -336,7 +336,6 @@ transition: 0.5s;
   -webkit-animation-delay: 0s;
 }
 
-}
 @keyframes regularecobricks {
   0% {
     top: -94vh;
