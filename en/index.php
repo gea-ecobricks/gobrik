@@ -328,40 +328,38 @@ transition: 0.5s;
   transition: 0.5s;
   opacity: 0.81;
   
-animation: regularecobricks;
-animation-delay: 0s; 
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-
--webkit-animation: regularecobricks 1.1s forwards;
--webkit-animation-delay: 0s;
-
+  animation: regularecobricks 1.1s forwards;
+  animation-delay: 0s; 
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation: regularecobricks 1.1s forwards;
+  -webkit-animation-delay: 0s;
 }
 
+}
 @keyframes regularecobricks {
-0% {
-  top: -94vh;
-}
-
-75% {
+  0% {
+    top: -94vh;
+  }
+  75% {
     top: -64vh;
-}
-100% {
+  }
+  100% {
     top: -70vh;
-  
-}}
+  }
+}
 
 @-webkit-keyframes regularecobricks {
-0% {
-  -webkit-top: -94vh;
+  0% {
+    -webkit-top: -94vh;
+  }
+  75% {
+    -webkit-top: -64vh;
+  }
+  100% {
+    -webkit-top: -70vh;
+  }
 }
-75% {
-  -webkit-top: -64vh;
-}
-
-    100% {
-      -webkit-top: -70vh;
-} }
 
 
 #gal-button {
