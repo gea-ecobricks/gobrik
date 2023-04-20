@@ -838,7 +838,7 @@ text-decoration: none;
       text-align: center;
       width: 80%;
       height: 100%;
-      margin: 35px auto 10px auto;
+      margin: 15px auto 10px auto;
       }
 
 
@@ -1154,7 +1154,7 @@ function openGallery() {
 }
 
 function closeGallery() {
-    document.getElementById("regularecobricks").style.top = "-80vh";
+    document.getElementById("regularecobricks").style.top = "-72vh";
     document.getElementById("gal-button").style.display = "flex";
     document.getElementById("regularecobricks").style.zIndex = "5";
     document.getElementById("up-arrow").style.display = "none";
@@ -1218,7 +1218,7 @@ function closeGallery() {
                 <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
                 
                 <div class="welcome-text">
-                GoBrik helps manage your ecobricks, projects and plastic transition so that we can build our greenest visions.
+                GoBrik helps manage your ecobricks, projects and plastic transition so that together we can build our greenest visions.
                 </div>
 
                 <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
