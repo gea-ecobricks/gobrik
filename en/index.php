@@ -638,7 +638,7 @@ text-align: center;
     .main-landing-graphic {
       width: 93%;
       height:39%;
-      margin-top: 19px;
+      margin-top: 9px;
       margin-bottom: -5px;
       min-width: 250px;
     min-height: 145px;
