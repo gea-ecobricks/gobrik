@@ -37,7 +37,7 @@ Header set Cache-Control "max-age=31536000, public"
 Header set Cache-Control "max-age=536000, public"
 </FilesMatch>
 
-
+Redirect /index.php /en/index.php
 Redirect /index /en/index.php
 Redirect /index.html /en/index.php
 
