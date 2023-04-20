@@ -332,7 +332,7 @@ transition: 0.5s;
   overflow-y: scroll;
   transition: 0.5s;
   opacity: 0.81;
-  height: var(--real100vh);
+  height: 100vh;
     top: -70vh;
     display: flex;
 
