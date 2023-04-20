@@ -68,7 +68,14 @@ AND UNIQUE to HTML Pages-->
 
 
 -------------------------------------------------------------------------- */
-
+:root {
+    --unit-100vh: 100vh;
+}
+@supports (height: 100dvh) {
+    :root {
+        --unit-100vh: 100dvh;
+    }
+}
 
 html {
   height: 100%;
@@ -308,8 +315,7 @@ transition: 0.5s;
 
 #regularecobricks {
     box-shadow: 0px 0px 15px rgba(0, 0, 10, 0.8);
-    height: 100vh;
-    display: none;
+   
     left: 0;
     right: 0;
     position: absolute;
@@ -324,18 +330,25 @@ transition: 0.5s;
   background-color: var(--gallery);
   overflow-x: clip;
   overflow-y: scroll;
-  top: -94vh;
   transition: 0.5s;
   opacity: 0.81;
+  height: var(--real100vh);
+    top: -70vh;
+    display: flex;
+
   
+  /*
+      display: none;
+
   animation: regularecobricks 1.1s forwards;
   animation-delay: 0s; 
   animation-duration: 1s;
   animation-fill-mode: forwards;
   -webkit-animation: regularecobricks 1.1s forwards;
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 0s;*/
 }
 
+/*
 @keyframes regularecobricks {
   0% {
     top: -94vh;
@@ -358,7 +371,7 @@ transition: 0.5s;
   100% {
     -webkit-top: -70vh;
   }
-}
+}*/
 
 
 #gal-button {
@@ -1113,7 +1126,7 @@ p a:hover {
 
 
 <script>
-/* OPEN THE GALLERY ON MAIN PAGE */
+/* OPEN THE GALLERY ON MAIN PAGE
 
 window.onload = function() {
   showDivAfterDelay();
@@ -1127,7 +1140,7 @@ function showDivAfterDelay() {
       }, 0000);
     }
 
-   
+    */
 
 
 function openGallery() {
