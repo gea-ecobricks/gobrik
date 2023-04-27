@@ -41,7 +41,7 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
 <!--LEGACY Sheets to consolidate-->
-<link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v=1.01">
+<link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v=1.2">
 
 <!-- Old stylesheet 
 <link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v1.1">
