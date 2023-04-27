@@ -2739,3 +2739,136 @@ margin-top:-10px;
     
     #view_5762 .field_877 /*COURSES register button*/
     {margin-top:15px;}
+
+
+
+    /* AES PLASTIC OFFSET SALE */
+    
+    /* Step 1 white box */
+    
+    
+    @media screen and (min-width: 771px) {
+      #kn-scene_1950 {
+        background: rgba(256, 256, 256, 0.7);
+     position: relative;
+   z-index: 1;
+   padding-top: 0px;
+  /*box-shadow: 0px 0px 10px grey;*/
+   border-radius: 10px;
+     text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: -30px;
+        padding-bottom: 20px;
+         }
+   }
+   
+   
+   
+   
+   /* "How much would you like to offset today? " */
+   #kn-input-field_1802 > label:nth-child(1) {
+     font-weight: bold !important;
+   font-size: 24px !important;
+   /*color: #fff;*/
+   font-weight: 400 !important;}  
+   
+   
+   
+   /*  Aligns and Formats Prices */
+   #view_4979 .kn-equation {
+     display: block;
+     padding-left: 0px;
+   padding-top: 0px;
+   padding-bottom: 10px;
+   text-align: center;
+   font-size: 24px !important;
+    /* color: #fff;*/
+   }
+   
+   
+   /*  Underline Brikcoin Symbol */
+   .kn-equation a {text-decoration: underline;
+   text-align: center;
+    /*color: #fff;*/}
+   
+   /* Align price exchanges! */
+   #view_4979 .kn-instructions {padding-top: 5px;
+   /*text-decoration: underline;*/
+   text-align: center;
+    /*color: #fff !important;*/}
+   
+   #view_4979 .kn-form-col.is-one-half {width: 100%;}
+   
+   #view_4979 .fa-calculator {  display: none;}
+   
+   #view_4979 .label {padding-top: 0px;
+   text-align: center;}
+   
+   #view_4979 {
+    background-color: var(--slider);
+     padding-bottom: 20px;
+     border-radius: 16px;
+     /*box-shadow: 0px 5px 10px grey;
+     
+    background: #c9ecf7;
+     background-image: -webkit-linear-gradient(top, #81d500,#7bb356);
+     background-image: -moz-linear-gradient(top, #81d500,#7bb356);
+     background-image: -ms-linear-gradient(top, #81d500,#7bb356);
+     background-image: -o-linear-gradient(top, #81d500,#7bb356);
+     background-image: linear-gradient(to bottom, #81d500,#7bb356);
+     -webkit-border-radius: 16;
+     -moz-border-radius: 16;
+      border-color: #1aa3ff;
+     border: 1px;
+     padding: 20px;*/
+   
+     text-align: center;
+     
+    
+   }
+   
+   /*monthly subscription box*/
+   #view_5407, #view_5400, #view_5930, #view_6344 {padding-bottom: 20px;
+     border-radius: 16px;
+     background-color: var(--slider);
+     -webkit-border-radius: 16;
+     -moz-border-radius: 16;
+
+    /* box-shadow: 0px 5px 10px grey;
+     
+    background: #c9ecf7;
+     background-image: -webkit-linear-gradient(top, #1aa3ff,#66c2ff);
+     background-image: -moz-linear-gradient(top, #1aa3ff,#66c2ff);
+     background-image: -ms-linear-gradient(top, #1aa3ff,#66c2ff);
+     background-image: -o-linear-gradient(top, #1aa3ff,#66c2ff);
+     background-image: linear-gradient(to bottom, #1aa3ff,#66c2ff);
+    
+          border-color: #1aa3ff;
+          border: 1px;
+
+   */
+     text-align: center;
+     padding: 20px;
+     }
+   
+   #view_5407, #view_5400, #view_5930  .kn-title {color: white;}
+   
+   
+   #field_1802 {font-size: 55px !important;
+   text-align: center;
+   color: grey;}
+   
+   #view_4979 ul.kn-form-group:nth-child(2) {margin-top: -27px}
+   
+   #payment-processor-container-stripe {margin-top: 35px}
+   
+   .checkout-view .kn-form .update-info {margin-top: 10px;} /*space above credit card rememberbered number*/
+   
+   #view_4830 .field_1910 {background-color: white;
+   }
+   
+   
+   label.option.checkbox a {text-decoration: underline;}
+   
+   
