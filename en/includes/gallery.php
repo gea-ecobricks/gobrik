@@ -22,7 +22,7 @@
 
                 
 
-                $sql = "SELECT * FROM vw_gallery_feed ORDER BY id;";
+                $sql = "SELECT * FROM vw_gallery_feed;";
                 $result = $conn->query($sql);
                 if ($result->num_rows > 0) {
                 // array_reverse ($result);
