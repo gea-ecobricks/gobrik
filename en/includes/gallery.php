@@ -20,7 +20,7 @@
 
                 <?php
 
-$sql = "SELECT * FROM vw_gallery_feed ;";
+$sql = "SELECT * FROM vw_gallery_feed ORDER BY id DESC;";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 // output data of each row
