@@ -20,12 +20,12 @@
 
                 <?php
 
-                $sql = "SELECT * FROM vw_gallery_feed ;";
-                $result = $conn->query($sql);
-                if ($result->num_rows > 0) {
-                // array_reverse ($result);
-                // output data of each row
-                while( $row= $result->fetch_assoc()) {
+$sql = "SELECT * FROM vw_gallery_feed ORDER BY id DESC;";
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+
+         
 
                 echo '
                 <div class="gal-photo">
