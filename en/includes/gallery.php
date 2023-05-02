@@ -20,7 +20,7 @@
 
                 <?php
 
-$sql = "SELECT * FROM vw_gallery_feed;";
+$sql = "SELECT * FROM vw_gallery_feed DESC;";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
 // output data of each row
@@ -33,7 +33,6 @@ $row = $result->fetch_assoc();
                         <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["thumb_url"].'?v=2" loading="lazy" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>
                     </div>
                 </div>';
-        
                 }
 
                 } else {
