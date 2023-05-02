@@ -20,9 +20,9 @@
 
                 <?php
 
-$sql = "SELECT * FROM vw_gallery_feed DESC;";
+$sql = "SELECT * FROM vw_gallery_feed ORDER BY ecobrick_unique_id DESC;";
 $result = $conn->query($sql);
-if ($result->num_rows > 0) {
+if ($result->num_rows > 0)
 // output data of each row
 while($row = $result->fetch_assoc()) {
 $row = $result->fetch_assoc();
