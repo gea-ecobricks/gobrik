@@ -124,8 +124,10 @@ background: var(--top-header) !important;
   border-width: 8px;
   padding-bottom: 25px;
   margin-left: 4px;
-  margin-bottom: 3.5em;
+
 }
+
+#view_159 {margin-bottom: 3.5em;}
 
 
 /*Community Stats*/
