@@ -6,8 +6,7 @@
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
-<title>GoBrik | Beta</title>
-
+<title>GoBrik | 2.0 </title>
 
 
 <meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
@@ -26,8 +25,6 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:height" content="1000" >
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
-
-
 
 <script type="text/javascript">app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; async</script>
         
@@ -49,7 +46,7 @@ AND UNIQUE to HTML Pages-->
 -->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../march-stylesheet.css?v9.91">
+<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1">
 
  <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">

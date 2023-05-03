@@ -2787,6 +2787,10 @@ margin-top:-10px;
    /*text-decoration: underline;*/
    text-align: center;
     /*color: #fff !important;*/}
+
+    #view_4979 ul.kn-form-group:nth-child(3) {
+        flex-flow: row;
+    }
    
    #view_4979 .kn-form-col.is-one-half {width: 100%;}
    
