@@ -54,16 +54,13 @@ background: #fff;
 
 #view_2715 {  /*home*/
   padding: 17px;
-background: #c3f8ff;
-border-color:#b0e5eb;
-border: 6px;
+background: var(--button-1-1-over);
+
  border-radius: 8px;
  
 	margin-top: -40px;
 	margin-bottom: 70px;
 	
-	  box-shadow: 0px 2px 5px grey;
-
   }
 
 #view_5270 { /*got-it button*/
@@ -2752,8 +2749,6 @@ margin-top:-10px;
         padding-bottom: 20px;
          }
    }
-   
-   
    
    
    /* "How much would you like to offset today? " */

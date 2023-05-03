@@ -46,7 +46,7 @@ AND UNIQUE to HTML Pages-->
 -->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1">
+<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.1">
 
  <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
