@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Celestial Body Positions</title>
+        <meta name="viewport" content="width=device-width,maximum-scale=2">
+        <link rel="stylesheet" href="astro_demo.css" />
+    </head>
+    <body id="main_content_wrap" class="inner">
+        <h1>Celestial Body Positions</h1>
+
+        <h2>Observer</h2>
+        <table cellpadding="5" cellspacing="0" border="1">
+            <tr>
+                <td>
+                    <div>Date and Time:</div>
+                    <div>
+                        <input type="checkbox" id="AutoTimeCheckBox" onchange="OnToggleAutoTime()">
+                        <label for="AutoTimeCheckBox">Automatic</label>
+                    </div>
+                </td>
+                <td>
+                    <input type="datetime" id="DateTimeBox" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>Latitude:</td>
+                <td><input type="text" id="EditLatitude" pattern="[\-\+]?\d+(\.\d*)?" size="10"></td>
+            </tr>
+            <tr>
+                <td>Longitude:</td>
+                <td><input type="text" id="EditLongitude" pattern="[\-\+]?\d+(\.\d*)?" size="10"></td>
+            </tr>
+            <tr>
+                <td>Elevation (m):</td>
+                <td><input type="text" id="EditElevation" pattern="[\-\+]?\d+(\.\d*)?" size="10"></td>
+            </tr>
+        </table>
+
+        <h2>Body Positions</h2>
+        <table cellpadding="5" cellspacing="0" id="CalcTable" border="1">
+            <tr>
+                <td>body</td>
+                <td class="NumHeader">RA</td>
+                <td class="NumHeader">DEC</td>
+                <td class="NumHeader">Az</td>
+                <td class="NumHeader">Alt</td>
+            </tr>
+            <tr>
+                <td>Sun</td>
+                <td id="Sun_ra" class="Numeric"></td>
+                <td id="Sun_dec" class="Numeric"></td>
+                <td id="Sun_az" class="Numeric"></td>
+                <td id="Sun_alt" class="Numeric"></td>
+            </tr>
+            <tr>
+                <td>Moon</td>
+                <td id="Moon_ra" class="Numeric"></td>
+                <td id="Moon_dec" class="Numeric"></td>
+                <td id="Moon_az" class="Numeric"></td>
+                <td id="Moon_alt" class="Numeric"></td>
+            </tr>
+            <tr>
+                <td>Mercury</td>
+                <td id="Mercury_ra" class="Numeric"></td>
+                <td id="Mercury_dec" class="Numeric"></td>
+                <td id="Mercury_az" class="Numeric"></td>
+                <td id="Mercury_alt" class="Numeric"></td>
+            </tr>
+            <tr>
+                <td>Venus</td>
+                <td id="Venus_ra" class="Numeric"></td>
+                <td id="Venus_dec" class="Numeric"></td>
+                <td id="Venus_az" class="Numeric"></td>
+                <td id="Venus_alt" class="Numeric"></td>
+            </tr>
+            <tr>
+                <td>Mars</td>
+                <td id="Mars_ra" class="Numeric"></td>
+                <td id="Mars_dec" class="Numeric"></td>
+                <td id="Mars_az" class="Numeric"></td>
+                <td id="Mars_alt" class="Numeric"></td>
+            </tr>
+            <tr>
+                <td>Jupiter</td>
+                <td id="Jupiter_ra" class="Numeric"></td>
+                <td id="Jupiter_dec" class="Numeric"></td>
+                <td id="Jupiter_az" class="Numeric"></td>
+                <td id="Jupiter_alt" class="Numeric"></td>
+            </tr>
+            <tr>
+                <td>Saturn</td>
+                <td id="Saturn_ra" class="Numeric"></td>
+                <td id="Saturn_dec" class="Numeric"></td>
+                <td id="Saturn_az" class="Numeric"></td>
+                <td id="Saturn_alt" class="Numeric"></td>
+            </tr>
+            <tr>
+                <td>Uranus</td>
+                <td id="Uranus_ra" class="Numeric"></td>
+                <td id="Uranus_dec" class="Numeric"></td>
+                <td id="Uranus_az" class="Numeric"></td>
+                <td id="Uranus_alt" class="Numeric"></td>
+            </tr>
+            <tr>
+                <td>Neptune</td>
+                <td id="Neptune_ra" class="Numeric"></td>
+                <td id="Neptune_dec" class="Numeric"></td>
+                <td id="Neptune_az" class="Numeric"></td>
+                <td id="Neptune_alt" class="Numeric"></td>
+            </tr>
+            <tr>
+                <td>Pluto</td>
+                <td id="Pluto_ra" class="Numeric"></td>
+                <td id="Pluto_dec" class="Numeric"></td>
+                <td id="Pluto_az" class="Numeric"></td>
+                <td id="Pluto_alt" class="Numeric"></td>
+            </tr>
+        </table>
+
+        <p>
+            This is a sample page for the open-source
+            <a href="https://github.com/cosinekitty/astronomy/">Astronomy Engine</a>.
+            All of the source code and documentation is available there.
+            Also, try using your browser's View Source command to look at how this page works.
+        </p>
+
+    </body>
+
+    <script src="astronomy.browser.js"></script>
+    <script>
+        function OnToggleAutoTime() {
+            const checkbox = document.getElementById('AutoTimeCheckBox');
+            const editbox = document.getElementById('DateTimeBox');
+            if (checkbox.checked) {
+                editbox.setAttribute('readonly', true);
+            } else {
+                editbox.removeAttribute('readonly');
+            }
+        }
+
+        window.onload = function() {
+            const StorageKey = 'AstroDemo.Options';
+            var Options;
+
+            function ParseDate(s) {
+                return new Date((s || '').replace(' ', 'T'));   // Safari doesn't like the space character
+            }
+
+            function IsValidNumber(s) {
+                return typeof s === 'string' && /^[\-\+]?\d+(\.\d*)?$/.test(s);
+            }
+
+            function IsValidDate(s) {
+                const d = ParseDate(s);
+                return Number.isFinite(d.getTime());
+            }
+
+            function LoadOptions() {
+                let options;
+                try {
+                    options = JSON.parse(window.localStorage.getItem(StorageKey));
+                } catch (e) {
+                }
+
+                if (!options) options = {};
+                if (!IsValidNumber(options.latitude))  options.latitude  = '30';
+                if (!IsValidNumber(options.longitude)) options.longitude = '-90';
+                if (!IsValidNumber(options.elevation)) options.elevation = '0';
+                if (typeof options.automatic !== 'boolean') options.automatic = true;
+                if (!IsValidDate(options.date)) options.date = FormatDate(new Date());
+                return options;
+            }
+
+            function SaveOptions() {
+                try {
+                    window.localStorage.setItem(StorageKey, JSON.stringify(Options));
+                } catch (e) {
+                }
+            }
+
+            function Init() {
+                let options = LoadOptions();
+                document.getElementById('EditLatitude').value  = options.latitude;
+                document.getElementById('EditLongitude').value = options.longitude;
+                document.getElementById('EditElevation').value = options.elevation;
+                document.getElementById('DateTimeBox').value = options.date;
+                let checkbox = document.getElementById('AutoTimeCheckBox');
+                checkbox.checked = options.automatic;
+                OnToggleAutoTime();
+                return options;
+            }
+
+            function Pad(s, w) {
+                s = s.toFixed(0);
+                while (s.length < w) {
+                    s = '0' + s;
+                }
+                return s;
+            }
+
+            function FormatDate(date) {
+                var year = Pad(date.getFullYear(), 4);
+                var month = Pad(1 + date.getMonth(), 2);
+                var day = Pad(date.getDate(), 2);
+                var hour = Pad(date.getHours(), 2);
+                var minute = Pad(date.getMinutes(), 2);
+                var second = Pad(date.getSeconds(), 2);
+                return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+            }
+
+            function FormatCoord(x) {
+                return x.toFixed(2);
+            }
+
+            const BodyList = [
+                'Sun', 'Moon', 'Mercury', 'Venus', 'Mars',
+                'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto'
+            ];
+
+            function UpdateScreen() {
+                const autotime = document.getElementById('AutoTimeCheckBox').checked;
+                const timebox = document.getElementById('DateTimeBox');
+                let text_latitude = document.getElementById('EditLatitude').value;
+                let text_longitude = document.getElementById('EditLongitude').value;
+                let text_elevation = document.getElementById('EditElevation').value;
+                let date;
+
+                if (autotime) {
+                    // Automatically update the date/time every second, using the computer's clock.
+                    date = new Date();
+                    timebox.value = FormatDate(date);
+                } else {
+                    // Try to parse a date/time from the user's input.
+                    date = ParseDate(timebox.value);
+                }
+
+                if (!IsValidDate(timebox.value) || !IsValidNumber(text_latitude) || !IsValidNumber(text_longitude) || !IsValidNumber(text_elevation)) {
+                    // Bail out until user corrects problems in the observer coordinates.
+                    // Gray out the whole table so the user knows there is something wrong.
+                    document.getElementById('CalcTable').style.display = 'none';
+                } else {
+                    document.getElementById('CalcTable').style.display = '';
+
+                    let latitude = parseFloat(text_latitude);
+                    let longitude = parseFloat(text_longitude);
+                    let elevation = parseFloat(text_elevation);
+                    if (latitude !== Options.latitude || longitude !== Options.longitude || elevation !== Options.elevation || Options.automatic !== autotime) {
+                        Options = {
+                            latitude: text_latitude,
+                            longitude: text_longitude,
+                            elevation: text_elevation,
+                            automatic: autotime,
+                            date: timebox.value
+                        };
+                        SaveOptions();
+                    }
+                    let observer = new Astronomy.Observer(latitude, longitude, elevation);
+
+                    for (let body of BodyList) {
+                        let equ_2000 = Astronomy.Equator(body, date, observer, false, true);
+                        let equ_ofdate = Astronomy.Equator(body, date, observer, true, true);
+                        let hor = Astronomy.Horizon(date, observer, equ_ofdate.ra, equ_ofdate.dec, 'normal');
+                        document.getElementById(`${body}_ra`).innerText = FormatCoord(equ_2000.ra);
+                        document.getElementById(`${body}_dec`).innerText = FormatCoord(equ_2000.dec);
+                        document.getElementById(`${body}_az`).innerText = FormatCoord(hor.azimuth);
+                        document.getElementById(`${body}_alt`).innerText = FormatCoord(hor.altitude);
+                    }
+
+                }
+
+                setTimeout(UpdateScreen, 1000);
+            }
+
+            Options = Init();
+            UpdateScreen();
+        }
+    </script>
+</html>
