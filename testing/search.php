@@ -95,40 +95,28 @@
 <div id="main-content">
 	<div class="row">
 		<div class="main">
-			<div class="row-details">
-
-		     <p><div class="vision-quote">Vision Quotation</div></p>
-	
-			
-	<div class="lead-page-paragraph">Lead Page Paragraph
-	</div>
-
-	
-
-
-					
-					
-					
-	<div class="page-paragraph">
-		<p>This ecobrick was completed with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>
-
-		<p>On '. $array["date_logged_ts"] .' the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
-						
-	</div>
-	
-			<br><hr>
-			<div class="page-paragraph">
-			<p><h2 style="text-align: left !important;
-			text-shadow: none !important;">The Brikchain</h2></p>
+		     	<div class="vision-quote">Vision Quotation</div>
 		
-			<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
+				<div class="lead-page-paragraph">Lead Page Paragraph</div>
 
-		<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
-			<br>
-			<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
-			<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+				<div class="page-paragraph">
+				
+				<p>This ecobrick was completed with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>
+
+				<p>On '. $array["date_logged_ts"] .' the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
+						
+				
+				<h2 style="text-align: left !important; text-shadow: none !important;">The Brikchain</h2>
+
+				<p>When an ecobrick is authenticated, like the one above, it is published to the brikcoin manual blockchain and coins are issued according to its ecological value.  This is what we call the Brikchain.  On the Brikchain, you can find this ecobrick and all the other ecobricks, blocks and transactions that underpin the Brickoin complimentary currency.</p>
+
+				<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
+				<br>
+				<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
+				
+				</div>
 			</div>
-		</div>
 		
 		<div class="side">
 
