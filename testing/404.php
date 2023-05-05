@@ -28,7 +28,7 @@
 <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v=3" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
-<link rel="stylesheet" href="../dark.css?v5.6" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../dark.css?v5.7" media="(prefers-color-scheme: dark)">
 
 <!-- This is the login information for the MYSQL database.  It is working.  And is already working on the index page -->
 
@@ -95,6 +95,8 @@
 <div id="main-content">
 	<div class="row">
 		<div class="main">
+
+        <div class="vision-quote">404 Error</div>
 		
 				<div class="lead-page-paragraph">Sorry, this page is missing or the URL you used is incorrect.</div>
 
@@ -103,12 +105,12 @@
 				<p>Check the page URL to make sure there's no typos in the address.  Or use the menu on the top right to go to another page or back home.</p>
 				<br>
 				<p><a class="action-btn-blue" href="go.php">🏠 Home</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;">Our main landing page.</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;">Our main landing page.</a></p><br>
                 <p><a class="action-btn-blue" href="go.php">👨‍💻 Login</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;">Already have an account? Login to GoBrik.</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;">Already have an account? Login to GoBrik.</a></p><br>
 
                 <p><a class="action-btn-blue" href="go.php">✍️ Sign Up</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;">No account yet?  Register for a free GoBrik account.</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;">No account yet?  Register for a free GoBrik account.</a></p><br>
 				
 				</div>
 			</div>
