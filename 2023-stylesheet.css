@@ -1492,11 +1492,12 @@ cursor: pointer;
   @media screen and (min-width: 1301px) {
       .side {
       flex: 24%;
-      padding: 70px 20px 0px 20px;
+      padding: 70px 10px 0px 10px;
       box-sizing: border-box;
       margin-top: -80px;
       background:var(--top-header);
     border-radius: 20px;
+
       }
       }
 
@@ -1504,10 +1505,12 @@ cursor: pointer;
       @media screen and (min-width: 701px) and (max-width: 1300px) {
         .side {
         flex: 24%;
-        padding: 70px 20px 0px 20px;
+        padding: 70px 10px 0px 10px;
         box-sizing: border-box;
         background:var(--top-header);
       border-radius: 20px;
+      margin-top: -80px;
+
         }
         }
   
