@@ -243,7 +243,7 @@ echo '
 
 		<p>As a non-capital, manual process, Brikcoins favors anyone anywhere willing to work with their hands to make a meaningful ecological contribution.</p>
 			<br>
-			<p><a class="action-btn-blue" href="brikchain.php">🔎 Browse the Brikchain</a></p>
+			<p><a class="action-btn-blue" href="https://ecobricks.org/brikchain.php">🔎 Browse the Brikchain</a></p>
 			<p style="font-size: 0.85em; margin-top:20px;">The live chain of transactions and ecobricks.</a></p>
 			</div>
 		</div>';
@@ -254,7 +254,7 @@ echo '
 					<img src="../svgs/authenticated-brik.svg?v=3" width="80%" alt="Following Earths example through eco bricking">
 					<br><h2>Authenticated!</h2>
 					<p>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</p><br>
-					<a class="module-btn" href="/about">About Ecobricks</a>
+					<a class="module-btn" href="https://ecobricks.org/what">About Ecobricks</a>
 					<br><br>
 				</div>   ';
 
@@ -339,15 +339,18 @@ echo '
 				<img src="../webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
 				<!--<h4>AES Plastic</h4>-->
 				<p>The weight of the plastic inside an authenticated ecobrick is what we call Authenticated Ecobricked Plastic (AES plastic) for short.</p><br>
-				<a class="module-btn" href="/aes" target="_blank">About AES</a><br><br>
+				<a class="module-btn" href="https://ecobricks.org/aes" target="_blank">About AES</a><br><br>
 			</div>
 
 			<div id="side-module-desktop-mobile">
 				<img src="../webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
 				<h2>Brikcoins</h2>
 				<p>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</p><br>
-				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
+				<a class="module-btn" href="https://ecobricks.org/brikcoins.php">About Brikcoins</a><br><br>
 			</div>
+
+			<?php require_once ("side-modules/about-gea.php");?>
+
 
 
 

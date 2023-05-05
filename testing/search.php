@@ -84,7 +84,8 @@
 	</div>
 	
 	<div class="splash-image">
-		<img src="https://s3-eu-west-1.amazonaws.com/assets.knack-eu.com/assets/5b8c28c2a1152679c209ce0c/5f4c71fbadcff100153f2bff/original/searchecobricks500px.png">
+		<img src="../images/searchecobricks500px.png" style="
+	width: 85%; margin-top:-20px;">
 	</div>	
 </div>
 
@@ -96,72 +97,24 @@
 		<div class="main">
 			<div class="row-details">
 
-	<p><div class="vision-quote">Search</div></p>';
-		     <p><div class="vision-quote"> By serial, location, user, etc.</div></p>
+		     <p><div class="vision-quote">Vision Quotation</div></p>
 	
 			
-	<div class="lead-page-paragraph">
-						Some infor
-						</div>
+	<div class="lead-page-paragraph">Lead Page Paragraph
+	</div>
 
 	
 
-				
 
-		<div class="main-details">
 					
 					
 					
-					<div class="page-paragraph">
-						<p>This ecobrick was completed with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>
+	<div class="page-paragraph">
+		<p>This ecobrick was completed with a density of '. $array["density"] .'&#8202;g/ml and represents '. $array["CO2_kg"] .'&#8202;kg of sequestered C02. The ecobrick is permanently marked with Serial Number '. $array["serial_no"] .' and on '. $array["date_logged_ts"] .' was automatically added to the validation queue.  Based in '. $array["location_region"] .', '. $array["owner"] .' and their community '. $array["community_name"] .', are working hard to keep plastic out of the biosphere in '. $array["location_country"] .'. </p>
 
-						<p>On '. $array["date_logged_ts"] .' the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
+		<p>On '. $array["date_logged_ts"] .' the ecobrick was authenticated with an average validation score of '. $array["final_validation_score"] .'. The ecobrick’s authentication generated '. $array["ecobrick_dec_brk_val"] .'&#8202;ß. The ecobrick was ranked with the score of '. $array["validation_score_avg"] .'.</p>
 						
-					</div>
-				</div><div class="side-details">
-				
-			</div>
-	
-			</div>
-			<div id="data-chunk">
-				<div class="ecobrick-data">
-					<p style="margin-left: -32px;font-weight: bold;">>> Raw Brikchain Data Record</p><br>
-					<p>--------------------</p>
-					<p>BEGIN BRIK RECORD ></p>';
-			echo ' <p><b>Link to brk trans:</b><var>  No link yet</var></p>' ;
-			echo ' <p><b>Logged:</b> ' . $array["date_logged_ts"] .'</p>' ;
-			echo ' <p><b>Volume:</b> <var>'. $array["volume_ml"] .' &#8202;ml</var></p>' ;
-			echo ' <p><b>Weight:</b> <var>' . $array["weight_g"] .'&#8202;g</var></p>' ;
-			echo ' <p><b>Density:</b> <var>' . $array["density"] .'&#8202;g/ml</var></p>' ;
-			echo ' <p><b>CO2e:</b>  <var>' . $array["CO2_kg"] .' &#8202;kg</var></p>' ;
-			
-			echo ' <p><b>Brikcoin value:</b> <var>' . $array["ecobrick_dec_brk_val"] .'&#8202;ß</var></p>' ;
-
-			echo ' <p><b>Maker:</b> <var><i>' . $array["owner"] .'</i></var> </p>' ;
-			echo ' <p><b>Sequestration:</b> <var>' . $array["sequestration_type"].'</var></p>' ;
-			echo ' <p><b>Brand:</b> <var>' . $array["brand_name"] .'</var></p>' ;
-			echo ' <p><b>Bottom colour:</b> ' . $array["bottom_colour"] .'</p>' ;
-
-			echo ' <p><b>Plastic source:</b>  ' . $array["plastic_from"] .'</p>' ;
-
-			echo ' <p><b>Community:</b> <var>' . $array["community_name"] .'</var></p>' ;
-			echo ' <p><b>City:</b> <var>' . $array["location_city"] .'</var></p>' ;
-			echo ' <p><b>Region:</b> <var>' . $array["location_region"] .'</var></p>' ;
-			echo ' <p><b>Country:</b> ' . $array["location_country"] .'</p>' ;
-			echo ' <p><b>Full location:</b> <var>' . $array["location_full"] .'</var></p>' ;
-
-
-			echo ' <p><b>Validation:</b> ' . $array["last_validation_ts"] .'</var></p>' ;
-			echo ' <p><b>Validator 1:</b> <var>' . $array["validator_1"] .'</var> </p>' ;
-			echo ' <p><b>Validator 2:</b> <var>' . $array["validator_2"] .'</var> </p>' ;
-			echo ' <p><b>Validator 3:</b> <var>' . $array["validator_3"] .'</var> </p>' ;
-			echo ' <p><b>Validation score avg.:</b> <var>' . $array["validation_score_avg"] .'</var></p>' ;
-
-			echo ' <p><b>Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
-			echo ' <p><b>Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
-			<p>> END RECORD.</p>
-				</div>
-			</div>
+	</div>
 	
 			<br><hr>
 			<div class="page-paragraph">
@@ -179,30 +132,15 @@
 		
 		<div class="side">
 
-			<div id="side-module-desktop-mobile">
-					<img src="../svgs/authenticated-brik.svg?v=3" width="80%" alt="Following Earths example through eco bricking">
-					<br><h2>Authenticated!</h2>
-					<p>This ecobrick has been authenticated by three independent validators that it meets the standards of plastic sequestration.</p><br>
-					<a class="module-btn" href="/about">About Ecobricks</a>
-					<br><br>
-				</div>  
+		
+<?php require_once ("side-modules/about-gea.php");?>
 
+<?php require_once ("side-modules/brikcoin-live-values.php");?>
 
-            <div id="side-module-desktop-mobile">
-				<img src="../webp/aes-400px.webp" width="80%" alt="For-Earth Enterprise through eco bricking">
-				<!--<h4>AES Plastic</h4>-->
-				<p>The weight of the plastic inside an authenticated ecobrick is what we call Authenticated Ecobricked Plastic (AES plastic) for short.</p><br>
-				<a class="module-btn" href="/aes" target="_blank">About AES</a><br><br>
-			</div>
-
-			<div id="side-module-desktop-mobile">
-				<img src="../webp/2-brikcoins-450px.webp" width="75%" loading="lazy" alt="eco brik and earth building can make regenerative structures">
-				<h2>Brikcoins</h2>
-				<p>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</p><br>
-				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
-			</div>
-
-
+<?php require_once ("side-modules/for-earth.php");?>
+    
+	
+	
 
 		</div>
 
