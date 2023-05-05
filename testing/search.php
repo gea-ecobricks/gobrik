@@ -85,7 +85,7 @@
 	
 	<div class="splash-image">
 		<img src="../images/searchecobricks500px.png" style="
-	width: 85%; margin-top:-20px;">
+	width: 100%; margin-top:-20px;">
 	</div>	
 </div>
 
