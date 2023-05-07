@@ -16,14 +16,25 @@ AND UNIQUE to HTML Pages-->
 
 <meta property="og:url"           content="https://www.gobrik.com/en/courses.php">
 <meta property="og:type"          content="website">
-<meta property="og:title"         content="Courses | GoBrik.com">
-<meta property="og:description"   content="Regenerative courses in Plastic Transition to accelerate your green living." >
+<meta property="og:title"         content="Regenerative Courses & Workshops">
+<meta property="og:description"   content="Register to accelerate your plastic transition and green living." >
 <meta property="og:image"         content="https://www.gobrik.com/images/courses-banner-750px.png" >
 <meta property="fb:app_id"  content="1781710898523821" >
 <meta property="og:image:width" content="750" />
 <meta property="og:image:height" content="" />
 <meta property="og:image:alt"     content="Ecobrick and Earthen Courses"/>
-<meta property="og:locale" content="en_GB, es_ES" />
+<meta property="og:locale" content="en_GB, id_ID" />
+
+<meta property="article:modified_time" content="2023-05-07T09:14:13+00:00" />
+
+	<meta name="author" content="GoBrik.com">
+  
+  <meta property="og:type" content="page" />
+ <meta property="og:site_name" content="GoBrik.com" />
+ <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
+ <meta property="og:image:type" content="image/png" />
+ <meta name="author" content="GoBrik.com" />
+
 
 
 
@@ -67,7 +78,6 @@ AND UNIQUE to HTML Pages-->
 
 .kn-mobile-controls { 
   z-index: 26 !important;
-  margin-top: -24px;
 }
 
 .main-menu-button {

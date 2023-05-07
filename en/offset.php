@@ -31,7 +31,7 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:width" content="1000" />
 <meta property="og:image:height" content="" />
 <meta property="og:image:alt"     content="A balance of grey and green impacts"/>
-<meta property="og:locale" content="en_GB, id_ID, es_ES" />
+<meta property="og:locale" content="en_GB, id_ID" />
 
 <meta property="article:modified_time" content="2023-05-07T09:14:13+00:00" />
 
@@ -40,7 +40,6 @@ AND UNIQUE to HTML Pages-->
   <meta property="og:type" content="page" />
  <meta property="og:site_name" content="GoBrik.com" />
  <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org" />
- <meta property="article:modified_time" content="2022-08-14T09:14:13+00:00" />
  <meta property="og:image:type" content="image/png" />
  <meta name="author" content="GoBrik.com" />
 
@@ -86,7 +85,6 @@ AND UNIQUE to HTML Pages-->
 
 .kn-mobile-controls { 
   z-index: 26 !important;
-  margin-top: -24px;
 }
 
 .main-menu-button {
