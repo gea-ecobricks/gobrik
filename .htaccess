@@ -53,13 +53,13 @@ Redirect /store /regen-store.php
 Redirect /store/ /regen-store.php
 Redirect /regen-store /regen-store.php
 
-Redirect /courses /courses.php
-Redirect /courses/ /courses.php
-Redirect /course /courses.php
-Redirect /course/ /courses.php
+Redirect /courses /en/courses.php
+Redirect /courses/ /en/courses.php
+Redirect /course /en/courses.php
+Redirect /course/ /en/courses.php
 
-Redirect /kursus /kursus.php
-Redirect /kursus/ /kursus.php
+Redirect /kursus /en/courses.php
+Redirect /kursus/ /en/courses.php
 
 Redirect /disclosure /disclosure.php
 
