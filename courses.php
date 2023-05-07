@@ -27,7 +27,6 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:locale" content="en_GB, es_ES" />
 
 
-
 <!-- sets page meta tags:  be sure to add page name-->
 <?php require_once ("header.php");?>
 
