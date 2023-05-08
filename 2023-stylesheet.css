@@ -1634,6 +1634,16 @@ This removes the three columns on the log in scenes but keeps it on the course a
      
     .column.is-half {width: 100% !important;}
 
+
+    @media screen and (min-width: 769px) {}
+
+   #kn-scene_1870 .kn-content .columns:not(.is-desktop) {
+      display: flex !important;
+      flex-flow: row;
+        flex-wrap: nowrap;
+      flex-wrap: wrap;
+    }
+
     /*which scenes are these?!
     
     #kn-scene_1812 .columns:not(.is-desktop) {display: flex !important;}
