@@ -47,11 +47,13 @@ Redirect /index.html /en/index.php
 Redirect /market /market.php
 Redirect /marketplace/ /market.php
 
-Redirect /shop /regen-store.php
-Redirect /shop/ /regen-store.php
-Redirect /store /regen-store.php
-Redirect /store/ /regen-store.php
-Redirect /regen-store /regen-store.php
+Redirect /shop /en/shop.php
+Redirect /shop/ /en/shop.php
+Redirect /store /en/shop.php
+Redirect /store/ /en/shop.php
+Redirect /regen-store /en/shop.php
+Redirect /regen-store.php /en/shop.php
+
 
 Redirect /courses /en/courses.php
 Redirect /courses/ /en/courses.php
