@@ -9,7 +9,6 @@
 <script async src="https://arc.io/widget.min.js#Z7EC7Cze"></script>
 
 
-
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages-->
 
