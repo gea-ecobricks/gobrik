@@ -10,7 +10,7 @@
  <!--   echo '
             <div class="brik-co2">'.$row["ecobrick_brk_amt"].' BRK<br>'.$row["weight_in_g"].'g<br>'.$row["CO2_kg"].' CO2e
                     </div>
-                    </div>';-->
+                    </div>'; ORDER BY ecobrick_unique_id ASC-->
             
 
 
@@ -20,10 +20,10 @@
 
                 <?php
 
-$sql = "SELECT * FROM vw_gallery_feed ORDER BY ecobrick_unique_id ASC ;";
+$sql = "SELECT * FROM vw_gallery_feed;";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
-// output data of each row
+// output data of each ro
 while($row = $result->fetch_assoc()) {
 $row = $result->fetch_assoc();
 

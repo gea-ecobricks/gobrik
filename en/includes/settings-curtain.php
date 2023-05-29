@@ -34,16 +34,17 @@
         </div> -->
 
         <div class="compro-toggle" style="margin: 10px auto 10px auto;">
-        <p style="font-size:1em">Change between dark & light theme 🚧</p>
+        <p style="font-size:1em">Change between dark & light theme:</p>
         <div style="font-size:1.25em">
-            <dark-mode-toggle
-            id="dark-mode-toggle-1"
+           
+        <dark-mode-toggle
+            id="dark-mode-toggle-5" style="padding:10px;font-size:small;"
+            class="slider"
             legend=""
-            appearance="switch"
-            dark="Night"
-            light="Day&nbsp;&nbsp;&nbsp;"
-            remember="Remember this"
-            ></dark-mode-toggle>
+            remember="Remember for all pages"
+            appearance="toggle">
+            </dark-mode-toggle>
+
         </div>
         </div>
 
