@@ -30,6 +30,9 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" as="image" href="https://gobrik.com/svgs/Happy-turtle-dolphin-opti2.svg">
 
 
+<script type="module" src="../dark-mode-toggle.mjs.js" async></script>
+
+
 <!-- sets page meta tags:  be sure to add page name-->
 <?php require_once ("header.php");?>
 
