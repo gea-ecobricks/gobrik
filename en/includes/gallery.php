@@ -19,13 +19,14 @@
             <div class="flex-container">
 
                 <?php
-
-$sql = "SELECT * FROM vw_gallery_feed;";
+                
+$sql = "SELECT * FROM vw_gallery_feed ;";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
-// output data of each ro
 while($row = $result->fetch_assoc()) {
-$row = $result->fetch_assoc();
+
+   //$row = $result->fetch_assoc();
+
 
                 echo '
                 <div class="gal-photo">

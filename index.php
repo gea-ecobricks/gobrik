@@ -32,6 +32,8 @@ AND UNIQUE to HTML Pages-->
 
 <script type="module" src="../dark-mode-toggle.mjs.js" async></script>
 
+<link rel="stylesheet" href="../slider.css?v1.1">
+
 
 <!-- sets page meta tags:  be sure to add page name-->
 <?php require_once ("header.php");?>
