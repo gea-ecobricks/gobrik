@@ -1222,7 +1222,7 @@ function closeGallery() {
 
                 
 
-                <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
+                <div class="big-header">Celebrate World Oceans Week by securing your plastic out of the oceans and into an ecobrick.</div>
                 
                 <div class="welcome-text">
                 GoBrik helps manage your ecobricks, projects and plastic transition so that together we can build our greenest visions.
@@ -1255,16 +1255,15 @@ function closeGallery() {
 
     <div class="bottom-scope" style="width:100%;height:100%;">
          <div class="landing-content">
-            <div class="tree-coins" style="background:none!important"><!--<img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks">-->
+            <div class="tree-coins" style="background:none!important">-<img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks">
 
-            <img src="../images/world-oceans-day-2023-700px-trans.png" style="width:100%;" alt="Build your greenest visions with ecobricks">
             
             </div>
         
             <div class="welcome-text">
-                <!--Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.-->
+                Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
 
-                Celebrate World Oceans Day and Week by securing your plastic out of the biosphere and our of industry.
+                
             
                <br><br> <img src="../svgs/aes-brk.svg" style="width:200px;" width="200" height="77" alt="Introducing Brikcoins and AES Plastic Offsetting">
             </div>
