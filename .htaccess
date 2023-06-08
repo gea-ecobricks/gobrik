@@ -68,6 +68,7 @@ Redirect /disclosure /disclosure.php
 Redirect /earthwands /earthwands.php
 
 Redirect /offset /en/offset.php
+Redirect /en/offset /en/offset.php
 Redirect /offset/ /en/offset.php
 Redirect /offset.php /en/offset.php
 

@@ -59,6 +59,8 @@ This enables accessibility text scaling on the page by the user
 
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+<link rel="stylesheet" type="text/css" href="../slider.css">
+
 
 
 <!-- This doesn't seem to be working:

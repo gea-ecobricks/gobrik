@@ -7,7 +7,7 @@
 AND UNIQUE to HTML Pages--> 
 
 
-<title>Courses | GoBrik.com</title>
+<title>Offset | GoBrik.com</title>
 <meta name="keywords" content="ecobrick courses, starter workshop, trainer course, trainer of trainer ecobrick course, gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace">
 <meta name="description" content="Regenerative courses in Plastic Transition to accelerate your green living.">
 
