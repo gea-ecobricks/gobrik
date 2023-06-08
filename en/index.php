@@ -1256,7 +1256,9 @@ function closeGallery() {
             </div>
         
             <div class="welcome-text">
-                Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
+                <!--Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.-->
+
+                Celebrate World Oceans Day and Week by securing your plastic out of the biosphere and our of industry.
             
                <br><br> <img src="../svgs/aes-brk.svg" style="width:200px;" width="200" height="77" alt="Introducing Brikcoins and AES Plastic Offsetting">
             </div>
