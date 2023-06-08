@@ -1249,7 +1249,11 @@ function closeGallery() {
 
     <div class="bottom-scope" style="width:100%;height:100%;">
          <div class="landing-content">
-            <div class="tree-coins"><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks"></div>
+            <div class="tree-coins"><!--<img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks">-->
+
+            <img src="../images/world-oceans-day-2023-500px.png" style="width:100%;" alt="Build your greenest visions with ecobricks">
+            
+            </div>
         
             <div class="welcome-text">
                 Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
