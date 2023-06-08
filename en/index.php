@@ -1211,8 +1211,14 @@ function closeGallery() {
           
             <div class="landing-content">
 
-                <div class="main-landing-graphic"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
-    min-height: 145px; width:100%;" width="250" height="112" alt="Unite"></div>
+                <div class="main-landing-graphic" style="background:none!important">
+                  
+            <img src="../images/world-oceans-day-2023-700px-trans.png" style="width:100%;" alt="Build your greenest visions with ecobricks">
+            
+           <!-- <img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
+    min-height: 145px; width:100%;" width="250" height="112" alt="Unite">
+-->
+</div>
 
                 
 
