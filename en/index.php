@@ -1207,13 +1207,13 @@ function closeGallery() {
         <div class="clouds-new2" style=" padding-top:10vh; margin-bottom: -30px;
         padding-bottom: 10px;margin-top:-10px">
             
-            <div class="biosphere"><!--<img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere">--></div>
+            <div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div>
           
-            <div class="landing-content">
+            <div class="landing-content" >
 
-                <div class="main-landing-graphic" style="background:none!important">
+                <div class="main-landing-graphic" style="text-align:center">
                   
-            <img src="../images/world-oceans-day-2023-700px-trans.png" style="width:80%;" alt="Build your greenest visions with ecobricks">
+            <img src="../images/world-oceans-day-2023-700px-trans.png" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">
             
            <!-- <img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
     min-height: 145px; width:100%;" width="250" height="112" alt="Unite">
