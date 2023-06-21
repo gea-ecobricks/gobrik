@@ -1199,10 +1199,10 @@ function closeGallery() {
 
             
         </div><!--closes regular ecobrick curtain-->     
-                <!--
+                
 <div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>
 
-<div class="main-landing-graphic" style="width:100%;height:43%;"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%;height:43%;" alt="Unite with ecobrickers around the world"></div>-->
+<div class="main-landing-graphic" style="width:100%;height:43%;"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%;height:43%;" alt="Unite with ecobrickers around the world"></div>
                     
         <div class="clouds-new2" style=" padding-top:10vh; margin-bottom: -30px;
         padding-bottom: 10px;margin-top:-10px">
@@ -1213,16 +1213,16 @@ function closeGallery() {
 
                 <div class="main-landing-graphic" style="text-align:center;background:none;">
                   
-            <img src="../images/world-oceans-day-2023-700px-trans.png" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">
+            <!--<img src="../images/world-oceans-day-2023-700px-trans.png" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">-->
             
-           <!-- <img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
+           <img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
     min-height: 145px; width:100%;" width="250" height="112" alt="Unite">
--->
+
 </div>
 
                 
 
-                <div class="big-header">Celebrate World Oceans Week by securing your plastic out of the oceans and into an ecobrick.</div>
+                <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
                 
                 <div class="welcome-text">
                 GoBrik helps manage your ecobricks, projects and plastic transition so that together we can build our greenest visions.
