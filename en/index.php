@@ -1211,13 +1211,13 @@ function closeGallery() {
           
             <div class="landing-content" >
 
-                <div class="main-landing-graphic" style="text-align:center;background:none;">
+               
                   
-            <!--<img src="../images/world-oceans-day-2023-700px-trans.png" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">-->
+          <!-- <div class="main-landing-graphic" style="text-align:center;background:none;">   <img src="../images/world-oceans-day-2023-700px-trans.png" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">
             
            <img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
     min-height: 145px; width:100%;" width="250" height="112" alt="Unite">
-
+-->
 </div>
 
                 
