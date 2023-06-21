@@ -1200,16 +1200,18 @@ function closeGallery() {
             
         </div><!--closes regular ecobrick curtain-->     
                 
-<div class="bio-top"><img src="../svgs/biosphere-top-day.webp" style="width:100%" alt="Together we can contribute to the biosphere"></div>
+        <div class="landing-content" >
 
-<div class="main-landing-graphic" style="width:100%;height:43%;"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%;height:43%;" alt="Unite with ecobrickers around the world"></div>
-                    
+
         <div class="clouds-new2" style=" padding-top:10vh; margin-bottom: -30px;
         padding-bottom: 10px;margin-top:-10px">
             
             <div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div>
+
+            <div class="main-landing-graphic" style="width:100%;height:43%;"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%;height:43%;" alt="Unite with ecobrickers around the world"></div>
+                    
           
-            <div class="landing-content" >
+         
 
                
                   
