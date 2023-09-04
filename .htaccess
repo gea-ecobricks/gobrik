@@ -41,7 +41,7 @@ Redirect /index.php /en/index.php
 Redirect /index /en/index.php
 Redirect /index.html /en/index.php
 
-
+Redirect /workshop /en/courses.php#courses/review-course/64ef4e60b58f340028efc7fa/
 
 
 Redirect /market /market.php
