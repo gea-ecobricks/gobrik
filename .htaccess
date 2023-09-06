@@ -42,6 +42,11 @@ Redirect /index /en/index.php
 Redirect /index.html /en/index.php
 
 Redirect /workshop /en/courses.php#courses/review-course/64ef4e60b58f340028efc7fa/
+Redirect /tot16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
+Redirect /ToT16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
+Redirect /TOT16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
+Redirect /tot-16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
+
 
 
 Redirect /market /market.php
