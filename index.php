@@ -4,8 +4,6 @@
 <?php $dist='42';?>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 
-
-
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages-->
 
