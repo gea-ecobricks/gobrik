@@ -44,7 +44,7 @@
             remember="Remember for all pages"
             appearance="toggle">
             </dark-mode-toggle>
-
+ 
         </div>
         </div>
 

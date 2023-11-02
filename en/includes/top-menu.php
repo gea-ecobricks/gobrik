@@ -11,7 +11,7 @@
 
     <div>
         <button type="button" class="gobrik-logo" onclick="location.href='index.php'" aria-label="Return home"></button>
-    </div>
+    </div> 
     
     <div class="button-list" style="display:flex;position:absolute;right:0;width:fit-content;margin-right:15px;flex-flow:row;margin-top:22px;">
       

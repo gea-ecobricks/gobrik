@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
 <meta charset="UTF-8"> 
 
@@ -76,6 +74,8 @@ AND UNIQUE to HTML Pages-->
 
 
 
+<!--These are the scripts for the new Richard Landing page-->
+<script src="../richard-scripts.js?v=3.6"></script>
 
 <!--Default Light Styles to load first-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
