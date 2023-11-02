@@ -5,7 +5,8 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8"> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+
 
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
@@ -18,7 +19,6 @@ AND UNIQUE to HTML Pages-->
 <meta name="author" content="Global Ecobrick Alliance">
 
 <!-- Facebook Open Graph Tags for social sharing-->
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 <meta property="og:url"           content="https://www.gobrik.com/<?php echo $lang; ?>">
 <meta property="og:type"          content="app">
 <meta property="og:title"         content="GoBrik">
@@ -30,9 +30,10 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
 
-<script type="text/javascript" async >app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; </script>
+
+<script type="text/javascript">app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; </script>
         
-<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_53/knack.js" async></script>
+<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_53/knack.js"></script>
 
 <?php require_once ("includes/header.php");?>
 
