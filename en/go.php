@@ -27,7 +27,7 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
 
-<script type="text/javascript">app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; async</script>
+<script type="text/javascript" async >app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; </script>
         
 <script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_53/knack.js" async></script>
 
