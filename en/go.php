@@ -5,10 +5,12 @@
 <html lang="en">
 
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+<meta charset="UTF-8"> 
 
 
-<!-- Meta tags for page display and search engine listing
+<!-- 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
 <title>GoBrik | 2.14</title>
@@ -30,17 +32,14 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
 
-
-<script type="text/javascript">app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; </script>
+<script>app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; </script>
         
-<script type="text/javascript" src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_53/knack.js"></script>
+<script src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_53/knack.js"></script>
 
 <?php require_once ("includes/header.php");?>
 
 <script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 
-<!--Default Light Styles to load first-->
-<link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
 <!--LEGACY Sheets to consolidate
 
@@ -55,6 +54,9 @@ AND UNIQUE to HTML Pages-->
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.5">
 -->
 
+<!--Default Light Styles to load first-->
+<link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
+
 <!-- Main Landing stylesheet -->
 <link rel="preload" href="../2023-stylesheet.css?v1.2" as="style">
 
@@ -64,6 +66,28 @@ AND UNIQUE to HTML Pages-->
 <link rel="stylesheet" href="../dark.css?v=7.2" media="(prefers-color-scheme: dark)">
  
 <style>
+
+
+@font-face {
+  font-family: "Mulish";
+  src: url("fonts/Mulish-Light.ttf");
+  font-display: swap;
+  font-weight: 300;
+ }
+
+ @font-face {
+  font-family: "Mulish";
+  src: url("fonts/Mulish-Regular.ttf");
+  font-display: swap;
+  font-weight: 500;
+ } 
+
+ @font-face {
+  font-family: "Arvo";
+  src: url("fonts/Arvo-regular.");
+  font-display: swap;
+ }
+
 
 #kn-app-header {
   background-color: var(--general-background) !important;

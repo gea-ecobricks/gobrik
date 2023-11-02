@@ -3,19 +3,18 @@
 <html lang="en">
 
 <head>
+<meta charset="UTF-8"> 
+
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
-<title>GoBrik | BETA </title>
-
-<meta charset="UTF-8"> 
+<title>GoBrik | BETA 2.2 </title>
 
 <meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
 <meta name="description" content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.">
 <meta name="author" content="Global Ecobrick Alliance">
 
 <!-- Facebook Open Graph Tags for social sharing-->
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
 <meta property="og:url"           content="https://www.gobrik.com/<?php echo $lang; ?>">
 <meta property="og:type"          content="app">
 <meta property="og:title"         content="GoBrik">
@@ -31,33 +30,48 @@ AND UNIQUE to HTML Pages-->
         
 <script type="text/javascript" src="https://loader.knack.com/654387b48cf6b600295bba26/dist_2/knack.js" async></script>
 
-<?php require_once ("includes/header.php");?>
 
 
 <script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 
+
+
 <!--Default Light Styles to load first-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
-<!--LEGACY Sheets to consolidate-->
-
-<!-- Old stylesheet 
-
-<link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v=1.3">
-
-<link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v1.1">
-<link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.5">
--->
-
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.1">
+<link rel="preload" href="../2023-stylesheet.css?v1.2" as="style">
 
  <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
 <link rel="stylesheet" href="../dark.css?v=7.2" media="(prefers-color-scheme: dark)">
  
+
+
 <style>
+
+
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Light.ttf");
+  font-display: swap;
+  font-weight: 300;
+ }
+
+ @font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.ttf");
+  font-display: swap;
+  font-weight: 500;
+ } 
+
+ @font-face {
+  font-family: "Arvo";
+  src: url("../fonts/Arvo-regular.");
+  font-display: swap;
+ }
 
 #kn-app-header {
   background-color: var(--general-background) !important;
@@ -97,6 +111,9 @@ AND UNIQUE to HTML Pages-->
  }
 
 </style>
+
+<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.2">
+
 
 </head>
 
