@@ -32,11 +32,10 @@ AND UNIQUE to HTML Pages-->
 
 <script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 
-
 <!-- This calls our webmanifest wich turns our page into a progressive web app (PWA) -->
-<link rel="manifest" href="manifest.webmanifest">
+<!-- <link rel="manifest" href="manifest.webmanifest">
 
-	
+	 -->
 <!-- This allows GoBrik to be used a PWA on iPhones -->
 
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -111,7 +110,7 @@ AND UNIQUE to HTML Pages-->
 
  @font-face {
   font-family: "Arvo";
-  src: url("../fonts/Arvo-Regular.fff");
+  src: url("../fonts/Arvo-Regular.ttf");
   font-display: swap;
  }
 
