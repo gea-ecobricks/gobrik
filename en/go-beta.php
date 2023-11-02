@@ -33,14 +33,17 @@ AND UNIQUE to HTML Pages-->
 <?php require_once ("includes/header.php");?>
 
 
+<script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 
 <!--Default Light Styles to load first-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
 <!--LEGACY Sheets to consolidate-->
-<link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v=1.3">
 
 <!-- Old stylesheet 
+
+<link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v=1.3">
+
 <link rel="stylesheet" type="text/css" href="../main-stylesheet-march.css?v1.1">
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet-march.css?v0.5">
 -->

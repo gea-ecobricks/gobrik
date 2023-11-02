@@ -32,7 +32,7 @@ AND UNIQUE to HTML Pages-->
 
 <?php require_once ("includes/header.php");?>
 
-
+<script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 
 <!--Default Light Styles to load first-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
@@ -51,7 +51,7 @@ AND UNIQUE to HTML Pages-->
 -->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.1">
+<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.2">
 
  <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
