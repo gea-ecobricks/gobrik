@@ -6,7 +6,7 @@
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
-<title>GoBrik | 2.0 </title>
+<title>GoBrik | BETA </title>
 
 
 <meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
@@ -101,7 +101,7 @@ AND UNIQUE to HTML Pages-->
     <?php include 'includes/top-menu.php';?>
 
   <!-- Main knack loader--> 
-  <div id="knack-dist_53">
+  <div id="knack-dist_2">
         <div class="loader-spin"></div>
   </div>
 
