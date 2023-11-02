@@ -1630,10 +1630,9 @@ This removes the three columns on the log in scenes but keeps it on the course a
     */
 
     
-    .columns:not(.is-desktop) {display: flex !important;}
-     
-    .column.is-half {width: 100% !important;}
+  
 
+    /*courses and shop*/
 
     @media screen and (min-width: 769px) {}
 
@@ -1643,6 +1642,18 @@ This removes the three columns on the log in scenes but keeps it on the course a
         flex-wrap: nowrap;
       flex-wrap: wrap;
     }
+    .columns:not(.is-desktop) {display: flex !important;}
+     
+    .column.is-half {width: 100% !important;}
+
+
+
+
+
+
+
+
+
 
     /*which scenes are these?!
     
