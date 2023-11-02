@@ -77,6 +77,13 @@ AND UNIQUE to HTML Pages-->
 <!--These are the scripts for the new Richard Landing page-->
 <script src="../richard-scripts.js?v=3.6"></script>
 
+
+<!--This enables the Light and Dark mode switching-->
+<script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+<link rel="stylesheet" type="text/css" href="../slider.css">
+
+
+
 <!--Default Light Styles to load first-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
@@ -88,6 +95,12 @@ AND UNIQUE to HTML Pages-->
 
 <link rel="stylesheet" href="../dark.css?v=7.2" media="(prefers-color-scheme: dark)">
  
+
+<!-- Primary stylesheet -->
+<link rel="stylesheet" type="text/css" href="main-stylesheet.css?v1.91">
+<!-- Knack Stylesheet -->
+<link rel="stylesheet" type="text/css" href="knack-stylesheet.css?v0.61">
+
 
 
 <style>
