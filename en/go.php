@@ -101,13 +101,13 @@ AND UNIQUE to HTML Pages-->
     <?php include 'includes/top-menu.php';?>
 
   <!-- Main knack loader--> 
-  <!-- <div id="knack-dist_53">
+  <div id="knack-dist_53">
         <div class="loader-spin"></div>
-  </div> -->
-
+  </div>
+<!-- 
   <div id="offline"><br><br>
 <h2>GoBrik is offline for an upgrade!</h2> <h4>We'll be back in 2 hours at 1:00 AM Indonesia Time, 5PM UK time..</h4>
-</div>
+</div> -->
 
 
 <?php require_once ("includes/settings-curtain.php");?>
