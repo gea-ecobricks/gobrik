@@ -106,8 +106,7 @@ AND UNIQUE to HTML Pages-->
   </div> -->
 
   <div id="offline"><br><br>
-<img src="/svgs/Happy-animals-sequestered.svg" width="300px;" max-width="80%;" alt="GoBrik">
-<h2>GoBrik is offline for an upgrade!</h2> <h4> We'll be back in 2 hours at 12:00 PM Indonesia Time.</h4>
+<h2>GoBrik is offline for an upgrade!</h2> <h4>We'll be back in 2 hours at 1:00 AM Indonesia Time, 5PM UK time..</h4>
 </div>
 
 
