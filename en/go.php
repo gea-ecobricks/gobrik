@@ -101,9 +101,15 @@ AND UNIQUE to HTML Pages-->
     <?php include 'includes/top-menu.php';?>
 
   <!-- Main knack loader--> 
-  <div id="knack-dist_53">
+  <!-- <div id="knack-dist_53">
         <div class="loader-spin"></div>
-  </div>
+  </div> -->
+
+  <div id="offline"><br><br>
+<img src="/svgs/Happy-animals-sequestered.svg" width="300px;" max-width="80%;" alt="GoBrik">
+<h2>GoBrik is offline for an upgrade!</h2> <h4> We'll be back in 2 hours at 12:00 PM Indonesia Time.</h4>
+</div>
+
 
 <?php require_once ("includes/settings-curtain.php");?>
          
