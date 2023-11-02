@@ -3,13 +3,14 @@
 
 
 <html lang="en">
-<meta charset="UTF-8"> 
 
 <head>
+<meta charset="UTF-8"> 
+
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
-<title>GoBrik | 2.12</title>
+<title>GoBrik | 2.13</title>
 
 
 <meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
@@ -54,7 +55,7 @@ AND UNIQUE to HTML Pages-->
 -->
 
 <!-- Main Landing stylesheet -->
-<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.2">
+<link rel="preload" href="../2023-stylesheet.css?v1.2" as="style">
 
  <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
@@ -101,6 +102,8 @@ AND UNIQUE to HTML Pages-->
  }
 
 </style>
+
+<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.2">
 
 </head>
 
