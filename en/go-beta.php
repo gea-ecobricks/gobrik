@@ -8,7 +8,7 @@
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
-<title>GoBrik | BETA 2.2 </title>
+<title>GoBrik | BETA 2.3 </title>
 
 <meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
 <meta name="description" content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.">
@@ -26,9 +26,9 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:image:alt"     content="A metaphorical road winding into the distance with various ecobrick and earth constructions along side it and the GoBrik logo floating above">
 <meta property="og:locale" content="en_GB">
 
-<script type="text/javascript">app_id="654387b48cf6b600295bba26";distribution_key="dist_2"; async</script>
+<script>app_id="654387b48cf6b600295bba26";distribution_key="dist_2";</script>
         
-<script type="text/javascript" src="https://loader.knack.com/654387b48cf6b600295bba26/dist_2/knack.js" async></script>
+<script src="https://loader.knack.com/654387b48cf6b600295bba26/dist_2/knack.js"></script>
 
 
 
@@ -69,7 +69,7 @@ AND UNIQUE to HTML Pages-->
 
  @font-face {
   font-family: "Arvo";
-  src: url("../fonts/Arvo-regular.");
+  src: url("../fonts/Arvo-Regular.");
   font-display: swap;
  }
 
