@@ -6,7 +6,7 @@
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
-<title>GoBrik | BETA 2.3 </title>
+<title>GoBrik | BETA 2.4 </title>
 
 <meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
 <meta name="description" content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.">
@@ -97,9 +97,9 @@ AND UNIQUE to HTML Pages-->
  
 
 <!-- Primary stylesheet -->
-<link rel="stylesheet" type="text/css" href="main-stylesheet.css?v1.91">
+<link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.91">
 <!-- Knack Stylesheet -->
-<link rel="stylesheet" type="text/css" href="knack-stylesheet.css?v0.61">
+<link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.61">
 
 
 
