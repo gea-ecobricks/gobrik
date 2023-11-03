@@ -60,7 +60,7 @@ ul {
 
 }
 
-
+/*Facebook is off!*/
 .kn-button.is-facebook {
   display: none;
 }
@@ -1797,7 +1797,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
         margin-bottom: 16x;
     }
 
-    
+/*     
     .kn-button.is-google {
         width: 275px !important;
         margin: auto !important;
@@ -1820,7 +1820,7 @@ This removes the three columns on the log in scenes but keeps it on the course a
         margin: auto !important;
     }
     
-    .sso-google {margin-left: 20%;}
+    .sso-google {margin-left: 20%;} */
     
     /* In-Scene Sigup Form */
     
