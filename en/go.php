@@ -6,7 +6,7 @@
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
-<title>GoBrik | BETA 2.5 </title>
+<title>GoBrik | 1.1 </title>
 
 <meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
 <meta name="description" content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.">
@@ -25,8 +25,6 @@ AND UNIQUE to HTML Pages-->
 <meta property="og:locale" content="en_GB">
 
 
-
-<script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 
 <!-- This calls our webmanifest wich turns our page into a progressive web app (PWA) -->
 <!-- <link rel="manifest" href="manifest.webmanifest">
@@ -86,7 +84,7 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
 <!-- Main Landing stylesheet -->
-<link rel="preload" href="../2023-stylesheet.css?v1.5" as="style">
+<link rel="preload" href="../2023-stylesheet.css?v1.6" as="style">
 
 
 
@@ -95,6 +93,8 @@ AND UNIQUE to HTML Pages-->
 
 <link rel="stylesheet" href="../dark.css?v=7.2" media="(prefers-color-scheme: dark)">
  
+<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.6">
+
 
 <!-- Primary stylesheet 
 <link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.91">-->
@@ -104,6 +104,9 @@ AND UNIQUE to HTML Pages-->
 <link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v=1.3">
 -->
 
+
+
+<script async src="https://arc.io/widget.min.js#mJFtQsHF"></script>
 
 <style>
 
@@ -168,7 +171,6 @@ AND UNIQUE to HTML Pages-->
 
 </style>
 
-<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.5">
 
 <script>app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; </script>
         
