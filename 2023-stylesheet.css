@@ -2809,7 +2809,15 @@ margin-top:-10px;
 
 
 
-  /*STORE*/
+  /*--------------------
+  
+  STORE  & COURSES
+  
+  ----------------------*/
+
+  .kn-list-content .columns .is-multiline {
+    margin-top: 20px;
+  }
 
 
     /*three column offering styling for COURSES*/
