@@ -1,4 +1,7 @@
 
+.kn-list-content .columns .is-multiline {
+  margin-top: 20px;
+}
 
 /* -------------------------------------------------------------------------- */
 
@@ -2815,9 +2818,7 @@ margin-top:-10px;
   
   ----------------------*/
 
-  .kn-list-content .columns .is-multiline {
-    margin-top: 20px;
-  }
+  
 
 
     /*three column offering styling for COURSES*/
@@ -2903,3 +2904,20 @@ margin-top:-10px;
     
     
     
+#dial {background: url('https://www.gobrik.com/webp/PT-dial-420px.webp') top no-repeat;
+  background-size: contain;
+  height: 380px;
+  width: 380px;
+  max-width: 100% !important;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding-top: 164px;
+  margin: -10px auto -5px auto;
+  color: #ddd;/* Default base colour if JS doesn't change it*/
+ /* -webkit-text-stroke: 1px white; */
+ text-shadow: 0px 0px 3px #4d4d4d;
+ font-family: 'Mulish', sans-serif;
+ font-weight: 500;
+ font-size: 45px;
+}
