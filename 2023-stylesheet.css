@@ -1,4 +1,11 @@
+@media screen and (min-width: 769px) and (max-width: 2000px) {
+  .kn-container {
+      margin: 0 auto;
+      max-width: 960px !important;
+  }
+  }
 
+  
 .kn-list-content .columns .is-multiline {
   margin-top: 20px;
 }
