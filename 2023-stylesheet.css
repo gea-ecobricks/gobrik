@@ -61,7 +61,11 @@ ul {
 }
 
 /*Facebook is off!*/
-.kn-button.is-facebook .kn-button.is-google {
+.kn-button.is-facebook  {
+  display: none !important;
+}
+
+.kn-button.is-google  {
   display: none !important;
 }
 
