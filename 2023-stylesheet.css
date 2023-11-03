@@ -2583,9 +2583,9 @@ STEP 2 LOGIN
 .kn-detail-label {
 
   font-family: 'Arvo', serif !important;
-  /* text-align: right !important;
+  text-align: right !important;
   min-width: 48% !important;
-  max-width: 48% !important; */
+  max-width: 48% !important;
   background-color:var(--login) !important;
   color: var(--subdued-text) !important;
 }
