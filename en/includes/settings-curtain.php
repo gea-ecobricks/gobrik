@@ -41,7 +41,7 @@
             id="dark-mode-toggle-5" style="padding:10px;font-size:small;"
             class="slider"
             legend=""
-            remember="Remember for all pages"
+            remember="Remember for all pages:"
             appearance="toggle">
             </dark-mode-toggle>
  
