@@ -1,11 +1,84 @@
-@media screen and (min-width: 769px) and (max-width: 2000px) {
-  .kn-container {
-      margin: 0 auto;
-      max-width: 960px !important;
-  }
-  }
 
+    
+    /*General Table Presentation*/
+    
+    
+    @media screen and (min-width: 769px) and (max-width: 2000px) {
+    
+      .kn-form-col.is-constrained {
+          max-width: 80% !important;
+          margin-right: 10% !important;
+          margin-left: 10% !important;
+      
+      }
+        
+      }
+      
+      
+      .kn-details-group-column {
+        margin: auto;
+        display:block;
+        width: 100%;
+      }
+      
+      .kn-content .column.is-half {flex: auto;}
+      
+      .kn-content .columns {
+        margin-left: -3px;
+      margin-right: -18px;
+        margin-top: -10px;}
+      
+      
+      
+      .kn-detail .kn-detail-body {
+      max-width: 100% !important;
+      text-align: left !important;}
+      
+      
+      .kn-table {
+      border-radius: 10px;
+        /*margin-right:0px;
+        padding-right: 0px;*/
+      
+      }
+      
+      .kn-label-left {
+        background-color: #e8f4f9;
+      }
+      
+      
+      
+      
+      
+      /*centers generic logins by removing right side empty column from knack SSO formating*/
+      .kn-content .column.is-1 {
+        display: none !important;}
+      
+      
+      
   
+      .modal-card-title {text-align: left !important;
+          font-size: 16px !important;
+          font-family: 'ubuntu', sans-serif;
+        font-weight: 400;
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+        margin-left: -5px;
+          color: grey !important;
+        
+      }
+      
+      .kn-page-modal .kn-details-group { overflow: hidden; overflow-y:hidden; }
+      
+      
+      
+      
+      
+      
+    
+      
+
+
 .kn-list-content .columns .is-multiline {
   margin-top: 20px;
 }
