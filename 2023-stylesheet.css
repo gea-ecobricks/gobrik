@@ -63,7 +63,7 @@ ul {
   display: none;
 }
 
-
+.kn-details .kn-detail span span[class], .kn-details .kn-detail span span[id]
 
       /*centers generic logins by removing right side empty column from knack SSO formating*/
       .kn-content .column.is-1 {
