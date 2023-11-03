@@ -88,7 +88,9 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
 <!-- Main Landing stylesheet -->
-<link rel="preload" href="../2023-stylesheet.css?v1.2" as="style">
+<link rel="preload" href="../2023-stylesheet.css?v1.3" as="style">
+
+
 
  <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
@@ -100,6 +102,8 @@ AND UNIQUE to HTML Pages-->
 <link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.91">
 <!-- Knack Stylesheet -->
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.61">
+<!--still needed :-( -->
+<link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v=1.3">
 
 
 
@@ -166,7 +170,7 @@ AND UNIQUE to HTML Pages-->
 
 </style>
 
-<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.2">
+<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.3">
 
 
 </head>
