@@ -76,7 +76,10 @@
       
       
     
-      
+      .kn-back-link {
+        margin: auto;
+        padding: 30px;
+      }
 
 
 .kn-list-content .columns .is-multiline {

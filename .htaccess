@@ -26,6 +26,8 @@ CacheKeyModify -qs:_ga
 ### marker DROPQS end ###
 
 
+AddType 'text/html; charset=UTF-8' html
+
 
 # New GoBrik php server
 
