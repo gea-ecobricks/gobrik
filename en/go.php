@@ -103,9 +103,9 @@ AND UNIQUE to HTML Pages-->
 <link rel="stylesheet" type="text/css" href="../main-stylesheet.css?v1.91">
 <!-- Knack Stylesheet -->
 <link rel="stylesheet" type="text/css" href="../knack-stylesheet.css?v0.61">
-<!--still needed :-( -->
+<!--still needed :-( 
 <link rel="stylesheet" type="text/css" href="../april-old-knack-to-transition.css?v=1.3">
-
+-->
 
 
 <style>
