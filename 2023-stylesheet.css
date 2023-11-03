@@ -62,7 +62,7 @@ ul {
 
 /*Facebook is off!*/
 .kn-button.is-facebook {
-  display: none;
+  display: none !important;
 }
 
 
@@ -129,8 +129,6 @@ background: #fff;
   border-radius: 10px;
 	border-color: #fff;
 }
-
-
 
 @media screen and (min-width: 0px) and (max-width: 769px) {
  #view_3340
