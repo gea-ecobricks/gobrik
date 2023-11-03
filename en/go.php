@@ -84,7 +84,7 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
 <!-- Main Landing stylesheet -->
-<link rel="preload" href="../2023-stylesheet.css?v1.7" as="style">
+<link rel="preload" href="../2023-stylesheet.css?v1.8" as="style">
 
 
 
@@ -93,7 +93,7 @@ AND UNIQUE to HTML Pages-->
 
 <link rel="stylesheet" href="../dark.css?v=7.2" media="(prefers-color-scheme: dark)">
  
-<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.7">
+<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.8">
 
 
 <!-- Primary stylesheet 
@@ -172,9 +172,9 @@ AND UNIQUE to HTML Pages-->
 </style>
 
 
-<script>app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; </script>
+<script async>app_id="5b8c28c2a1152679c209ce0c";distribution_key="dist_53"; </script>
         
-<script src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_53/knack.js"></script>
+<script async src="https://loader.knack.com/5b8c28c2a1152679c209ce0c/dist_53/knack.js"></script>
 
 </head>
 
