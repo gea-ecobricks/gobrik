@@ -46,9 +46,13 @@
         background-color: #e8f4f9;
       }
       
-      
-      
-      
+
+      @media screen and (min-width: 701px) {
+      .kn-view {
+      max-width: 80%;
+  margin: auto;
+}
+}
       
       /*centers generic logins by removing right side empty column from knack SSO formating*/
       .kn-content .column.is-1 {
@@ -73,7 +77,9 @@
       
       
       
-      
+      .kn-content {
+        margin: auto;
+      }
       
     
       .kn-back-link {
