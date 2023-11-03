@@ -6,7 +6,7 @@
     @media screen and (min-width: 769px) and (max-width: 2000px) {
     
       .kn-form-col.is-constrained {
-          max-width: 80% !important;
+          max-width: 75% !important;
           margin-right: 10% !important;
           margin-left: 10% !important;
       
@@ -83,7 +83,7 @@
 
 
 .kn-list-content .columns .is-multiline {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 
 /* -------------------------------------------------------------------------- */
