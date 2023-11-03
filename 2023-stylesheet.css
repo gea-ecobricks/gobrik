@@ -53,7 +53,15 @@
   margin: auto;
 }
 }
-      
+.kn-button.is-facebook {
+  display: none;
+}
+
+ul {
+  text-align: left !important;
+  margin-left: 25%;
+}
+
       /*centers generic logins by removing right side empty column from knack SSO formating*/
       .kn-content .column.is-1 {
         display: none !important;}
