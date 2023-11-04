@@ -83,7 +83,7 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
 <!-- Main Landing stylesheet -->
-<link rel="preload" href="../2023-stylesheet.css?v1.83" as="style">
+<link rel="preload" href="../2023-stylesheet.css?v1.84" as="style">
 
 
 
@@ -92,7 +92,7 @@ AND UNIQUE to HTML Pages-->
 
 <link rel="stylesheet" href="../dark.css?v=7.2" media="(prefers-color-scheme: dark)">
  
-<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.83">
+<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.84">
 
 
 <!-- Primary stylesheet 
