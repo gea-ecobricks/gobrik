@@ -54,7 +54,7 @@
   margin: auto;
 }
 
-.kn-detail-body ul {
+.kn-detail-body span ul {
   text-align: left !important;
   margin-left: 30% !important;
 }
@@ -2590,6 +2590,8 @@ STEP 2 LOGIN
   background-color:var(--login) !important;
   color: var(--subdued-text) !important;
 }
+
+.kn-detail-label h1 {text-align: center !important}
 
 .level {
   color: var(--subdued-text);
