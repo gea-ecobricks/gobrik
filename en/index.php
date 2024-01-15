@@ -6,7 +6,7 @@
 <!-- Meta tags for page display and search engine listing
 AND UNIQUE to HTML Pages--> 
 
-<title>GoBrik 2.0</title>
+<title>GoBrik</title>
 <meta name="keywords" content="gobrik, ecobrick app, eco, brick, eco brick, ecobrick, eco-brick, eco, bricks, eco brick, ecobricks, eco-bricks, brik, briks, plastic, plastic management, carbon sequestration,  plastic solved, drop off, exchange, marketplace, plastic sequestration, aes plastic, plastic offsetting, ecological accounting, plastic accounting">
 <meta name="description" content="Manage your ecobricks, projects and plastic transition. By putting our plastic to good use, together we can build our greenest visions.">
 <meta name="author" content="Global Ecobrick Alliance">
@@ -338,41 +338,9 @@ transition: 0.5s;
     display: flex;
 
   
-  /*
-      display: none;
-
-  animation: regularecobricks 1.1s forwards;
-  animation-delay: 0s; 
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  -webkit-animation: regularecobricks 1.1s forwards;
-  -webkit-animation-delay: 0s;*/
 }
 
-/*
-@keyframes regularecobricks {
-  0% {
-    top: -94vh;
-  }
-  75% {
-    top: -64vh;
-  }
-  100% {
-    top: -70vh;
-  }
-}
 
-@-webkit-keyframes regularecobricks {
-  0% {
-    -webkit-top: -94vh;
-  }
-  75% {
-    -webkit-top: -64vh;
-  }
-  100% {
-    -webkit-top: -70vh;
-  }
-}*/
 
 
 #gal-button {
@@ -442,12 +410,9 @@ border-radius: 10px;
 
 .up-arrow:hover {
 
-    opacity:0.6;
+opacity:0.6;
     
 }
-
-
-
 
 
 .gallery-header {
@@ -466,7 +431,6 @@ border-radius: 10px;
   height:fit-content;
   margin: auto;
   padding: 10px;
-  /*padding-top: 10px;*/
 }
 
 .blink {
@@ -487,11 +451,6 @@ border-radius: 10px;
   width: 100%;
   max-width: 100%;
   background-color: var(--gallery);
-
-  /*min-height: fit-content;
-  overflow-x: hidden;
-    margin-top: -10px;
-     padding-bottom: 14px;*/
   position: relative;
   z-index: 0;
  
@@ -668,34 +627,6 @@ text-align: center;
     }
   }
 
-
-/*main landing image*/
-
-
-/*
-.signup-team {
-  margin: auto;
-    position: relative;
-    z-index: 11;
-    background: url(https://www.gobrik.com/svgs/richard-and-team.svg) no-repeat;
-    background-size: contain;
-    height: fit-content;
-}
-
-@media screen and (max-width: 700px) { 
-  .signup-team {
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-}
-
-@media screen and (min-width: 700px) { 
-  .signup-team {
-    width: 59%;
-margin-bottom: 10px;
-  }
-}*/
 
 
 

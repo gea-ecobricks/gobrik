@@ -27,19 +27,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!-- Mulish loads first for first page view
-
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'"> -->
-
-
-
-<!-- Arvo loads very last to speed up first load.  See the script in the footer that triggers this  
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" media="print" onload="this.media='all'">
-
- <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"> --> 
-
-
- 
 
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="https://fonts.googleapis.com/css2?family=Arvo&display=swap"></noscript>
