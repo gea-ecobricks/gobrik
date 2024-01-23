@@ -19,7 +19,7 @@
 
 <?php
 
-$sql = "SELECT ecobrick_unique_id, thumb_url, ecobrick_owner, location FROM vw_gallery_feed LIMIT 40;";  // Updated to select only necessary columns
+$sql = "SELECT ecobrick_unique_id, thumb_url, ecobrick_owner, location FROM vw_gallery_feed LIMIT 80;";  // Updated to select only necessary columns
 $result = $conn->query($sql);
 if ($result && $result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
