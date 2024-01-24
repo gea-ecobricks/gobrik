@@ -6,7 +6,7 @@
    text-rendering="geometricPrecision"
    version="1.1"
    sodipodi:docname="dolphin-top-optimized-dark.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,21 +24,21 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="3.1775757"
-     inkscape:cx="125.88213"
-     inkscape:cy="90.320428"
+     inkscape:zoom="12.710303"
+     inkscape:cx="118.05384"
+     inkscape:cy="180.44417"
      inkscape:window-width="1503"
-     inkscape:window-height="934"
+     inkscape:window-height="933"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="eoOntxKDJdA1" />
+     inkscape:current-layer="g32368" />
   <style
      id="style31990"><![CDATA[
 #eoOntxKDJdA9_to {animation: eoOntxKDJdA9_to__to 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA9_to__to { 0% {transform: translate(364.639343px,159.215881px)} 100% {transform: translate(232.639343px,159.215881px)}} #eoOntxKDJdA9 {animation: eoOntxKDJdA9_c_o 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA9_c_o { 0% {opacity: 0} 4.166667% {opacity: 0} 7.5% {opacity: 1} 93.333333% {opacity: 1} 96.666667% {opacity: 0} 100% {opacity: 0}} #eoOntxKDJdA18_to {animation: eoOntxKDJdA18_to__to 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA18_to__to { 0% {transform: translate(-199.149246px,-66.449066px)} 44.166667% {transform: translate(-128.746261px,-66.449066px)} 49.166667% {transform: translate(-110.149246px,-66.449066px)} 100% {transform: translate(-110.149246px,-66.449066px)}} #eoOntxKDJdA18 {animation: eoOntxKDJdA18_c_o 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA18_c_o { 0% {opacity: 1} 49.166667% {opacity: 1} 50% {opacity: 0} 100% {opacity: 0}} #eoOntxKDJdA31_to {animation: eoOntxKDJdA31_to__to 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA31_to__to { 0% {transform: translate(141.270635px,124.958814px)} 50% {transform: translate(141.270635px,124.958814px)} 95% {transform: translate(68.756349px,124.958814px)} 100% {transform: translate(47.270635px,124.958814px)}} #eoOntxKDJdA31 {animation: eoOntxKDJdA31_c_o 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA31_c_o { 0% {opacity: 0} 49.166667% {opacity: 0} 50% {opacity: 1} 100% {opacity: 1}} #eoOntxKDJdA43_to {animation: eoOntxKDJdA43_to__to 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA43_to__to { 0% {transform: translate(-208.886746px,-66.249066px)} 33.333333% {transform: translate(-196.886746px,-69.249066px)} 66.666667% {transform: translate(-198.386746px,-55.749066px)} 100% {transform: translate(-208.886746px,-66.249066px)}} #eoOntxKDJdA72_to {animation: eoOntxKDJdA72_to__to 12000ms linear infinite normal forwards}@keyframes eoOntxKDJdA72_to__to { 0% {transform: translate(-6.951842px,-3.578266px)} 20.833333% {transform: translate(-10.951842px,-6.578266px)} 50% {transform: translate(-2.618509px,-7.578266px)} 80.833333% {transform: translate(-2.785175px,-0.578266px)} 100% {transform: translate(-6.951842px,-3.578266px)}}
 ]]></style>
   <circle
-     style="opacity:0.7;fill:#000000;stroke:#000000;stroke-width:11.3386;stroke-linecap:round;stroke-opacity:0.87451"
+     style="opacity:0.3;fill:#000000;stroke:#000000;stroke-width:11.3386;stroke-linecap:round;stroke-opacity:0.87451"
      id="path32537"
      cx="94.324142"
      cy="94.979729"
@@ -617,7 +617,7 @@
              stroke="#ccc"
              stroke-width="0.263143"
              id="path32246"
-             style="fill:#000000" />
+             style="fill:#000000;stroke:none" />
         </g>
         <path
            d="M268.67934,256.35164l-1.33868.41547c-.44329.20393-.15294.27438.0615.3587l2.9536.82309c.26482.14349.7278.0833,1.18909-.0894l15.5391-5.81142-4.60519-1.1842"
