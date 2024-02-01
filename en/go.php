@@ -185,8 +185,8 @@ AND UNIQUE to HTML Pages-->
         <div class="loader-spin"></div>
   </div> -->
 
-  <div id="offline"><br><br>
-<h2>Sorry, GoBrik is offline</h2> <h4>We'll be back in 24hrs as we pay our database hosting bill.  Our apologies for the inconvenience.  Please consider offsetting your plastic with us when we're back online-- we're 100% movement funded!  <a href="https://ecobricks.org/en/about.php">Learn about the GEA</a></h4>
+  <div id="offline" style="width:80%"><br><br>
+<h2>Sorry, GoBrik is offline</h2><h4>We'll be back in 24hrs as we pay our database hosting bill.  Our apologies for the inconvenience.  Please consider offsetting your plastic with us when we're back online-- we're 100% movement funded!  <a href="https://ecobricks.org/en/about.php">Learn about the GEA</a></h4>
 </div> 
 
 <?php require_once ("includes/settings-curtain.php");?>
