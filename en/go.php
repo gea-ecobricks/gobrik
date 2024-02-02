@@ -181,13 +181,13 @@ AND UNIQUE to HTML Pages-->
     <?php include 'includes/top-menu.php';?>
 
   <!-- Main knack loader--> 
-  <div id="knack-dist_53">
+  <!-- <div id="knack-dist_53">
         <div class="loader-spin"></div>
-  </div>
+  </div> -->
 
-  <!-- <div id="offline" style="width:80%"><br><br>
+  <div id="offline" style="width:80%"><br><br>
 <h2>Sorry, GoBrik is offline</h2><h4>We'll be back in 24hrs as we pay our database hosting bill.  Our apologies for the inconvenience.  Please consider offsetting your plastic with us when we're back online-- we're 100% movement funded!  <a href="https://ecobricks.org/en/about.php">Learn about the GEA</a></h4>
-</div>  -->
+</div> 
 
 <?php require_once ("includes/settings-curtain.php");?>
          
