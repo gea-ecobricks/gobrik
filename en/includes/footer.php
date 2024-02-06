@@ -34,12 +34,6 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
 			</div>
 	
-			<div class="footer-icons">
-				<a href="https://circles.ecobricks.org" target="_blank"><!--MATTERMOST-->
-				<img src="../icons/mattermost.svg" style="width:100%" alt="Joinn our Circles Ecobrick Support Community"></a>
-				<div class="icon-name">/ecobricks</div>
-				<div class="server-review">Not for profit<br>No impact disclosure<br>open source</div>
-			</div>
 	
 			<div class="footer-icons"><!--ECOBRICKS.oRG-->
 				<a href="https://ecobricks.org" target="_blank">
@@ -95,18 +89,18 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 				
 			</div>
 			<div class="footer-box">
-				<div class="footer-header">Ecobricker Support</div>
-				<div class="footer-subtext">Got questions about ecobricking?  <a href="https://circles.ecobricks.org/signup_user_complete/?id=ek8ks6frxfbbpj3sujkdo8xsqr">Join Circles</a>, our community of ecobrickers and where our GEA trainer teams meets and collaborates. to connect with other ecobrickers and GEA Trainers.<br><br></div>
+				<div class="footer-header">A GEA Project</div>
+				<div class="footer-subtext">GoBrik is maintained and developed by the Global Ecobrick Alliance, a not-for-profit Earth Enterprise with the mission of supporting the local and global plastic transition and transformation movement. <a href="https://ecobricks.org">Check out ecobricks.org</a> our main site.<br><br></div>
 				
 			</div>
 			<div class="footer-box">
-				<div class="footer-header">Earth Enterprise</div>
-				<div class="footer-subtext"><a href="https://ecobricks.org/gobrik" target="_blank">Gobrik</a> is developed by the <a href="https://ecobricks.org/en/about.php" target="_blank">Global Ecobrick Alliance</a> a for-Earth, not-for-profit, enterprise based on <a href="https://ecobricks.org/principles" target="_blank">regenerative principles</a>.  On <a href="https://ecobricks.org/principles" target="_blank">principle</a> we have no company or government endorsement and receive no grants or sponsorships. Our revenue is genearated by providing <a href="#offset">ecologial services.</a><br><br>We track and disclose our net-green ecological impact.  See our <a href="https://ecobricks.org/en/regenreports.php" target="_blank">Regen Reporting</a> and our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">dynamic impact accounting for 2022.</a></div>
+				<div class="footer-header">Earth Service</div>
+				<div class="footer-subtext"><a href="https://ecobricks.org/gobrik" target="_blank">GoBrik is operated as a for-Earth, not-for-profit, enterprise based on <a href="https://ecobricks.org/principles" target="_blank">regenerative principles</a>.  On <a href="https://ecobricks.org/principles" target="_blank">principle</a> we have no company or government endorsement and receive no grants or sponsorships. Our revenue is genearated by providing <a href="#offset">ecologial services.</a><br><br>We track and disclose our net-green ecological impact.  See our <a href="https://ecobricks.org/en/regenreports.php" target="_blank">Regen Reporting</a> and our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">dynamic impact accounting for 2024.</a></div>
 			</div>
 
 			<div class="footer-box">
 			<div class="footer-header">Tech Partners</div>
-				<div class="footer-subtext">Plastic transition is a global collaboration!  We are grateful to our partners who have given us full access to their awesome technologies.  Thank you to <a href="https://www.dewaweb.com/" target="_blank" rel="noopener">DewaWeb Hosting</a> whose servers host our sites, to <a href="https://Knack.com" target="_blank" rel="noopener">Knack</a> whose database development platform is behind our GoBrik app, to <a href="https://wpml.org/" target="_blank" rel="noopener">WPML's multilingual plugin</a> and to <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> whose animation platform gives life to our graphics.</div>
+				<div class="footer-subtext">Plastic transition is a global collaboration!  We are grateful to our partners who have given us full access to their awesome technologies.  Thank you to <a href="https://www.dewaweb.com/" target="_blank" rel="noopener">DewaWeb Hosting</a> whose servers host our sites and to <a href="https://svgator.com" target="_blank" rel="noopener">SVGator</a> whose animation platform gives life to our graphics.</div>
 		</div>
 		</div>
 
@@ -140,7 +134,7 @@ godefer.parentNode.insertBefore(giftofspeed, godefer);
 				<a href="#global"><br><br>Gobrik global ecobricking data</a> is made available by the Ecobrick Alliance under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to "GoBrik.com/#global - Global Ecobrick Alliance" using the same license.
 
 				<div class="footer-conclusion">	
-					GoBrik, AES & Ecobricks.org logos and emblems are copyright 2023 by the Global Ecobrick Alliance.
+					GoBrik, AES & Ecobricks.org logos and emblems are copyright 2024 by the Global Ecobrick Alliance.
 				</div>
 			
 			<div class="footer-invite">
