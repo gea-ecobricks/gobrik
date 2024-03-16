@@ -117,4 +117,4 @@ Redirect /go.php /en/go.php
 
 # Redirect everything else to /en/go.php
 # This rule should be placed after your specific redirects and before the catch-all rule
-# RewriteRule ^(.*)$ /en/go.php [L,QSA]
+RewriteRule ^(.*)$ /en/go.php [L,QSA]
