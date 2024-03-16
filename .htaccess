@@ -27,13 +27,6 @@ CacheKeyModify -qs:_ga
 
 
 
-
-
-# New GoBrik php server
-
-
-
-
 # Redirect /workshop /en/courses.php#courses/review-course/64ef4e60b58f340028efc7fa/
 # Redirect /tot16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
 # Redirect /ToT16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
