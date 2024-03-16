@@ -27,6 +27,13 @@ CacheKeyModify -qs:_ga
 
 
 
+
+
+# New GoBrik php server
+
+
+
+
 # Redirect /workshop /en/courses.php#courses/review-course/64ef4e60b58f340028efc7fa/
 # Redirect /tot16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
 # Redirect /ToT16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
@@ -42,7 +49,7 @@ AddType 'text/html; charset=UTF-8' html
 
 # Redirect direct visit to https://gobrik.com/ to https://gobrik.com/en/
 # and show the index.php file
-# RewriteRule ^$ /en/ [R=301,L]
+RewriteRule ^$ /en/ [R=301,L]
 
 # Exclude specific directories from the global redirect
 RewriteCond %{REQUEST_URI} !^/fonts(/|$)
@@ -107,3 +114,7 @@ Redirect /my-catalyst/ /catalyst.php
 
 Redirect /go.php /en/go.php
 
+
+# Redirect everything else to /en/go.php
+# This rule should be placed after your specific redirects and before the catch-all rule
+RewriteRule ^(.*)$ /en/go.php [L,QSA]
