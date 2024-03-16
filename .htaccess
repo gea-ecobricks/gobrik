@@ -63,7 +63,7 @@ RewriteCond %{REQUEST_URI} !^/testing(/|$)
 RewriteCond %{REQUEST_URI} !^/trash(/|$)
 RewriteCond %{REQUEST_URI} !^/webp(/|$)
 
-Redirect / /en/index.php
+
 Redirect /index.php /en/index.php
 Redirect /index /en/index.php
 Redirect /index.html /en/index.php
