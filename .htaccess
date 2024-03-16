@@ -49,7 +49,7 @@ AddType 'text/html; charset=UTF-8' html
 
 # Redirect direct visit to https://gobrik.com/ to https://gobrik.com/en/
 # and show the index.php file
-RewriteRule ^$ /en/ [R=301,L]
+RewriteRule ^$ /en/index.php [R=301,L]
 
 # Exclude specific directories from the global redirect
 RewriteCond %{REQUEST_URI} !^/fonts(/|$)
