@@ -39,20 +39,34 @@ Header set Cache-Control "max-age=31536000, public"
 Header set Cache-Control "max-age=536000, public"
 </FilesMatch>
 
+
+
+# Redirect /workshop /en/courses.php#courses/review-course/64ef4e60b58f340028efc7fa/
+# Redirect /tot16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
+# Redirect /ToT16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
+# Redirect /TOT16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
+# Redirect /tot-16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
+
+# Redirect /english-workshop /en/courses.php#courses/review-course/65030ad9b4952a00290888e7/
+
+# Enable rewrite engine
+RewriteEngine On
+
+# Exclude specific directories from the global redirect
+RewriteCond %{REQUEST_URI} !^/fonts(/|$)
+RewriteCond %{REQUEST_URI} !^/dials(/|$)
+RewriteCond %{REQUEST_URI} !^/icons(/|$)
+RewriteCond %{REQUEST_URI} !^/images(/|$)
+RewriteCond %{REQUEST_URI} !^/old(/|$)
+RewriteCond %{REQUEST_URI} !^/sbgs(/|$)
+RewriteCond %{REQUEST_URI} !^/testing(/|$)
+RewriteCond %{REQUEST_URI} !^/trash(/|$)
+RewriteCond %{REQUEST_URI} !^/webp(/|$)
+
+
 Redirect /index.php /en/index.php
 Redirect /index /en/index.php
 Redirect /index.html /en/index.php
-
-Redirect /workshop /en/courses.php#courses/review-course/64ef4e60b58f340028efc7fa/
-Redirect /tot16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
-Redirect /ToT16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
-Redirect /TOT16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
-Redirect /tot-16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
-
-Redirect /english-workshop /en/courses.php#courses/review-course/65030ad9b4952a00290888e7/
-
-
-
 
 Redirect /market /market.php
 Redirect /marketplace/ /market.php
@@ -90,3 +104,8 @@ Redirect /my-catalyst /catalyst.php
 Redirect /my-catalyst/ /catalyst.php
 
 Redirect /go.php /en/go.php
+
+
+# Redirect everything else to /en/go.php
+# This rule should be placed after your specific redirects and before the catch-all rule
+RewriteRule ^(.*)$ /en/go.php [L,QSA]
