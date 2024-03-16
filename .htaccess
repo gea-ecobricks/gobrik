@@ -26,18 +26,12 @@ CacheKeyModify -qs:_ga
 ### marker DROPQS end ###
 
 
-AddType 'text/html; charset=UTF-8' html
+
 
 
 # New GoBrik php server
 
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|webp|gif|js|swf|svg)$">
-Header set Cache-Control "max-age=31536000, public"
-</FilesMatch>
 
-<FilesMatch "\.(css)$">
-Header set Cache-Control "max-age=536000, public"
-</FilesMatch>
 
 
 # Redirect /workshop /en/courses.php#courses/review-course/64ef4e60b58f340028efc7fa/
@@ -50,6 +44,8 @@ Header set Cache-Control "max-age=536000, public"
 
 # Enable rewrite engine
 RewriteEngine On
+
+AddType 'text/html; charset=UTF-8' html
 
 # Redirect direct visit to https://gobrik.com/ to https://gobrik.com/en/
 # and show the index.php file
@@ -65,6 +61,16 @@ RewriteCond %{REQUEST_URI} !^/sbgs(/|$)
 RewriteCond %{REQUEST_URI} !^/testing(/|$)
 RewriteCond %{REQUEST_URI} !^/trash(/|$)
 RewriteCond %{REQUEST_URI} !^/webp(/|$)
+
+
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|webp|gif|js|swf|svg)$">
+Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+<FilesMatch "\.(css)$">
+Header set Cache-Control "max-age=536000, public"
+</FilesMatch>
+
 
 
 Redirect /index.php /en/index.php
