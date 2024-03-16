@@ -33,7 +33,6 @@ CacheKeyModify -qs:_ga
 
 
 
-
 # Redirect /workshop /en/courses.php#courses/review-course/64ef4e60b58f340028efc7fa/
 # Redirect /tot16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
 # Redirect /ToT16 /en/go.php#courses/review-course/64f14f46b135d3002821874b/
@@ -43,6 +42,10 @@ CacheKeyModify -qs:_ga
 # Redirect /english-workshop /en/courses.php#courses/review-course/65030ad9b4952a00290888e7/
 
 # Enable rewrite engine
+
+DirectoryIndex index.php
+
+
 RewriteEngine On
 
 AddType 'text/html; charset=UTF-8' html
