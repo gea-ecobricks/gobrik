@@ -83,16 +83,16 @@ AND UNIQUE to HTML Pages-->
 <link rel="preload" href="../light.css?v5.8" as="style" onload="this.rel='stylesheet'">
 
 <!-- Main Landing stylesheet -->
-<link rel="preload" href="../2023-stylesheet.css?v1.85" as="style">
+<link rel="preload" href="../2023-stylesheet.css?v=1.85" as="style">
 
 
 
  <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../light.css?v5.8" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../light.css?v5.9" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
 
-<link rel="stylesheet" href="../dark.css?v=7.2" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../dark.css?v=7.3" media="(prefers-color-scheme: dark)">
  
-<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v1.84">
+<link rel="stylesheet" type="text/css" href="../2023-stylesheet.css?v=1.85">
 
 
 <!-- Primary stylesheet 
