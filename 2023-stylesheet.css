@@ -2898,7 +2898,9 @@ margin-top:-10px;
    
    #view_4979 ul.kn-form-group:nth-child(2) {margin-top: -27px}
    
-   #payment-processor-container-stripe {margin-top: 35px}
+   #payment-processor-container-stripe {margin-top: 15px;
+  width:425px;
+margin:auto;}
    
    .checkout-view .kn-form .update-info {margin-top: 10px;} /*space above credit card rememberbered number*/
    
