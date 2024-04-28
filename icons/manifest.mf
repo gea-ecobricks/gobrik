@@ -3,7 +3,6 @@ CACHE MANIFEST
 
 # Explicitly cached 'master entries'.
 CACHE:
-/icons/favicon.ico
 https://s3.amazonaws.com/assets.knackhq.com/assets/59d1b8b128301525448e7d20/logos/gobriklogov2b.png
 https://www.gobrik.com/backgrounds/640x960iphoneportrait.png
 
