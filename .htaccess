@@ -114,3 +114,6 @@ Redirect /login.php /en/go.php#home
 
 Redirect /go.php /en/go.php
 
+Redirect /2024-trainer-course /en/go.php#courses/review-course/66823c43d6a89a0027d34e58/
+
+
