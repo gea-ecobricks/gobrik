@@ -133,7 +133,7 @@ echo
 	</div>
 	
 	<div class="splash-image">
-		<a href="'. $array["ecobrick_full_photo_url"] .'"><img src="'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
+		<a href="'. $array["ecobrick_full_photo_url"] .'"><img src="https://ecobricks.org/'. $array["ecobrick_full_photo_url"] .'" style="	border-width: 10px;
 	border-color: #97C4E3;
 	width: 85%;
 	margin-top:-20px;
@@ -183,7 +183,7 @@ echo '
 
 			if ( isset($array["selfie_photo_url"]) && $array["selfie_photo_url"] != '' ) {
 				echo '<div class="side-details">
-				<img src="'. $array["selfie_photo_url"] .'" width="100%">
+				<img src="https://ecobricks.org/'. $array["selfie_photo_url"] .'" width="100%">
 			</div>
 		';
 			}
@@ -348,8 +348,6 @@ echo '
 				<p>When an ecobrick is authenticated brikcoins are generated to represent the ecological value of its AES plastic.</p><br>
 				<a class="module-btn" href="brikcoins.php">About Brikcoins</a><br><br>
 			</div>
-
-
 
 		</div>
 
