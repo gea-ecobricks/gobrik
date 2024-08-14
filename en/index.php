@@ -1116,7 +1116,7 @@ function closeGallery() {
 
         <div class="landing-content" >
 
-        <div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div>
+        <!--<div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div>-->
 
         <div class="main-landing-graphic" style="text-align:center;background:none;">   <img src="../svgs/regen-top.svg" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">
 
