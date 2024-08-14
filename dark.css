@@ -90,10 +90,10 @@
 
 
     @media screen and (min-width: 701px) {
-      .clouds-new2  {
+/*      .clouds-new2  {
         background-image: linear-gradient(black,var(--general-background));
         }
-      }
+      }*/
 
 
       .bottom-scope  {
@@ -215,6 +215,6 @@ background-size: contain;
 #main {
   /* background-image:linear-gradient(var(--main-background),var(--main-background),black); */
   background: url(../svgs/starry-night-2.svg) repeat-x bottom;
-  background-size: contain;
+  background-size: cover;
 
   }
