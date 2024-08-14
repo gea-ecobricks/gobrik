@@ -1141,10 +1141,9 @@ function closeGallery() {
                 <div class="big-header">The Great GoBrik Regeneration is underway.</div>
 
                 <div class="welcome-text">
-Our old version of GoBrik ran on corporate servers and code. We've let this pass pass away.
-                <br><br>In its place, we have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.  We'll be back soon!</div>
+Our old version of GoBrik ran on corporate servers and code. We've let this pass pass away.  GoBrik is currently offline...
+                <br><br></div>
 
-<p data-lang-id="005-links" style="font-size:1em; text-align: center;">Buwana accounts are designed with ecology, security, and privacy in mind. Soon, you'll be able to login to other great regenerative apps movement in the same way you login to GoBrik!.</p>
         <div style="display:flex;flex-flow:row;justify-content:center;width:100%;margin-top:10px">
             <div><a href="#" onclick="showModalInfo('terms')" class="underline-link" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
   border-radius: 10px;margin: 5px;">New Buwana & GoBrik Terms of Service</a></div>
@@ -1170,7 +1169,7 @@ Our old version of GoBrik ran on corporate servers and code. We've let this pass
             </div>
         
             <div class="welcome-text">
-                Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
+                We're calling this our regeneration. We have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.  We'll be back soon!
 
                 
 
