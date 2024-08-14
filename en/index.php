@@ -1121,8 +1121,7 @@ function closeGallery() {
 
 
 
-        /*     <div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div> */
-
+    <!-- <div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div> -->
 
 
 
@@ -1138,21 +1137,13 @@ function closeGallery() {
 
 
 
-                <div class="big-header">The Great GoBrik Regeneration is underway.</div>
+                <div class="big-header">GoBrik is Offline.</div>
 
                 <div class="welcome-text">
-Our old version of GoBrik ran on corporate servers and code. We've let this pass pass away.  GoBrik is currently offline...
+Our old version of GoBrik ran on corporate servers and code. We've let this pass pass away.
                 <br><br></div>
 
-        <div style="display:flex;flex-flow:row;justify-content:center;width:100%;margin-top:10px">
-            <div><a href="#" onclick="showModalInfo('terms')" class="underline-link" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
-  border-radius: 10px;margin: 5px;">New Buwana & GoBrik Terms of Service</a></div>
 
-            <div><a href="https://earthen.io/gobrik-regen" class="underline-link" target="_blank" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
-  border-radius: 10px;margin: 5px;">Why?  Read our 'Great GoBrik Regeneration' blog post.</a></div>
-            <div><a href="https://github.com/gea-ecobricks/gobrik-3.0" class="underline-link" target="_blank" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
-  border-radius: 10px;margin: 5px;">New Github Source Code Repository</a></div>
-       </div>
 
 
             </div><!--landing-content-->
@@ -1162,23 +1153,30 @@ Our old version of GoBrik ran on corporate servers and code. We've let this pass
     </div><!--landing-scope-->
 
     <div class="bottom-scope" style="width:100%;height:100%;">
-         <div class="landing-content">
-            <div class="tree-coins" ><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks">
 
-            
-            </div>
         
             <div class="welcome-text">
                 We're calling this our regeneration. We have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.  We'll be back soon!
 
-                
+                      <div class="landing-content">
+            <div class="tree-coins" ><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks">
 
-               <br><br> <img src="../svgs/aes-brk.svg" style="width:200px;" width="200" height="77" alt="Introducing Brikcoins and AES Plastic Offsetting">
+
             </div>
             
             <div class="tree-text">
-                GoBrik provides ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
+                GoBrik 3.0 will continue to provide ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
             </div>
+
+                <div style="display:flex;flex-flow:row;justify-content:center;width:100%;margin-top:10px">
+            <div><a href="#" onclick="showModalInfo('terms')" class="underline-link" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
+  border-radius: 10px;margin: 5px;">New Buwana & GoBrik Terms of Service</a></div>
+
+            <div><a href="https://earthen.io/gobrik-regen" class="underline-link" target="_blank" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
+  border-radius: 10px;margin: 5px;">Why?  Read our 'Great GoBrik Regeneration' blog post.</a></div>
+            <div><a href="https://github.com/gea-ecobricks/gobrik-3.0" class="underline-link" target="_blank" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
+  border-radius: 10px;margin: 5px;">New Github Source Code Repository</a></div>
+       </div>
 
 
         </div><!--closes Landing content-->
