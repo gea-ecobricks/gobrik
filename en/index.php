@@ -48,7 +48,7 @@ AND UNIQUE to HTML Pages-->
  
 <!--Stylesheets for light and dark mode.  They need to be called here-->
 <link rel="stylesheet" href="../light.css?v5.93" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../dark.css?v=6.99" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../dark.css?v=7.1" media="(prefers-color-scheme: dark)">
 <link rel="stylesheet" href="../slider.css?v1.1">
 
 
@@ -1147,8 +1147,8 @@ Our old version of GoBrik ran on corporate servers and code. We've let this pass
                 We're calling this our regeneration.
 
                  <br><br>
-                 We have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.<br><br>
-                 We'll be back soon!
+                 We have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline from August 14th to 24th.<br><br>
+                 Save your ecobricks.  We'll be back soon!
          </div>
 
 
