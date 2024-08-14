@@ -202,6 +202,6 @@ light.css
 }
 
 #main {
-  background: url(../svgs/ocean-footer-background-day.svg) repeat-x bottom;
+  background: url(../svgs/ocean-footer-background-day.svg?v=2) repeat-x bottom;
   background-size: contain;
 }

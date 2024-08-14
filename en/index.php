@@ -1152,6 +1152,14 @@ Our old version of GoBrik ran on corporate servers and code. We've let this pass
          </div>
 
 
+        <div style="display:flex;flex-flow:row;justify-content:center;width:100%;margin-top:10px">
+            <div><a href="https://earthen.io/gobrik-regenerasi-yang-hebat/" class="underline-link">Blog: GoBrik Regenerasi yang Hebat</a></div>
+
+            <div><a href="https://earthen.io/gobrik-regen" class="underline-link" target="_blank">Blog: Great GoBrik Regeneration</a></div>
+            <div><a href="https://github.com/gea-ecobricks/gobrik-3.0" class="underline-link" target="_blank">GoBrik 3.0 Github Repo</a></div>
+        </div>
+
+
 
         <div class="tree-coins" ><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks">
         </div>
@@ -1160,12 +1168,6 @@ Our old version of GoBrik ran on corporate servers and code. We've let this pass
             GoBrik 3.0 will continue to provide ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
         </div>
 
-        <div style="display:flex;flex-flow:row;justify-content:center;width:100%;margin-top:10px">
-            <div><a href="https://earthen.io/gobrik-regenerasi-yang-hebat/" class="underline-link">Blog: GoBrik Regenerasi yang Hebat</a></div>
-
-            <div><a href="https://earthen.io/gobrik-regen" class="underline-link" target="_blank">Blog: Great GoBrik Regeneration</a></div>
-            <div><a href="https://github.com/gea-ecobricks/gobrik-3.0" class="underline-link" target="_blank">GoBrik 3.0 Github Repo</a></div>
-        </div>
 
    </div><!--landing-content-->
 
