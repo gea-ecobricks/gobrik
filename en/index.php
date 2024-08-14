@@ -1114,13 +1114,12 @@ function closeGallery() {
 
 
 
-
+        <div class="clouds-new2">
 
         <div class="landing-content" >
 
 
-        <div class="clouds-new2" style=" padding-top:10vh; margin-bottom: -30px;
-        padding-bottom: 10px;margin-top:-10px">
+
 
             <div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div>
 
@@ -1143,9 +1142,7 @@ function closeGallery() {
 
                 <div class="welcome-text">
 Our old version of GoBrik ran on corporate servers and code. We've let this pass pass away.
-                </div>
-
-               <h3>In its place, we have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.  We'll be back soon!</h3>
+                <br><br>In its place, we have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.  We'll be back soon!</div>
 
 
 
