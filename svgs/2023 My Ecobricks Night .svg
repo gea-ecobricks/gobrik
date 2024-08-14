@@ -7,7 +7,7 @@
    viewBox="0 0 229.93201 164.98872"
    version="1.1"
    id="svg169573"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.3.2 (1:1.3.2+202404261509+091e20ef0f)"
    sodipodi:docname="2023 My Ecobricks Night .svg"
    inkscape:export-filename="../webp/my-ecobricks-night.webp"
    inkscape:export-xdpi="66.280464"
@@ -27,15 +27,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.4204826"
-     inkscape:cx="380.51515"
-     inkscape:cy="692.06192"
-     inkscape:window-width="1503"
-     inkscape:window-height="934"
+     inkscape:zoom="0.5946522"
+     inkscape:cx="435.54872"
+     inkscape:cy="521.31313"
+     inkscape:window-width="1803"
+     inkscape:window-height="1125"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="flowRoot3071-2-7" />
   <defs
      id="defs169570" />
   <g
@@ -266,46 +266,6 @@
          transform="matrix(0.28760721,-0.01544913,0.01479829,0.27549072,-543.63978,134.60855)"
          id="flowRoot3071-2-7"
          style="font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px;opacity:0.8">
-        <path
-           d="m 591.21492,137.48167 c 6.94559,7.58012 -5.77691,11.74586 0,0 z"
-           style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
-           id="path47204" />
-        <path
-           d="m 598.20709,137.38401 c 8.98799,17.88188 -15.56293,4.50311 0,0 z m -2.10286,1.1849 c -2.98301,6.64404 6.25517,-0.22763 0,0 z m 0.007,4.26431 c -4.29912,6.67714 7.79071,-0.67137 0,0 z"
-           style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
-           id="path47206" />
-        <path
-           d="m 605.13415,136.64183 c 0.99201,11.66102 -8.07488,10.15958 0,0 z"
-           style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
-           id="path47208" />
-        <path
-           d="m 607.80342,137.48167 c 6.94558,7.58012 -5.7769,11.74584 0,0 z"
-           style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
-           id="path47210" />
-        <path
-           d="m 617.19792,137.64443 c -11.29024,0.43951 3.92035,8.55516 -4.45218,7.34149 -5.64174,-3.96203 -1.66923,-11.98274 4.45218,-7.34149 z"
-           style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
-           id="path47212" />
-        <path
-           d="m 621.65104,136.64183 c 0.99203,11.66103 -8.07494,10.15955 0,0 z"
-           style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
-           id="path47214" />
-        <path
-           d="m 622.83593,139.82541 c 6.70926,-10.68959 5.55826,5.17035 5.46454,5.86325 -15.54755,1.37026 9.01484,-6.45514 -5.46454,-5.86325 z"
-           style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
-           id="path47216" />
-        <path
-           d="m 634.68486,137.02594 c 14.24555,10.33016 -18.37481,11.08645 0,0 z m -0.75521,2.08333 c -8.33135,7.72914 10.56283,5.53669 0,0 z"
-           style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
-           id="path47218" />
-        <path
-           d="m 640.18615,137.48167 c 6.94558,7.58013 -5.7769,11.74585 0,0 z"
-           style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
-           id="path47220" />
-        <path
-           d="m 643.98822,136.90224 c 9.48458,-2.77291 -0.19739,14.6954 1.79609,2.86131 -3.73122,1.14641 -6.38321,-0.14684 -1.79609,-2.86131 z"
-           style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
-           id="path47222" />
         <path
            d="m 598.91831,154.9152 c 2.7013,-12.86107 17.48672,7.05334 4.56812,6.9223 12.57508,4.33243 -14.67074,4.17103 0.91461,-3.73689 4.25972,-5.74462 -6.07195,0.10247 -5.48273,-3.18541 z"
            style="font-size:19.6973px;line-height:16.8412px;text-align:center;text-anchor:middle"
@@ -656,162 +616,63 @@
              d="m -919.61392,387.7082 c 3.996,-13.94532 5.5989,-20.06949 32.9688,-16.48441 55.8414,38.08837 48.8656,66.59236 48.3543,115.3909 -2.0663,19.34314 -45.2144,15.666 -45.846,4.85103 5.8092,-46.45731 1.8231,-79.92523 -35.4771,-103.75752 z"
              style="fill:#ffffff;stroke:none;stroke-width:5.20289px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
         </g>
-        <flowRoot
-           inkscape:export-ydpi="127.19839"
-           inkscape:export-xdpi="127.19839"
-           inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/GoBrik Development/Page Featured Banners/BrikCoin Elements/BrikCoin Authentication top.png"
-           transform="matrix(0,-0.23583996,0.23089538,0,9.1794544,199.72602)"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px;opacity:0.75;fill:#000000;fill-opacity:1;stroke:none"
+        <path
+           style="font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.75;stroke-width:0.233355"
+           d="m 38.898209,60.950925 c -0.920381,-4.69749 8.485802,-1.777534 3.022629,0.282112 -0.977115,0.173638 -2.186098,0.417736 -3.022629,-0.282112 z m 1.903474,-0.655397 c 4.473837,1.357316 0.377293,-3.919569 0,0 z m -0.598675,0.103484 c 0.129409,-2.234164 -1.685348,1.257677 0,0 z m -0.939456,-3.057469 c 0.812074,-2.722249 6.692293,1.208943 1.94742,0.07566 -0.644523,-0.03093 -1.573672,0.897992 -1.94742,-0.07566 z m 1.105243,-1.097552 c -4.066748,-0.919007 1.485939,-5.775507 2.213057,-1.765038 1.413179,-4.005378 1.420193,3.930394 -0.76558,0.570156 -1.491396,-2.553224 -1.321493,0.256219 -1.371475,1.178737 l -0.076,0.01614 z m -1.264888,-4.675577 c 2.765405,-0.07812 -1.635184,-2.932306 1.232595,-1.297873 1.776738,0.02042 3.773663,-0.671365 2.45369,1.021277 2.958227,1.685068 -2.888298,0.249676 -3.686285,0.276596 z M 39.2175,46.974372 c 1.956744,-2.92883 7.433861,0.825789 3.167263,2.166808 -1.186392,0.169622 -4.217546,-0.332274 -3.167263,-2.166808 z m 0.558762,1.012885 c 2.969437,1.229049 -0.161528,-3.351187 0,0 z m 2.010928,-0.0031 c 2.512033,2.116594 0.322814,-4.249584 0,0 z"
            id="flowRoot943-9-0-5"
-           xml:space="preserve"><flowRegion
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '"
-             id="flowRegion945-1-4-9"><rect
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '"
-               y="135.07396"
-               x="573.70142"
-               height="92.737785"
-               width="92.800308"
-               id="rect947-9-6-7" /></flowRegion><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara949-6-2-5">B12X8</flowPara><flowPara
-             id="flowPara20597"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle" /><flowPara
-             id="flowPara20599"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle" /><flowPara
-             id="flowPara20601"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle" /><flowPara
-             id="flowPara20603"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle" /><flowPara
-             id="flowPara959-3-5-3"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle" /><flowPara
-             id="flowPara1178-8-6-8"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.8047px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle" /></flowRoot>
-        <flowRoot
-           xml:space="preserve"
+           aria-label="B12X8&#10;&#10;&#10;&#10;&#10;&#10;" />
+        <path
+           style="font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.8;stroke-width:0.197593"
+           d="m 59.699366,57.42389 c 1.903684,-0.640765 1.645885,-0.794998 0.601582,-1.710359 1.937873,-0.980715 3.271222,0.826217 3.149207,1.444701 0.07889,0.904921 -3.179401,0.779122 -3.750789,0.265658 z m 0.449735,-4.657375 c 1.350554,1.68997 0.833599,1.931151 2.143216,0.02676 5.2532,2.809209 -4.427801,3.865329 -2.143216,-0.02676 z m 2.168082,1.555997 c 2.552125,0.07265 -1.288748,-2.290604 0,0 z m -2.565825,-2.588905 c -1.494774,-4.024092 6.597718,0.231947 2.022947,-0.766718 -2.666705,-1.473577 1.298948,2.579482 -1.989552,1.095244 z m 0.42374,-2.833194 c -2.19939,-4.490111 7.127947,-0.79107 1.797085,0.166277 -0.594853,-0.08388 -1.190603,-0.240022 -1.797085,-0.166277 z m 0.483528,-1.593172 c -0.491982,2.862316 4.405386,-0.723954 0.442029,-0.138228 l -0.223913,0.07002 z M 59.81895,45.533508 c 3.373121,0.908027 -0.246145,-2.316094 2.482573,-1.772342 3.222186,0.879442 -1.916468,4.18975 -2.482573,1.772342 z"
            id="flowRoot210720"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px;opacity:0.8;fill:#000000;fill-opacity:1;stroke:none"
-           transform="matrix(0,-0.1996971,0.19551029,0,34.509064,174.46149)"
-           inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/GoBrik Development/Page Featured Banners/BrikCoin Elements/BrikCoin Authentication top.png"
-           inkscape:export-xdpi="127.19839"
-           inkscape:export-ydpi="127.19839"><flowRegion
-             id="flowRegion210704"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '"><rect
-               id="rect210702"
-               width="92.800308"
-               height="92.737785"
-               x="573.70142"
-               y="135.07396"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '" /></flowRegion><flowPara
-             id="flowPara210706"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle">H67D4</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210708" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210710" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210712" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210714" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210716" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.8047px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210718" /></flowRoot>
-        <flowRoot
-           xml:space="preserve"
+           aria-label="H67D4&#10;&#10;&#10;&#10;&#10;&#10;" />
+        <path
+           style="font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.75;stroke-width:0.197593"
+           d="m 20.435349,57.50346 c 1.903683,-0.640766 1.645887,-0.794998 0.601582,-1.710359 1.937873,-0.980714 3.27122,0.826218 3.149207,1.444701 0.07889,0.904921 -3.179402,0.779122 -3.750789,0.265658 z m 0.449734,-4.657375 c 1.350555,1.689968 0.8336,1.931153 2.143216,0.02676 5.253198,2.809211 -4.427799,3.865328 -2.143216,-0.02676 z m 2.168082,1.555997 c 2.552123,0.07265 -1.288745,-2.290605 0,0 z m -2.565824,-2.588905 c -1.494776,-4.024091 6.597715,0.231946 2.022949,-0.766717 -2.666707,-1.473583 1.298945,2.579464 -1.989555,1.095236 z m 0.423739,-2.833194 c -2.19939,-4.490111 7.127946,-0.791069 1.797084,0.166277 -0.594853,-0.08388 -1.190602,-0.240021 -1.797084,-0.166277 z m 0.483528,-1.593172 c -0.491981,2.862315 4.405387,-0.723954 0.44203,-0.138228 l -0.223913,0.07002 z m -0.839675,-1.773733 c 3.373121,0.908026 -0.246146,-2.316094 2.482572,-1.772342 3.222188,0.879442 -1.91647,4.18975 -2.482572,1.772342 z"
            id="flowRoot210720-8"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px;opacity:0.75;fill:#000000;fill-opacity:1;stroke:none"
-           transform="matrix(0,-0.1996971,0.19551029,0,-4.7549536,174.54106)"
-           inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/GoBrik Development/Page Featured Banners/BrikCoin Elements/BrikCoin Authentication top.png"
-           inkscape:export-xdpi="127.19839"
-           inkscape:export-ydpi="127.19839"><flowRegion
-             id="flowRegion210704-7"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '"><rect
-               id="rect210702-9"
-               width="92.800308"
-               height="92.737785"
-               x="573.70142"
-               y="135.07396"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '" /></flowRegion><flowPara
-             id="flowPara210706-2"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.2314px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle">H67D4</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210708-0" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210710-2" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210712-3" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210714-7" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210716-5" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.8047px;line-height:15px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara210718-9" /></flowRoot>
-        <flowRoot
-           xml:space="preserve"
+           aria-label="H67D4&#10;&#10;&#10;&#10;&#10;&#10;" />
+        <g
            id="flowRoot943-9-0-3-2"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           style="font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px"
            transform="matrix(0.273281,0,0,0.26176807,-107.80682,28.402355)"
-           inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/GoBrik Development/How to DIagram Scenes/Label Marked on.png"
-           inkscape:export-xdpi="76"
-           inkscape:export-ydpi="76"><flowRegion
-             id="flowRegion945-1-4-6-8"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '"><rect
-               id="rect947-9-6-75-9"
-               width="92.800308"
-               height="92.737785"
-               x="573.70142"
-               y="135.07396"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '" /></flowRegion><flowPara
-             id="flowPara949-6-2-3-7"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara951-9-6-5-3">234g</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara1178-8-6-9-2" /></flowRoot>
-        <flowRoot
-           xml:space="preserve"
+           aria-label="&#10;234g&#10;">
+          <path
+             style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
+             d="m 606.02608,139.82541 c 4.03689,-9.06961 9.23525,6.23646 3.72397,4.92445 7.02569,1.93333 -8.06642,2.20536 -1.35708,-1.24805 4.61691,-4.26229 0.52225,-2.57992 -2.36689,-3.6764 z"
+             id="path5" />
+          <path
+             style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
+             d="m 614.95184,137.29287 c 6.27785,-0.70991 4.88225,13.27267 -0.90994,7.86592 5.93652,0.27566 1.59931,-2.69426 1.11162,-5.15708 4.7881,-0.93573 -5.57607,-0.21888 -0.20168,-2.70884 z m 7.06378,-0.22136 c -3.28149,5.90414 7.78808,1.61071 3.78626,7.2531 -3.2583,5.48064 -9.00241,-6.05514 -3.78626,-7.2531 z m 10.10414,2.97526 c 5.64543,4.44559 -3.03805,13.56673 -4.85383,4.79514 -2.14999,-2.93003 2.07534,-6.3629 4.85383,-4.79514 z m -0.67708,2.03775 c -7.83225,0.32284 3.81576,7.31838 0,0 z"
+             id="path6" />
+        </g>
+        <g
            id="flowRoot943-9-0-3-2-9"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           style="font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px"
            transform="matrix(0.31304467,0,0,0.29985654,-151.87631,27.906046)"
-           inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/GoBrik Development/How to DIagram Scenes/Label Marked on.png"
-           inkscape:export-xdpi="76"
-           inkscape:export-ydpi="76"><flowRegion
-             id="flowRegion945-1-4-6-8-3"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '"><rect
-               id="rect947-9-6-75-9-1"
-               width="92.800308"
-               height="92.737785"
-               x="573.70142"
-               y="135.07396"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '" /></flowRegion><flowPara
-             id="flowPara949-6-2-3-7-9"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara951-9-6-5-3-4">241g</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara1178-8-6-9-2-7" /></flowRoot>
-        <flowRoot
-           xml:space="preserve"
+           aria-label="&#10;241g&#10;">
+          <path
+             style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
+             d="m 607.45511,139.82541 c 2.21209,-8.64607 11.70955,4.38696 3.13197,4.81766 6.48725,1.25038 -2.14615,3.40975 -2.44249,-0.12724 1.52516,-0.74623 6.36521,-6.7996 2.14141,-4.52993 -0.82118,0.59908 -2.68163,1.61197 -2.83089,-0.16049 z"
+             id="path3" />
+          <path
+             style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
+             d="m 616.82358,137.07151 c -1.97324,3.91596 1.41556,4.2239 4.17033,3.58939 2.04388,4.33994 -4.07764,7.28352 -5.54152,2.02182 -1.09628,-1.83849 -1.19846,-4.96483 1.37119,-5.61121 z m 6.60805,0.41016 c 5.51197,0.87666 -1.45732,13.1195 -0.39558,5.08025 0.83769,-1.57814 -1.84132,-4.01977 0.39558,-5.08025 z m 7.2591,2.5651 c 5.88253,0.93245 -0.73299,10.61629 -1.67945,8.58007 0.60926,-1.44373 -5.48789,-3.04002 -3.3248,-6.62289 0.64293,-2.07415 3.1338,-2.79545 5.00425,-1.95718 z m -0.67708,2.03775 c -7.53417,0.46701 3.39981,7.025 0,0 z"
+             id="path4" />
+        </g>
+        <g
            id="flowRoot943-9-0-3-2-8"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           style="font-size:40px;line-height:0px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';letter-spacing:0px;word-spacing:0px"
            transform="matrix(0.26969144,0,0,0.25832972,-143.83331,28.691399)"
-           inkscape:export-filename="/home/russs/Dropbox/Vision Ecobrick Source FIles/GoBrik Development/How to DIagram Scenes/Label Marked on.png"
-           inkscape:export-xdpi="76"
-           inkscape:export-ydpi="76"><flowRegion
-             id="flowRegion945-1-4-6-8-4"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '"><rect
-               id="rect947-9-6-75-9-5"
-               width="92.800308"
-               height="92.737785"
-               x="573.70142"
-               y="135.07396"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, '" /></flowRegion><flowPara
-             id="flowPara949-6-2-3-7-0"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle" /><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara951-9-6-5-3-3">225</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:16.8412px;font-family:'Roadshow IAIC 2013';-inkscape-font-specification:'Roadshow IAIC 2013, ';text-align:center;text-anchor:middle"
-             id="flowPara1178-8-6-9-2-6" /></flowRoot>
+           aria-label="&#10;225&#10;">
+          <path
+             style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
+             d="m 608.90042,139.82541 c 4.05246,-9.21905 9.22086,6.2676 3.72387,4.92445 7.02568,1.93332 -8.06644,2.20535 -1.35708,-1.24805 4.61693,-4.26229 0.52227,-2.57989 -2.36679,-3.6764 z"
+             id="path1" />
+          <path
+             style="font-size:13.3333px;line-height:16.8412px;text-align:center;text-anchor:middle"
+             d="m 616.38738,139.82541 c 4.05249,-9.21906 9.22097,6.26752 3.72396,4.92445 7.02568,1.93332 -8.06643,2.20536 -1.35709,-1.24805 4.61689,-4.26225 0.52227,-2.57994 -2.36687,-3.6764 z m 14.60283,-2.18098 c -3.17842,0.67321 -7.03406,3.34889 -1.87824,4.71437 3.40164,1.78449 -4.9234,6.34598 -1.40811,1.1101 -8.79894,-0.47833 -2.09689,-11.21938 3.28635,-5.82447 z"
+             id="path2" />
+        </g>
       </g>
     </g>
     <path
