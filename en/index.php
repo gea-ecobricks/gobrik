@@ -1124,11 +1124,12 @@ function closeGallery() {
 
         <div class="welcome-text">
 Our old version of GoBrik ran on corporate servers and code. We've let this pass pass away.
-                <br><br></div>
+                <br><br>
+                We're calling this our regeneration.
 
-
-            <div class="welcome-text">
-                We're calling this our regeneration. We have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.  We'll be back soon!
+                 <br><br>
+                 We have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.<br><br>
+                 We'll be back soon!
 
                       <div class="landing-content">
             <div class="tree-coins" ><img src="../webp/2023-tree-blank.webp" style="width:100%;" alt="Build your greenest visions with ecobricks">
@@ -1140,25 +1141,21 @@ Our old version of GoBrik ran on corporate servers and code. We've let this pass
                 GoBrik 3.0 will continue to provide ecobrickers and their communities with the tools to manage their ecobricking and to quantify its ecological value.
             </div>
 
-                <div style="display:flex;flex-flow:row;justify-content:center;width:100%;margin-top:10px">
-            <div><a href="#" onclick="showModalInfo('terms')" class="underline-link" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
+            <div style="display:flex;flex-flow:row;justify-content:center;width:100%;margin-top:10px">
+                <div><a href="#" onclick="showModalInfo('terms')" class="underline-link" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
   border-radius: 10px;margin: 5px;">New Buwana & GoBrik Terms of Service</a></div>
 
-            <div><a href="https://earthen.io/gobrik-regen" class="underline-link" target="_blank" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
+                <div><a href="https://earthen.io/gobrik-regen" class="underline-link" target="_blank" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
   border-radius: 10px;margin: 5px;">Why?  Read our 'Great GoBrik Regeneration' blog post.</a></div>
-            <div><a href="https://github.com/gea-ecobricks/gobrik-3.0" class="underline-link" target="_blank" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
+                <div><a href="https://github.com/gea-ecobricks/gobrik-3.0" class="underline-link" target="_blank" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
   border-radius: 10px;margin: 5px;">New Github Source Code Repository</a></div>
-       </div>
+            </div>
+
+        </div><!--landing-content-->
+
+   </div><!--clouds-->
 
 
-
-
-
-            </div><!--landing-content-->
-
-        </div><!--clouds-->
-
-    </div><!--landing-scope-->
    
  
 
