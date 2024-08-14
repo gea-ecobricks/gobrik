@@ -1112,49 +1112,21 @@ function closeGallery() {
 
     <div class="landing-scope" style="min-height:100vh; height: 100%; width:100%;">
 
-
-
         <div class="clouds-new2">
 
         <div class="landing-content" >
 
+        <div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div>
 
+        <div class="main-landing-graphic" style="text-align:center;background:none;">   <img src="../svgs/regen-top.svg" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">
 
+        <div class="big-header">GoBrik is Offline.</div>
 
-    <!-- <div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div> -->
-
-
-
-
-
-
-
-         <div class="main-landing-graphic" style="text-align:center;background:none;">   <img src="../svgs/regen-top.svg" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">
-
-
-
-</div>
-
-
-
-                <div class="big-header">GoBrik is Offline.</div>
-
-                <div class="welcome-text">
+        <div class="welcome-text">
 Our old version of GoBrik ran on corporate servers and code. We've let this pass pass away.
                 <br><br></div>
 
 
-
-
-            </div><!--landing-content-->
-
-        </div><!--clouds-->
-
-    </div><!--landing-scope-->
-
-    <div class="bottom-scope" style="width:100%;height:100%;">
-
-        
             <div class="welcome-text">
                 We're calling this our regeneration. We have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.  We'll be back soon!
 
@@ -1179,8 +1151,14 @@ Our old version of GoBrik ran on corporate servers and code. We've let this pass
        </div>
 
 
-        </div><!--closes Landing content-->
-    </div>
+
+
+
+            </div><!--landing-content-->
+
+        </div><!--clouds-->
+
+    </div><!--landing-scope-->
    
  
 
