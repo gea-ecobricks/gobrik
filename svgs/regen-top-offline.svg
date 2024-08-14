@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="598.23492mm"
+   height="432.00961mm"
+   viewBox="0 0 598.23493 432.00962"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.3.2 (1:1.3.2+202404261509+091e20ef0f)"
+   sodipodi:docname="regen-top.svg"
+   inkscape:export-filename="../../../../../PycharmProjects/gobrik-3.0/webps/gobrik-regen.webp"
+   inkscape:export-xdpi="18.846195"
+   inkscape:export-ydpi="18.846195"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1504">
+      <stop
+         style="stop-color:#decd87;stop-opacity:1;"
+         offset="0"
+         id="stop1500" />
+      <stop
+         style="stop-color:#d4bd61;stop-opacity:1"
+         offset="1"
+         id="stop1502" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1227">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0"
+         id="stop1223" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop1225" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient899">
+      <stop
+         style="stop-color:#25bd00;stop-opacity:1"
+         offset="0"
+         id="stop895" />
+      <stop
+         style="stop-color:#49ff49;stop-opacity:1"
+         offset="1"
+         id="stop897" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1227"
+       id="linearGradient1229"
+       x1="224.09676"
+       y1="234.34421"
+       x2="244.63138"
+       y2="234.96021"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.78441866,0,0,0.78441866,56.972713,54.45147)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1504"
+       id="linearGradient1524"
+       x1="673.67505"
+       y1="120.68718"
+       x2="681.02661"
+       y2="120.68718"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,13.229169)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient899"
+       id="linearGradient69548"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(347.09337,-75.890546)"
+       x1="34.850044"
+       y1="258.63977"
+       x2="33.968067"
+       y2="290.93167" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient899"
+       id="linearGradient71073"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1808024,0,0,1.1808024,641.3006,-150.87551)"
+       x1="20.538382"
+       y1="262.45502"
+       x2="20.585573"
+       y2="293.36166" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1504"
+       id="linearGradient71075"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.52916667,20.10834)"
+       x1="673.67505"
+       y1="120.68718"
+       x2="681.02661"
+       y2="120.68718" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1504"
+       id="linearGradient71077"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.52916667,20.10834)"
+       x1="669.09357"
+       y1="119.62366"
+       x2="671.11285"
+       y2="120.27074" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1504"
+       id="linearGradient71079"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.52916667,20.10834)"
+       x1="665.71643"
+       y1="114.30058"
+       x2="668.69812"
+       y2="114.51803" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1504"
+       id="linearGradient71081"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.56830979,7.8527839)"
+       x1="669.09357"
+       y1="119.62366"
+       x2="671.11285"
+       y2="120.27074" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient899"
+       id="linearGradient57692"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.57376558,0,0,0.57376558,298.34052,292.16498)"
+       x1="39.858307"
+       y1="249.06721"
+       x2="40.722282"
+       y2="294.99954" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath73">
+      <circle
+         style="opacity:1;fill:#00fc00;fill-opacity:1;stroke:#000000;stroke-width:0.207548;stroke-dasharray:none"
+         id="circle73"
+         cx="-67.098625"
+         cy="911.26245"
+         r="42.27055" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.26862055"
+     inkscape:cx="863.67182"
+     inkscape:cy="1349.4872"
+     inkscape:document-units="mm"
+     inkscape:current-layer="text71696"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1803"
+     inkscape:window-height="1125"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <sodipodi:guide
+       position="515.04702,-36.295573"
+       orientation="0,-1"
+       id="guide39"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="335.78836,134.51599"
+       orientation="0,-1"
+       id="guide40"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="499.876,-49.355244"
+       orientation="0,-1"
+       id="guide42"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="776.97545,-16.415363"
+       orientation="0,-1"
+       id="guide73"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="354.78368,1.9104779"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(179.37234,-243.9425)">
+    <g
+       fill="#ffffff"
+       id="g843"
+       style="filter:url(#filter1073)"
+       transform="matrix(3.1574096,0,0,3.1574096,15.44244,-206.19154)" />
+    <g
+       id="g2"
+       transform="matrix(1.3009724,0,0,1.3009724,-111.41012,-49.287654)">
+      <ellipse
+         style="fill:#29fff5;fill-opacity:1;stroke:none;stroke-width:0.148561;stroke-miterlimit:4;stroke-dasharray:none"
+         id="ellipse1"
+         cx="-390.37881"
+         cy="424.41592"
+         rx="74.657707"
+         ry="63.272911" />
+      <ellipse
+         style="fill:#64fff8;fill-opacity:1;stroke:none;stroke-width:0.277172;stroke-miterlimit:4;stroke-dasharray:none"
+         id="ellipse57646"
+         cx="177.43686"
+         cy="401.29257"
+         rx="227.16556"
+         ry="72.38446" />
+      <path
+         d="m 336.76057,399.94895 c -1.41905,0.37645 -1.52932,-2.47331 -3.36183,-2.43837 -1.84694,-0.53981 -3.95032,0.7131 -4.35915,2.59187 -1.77169,-0.80075 -3.75557,1.27869 -2.91428,3.00999 0.50233,1.35339 2.03553,1.48122 3.26832,1.39072 2.60761,-0.0299 5.2228,0.0602 7.82567,-0.0463 1.91903,-0.28932 2.47836,-3.12127 0.81399,-4.11889 -0.37273,-0.25324 -0.82217,-0.3903 -1.27275,-0.38903 z"
+         opacity="0.77"
+         stroke-width="0.0381257"
+         id="path57648"
+         style="fill:#ffffff;filter:url(#filter1073)" />
+      <path
+         d="m 264.81765,384.57497 c -1.70956,0.0678 -2.48558,-3.99079 -5.30691,-3.14317 -3.01813,-0.1181 -2.83891,4.08565 -5.61568,3.36431 -3.04457,1.32187 -1.30154,6.20248 1.8708,5.41 3.1936,-0.0368 6.39517,0.0743 9.58352,-0.0572 3.04731,-0.63525 2.63099,-5.57425 -0.53175,-5.57425 z"
+         opacity="0.77"
+         stroke-width="0.0456437"
+         id="path57650"
+         style="fill:#ffffff;filter:url(#filter1073)" />
+      <path
+         style="fill:#00956a;fill-opacity:1;stroke:#000000;stroke-width:0.144428px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 260.30495,438.42883 c -3.61445,-0.58011 -2.4265,-2.33031 -0.31831,-5.16522 l 2.73341,-0.65911 c -2.73341,0.65911 -7.83268,-6.24316 -1.91117,-4.5682 l 2.60992,-5.52879 c 2.8941,-1.48211 4.61687,5.2287 5.53745,0.51798 0.41525,-2.12486 0.0602,-4.9855 3.52682,-4.19564 0,0 4.60177,9.75303 8.33621,3.60246 8.97851,-9.7954 4.49701,4.26996 11.25103,-1.53789 -0.58842,-3.96081 -0.42711,-7.09983 6.02276,-5.43588 l 6.38557,4.35496 4.08227,1.29283 c 0.79262,-3.88561 5.24056,-3.8412 6.36962,-4.47006 5.99476,0.30995 -1.63869,9.39452 2.94445,4.66661 0.62752,-8.21109 15.40169,-3.03651 10.91491,-0.23181 4.35284,-1.00521 11.0083,-5.52245 10.69076,0.59568 6.7391,3.62335 1.18473,3.74309 -0.53265,5.8029 0,0 9.1698,-4.34976 5.68391,0.83943 -3.48588,5.18919 -1.69256,4.57392 -1.69256,4.57392 3.46941,-0.15255 0.28442,0.16696 1.45798,1.38462 0.76814,1.41238 1.2802,2.72815 -1.67744,2.73491"
+         id="path57654"
+         sodipodi:nodetypes="cccccscccscccccccsccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:url(#linearGradient57692);fill-opacity:1;stroke:none;stroke-width:0.151809px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 254.67442,440.31116 c 15.52753,-11.04292 37.37498,-11.48297 50.12141,-3.78126 21.95484,-8.25865 35.00795,-6.29174 44.70312,4.10376 -11.44983,23.7798 -31.79155,26.03312 -47.52778,26.20015 -23.09674,0.27675 -37.63955,-12.66686 -47.29675,-26.52265 z"
+         id="path57656"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.144428px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 256.26096,439.87311 c 7.84809,-5.91012 21.23704,-8.60886 21.6115,-8.695 10.92502,-0.44988 16.00551,1.15401 23.32684,1.97047 v 0"
+         id="path57668"
+         sodipodi:nodetypes="cccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.144428px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 309.32849,434.46102 c 16.88245,-5.04309 27.16102,-4.31544 37.14652,5.71892"
+         id="path57672"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#784421;stroke:#000000;stroke-width:0.101651px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 325.29193,432.86059 c 2.63264,-1.2838 2.62685,-2.78592 2.98289,-4.65358 l 1.39847,0.0957 -0.12406,3.34273 c 0.44829,0.68145 0.93442,1.47166 1.20505,1.64223 0.27681,0.19142 -0.11032,0.29254 -0.6094,0.1768 -0.37169,-0.0862 -0.8975,-0.45153 -1.42256,-0.66422 -0.33195,-0.13446 -0.30785,0.1531 -0.60631,-0.0319 -0.19017,0.31343 -1.15837,-0.29017 -1.75483,0.0555 -0.54963,0.3185 -0.92265,-0.0328 -1.06925,0.0368"
+         id="path57674"
+         sodipodi:nodetypes="cccccsscsc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#008000;stroke:#000000;stroke-width:0.101651px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 327.09605,428.96977 c 1.77659,-0.61972 1.12528,-0.67268 2.62164,-0.2851 l 2.03645,0.68462 c 1.18354,-1.10294 -2.14023,-5.86737 -0.96395,-4.75668 1.4059,1.34804 2.38199,0.0699 2.38199,0.0699 -2.29884,-3.54018 -1.9844,-2.11038 -2.75985,-4.3229 l 1.86061,0.25969 c -2.67639,-4.1411 -1.49874,-2.25239 -2.68458,-7.33098 -1.91412,6.01496 -0.48224,3.75504 -3.51347,7.20617 4.33744,-0.13488 -2.54711,5.33072 -0.99882,4.80377 3.24157,-1.14576 2.38757,-0.81745 2.53016,-0.52672 -0.38214,1.59102 -3.8998,4.37906 -2.2637,4.3557 z"
+         id="path57676"
+         sodipodi:nodetypes="ccccccccccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <g
+         id="g57688"
+         transform="matrix(1.0486231,0,0,1.0213453,62.748938,401.60077)">
+        <path
+           style="fill:#25bd00;fill-opacity:1;stroke:#000000;stroke-width:0.0962196px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 228.78919,-1.1507845 c 0,0 -3.08965,2.10080014 -6.10299,0.024051 -3.01334,-2.0767564 -1.26813,-2.6961524 -4.59667,-0.9810456 l -1.63903,0.8445337 c 0,0 -3.96722,2.4674894 -5.82926,-2.1785257 -1.60531,-4.005378 -2.24541,-7.9334939 1.12722,-11.5403819 l 0.42486,-1.670051 c 0,0 -7.73831,-0.03194 -5.12937,-5.309042 l 2.2489,-4.548854 c -2.86937,-7.731783 4.84817,-7.009352 6.53428,-7.159492 0.755,-0.06723 2.67928,1.555087 1.84805,-0.311867 0,0 -0.78983,-5.829857 5.56354,-3.076591 l 4.81985,2.088711 c 0,0 -3.02595,-6.964002 5.21915,-6.414745 4.09783,-0.226354 12.33922,0.244132 7.77048,4.418025 0,0 5.43374,-1.299316 4.54486,1.82614 l -0.88888,3.125455 c 12.11064,1.740628 3.26566,10.939971 6.27366,11.425013 7.58006,2.901896 -0.44316,20.38476708 -5.03067,18.6463308 l -3.1212,1.51950088 c -2.87267,0.29611347 -4.96296,-0.53757092 -6.18284,-2.62822068 -2.339,2.25589365 -4.97884,2.76258258 -7.85394,1.9010628 z"
+           id="path57684"
+           sodipodi:nodetypes="csscsccscscscccscccccc"
+           inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+           inkscape:export-xdpi="23.557745"
+           inkscape:export-ydpi="23.557745" />
+        <path
+           style="fill:#ac9d93;fill-opacity:1;stroke:#000000;stroke-width:0.217773"
+           d="m 213.38905,37.777808 c 3.05222,-1.626283 6.42557,-2.988748 7.59959,-6.15805 l 1.72875,-4.032404 c 0.46334,2.373111 0.82849,5.932846 1.62797,4.243458 l 1.64362,2.172669 -8.47291,5.393894 -3.22121,0.28663 c -0.58328,-0.0309 -1.12554,-0.149943 -0.90581,-1.906197 z"
+           id="path3"
+           sodipodi:nodetypes="cccccccc" />
+        <path
+           style="fill:#ac9d93;fill-opacity:1;stroke:#000000;stroke-width:0.217773"
+           d="m 238.43329,32.523586 c -0.11684,-1.589492 0.8327,-2.162488 1.59774,-2.911358 1.75815,4.559335 3.50001,6.039608 5.24888,8.844921 z"
+           id="path6"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:0.174802;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 210.10307,40.459305 c 6.83491,-1.86633 15.5077,-5.555972 18.22194,-9.036154 6.7932,-8.7102 -1.07287,-20.325116 -2.21078,-29.6952102 l -7.53465,-14.4327598 c 1.97525,2.161243 3.94174,4.119029 5.51687,-3.006324 l 0.81371,1.174651 -1.67201,3.834418 c 0.43945,3.1461048 0.3543,7.7040111 4.58202,6.0843712 2.29259,-3.8088237 5.03892,-1.3047776 5.42263,-12.1306732 0.97969,-2.32939 0.18372,-0.770857 0.66026,4.449661 -0.15705,4.9449383 -2.24024,5.2643336 -3.4283,8.8527735 2.36272,0.6089278 6.11865,0.4864236 8.37595,-3.6902751 12.84825,-9.7140314 9.71393,-8.3357384 5.92447,-4.3854924 -2.3265,2.4252244 -2.76709,4.2217437 -6.20534,9.7348038 -13.54805,-0.948554 -4.12547,14.0542182 -4.1106,21.9153302 0,0 -1.08284,9.825567 6.28236,16.233504 2.92399,2.543955 7.83906,2.443148 10.70754,3.602987 0,0 5.67541,5.90626 -4.48216,1.297655 -8.89314,-1.357252 -12.32816,-4.892657 -13.7518,-1.875044 -2.36817,5.051967 0.93635,4.821088 -3.45107,6.708006 -4.38743,1.886931 -8.32245,2.853741 -4.83047,-0.45253 6.89267,-1.277827 1.73982,-8.657459 -1.35089,-6.419221 -2.62562,2.299921 -6.51339,2.127709 -10.77434,3.005897 -3.53208,0.37906 -6.96029,0.801835 -2.70534,-1.770374 z"
+           id="path57686"
+           sodipodi:nodetypes="csccccccccccsccscccscccc"
+           inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+           inkscape:export-xdpi="23.557745"
+           inkscape:export-ydpi="23.557745" />
+        <path
+           style="fill:#ac9d93;fill-opacity:1;stroke:#000000;stroke-width:0.217773"
+           d="m 225.589,37.31427 c -3.27941,2.069668 -6.50011,4.110342 -9.60013,6.091433 l -3.93641,1.67331 c 0.24864,0.722308 -0.56815,2.40496 1.94539,1.085777 l 6.76799,-3.204427 c 1.76865,-0.910608 3.84034,-1.52534 6.61515,-1.453578 -0.4818,-1.337556 -0.0297,-2.1905 -1.79199,-4.192515 z"
+           id="path4"
+           sodipodi:nodetypes="ccccccc" />
+        <path
+           style="fill:#ac9d93;fill-opacity:1;stroke:#000000;stroke-width:0.217773"
+           d="m 238.39997,41.475715 c 0.58816,-1.075997 1.86705,-1.73748 3.86446,-1.967779 1.50304,4.052905 3.99444,4.961165 6.76127,4.993061 l -0.19987,1.129723 -4.23506,-0.401115 z"
+           id="path5"
+           sodipodi:nodetypes="cccccc" />
+      </g>
+      <path
+         style="fill:#ff0000;stroke:#000000;stroke-width:0.111318px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 292.16445,391.37824 c 0,0 -2.69573,0.37452 -1.08586,1.97415 1.97642,2.24483 2.80952,-2.18765 1.08586,-1.97415 z"
+         id="path57658"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745"
+         inkscape:transform-center-x="12.226682"
+         inkscape:transform-center-y="-20.598832" />
+      <path
+         style="fill:#ff0000;stroke:#000000;stroke-width:0.111318px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 317.27175,389.92219 c 0,0 -2.69574,0.37452 -1.08587,1.97415 1.97643,2.24483 2.80953,-2.18765 1.08587,-1.97415 z"
+         id="path21"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745"
+         inkscape:transform-center-x="12.226683"
+         inkscape:transform-center-y="-20.598832" />
+      <path
+         style="fill:#ff0000;stroke:#000000;stroke-width:0.111318px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 313.00764,384.3594 c 0,0 -2.69573,0.37453 -1.08586,1.97416 1.97642,2.24483 2.80952,-2.18765 1.08586,-1.97416 z"
+         id="path22"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745"
+         inkscape:transform-center-x="12.226681"
+         inkscape:transform-center-y="-20.598834" />
+      <ellipse
+         style="opacity:0.2;fill:#484838;stroke:none;stroke-width:0.0439697;stroke-linecap:round"
+         id="ellipse39"
+         cx="292.06955"
+         cy="455.03082"
+         rx="5.8835616"
+         ry="2.3433738" />
+      <path
+         style="fill:#ff0000;stroke:#000000;stroke-width:0.209962px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 294.32697,453.67771 c 0,0 -1.60935,-4.87459 -4.03117,-1.34503 -3.49459,4.42854 5.012,4.47067 4.03117,1.34503 z"
+         id="path23"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745"
+         inkscape:transform-center-x="-34.224663"
+         inkscape:transform-center-y="-29.730036" />
+      <g
+         id="text71696"
+         style="font-size:60.3016px;line-height:1.25;font-family:Mulish;-inkscape-font-specification:Mulish;letter-spacing:-2.04974px;word-spacing:-0.488972px;fill:#666666;stroke-width:1.50754"
+         aria-label="gobrik">
+        <path
+           style="font-family:Arvo;-inkscape-font-specification:Arvo;fill:#808080"
+           d="m 96.708995,302.36076 q -1.501652,1.58998 -3.503853,2.47331 -1.972758,0.88332 -4.504954,0.88332 -3.091635,0 -5.771052,-1.05999 -2.649972,-1.08943 -4.62273,-3.15052 -1.943313,-2.09053 -3.06219,-5.09384 -1.089434,-3.03274 -1.089434,-6.91937 0,-3.5333 1.059989,-6.41882 1.05999,-2.91497 3.003303,-4.94662 1.943313,-2.06109 4.681618,-3.17997 2.738305,-1.14832 6.094938,-1.14832 2.296643,0 4.122179,0.53 1.854981,0.50055 3.592186,1.76665 v -1.56054 h 5.476605 v 29.29692 q 0,7.24326 -3.444957,10.95322 -3.415523,3.70996 -10.658782,3.70996 -1.589983,0 -3.327188,-0.23555 -1.737204,-0.23556 -3.444964,-0.76555 -1.678316,-0.50055 -3.297744,-1.29554 -1.589984,-0.795 -2.944414,-1.94332 l 2.944414,-4.44606 q 0.883324,0.76555 2.002201,1.41332 1.148322,0.64777 2.443864,1.08943 1.295542,0.47111 2.679417,0.7361 1.383875,0.265 2.767749,0.265 2.267199,0 3.916071,-0.47111 1.678316,-0.4711 2.738305,-1.67831 1.089433,-1.17777 1.619428,-3.20941 0.529995,-2.03165 0.529995,-5.15273 z m -7.302147,-1.41332 q 1.35443,0 2.473307,-0.265 1.118878,-0.26499 2.031646,-0.67721 0.912769,-0.44166 1.589984,-1.0011 0.706659,-0.55944 1.20721,-1.17777 v -16.69483 q -1.501652,-1.32498 -3.474409,-1.91387 -1.943313,-0.58888 -4.004403,-0.58888 -1.943314,0 -3.651074,0.73611 -1.70776,0.70666 -3.003302,2.09053 -1.266098,1.38387 -2.002202,3.38608 -0.736103,2.0022 -0.736103,4.59328 0,2.82664 0.706659,4.97606 0.706659,2.14942 1.972757,3.62163 1.266099,1.44276 3.032747,2.17887 1.766649,0.7361 3.857183,0.7361 z m 17.854492,-11.15933 q 0.0294,-3.62163 1.14833,-6.59549 1.14832,-2.97385 3.17996,-5.09383 2.03165,-2.14942 4.82884,-3.29775 2.7972,-1.14832 6.15383,-1.14832 3.38607,0 6.18327,1.14832 2.82664,1.14833 4.82884,3.2683 2.0022,2.09054 3.12108,5.0644 1.11887,2.97385 1.11887,6.59548 0,3.56274 -1.11887,6.56605 -1.11888,2.97386 -3.12108,5.12328 -2.0022,2.14942 -4.82884,3.35663 -2.7972,1.17777 -6.18327,1.17777 -3.44497,0 -6.24216,-1.17777 -2.79719,-1.17777 -4.7994,-3.29774 -2.0022,-2.14943 -3.12107,-5.12328 -1.11888,-2.97386 -1.14833,-6.56605 z m 5.8005,0 q 0,2.62053 0.7361,4.74051 0.76555,2.11998 2.06109,3.62163 1.32499,1.4722 3.03275,2.29664 1.7372,0.79499 3.68052,0.79499 2.03164,0 3.76885,-0.79499 1.76665,-0.79499 3.06219,-2.2672 1.29554,-1.50165 2.03164,-3.62163 0.73611,-2.11998 0.73611,-4.76995 0,-2.76775 -0.73611,-4.91717 -0.7361,-2.14942 -2.03164,-3.59219 -1.2661,-1.44276 -3.03275,-2.17886 -1.76665,-0.73611 -3.79829,-0.73611 -1.94332,0 -3.68052,0.73611 -1.70776,0.7361 -3.03275,2.17886 -1.29554,1.44277 -2.06109,3.59219 -0.7361,2.14942 -0.7361,4.91717 z"
+           id="path1" />
+        <path
+           style="font-weight:bold;font-family:Arvo;-inkscape-font-specification:'Arvo Bold';fill:#808080"
+           d="m 139.60236,259.22509 h 13.30875 v 15.98817 q 1.58998,-0.76555 3.2683,-1.17776 1.67831,-0.41222 3.44496,-0.41222 3.38608,0 6.27161,1.2661 2.88552,1.26609 4.97606,3.44496 2.09053,2.17887 3.2683,5.09384 1.2072,2.91497 1.2072,6.18327 0,3.29774 -1.17776,6.21271 -1.14832,2.91497 -3.23886,5.09384 -2.09053,2.14942 -4.97606,3.41552 -2.88552,1.23665 -6.33049,1.23665 -1.85498,0 -3.53329,-0.35333 -1.67832,-0.35333 -3.17997,-1.0011 v 0.82444 h -9.03935 v -37.74739 h -4.2694 z m 19.40369,22.52477 q -1.94332,0 -3.50386,0.88333 -1.53109,0.88332 -2.59108,2.53219 v 9.12769 q 0.94221,1.41331 2.50275,2.29664 1.58998,0.85388 3.5333,0.85388 1.50165,0 2.85608,-0.53 1.35443,-0.55943 2.35553,-1.56054 1.03055,-1.03054 1.61943,-2.44386 0.58888,-1.44276 0.58888,-3.23885 0,-1.82554 -0.58888,-3.29775 -0.58888,-1.47221 -1.58998,-2.50275 -1.00111,-1.03055 -2.35554,-1.56054 -1.32498,-0.55944 -2.82663,-0.55944 z m 46.15031,3.88663 h -8.2738 v -3.15053 q -1.20721,0 -2.20831,0.17667 -1.0011,0.14722 -1.76665,0.52999 -0.7361,0.38278 -1.2661,1.05999 -0.50055,0.67722 -0.70666,1.67832 v 11.04155 h 6.21272 v 8.0677 h -19.90424 v -8.0677 h 4.56384 v -14.36874 h -4.50495 v -8.06769 h 13.57375 v 2.14942 q 1.29554,-1.03055 2.91497,-1.58998 1.61942,-0.55944 3.53329,-0.55944 1.94332,0 4.00441,0.0294 2.06109,0.0294 3.82773,0.0294 z m 2.95577,-11.10044 h 13.69153 v 22.43643 h 4.23996 v 8.0677 h -17.93149 v -8.0677 h 4.59329 v -14.36874 h -4.59329 z m 4.12218,-9.83435 q 0,-1.08943 0.38278,-2.03164 0.41222,-0.97166 1.11887,-1.67832 0.70666,-0.70666 1.64888,-1.11888 0.97165,-0.41221 2.09053,-0.41221 1.05999,0 2.0022,0.41221 0.94221,0.41222 1.64887,1.11888 0.70666,0.70666 1.11888,1.67832 0.41222,0.94221 0.41222,2.03164 0,1.08944 -0.41222,2.06109 -0.41222,0.94222 -1.11888,1.64888 -0.70666,0.70665 -1.64887,1.11887 -0.94221,0.41222 -2.0022,0.41222 -1.11888,0 -2.09053,-0.41222 -0.94222,-0.41222 -1.64888,-1.11887 -0.70665,-0.70666 -1.11887,-1.64888 -0.38278,-0.97165 -0.38278,-2.06109 z m 16.47063,-5.47661 h 13.75042 v 26.4114 h 5.15272 l 2.11998,-3.03275 v -8.06769 h 15.78206 v 8.06769 h -5.47661 l -5.68272,6.56604 5.8005,7.00771 h 5.06439 v 8.86269 h -8.27381 l -9.89323,-13.0732 h -4.59328 v 5.0055 h 3.12108 v 8.0677 h -16.8715 v -8.0677 h 4.71107 v -29.67969 h -4.71107 z"
+           id="path2" />
+        <text
+           xml:space="preserve"
+           style="font-size:33.5424px;letter-spacing:0px;word-spacing:0px;fill:#917c6f;fill-opacity:1;stroke-width:0.838566"
+           x="110.16856"
+           y="531.99719"
+           id="text9"><tspan
+             sodipodi:role="line"
+             id="tspan9"
+             style="fill:#917c6f;fill-opacity:1;stroke-width:0.838566"
+             x="110.16856"
+             y="531.99719">is offline</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3695-5"
+       transform="matrix(1.0406898,0,0,1.0406898,-566.42796,364.614)">
+      <ellipse
+         style="opacity:1;fill:#05f3ff;fill-opacity:1;stroke:none;stroke-width:0.224213;stroke-miterlimit:4;stroke-dasharray:none"
+         id="ellipse1641-0"
+         cx="653.12048"
+         cy="103.54516"
+         rx="107.01009"
+         ry="100.55152"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00956a;fill-opacity:1;stroke:#000000;stroke-width:0.245068px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 574.78922,152.94516 c -6.13308,-0.98436 -4.11733,-3.95413 -0.54009,-8.76448 l 4.63811,-1.11839 c -4.63811,1.11839 -13.29069,-10.59358 -3.24293,-7.75146 l 4.42859,-9.38139 c 4.91078,-2.51486 7.83402,8.87219 9.39609,0.87893 0.70458,-3.60552 0.10214,-8.45953 5.98438,-7.11927 0,0 7.80842,16.54918 14.14509,6.11274 15.23496,-16.62114 7.63065,7.24537 19.09102,-2.60952 -0.99844,-6.72082 -0.72471,-12.04721 10.21959,-9.22375 l 10.83519,7.38962 6.92691,2.19371 c 1.34491,-6.59321 8.8923,-6.51786 10.80812,-7.58493 10.17206,0.52594 -2.78055,15.94085 4.99622,7.91842 1.06478,-13.93282 26.13398,-5.15243 18.5207,-0.39334 7.386,-1.70567 18.67917,-9.37064 18.14035,1.01077 11.43508,6.1482 2.01028,6.35137 -0.90381,9.84651 0,0 15.55952,-7.38078 9.64459,1.42436 -5.91493,8.80516 -2.87198,7.76115 -2.87198,7.76115 5.88699,-0.25886 0.48261,0.2833 2.47394,2.34947 1.3034,2.39655 2.17228,4.62919 -2.84632,4.64066"
+         id="path1033-2-4-9"
+         sodipodi:nodetypes="cccccscccscccccccsccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:url(#linearGradient71073);fill-opacity:1;stroke:none;stroke-width:0.31242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 558.05993,150.83036 c 31.95543,-22.7262 70.29366,-20.45479 96.52562,-4.60473 45.18278,-16.99624 72.59202,-13.67124 92.54455,7.72261 -23.56356,48.9385 -68.55936,55.66652 -100.94433,56.01028 -47.53277,0.56953 -71.61784,-30.46403 -88.12584,-59.12816 z"
+         id="path859-5-5-6"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.36449px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 558.05993,150.83036 c 19.80608,-14.91532 47.64826,-18.59672 48.59325,-18.81411 27.57129,-1.13534 40.39287,2.91236 58.86959,4.97286 v 0"
+         id="path869-0-3-3"
+         sodipodi:nodetypes="cccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.245068px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 657.97359,146.21247 c 28.6466,-8.55725 46.08751,-7.32254 63.03118,9.70402"
+         id="path871-3-1-8"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#25bd00;fill-opacity:1;stroke:#000000;stroke-width:0.356907px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 680.64389,151.91064 2.42026,-10.24106 c 0,0 -2.55789,11.80672 -0.81107,8.32642 l 1.74683,-3.48028 c 0,0 -3.60584,13.31285 -0.38767,4.77054 3.21819,-8.54227 3.94779,-15.05719 3.21819,-8.54227 -0.7296,6.51492 -3.87585,10.08842 -0.7296,6.51492 l 3.14623,-3.57351 c 0,0 -5.21725,10.25028 -2.80322,7.46965 2.41402,-2.78066 2.74063,-5.73404 2.41402,-2.78066 -0.3266,2.95339 -4.11461,7.72579 -0.3266,2.95339 l 3.78799,-4.77241 c 0,0 -5.00523,9.57869 -1.33054,5.5236 l 3.67472,-4.05509 c 0,0 -6.63795,11.04434 -2.53666,6.56819 4.10127,-4.47613 5.47076,-10.43897 4.10127,-4.47613 -1.36949,5.96281 -3.72475,9.25837 -1.36949,5.96281 2.35527,-3.29554 2.71031,-7.69886 2.35527,-3.29554 l -0.35505,4.40331 c 0,0 4.46529,-12.14727 3.53894,-7.13507 -0.92635,5.01218 -0.2852,1.83798 -0.92635,5.01218 -0.64117,3.1742 -2.72148,5.61889 -0.64117,3.1742 -2.18239,2.5963 37.03247,32.54138 -22.10377,-1.24863 z"
+         id="path907-6-0-5"
+         sodipodi:nodetypes="ccscssscssscscsssscssccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <g
+         id="g1266-6"
+         transform="matrix(1.1808024,0,0,1.1808024,313.54552,-139.04857)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745">
+        <path
+           style="fill:#ac9d93;fill-opacity:1;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 234.87839,220.55394 c 12.90339,2.82138 21.86072,8.22712 43.42945,5.37339 28.83442,0.77721 30.01784,-2.71765 41.34826,-4.6448 l 0.93454,-2.47562 c 3.85359,-3.22491 7.82522,-2.46178 11.55494,-9.87132 l 2.90873,-6.59751 c 0.66522,-0.68417 1.58068,0.1792 1.72201,-3.74467 0,0 5.32681,-2.23544 0.15878,7.66335 -1.15118,4.78308 -2.84271,9.34247 -6.73689,13.0012 0,0 1.9762,7.51215 9.05397,9.1971 7.07775,1.68496 3.47182,-6.09584 8.24445,-8.2146 5.38344,-2.38991 8.72485,-3.90323 3.64194,3.02563 0,0 -8.73944,8.71932 -2.28276,8.90052 1.56992,0.0441 4.15496,0.19467 5.51357,0.62749 4.56804,1.45519 5.87255,3.9841 3.61324,6.84603 -0.33314,0.422 -2.37551,1.96238 -8.6492,-0.7139 -1.36184,-0.58094 -2.99016,-1.9072 -5.63255,-2.48573 l -13.7701,-3.01486 c -3.56807,-1.84396 -3.2725,-0.78751 0.52837,2.69867 3.89263,6.09272 -1.96095,2.17167 3.77993,5.78008 l 10.37857,5.24906 c 5.38065,5.48334 0.95042,9.24736 -3.73869,6.75583 l -3.6251,-3.56568 c -6.20512,-5.23186 -4.93866,-0.25008 -11.14378,-9.06212 -1.39626,-2.78108 -4.54388,-3.6156 -6.91687,-5.31109 -21.02051,2.94199 -54.75365,9.69525 -85.97592,15.40274 z"
+           id="path1194-1"
+           sodipodi:nodetypes="cccccccccsscssssscccccccccc" />
+        <path
+           style="fill:#808080;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 237.61315,222.66885 6.88537,15.87104 c 0,0 5.58839,0.43622 0.64585,4.17477 -4.94254,3.73855 2.042,4.62986 -4.94254,6.64417 l -6.98455,2.0143 c -4.01536,-3.18354 -5.52308,-8.58669 -6.51296,-10.24357 l -1.99126,-3.27335 c 0,0 -2.40097,-1.5575 -0.22339,-3.78492 l 5.37246,-5.4954 c 0,0 0.42868,-5.86005 2.72247,-6.941 2.29379,-1.08095 -0.30092,-3.22999 5.02855,1.03396 z"
+           id="path1231-1"
+           sodipodi:nodetypes="ccsscccscsc" />
+        <path
+           style="fill:url(#linearGradient1229);fill-opacity:1;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 231.24534,229.70454 -4.38903,3.57855 c 0,0 -3.55268,1.71697 -0.1654,4.8892 l 2.07552,1.94375 c 0,0 3.12243,11.36116 6.38755,9.26541 l 3.26511,-2.09575 c 0,0 7.66444,1.52191 2.35434,-10.992 l -3.98811,-9.39845 c 0,0 -2.37157,-11.17674 -5.53998,2.80929 z"
+           id="path1192-5"
+           sodipodi:nodetypes="ccscscscc" />
+        <path
+           style="fill:#4d4d4d;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 354.2637,234.72706 c 0.80771,-0.46741 2.38098,-0.21243 3.57634,1.04972 0,0 0.51129,3.45508 -1.21047,3.79977 -3.04723,0.61002 -4.74691,-0.32348 -2.36587,-4.84949 z"
+           id="path1198-9"
+           sodipodi:nodetypes="ccsc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 355.02667,233.70241 c -2.79632,0.0336 -3.30043,4.39334 -2.31118,5.71711"
+           id="path1200-8"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:#4d4d4d;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 346.98767,222.02082 c 1.14188,-0.91753 1.71787,-1.66493 4.02511,-2.36382 0,0 4.63859,-2.15286 -2.68053,2.62236 -0.48951,0.31936 -1.5895,0.10424 -1.34458,-0.25854 z"
+           id="path1202-4"
+           sodipodi:nodetypes="ccsc" />
+        <path
+           style="fill:#4d4d4d;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 342.84142,248.31947 c 0.80771,-0.46741 1.376,1.06894 2.57135,2.33108 0,0 0.76732,2.65825 -0.95445,3.00294 -3.04722,0.61003 -3.99794,-0.80801 -1.6169,-5.33402 z"
+           id="path1198-5-8"
+           sodipodi:nodetypes="ccsc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 344.20237,247.1534 c -2.79632,0.0337 -5.06437,4.28013 -4.07512,5.6039"
+           id="path1221-1"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 245.56778,247.19187 c 15.36496,-4.00413 44.0159,-8.28417 50.50247,-8.71083"
+           id="path1233-0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 248.14648,239.56835 c 14.74065,-4.07577 41.1772,-6.59562 50.2909,-4.85125"
+           id="path1235-3"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.207544px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 239.84711,224.19561 c 0,0 1.61139,3.27202 22.39554,3.86989 l 9.52466,0.27398"
+           id="path1237-0"
+           sodipodi:nodetypes="csc" />
+      </g>
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 594.60034,144.38028 c 0,0 -1.37475,0.87459 -2.69685,0.19799 -1.32212,-0.6766 -1.47637,-2.32946 -1.32212,-0.6766 l 0.15428,1.65286 c 0,0 0.25789,1.79369 1.25193,3.23403 l 0.99404,1.44035 c 0,0 1.41007,1.46898 2.55738,0.88391 1.47329,-0.92367 1.54992,-1.16637 2.13443,-0.63478 -0.24255,1.31702 -2.28062,2.06884 -2.14255,2.43611 0.0929,0.24708 1.56498,0.10394 2.06381,-0.13985 0.71649,-0.35016 1.23322,-1.14533 1.37942,-1.0403 0.16348,0.44009 2.38102,-5.79549 -0.2001,-6.15467 -1.6191,-0.38774 -1.96973,1.76775 -1.22552,-0.15372 1.47413,-3.51529 0.59563,-1.68893 -0.27636,-1.24968 -1.90709,0.96065 0.18827,0.44811 -2.67179,0.20435 z"
+         id="path1611-4"
+         sodipodi:nodetypes="csscscccsscccsc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#25bd00;fill-opacity:1;stroke:#000000;stroke-width:0.344228px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 598.41215,169.41206 c 1.20381,-2.52966 -1.1078,-5.6296 -5.50939,-10.23735 l 7.7784,5.69633 -3.29363,-4.95078 3.00072,2.01966 -0.89176,-1.96865 -2.6921,-5.94334 c 5.11706,7.99922 5.03009,2.39563 4.4413,-4.51969 0,0 4.73389,11.16017 4.54348,5.59859 l -0.19042,-5.56158 c 0,0 1.5642,5.2822 1.76302,2.15549 l 0.19884,-3.12672 c 0,0 -1.91787,-9.71195 0.21436,-3.8286 l 2.13222,5.88335 c 0,0 -1.63478,-7.6799 1.32594,-3.36995 2.96074,4.30994 2.36873,12.26902 2.96074,4.30994 0.59202,-7.95908 -1.97625,-11.21541 0.59202,-7.95908 2.56822,3.25632 1.58225,5.81956 2.56822,3.25632 0.98596,-2.56326 -1.79315,-6.07306 0.98596,-2.56326 2.77912,3.5098 1.31441,7.13306 2.77912,3.5098 1.46476,-3.62328 -0.33068,-10.85121 1.46476,-3.62328 l 1.36165,5.48158 c 2.12521,-9.86855 -0.13643,-1.3265 4.06648,-0.45056 0.40166,0.0837 1.8513,-0.28651 2.10307,-1.28655 1.35562,-5.38479 0.9223,-0.27529 1.40294,3.16862 0.23771,1.7032 2.34713,0.51049 1.76376,2.33649 0,0 -16.98564,21.14926 -34.8697,15.97322 z"
+         id="path903-2-2-4"
+         sodipodi:nodetypes="ccccccccscscscssssssscssscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0.31242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 637.79961,101.12178 c 0,0 4.82146,8.45816 8.59363,2.54786 4.81339,-4.547563 2.78753,-6.031889 10.01239,-0.70619 0,0 -2.63929,3.65741 4.49075,4.51739 l 7.12999,0.85998 -6.15681,15.05718 -20.29606,-1.44699 z"
+         id="path1270-4"
+         sodipodi:nodetypes="cccscccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#666666;stroke:#000000;stroke-width:0.31242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 637.79961,101.12178 c 6.3133,9.59346 6.3133,9.59346 6.3133,9.59346 l 4.36865,6.10903 7.10087,1.18742 2.84354,-0.56919 c 0,0 1.2747,7.54964 -0.27862,6.24332 -1.55329,-1.30631 0.29242,-1.2686 -1.55329,-1.30631 -1.84572,-0.0377 -1.84572,-0.0377 -1.84572,-0.0377 l -10.03065,-3.34365 -2.27035,-3.40004"
+         id="path1272-4"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#917c6f;stroke:#000000;stroke-width:0.356907px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 588.07251,168.99908 c 29.67906,-7.44949 43.51954,-20.92994 49.25209,-36.68602 0.64327,-1.76806 0.25628,-21.0665 0.70629,-22.8866 -1.06826,-22.724028 2.36178,5.775 10.46745,9.34919 2.93027,1.29211 8.48032,2.871 9.50096,-0.0855 2.84576,-8.24337 10.20362,-5.23118 10.02709,-10.34934 0,0 -1.45593,12.62324 -0.17143,19.71691 1.448,7.99652 5.68318,18.65728 17.14936,27.82738 8.59022,6.87004 16.10933,8.64667 24.53645,11.77886 0,0 16.67348,15.95003 -13.16786,3.50434 -26.12667,-3.66528 -36.21818,-13.21276 -40.40063,-5.06359 -6.95733,13.64299 2.75084,13.01949 -10.13873,18.11518 -12.88957,5.09571 -24.45005,7.70659 -14.19114,-1.22209 20.24958,-3.45081 5.11133,-23.37972 -3.96871,-17.3353 -7.71368,6.21101 -19.13534,5.74594 -31.65337,8.11752 -10.3767,1.02366 -20.44823,2.16539 -7.94782,-4.78095 z"
+         id="path847-6-0-7"
+         sodipodi:nodetypes="cscsscsscccscccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#2cca0f;fill-opacity:1;stroke:#000000;stroke-width:0.356907px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 665.45307,164.47141 0.0993,-5.4394 c 0,0 -0.2298,9.17592 0.75678,3.16142 0.98658,-6.01451 0.34597,-9.90513 0.98658,-6.01451 0.64061,3.89062 -0.91626,6.30371 0.64061,3.89062 1.55689,-2.41307 1.20304,-7.0473 1.55689,-2.41307 l 0.35384,4.63422 c 0,0 2.35595,-6.31625 2.18492,-3.38716 -0.17101,2.92911 -3.56744,6.41528 -0.17101,2.92911 3.39641,-3.48619 3.46391,-8.18546 3.39641,-3.48619 -0.0674,4.69927 -1.75796,6.40643 -0.0674,4.69927 1.69044,-1.70714 1.24474,-5.87376 1.69044,-1.70714 0.44573,4.16661 -0.64175,6.53836 0.40333,4.52805 1.04508,-2.01029 0.0455,-3.11237 1.04508,-2.01029 l 0.99968,1.10207 c 0,0 -1.42071,5.04859 0.0205,1.45383 1.44126,-3.59476 0.97356,-8.76214 1.44126,-3.59476 l 0.62597,6.91611"
+         id="path909-1-6-6"
+         sodipodi:nodetypes="ccsssscssssssscssc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#38e026;fill-opacity:1;stroke:#000000;stroke-width:0.400288px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 693.95781,172.06151 1.65309,-7.16714 0.45954,2.51338 0.84792,-5.28795 c 0,0 -0.57319,9.82439 0.36712,3.19803 l 0.94031,-6.62634 c 0,0 -0.61082,8.52 0.46729,7.41815 l 1.0781,-1.10184 c 0,0 -2.60726,6.32097 -0.31294,3.04435 l 2.29432,-3.27659 c 0,0 -2.3686,9.7965 -0.24511,5.92293 2.1235,-3.87363 2.29167,-8.719 2.1235,-3.87363 l -0.16817,4.84532 c 0,0 4.86078,-8.45186 2.84049,-2.42795 l -2.02031,6.02392"
+         id="path911-8-1-3"
+         sodipodi:nodetypes="ccccscscscsscsc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#32d51b;fill-opacity:1;stroke:#000000;stroke-width:0.356907px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 611.14865,172.36832 c -0.40627,-7.27795 -1.8371,-9.52146 -0.40627,-7.27795 1.43085,2.24352 1.46436,11.29825 1.43085,2.24352 l -0.0334,-9.05474 1.37628,4.03921 c 0,0 0.16292,8.78568 0.77637,4.00134 0.61346,-4.78435 -0.2829,-9.08943 0.61346,-4.78435 0.89632,4.30509 0.29212,7.91475 0.89632,4.30509 0.60421,-3.60965 0.28001,-2.04983 0.60421,-3.60965 0.32419,-1.55982 -0.32445,-4.29816 0.32419,-1.55982 l 0.64864,2.73836 c 0,0 0.0713,-7.26562 1.06945,-2.56196 l 0.99828,4.70368 c 0,0 0.90398,-9.73967 1.74107,-5.24979 0.83709,4.48991 -0.79469,8.6136 0.83709,4.48991 l 1.63177,-4.12371 c 0,0 -2.26878,8.34478 -0.37673,5.69505 l 1.89201,-2.64972 -0.53804,5.10868"
+         id="path913-7-5-1"
+         sodipodi:nodetypes="cssccssssscscsscscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#666666;stroke:#000000;stroke-width:0.31242px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 656.39267,105.19857 c 1.7166,3.41382 -1.13239,1.38756 1.86252,2.46815 2.99493,1.08058 -1.80909,0.21014 2.99493,1.08058 l 4.80406,0.87046 c 0,0 2.07663,-0.66417 -0.68567,1.35382 l -2.76226,2.01799 5.04785,-2.25582 c -0.0283,-0.007 0.38729,-2.39076 0.37227,-2.39293 l -6.92889,-1.00327 z"
+         id="path1274-7"
+         sodipodi:nodetypes="csscsccscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         d="m 700.34925,85.789207 c -2.477,0.09815 -3.60138,-5.782301 -7.68925,-4.554164 -4.37298,-0.171128 -4.11331,5.919726 -8.13658,4.874578 -4.41132,1.91526 -1.88583,8.986817 2.71061,7.838601 4.62722,-0.05342 9.26601,0.1077 13.88563,-0.08289 4.41529,-0.920415 3.81207,-8.076561 -0.77044,-8.076561 z"
+         opacity="0.77"
+         stroke-width="0.0661334"
+         id="path3558-5"
+         style="fill:#ffffff;filter:url(#filter1073)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <g
+         id="g1589-9"
+         transform="translate(-0.52916667,20.10834)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745">
+        <path
+           style="fill:#784421;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 691.52236,120.90376 -1.85848,-17.5801 -1.04153,-18.958283 -0.85915,-10.5255 -1.66534,-1.407169 c 0,0 3.61201,33.758222 2.50216,40.056712 l -1.66034,9.42259"
+           id="path1579-6"
+           sodipodi:nodetypes="cccccsc" />
+        <g
+           id="g1584-2">
+          <path
+             style="fill:#447821;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 688.66738,88.479625 c -1.31108,-0.717999 -2.89016,0.440573 -4.48042,1.677417 0,0 -5.56511,7.071495 -2.7813,1.965772 l 2.78384,-5.105725 0.83907,-3.310382 c 0,0 -6.42474,7.314316 -2.98855,0.345329 3.43623,-6.968987 5.24584,-4.235753 5.18797,-7.141494 -0.0323,-1.623015 0.34865,-4.051735 -1.14167,-2.669052 -2.39188,2.219123 -6.24832,11.781266 -2.50716,2.088001 3.74115,-9.693261 2.19678,-14.61417 3.74115,-9.693261 1.5444,4.920906 -1.96069,-0.875207 1.5444,4.920906 3.50507,5.796116 6.60652,7.034419 3.50507,5.796116 -3.10145,-1.238306 -6.25369,-6.898397 -3.10145,-1.238306 l 3.15222,5.660094 c 0,0 8.41307,4.208409 2.30744,3.399372 -6.10566,-0.809035 -9.28709,-4.659255 -6.10566,-0.809035 l 4.83544,5.851921 c 0,0 -6.60606,-7.776985 -3.31996,-1.228423 3.2861,6.548562 7.38592,9.260298 3.2861,6.548562 l -4.67746,-3.725532 0.15366,-1.603417"
+             id="path1581-1"
+             sodipodi:nodetypes="ccsccsssssssscsscsscc" />
+        </g>
+      </g>
+      <path
+         style="fill:#25bd00;fill-opacity:1;stroke:#000000;stroke-width:0.400288px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 679.93992,141.66958 1.65309,-7.16714 0.45953,2.51338 0.84792,-5.28796 c 0,0 -0.57318,9.8244 0.36713,3.19804 l 0.9403,-6.62634 c 0,0 -0.61081,8.52 0.46729,7.41815 l 1.0781,-1.10184 c 0,0 -2.60726,6.32097 -0.31294,3.04435 l 2.29433,-3.27659 c 0,0 -2.36861,9.79651 -0.24511,5.92293 2.12349,-3.87363 2.29166,-8.719 2.12349,-3.87363 l -0.16817,4.84532 c 0,0 4.86079,-8.45186 2.84049,-2.42795 l -2.0203,6.02392"
+         id="path1276-7"
+         sodipodi:nodetypes="ccccscscscsscsc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#c87137;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 647.24591,114.98492 3.05959,-9.6989 -1.33125,-10.364796 c 0,0 0.44013,-9.065758 -8.16129,-10.499186 l -8.60142,-1.433425 c 0,0 3.69719,0.04025 8.31046,0.943057 l 4.6133,0.902801 c -0.1175,-3.114302 0.009,-6.061103 -0.46709,-9.421519 0.62303,-2.072043 1.64631,-3.007693 2.59675,-4.150156 -0.59174,1.711522 -1.44085,3.376928 -1.55896,5.173316 0.67799,2.049661 0.1828,3.251568 0.24425,4.85571 0,0 18.63479,-12.814345 9.70549,-5.824262 l -8.92929,6.99008 c 0,0 -1.18951,1.116766 0.54809,3.538455 l 1.7376,2.421692 1.20523,5.414703 0.93384,7.28452 c 0,0 0.8355,2.88949 0.62249,5.1845 -0.21302,2.29501 0.76139,-1.73463 -0.21302,2.29501 -0.9744,4.02966 1.13033,-0.16845 -0.9744,4.02966 l -2.10474,4.19809"
+         id="path1296-8"
+         sodipodi:nodetypes="cccscscccccscscccsssc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00bb00;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 635.61104,83.678033 c 0,0 -0.25463,-0.290611 -1.2147,0.920681 -0.96007,1.211292 0.36383,3.442846 0.36383,3.442846 0,0 3.42516,0.0835 0.85087,-4.363527 z"
+         id="path1298-5"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00bb00;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 653.51569,77.173238 c 1.63737,0.835065 1.91299,1.713057 2.65582,3.301395 0,0 -2.20596,1.188201 -2.50782,-1.397047 l -0.1993,-1.706945 v 0"
+         id="path1300-7"
+         sodipodi:nodetypes="ccscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00bb00;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 632.21154,82.988613 c 0,0 -2.09719,-0.09052 -1.98567,1.333847 l 0.1115,1.42436 c 2.03881,-0.713209 1.71157,-0.697026 1.87417,-2.758207 z"
+         id="path1302-41"
+         sodipodi:nodetypes="cscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00bb00;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 634.07789,82.84586 c -1.15332,-2.523084 -0.2599,-2.359649 0.53735,-3.557303 0,0 0.97093,0.913534 0.45208,1.920007 -0.21222,0.411672 -0.69752,1.637296 -0.98943,1.637296 z"
+         id="path1304-8"
+         sodipodi:nodetypes="scss"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00bb00;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 652.62216,72.556444 c 0,0 -1.33579,1.61928 -0.13177,2.388445 l 1.20399,0.769176 c 0.65914,-2.056926 0.4749,-1.785998 -1.07222,-3.157621 z"
+         id="path1302-4-5"
+         sodipodi:nodetypes="cscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00bb00;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 655.77052,75.458951 c 2.71741,-0.558369 2.35786,0.275676 3.34631,1.321114 0,0 -1.10793,0.741433 -1.97248,0.01017 -0.35362,-0.299103 -1.43927,-1.0468 -1.37383,-1.331281 z"
+         id="path1304-7-9"
+         sodipodi:nodetypes="scss"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00bb00;fill-opacity:1;stroke:#000000;stroke-width:0.220597px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 655.90673,71.16825 c 0,0 -1.11758,1.36555 -0.20413,2.101176 l 0.91344,0.735637 c 0.60446,-1.783715 0.44831,-1.553383 -0.70931,-2.836813 z"
+         id="path1302-6-7"
+         sodipodi:nodetypes="cscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00bb00;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 642.11645,72.625548 c 0,0 -0.27768,2.080695 1.15096,2.09698 l 1.42862,0.01631 c -0.52805,-2.094416 -0.54119,-1.767042 -2.57958,-2.11329 z"
+         id="path1351-5"
+         sodipodi:nodetypes="cscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00bb00;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 649.72144,69.007597 c 0,0 -2.02061,-0.568807 -2.23853,0.843208 l -0.21795,1.411991 c 2.148,-0.226906 1.82577,-0.286158 2.45648,-2.255199 z"
+         id="path1353-3"
+         sodipodi:nodetypes="cscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00bb00;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 649.76463,73.638598 c 0,0 -1.21155,-1.714215 -2.26996,-0.754501 l -1.05842,0.959676 c 1.81157,1.176274 1.59855,0.927343 3.32838,-0.205175 z"
+         id="path1355-8"
+         sodipodi:nodetypes="cscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <g
+         id="g1380-8"
+         transform="matrix(0.78174744,0,0,0.78174744,136.54279,52.151317)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745">
+        <path
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:0.254455px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 630.31566,150.57397 c 1.09497,-1.90646 1.34334,-4.20158 0.77066,-6.87363 l 5.14969,-0.14539 c -0.76731,2.68611 -0.59108,5.09884 0.90819,7.12819 -2.15679,0.86477 -4.35219,1.43808 -6.82854,-0.10917 z"
+           id="path1357-3"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#ff2a2a;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 628.17517,143.84804 c 1.39058,-1.49258 2.42725,-3.41083 4.89186,-3.61156 3.67113,0.10222 5.38754,1.66399 6.45501,3.71032 -3.27462,1.39398 -6.6488,2.50815 -11.34687,-0.0988 z"
+           id="path1359-1"
+           sodipodi:nodetypes="cccc" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.911"
+           id="path1363-8"
+           cx="632.40802"
+           cy="141.56696"
+           rx="0.56677276"
+           ry="0.2940824" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.669957"
+           id="ellipse1365-9"
+           cx="634.36353"
+           cy="141.10963"
+           rx="0.40559664"
+           ry="0.22224955" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05004"
+           id="ellipse1367-6"
+           cx="634.06976"
+           cy="142.33669"
+           rx="0.58061576"
+           ry="0.38138631" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.680842"
+           id="ellipse1369-4"
+           cx="635.95129"
+           cy="142.03145"
+           rx="0.40580228"
+           ry="0.22941399" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.680842"
+           id="ellipse1371-3"
+           cx="631.55695"
+           cy="142.54758"
+           rx="0.40580228"
+           ry="0.22941399" />
+      </g>
+      <g
+         id="g1396-3"
+         transform="matrix(0.70403055,0,0,0.70403055,172.71956,68.051948)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745">
+        <path
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:0.254455px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 630.31566,152.82884 c 1.09497,-1.90646 1.34334,-6.45645 0.77066,-9.1285 l 5.14969,-0.14539 c -0.76731,2.68611 -0.59108,7.35371 0.90819,9.38306 -2.15679,0.86477 -4.35219,1.43808 -6.82854,-0.10917 z"
+           id="path1382-3"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#ff2a2a;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 628.17517,143.84804 c 1.39058,-1.49258 2.42725,-3.41083 4.89186,-3.61156 3.67113,0.10222 5.38754,1.66399 6.45501,3.71032 -3.27462,1.39398 -6.6488,2.50815 -11.34687,-0.0988 z"
+           id="path1384-8"
+           sodipodi:nodetypes="cccc" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.911"
+           id="ellipse1386-6"
+           cx="632.40802"
+           cy="141.56696"
+           rx="0.56677276"
+           ry="0.2940824" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.669957"
+           id="ellipse1388-0"
+           cx="634.36353"
+           cy="141.10963"
+           rx="0.40559664"
+           ry="0.22224955" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05004"
+           id="ellipse1390-4"
+           cx="634.06976"
+           cy="142.33669"
+           rx="0.58061576"
+           ry="0.38138631" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.680842"
+           id="ellipse1392-8"
+           cx="635.95129"
+           cy="142.03145"
+           rx="0.40580228"
+           ry="0.22941399" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.680842"
+           id="ellipse1394-8"
+           cx="631.55695"
+           cy="142.54758"
+           rx="0.40580228"
+           ry="0.22941399" />
+      </g>
+      <g
+         id="g1412-8"
+         transform="matrix(-0.78174819,0,0,0.78174745,1132.3381,57.610102)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745">
+        <path
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:0.254455px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 630.31566,150.57397 c 1.09497,-1.90646 1.34334,-4.20158 0.77066,-6.87363 l 5.14969,-0.14539 c -2.16188,2.98212 -1.63955,5.32138 0.90819,7.12819 -2.15679,0.86477 -4.35219,1.43808 -6.82854,-0.10917 z"
+           id="path1398-9"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#ff2a2a;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 628.17517,143.84804 c 0.088,-1.70283 1.64987,-3.53631 4.89186,-3.61156 3.67113,0.10222 5.38754,1.66399 6.45501,3.71032 -3.27462,1.39398 -6.6488,2.50815 -11.34687,-0.0988 z"
+           id="path1400-7"
+           sodipodi:nodetypes="ccccc" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.911"
+           id="ellipse1402-7"
+           cx="632.40802"
+           cy="141.56696"
+           rx="0.56677276"
+           ry="0.2940824" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.669957"
+           id="ellipse1404-6"
+           cx="634.36353"
+           cy="141.10963"
+           rx="0.40559664"
+           ry="0.22224955" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05004"
+           id="ellipse1406-4"
+           cx="634.06976"
+           cy="142.33669"
+           rx="0.58061576"
+           ry="0.38138631" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.680842"
+           id="ellipse1408-3"
+           cx="635.95129"
+           cy="142.03145"
+           rx="0.40580228"
+           ry="0.22941399" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.680842"
+           id="ellipse1410-0"
+           cx="631.55695"
+           cy="142.54758"
+           rx="0.40580228"
+           ry="0.22941399" />
+      </g>
+      <g
+         id="g1380-5-3"
+         transform="matrix(0.78174744,0,0,0.78174744,195.94313,57.45193)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745">
+        <path
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:0.254455px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 630.31566,150.57397 c 1.09497,-1.90646 1.34334,-4.20158 0.77066,-6.87363 l 5.14969,-0.14539 c -0.76731,2.68611 -0.59108,5.09884 0.90819,7.12819 -2.15679,0.86477 -4.35219,1.43808 -6.82854,-0.10917 z"
+           id="path1357-6-0"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#ff2a2a;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 628.17517,143.84804 c 1.39058,-1.49258 2.42725,-3.41083 4.89186,-3.61156 3.67113,0.10222 5.38754,1.66399 6.45501,3.71032 -3.27462,1.39398 -6.6488,2.50815 -11.34687,-0.0988 z"
+           id="path1359-9-9"
+           sodipodi:nodetypes="cccc" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.911"
+           id="path1363-3-2"
+           cx="632.40802"
+           cy="141.56696"
+           rx="0.56677276"
+           ry="0.2940824" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.669957"
+           id="ellipse1365-7-5"
+           cx="634.36353"
+           cy="141.10963"
+           rx="0.40559664"
+           ry="0.22224955" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05004"
+           id="ellipse1367-4-4"
+           cx="634.06976"
+           cy="142.33669"
+           rx="0.58061576"
+           ry="0.38138631" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.680842"
+           id="ellipse1369-5-0"
+           cx="635.95129"
+           cy="142.03145"
+           rx="0.40580228"
+           ry="0.22941399" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.680842"
+           id="ellipse1371-2-5"
+           cx="631.55695"
+           cy="142.54758"
+           rx="0.40580228"
+           ry="0.22941399" />
+      </g>
+      <g
+         id="g1380-54-9"
+         transform="matrix(0.49759745,0,0,0.49759745,376.96625,69.507179)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745">
+        <path
+           style="fill:#f2f2f2;stroke:#000000;stroke-width:0.254455px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 630.31566,150.57397 c 1.09497,-1.90646 1.34334,-4.20158 0.77066,-6.87363 l 5.14969,-0.14539 c -0.76731,2.68611 -0.59108,5.09884 0.90819,7.12819 -2.15679,0.86477 -4.35219,1.43808 -6.82854,-0.10917 z"
+           id="path1357-7-4"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#ff2a2a;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 628.17517,143.84804 c 1.39058,-1.49258 2.42725,-3.41083 4.89186,-3.61156 3.67113,0.10222 5.38754,1.66399 6.45501,3.71032 -3.27462,1.39398 -6.6488,2.50815 -11.34687,-0.0988 z"
+           id="path1359-4-6"
+           sodipodi:nodetypes="cccc" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.911"
+           id="path1363-4-9"
+           cx="632.40802"
+           cy="141.56696"
+           rx="0.56677276"
+           ry="0.2940824" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.669957"
+           id="ellipse1365-3-2"
+           cx="634.36353"
+           cy="141.10963"
+           rx="0.40559664"
+           ry="0.22224955" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05004"
+           id="ellipse1367-0-2"
+           cx="634.06976"
+           cy="142.33669"
+           rx="0.58061576"
+           ry="0.38138631" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.680842"
+           id="ellipse1369-7-4"
+           cx="635.95129"
+           cy="142.03145"
+           rx="0.40580228"
+           ry="0.22941399" />
+        <ellipse
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.680842"
+           id="ellipse1371-8-7"
+           cx="631.55695"
+           cy="142.54758"
+           rx="0.40580228"
+           ry="0.22941399" />
+      </g>
+      <path
+         style="fill:#f4eed7;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 629.1333,135.24489 c 2.82725,1.24236 3.00135,2.66598 13.31138,3.07564 -0.49058,-0.80265 0.1233,-2.25605 0.0282,-2.26621 l -12.97124,-1.38561"
+         id="path1573-7"
+         sodipodi:nodetypes="ccsc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#c8beb7;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 632.67971,132.19351 c 0,0 -7.93368,2.61476 -1.10081,3.81601 3.40317,0.7083 5.62526,0.93895 10.89396,0.0448 -4.48958,-0.78292 -5.17826,-2.50651 -4.97377,-4.66176 -1.69778,0.336 -3.12184,0.46374 -4.81938,0.80095 z"
+         id="path1571-5"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#00ff00;stroke:#000000;stroke-width:0.141111;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 614.57738,86.312476 c 0,0 -1.05377,-1.623392 -2.11885,-0.811787 l -1.06509,0.811576 c 1.6572,1.168855 1.46884,0.931031 3.18394,2.11e-4 z"
+         id="path1597-3"
+         sodipodi:nodetypes="cscc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <ellipse
+         style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:none;stroke-width:0.103643;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path1607-1"
+         cx="593.37555"
+         cy="146.94267"
+         rx="0.49660805"
+         ry="0.44020936"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <ellipse
+         style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:none;stroke-width:0.103643;stroke-miterlimit:4;stroke-dasharray:none"
+         id="ellipse1609-0"
+         cx="595.70758"
+         cy="146.94267"
+         rx="0.49660805"
+         ry="0.44020936"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <g
+         id="g3964-5"
+         transform="translate(-0.52916667,6.879167)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745">
+        <path
+           style="fill:#000000;stroke-width:0.0395721"
+           d="m 619.25046,121.73842 c -0.0966,-0.0178 -0.40417,-0.0741 -0.68345,-0.12454 -0.89803,-0.16251 -1.59535,-0.32598 -1.64687,-0.38607 -0.0666,-0.0778 -0.0122,-0.17174 0.12005,-0.20731 0.46986,-0.1263 1.13033,-0.46078 1.32897,-0.67304 l 0.11864,-0.12674 -0.21223,-0.14976 c -0.98838,-0.69746 -1.21483,-2.02879 -0.53227,-3.1293 0.4316,-0.69589 1.15849,-1.15748 1.9584,-1.24362 0.38219,-0.0412 0.97008,0.0464 1.37144,0.20421 0.97507,0.38343 1.76145,1.30238 1.97357,2.30624 0.026,0.12295 0.11218,0.38629 0.19157,0.58523 0.13761,0.34482 0.14146,0.36868 0.0824,0.51156 -0.0963,0.23326 -0.4125,0.58855 -0.65451,0.73559 -0.52955,0.32177 -1.08149,0.41117 -1.95975,0.31745 -0.54032,-0.0576 -0.59041,-0.0566 -0.84128,0.02 -0.21888,0.0667 -0.32683,0.0754 -0.60147,0.048 -0.18409,-0.0183 -0.38098,-0.0505 -0.43753,-0.0713 -0.0805,-0.0297 -0.10942,-0.0228 -0.13316,0.0321 -0.0655,0.15146 -0.59622,0.52228 -1.03102,0.72036 -0.0584,0.0266 0.10727,0.0697 0.70162,0.18284 1.58287,0.30128 3.10368,0.43948 3.91529,0.35582 1.03931,-0.10714 1.24464,-0.33974 1.99882,-2.26417 0.36741,-0.93753 0.59726,-1.36509 0.89467,-1.66429 l 0.1523,-0.15322 -0.17498,-0.21431 c -0.18862,-0.23105 -0.34446,-0.30579 -0.59342,-0.28464 -0.21426,0.0181 -0.4393,0.0899 -0.69163,0.60194 -1.5092,3.06241 -0.63298,0.88675 -0.63539,0.52103 -5.8e-4,-0.0738 0.0309,-0.16823 0.35962,-0.60999 0.3651,-0.4906 0.50424,-0.63804 0.67001,-0.70999 0.0575,-0.0249 0.0554,-0.0958 -0.0184,-0.61051 -0.0961,-0.67105 -0.12012,-0.76498 -0.19749,-0.77279 -0.10162,-0.0103 -0.23686,-0.258 -0.22186,-0.40639 0.0294,-0.29122 0.40636,-0.43375 0.64214,-0.2428 0.13383,0.1084 0.16901,0.34433 0.0732,0.4912 -0.0415,0.0636 -0.0922,0.12381 -0.11272,0.1338 -0.0205,0.01 -0.005,0.23746 0.0338,0.50552 0.0453,0.31115 0.0861,0.47507 0.11265,0.45338 0.0229,-0.0187 0.17303,-0.22312 0.33369,-0.45431 l 0.2921,-0.42035 -0.0685,-0.11538 c -0.1495,-0.25172 0.0774,-0.58392 0.37681,-0.55184 0.24843,0.0261 0.40705,0.25815 0.33791,0.49312 -0.0394,0.13405 -0.21033,0.27394 -0.32257,0.26408 -0.0408,-0.004 -0.20164,0.19258 -0.44751,0.54578 -0.21112,0.30327 -0.38478,0.56047 -0.3859,0.57158 -0.001,0.0112 0.0721,0.0399 0.16258,0.0639 0.24947,0.0661 0.46719,0.24866 0.63467,0.53197 0.083,0.14038 0.14934,0.27041 0.14746,0.28895 -0.002,0.0186 -0.0922,0.11545 -0.20074,0.21533 -0.32617,0.30013 -0.48337,0.59351 -0.92995,1.7356 -0.35604,0.9105 -0.49086,1.20457 -0.70003,1.52685 -0.295,0.4545 -0.56992,0.64229 -1.10253,0.75312 -0.55731,0.11597 -0.92915,0.11727 -2.12864,0.008 -0.62858,-0.0575 -1.22191,-0.11945 -1.31855,-0.13726 z m 0.28197,-1.57881 c 0.77487,-0.0674 1.37161,-0.7372 1.33694,-1.50067 -0.0241,-0.53105 -0.39766,-0.96021 -0.93168,-1.07044 -0.70207,-0.14491 -1.33259,0.67899 -0.94029,1.2287 0.19762,0.27692 0.48258,0.38135 0.75098,0.27522 0.1479,-0.0584 0.22377,-0.15048 0.306,-0.371 0.0471,-0.12626 0.0742,-0.15159 0.15372,-0.14356 0.11007,0.0111 0.1299,0.11233 0.0651,0.33235 -0.0471,0.16005 -0.31278,0.41025 -0.49442,0.4656 -0.43445,0.13238 -0.98423,-0.18297 -1.12535,-0.64551 -0.0222,-0.0726 -0.028,-0.2522 -0.013,-0.39906 0.0843,-0.8239 0.95135,-1.2615 1.72831,-0.87247 0.28596,0.14318 0.58172,0.47521 0.69511,0.78038 0.0788,0.2121 0.0833,0.27568 0.0456,0.64855 -0.0389,0.38455 -0.0526,0.43132 -0.19669,0.67009 -0.0852,0.14118 -0.20697,0.30721 -0.27058,0.36897 l -0.11565,0.11227 0.0999,0.0378 c 0.17498,0.0663 0.9224,0.0543 1.24969,-0.0199 0.51973,-0.11796 0.862,-0.34128 1.1162,-0.72829 l 0.10286,-0.15653 -0.0874,-0.19096 -0.0874,-0.19095 -0.18466,0.13865 c -0.22358,0.16785 -0.43107,0.25219 -0.73834,0.30012 -0.20438,0.0319 -0.23749,0.0286 -0.2838,-0.0281 -0.0289,-0.0354 -0.0509,-0.0797 -0.0489,-0.0985 0.005,-0.052 0.18127,-0.14019 0.26333,-0.1319 0.1415,0.0143 0.52688,-0.16236 0.71752,-0.32892 l 0.19347,-0.16903 -0.0567,-0.24767 c -0.0312,-0.13621 -0.0656,-0.24856 -0.0763,-0.24965 -0.0108,-0.001 -0.099,0.0531 -0.19597,0.12052 -0.35129,0.24408 -0.97364,0.37819 -1.01693,0.21913 -0.0314,-0.11562 0.03,-0.17136 0.21969,-0.19925 0.10141,-0.0149 0.26096,-0.0562 0.35459,-0.0918 0.18885,-0.0717 0.49156,-0.29257 0.49876,-0.36391 0.009,-0.0885 -0.34542,-0.60703 -0.56596,-0.82834 -0.46808,-0.4697 -0.99968,-0.73517 -1.67226,-0.83508 -0.72904,-0.10824 -1.28062,0.0414 -1.84639,0.5012 -0.34039,0.27662 -0.63587,0.70063 -0.75643,1.08552 -0.0877,0.28006 -0.13117,0.76796 -0.0908,1.01899 0.10535,0.65488 0.56981,1.22363 1.18654,1.45299 0.29863,0.11108 0.42409,0.12949 0.71173,0.10448 z m 4.75219,-4.94783 c 0.0733,-0.0722 0.0398,-0.17545 -0.0603,-0.18558 -0.0894,-0.009 -0.14781,0.071 -0.12178,0.16668 0.0214,0.0785 0.11203,0.0879 0.18215,0.0189 z m 1.2599,0.12731 c 0.0787,-0.0774 0.037,-0.18385 -0.0703,-0.17944 -0.10237,0.004 -0.15774,0.12933 -0.0832,0.18788 0.0691,0.0542 0.091,0.053 0.15349,-0.008 z"
+           id="path1627-1"
+           sodipodi:nodetypes="ssssscsssssssssssssssssscssssssssssssssscsssssssssssssssssssssssssscssssscssscccsssssscssssssssssssssssssssssss" />
+        <path
+           style="opacity:1;fill:#f8dd94;fill-opacity:1;stroke:none;stroke-width:0.0250869;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 618.78673,120.0073 c -0.51391,-0.24477 -0.8428,-0.58504 -1.02715,-1.06272 -0.1939,-0.50241 -0.10292,-1.28951 0.20849,-1.80374 0.25459,-0.42043 0.80823,-0.87316 1.2674,-1.03641 0.32885,-0.11693 0.35108,-0.11818 0.9682,-0.0542 0.53404,0.055 0.67584,0.0864 0.91761,0.20101 0.40697,0.1929 0.80143,0.51788 1.09327,0.90069 0.37279,0.48902 0.37292,0.48992 0.0972,0.6872 -0.12853,0.092 -0.34509,0.19085 -0.48292,0.22053 -0.29185,0.0628 -0.4002,0.13272 -0.37114,0.23947 0.0497,0.18251 0.64173,0.085 1.0658,-0.17552 l 0.17482,-0.1074 0.0346,0.12882 c 0.0838,0.31165 0.0756,0.34119 -0.13864,0.49869 -0.21543,0.15841 -0.55277,0.30903 -0.66638,0.29755 -0.1195,-0.0121 -0.28871,0.13033 -0.26375,0.22197 0.0503,0.18486 0.65332,0.0844 1.01906,-0.16967 0.11408,-0.0792 0.2151,-0.14335 0.22445,-0.14241 0.009,9.1e-4 0.0489,0.0784 0.0878,0.17221 l 0.0707,0.17048 -0.17529,0.22069 c -0.27195,0.34242 -0.66253,0.56271 -1.1304,0.63758 -0.28708,0.046 -0.99915,0.0532 -1.08275,0.011 -0.0655,-0.0331 -0.061,-0.053 0.043,-0.18862 0.31032,-0.4046 0.35066,-0.50427 0.40104,-0.99108 0.0449,-0.42485 0.0388,-0.48874 -0.056,-0.69513 -0.23323,-0.50749 -0.63858,-0.81431 -1.14573,-0.86721 -0.36909,-0.0383 -0.60809,0.0207 -0.85127,0.21082 -0.28087,0.21958 -0.401,0.44237 -0.44064,0.81716 -0.0419,0.39463 0.0316,0.59368 0.30616,0.83129 0.15229,0.13178 0.24137,0.1687 0.5096,0.21122 l 0.32504,0.0515 0.25619,-0.20915 c 0.23364,-0.19077 0.2581,-0.22827 0.27813,-0.42645 0.0198,-0.19557 0.0111,-0.21838 -0.0858,-0.22817 -0.0849,-0.009 -0.13371,0.0366 -0.23065,0.21395 -0.19398,0.3547 -0.52922,0.41021 -0.84345,0.13967 -0.37559,-0.32337 -0.25473,-0.95064 0.23544,-1.22182 0.34593,-0.19137 0.79303,-0.10834 1.13373,0.21054 0.3522,0.32962 0.41477,1.01883 0.13519,1.489 -0.37874,0.63695 -1.2141,0.90478 -1.86103,0.59667 z"
+           id="path1629-10" />
+        <path
+           style="opacity:1;fill:#b79b79;fill-opacity:1;stroke:none;stroke-width:0.0250869;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 619.42162,121.45023 c -0.11483,-0.0217 -0.52235,-0.0942 -0.90551,-0.16225 -0.38315,-0.0681 -0.71225,-0.13559 -0.73131,-0.15008 -0.019,-0.0145 0.1104,-0.11479 0.28775,-0.22282 0.17732,-0.10806 0.40319,-0.27358 0.50193,-0.36784 l 0.17954,-0.17137 0.41855,0.0493 c 0.31585,0.0369 0.4957,0.0324 0.73285,-0.0198 0.24091,-0.053 0.47326,-0.0585 0.99519,-0.0234 0.44521,0.0299 0.77275,0.0274 0.94627,-0.007 0.63063,-0.12564 1.0967,-0.42161 1.39452,-0.88556 0.15551,-0.24223 0.16864,-0.3085 0.0972,-0.4905 -0.0486,-0.12379 -0.0273,-0.18113 0.30881,-0.83372 0.40561,-0.78748 0.48814,-0.90451 0.7142,-1.01283 0.25774,-0.12351 0.4677,-0.0744 0.71762,0.1677 l 0.21623,0.20951 -0.23347,0.28206 c -0.28214,0.34088 -0.37664,0.52817 -0.89544,1.77481 -0.61378,1.47477 -0.79904,1.74108 -1.33543,1.91949 -0.43663,0.14526 -1.05531,0.16452 -2.19286,0.0683 -0.5543,-0.047 -1.10186,-0.1023 -1.21671,-0.12362 z"
+           id="path1631-8" />
+        <path
+           style="opacity:1;fill:#b79b79;fill-opacity:1;stroke:none;stroke-width:0.0250869;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 618.52817,121.27271 c -0.35125,-0.0694 -0.64812,-0.13775 -0.65973,-0.15199 -0.0116,-0.0142 0.13716,-0.13068 0.33061,-0.25881 0.19344,-0.12813 0.38856,-0.27845 0.4336,-0.33405 0.0747,-0.0923 0.12639,-0.099 0.5911,-0.0774 0.28009,0.013 0.61361,0.002 0.74116,-0.025 0.12755,-0.0268 0.56872,-0.036 0.98039,-0.0205 1.02922,0.0388 1.45619,-0.0716 1.95135,-0.50418 0.36825,-0.32171 0.48465,-0.53038 0.47977,-0.85999 -0.004,-0.24836 0.0187,-0.31645 0.2606,-0.78841 0.36193,-0.70651 0.52531,-0.95015 0.70632,-1.05333 0.26334,-0.1501 0.53367,-0.072 0.80974,0.23406 l 0.0912,0.10109 -0.24156,0.31477 c -0.18112,0.23604 -0.34214,0.54703 -0.64378,1.24331 -0.70113,1.61858 -0.83868,1.88479 -1.10985,2.14803 -0.18908,0.18356 -0.58345,0.31206 -1.08255,0.35273 -0.57183,0.0466 -2.75237,-0.14541 -3.63836,-0.3204 z"
+           id="path1633-5" />
+      </g>
+      <path
+         style="fill:#25bd00;fill-opacity:1;stroke:#000000;stroke-width:0.266097px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 711.26686,140.25638 0.074,-4.05543 c 0,0 -0.17133,6.84124 0.56423,2.35705 0.73555,-4.48421 0.25794,-7.38492 0.73555,-4.48421 0.47762,2.90071 -0.68313,4.69982 0.47762,2.90071 1.16076,-1.7991 0.89694,-5.25422 1.16076,-1.7991 l 0.26381,3.45511 c 0,0 1.75652,-4.70917 1.629,-2.52535 -0.1275,2.18384 -2.65975,4.78301 -0.1275,2.18384 2.53225,-2.59917 2.58257,-6.10278 2.53225,-2.59917 -0.0503,3.5036 -1.31068,4.7764 -0.0503,3.5036 1.26034,-1.27278 0.92804,-4.37926 1.26034,-1.27278 0.33232,3.10648 -0.47847,4.87477 0.30071,3.37595 0.77917,-1.4988 0.0339,-2.32047 0.77917,-1.4988 l 0.74533,0.82167 c 0,0 -1.05924,3.76405 0.0153,1.08392 1.07455,-2.68012 0.72585,-6.53274 1.07455,-2.68012 l 0.4667,5.1564"
+         id="path1637-0"
+         sodipodi:nodetypes="ccsssscssssssscssc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         d="m 613.53553,53.335116 c -2.477,0.09815 -3.60138,-5.782301 -7.68925,-4.554164 -4.37298,-0.171128 -4.11331,5.919726 -8.13658,4.874578 -4.41132,1.91526 -1.88583,8.986817 2.71061,7.838601 4.62722,-0.05342 9.26601,0.1077 13.88563,-0.08289 4.41529,-0.920415 3.81207,-8.076561 -0.77044,-8.076561 z"
+         opacity="0.77"
+         stroke-width="0.0661334"
+         id="path839-6-6"
+         style="fill:#ffffff;filter:url(#filter1073)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         d="m 691.50253,44.209712 c -1.56814,0.06214 -2.27997,-3.660661 -4.86792,-2.883152 -2.76844,-0.108337 -2.60405,3.747662 -5.1511,3.086 -2.79272,1.212513 -1.19389,5.689377 1.71603,4.962464 2.9294,-0.03382 5.86613,0.06818 8.79072,-0.05248 2.79523,-0.582697 2.41335,-5.113112 -0.48775,-5.113112 z"
+         opacity="0.77"
+         stroke-width="0.0418678"
+         id="path3560-4"
+         style="fill:#ffffff;filter:url(#filter1073)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#c8ab37;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 673.39913,145.32871 c 1.73343,-0.93907 3.11419,-1.81727 3.43923,-3.24203 l 0.1455,-0.91765 c 0,0 0.1896,-1.64692 -1.12157,0.0668 -0.29825,2.07783 -1.99733,2.68143 -4.32305,2.71673 -0.21923,1.1395 0.64447,1.40049 1.85989,1.37615 z"
+         id="path1470-6"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 664.34856,120.09857 c -0.75289,4.99637 -0.95715,9.92608 0.63479,14.63752 3.53987,11.77668 10.82853,15.08095 16.70413,21.5788"
+         id="path3776-2"
+         sodipodi:nodetypes="ccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:url(#linearGradient71075);fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 673.43781,140.93482 c 2.78675,0.9169 0.64278,1.81932 3.35958,1.20109 l 2.20461,-0.50168 1.28815,-0.74269 c -0.50917,-0.56882 -0.48206,-1.16147 -3.07576,-1.63767 -1.98772,0.36667 -2.85145,1.03197 -3.77658,1.68095 z"
+         id="path1472-5"
+         sodipodi:nodetypes="cscccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#c8ab37;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 670.16568,145.68798 c 2.22469,-1.5371 2.14699,-2.29596 2.5264,-4.68885 0,0 0.1896,-1.64692 -1.12157,0.0668 -0.29825,2.07783 -0.939,3.2106 -3.26472,3.2459 -0.21923,1.1395 0.64447,1.40049 1.85989,1.37615 z"
+         id="path1474-8"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#decd87;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 669.14603,140.76492 c 1.74159,1.36853 1.40889,1.78748 5.37583,0.88476 l 1.47651,-0.92804 c -2.30283,-2.2168 -4.03454,-1.93587 -6.85234,0.0433 z"
+         id="path1476-6"
+         sodipodi:nodetypes="cccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#c8ab37;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 667.19491,144.17038 c 2.22469,-1.5371 1.08866,-2.29596 1.46807,-4.68885 0,0 0.1896,-1.64692 -1.12157,0.0668 -0.29825,2.07783 0.11933,3.2106 -2.20639,3.2459 -0.21923,1.1395 0.64447,1.40049 1.85989,1.37615 z"
+         id="path1478-2"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#c8ab37;stroke:#000000;stroke-width:0.241581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 669.95379,139.13184 c 2.03128,-1.40347 2.05235,-1.56718 2.39877,-3.75204 0,0 0.17312,-1.50374 -1.02406,0.061 -0.27232,1.89719 -0.94938,2.40231 -3.0729,2.43454 -0.20017,1.04044 0.58844,1.27874 1.69819,1.25651 z"
+         id="path1482-8"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:url(#linearGradient71077);fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 665.47675,140.07941 c 1.74159,1.36853 1.40889,1.78748 5.37583,0.88476 l 1.47651,-0.92804 c -2.30283,-2.2168 -4.03454,-1.93587 -6.85234,0.0433 z"
+         id="path1480-4"
+         sodipodi:nodetypes="cccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#d7c16b;fill-opacity:1;stroke:#000000;stroke-width:0.241581px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 668.385,135.39653 c 1.59019,1.24955 1.28641,1.63208 4.90847,0.80784 1.63293,-0.0852 0.90005,-0.56469 1.34815,-0.84736 -2.10263,-2.02407 -3.68379,-1.76757 -6.25662,0.0395 z"
+         id="path1484-7"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#c8ab37;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 664.03841,140.04189 c 2.22469,-1.5371 3.21725,-2.6864 3.59666,-5.07929 0,0 0.1896,-1.64692 -1.12157,0.0668 -0.29825,2.07783 -1.46817,3.2106 -3.79389,3.2459 -0.21923,1.1395 0.10338,1.79093 1.3188,1.76659 z"
+         id="path1496-2"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:url(#linearGradient71079);fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 663.55985,134.72839 c 1.74159,1.36853 1.40889,1.78748 5.37583,0.88476 l 1.47651,-0.92804 c -2.30283,-2.2168 -4.03454,-1.93587 -6.85234,0.0433 z"
+         id="path1498-4"
+         sodipodi:nodetypes="cccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#c8ab37;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 667.15578,131.91483 c 2.22469,-1.5371 1.08866,-2.29596 1.46807,-4.68885 0,0 0.1896,-1.64692 -1.12157,0.0668 -0.29825,2.07783 0.11933,3.2106 -2.20639,3.2459 -0.21923,1.1395 0.64447,1.40049 1.85989,1.37615 z"
+         id="path1478-4-0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:url(#linearGradient71081);fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 665.43762,127.82386 c 1.74159,1.36853 1.40889,1.78748 5.37583,0.88476 l 1.47651,-0.92804 c -2.30283,-2.2168 -4.03454,-1.93587 -6.85234,0.0433 z"
+         id="path1480-3-6"
+         sodipodi:nodetypes="cccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#c8ab37;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 672.3021,150.25177 c 2.22469,-1.5371 2.14699,-2.29596 2.5264,-4.68885 0,0 0.1896,-1.64692 -1.12157,0.0668 -0.29825,2.07783 -0.939,3.2106 -3.26472,3.2459 -0.21923,1.1395 0.64447,1.40049 1.85989,1.37615 z"
+         id="path1474-1-2"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:#decd87;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 671.28245,145.32871 c 1.74159,1.36853 1.40889,1.78748 5.37583,0.88476 l 1.47651,-0.92804 c -2.30283,-2.2168 -4.03454,-1.93587 -6.85234,0.0433 z"
+         id="path1476-4-9"
+         sodipodi:nodetypes="cccc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 642.44734,115.59812 -0.27527,12.12884"
+         id="path3954-9"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 650.7914,134.95941 c 0.50454,16.9704 3.48422,13.3458 -4.51016,22.70462 -0.78436,0.91823 -4.65587,3.49933 -5.67718,4.72223"
+         id="path3958-0"
+         sodipodi:nodetypes="csc"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745" />
+      <g
+         id="g3964-8-8"
+         transform="matrix(-1,0,0,1,1335.5258,42.166866)"
+         inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+         inkscape:export-xdpi="23.557745"
+         inkscape:export-ydpi="23.557745">
+        <path
+           style="fill:#000000;stroke-width:0.0395721"
+           d="m 619.25046,121.73842 c -0.0966,-0.0178 -0.40417,-0.0741 -0.68345,-0.12454 -0.89803,-0.16251 -1.59535,-0.32598 -1.64687,-0.38607 -0.0666,-0.0778 -0.0122,-0.17174 0.12005,-0.20731 0.46986,-0.1263 1.13033,-0.46078 1.32897,-0.67304 l 0.11864,-0.12674 -0.21223,-0.14976 c -0.98838,-0.69746 -1.21483,-2.02879 -0.53227,-3.1293 0.4316,-0.69589 1.15849,-1.15748 1.9584,-1.24362 0.38219,-0.0412 0.97008,0.0464 1.37144,0.20421 0.97507,0.38343 1.76145,1.30238 1.97357,2.30624 0.026,0.12295 0.11218,0.38629 0.19157,0.58523 0.13761,0.34482 0.14146,0.36868 0.0824,0.51156 -0.0963,0.23326 -0.4125,0.58855 -0.65451,0.73559 -0.52955,0.32177 -1.08149,0.41117 -1.95975,0.31745 -0.54032,-0.0576 -0.59041,-0.0566 -0.84128,0.02 -0.21888,0.0667 -0.32683,0.0754 -0.60147,0.048 -0.18409,-0.0183 -0.38098,-0.0505 -0.43753,-0.0713 -0.0805,-0.0297 -0.10942,-0.0228 -0.13316,0.0321 -0.0655,0.15146 -0.59622,0.52228 -1.03102,0.72036 -0.0584,0.0266 0.10727,0.0697 0.70162,0.18284 1.58287,0.30128 3.10368,0.43948 3.91529,0.35582 1.03931,-0.10714 1.24464,-0.33974 1.99882,-2.26417 0.36741,-0.93753 0.59726,-1.36509 0.89467,-1.66429 l 0.1523,-0.15322 -0.17498,-0.21431 c -0.18862,-0.23105 -0.34446,-0.30579 -0.59342,-0.28464 -0.21426,0.0181 -0.4393,0.0899 -0.69163,0.60194 -1.5092,3.06241 -0.63298,0.88675 -0.63539,0.52103 -5.8e-4,-0.0738 0.0309,-0.16823 0.35962,-0.60999 0.3651,-0.4906 0.50424,-0.63804 0.67001,-0.70999 0.0575,-0.0249 0.0554,-0.0958 -0.0184,-0.61051 -0.0961,-0.67105 -0.12012,-0.76498 -0.19749,-0.77279 -0.10162,-0.0103 -0.23686,-0.258 -0.22186,-0.40639 0.0294,-0.29122 0.40636,-0.43375 0.64214,-0.2428 0.13383,0.1084 0.16901,0.34433 0.0732,0.4912 -0.0415,0.0636 -0.0922,0.12381 -0.11272,0.1338 -0.0205,0.01 -0.005,0.23746 0.0338,0.50552 0.0453,0.31115 0.0861,0.47507 0.11265,0.45338 0.0229,-0.0187 0.17303,-0.22312 0.33369,-0.45431 l 0.2921,-0.42035 -0.0685,-0.11538 c -0.1495,-0.25172 0.0774,-0.58392 0.37681,-0.55184 0.24843,0.0261 0.40705,0.25815 0.33791,0.49312 -0.0394,0.13405 -0.21033,0.27394 -0.32257,0.26408 -0.0408,-0.004 -0.20164,0.19258 -0.44751,0.54578 -0.21112,0.30327 -0.38478,0.56047 -0.3859,0.57158 -0.001,0.0112 0.0721,0.0399 0.16258,0.0639 0.24947,0.0661 0.46719,0.24866 0.63467,0.53197 0.083,0.14038 0.14934,0.27041 0.14746,0.28895 -0.002,0.0186 -0.0922,0.11545 -0.20074,0.21533 -0.32617,0.30013 -0.48337,0.59351 -0.92995,1.7356 -0.35604,0.9105 -0.49086,1.20457 -0.70003,1.52685 -0.295,0.4545 -0.56992,0.64229 -1.10253,0.75312 -0.55731,0.11597 -0.92915,0.11727 -2.12864,0.008 -0.62858,-0.0575 -1.22191,-0.11945 -1.31855,-0.13726 z m 0.28197,-1.57881 c 0.77487,-0.0674 1.37161,-0.7372 1.33694,-1.50067 -0.0241,-0.53105 -0.39766,-0.96021 -0.93168,-1.07044 -0.70207,-0.14491 -1.33259,0.67899 -0.94029,1.2287 0.19762,0.27692 0.48258,0.38135 0.75098,0.27522 0.1479,-0.0584 0.22377,-0.15048 0.306,-0.371 0.0471,-0.12626 0.0742,-0.15159 0.15372,-0.14356 0.11007,0.0111 0.1299,0.11233 0.0651,0.33235 -0.0471,0.16005 -0.31278,0.41025 -0.49442,0.4656 -0.43445,0.13238 -0.98423,-0.18297 -1.12535,-0.64551 -0.0222,-0.0726 -0.028,-0.2522 -0.013,-0.39906 0.0843,-0.8239 0.95135,-1.2615 1.72831,-0.87247 0.28596,0.14318 0.58172,0.47521 0.69511,0.78038 0.0788,0.2121 0.0833,0.27568 0.0456,0.64855 -0.0389,0.38455 -0.0526,0.43132 -0.19669,0.67009 -0.0852,0.14118 -0.20697,0.30721 -0.27058,0.36897 l -0.11565,0.11227 0.0999,0.0378 c 0.17498,0.0663 0.9224,0.0543 1.24969,-0.0199 0.51973,-0.11796 0.862,-0.34128 1.1162,-0.72829 l 0.10286,-0.15653 -0.0874,-0.19096 -0.0874,-0.19095 -0.18466,0.13865 c -0.22358,0.16785 -0.43107,0.25219 -0.73834,0.30012 -0.20438,0.0319 -0.23749,0.0286 -0.2838,-0.0281 -0.0289,-0.0354 -0.0509,-0.0797 -0.0489,-0.0985 0.005,-0.052 0.18127,-0.14019 0.26333,-0.1319 0.1415,0.0143 0.52688,-0.16236 0.71752,-0.32892 l 0.19347,-0.16903 -0.0567,-0.24767 c -0.0312,-0.13621 -0.0656,-0.24856 -0.0763,-0.24965 -0.0108,-0.001 -0.099,0.0531 -0.19597,0.12052 -0.35129,0.24408 -0.97364,0.37819 -1.01693,0.21913 -0.0314,-0.11562 0.03,-0.17136 0.21969,-0.19925 0.10141,-0.0149 0.26096,-0.0562 0.35459,-0.0918 0.18885,-0.0717 0.49156,-0.29257 0.49876,-0.36391 0.009,-0.0885 -0.34542,-0.60703 -0.56596,-0.82834 -0.46808,-0.4697 -0.99968,-0.73517 -1.67226,-0.83508 -0.72904,-0.10824 -1.28062,0.0414 -1.84639,0.5012 -0.34039,0.27662 -0.63587,0.70063 -0.75643,1.08552 -0.0877,0.28006 -0.13117,0.76796 -0.0908,1.01899 0.10535,0.65488 0.56981,1.22363 1.18654,1.45299 0.29863,0.11108 0.42409,0.12949 0.71173,0.10448 z m 4.75219,-4.94783 c 0.0733,-0.0722 0.0398,-0.17545 -0.0603,-0.18558 -0.0894,-0.009 -0.14781,0.071 -0.12178,0.16668 0.0214,0.0785 0.11203,0.0879 0.18215,0.0189 z m 1.2599,0.12731 c 0.0787,-0.0774 0.037,-0.18385 -0.0703,-0.17944 -0.10237,0.004 -0.15774,0.12933 -0.0832,0.18788 0.0691,0.0542 0.091,0.053 0.15349,-0.008 z"
+           id="path1627-7-1"
+           sodipodi:nodetypes="ssssscsssssssssssssssssscssssssssssssssscsssssssssssssssssssssssssscssssscssscccsssssscssssssssssssssssssssssss" />
+        <path
+           style="opacity:1;fill:#f8dd94;fill-opacity:1;stroke:none;stroke-width:0.0250869;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 618.78673,120.0073 c -0.51391,-0.24477 -0.8428,-0.58504 -1.02715,-1.06272 -0.1939,-0.50241 -0.10292,-1.28951 0.20849,-1.80374 0.25459,-0.42043 0.80823,-0.87316 1.2674,-1.03641 0.32885,-0.11693 0.35108,-0.11818 0.9682,-0.0542 0.53404,0.055 0.67584,0.0864 0.91761,0.20101 0.40697,0.1929 0.80143,0.51788 1.09327,0.90069 0.37279,0.48902 0.37292,0.48992 0.0972,0.6872 -0.12853,0.092 -0.34509,0.19085 -0.48292,0.22053 -0.29185,0.0628 -0.4002,0.13272 -0.37114,0.23947 0.0497,0.18251 0.64173,0.085 1.0658,-0.17552 l 0.17482,-0.1074 0.0346,0.12882 c 0.0838,0.31165 0.0756,0.34119 -0.13864,0.49869 -0.21543,0.15841 -0.55277,0.30903 -0.66638,0.29755 -0.1195,-0.0121 -0.28871,0.13033 -0.26375,0.22197 0.0503,0.18486 0.65332,0.0844 1.01906,-0.16967 0.11408,-0.0792 0.2151,-0.14335 0.22445,-0.14241 0.009,9.1e-4 0.0489,0.0784 0.0878,0.17221 l 0.0707,0.17048 -0.17529,0.22069 c -0.27195,0.34242 -0.66253,0.56271 -1.1304,0.63758 -0.28708,0.046 -0.99915,0.0532 -1.08275,0.011 -0.0655,-0.0331 -0.061,-0.053 0.043,-0.18862 0.31032,-0.4046 0.35066,-0.50427 0.40104,-0.99108 0.0449,-0.42485 0.0388,-0.48874 -0.056,-0.69513 -0.23323,-0.50749 -0.63858,-0.81431 -1.14573,-0.86721 -0.36909,-0.0383 -0.60809,0.0207 -0.85127,0.21082 -0.28087,0.21958 -0.401,0.44237 -0.44064,0.81716 -0.0419,0.39463 0.0316,0.59368 0.30616,0.83129 0.15229,0.13178 0.24137,0.1687 0.5096,0.21122 l 0.32504,0.0515 0.25619,-0.20915 c 0.23364,-0.19077 0.2581,-0.22827 0.27813,-0.42645 0.0198,-0.19557 0.0111,-0.21838 -0.0858,-0.22817 -0.0849,-0.009 -0.13371,0.0366 -0.23065,0.21395 -0.19398,0.3547 -0.52922,0.41021 -0.84345,0.13967 -0.37559,-0.32337 -0.25473,-0.95064 0.23544,-1.22182 0.34593,-0.19137 0.79303,-0.10834 1.13373,0.21054 0.3522,0.32962 0.41477,1.01883 0.13519,1.489 -0.37874,0.63695 -1.2141,0.90478 -1.86103,0.59667 z"
+           id="path1629-1-3" />
+        <path
+           style="opacity:1;fill:#b79b79;fill-opacity:1;stroke:none;stroke-width:0.0250869;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 619.42162,121.45023 c -0.11483,-0.0217 -0.52235,-0.0942 -0.90551,-0.16225 -0.38315,-0.0681 -0.71225,-0.13559 -0.73131,-0.15008 -0.019,-0.0145 0.1104,-0.11479 0.28775,-0.22282 0.17732,-0.10806 0.40319,-0.27358 0.50193,-0.36784 l 0.17954,-0.17137 0.41855,0.0493 c 0.31585,0.0369 0.4957,0.0324 0.73285,-0.0198 0.24091,-0.053 0.47326,-0.0585 0.99519,-0.0234 0.44521,0.0299 0.77275,0.0274 0.94627,-0.007 0.63063,-0.12564 1.0967,-0.42161 1.39452,-0.88556 0.15551,-0.24223 0.16864,-0.3085 0.0972,-0.4905 -0.0486,-0.12379 -0.0273,-0.18113 0.30881,-0.83372 0.40561,-0.78748 0.48814,-0.90451 0.7142,-1.01283 0.25774,-0.12351 0.4677,-0.0744 0.71762,0.1677 l 0.21623,0.20951 -0.23347,0.28206 c -0.28214,0.34088 -0.37664,0.52817 -0.89544,1.77481 -0.61378,1.47477 -0.79904,1.74108 -1.33543,1.91949 -0.43663,0.14526 -1.05531,0.16452 -2.19286,0.0683 -0.5543,-0.047 -1.10186,-0.1023 -1.21671,-0.12362 z"
+           id="path1631-7-1" />
+        <path
+           style="opacity:1;fill:#b79b79;fill-opacity:1;stroke:none;stroke-width:0.0250869;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 618.52817,121.27271 c -0.35125,-0.0694 -0.64812,-0.13775 -0.65973,-0.15199 -0.0116,-0.0142 0.13716,-0.13068 0.33061,-0.25881 0.19344,-0.12813 0.38856,-0.27845 0.4336,-0.33405 0.0747,-0.0923 0.12639,-0.099 0.5911,-0.0774 0.28009,0.013 0.61361,0.002 0.74116,-0.025 0.12755,-0.0268 0.56872,-0.036 0.98039,-0.0205 1.02922,0.0388 1.45619,-0.0716 1.95135,-0.50418 0.36825,-0.32171 0.48465,-0.53038 0.47977,-0.85999 -0.004,-0.24836 0.0187,-0.31645 0.2606,-0.78841 0.36193,-0.70651 0.52531,-0.95015 0.70632,-1.05333 0.26334,-0.1501 0.53367,-0.072 0.80974,0.23406 l 0.0912,0.10109 -0.24156,0.31477 c -0.18112,0.23604 -0.34214,0.54703 -0.64378,1.24331 -0.70113,1.61858 -0.83868,1.88479 -1.10985,2.14803 -0.18908,0.18356 -0.58345,0.31206 -1.08255,0.35273 -0.57183,0.0466 -2.75237,-0.14541 -3.63836,-0.3204 z"
+           id="path1633-2-1" />
+      </g>
+    </g>
+    <g
+       id="g4219-9"
+       transform="matrix(0.80457743,0,0,0.80457743,-340.33402,374.62148)"
+       inkscape:export-filename="/home/russs/GEA Files/GEA Circles/Development Circle/Live Github Code/ecobricks-org/webp/ayyew.webp"
+       inkscape:export-xdpi="23.557745"
+       inkscape:export-ydpi="23.557745">
+      <path
+         d="m 845.67083,71.589824 c -2.05605,0.54543 -2.21583,-3.5836 -4.87098,-3.53298 -2.67603,-0.78214 -5.72363,1.03323 -6.31599,3.75538 -2.56702,-1.16021 -5.44148,1.85271 -4.22253,4.36121 0.72784,1.96094 2.94929,2.14615 4.7355,2.01502 3.77819,-0.0434 7.56734,0.0873 11.33868,-0.067 2.7805,-0.41919 3.59093,-4.52244 1.1794,-5.9679 -0.54004,-0.36692 -1.19126,-0.5655 -1.84411,-0.56366 z"
+         opacity="0.77"
+         stroke-width="0.0552405"
+         id="path837-0"
+         style="fill:#ffffff;filter:url(#filter1073)" />
+      <path
+         style="fill:url(#linearGradient69548);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 270.98896,182.30922 c 27.06247,-19.24639 65.13983,-20.01336 87.3552,-6.59025 38.26448,-14.39379 61.01437,-10.96571 77.9118,7.15235 -19.95555,41.44513 -55.40859,45.37238 -82.83484,45.6635 -40.25464,0.48233 -65.60089,-22.07674 -82.43216,-46.2256 z"
+         id="path859-5-7"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         d="m 309.37727,70.366677 c -2.477,0.09815 -3.60138,-5.782301 -7.68925,-4.554164 -4.37298,-0.171128 -4.11331,5.919726 -8.13658,4.874578 -4.41132,1.91526 -1.88583,8.986817 2.71061,7.838601 4.62722,-0.05342 9.26601,0.1077 13.88563,-0.08289 4.41529,-0.920415 3.81207,-8.076561 -0.77044,-8.076561 z"
+         opacity="0.77"
+         stroke-width="0.0661335"
+         id="path839-7"
+         style="fill:#ffffff;filter:url(#filter1073)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 270.98896,182.30922 c 14.37723,-10.82702 38.90505,-15.77095 39.59103,-15.92875 20.01399,-0.82415 29.32118,2.11408 42.73343,3.60979 v 0"
+         id="path869-0-2"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 368.20563,172.39458 c 30.92772,-9.23865 49.75744,-7.90564 68.05033,10.47674"
+         id="path871-3-2"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#25bd00;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 376.5587,174.57537 c 1.79418,-7.59192 1.79418,-7.59192 1.79418,-7.59192 0,0 -1.89621,8.75257 -0.60126,6.17255 1.29496,-2.58001 1.29496,-2.58001 1.29496,-2.58001 0,0 -2.67308,9.8691 -0.28738,3.53652 2.38571,-6.33258 2.92658,-11.16222 2.38571,-6.33258 -0.54087,4.82965 -2.87325,7.47876 -0.54087,4.82965 2.33238,-2.64912 2.33238,-2.64912 2.33238,-2.64912 0,0 -3.86767,7.59876 -2.0781,5.53741 1.78957,-2.06136 2.03169,-4.25076 1.78957,-2.06136 -0.24212,2.18941 -3.05025,5.7273 -0.24212,2.18941 2.80813,-3.53788 2.80813,-3.53788 2.80813,-3.53788 0,0 -3.71049,7.10088 -0.98636,4.09476 2.72414,-3.00613 2.72414,-3.00613 2.72414,-3.00613 0,0 -4.92085,8.18741 -1.88048,4.86914 3.04037,-3.31825 4.0556,-7.73863 3.04037,-3.31825 -1.01523,4.42036 -2.76124,6.86343 -1.01523,4.42036 1.746,-2.44306 2.00921,-5.70733 1.746,-2.44306 -0.2632,3.26427 -0.2632,3.26427 -0.2632,3.26427 0,0 3.31021,-9.00503 2.62349,-5.28938 -0.68673,3.71564 -0.21142,1.36253 -0.68673,3.71564 -0.4753,2.35311 -2.01748,4.1654 -0.4753,2.35311 1.54218,-1.81228 2.3511,-5.94209 1.54218,-1.81228 -0.80893,4.12982 -3.13618,8.54725 -0.80893,4.12982 2.32725,-4.41744 3.10365,-8.56957 2.32725,-4.41744 -0.77639,4.15213 -2.36361,6.68913 -0.77639,4.15213 1.58722,-2.53699 1.58722,-2.53699 1.58722,-2.53699 0,0 -2.68084,8.21358 -0.59398,3.79199 2.08686,-4.42159 2.64225,-8.90694 2.08686,-4.42159 -0.55539,4.48536 -0.55539,4.48536 -0.55539,4.48536 0,0 3.38339,-8.12089 2.44587,-4.55309 -0.93752,3.56782 -3.50781,6.55811 -0.93752,3.56782 2.57028,-2.9903 3.77174,-5.732 2.57028,-2.9903 -1.20145,2.74169 -1.20145,2.74169 -1.20145,2.74169 0,0 7.67508,-6.26941 3.43323,-1.84686 -4.24185,4.42254 -8.24815,6.23375 -4.24185,4.42254 4.0063,-1.81121 8.89889,-6.14508 4.0063,-1.81121 -4.89258,4.33387 -4.89258,4.33387 -4.89258,4.33387 l -1.5742,2.28287 -20.80291,-10.44397 z"
+         id="path907-6-2" />
+      <path
+         d="m 386.61206,49.18119 c -2.1163,-0.241416 -3.91646,-5.26548 -7.55011,-3.250329 -2.69901,1.329542 -2.82157,3.919371 -6.01571,3.788371 -3.28036,2.258283 -0.14086,6.784187 3.24018,5.759554 3.84311,-0.135523 7.75775,0.289035 11.55085,-0.247437 3.12741,-1.231605 2.14561,-6.129195 -1.22525,-6.050012 z"
+         opacity="0.77"
+         stroke-width="0.0527203"
+         id="path841-0"
+         style="fill:#ffffff;filter:url(#filter1073)" />
+      <path
+         style="fill:#25bd00;fill-opacity:1;stroke:#000000;stroke-width:0.285348px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 315.59851,187.39813 c 0.89241,-2.34484 -0.82124,-5.2183 -4.08423,-9.48942 l 5.76629,5.28017 -2.44163,-4.58908 2.22449,1.87211 -0.66107,-1.82484 -1.99572,-5.50911 c 3.79339,7.4148 3.72892,2.2206 3.29243,-4.1895 0,0 3.50934,10.34483 3.36818,5.18958 l -0.14116,-5.15525 c 0,0 1.15958,4.89628 1.30697,1.998 l 0.14739,-2.89828 c 0,0 -1.42175,-9.0024 0.15892,-3.54889 l 1.58066,5.45351 c 0,0 -1.2119,-7.1188 0.98295,-3.12374 2.19486,3.99506 1.75599,11.37266 2.19486,3.99506 0.43887,-7.3776 -1.46503,-10.39601 0.43887,-7.3776 1.90388,3.01842 1.17297,5.39439 1.90388,3.01842 0.73092,-2.37599 -1.3293,-5.62935 0.73092,-2.37599 2.06022,3.25338 0.9744,6.61193 2.06022,3.25338 1.08586,-3.35856 -0.24514,-10.05842 1.08586,-3.35856 l 1.00942,5.08109 c 1.57546,-9.14755 -0.10114,-1.22958 3.01457,-0.41763 0.29776,0.0776 1.37241,-0.26559 1.55905,-1.19257 1.00495,-4.99136 0.68372,-0.25518 1.04003,2.93713 0.17622,1.57877 1.73998,0.47318 1.30752,2.16579 0,0 -12.59183,19.6041 -25.84967,14.80622 z"
+         id="path903-2-6"
+         sodipodi:nodetypes="ccccccccscscscssssssscssscc" />
+      <path
+         style="fill:#a28585;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 307.93351,187.2434 c 52.14146,-13.08759 38.3389,-51.28513 34.87048,-77.53873 -8.84179,-13.581192 -0.56141,-17.684298 -36.48215,-36.67717 0.074,-1.595038 -1.19273,-3.103948 -0.50763,-3.821364 0.3219,-0.337091 2.92825,1.414354 3.35471,2.691246 1.06603,3.191874 8.88987,-13.036716 3.42167,0.518277 11.99877,10.62804 13.32187,4.881982 18.9188,8.06621 l 3.36852,-2.777565 c 3.6,-28.446705 2.49957,-3.587781 3.53159,-2.912024 7.64869,-4.437573 6.42172,-2.308986 1.77217,2.351611 l -3.64147,7.676359 c 2.95625,4.142949 6.25906,9.506731 9.97916,12.180678 4.99301,-7.625119 10.97418,-14.810668 11.80986,-24.285148 -1.32427,-16.300288 1.27125,-8.114561 2.30909,2.336719 -0.0294,0.850309 8.27768,-4.69895 9.01623,-4.391403 1.35573,0.564549 3.00014,0.957674 -0.85759,2.12869 -10.96561,3.328616 -14.39875,17.824445 -11.5839,23.686262 12.07804,-3.044489 15.44168,-7.776288 22.24047,-18.698147 3.93177,-1.822358 2.65394,-1.116932 4.71006,-4.038043 8.63154,-12.262769 2.67387,-0.356541 3.85997,-0.144641 -1.2809,2.790359 13.16651,0.433037 17.35504,-0.876564 1.51468,-0.473586 0.41325,2.492693 -4.61562,3.895526 l -13.37962,1.443742 c -5.21622,1.729118 -12.36591,17.646859 -17.45243,24.610159 -6.53119,14.47971 -3.16382,29.52382 -3.13144,45.26146 0,0 -3.04887,16.76374 12.9917,29.59219 6.36811,5.0929 11.94219,6.40996 18.1894,8.73192 0,0 12.36042,11.82411 -9.76162,2.59785 -19.36827,-2.71716 -26.84934,-9.79491 -29.94988,-3.75376 -5.15762,10.11385 2.03926,9.65164 -7.51606,13.42918 -9.55531,3.77756 -18.12535,5.71307 -10.5202,-0.90596 15.01146,-2.55815 3.78914,-17.3319 -2.94209,-12.85103 -5.71832,4.60435 -14.18544,4.25959 -23.46533,6.01769 -7.69248,0.75886 -15.15872,1.60525 -5.89189,-3.54422 z"
+         id="path847-6-1"
+         sodipodi:nodetypes="cccsscccccccccssccscsccccscccscccc" />
+      <path
+         style="fill:#2ac60a;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 365.2974,183.88694 0.0736,-4.03235 c 0,0 -0.17036,6.80231 0.56102,2.34363 0.73138,-4.45869 0.25648,-7.34289 0.73138,-4.45869 0.4749,2.88421 -0.67925,4.67308 0.4749,2.88421 1.15415,-1.78887 0.89184,-5.22432 1.15415,-1.78887 l 0.26231,3.43545 c 0,0 1.74651,-4.68237 1.61973,-2.51097 -0.12678,2.17141 -2.64462,4.75579 -0.12678,2.17141 2.51784,-2.58439 2.56788,-6.06806 2.51784,-2.58439 -0.05,3.48368 -1.30321,4.74922 -0.05,3.48368 1.25316,-1.26555 0.92274,-4.35435 1.25316,-1.26555 0.33042,3.0888 -0.47575,4.84703 0.29899,3.35675 0.77475,-1.49028 0.0337,-2.30727 0.77475,-1.49028 l 0.74108,0.81699 c 0,0 -1.0532,3.74263 0.0152,1.07776 1.06843,-2.66488 0.72172,-6.49556 1.06843,-2.66488 l 0.46405,5.12706"
+         id="path909-1-5"
+         sodipodi:nodetypes="ccsssscssssssscssc" />
+      <path
+         style="fill:#2ac60a;fill-opacity:1;stroke:#000000;stroke-width:0.296743px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 386.4286,189.51365 1.22547,-5.31316 0.34066,1.86322 0.62858,-3.92008 c 0,0 -0.42491,7.28304 0.27216,2.37078 l 0.69707,-4.91225 c 0,0 -0.45281,6.31606 0.34641,5.49924 l 0.79922,-0.81682 c 0,0 -1.93282,4.68587 -0.23199,2.25684 l 1.70083,-2.42901 c 0,0 -1.7559,7.26236 -0.1817,4.3908 1.57419,-2.87161 1.69886,-6.46358 1.57419,-2.87161 l -0.12467,3.59195 c 0,0 3.60341,-6.26555 2.10572,-1.7999 l -1.49769,4.46566"
+         id="path911-8-9"
+         sodipodi:nodetypes="ccccscscscsscsc" />
+      <path
+         style="fill:#2dcb10;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 325.04035,189.74109 c -0.30117,-5.3953 -1.36188,-7.05847 -0.30117,-5.3953 1.06072,1.66317 1.08556,8.37564 1.06072,1.66317 l -0.0248,-6.71248 1.02027,2.99435 c 0,0 0.12077,6.51302 0.57553,2.96628 0.45477,-3.54674 -0.20971,-6.73819 0.45477,-3.54674 0.66447,3.19146 0.21656,5.86738 0.66447,3.19146 0.44791,-2.67591 0.20758,-1.51959 0.44791,-2.67591 0.24033,-1.15633 -0.24052,-3.18632 0.24033,-1.15633 l 0.48085,2.03 c 0,0 0.0528,-5.38616 0.79281,-1.89923 l 0.74005,3.48694 c 0,0 0.67014,-7.22023 1.29069,-3.89178 0.62055,3.32846 -0.58912,6.38545 0.62055,3.32846 l 1.20967,-3.057 c 0,0 -1.6819,6.18618 -0.27929,4.22188 l 1.4026,-1.9643 -0.39886,3.78717"
+         id="path913-7-4"
+         sodipodi:nodetypes="cssccssssscscsscscc" />
+      <g
+         id="g2674-9"
+         transform="matrix(0.08876018,0,0,0.08876018,305.66111,71.183445)"
+         style="stroke:#000000;stroke-width:2.12933;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           style="opacity:1;fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:8.04787;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 871.49012,344.95318 c 3.42196,-10.7981 4.69782,-22.58945 5.67763,-52.472 1.33269,-40.64455 3.71347,-58.55344 8.80658,-66.24555 3.35619,-5.06883 12.28593,-9.28329 19.66977,-9.28329 h 5.90651 l 5.08035,10.29285 c 10.92273,22.1296 20.45272,33.85206 32.4018,39.85614 3.1621,1.58887 5.88053,3.00255 6.04094,3.1415 0.16041,0.13895 -0.94841,6.13875 -2.46406,13.33288 -6.34459,30.11502 -14.83981,42.90921 -34.6231,52.14392 -14.87799,6.94494 -38.23177,14.24802 -45.56233,14.24802 h -2.52319 z"
+           id="path2643-0"
+           transform="scale(0.26458333)" />
+        <path
+           style="opacity:1;fill:#aa4400;fill-opacity:1;stroke:#000000;stroke-width:8.04787;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 890.36234,403.57553 c -2.30962,-1.86927 -4.62343,-4.12578 -5.14179,-5.01446 -1.51929,-2.60465 -11.46947,-11.67536 -14.63465,-13.34112 -1.59995,-0.84202 -11.04655,-3.67281 -20.99245,-6.29063 -9.94589,-2.61783 -18.93123,-5.21341 -19.96742,-5.76796 -1.0362,-0.55456 -2.43148,-2.66719 -3.10064,-4.69475 -1.52499,-4.62076 -4.53467,-7.0088 -12.66572,-10.0496 l -6.40462,-2.39518 -5.24159,4.41977 -5.24159,4.41978 -8.18828,-1.10833 c -23.28212,-3.15137 -44.72595,-23.12937 -61.84047,-57.61323 -10.50916,-21.17478 -18.14631,-45.51159 -22.52182,-71.76881 -2.88856,-17.33407 -2.63514,-50.97259 0.49391,-65.56183 4.29804,-20.0397 11.19927,-37.07892 21.25914,-52.4891 3.44045,-5.27024 12.9303,-15.93639 26.77914,-30.098505 23.9277,-24.468969 26.78818,-28.587894 25.65195,-36.937371 C 776.97524,37.304792 770.7431,29.653699 745.2166,8.2932555 728.32638,-5.840391 714.94008,-19.122567 711.86623,-24.797713 c -1.56702,-2.893126 -2.00128,-5.882914 -2.00128,-13.778553 0,-9.57845 0.20451,-10.497481 4.08173,-18.342488 5.47346,-11.074797 15.26347,-21.019901 25.88299,-26.293042 7.44241,-3.695541 8.28365,-3.870865 18.573,-3.870865 12.65809,0 16.99091,1.255054 35.91645,10.403652 60.38996,29.192475 96.92012,76.328294 97.06916,125.250853 0.04,13.152923 -1.40336,20.282565 -6.0513,29.88966 -4.80925,9.940561 -9.77128,13.723305 -25.80265,19.670367 -22.13424,8.211019 -35.75724,16.233569 -49.01299,28.863659 -14.34669,13.66952 -22.95577,28.23657 -28.90672,48.91179 -3.93204,13.66097 -4.12056,14.65309 -2.78426,14.65309 0.48083,0 2.44411,-4.15673 4.36285,-9.23717 7.25496,-19.20974 16.47854,-34.2579 28.43476,-46.39094 9.61395,-9.75615 18.51504,-16.06458 31.03514,-21.9954 13.47814,-6.38466 23.07965,-8.65595 42.20365,-9.98354 26.85391,-1.8642 28.95778,-2.56652 39.3283,-13.128749 10.44821,-10.64133 12.93361,-16.197517 16.74007,-37.422908 2.05022,-11.432328 5.97806,-19.450185 11.48136,-23.436749 5.00357,-3.624572 7.08945,-3.774426 13.30152,-0.955631 5.22452,2.370692 9.64933,2.723077 9.65056,0.768576 10e-4,-2.238954 6.34962,-14.902568 8.78216,-17.518976 3.1456,-3.3833461 7.37763,-5.4420009 11.18726,-5.4420009 7.85581,0 16.70941,15.2654919 19.59251,33.7816669 0.5509,3.538249 1.1678,3.997184 14.5519,10.826887 17.0536,8.702189 26.5143,15.665107 34.6497,25.501431 6.6205,8.004672 18.5049,27.258313 27.4018,44.392953 4.9231,9.4813 5.3977,10.98586 4.8126,15.25481 -1.0607,7.73904 -6.4139,13.81434 -12.1723,13.81434 -1.0671,0 -2.6962,1.1538 -3.6202,2.56399 -0.924,1.4102 -4.5151,4.07505 -7.9801,5.9219 -9.8288,5.23867 -13.1888,10.51399 -4.7541,7.46395 11.0623,-4.00015 24.6376,-3.37381 28.3962,1.31017 1.176,1.46547 3.4445,3.1578 5.0412,3.76072 2.8939,1.09272 3.852,3.60451 1.8475,4.84335 -0.5807,0.35885 -1.0557,1.83677 -1.0557,3.28426 0,1.9751 -0.7903,2.90728 -3.167,3.73583 -2.3208,0.80904 -3.1671,1.7744 -3.1671,3.61284 0,2.84443 -2.0858,4.14599 -13.9898,8.72982 -7.3387,2.82589 -8.5506,3.83201 -27.7207,23.01427 -21.786,21.79969 -38.8024,36.04971 -50.2008,42.0394 -7.90961,4.15636 -19.72772,7.42927 -30.58098,8.46911 -3.79263,0.36336 -7.4403,0.99725 -8.10595,1.40864 -0.66564,0.41138 -1.97002,5.25398 -2.89861,10.76131 -3.30842,19.62159 -7.92438,31.24282 -17.24021,43.40432 -10.06443,13.13874 -9.77154,14.20363 3.62847,13.19232 26.2416,-1.98046 36.85265,-2.04135 42.26833,-0.24255 9.35755,3.10809 20.40105,11.50672 12.53405,9.53222 -2.4,-0.60234 -2.596,-0.3364 -2.9031,3.93868 l -0.3294,4.58464 -5.54235,0.31909 -5.54231,0.31909 v 5.10454 5.10455 l -5.45444,-0.14525 c -5.3873,-0.14347 -5.46627,-0.0998 -6.4167,3.54962 -0.52924,2.03218 -1.39073,4.13676 -1.91441,4.67686 -0.58125,0.59949 -6.61443,-1.75403 -15.48858,-6.04203 -17.79854,-8.60028 -22.39106,-9.43243 -44.691,-8.09796 -18.84451,1.12768 -21.0458,0.62956 -21.0458,-4.76238 0,-3.60754 -0.12285,-3.721 -4.02883,-3.721 -5.41432,0 -15.53082,1.9291 -20.46059,3.9016 -5.24699,2.09944 -5.40465,5.12613 -0.37644,7.22704 2.0006,0.83591 8.05754,2.24067 13.45989,3.12172 18.67965,3.04639 22.53005,3.84499 31.87144,6.61031 12.71839,3.76504 20.86465,11.3881 14.37187,13.44883 -1.16125,0.36857 -2.11136,1.54937 -2.11136,2.62399 0,3.52803 -1.2427,5.29359 -3.72594,5.29359 -1.86903,0 -2.73867,0.89173 -3.69469,3.78851 -1.26047,3.81924 -1.80119,3.98897 -6.51421,2.04484 -1.37449,-0.56699 -2.16498,0.1463 -3.37708,3.04725 -1.82336,4.36393 -2.92933,4.62691 -6.76611,1.6089 l -2.76966,-2.17862 -1.97152,2.70646 c -1.08434,1.48856 -2.29871,2.70646 -2.69862,2.70646 -0.3999,0 -2.61679,-1.52941 -4.92642,-3.39868 z m -6.31067,-54.59948 c 21.93488,-5.27887 44.55345,-15.53193 51.63194,-23.40492 5.28492,-5.8781 11.07916,-16.61908 14.17462,-26.27598 1.86181,-5.80828 6.50732,-26.91785 6.50732,-29.56976 0,-0.46109 -1.42733,-1.3359 -3.17183,-1.94404 -6.05022,-2.10912 -14.76235,-8.81489 -19.99382,-15.38937 -2.892,-3.63443 -8.7852,-13.21393 -13.09599,-21.28777 l -7.83779,-14.67971 -6.14611,-0.32317 c -10.2569,-0.53934 -19.73938,4.79709 -23.21441,13.06431 -3.49593,8.31692 -6.89463,39.30245 -6.82381,62.21193 0.0251,8.12872 -0.24083,18.81745 -0.59099,23.75274 -0.35017,4.93529 -0.70497,10.63594 -0.78845,12.66812 -0.0835,2.03218 -0.3893,3.9324 -0.67961,4.22271 -0.29031,0.29031 -1.40599,3.85322 -2.47929,7.91758 -1.0733,4.06436 -2.19757,8.22108 -2.4984,9.23717 -0.74466,2.51525 3.98663,2.45225 15.00662,-0.19984 z m 145.60023,-220.806 c 4.9313,-1.36915 10.1121,-6.20437 10.1121,-9.4376 0,-1.9236 -0.4021,-2.18657 -2.3752,-1.55316 -1.3064,0.41939 -5.4632,0.99528 -9.2372,1.27974 -8.2308,0.62037 -10.9631,-1.01686 -15.4476,-9.25623 -1.5752,-2.89419 -3.3703,-5.09339 -3.9892,-4.88711 -0.6188,0.20628 -1.7947,2.13448 -2.6132,4.2849 -1.9334,5.07996 -0.3249,10.8614 4.3121,15.49839 5.3087,5.30863 10.6839,6.44612 19.2382,4.07107 z m 16.1125,-18.67218 c 1.9895,-4.75958 0.019,-11.095724 -5.0158,-16.130829 -4.1871,-4.187174 -10.3017,-6.262984 -18.4484,-6.262984 -4.1838,0 -5.4515,0.534954 -8.5058,3.589302 -2.905,2.905023 -3.5893,4.407685 -3.5893,7.881971 v 4.29268 l 3.7138,-2.1912 c 11.1339,-6.569159 20.8328,-3.488725 23.7426,7.54079 2.2505,8.53042 4.8975,8.94865 8.1029,1.28027 z"
+           id="path2647-9"
+           transform="scale(0.26458333)" />
+        <path
+           style="opacity:1;fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:8.04787;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 1040.4612,112.70423 c -0.2658,-0.43547 -1.0227,-2.80317 -1.682,-5.26156 -1.6205,-6.04188 -5.0237,-9.698522 -10.0998,-10.851664 -4.5659,-1.037269 -10.9384,0.133409 -15.0434,2.763605 -2.2463,1.439319 -2.3752,1.371639 -2.3752,-1.247175 0,-1.762432 1.3569,-4.125998 3.7325,-6.501608 3.6014,-3.601404 3.9471,-3.713053 9.8414,-3.178573 14.5086,1.315598 23.6628,12.108015 18.9826,22.379865 -1.2264,2.69162 -2.4494,3.38295 -3.3561,1.89711 z"
+           id="path2663-1"
+           transform="scale(0.26458333)" />
+        <path
+           style="opacity:1;fill:#c87137;fill-opacity:1;stroke:#000000;stroke-width:8.04787;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 1015.641,126.48453 c -3.7674,-1.85623 -8.1058,-7.58129 -9.0426,-11.93287 -0.3124,-1.45155 0.068,-4.06436 0.8446,-5.80622 l 1.4128,-3.16703 1.9942,3.66687 c 1.0969,2.01678 3.4907,5.2234 5.3197,7.12582 3.0918,3.21603 3.8098,3.45895 10.2241,3.45895 3.7943,0 8.1173,-0.4633 9.6066,-1.02955 3.654,-1.38923 3.5373,0.36266 -0.2783,4.17826 -5.0574,5.05735 -13.8252,6.58805 -20.0811,3.50577 z"
+           id="path2665-7"
+           transform="scale(0.26458333)" />
+        <path
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8.04787;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 1021.0735,116.70774 c -2.3741,-1.01701 -9.7391,-10.22724 -9.7866,-12.23857 -0.043,-1.82568 9.2296,-5.752665 13.5835,-5.752665 5.3395,0 8.9827,2.982465 11.2976,9.248525 1.0165,2.75171 2.2543,5.54223 2.7505,6.20115 1.0668,1.41652 -1.4277,2.1792 -9.7553,2.98265 -3.1692,0.30576 -6.8095,0.10727 -8.0897,-0.44109 z"
+           id="path2667-7"
+           transform="scale(0.26458333)" />
+      </g>
+      <g
+         transform="matrix(0.04341683,0,0,0.04341683,518.864,191.62711)"
+         id="g13018-7-6-1"
+         inkscape:export-xdpi="78.422279"
+         inkscape:export-ydpi="78.422279">
+        <path
+           style="fill:#ffb51e;fill-opacity:1;stroke:#231f20;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           stroke-miterlimit="10"
+           d="m -2822.141,-2705.662 v -42.16 c 0,-2.578 2.096,-4.675 4.674,-4.675 2.576,0 4.672,2.097 4.672,4.675 v 41.431 c 55.233,0.631 53.779,12.346 53.779,12.346 h -71.706 c -0.715,-7.505 4.48,-10.457 8.581,-11.617 z"
+           id="path13004-5-0-1"
+           inkscape:export-xdpi="78"
+           inkscape:export-ydpi="78" />
+        <path
+           style="fill:#ffb319;fill-opacity:1;stroke:#231f20;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           stroke-miterlimit="10"
+           d="m -2843.961,-2697.655 v -42.16 c 0,-2.579 2.096,-4.674 4.675,-4.674 2.583,0 4.679,2.095 4.679,4.674 v 41.426 c 55.227,0.636 53.772,12.352 53.772,12.352 h -71.705 c -0.718,-7.507 4.482,-10.457 8.579,-11.618 z"
+           id="path13006-3-6-5"
+           inkscape:export-xdpi="78"
+           inkscape:export-ydpi="78" />
+        <path
+           style="fill:#ffffff;stroke:#231f20;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           stroke-miterlimit="10"
+           d="m -2917.074,-2764.424 c -0.069,-0.612 99.626,-97.947 133.433,-97.947 33.802,0 61.219,27.413 61.219,61.221 0,33.816 -27.417,61.23 -61.219,61.23 -28.163,0 -102.046,5.157 -125.971,-12.646 -37.363,66.929 -71.234,23.368 -71.234,23.368 z"
+           id="path13008-5-2-9"
+           inkscape:export-xdpi="78"
+           inkscape:export-ydpi="78" />
+        <path
+           style="fill:#ffffff;stroke:#231f20;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           stroke-miterlimit="10"
+           d="m -2734.987,-2822.647 c 24.788,-8.118 40.457,-33.453 35.755,-59.871 -5.164,-28.92 -32.781,-48.184 -61.703,-43.031 -28.925,5.157 -48.182,32.775 -43.032,61.701 0.872,4.893 2.388,9.508 4.447,13.771"
+           id="path13010-6-6-7"
+           inkscape:export-xdpi="78"
+           inkscape:export-ydpi="78" />
+        <path
+           style="fill:#ffd638;fill-opacity:1;stroke:#231f20;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           stroke-miterlimit="10"
+           d="m -2717.279,-2835.264 c -28.349,2.932 -28.914,-24.668 -4.88,-27.371 0,0 10.768,-11.717 22.927,-19.883 15.36,18.48 43.516,19.977 46.341,49.161 z"
+           id="path13012-2-1-7"
+           inkscape:export-xdpi="78"
+           inkscape:export-ydpi="78" />
+        <path
+           style="fill:#ffffff;stroke:#231f20;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+           inkscape:connector-curvature="0"
+           stroke-miterlimit="10"
+           d="m -2747.035,-2806.25 c 0,0 9.356,48.997 -31.167,52.895 0,0 -110.677,6.229 -109.108,-14.807 l 41.761,-17.929"
+           id="path13014-9-8-6"
+           inkscape:export-xdpi="78"
+           inkscape:export-ydpi="78" />
+        <circle
+           style="fill:#231f20"
+           cx="-2755.46"
+           cy="-2884.991"
+           r="8.4729996"
+           id="circle13016-1-7-7"
+           inkscape:export-xdpi="78"
+           inkscape:export-ydpi="78" />
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 358.32372,115.4205 c 0,0 -6.07676,10.64749 -2.67216,22.95879 3.40461,12.31131 4.54946,17.99009 4.54946,17.99009 l 0.0317,3.80753"
+         id="path3564-3" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 359.73613,122.05109 c 4.10737,10.13495 2.87228,17.89582 0.99534,28.1873"
+         id="path3566-6"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 345.90716,103.46219 c 5.74304,12.53255 1.95905,5.34289 3.42904,17.64158"
+         id="path3568-5"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#333333;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 358.2237,125.60648 c -1.33431,6.53427 -2.1888,3.19586 -1.90127,6.66949 0.71084,8.58773 3.16469,18.47119 4.07485,8.54209 0.91017,-9.9291 1.49304,-5.96518 -2.17358,-15.21158 z"
+         id="path3570-63"
+         sodipodi:nodetypes="cssc" />
+      <ellipse
+         style="opacity:1;fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.189;stroke-miterlimit:4;stroke-dasharray:none"
+         id="path3701-9"
+         cx="357.73862"
+         cy="132.62398"
+         rx="0.23930289"
+         ry="0.2515676" />
+      <ellipse
+         style="opacity:1;fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:0.189;stroke-miterlimit:4;stroke-dasharray:none"
+         id="ellipse3703-48"
+         cx="358.79697"
+         cy="132.62398"
+         rx="0.23930289"
+         ry="0.2515676" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 351.60341,100.48978 c 1.3737,-1.439283 3.21556,-2.782918 5.60964,-4.013734"
+         id="path3705-1"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 345.04524,173.92838 c 6.1882,-7.57314 2.62393,-7.13925 3.82855,-14.58793"
+         id="path3562-2"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>

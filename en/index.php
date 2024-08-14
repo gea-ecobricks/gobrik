@@ -1118,10 +1118,9 @@ function closeGallery() {
 
         <!--<div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div>-->
 
-        <div class="main-landing-graphic" style="text-align:center;background:none;">   <img src="../svgs/regen-top.svg" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">
+        <div class="main-landing-graphic" style="text-align:center;background:none;">   <img src="../svgs/regen-top-offline.svg" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">
 
-        <div class="big-header">GoBrik is Offline.</div>
-
+        <!--<div class="big-header">GoBrik is Offline.</div>-->
         <div class="welcome-text">
 Our old version of GoBrik ran on corporate servers and code. We've let this pass pass away.
                 <br><br>
