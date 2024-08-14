@@ -1112,84 +1112,44 @@ function closeGallery() {
 
     <div class="landing-scope" style="min-height:100vh; height: 100%; width:100%;">
 
-        <?php include 'includes/top-menu.php';?>
 
 
- 
-
-        <div id="regularecobricks">  
-
-          <div id="gal-button"><button  type="button"
-          class="down-arrow" onclick="openGallery()" aria-label="open gallery"></button></div>
 
 
-         
-          <div id="gallery" class="gallery-content-block">
-
-            <?php include 'includes/gallery.php';?>
-
-
-          </div>
-
-          <div class="gallery-header" style="display:flex;flex-flow:column;">
-
-<div type="button" id="up-arrow" onclick="closeGallery()" aria-label="Close Gallery" style="border:none;" class="up-arrow"></div>
-
-<div class="gallery-live-text"><span class="blink">⬤ </span> Latest authenticated ecobricks</div>
-
-</div> 
-
-            
-        </div><!--closes regular ecobrick curtain-->     
-                
         <div class="landing-content" >
 
 
         <div class="clouds-new2" style=" padding-top:10vh; margin-bottom: -30px;
         padding-bottom: 10px;margin-top:-10px">
-            
+
             <div class="biosphere"><img src="../webp/biosphere-blank.webp" width="400" height="400" alt="biosphere"></div>
 
             <div class="main-landing-graphic" style="width:100%;height:43%;"><img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="width:100%;height:43%;" alt="Unite with ecobrickers around the world"></div>
-                    
-          
-         
 
-               
-                  
-          <!-- <div class="main-landing-graphic" style="text-align:center;background:none;">   <img src="../images/world-oceans-day-2023-700px-trans.png" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">
-            
+
+
+
+
+
+         <div class="main-landing-graphic" style="text-align:center;background:none;">   <img src="../images/world-oceans-day-2023-700px-trans.png" style="width:80%;" alt="Build your greenest visions with ecobricks" style="text-align:center">
+
            <img src="https://www.gobrik.com/webp/ecobrick-team-blank.webp" style="min-width: 250px;
     min-height: 145px; width:100%;" width="250" height="112" alt="Unite">
--->
+
 </div>
 
-                
 
-                <div class="big-header">Together we can keep our plastic out of the biosphere.</div>
-                
+
+                <div class="big-header">GoBrik is offline</div>
+
                 <div class="welcome-text">
-                GoBrik helps manage your ecobricks, projects and plastic transition so that together we can build our greenest visions.
+Our old version of GoBrik ran on corporate servers and code. We've let this pass pass away.
                 </div>
 
-                <div class="sign-buttons" style="display:flex;flex-flow:row;justify-content: center;">
-                
-                    <div>
-                        <button type="button" aria-label="sign in" class="sign-innn" onclick="location.href='go.php#home'" title="Click here to sign in" style="cursor:pointer;">
-                        <i style="background: url(../svgs/bottle-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom:-5px;margin-right:4px;"></i>Sign in</button>
-                    </div>
-            
-                    <div>
-                        <button type="button" aria-label="Sign up" onclick="location.href='go.php'" class="sign-uppp" style="cursor:pointer;">
-                        <i style="background: url(../svgs/strike-icon.svg) no-repeat; width:20px; height:26px;display: inline-block;background-size:contain;margin-bottom: -5px;margin-left:4px;"></i>Sign up</button>
-                    </div>
+               <p>In its place, we have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.  We'll be back soon!</p>
 
-                </div>
-                    
-                <div class="tree-text" style="padding-bottom:15px;">
-                Use your GoBrik account to sign in.
-                No account? Sign up for free!
-                </div>
+
+
 
             </div><!--landing-content-->
 
@@ -1208,7 +1168,7 @@ function closeGallery() {
                 Together we're securing plastic out of the biosphere to make building blocks, generate brikcoins and co-create green spaces.
 
                 
-            
+
                <br><br> <img src="../svgs/aes-brk.svg" style="width:200px;" width="200" height="77" alt="Introducing Brikcoins and AES Plastic Offsetting">
             </div>
             
