@@ -1061,6 +1061,16 @@ p a:hover {
 }
 
 
+#main {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s; /* Smooth transition for height */
+    /* margin-top: 40px; */
+    margin-bottom: -1px;
+
+}
+
+
 
 
 
@@ -1110,7 +1120,7 @@ function closeGallery() {
 
 <body id="full-page">
 
-    <div class="landing-scope" style="min-height:100vh; height: 100%; width:100%;">
+    <div id="main">
 
         <div class="clouds-new2">
 
@@ -1154,7 +1164,7 @@ border-radius: 10px;margin: 5px;">New Github Source Code Repository</a></div>
 
 </div><!--clouds-->
 
-</div>
+</div> <!--main-->
 
 
    

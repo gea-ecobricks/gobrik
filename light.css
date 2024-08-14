@@ -201,3 +201,7 @@ light.css
   font-size: smaller !important;
 }
 
+#main {
+  background: url(../svgs/ocean-footer-background-day.svg) repeat-x bottom;
+  background-size: contain;
+}

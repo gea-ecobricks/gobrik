@@ -210,3 +210,11 @@ background-size: contain;
   background-size: contain;
 
 }
+
+
+#main {
+  /* background-image:linear-gradient(var(--main-background),var(--main-background),black); */
+  background: url(../svgs/starry-night-2.svg) repeat-x bottom;
+  background-size: contain;
+
+  }
