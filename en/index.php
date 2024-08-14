@@ -1070,7 +1070,17 @@ p a:hover {
 
 }
 
-
+.underline-link {
+margin:auto;
+padding: 15px;
+text-align:center;
+display:block;
+background: grey);
+border-radius: 10px;
+margin: 5px;
+font-family:'Mulish',sans-serif;
+color:var(--text-color);
+}
 
 
 
@@ -1151,13 +1161,10 @@ Our old version of GoBrik ran on corporate servers and code. We've let this pass
         </div>
 
         <div style="display:flex;flex-flow:row;justify-content:center;width:100%;margin-top:10px">
-            <div><a href="#" onclick="showModalInfo('terms')" class="underline-link" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
-border-radius: 10px;margin: 5px;">New Buwana & GoBrik Terms of Service</a></div>
+            <div><a href="https://earthen.io/gobrik-regenerasi-yang-hebat/" class="underline-link">Blog: GoBrik Regenerasi yang Hebat</a></div>
 
-            <div><a href="https://earthen.io/gobrik-regen" class="underline-link" target="_blank" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
-border-radius: 10px;margin: 5px;">Why?  Read our 'Great GoBrik Regeneration' blog post.</a></div>
-            <div><a href="https://github.com/gea-ecobricks/gobrik-3.0" class="underline-link" target="_blank" style="margin:auto;padding: 15px;text-align:center;display:block;background: var(--lighter);
-border-radius: 10px;margin: 5px;">New Github Source Code Repository</a></div>
+            <div><a href="https://earthen.io/gobrik-regen" class="underline-link" target="_blank">Blog: Great GoBrik Regeneration</a></div>
+            <div><a href="https://github.com/gea-ecobricks/gobrik-3.0" class="underline-link" target="_blank">GoBrik 3.0 Github Repo</a></div>
         </div>
 
    </div><!--landing-content-->
