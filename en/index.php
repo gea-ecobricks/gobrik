@@ -1146,7 +1146,7 @@ function closeGallery() {
 Our old version of GoBrik ran on corporate servers and code. We've let this pass pass away.
                 </div>
 
-               <p>In its place, we have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.  We'll be back soon!</p>
+               <h3>In its place, we have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline for 10 days.  We'll be back soon!</h3>
 
 
 
