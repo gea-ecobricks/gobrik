@@ -1147,8 +1147,7 @@ Our old version of GoBrik ran on corporate servers and code. We've let this pass
                 We're calling this our regeneration.
 
                  <br><br>
-                 We have migrated all our data to our own independent, self-run server. Our new GoBrik 3.0 will 100% open source fully focused on ecological accountability. This is a major upgrade and requires GoBrik to offline from August 14th to 24th.<br><br>
-                 Save your ecobricks.  We'll be back soon!
+                 GoBrik 3.0 Beta testing is now under way.  We'll be back soon!
          </div>
 
 
